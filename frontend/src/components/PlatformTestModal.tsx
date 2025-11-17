@@ -76,11 +76,11 @@ const PlatformTestModal: React.FC<PlatformTestModalProps> = ({ result, onClose }
                           {item.title}
                         </a>
                         <div className="text-xs text-gray-500 mt-1">
-                          {item.publish_time && (
-                            <span>时间: {new Date(item.publish_time).toLocaleString()}</span>
+                          {item.publishTime && (
+                            <span>时间: {new Date(item.publishTime).toLocaleString()}</span>
                           )}
-                          {item.hot_score && (
-                            <span className="ml-3">热度: {item.hot_score}</span>
+                          {item.hotScore && (
+                            <span className="ml-3">热度: {item.hotScore}</span>
                           )}
                         </div>
                       </div>

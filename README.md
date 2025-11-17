@@ -105,7 +105,7 @@ npm run build:frontend
 
 ### 生产环境部署
 
-详细的部署说明请查看 [DEPLOYMENT.md](./DEPLOYMENT.md)
+详细的部署说明请查看 [DEPLOYMENT.md](./docs/DEPLOYMENT.md)
 
 #### 使用 Docker（推荐）
 
@@ -148,9 +148,11 @@ pm2 status
 
 ## 文档
 
-- **[API 文档](./API.md)** - 完整的 REST API 接口说明
-- **[平台配置指南](./PLATFORM_CONFIGURATION.md)** - 如何添加和配置新的新闻平台
-- **[部署指南](./DEPLOYMENT.md)** - 生产环境部署说明
+- **[API 文档](./docs/API.md)** - 完整的 REST API 接口说明
+- **[平台配置指南](./docs/PLATFORM_CONFIGURATION.md)** - 如何添加和配置新的新闻平台
+- **[平台管理指南](./docs/PLATFORM_MANAGEMENT.md)** - 平台管理功能说明
+- **[部署指南](./docs/DEPLOYMENT.md)** - 生产环境部署说明
+- **[贡献指南](./docs/CONTRIBUTING.md)** - 如何参与项目开发
 - **[需求文档](./.kiro/specs/news-aggregator/requirements.md)** - 系统需求规格
 - **[设计文档](./.kiro/specs/news-aggregator/design.md)** - 架构和设计决策
 
@@ -174,7 +176,7 @@ GET /api/platforms
 POST /api/crawl/trigger
 ```
 
-详细的 API 文档请查看 [API.md](./API.md)
+详细的 API 文档请查看 [API.md](./docs/API.md)
 
 ## 添加新平台
 
@@ -184,7 +186,7 @@ POST /api/crawl/trigger
 2. 运行 `npm run import-platforms` 导入配置
 3. 使用 `npm run test-crawler -- --platform={id}` 测试
 
-详细的配置指南请查看 [PLATFORM_CONFIGURATION.md](./PLATFORM_CONFIGURATION.md)
+详细的配置指南请查看 [PLATFORM_CONFIGURATION.md](./docs/PLATFORM_CONFIGURATION.md)
 
 ## 开发指南
 
@@ -249,7 +251,7 @@ Git 提交时会自动运行代码检查和格式化。
 
 欢迎提交 Issue 和 Pull Request！
 
-在贡献代码前，请阅读 [贡献指南](./CONTRIBUTING.md) 了解：
+在贡献代码前，请阅读 [贡献指南](./docs/CONTRIBUTING.md) 了解：
 - 开发环境设置
 - 代码规范
 - 提交规范

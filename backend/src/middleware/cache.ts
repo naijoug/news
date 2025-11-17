@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
+import crypto from 'crypto';
 
 /**
  * Simple in-memory cache entry
@@ -6,6 +7,7 @@ import { Request, Response, NextFunction } from 'express';
 interface CacheEntry {
   data: any;
   timestamp: number;
+  etag: string;
 }
 
 /**
@@ -18,7 +20,7 @@ class CacheStore {
   /**
    * Get cached data
    */
-  get(key: string): any | null {
+  get(key: string): CacheEntry | null {
     const entry = this.store.get(key);
     
     if (!entry) {
@@ -32,16 +34,17 @@ class CacheStore {
       return null;
     }
 
-    return entry.data;
+    return entry;
   }
 
   /**
    * Set cache data
    */
-  set(key: string, data: any): void {
+  set(key: string, data: any, etag: string): void {
     this.store.set(key, {
       data,
       timestamp: Date.now(),
+      etag,
     });
   }
 
@@ -81,8 +84,21 @@ setInterval(() => {
 }, 60 * 1000);
 
 /**
- * Cache middleware
- * Caches GET requests for specified duration
+ * Generate ETag from data
+ */
+const generateETag = (data: any): string => {
+  const hash = crypto.createHash('md5');
+  hash.update(JSON.stringify(data));
+  return `"${hash.digest('hex')}"`;
+};
+
+/**
+ * Cache middleware with ETag support
+ * Implements HTTP caching best practices:
+ * - Server-side caching for performance
+ * - ETag for cache validation
+ * - 304 Not Modified for bandwidth optimization
+ * - Cache-Control headers for client-side caching
  */
 export const cacheMiddleware = (
   req: Request,
@@ -99,9 +115,23 @@ export const cacheMiddleware = (
   const cacheKey = `${req.path}:${JSON.stringify(req.query)}`;
 
   // Try to get cached response
-  const cachedData = cacheStore.get(cacheKey);
-  if (cachedData) {
-    res.json(cachedData);
+  const cachedEntry = cacheStore.get(cacheKey);
+  
+  if (cachedEntry) {
+    // Check if client has a cached version (If-None-Match header)
+    const clientETag = req.headers['if-none-match'];
+    
+    if (clientETag && clientETag === cachedEntry.etag) {
+      // Client has the latest version, return 304 Not Modified
+      res.status(304).end();
+      return;
+    }
+    
+    // Client doesn't have the latest version or no ETag provided
+    // Return cached data with ETag
+    res.setHeader('ETag', cachedEntry.etag);
+    res.setHeader('Cache-Control', 'public, max-age=60'); // 客户端可缓存 60 秒
+    res.status(200).json(cachedEntry.data);
     return;
   }
 
@@ -112,8 +142,14 @@ export const cacheMiddleware = (
   res.json = function (data: any) {
     // Only cache successful responses
     if (data && data.success !== false) {
-      cacheStore.set(cacheKey, data);
+      const etag = generateETag(data);
+      cacheStore.set(cacheKey, data, etag);
+      
+      // Set cache headers
+      res.setHeader('ETag', etag);
+      res.setHeader('Cache-Control', 'public, max-age=60'); // 客户端可缓存 60 秒
     }
+    
     return originalJson(data);
   };
 

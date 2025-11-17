@@ -3,10 +3,10 @@ export interface NewsItem {
   id: number;
   title: string;
   url: string;
-  platform_id: string;
-  publish_time: string;
-  hot_score?: number;
-  crawl_time: string;
+  platformId: string;
+  publishTime: string;
+  hotScore?: number;
+  crawlTime: string;
 }
 
 // 爬虫配置类型
@@ -37,11 +37,11 @@ export interface CrawlerConfig {
 export interface Platform {
   id: string;
   name: string;
-  icon_url: string;
+  iconUrl: string;
   enabled: boolean;
   config?: CrawlerConfig;
-  created_at?: string;
-  updated_at?: string;
+  createdAt?: string;
+  updatedAt?: string;
 }
 
 // 平台测试结果类型

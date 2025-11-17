@@ -184,7 +184,7 @@ const PlatformManagement: React.FC = () => {
                 <td className="px-6 py-4 whitespace-nowrap">
                   <div className="flex items-center">
                     <img
-                      src={platform.icon_url}
+                      src={platform.iconUrl}
                       alt={platform.name}
                       className="w-8 h-8 rounded-full mr-3"
                       onError={(e) => {

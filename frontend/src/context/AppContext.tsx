@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import React, { createContext, useContext, useState, useCallback, ReactNode } from 'react';
 import { NewsItem, Platform } from '../types';
 
 // 应用状态接口
@@ -36,16 +36,16 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   const [hasMore, setHasMore] = useState<boolean>(true);
 
   // 追加新闻数据（用于无限滚动）
-  const appendNewsData = (news: NewsItem[]) => {
+  const appendNewsData = useCallback((news: NewsItem[]) => {
     setNewsData((prev) => [...prev, ...news]);
-  };
+  }, []);
 
   // 重置新闻数据
-  const resetNews = () => {
+  const resetNews = useCallback(() => {
     setNewsData([]);
     setHasMore(true);
     setError(null);
-  };
+  }, []);
 
   const value: AppContextType = {
     selectedPlatforms,

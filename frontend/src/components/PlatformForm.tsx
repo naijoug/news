@@ -11,7 +11,7 @@ const PlatformForm: React.FC<PlatformFormProps> = ({ platform, onSave, onCancel 
   const [formData, setFormData] = useState<Platform>({
     id: '',
     name: '',
-    icon_url: '',
+    iconUrl: '',
     enabled: true,
     config: {
       type: 'static',
@@ -102,8 +102,8 @@ const PlatformForm: React.FC<PlatformFormProps> = ({ platform, onSave, onCancel 
             </label>
             <input
               type="text"
-              value={formData.icon_url}
-              onChange={(e) => setFormData({ ...formData, icon_url: e.target.value })}
+              value={formData.iconUrl}
+              onChange={(e) => setFormData({ ...formData, iconUrl: e.target.value })}
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               required
             />

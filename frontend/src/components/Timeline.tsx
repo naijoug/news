@@ -118,11 +118,11 @@ const Timeline: React.FC<TimelineProps> = ({
         {/* 新闻列表 */}
         <div className="space-y-6">
           {newsItems.map((news, index) => {
-            const platform = platformMap.get(news.platform_id);
+            const platform = platformMap.get(news.platformId);
             
             // 如果找不到平台信息，跳过该新闻
             if (!platform) {
-              console.warn(`Platform not found for news: ${news.platform_id}`);
+              console.warn(`Platform not found for news: ${news.platformId}`);
               return null;
             }
 

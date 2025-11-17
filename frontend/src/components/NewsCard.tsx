@@ -54,7 +54,7 @@ const NewsCard: React.FC<NewsCardProps> = ({ news, platform }) => {
         <div className="flex items-center space-x-2">
           {/* 平台图标 */}
           <LazyImage
-            src={platform.icon_url}
+            src={platform.iconUrl}
             alt={platform.name}
             className="w-5 h-5 object-contain"
             onError={(e) => {
@@ -69,7 +69,7 @@ const NewsCard: React.FC<NewsCardProps> = ({ news, platform }) => {
         </div>
         {/* 发布时间 */}
         <span className="text-xs text-gray-400">
-          {formatTime(news.publish_time)}
+          {formatTime(news.publishTime)}
         </span>
       </div>
 
@@ -82,7 +82,7 @@ const NewsCard: React.FC<NewsCardProps> = ({ news, platform }) => {
       </h3>
 
       {/* 热度信息（如果有） */}
-      {news.hot_score !== undefined && news.hot_score !== null && (
+      {news.hotScore !== undefined && news.hotScore !== null && (
         <div className="mt-2 flex items-center">
           <svg
             className="w-4 h-4 text-orange-500 mr-1"
@@ -96,7 +96,7 @@ const NewsCard: React.FC<NewsCardProps> = ({ news, platform }) => {
             />
           </svg>
           <span className="text-xs text-gray-500">
-            {news.hot_score.toLocaleString()}
+            {news.hotScore.toLocaleString()}
           </span>
         </div>
       )}

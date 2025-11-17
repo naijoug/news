@@ -10,6 +10,8 @@ const apiClient: AxiosInstance = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
+  // 确保 axios 不会将 304 视为错误
+  validateStatus: (status) => status >= 200 && status < 300 || status === 304,
 });
 
 // 请求拦截器
@@ -25,6 +27,12 @@ apiClient.interceptors.request.use(
 // 响应拦截器
 apiClient.interceptors.response.use(
   (response) => {
+    // 处理 304 Not Modified 响应
+    // 304 响应没有 body，但浏览器会自动使用缓存的数据
+    // axios 会保留上次的响应数据
+    if (response.status === 304) {
+      console.log('Using cached data (304 Not Modified)');
+    }
     return response;
   },
   (error: AxiosError) => {

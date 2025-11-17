@@ -155,7 +155,7 @@ const PlatformFilter: React.FC<PlatformFilterProps> = ({
 
                 {/* 平台图标 */}
                 <img
-                  src={platform.icon_url}
+                  src={platform.iconUrl}
                   alt={platform.name}
                   className="w-5 h-5 object-contain flex-shrink-0"
                   onError={(e) => {

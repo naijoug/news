@@ -1,0 +1,181 @@
+[
+  {
+    "id": "weibo",
+    "name": "微博热搜",
+    "iconUrl": "/icons/weibo.svg",
+    "enabled": true,
+    "config": {
+      "type": "static",
+      "url": "https://s.weibo.com/top/summary",
+      "selector": "#pl_top_realtimehot table tbody tr",
+      "parser": {
+        "title": "td:nth-child(2) a",
+        "url": "td:nth-child(2) a@href",
+        "hotScore": "td:nth-child(2) span"
+      },
+      "timeout": 10000
+    }
+  },
+  {
+    "id": "zhihu",
+    "name": "知乎热榜",
+    "iconUrl": "/icons/zhihu.svg",
+    "enabled": true,
+    "config": {
+      "type": "static",
+      "url": "https://www.zhihu.com/hot",
+      "selector": ".HotList-list .HotItem",
+      "parser": {
+        "title": ".HotItem-title",
+        "url": ".HotItem-title a@href",
+        "hotScore": ".HotItem-metrics"
+      },
+      "timeout": 10000
+    }
+  },
+  {
+    "id": "baidu",
+    "name": "百度热搜",
+    "iconUrl": "/icons/baidu.svg",
+    "enabled": true,
+    "config": {
+      "type": "static",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "selector": ".category-wrap_iQLoo .c-single-text-ellipsis",
+      "parser": {
+        "title": ".c-single-text-ellipsis",
+        "url": "a@href"
+      },
+      "timeout": 10000
+    }
+  },
+  {
+    "id": "douyin",
+    "name": "抖音热点",
+    "iconUrl": "/icons/douyin.svg",
+    "enabled": true,
+    "config": {
+      "type": "dynamic",
+      "url": "https://www.douyin.com/hot",
+      "selector": ".hot-list-item",
+      "parser": {
+        "title": ".title",
+        "url": "a@href",
+        "hotScore": ".hot-value"
+      },
+      "timeout": 15000
+    }
+  },
+  {
+    "id": "bilibili",
+    "name": "B站热门",
+    "iconUrl": "/icons/bilibili.svg",
+    "enabled": true,
+    "config": {
+      "type": "api",
+      "url": "https://api.bilibili.com/x/web-interface/popular",
+      "apiConfig": {
+        "endpoint": "https://api.bilibili.com/x/web-interface/popular",
+        "method": "GET",
+        "params": {
+          "ps": 20,
+          "pn": 1
+        },
+        "dataPath": "data.list"
+      },
+      "parser": {
+        "title": "title",
+        "url": "short_link",
+        "hotScore": "stat.view",
+        "time": "pubdate"
+      },
+      "timeout": 10000
+    }
+  },
+  {
+    "id": "hackernews",
+    "name": "Hacker News",
+    "iconUrl": "/icons/hackernews.svg",
+    "enabled": true,
+    "config": {
+      "type": "api",
+      "url": "https://hacker-news.firebaseio.com/v0/topstories.json",
+      "apiConfig": {
+        "endpoint": "https://hacker-news.firebaseio.com/v0/topstories.json",
+        "method": "GET",
+        "dataPath": "$"
+      },
+      "parser": {
+        "itemEndpoint": "https://hacker-news.firebaseio.com/v0/item/{{id}}.json",
+        "title": "title",
+        "url": "url",
+        "hotScore": "score",
+        "time": "time"
+      },
+      "rateLimit": 100,
+      "timeout": 10000
+    }
+  },
+  {
+    "id": "producthunt",
+    "name": "Product Hunt",
+    "iconUrl": "/icons/producthunt.svg",
+    "enabled": true,
+    "config": {
+      "type": "api",
+      "url": "https://api.producthunt.com/v2/api/graphql",
+      "apiConfig": {
+        "endpoint": "https://api.producthunt.com/v2/api/graphql",
+        "method": "POST",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "query": "{ posts { edges { node { name url votesCount createdAt } } } }"
+        },
+        "dataPath": "data.posts.edges"
+      },
+      "parser": {
+        "title": "node.name",
+        "url": "node.url",
+        "hotScore": "node.votesCount",
+        "time": "node.createdAt"
+      },
+      "timeout": 10000
+    }
+  },
+  {
+    "id": "github",
+    "name": "GitHub Trending",
+    "iconUrl": "/icons/github.svg",
+    "enabled": true,
+    "config": {
+      "type": "static",
+      "url": "https://github.com/trending",
+      "selector": "article.Box-row",
+      "parser": {
+        "title": "h2 a",
+        "url": "h2 a@href",
+        "hotScore": ".f6 .d-inline-block:nth-child(2)"
+      },
+      "timeout": 10000
+    }
+  },
+  {
+    "id": "v2ex",
+    "name": "V2EX",
+    "iconUrl": "/icons/v2ex.svg",
+    "enabled": true,
+    "config": {
+      "type": "static",
+      "url": "https://www.v2ex.com/?tab=hot",
+      "selector": ".cell.item",
+      "parser": {
+        "title": ".item_title a",
+        "url": ".item_title a@href",
+        "time": ".topic_info .topic_info_date"
+      },
+      "timeout": 10000
+    }
+  }
+]

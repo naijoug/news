@@ -29,13 +29,15 @@ news-aggregator/
 ## 技术栈
 
 ### 后端
+
 - Node.js + Express
 - TypeScript
-- SQLite (better-sqlite3)
+- SQLite (`sqlite3`)
 - Cheerio (静态页面爬取)
 - node-cron (定时任务)
 
 ### 前端
+
 - React 18
 - TypeScript
 - Vite
@@ -81,6 +83,7 @@ cp .env.example .env
 #### 前端环境变量
 
 前端使用 Vite 的环境变量系统：
+
 - `.env.development` - 开发环境配置
 - `.env.production` - 生产环境配置
 
@@ -191,6 +194,7 @@ POST /api/crawl/trigger
 ## 开发指南
 
 查看 `.kiro/specs/news-aggregator/` 目录下的文档：
+
 - `requirements.md` - 需求文档
 - `design.md` - 设计文档
 - `tasks.md` - 实施计划
@@ -208,6 +212,7 @@ POST /api/crawl/trigger
 ### 爬虫不工作
 
 检查日志并手动触发：
+
 ```bash
 curl -X POST http://localhost:3000/api/crawl/trigger
 ```
@@ -215,6 +220,7 @@ curl -X POST http://localhost:3000/api/crawl/trigger
 ### 数据库锁定
 
 重启服务：
+
 ```bash
 pm2 restart news-aggregator
 ```
@@ -252,6 +258,7 @@ Git 提交时会自动运行代码检查和格式化。
 欢迎提交 Issue 和 Pull Request！
 
 在贡献代码前，请阅读 [贡献指南](./docs/CONTRIBUTING.md) 了解：
+
 - 开发环境设置
 - 代码规范
 - 提交规范

@@ -24,7 +24,7 @@ const PlatformManagement: React.FC = () => {
     try {
       setLoading(true);
       setError(null);
-      const response = await fetchPlatforms(false);
+      const response = await fetchPlatforms();
       setPlatforms(response.data);
     } catch (err: any) {
       setError(err.message);

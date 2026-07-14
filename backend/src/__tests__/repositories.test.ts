@@ -23,7 +23,7 @@ describe('Repository Tests', () => {
 
     beforeAll(async () => {
       // Create a test platform first to satisfy foreign key constraint
-      testPlatformId = 'test-platform-' + Date.now();
+      testPlatformId = 'test-news-platform-' + Date.now();
       const testPlatform: Platform = {
         id: testPlatformId,
         name: 'Test Platform for News',
@@ -81,7 +81,7 @@ describe('Repository Tests', () => {
 
   describe('PlatformRepository', () => {
     const testPlatform: Platform = {
-      id: 'test-platform-' + Date.now(),
+      id: 'test-platform-repo-' + Date.now(),
       name: 'Test Platform',
       iconUrl: '/icons/test.svg',
       enabled: true,

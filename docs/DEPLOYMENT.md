@@ -111,6 +111,23 @@ docker compose down
 
 打开浏览器访问 `http://your-server-ip:3000`
 
+#### 6. 验证健康状态
+
+部署后先做一次轻量 smoke test，确认容器健康检查、后端服务和静态前端构建都已随镜像启动：
+
+```bash
+# 容器应显示 healthy
+docker compose ps
+
+# 健康接口应返回 {"status":"ok"}
+curl -fsS http://localhost:3000/health
+
+# 如验证失败，先查看最近日志
+docker compose logs --tail=80
+```
+
+如果只是本地临时验证，完成后可运行 `docker compose down` 清理容器和网络；生产环境不要在仍需对外服务时执行该命令。
+
 ### 传统部署
 
 如果不使用 Docker，可以按照以下步骤手动部署。

@@ -22,7 +22,7 @@ class CacheStore {
    */
   get(key: string): CacheEntry | null {
     const entry = this.store.get(key);
-    
+
     if (!entry) {
       return null;
     }
@@ -78,10 +78,12 @@ class CacheStore {
 // Singleton cache instance
 const cacheStore = new CacheStore();
 
-// Clear expired entries every minute
-setInterval(() => {
+// Clear expired entries every minute. Do not keep CLI/test processes alive only
+// because the cache maintenance timer exists.
+const cacheCleanupTimer = setInterval(() => {
   cacheStore.clearExpired();
 }, 60 * 1000);
+cacheCleanupTimer.unref?.();
 
 /**
  * Generate ETag from data
@@ -100,11 +102,7 @@ const generateETag = (data: any): string => {
  * - 304 Not Modified for bandwidth optimization
  * - Cache-Control headers for client-side caching
  */
-export const cacheMiddleware = (
-  req: Request,
-  res: Response,
-  next: NextFunction
-): void => {
+export const cacheMiddleware = (req: Request, res: Response, next: NextFunction): void => {
   // Only cache GET requests
   if (req.method !== 'GET') {
     next();
@@ -116,17 +114,17 @@ export const cacheMiddleware = (
 
   // Try to get cached response
   const cachedEntry = cacheStore.get(cacheKey);
-  
+
   if (cachedEntry) {
     // Check if client has a cached version (If-None-Match header)
     const clientETag = req.headers['if-none-match'];
-    
+
     if (clientETag && clientETag === cachedEntry.etag) {
       // Client has the latest version, return 304 Not Modified
       res.status(304).end();
       return;
     }
-    
+
     // Client doesn't have the latest version or no ETag provided
     // Return cached data with ETag
     res.setHeader('ETag', cachedEntry.etag);
@@ -144,12 +142,12 @@ export const cacheMiddleware = (
     if (data && data.success !== false) {
       const etag = generateETag(data);
       cacheStore.set(cacheKey, data, etag);
-      
+
       // Set cache headers
       res.setHeader('ETag', etag);
       res.setHeader('Cache-Control', 'public, max-age=60'); // 客户端可缓存 60 秒
     }
-    
+
     return originalJson(data);
   };
 

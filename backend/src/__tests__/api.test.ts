@@ -38,9 +38,7 @@ describe('API Integration Tests', () => {
 
   describe('GET /api/platforms', () => {
     it('should return all platforms', async () => {
-      const response = await request(app)
-        .get('/api/platforms')
-        .expect(200);
+      const response = await request(app).get('/api/platforms').expect(200);
 
       expect(response.body).toHaveProperty('success', true);
       expect(response.body).toHaveProperty('data');
@@ -48,13 +46,11 @@ describe('API Integration Tests', () => {
     });
 
     it('should return only enabled platforms when enabled=true', async () => {
-      const response = await request(app)
-        .get('/api/platforms?enabled=true')
-        .expect(200);
+      const response = await request(app).get('/api/platforms?enabled=true').expect(200);
 
       expect(response.body.success).toBe(true);
       expect(Array.isArray(response.body.data)).toBe(true);
-      
+
       // All platforms should be enabled
       response.body.data.forEach((platform: Platform) => {
         expect(platform.enabled).toBe(true);
@@ -62,9 +58,7 @@ describe('API Integration Tests', () => {
     });
 
     it('should return 400 for invalid enabled parameter', async () => {
-      const response = await request(app)
-        .get('/api/platforms?enabled=invalid')
-        .expect(400);
+      const response = await request(app).get('/api/platforms?enabled=invalid').expect(400);
 
       expect(response.body.success).toBe(false);
       expect(response.body.code).toBe('VALIDATION_ERROR');
@@ -73,9 +67,7 @@ describe('API Integration Tests', () => {
 
   describe('GET /api/news', () => {
     it('should return news items with default pagination', async () => {
-      const response = await request(app)
-        .get('/api/news')
-        .expect(200);
+      const response = await request(app).get('/api/news').expect(200);
 
       expect(response.body).toHaveProperty('success', true);
       expect(response.body).toHaveProperty('data');
@@ -86,18 +78,14 @@ describe('API Integration Tests', () => {
     });
 
     it('should filter news by platform', async () => {
-      const response = await request(app)
-        .get('/api/news?platforms=weibo,zhihu')
-        .expect(200);
+      const response = await request(app).get('/api/news?platforms=weibo,zhihu').expect(200);
 
       expect(response.body.success).toBe(true);
       expect(Array.isArray(response.body.data)).toBe(true);
     });
 
     it('should support pagination', async () => {
-      const response = await request(app)
-        .get('/api/news?limit=10&offset=0')
-        .expect(200);
+      const response = await request(app).get('/api/news?limit=10&offset=0').expect(200);
 
       expect(response.body.success).toBe(true);
       expect(response.body.limit).toBe(10);
@@ -105,27 +93,21 @@ describe('API Integration Tests', () => {
     });
 
     it('should return 400 for invalid limit', async () => {
-      const response = await request(app)
-        .get('/api/news?limit=invalid')
-        .expect(400);
+      const response = await request(app).get('/api/news?limit=invalid').expect(400);
 
       expect(response.body.success).toBe(false);
       expect(response.body.code).toBe('VALIDATION_ERROR');
     });
 
     it('should return 400 for limit out of range', async () => {
-      const response = await request(app)
-        .get('/api/news?limit=200')
-        .expect(400);
+      const response = await request(app).get('/api/news?limit=200').expect(400);
 
       expect(response.body.success).toBe(false);
       expect(response.body.code).toBe('VALIDATION_ERROR');
     });
 
     it('should return 400 for negative offset', async () => {
-      const response = await request(app)
-        .get('/api/news?offset=-1')
-        .expect(400);
+      const response = await request(app).get('/api/news?offset=-1').expect(400);
 
       expect(response.body.success).toBe(false);
       expect(response.body.code).toBe('VALIDATION_ERROR');
@@ -143,9 +125,7 @@ describe('API Integration Tests', () => {
     });
 
     it('should return 400 for invalid time format', async () => {
-      const response = await request(app)
-        .get('/api/news?startTime=invalid-date')
-        .expect(400);
+      const response = await request(app).get('/api/news?startTime=invalid-date').expect(400);
 
       expect(response.body.success).toBe(false);
       expect(response.body.code).toBe('VALIDATION_ERROR');
@@ -166,9 +146,7 @@ describe('API Integration Tests', () => {
 
   describe('POST /api/crawl/trigger', () => {
     it('should trigger crawl successfully', async () => {
-      const response = await request(app)
-        .post('/api/crawl/trigger')
-        .expect(200);
+      const response = await request(app).post('/api/crawl/trigger').expect(200);
 
       expect(response.body).toHaveProperty('success');
       expect(response.body).toHaveProperty('message');
@@ -176,19 +154,24 @@ describe('API Integration Tests', () => {
     }, 15000); // Increase timeout to 15 seconds for crawling
 
     it('should return 409 if crawl is already in progress', async () => {
-      // Trigger first crawl (don't await it)
-      const firstRequest = request(app).post('/api/crawl/trigger');
-      
+      // Trigger first crawl immediately, but don't await completion yet. A bare
+      // SuperTest request is lazy until awaited/thened, so wrapping it in a
+      // promise is required for the overlap assertion below to exercise the
+      // in-progress path.
+      const firstRequest = request(app)
+        .post('/api/crawl/trigger')
+        .then(response => response);
+
       // Wait a bit to ensure first crawl starts
       await new Promise(resolve => setTimeout(resolve, 100));
-      
+
       // Trigger second crawl while first is in progress
       const secondResponse = await request(app).post('/api/crawl/trigger');
 
       // Second request should return 409
       expect(secondResponse.status).toBe(409);
       expect(secondResponse.body.code).toBe('CRAWL_IN_PROGRESS');
-      
+
       // Wait for first crawl to complete
       await firstRequest;
     }, 15000);
@@ -196,9 +179,7 @@ describe('API Integration Tests', () => {
 
   describe('GET /api/crawl/status', () => {
     it('should return crawler status', async () => {
-      const response = await request(app)
-        .get('/api/crawl/status')
-        .expect(200);
+      const response = await request(app).get('/api/crawl/status').expect(200);
 
       expect(response.body.success).toBe(true);
       expect(response.body.data).toHaveProperty('schedulerRunning');
@@ -210,9 +191,7 @@ describe('API Integration Tests', () => {
 
   describe('Error Handling', () => {
     it('should return 404 for non-existent routes', async () => {
-      const response = await request(app)
-        .get('/api/non-existent')
-        .expect(404);
+      const response = await request(app).get('/api/non-existent').expect(404);
 
       expect(response.body.success).toBe(false);
       expect(response.body.code).toBe('NOT_FOUND');

@@ -89,8 +89,9 @@ cp .env.example .env
 
 ### 初始化数据
 
+平台配置会在后端首次启动时自动导入（幂等）。如需手动导入或更新：
+
 ```bash
-# 导入平台配置到数据库
 cd backend
 npm run import-platforms
 ```

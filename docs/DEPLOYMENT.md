@@ -151,7 +151,10 @@ nano backend/.env
 nano frontend/.env.production
 ```
 
-#### 4. 初始化数据库
+#### 4. 启动服务（平台数据自动导入）
+
+后端首次启动时会自动从 `backend/src/config/platforms.json` 导入默认平台配置（幂等操作）。
+如需手动导入或更新平台：
 
 ```bash
 cd backend

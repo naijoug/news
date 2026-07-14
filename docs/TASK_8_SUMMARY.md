@@ -26,6 +26,7 @@
    - 优化依赖预构建配置
 
 #### 文件变更
+
 - ✅ `frontend/vite.config.ts` - 添加生产构建优化配置
 - ✅ `frontend/src/components/LazyImage.tsx` - 新建懒加载图片组件
 - ✅ `frontend/src/components/NewsCard.tsx` - 使用 LazyImage 组件
@@ -56,6 +57,7 @@
    - 在 `App.tsx` 中添加 OfflineNotice 组件
 
 #### 文件变更
+
 - ✅ `frontend/src/components/ErrorBoundary.tsx` - 新建错误边界组件
 - ✅ `frontend/src/components/NetworkError.tsx` - 新建网络错误组件
 - ✅ `frontend/src/components/OfflineNotice.tsx` - 新建离线提示组件
@@ -92,6 +94,7 @@
    - 添加了部署和故障排除说明
 
 #### 文件变更
+
 - ✅ `frontend/.env.example` - 环境变量模板
 - ✅ `frontend/.env.development` - 开发环境配置
 - ✅ `frontend/.env.production` - 生产环境配置
@@ -130,6 +133,7 @@
    - 添加了 `test:e2e:debug` 调试模式
 
 #### 文件变更
+
 - ✅ `frontend/playwright.config.ts` - Playwright 配置
 - ✅ `frontend/e2e/app.spec.ts` - E2E 测试套件
 - ✅ `frontend/E2E_TESTING.md` - 测试文档
@@ -138,16 +142,19 @@
 ## 技术亮点
 
 ### 性能优化
+
 - **图片懒加载**: 使用 Intersection Observer，减少初始加载时间
 - **代码分割**: 将第三方库分离，优化缓存策略
 - **打包优化**: 移除 console，压缩代码，减小 bundle 大小
 
 ### 用户体验
+
 - **错误边界**: 防止整个应用崩溃，提供友好的错误提示
 - **离线检测**: 实时检测网络状态，提醒用户
 - **网络错误**: 统一的错误处理和重试机制
 
 ### 开发体验
+
 - **环境变量**: 清晰的环境配置管理
 - **Docker 支持**: 一键部署，环境一致性
 - **完整文档**: 详细的部署和测试文档
@@ -157,27 +164,30 @@
 
 ### 优化前后对比
 
-| 指标 | 优化前 | 优化后 | 改善 |
-|------|--------|--------|------|
-| 首屏加载时间 | ~4s | ~2s | 50% ↓ |
-| Bundle 大小 | ~500KB | ~350KB | 30% ↓ |
-| 图片加载 | 全部加载 | 按需加载 | 显著改善 |
-| 错误恢复 | 应用崩溃 | 优雅降级 | 100% ↑ |
+| 指标         | 优化前   | 优化后   | 改善     |
+| ------------ | -------- | -------- | -------- |
+| 首屏加载时间 | ~4s      | ~2s      | 50% ↓    |
+| Bundle 大小  | ~500KB   | ~350KB   | 30% ↓    |
+| 图片加载     | 全部加载 | 按需加载 | 显著改善 |
+| 错误恢复     | 应用崩溃 | 优雅降级 | 100% ↑   |
 
 ## 部署选项
 
 ### 1. Docker 部署（推荐）
+
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### 2. 传统部署
+
 ```bash
 npm run build
 pm2 start backend/dist/index.js
 ```
 
 ### 3. 云平台部署
+
 - 支持 AWS、Azure、Google Cloud
 - 支持 Vercel、Netlify（前端）
 - 支持 Heroku、Railway（全栈）
@@ -185,6 +195,7 @@ pm2 start backend/dist/index.js
 ## 测试覆盖
 
 ### E2E 测试覆盖的场景
+
 - ✅ 应用加载和初始化
 - ✅ 新闻列表显示
 - ✅ 平台筛选功能
@@ -198,16 +209,19 @@ pm2 start backend/dist/index.js
 ## 后续建议
 
 ### 性能优化
+
 1. 考虑添加 Service Worker 实现离线缓存
 2. 实现虚拟滚动优化长列表性能
 3. 添加骨架屏提升感知性能
 
 ### 监控和分析
+
 1. 集成 Google Analytics 或其他分析工具
 2. 添加性能监控（Web Vitals）
 3. 实现错误追踪（Sentry）
 
 ### 测试增强
+
 1. 添加单元测试覆盖率要求
 2. 实现视觉回归测试
 3. 添加性能测试基准

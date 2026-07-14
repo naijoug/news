@@ -73,7 +73,7 @@ Docker 部署是最简单和推荐的方式，可以确保环境一致性。
 ```bash
 # Ubuntu/Debian
 sudo apt-get update
-sudo apt-get install docker.io docker-compose
+sudo apt-get install docker.io docker-compose-plugin
 
 # 启动 Docker 服务
 sudo systemctl start docker
@@ -95,16 +95,16 @@ cd news-aggregator
 
 ```bash
 # 构建镜像
-docker-compose build
+docker compose build
 
 # 启动服务
-docker-compose up -d
+docker compose up -d
 
 # 查看日志
-docker-compose logs -f
+docker compose logs -f
 
 # 停止服务
-docker-compose down
+docker compose down
 ```
 
 #### 5. 访问应用
@@ -275,7 +275,7 @@ crontab -e
 pm2 logs news-aggregator
 
 # 或使用 Docker
-docker-compose logs -f news-aggregator
+docker compose logs -f news-aggregator
 
 # 日志轮转配置 (使用 logrotate)
 sudo nano /etc/logrotate.d/news-aggregator
@@ -297,7 +297,7 @@ pm2 monit
 
 # Docker 健康检查
 # healthy 表示 /health 通过；如需验证数据导入，请再执行上面的 /api/platforms smoke test。
-docker-compose ps
+docker compose ps
 ```
 
 ### 3. 性能监控
@@ -327,7 +327,7 @@ curl -X POST http://localhost:3000/api/crawl/trigger
 pm2 restart news-aggregator
 
 # 或使用 Docker
-docker-compose restart
+docker compose restart
 ```
 
 #### 内存占用过高
@@ -347,9 +347,9 @@ sqlite3 backend/data/news.db "DELETE FROM news WHERE crawl_time < datetime('now'
 git pull
 
 # 重新构建和启动
-docker-compose down
-docker-compose build
-docker-compose up -d
+docker compose down
+docker compose build
+docker compose up -d
 ```
 
 ### 传统部署更新

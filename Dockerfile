@@ -20,17 +20,15 @@ RUN npm pkg delete scripts.prepare
 RUN npm ci --workspace=backend --include-workspace-root=false
 COPY backend/ ./backend/
 RUN npm run build --workspace=backend
+RUN npm prune --workspace=backend --omit=dev --include-workspace-root=false
 
 # Stage 3: Production
 FROM node:20-alpine
 WORKDIR /app
-RUN apk add --no-cache python3 make g++
 
-# Install production dependencies for backend from the workspace lockfile
-COPY package*.json ./
-COPY backend/package*.json ./backend/
-RUN npm pkg delete scripts.prepare
-RUN npm ci --workspace=backend --omit=dev --include-workspace-root=false
+# Reuse the backend builder's pruned production dependencies so native modules such as
+# sqlite3 do not need Python/make/g++ in the runtime image.
+COPY --from=backend-builder /app/node_modules ./node_modules
 
 # Copy built backend
 COPY --from=backend-builder /app/backend/dist ./dist

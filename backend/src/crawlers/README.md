@@ -57,7 +57,7 @@ The crawler system follows these design patterns:
 ### Running Crawlers Manually
 
 ```bash
-npm run test-crawler
+npm run test-crawler --workspace=backend
 ```
 
 ### Using in Code
@@ -130,6 +130,7 @@ Platforms are configured in the database with a JSON config structure. See `back
 ## Testing
 
 The test script demonstrates:
+
 - Loading platforms from database
 - Creating crawlers via factory
 - Running crawlers concurrently

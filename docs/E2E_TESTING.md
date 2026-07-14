@@ -5,32 +5,33 @@
 ## 安装
 
 ```bash
-cd frontend
+# 在仓库根目录安装 workspace 依赖
+npm ci
 
-# 安装 Playwright
-npm install -D @playwright/test
+# 如需首次加入 Playwright 依赖，安装到 frontend workspace
+npm install -D @playwright/test --workspace=frontend
 
 # 安装浏览器
-npx playwright install
+npm exec --workspace=frontend -- playwright install
 ```
 
 ## 运行测试
 
 ```bash
 # 运行所有测试
-npm run test:e2e
+npm run test:e2e --workspace=frontend
 
 # 运行测试并显示浏览器
-npm run test:e2e -- --headed
+npm run test:e2e --workspace=frontend -- --headed
 
 # 运行特定测试文件
-npm run test:e2e -- app.spec.ts
+npm run test:e2e --workspace=frontend -- app.spec.ts
 
 # 调试模式
-npm run test:e2e -- --debug
+npm run test:e2e --workspace=frontend -- --debug
 
 # 生成测试报告
-npm run test:e2e -- --reporter=html
+npm run test:e2e --workspace=frontend -- --reporter=html
 ```
 
 ## 测试覆盖
@@ -111,23 +112,26 @@ test.describe('Feature Name', () => {
 ### 最佳实践
 
 1. **使用语义化选择器**
+
    ```typescript
    // 好
-   page.locator('[role="article"]')
-   page.locator('button[aria-label="刷新新闻"]')
-   
+   page.locator('[role="article"]');
+   page.locator('button[aria-label="刷新新闻"]');
+
    // 避免
-   page.locator('.css-class-123')
+   page.locator('.css-class-123');
    ```
 
 2. **等待元素加载**
+
    ```typescript
    await page.waitForSelector('[role="article"]', { timeout: 10000 });
    ```
 
 3. **处理响应式设计**
+
    ```typescript
-   const isMobile = await page.viewportSize()?.width! < 768;
+   const isMobile = (await page.viewportSize()?.width!) < 768;
    if (isMobile) {
      // 移动端特定逻辑
    }
@@ -155,22 +159,19 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      
+
       - name: Install dependencies
-        run: |
-          npm ci
-          cd frontend && npm ci
-          cd ../backend && npm ci
-      
+        run: npm ci
+
       - name: Install Playwright
-        run: cd frontend && npx playwright install --with-deps
-      
+        run: npm exec --workspace=frontend -- playwright install --with-deps
+
       - name: Start backend
-        run: cd backend && npm run build && npm start &
-      
+        run: npm run build --workspace=backend && npm run start --workspace=backend &
+
       - name: Run E2E tests
-        run: cd frontend && npm run test:e2e
-      
+        run: npm run test:e2e --workspace=frontend
+
       - name: Upload test results
         if: always()
         uses: actions/upload-artifact@v3
@@ -184,13 +185,13 @@ jobs:
 ### 1. 使用 Playwright Inspector
 
 ```bash
-npm run test:e2e -- --debug
+npm run test:e2e --workspace=frontend -- --debug
 ```
 
 ### 2. 查看测试报告
 
 ```bash
-npx playwright show-report
+npm exec --workspace=frontend -- playwright show-report
 ```
 
 ### 3. 截图和视频
@@ -207,7 +208,7 @@ use: {
 ### 4. 慢速执行
 
 ```bash
-npm run test:e2e -- --slow-mo=1000
+npm run test:e2e --workspace=frontend -- --slow-mo=1000
 ```
 
 ## 常见问题
@@ -215,6 +216,7 @@ npm run test:e2e -- --slow-mo=1000
 ### 测试超时
 
 增加超时时间：
+
 ```typescript
 test('long running test', async ({ page }) => {
   test.setTimeout(60000); // 60 秒
@@ -225,6 +227,7 @@ test('long running test', async ({ page }) => {
 ### 元素未找到
 
 使用更可靠的选择器：
+
 ```typescript
 // 使用 data-testid
 <button data-testid="refresh-button">刷新</button>
@@ -236,11 +239,12 @@ await page.click('[data-testid="refresh-button"]');
 ### 网络请求失败
 
 模拟 API 响应：
+
 ```typescript
 await page.route('**/api/news', route => {
   route.fulfill({
     status: 200,
-    body: JSON.stringify({ data: [], total: 0 })
+    body: JSON.stringify({ data: [], total: 0 }),
   });
 });
 ```
@@ -255,7 +259,7 @@ test('should load quickly', async ({ page }) => {
   await page.goto('/');
   await page.waitForSelector('[role="article"]');
   const loadTime = Date.now() - start;
-  
+
   expect(loadTime).toBeLessThan(3000); // 3 秒内加载
 });
 ```
@@ -263,6 +267,7 @@ test('should load quickly', async ({ page }) => {
 ## 维护建议
 
 1. **定期更新依赖**
+
    ```bash
    npm update @playwright/test
    npx playwright install

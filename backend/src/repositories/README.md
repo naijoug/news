@@ -40,15 +40,15 @@ await newsRepo.saveNews([
     url: 'https://example.com/news/1',
     platformId: 'weibo',
     publishTime: new Date(),
-    hotScore: 1000
-  }
+    hotScore: 1000,
+  },
 ]);
 
 // Get recent news
 const news = await newsRepo.getNews({
   platformIds: ['weibo', 'zhihu'],
   limit: 20,
-  offset: 0
+  offset: 0,
 });
 ```
 
@@ -57,7 +57,7 @@ const news = await newsRepo.getNews({
 To import or update platform configurations:
 
 ```bash
-npm run import-platforms
+npm run import-platforms --workspace=backend
 ```
 
 Platform configurations are stored in `src/config/platforms.json`.

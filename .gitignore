@@ -1,6 +1,5 @@
 # Dependencies
 node_modules/
-package-lock.json
 
 # Build outputs
 dist/
@@ -28,6 +27,10 @@ npm-debug.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# Test artifacts
+frontend/playwright-report/
+playwright-report/
 
 # Data
 backend/data/*.db

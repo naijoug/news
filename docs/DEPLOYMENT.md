@@ -15,12 +15,14 @@
 ## 环境要求
 
 ### 最低要求
+
 - Node.js 18.x 或更高版本
 - npm 9.x 或更高版本
 - 2GB RAM
 - 10GB 磁盘空间
 
 ### 推荐配置
+
 - Node.js 18.x LTS
 - 4GB RAM
 - 20GB SSD
@@ -46,8 +48,8 @@ CRAWL_SCHEDULE="0 8,20 * * *"
 # 日志级别 (debug, info, warn, error)
 LOG_LEVEL=info
 
-# 数据保留天数
-DATA_RETENTION_DAYS=7
+# 数据保留天数（backend/src/index.ts 读取 DAYS_TO_KEEP）
+DAYS_TO_KEEP=7
 ```
 
 #### 前端环境变量 (frontend/.env.production)
@@ -292,6 +294,7 @@ docker-compose ps
 ### 3. 性能监控
 
 推荐使用以下工具：
+
 - **PM2 Plus**: 应用性能监控
 - **Prometheus + Grafana**: 系统监控
 - **New Relic / DataDog**: APM 监控
@@ -299,6 +302,7 @@ docker-compose ps
 ### 4. 常见问题
 
 #### 爬虫不工作
+
 ```bash
 # 检查定时任务
 pm2 logs news-aggregator | grep "Crawler"
@@ -308,6 +312,7 @@ curl -X POST http://localhost:3000/api/crawl/trigger
 ```
 
 #### 数据库锁定
+
 ```bash
 # 重启服务
 pm2 restart news-aggregator
@@ -317,6 +322,7 @@ docker-compose restart
 ```
 
 #### 内存占用过高
+
 ```bash
 # 清理旧数据
 # 数据会自动清理，也可以手动清理
@@ -385,6 +391,7 @@ pm2 restart news-aggregator
 ## 支持
 
 如有问题，请查看：
+
 - 项目 README.md
 - GitHub Issues
 - 技术文档

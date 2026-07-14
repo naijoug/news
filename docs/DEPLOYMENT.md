@@ -283,14 +283,20 @@ sudo nano /etc/logrotate.d/news-aggregator
 
 ### 2. 健康检查
 
+容器和编排层使用 `/health` 做轻量 liveness 检查；平台数据是否已自动导入则用 `/api/platforms` 做 smoke test。不要把这两类检查混在一起：数据库短暂不可用时，`/api/platforms` 失败可以提示数据面问题，但不一定代表进程已经退出。
+
 ```bash
-# 检查服务状态
+# 检查进程存活（与 Dockerfile / docker-compose.yml 的 healthcheck 一致）
+curl http://localhost:3000/health
+
+# 检查平台数据已导入并可读
 curl http://localhost:3000/api/platforms
 
 # 使用 PM2 监控
 pm2 monit
 
 # Docker 健康检查
+# healthy 表示 /health 通过；如需验证数据导入，请再执行上面的 /api/platforms smoke test。
 docker-compose ps
 ```
 
@@ -401,4 +407,4 @@ pm2 restart news-aggregator
 
 ---
 
-最后更新: 2024-01-01
+最后更新: 2026-07-14

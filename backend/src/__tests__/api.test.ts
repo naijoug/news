@@ -272,6 +272,8 @@ describe('API Integration Tests', () => {
     });
 
     it('should handle malformed JSON', async () => {
+      const consoleErrorSpy = jest.spyOn(console, 'error').mockImplementation(() => undefined);
+
       const response = await request(app)
         .post('/api/crawl/trigger')
         .set('Content-Type', 'application/json')
@@ -280,6 +282,16 @@ describe('API Integration Tests', () => {
       // Express body-parser returns 400 for malformed JSON
       expect([400, 500]).toContain(response.status);
       expect(response.body.success).toBe(false);
+      expect(consoleErrorSpy).toHaveBeenCalledWith(
+        '[Error]',
+        expect.objectContaining({
+          name: 'SyntaxError',
+          path: '/api/crawl/trigger',
+          method: 'POST',
+        })
+      );
+
+      consoleErrorSpy.mockRestore();
     });
   });
 });

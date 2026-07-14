@@ -40,14 +40,12 @@ npm run prepare
 ### 配置环境变量
 
 ```bash
-# 后端
-cd backend
-cp .env.example .env
+# 后端（在项目根目录执行）
+cp backend/.env.example backend/.env
 # 根据需要修改 .env 文件
 
 # 前端
-cd ../frontend
-cp .env.example .env.development
+cp frontend/.env.example frontend/.env.development
 # 根据需要修改 .env.development 文件
 ```
 
@@ -233,39 +231,34 @@ git commit -m "refactor(backend): 优化数据库查询逻辑"
 ### 后端测试
 
 ```bash
-cd backend
-
-# 运行所有测试
-npm test
+# 运行所有后端测试
+npm test --workspace=backend
 
 # 监听模式
-npm run test:watch
+npm run test:watch --workspace=backend
 
 # 测试单个文件
-npm test -- repositories.test.ts
+npm test --workspace=backend -- repositories.test.ts
 ```
 
 ### 前端 E2E 测试
 
 ```bash
-cd frontend
-
 # 运行 E2E 测试
-npm run test:e2e
+npm run test:e2e --workspace=frontend
 
 # UI 模式
-npm run test:e2e:ui
+npm run test:e2e:ui --workspace=frontend
 
 # 调试模式
-npm run test:e2e:debug
+npm run test:e2e:debug --workspace=frontend
 ```
 
 ### 测试覆盖率
 
 ```bash
-# 后端
-cd backend
-npm test -- --coverage
+# 后端覆盖率
+npm test --workspace=backend -- --coverage
 ```
 
 ### 编写测试

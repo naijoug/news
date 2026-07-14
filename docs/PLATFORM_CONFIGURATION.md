@@ -62,12 +62,12 @@ backend/src/config/platforms.json
 {
   "type": "static",
   "url": "https://example.com/hot",
-  "selector": ".news-item",           // CSS 选择器，选择新闻列表项
+  "selector": ".news-item", // CSS 选择器，选择新闻列表项
   "parser": {
-    "title": ".title",                // 标题选择器
-    "url": "a@href",                  // 链接选择器（@attr 表示提取属性）
-    "time": ".time",                  // 时间选择器（可选）
-    "hotScore": ".score"              // 热度选择器（可选）
+    "title": ".title", // 标题选择器
+    "url": "a@href", // 链接选择器（@attr 表示提取属性）
+    "time": ".time", // 时间选择器（可选）
+    "hotScore": ".score" // 热度选择器（可选）
   }
 }
 ```
@@ -88,7 +88,7 @@ backend/src/config/platforms.json
 {
   "type": "dynamic",
   "url": "https://example.com/trending",
-  "waitFor": ".news-list",            // 等待元素出现
+  "waitFor": ".news-list", // 等待元素出现
   "selector": ".news-item",
   "parser": {
     "title": ".title",
@@ -113,22 +113,25 @@ backend/src/config/platforms.json
   "url": "https://api.example.com/trending",
   "apiConfig": {
     "endpoint": "https://api.example.com/trending",
-    "method": "GET",                  // GET 或 POST
-    "headers": {                      // 请求头（可选）
+    "method": "GET", // GET 或 POST
+    "headers": {
+      // 请求头（可选）
       "Authorization": "Bearer {{API_TOKEN}}",
       "Content-Type": "application/json"
     },
-    "params": {                       // 查询参数（可选）
+    "params": {
+      // 查询参数（可选）
       "limit": 50,
       "sort": "hot"
     },
-    "body": {                         // 请求体（POST 时使用，可选）
+    "body": {
+      // 请求体（POST 时使用，可选）
       "query": "..."
     },
-    "dataPath": "data.items"          // 数据在响应中的路径（JSONPath）
+    "dataPath": "data.items" // 数据在响应中的路径（JSONPath）
   },
   "parser": {
-    "title": "title",                 // JSON 字段路径
+    "title": "title", // JSON 字段路径
     "url": "url",
     "time": "created_at",
     "hotScore": "score"
@@ -302,8 +305,7 @@ npm run validate-config
 ### 步骤 4：导入配置到数据库
 
 ```bash
-cd backend
-npm run import-platforms
+npm run import-platforms --workspace=backend
 ```
 
 ### 步骤 5：测试爬虫
@@ -311,8 +313,7 @@ npm run import-platforms
 使用测试脚本验证爬虫是否正常工作：
 
 ```bash
-cd backend
-npm run test-crawler -- --platform={platform_id}
+npm run test-crawler --workspace=backend -- --platform={platform_id}
 ```
 
 或通过 API 测试：
@@ -333,11 +334,10 @@ curl -X POST http://localhost:3000/api/platforms/{platform_id}/test
 
 ```bash
 # 测试单个平台
-cd backend
-npm run test-crawler -- --platform=weibo
+npm run test-crawler --workspace=backend -- --platform=weibo
 
 # 测试所有平台
-npm run test-crawler
+npm run test-crawler --workspace=backend
 ```
 
 ### 使用 API 测试
@@ -366,6 +366,7 @@ curl -X POST http://localhost:3000/api/platforms/weibo/test
 **A:** 对于需要登录的平台，可以：
 
 1. 使用 Cookie 或 Token 认证：
+
 ```json
 {
   "apiConfig": {
@@ -378,12 +379,14 @@ curl -X POST http://localhost:3000/api/platforms/weibo/test
 ```
 
 2. 在环境变量中配置敏感信息：
+
 ```bash
 # .env
 WEIBO_COOKIE=your_cookie_here
 ```
 
 3. 在配置中使用占位符：
+
 ```json
 {
   "headers": {
@@ -397,14 +400,16 @@ WEIBO_COOKIE=your_cookie_here
 **A:** 建议采取以下措施：
 
 1. 设置合理的请求间隔：
+
 ```json
 {
-  "rateLimit": 1000,  // 每次请求间隔 1 秒
+  "rateLimit": 1000, // 每次请求间隔 1 秒
   "timeout": 10000
 }
 ```
 
 2. 使用动态爬虫模拟真实浏览器：
+
 ```json
 {
   "type": "dynamic",
@@ -433,9 +438,10 @@ WEIBO_COOKIE=your_cookie_here
 
 ### Q5: 如何调试爬虫配置？
 
-**A:** 
+**A:**
 
 1. 查看后端日志：
+
 ```bash
 cd backend
 npm run dev
@@ -443,11 +449,13 @@ npm run dev
 ```
 
 2. 使用测试脚本：
+
 ```bash
-npm run test-crawler -- --platform=your_platform --verbose
+npm run test-crawler --workspace=backend -- --platform=your_platform --verbose
 ```
 
 3. 检查数据库：
+
 ```bash
 sqlite3 data/news.db
 SELECT * FROM news WHERE platform_id = 'your_platform' ORDER BY crawl_time DESC LIMIT 10;
@@ -458,7 +466,7 @@ SELECT * FROM news WHERE platform_id = 'your_platform' ORDER BY crawl_time DESC 
 **A:** 不需要。配置更新后，只需重新运行导入脚本：
 
 ```bash
-npm run import-platforms
+npm run import-platforms --workspace=backend
 ```
 
 下次爬取任务执行时会自动使用新配置。
@@ -469,6 +477,7 @@ npm run import-platforms
 
 1. 在配置文件中设置 `enabled: false`，然后重新导入
 2. 通过 API 更新：
+
 ```bash
 curl -X PUT http://localhost:3000/api/platforms/weibo \
   -H "Content-Type: application/json" \

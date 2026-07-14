@@ -92,8 +92,7 @@ cp .env.example .env
 平台配置会在后端首次启动时自动导入（幂等）。如需手动导入或更新：
 
 ```bash
-cd backend
-npm run import-platforms
+npm run import-platforms --workspace=backend
 ```
 
 ### 构建生产版本
@@ -130,9 +129,8 @@ docker compose down
 # 安装 PM2
 npm install -g pm2
 
-# 启动服务
-cd backend
-pm2 start dist/index.js --name news-aggregator
+# 启动服务（在仓库根目录执行）
+pm2 start backend/dist/index.js --name news-aggregator
 
 # 查看状态
 pm2 status
@@ -187,8 +185,8 @@ POST /api/crawl/trigger
 添加新平台只需三步：
 
 1. 在 `backend/src/config/platforms.json` 中添加平台配置
-2. 运行 `npm run import-platforms` 导入配置
-3. 使用 `npm run test-crawler -- --platform={id}` 测试
+2. 运行 `npm run import-platforms --workspace=backend` 导入配置
+3. 使用 `npm run test-crawler --workspace=backend -- --platform={id}` 测试
 
 详细的配置指南请查看 [PLATFORM_CONFIGURATION.md](./docs/PLATFORM_CONFIGURATION.md)
 

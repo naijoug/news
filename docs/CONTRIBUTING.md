@@ -54,8 +54,7 @@ cp .env.example .env.development
 ### 初始化数据库
 
 ```bash
-cd backend
-npm run import-platforms
+npm run import-platforms --workspace=backend
 ```
 
 ### 启动开发服务器
@@ -78,6 +77,7 @@ npm run dev:frontend  # 前端: http://localhost:5173
 ### ESLint
 
 ESLint 配置文件：
+
 - 后端: `backend/.eslintrc.json`
 - 前端: `frontend/.eslintrc.json`
 
@@ -281,10 +281,10 @@ describe('NewsRepository', () => {
   it('should save news items to database', async () => {
     // Arrange
     const newsItems = [{ title: 'Test', url: 'https://...' }];
-    
+
     // Act
     await repository.saveNews(newsItems);
-    
+
     // Assert
     const saved = await repository.getNews({});
     expect(saved.length).toBe(1);
@@ -309,6 +309,7 @@ git checkout -b fix/your-bug-fix
 ```
 
 分支命名规范：
+
 - `feature/xxx`: 新功能
 - `fix/xxx`: bug 修复
 - `docs/xxx`: 文档更新

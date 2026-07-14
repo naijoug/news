@@ -117,26 +117,22 @@ docker compose down
 
 #### 1. 安装依赖
 
-```bash
-# 安装后端依赖
-cd backend
-npm ci --only=production
+本项目使用 npm workspaces，`package-lock.json` 位于仓库根目录；请在根目录执行 `npm ci`，不要在 `backend/` 或 `frontend/` 子目录单独运行 `npm ci`。
 
-# 安装前端依赖
-cd ../frontend
+```bash
+# 在仓库根目录安装根项目和所有 workspace 依赖
 npm ci
 ```
 
 #### 2. 构建项目
 
 ```bash
-# 构建后端
-cd backend
+# 构建后端和前端
 npm run build
 
-# 构建前端
-cd ../frontend
-npm run build
+# 或分别构建
+npm run build --workspace=backend
+npm run build --workspace=frontend
 ```
 
 #### 3. 配置环境变量
@@ -157,8 +153,7 @@ nano frontend/.env.production
 如需手动导入或更新平台：
 
 ```bash
-cd backend
-npm run import-platforms
+npm run import-platforms --workspace=backend
 ```
 
 #### 5. 使用 PM2 管理进程
@@ -167,9 +162,8 @@ npm run import-platforms
 # 安装 PM2
 npm install -g pm2
 
-# 启动后端服务
-cd backend
-pm2 start dist/index.js --name news-aggregator
+# 启动后端服务（在仓库根目录执行）
+pm2 start backend/dist/index.js --name news-aggregator
 
 # 设置开机自启
 pm2 startup
@@ -359,8 +353,7 @@ docker compose up -d
 git pull
 
 # 重新构建
-cd backend && npm run build
-cd ../frontend && npm run build
+npm run build
 
 # 重启服务
 pm2 restart news-aggregator

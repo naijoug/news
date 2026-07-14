@@ -1,12 +1,53 @@
 import request from 'supertest';
 import express from 'express';
-import apiRoutes from '../routes';
 import { errorHandler, notFoundHandler } from '../middleware/errorHandler';
 import { cacheMiddleware } from '../middleware/cache';
 import { initializeDatabase } from '../utils/database';
 import { NewsRepository } from '../repositories/NewsRepository';
 import { PlatformRepository } from '../repositories/PlatformRepository';
 import { NewsItem, Platform } from '../types';
+
+// Mock CrawlerFactory so crawl trigger tests never hit real network.
+// The mock returns lightweight stub crawlers that resolve instantly.
+jest.mock('../crawlers/CrawlerFactory', () => {
+  const { NewsItem } = require('../types');
+  const createStubCrawler = (platformId: string, platformName: string) => ({
+    platformId,
+    platformName,
+    crawl: jest.fn().mockImplementation(
+      () =>
+        // Small artificial delay so the 409 overlap test can catch an
+        // in-progress crawl window. Real crawlers take seconds; stubs
+        // need at least ~300ms to keep the overlap reliable.
+        new Promise(resolve =>
+          setTimeout(
+            () =>
+              resolve([
+                {
+                  title: `Test item from ${platformName}`,
+                  url: `https://example.com/${platformId}/1`,
+                  platformId,
+                  publishTime: new Date(),
+                },
+              ]),
+            300
+          )
+        )
+    ),
+  });
+  return {
+    CrawlerFactory: {
+      createCrawler: jest.fn((platform: any) => createStubCrawler(platform.id, platform.name)),
+      createCrawlers: jest.fn((platforms: any[]) =>
+        platforms.map((p: any) => createStubCrawler(p.id, p.name))
+      ),
+    },
+  };
+});
+
+// Import routes AFTER setting up the mock so the scheduler uses stubbed crawlers.
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const apiRoutes = require('../routes').default;
 
 // Create test app
 const createTestApp = () => {
@@ -151,7 +192,7 @@ describe('API Integration Tests', () => {
       expect(response.body).toHaveProperty('success');
       expect(response.body).toHaveProperty('message');
       expect(response.body).toHaveProperty('data');
-    }, 15000); // Increase timeout to 15 seconds for crawling
+    });
 
     it('should return 409 if crawl is already in progress', async () => {
       // Trigger first crawl immediately, but don't await completion yet. A bare
@@ -174,7 +215,7 @@ describe('API Integration Tests', () => {
 
       // Wait for first crawl to complete
       await firstRequest;
-    }, 15000);
+    });
   });
 
   describe('GET /api/crawl/status', () => {

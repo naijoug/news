@@ -2,7 +2,7 @@ import request from 'supertest';
 import express from 'express';
 import { errorHandler, notFoundHandler } from '../middleware/errorHandler';
 import { cacheMiddleware } from '../middleware/cache';
-import { initializeDatabase } from '../utils/database';
+import { closeDatabase, initializeDatabase } from '../utils/database';
 import { NewsRepository } from '../repositories/NewsRepository';
 import { PlatformRepository } from '../repositories/PlatformRepository';
 import { NewsItem, Platform } from '../types';
@@ -10,7 +10,6 @@ import { NewsItem, Platform } from '../types';
 // Mock CrawlerFactory so crawl trigger tests never hit real network.
 // The mock returns lightweight stub crawlers that resolve instantly.
 jest.mock('../crawlers/CrawlerFactory', () => {
-  const { NewsItem } = require('../types');
   const createStubCrawler = (platformId: string, platformName: string) => ({
     platformId,
     platformName,
@@ -70,6 +69,40 @@ describe('API Integration Tests', () => {
     app = createTestApp();
     newsRepo = new NewsRepository();
     platformRepo = new PlatformRepository();
+
+    await platformRepo.createPlatform({
+      id: 'api-test-platform-1',
+      name: 'API Test Platform 1',
+      iconUrl: '/icons/api-test-1.svg',
+      enabled: true,
+      config: {
+        type: 'static',
+        url: 'https://example.com/api-test-1',
+        parser: {
+          title: '.title',
+          url: '.link',
+        },
+      },
+    });
+
+    await platformRepo.createPlatform({
+      id: 'api-test-platform-2',
+      name: 'API Test Platform 2',
+      iconUrl: '/icons/api-test-2.svg',
+      enabled: false,
+      config: {
+        type: 'static',
+        url: 'https://example.com/api-test-2',
+        parser: {
+          title: '.title',
+          url: '.link',
+        },
+      },
+    });
+  });
+
+  afterAll(async () => {
+    await closeDatabase();
   });
 
   beforeEach(async () => {

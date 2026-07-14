@@ -1,6 +1,6 @@
 import { NewsRepository } from '../repositories/NewsRepository';
 import { PlatformRepository } from '../repositories/PlatformRepository';
-import { initializeDatabase } from '../utils/database';
+import { closeDatabase, initializeDatabase } from '../utils/database';
 import { NewsItem, Platform } from '../types';
 
 describe('Repository Tests', () => {
@@ -11,6 +11,10 @@ describe('Repository Tests', () => {
     await initializeDatabase();
     newsRepo = new NewsRepository();
     platformRepo = new PlatformRepository();
+  });
+
+  afterAll(async () => {
+    await closeDatabase();
   });
 
   describe('NewsRepository', () => {

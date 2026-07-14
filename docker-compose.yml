@@ -19,8 +19,7 @@ services:
       - LOG_LEVEL=info
     restart: unless-stopped
     healthcheck:
-      test:
-        ['CMD', 'wget', '--quiet', '--tries=1', '--spider', 'http://localhost:3000/api/platforms']
+      test: ['CMD', 'wget', '--quiet', '--tries=1', '--spider', 'http://localhost:3000/health']
       interval: 30s
       timeout: 10s
       retries: 3

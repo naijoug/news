@@ -10,7 +10,7 @@ export class DynamicCrawler extends BaseCrawler {
   /**
    * Fetch content using Puppeteer
    */
-  protected async fetch(): Promise<any> {
+  protected async fetch(): Promise<unknown> {
     throw new Error(
       'DynamicCrawler requires Puppeteer to be installed. ' +
         'Run: npm install puppeteer @types/puppeteer'
@@ -20,14 +20,14 @@ export class DynamicCrawler extends BaseCrawler {
   /**
    * Parse content
    */
-  protected async parse(_data: any): Promise<any[]> {
+  protected async parse(_data: unknown): Promise<unknown[]> {
     return [];
   }
 
   /**
    * Transform item
    */
-  protected transformItem(_item: any): Omit<NewsItem, 'platformId' | 'crawlTime'> {
+  protected transformItem(_item: unknown): Omit<NewsItem, 'platformId' | 'crawlTime'> {
     throw new Error('DynamicCrawler not implemented');
   }
 }

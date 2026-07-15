@@ -1,5 +1,11 @@
 import * as cheerio from 'cheerio';
 
+type UnknownRecord = Record<string, unknown>;
+
+function isRecord(value: unknown): value is UnknownRecord {
+  return typeof value === 'object' && value !== null && !Array.isArray(value);
+}
+
 /**
  * Utility class for extracting data from various sources
  */
@@ -36,7 +42,7 @@ export class DataExtractor {
   /**
    * Extract value using JSONPath from object
    */
-  static extractWithJsonPath(obj: any, path: string): any {
+  static extractWithJsonPath(obj: unknown, path: string): unknown {
     try {
       // Simple JSONPath implementation
       // Supports: $.field, $.field.nested, $.array[0], $.array[*]
@@ -51,7 +57,7 @@ export class DataExtractor {
       // Handle array wildcard [*]
       if (cleanPath.includes('[*]')) {
         const parts = cleanPath.split('[*]');
-        let current = obj;
+        let current: unknown = obj;
 
         for (let i = 0; i < parts.length - 1; i++) {
           if (parts[i]) {
@@ -75,9 +81,9 @@ export class DataExtractor {
   /**
    * Navigate through object path
    */
-  private static navigatePath(obj: any, path: string): any {
+  private static navigatePath(obj: unknown, path: string): unknown {
     const parts = path.split('.');
-    let current = obj;
+    let current: unknown = obj;
 
     for (const part of parts) {
       if (!part) continue;
@@ -86,9 +92,15 @@ export class DataExtractor {
       const arrayMatch = part.match(/^(\w+)\[(\d+)\]$/);
       if (arrayMatch) {
         const [, key, index] = arrayMatch;
-        current = current?.[key]?.[parseInt(index)];
+        if (!isRecord(current) || !Array.isArray(current[key])) {
+          return null;
+        }
+        current = current[key][parseInt(index, 10)];
       } else {
-        current = current?.[part];
+        if (!isRecord(current)) {
+          return null;
+        }
+        current = current[part];
       }
 
       if (current === undefined || current === null) {
@@ -102,7 +114,7 @@ export class DataExtractor {
   /**
    * Extract nested field from object
    */
-  static extractNestedField(obj: any, fieldPath: string): any {
+  static extractNestedField(obj: unknown, fieldPath: string): unknown {
     if (!fieldPath) return null;
 
     // If it looks like JSONPath, use JSONPath extraction

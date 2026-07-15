@@ -38,10 +38,10 @@ export class ApiCrawler extends BaseCrawler {
     }
 
     const { dataPath } = this.config.apiConfig;
-    
+
     // Extract items array using JSONPath
     const items = DataExtractor.extractWithJsonPath(data, dataPath);
-    
+
     if (!Array.isArray(items)) {
       this.log(`Warning: dataPath "${dataPath}" did not return an array`);
       return [];
@@ -62,33 +62,35 @@ export class ApiCrawler extends BaseCrawler {
   private async fetchIndividualItems(ids: any[]): Promise<any[]> {
     const itemEndpoint = this.config.parser.itemEndpoint!;
     const items: any[] = [];
-    
+
     // Limit to first 30 items to avoid too many requests
     const limitedIds = ids.slice(0, 30);
-    
+
     // Apply rate limiting if configured
     const rateLimit = this.config.rateLimit || 0;
-    
+
     for (const id of limitedIds) {
       try {
         const url = itemEndpoint.replace('{{id}}', String(id));
         const response = await axios.get(url, {
           timeout: this.getTimeout(),
         });
-        
+
         if (response.data) {
           items.push(response.data);
         }
-        
+
         // Rate limiting
         if (rateLimit > 0) {
           await this.sleep(rateLimit);
         }
       } catch (error) {
-        this.log(`Failed to fetch item ${id}: ${error instanceof Error ? error.message : 'Unknown error'}`);
+        this.log(
+          `Failed to fetch item ${id}: ${error instanceof Error ? error.message : 'Unknown error'}`
+        );
       }
     }
-    
+
     return items;
   }
 
@@ -105,11 +107,11 @@ export class ApiCrawler extends BaseCrawler {
     }
 
     // Extract URL
-    let url = DataExtractor.extractNestedField(item, parser.url);
-    if (!url || typeof url !== 'string') {
+    const urlValue = DataExtractor.extractNestedField(item, parser.url);
+    if (!urlValue || typeof urlValue !== 'string') {
       throw new Error('Failed to extract URL');
     }
-    url = DataExtractor.normalizeUrl(url);
+    const url = DataExtractor.normalizeUrl(urlValue);
 
     // Extract publish time (optional, default to now)
     let publishTime: Date;

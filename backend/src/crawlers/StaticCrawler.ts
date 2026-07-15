@@ -1,8 +1,14 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
+import type { AnyNode } from 'domhandler';
 import { BaseCrawler } from './BaseCrawler';
 import { NewsItem } from '../types';
 import { DataExtractor } from './utils/DataExtractor';
+
+type StaticParsedItem = {
+  element: AnyNode;
+  $: cheerio.CheerioAPI;
+};
 
 /**
  * Crawler for static HTML pages using Cheerio
@@ -15,7 +21,8 @@ export class StaticCrawler extends BaseCrawler {
     const response = await axios.get(this.config.url, {
       timeout: this.getTimeout(),
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'User-Agent':
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
       },
     });
 
@@ -25,9 +32,13 @@ export class StaticCrawler extends BaseCrawler {
   /**
    * Parse HTML and extract items using CSS selectors
    */
-  protected async parse(html: string): Promise<any[]> {
+  protected async parse(html: unknown): Promise<StaticParsedItem[]> {
+    if (typeof html !== 'string') {
+      throw new Error('Static crawler expected HTML string response');
+    }
+
     const $ = cheerio.load(html);
-    const items: any[] = [];
+    const items: StaticParsedItem[] = [];
 
     if (!this.config.selector) {
       throw new Error('Selector is required for static crawler');
@@ -46,7 +57,11 @@ export class StaticCrawler extends BaseCrawler {
   /**
    * Transform parsed item into NewsItem
    */
-  protected transformItem(item: any): Omit<NewsItem, 'platformId' | 'crawlTime'> {
+  protected transformItem(item: unknown): Omit<NewsItem, 'platformId' | 'crawlTime'> {
+    if (!isStaticParsedItem(item)) {
+      throw new Error('Invalid static crawler item');
+    }
+
     const { element, $ } = item;
     const parser = this.config.parser;
 
@@ -88,4 +103,14 @@ export class StaticCrawler extends BaseCrawler {
       hotScore,
     };
   }
+}
+
+function isStaticParsedItem(item: unknown): item is StaticParsedItem {
+  return (
+    typeof item === 'object' &&
+    item !== null &&
+    'element' in item &&
+    '$' in item &&
+    typeof item.$ === 'function'
+  );
 }

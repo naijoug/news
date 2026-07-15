@@ -10,7 +10,7 @@ export class ApiCrawler extends BaseCrawler {
   /**
    * Fetch data from API endpoint
    */
-  protected async fetch(): Promise<any> {
+  protected async fetch(): Promise<unknown> {
     if (!this.config.apiConfig) {
       throw new Error('API config is required for API crawler');
     }
@@ -32,7 +32,7 @@ export class ApiCrawler extends BaseCrawler {
   /**
    * Parse API response and extract items array
    */
-  protected async parse(data: any): Promise<any[]> {
+  protected async parse(data: unknown): Promise<unknown[]> {
     if (!this.config.apiConfig) {
       throw new Error('API config is required');
     }
@@ -59,9 +59,9 @@ export class ApiCrawler extends BaseCrawler {
    * Fetch individual items when itemEndpoint is specified
    * Used for APIs like Hacker News that return IDs first
    */
-  private async fetchIndividualItems(ids: any[]): Promise<any[]> {
+  private async fetchIndividualItems(ids: unknown[]): Promise<unknown[]> {
     const itemEndpoint = this.config.parser.itemEndpoint!;
-    const items: any[] = [];
+    const items: unknown[] = [];
 
     // Limit to first 30 items to avoid too many requests
     const limitedIds = ids.slice(0, 30);
@@ -97,7 +97,7 @@ export class ApiCrawler extends BaseCrawler {
   /**
    * Transform API response item into NewsItem
    */
-  protected transformItem(item: any): Omit<NewsItem, 'platformId' | 'crawlTime'> {
+  protected transformItem(item: unknown): Omit<NewsItem, 'platformId' | 'crawlTime'> {
     const parser = this.config.parser;
 
     // Extract title

@@ -22,11 +22,11 @@ export abstract class BaseCrawler implements ICrawler {
   async crawl(): Promise<NewsItem[]> {
     try {
       this.log('Starting crawl');
-      
+
       const rawData = await this.fetch();
       const parsed = await this.parse(rawData);
       const transformed = this.transform(parsed);
-      
+
       this.log(`Successfully crawled ${transformed.length} items`);
       return transformed;
     } catch (error) {
@@ -38,17 +38,17 @@ export abstract class BaseCrawler implements ICrawler {
   /**
    * Fetch raw data from the platform
    */
-  protected abstract fetch(): Promise<any>;
+  protected abstract fetch(): Promise<unknown>;
 
   /**
    * Parse raw data into structured format
    */
-  protected abstract parse(data: any): Promise<any[]>;
+  protected abstract parse(data: unknown): Promise<unknown[]>;
 
   /**
    * Transform parsed data into NewsItem format
    */
-  protected transform(items: any[]): NewsItem[] {
+  protected transform(items: unknown[]): NewsItem[] {
     const newsItems: NewsItem[] = [];
     const now = new Date();
 
@@ -63,7 +63,9 @@ export abstract class BaseCrawler implements ICrawler {
           });
         }
       } catch (error) {
-        this.log(`Failed to transform item: ${error instanceof Error ? error.message : 'Unknown error'}`);
+        this.log(
+          `Failed to transform item: ${error instanceof Error ? error.message : 'Unknown error'}`
+        );
       }
     }
 
@@ -73,7 +75,7 @@ export abstract class BaseCrawler implements ICrawler {
   /**
    * Transform a single item
    */
-  protected abstract transformItem(item: any): Omit<NewsItem, 'platformId' | 'crawlTime'>;
+  protected abstract transformItem(item: unknown): Omit<NewsItem, 'platformId' | 'crawlTime'>;
 
   /**
    * Validate a news item
@@ -89,7 +91,11 @@ export abstract class BaseCrawler implements ICrawler {
       return false;
     }
 
-    if (!item.publishTime || !(item.publishTime instanceof Date) || isNaN(item.publishTime.getTime())) {
+    if (
+      !item.publishTime ||
+      !(item.publishTime instanceof Date) ||
+      isNaN(item.publishTime.getTime())
+    ) {
       this.log('Invalid item: missing or invalid publishTime');
       return false;
     }
@@ -111,7 +117,7 @@ export abstract class BaseCrawler implements ICrawler {
   protected handleError(error: unknown): void {
     const errorMessage = error instanceof Error ? error.message : 'Unknown error';
     const errorStack = error instanceof Error ? error.stack : '';
-    
+
     console.error(`[${new Date().toISOString()}] [${this.platformName}] Error: ${errorMessage}`);
     if (errorStack) {
       console.error(`[${new Date().toISOString()}] [${this.platformName}] Stack: ${errorStack}`);

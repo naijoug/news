@@ -177,13 +177,13 @@ export class PlatformController {
       // Create crawler and test
       const startTime = Date.now();
       let newsItems;
-      let error = null;
+      let error: string | null = null;
 
       try {
         const crawler = CrawlerFactory.createCrawler(platform);
         newsItems = await crawler.crawl();
-      } catch (crawlError: any) {
-        error = crawlError.message || 'Unknown error occurred during crawling';
+      } catch (crawlError: unknown) {
+        error = crawlError instanceof Error ? crawlError.message : String(crawlError);
       }
 
       const duration = Date.now() - startTime;

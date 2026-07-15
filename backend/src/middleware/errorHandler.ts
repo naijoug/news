@@ -91,7 +91,7 @@ export const notFoundHandler = (req: Request, res: Response, _next: NextFunction
  * Async handler wrapper to catch errors in async route handlers
  */
 export const asyncHandler = (
-  fn: (req: Request, res: Response, next: NextFunction) => Promise<any>
+  fn: (req: Request, res: Response, next: NextFunction) => Promise<unknown>
 ) => {
   return (req: Request, res: Response, next: NextFunction) => {
     Promise.resolve(fn(req, res, next)).catch(next);

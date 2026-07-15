@@ -5,7 +5,7 @@ import crypto from 'crypto';
  * Simple in-memory cache entry
  */
 interface CacheEntry {
-  data: any;
+  data: unknown;
   timestamp: number;
   etag: string;
 }
@@ -40,7 +40,7 @@ class CacheStore {
   /**
    * Set cache data
    */
-  set(key: string, data: any, etag: string): void {
+  set(key: string, data: unknown, etag: string): void {
     this.store.set(key, {
       data,
       timestamp: Date.now(),
@@ -88,10 +88,18 @@ cacheCleanupTimer.unref?.();
 /**
  * Generate ETag from data
  */
-const generateETag = (data: any): string => {
+const generateETag = (data: unknown): string => {
   const hash = crypto.createHash('md5');
   hash.update(JSON.stringify(data));
   return `"${hash.digest('hex')}"`;
+};
+
+const isCacheableResponse = (data: unknown): boolean => {
+  if (!data || typeof data !== 'object') {
+    return false;
+  }
+
+  return !('success' in data) || data.success !== false;
 };
 
 /**
@@ -137,9 +145,9 @@ export const cacheMiddleware = (req: Request, res: Response, next: NextFunction)
   const originalJson = res.json.bind(res);
 
   // Override json method to cache response
-  res.json = function (data: any) {
+  res.json = function (data: unknown) {
     // Only cache successful responses
-    if (data && data.success !== false) {
+    if (isCacheableResponse(data)) {
       const etag = generateETag(data);
       cacheStore.set(cacheKey, data, etag);
 

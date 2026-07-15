@@ -117,7 +117,7 @@ export class DataExtractor {
   /**
    * Convert value to Date
    */
-  static parseDate(value: any): Date | null {
+  static parseDate(value: unknown): Date | null {
     if (!value) return null;
 
     if (value instanceof Date) {
@@ -143,7 +143,7 @@ export class DataExtractor {
   /**
    * Convert value to number
    */
-  static parseNumber(value: any): number | null {
+  static parseNumber(value: unknown): number | null {
     if (value === null || value === undefined) return null;
 
     if (typeof value === 'number') {

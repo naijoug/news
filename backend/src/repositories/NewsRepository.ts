@@ -1,6 +1,22 @@
 import { getDatabase } from '../utils/database';
 import { NewsItem, NewsFilter } from '../types';
 
+type SqlParam = string | number | null;
+
+interface NewsRow {
+  id: number;
+  title: string;
+  url: string;
+  platform_id: string;
+  publish_time: string;
+  hot_score: number | null;
+  crawl_time: string;
+}
+
+interface CountRow {
+  count: number;
+}
+
 export class NewsRepository {
   private db = getDatabase();
 
@@ -22,7 +38,7 @@ export class NewsRepository {
       let completed = 0;
       let hasError = false;
 
-      newsItems.forEach((item) => {
+      newsItems.forEach(item => {
         stmt.run(
           item.title,
           item.url,
@@ -59,16 +75,10 @@ export class NewsRepository {
    */
   async getNews(filters: NewsFilter = {}): Promise<NewsItem[]> {
     return new Promise((resolve, reject) => {
-      const {
-        platformIds,
-        startTime,
-        endTime,
-        limit = 50,
-        offset = 0,
-      } = filters;
+      const { platformIds, startTime, endTime, limit = 50, offset = 0 } = filters;
 
       let query = 'SELECT * FROM news WHERE 1=1';
-      const params: any[] = [];
+      const params: SqlParam[] = [];
 
       if (platformIds && platformIds.length > 0) {
         const placeholders = platformIds.map(() => '?').join(',');
@@ -89,19 +99,19 @@ export class NewsRepository {
       query += ' ORDER BY publish_time DESC LIMIT ? OFFSET ?';
       params.push(limit, offset);
 
-      this.db.all(query, params, (err, rows: any[]) => {
+      this.db.all(query, params, (err, rows: NewsRow[]) => {
         if (err) {
           reject(err);
           return;
         }
 
-        const newsItems: NewsItem[] = rows.map((row) => ({
+        const newsItems: NewsItem[] = rows.map(row => ({
           id: row.id,
           title: row.title,
           url: row.url,
           platformId: row.platform_id,
           publishTime: new Date(row.publish_time),
-          hotScore: row.hot_score,
+          hotScore: row.hot_score ?? undefined,
           crawlTime: new Date(row.crawl_time),
         }));
 
@@ -140,7 +150,7 @@ export class NewsRepository {
       const { platformIds, startTime, endTime } = filters;
 
       let query = 'SELECT COUNT(*) as count FROM news WHERE 1=1';
-      const params: any[] = [];
+      const params: SqlParam[] = [];
 
       if (platformIds && platformIds.length > 0) {
         const placeholders = platformIds.map(() => '?').join(',');
@@ -158,11 +168,11 @@ export class NewsRepository {
         params.push(endTime.toISOString());
       }
 
-      this.db.get(query, params, (err, row: any) => {
+      this.db.get(query, params, (err, row: CountRow | undefined) => {
         if (err) {
           reject(err);
         } else {
-          resolve(row.count);
+          resolve(row?.count ?? 0);
         }
       });
     });

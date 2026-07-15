@@ -1,6 +1,22 @@
 import { getDatabase } from '../utils/database';
 import { Platform } from '../types';
 
+type SqlParam = string | number | null;
+
+interface PlatformRow {
+  id: string;
+  name: string;
+  icon_url: string;
+  enabled: number;
+  config: string;
+  created_at: string;
+  updated_at: string;
+}
+
+interface CountRow {
+  count: number;
+}
+
 export class PlatformRepository {
   private db = getDatabase();
 
@@ -21,7 +37,7 @@ export class PlatformRepository {
           new Date().toISOString(),
           new Date().toISOString(),
         ],
-        (err) => {
+        err => {
           if (err) {
             reject(err);
           } else {
@@ -43,13 +59,13 @@ export class PlatformRepository {
       }
       query += ' ORDER BY name';
 
-      this.db.all(query, [], (err, rows: any[]) => {
+      this.db.all(query, [], (err, rows: PlatformRow[]) => {
         if (err) {
           reject(err);
           return;
         }
 
-        const platforms: Platform[] = rows.map((row) => ({
+        const platforms: Platform[] = rows.map(row => ({
           id: row.id,
           name: row.name,
           iconUrl: row.icon_url,
@@ -72,7 +88,7 @@ export class PlatformRepository {
       this.db.get(
         'SELECT * FROM platforms WHERE id = ?',
         [id],
-        (err, row: any) => {
+        (err, row: PlatformRow | undefined) => {
           if (err) {
             reject(err);
             return;
@@ -105,7 +121,7 @@ export class PlatformRepository {
   async updatePlatform(id: string, platform: Partial<Platform>): Promise<void> {
     return new Promise((resolve, reject) => {
       const updates: string[] = [];
-      const params: any[] = [];
+      const params: SqlParam[] = [];
 
       if (platform.name !== undefined) {
         updates.push('name = ?');
@@ -132,17 +148,13 @@ export class PlatformRepository {
 
       params.push(id);
 
-      this.db.run(
-        `UPDATE platforms SET ${updates.join(', ')} WHERE id = ?`,
-        params,
-        (err) => {
-          if (err) {
-            reject(err);
-          } else {
-            resolve();
-          }
+      this.db.run(`UPDATE platforms SET ${updates.join(', ')} WHERE id = ?`, params, err => {
+        if (err) {
+          reject(err);
+        } else {
+          resolve();
         }
-      );
+      });
     });
   }
 
@@ -151,7 +163,7 @@ export class PlatformRepository {
    */
   async deletePlatform(id: string): Promise<void> {
     return new Promise((resolve, reject) => {
-      this.db.run('DELETE FROM platforms WHERE id = ?', [id], (err) => {
+      this.db.run('DELETE FROM platforms WHERE id = ?', [id], err => {
         if (err) {
           reject(err);
         } else {
@@ -169,11 +181,11 @@ export class PlatformRepository {
       this.db.get(
         'SELECT COUNT(*) as count FROM platforms WHERE id = ?',
         [id],
-        (err, row: any) => {
+        (err, row: CountRow | undefined) => {
           if (err) {
             reject(err);
           } else {
-            resolve(row.count > 0);
+            resolve((row?.count ?? 0) > 0);
           }
         }
       );

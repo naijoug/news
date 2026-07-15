@@ -1,5 +1,7 @@
 # Task 8: 性能优化和最终调整 - 实施总结
 
+> 历史记录说明：本文记录 Task 8 完成当时的交付情况，部分路径和命令沿用当时结构（例如早期的根目录文档路径或子目录 npm 命令）。当前使用、部署和测试请以 `README.md` 与 `docs/DEPLOYMENT.md`、`docs/E2E_TESTING.md`、`docs/PLATFORM_CONFIGURATION.md`、`docs/CONTRIBUTING.md` 为准；本文不作为最新操作手册。
+
 ## 概述
 
 本任务完成了新闻聚合系统的性能优化、错误处理、生产环境配置和端到端测试的实施。

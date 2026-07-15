@@ -298,8 +298,7 @@ backend/src/config/platforms.json
 运行配置验证脚本：
 
 ```bash
-cd backend
-npm run validate-config
+npm run validate-config --workspace=backend
 ```
 
 ### 步骤 4：导入配置到数据库
@@ -443,8 +442,7 @@ WEIBO_COOKIE=your_cookie_here
 1. 查看后端日志：
 
 ```bash
-cd backend
-npm run dev
+npm run dev --workspace=backend
 # 查看控制台输出
 ```
 

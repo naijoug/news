@@ -10,6 +10,7 @@
     "test:watch": "jest --watch",
     "import-platforms": "ts-node src/scripts/importPlatforms.ts",
     "test-crawler": "ts-node src/scripts/testCrawler.ts",
+    "validate-config": "ts-node src/scripts/validatePlatformConfig.ts",
     "lint": "eslint \"src/**/*.{js,ts}\"",
     "lint:fix": "eslint \"src/**/*.{js,ts}\" --fix"
   },

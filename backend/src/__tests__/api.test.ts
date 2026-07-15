@@ -3,9 +3,8 @@ import express from 'express';
 import { errorHandler, notFoundHandler } from '../middleware/errorHandler';
 import { cacheMiddleware } from '../middleware/cache';
 import { closeDatabase, initializeDatabase } from '../utils/database';
-import { NewsRepository } from '../repositories/NewsRepository';
 import { PlatformRepository } from '../repositories/PlatformRepository';
-import { NewsItem, Platform } from '../types';
+import { Platform } from '../types';
 
 // Mock CrawlerFactory so crawl trigger tests never hit real network.
 // The mock returns lightweight stub crawlers that resolve instantly.
@@ -60,14 +59,12 @@ const createTestApp = () => {
 
 describe('API Integration Tests', () => {
   let app: express.Application;
-  let newsRepo: NewsRepository;
   let platformRepo: PlatformRepository;
 
   beforeAll(async () => {
     // Initialize test database
     await initializeDatabase();
     app = createTestApp();
-    newsRepo = new NewsRepository();
     platformRepo = new PlatformRepository();
 
     await platformRepo.createPlatform({

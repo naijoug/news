@@ -1,5 +1,3 @@
-import { Platform, CrawlerConfig } from '../types';
-
 export class ConfigValidator {
   /**
    * Validate platform configuration

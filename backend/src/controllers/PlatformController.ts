@@ -2,7 +2,6 @@ import { Request, Response, NextFunction } from 'express';
 import { PlatformRepository } from '../repositories/PlatformRepository';
 import { ConfigValidator } from '../utils/configValidator';
 import { CrawlerFactory } from '../crawlers/CrawlerFactory';
-import { Platform } from '../types';
 
 export class PlatformController {
   private platformRepo: PlatformRepository;

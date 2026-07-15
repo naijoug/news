@@ -6,6 +6,8 @@ import { closeDatabase, initializeDatabase } from '../utils/database';
 import { PlatformRepository } from '../repositories/PlatformRepository';
 import { Platform } from '../types';
 
+type MockPlatform = Pick<Platform, 'id' | 'name'>;
+
 // Mock CrawlerFactory so crawl trigger tests never hit real network.
 // The mock returns lightweight stub crawlers that resolve instantly.
 jest.mock('../crawlers/CrawlerFactory', () => {
@@ -35,9 +37,11 @@ jest.mock('../crawlers/CrawlerFactory', () => {
   });
   return {
     CrawlerFactory: {
-      createCrawler: jest.fn((platform: any) => createStubCrawler(platform.id, platform.name)),
-      createCrawlers: jest.fn((platforms: any[]) =>
-        platforms.map((p: any) => createStubCrawler(p.id, p.name))
+      createCrawler: jest.fn((platform: MockPlatform) =>
+        createStubCrawler(platform.id, platform.name)
+      ),
+      createCrawlers: jest.fn((platforms: MockPlatform[]) =>
+        platforms.map(platform => createStubCrawler(platform.id, platform.name))
       ),
     },
   };

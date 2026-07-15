@@ -33,8 +33,9 @@ async function importPlatforms() {
     console.log('Platform import completed successfully');
 
     process.exit(skipped > 0 ? 1 : 0);
-  } catch (error: any) {
-    console.error('Error importing platforms:', error.message);
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.error('Error importing platforms:', message);
     process.exit(1);
   }
 }

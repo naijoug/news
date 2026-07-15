@@ -13,8 +13,9 @@ function validatePlatformConfig() {
     console.log('Configuration validation passed');
     console.log(`Total platforms: ${platforms.length}`);
     process.exit(0);
-  } catch (error: any) {
-    console.error('Configuration validation failed:', error.message);
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.error('Configuration validation failed:', message);
     process.exit(1);
   }
 }

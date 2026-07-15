@@ -1,3 +1,6 @@
+export type JsonValue =
+  string | number | boolean | null | JsonValue[] | { [key: string]: JsonValue };
+
 export interface NewsItem {
   id?: number;
   title: string;
@@ -26,8 +29,8 @@ export interface CrawlerConfig {
     endpoint: string;
     method: 'GET' | 'POST';
     headers?: Record<string, string>;
-    params?: Record<string, any>;
-    body?: any;
+    params?: Record<string, JsonValue>;
+    body?: JsonValue;
     dataPath: string;
   };
   parser: {

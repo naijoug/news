@@ -1,4 +1,5 @@
 import * as cheerio from 'cheerio';
+import type { AnyNode } from 'domhandler';
 
 type UnknownRecord = Record<string, unknown>;
 
@@ -13,7 +14,11 @@ export class DataExtractor {
   /**
    * Extract value using CSS selector from Cheerio element
    */
-  static extractWithSelector($: cheerio.CheerioAPI, element: any, selector: string): string | null {
+  static extractWithSelector(
+    $: cheerio.CheerioAPI,
+    element: AnyNode,
+    selector: string
+  ): string | null {
     try {
       // Check if selector includes attribute extraction (e.g., "a@href")
       const attrMatch = selector.match(/^(.+)@(\w+)$/);

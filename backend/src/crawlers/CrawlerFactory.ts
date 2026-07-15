@@ -17,15 +17,15 @@ export class CrawlerFactory {
     switch (config.type) {
       case 'static':
         return new StaticCrawler(id, name, config);
-      
+
       case 'dynamic':
         return new DynamicCrawler(id, name, config);
-      
+
       case 'api':
         return new ApiCrawler(id, name, config);
-      
+
       default:
-        throw new Error(`Unknown crawler type: ${(config as any).type}`);
+        throw new Error(`Unknown crawler type: ${(config as { type?: unknown }).type}`);
     }
   }
 

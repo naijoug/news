@@ -106,6 +106,19 @@ npm run build:backend
 npm run build:frontend
 ```
 
+### 本地质量检查
+
+```bash
+# 前后端 TypeScript 纯类型检查（不写入 dist/）
+npm run type-check
+
+# 前后端 ESLint 检查
+npm run lint
+
+# 发布前完整构建体检
+npm run build
+```
+
 ### 生产环境部署
 
 详细的部署说明请查看 [DEPLOYMENT.md](./docs/DEPLOYMENT.md)

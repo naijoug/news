@@ -10,6 +10,9 @@ import {
 import PlatformForm from './PlatformForm';
 import PlatformTestModal from './PlatformTestModal';
 
+const resolveErrorMessage = (error: unknown): string =>
+  error instanceof Error ? error.message : String(error);
+
 const PlatformManagement: React.FC = () => {
   const [platforms, setPlatforms] = useState<Platform[]>([]);
   const [loading, setLoading] = useState(true);
@@ -26,8 +29,8 @@ const PlatformManagement: React.FC = () => {
       setError(null);
       const response = await fetchPlatforms();
       setPlatforms(response.data);
-    } catch (err: any) {
-      setError(err.message);
+    } catch (err) {
+      setError(resolveErrorMessage(err));
     } finally {
       setLoading(false);
     }
@@ -48,8 +51,8 @@ const PlatformManagement: React.FC = () => {
       await loadPlatforms();
       setShowForm(false);
       setEditingPlatform(null);
-    } catch (err: any) {
-      alert(err.message);
+    } catch (err) {
+      alert(resolveErrorMessage(err));
     }
   };
 
@@ -62,8 +65,8 @@ const PlatformManagement: React.FC = () => {
     try {
       await deletePlatform(id);
       await loadPlatforms();
-    } catch (err: any) {
-      alert(err.message);
+    } catch (err) {
+      alert(resolveErrorMessage(err));
     }
   };
 
@@ -73,8 +76,8 @@ const PlatformManagement: React.FC = () => {
       setTestingPlatformId(id);
       const result = await testPlatform(id);
       setTestResult(result);
-    } catch (err: any) {
-      alert(err.message);
+    } catch (err) {
+      alert(resolveErrorMessage(err));
     } finally {
       setTestingPlatformId(null);
     }
@@ -85,8 +88,8 @@ const PlatformManagement: React.FC = () => {
     try {
       await updatePlatform(platform.id, { enabled: !platform.enabled });
       await loadPlatforms();
-    } catch (err: any) {
-      alert(err.message);
+    } catch (err) {
+      alert(resolveErrorMessage(err));
     }
   };
 
@@ -179,7 +182,7 @@ const PlatformManagement: React.FC = () => {
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
-            {platforms.map((platform) => (
+            {platforms.map(platform => (
               <tr key={platform.id} className="hover:bg-gray-50">
                 <td className="px-6 py-4 whitespace-nowrap">
                   <div className="flex items-center">
@@ -187,14 +190,13 @@ const PlatformManagement: React.FC = () => {
                       src={platform.iconUrl}
                       alt={platform.name}
                       className="w-8 h-8 rounded-full mr-3"
-                      onError={(e) => {
-                        (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray"%3E%3Cpath d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/%3E%3C/svg%3E';
+                      onError={e => {
+                        (e.target as HTMLImageElement).src =
+                          'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray"%3E%3Cpath d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/%3E%3C/svg%3E';
                       }}
                     />
                     <div>
-                      <div className="text-sm font-medium text-gray-900">
-                        {platform.name}
-                      </div>
+                      <div className="text-sm font-medium text-gray-900">{platform.name}</div>
                       <div className="text-sm text-gray-500">{platform.id}</div>
                     </div>
                   </div>
@@ -208,9 +210,7 @@ const PlatformManagement: React.FC = () => {
                   <button
                     onClick={() => handleToggleEnabled(platform)}
                     className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${
-                      platform.enabled
-                        ? 'bg-green-100 text-green-800'
-                        : 'bg-gray-100 text-gray-800'
+                      platform.enabled ? 'bg-green-100 text-green-800' : 'bg-gray-100 text-gray-800'
                     }`}
                   >
                     {platform.enabled ? '已启用' : '已禁用'}
@@ -256,12 +256,7 @@ const PlatformManagement: React.FC = () => {
       )}
 
       {/* 测试结果模态框 */}
-      {testResult && (
-        <PlatformTestModal
-          result={testResult}
-          onClose={() => setTestResult(null)}
-        />
-      )}
+      {testResult && <PlatformTestModal result={testResult} onClose={() => setTestResult(null)} />}
     </div>
   );
 };

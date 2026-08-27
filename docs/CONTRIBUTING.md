@@ -93,6 +93,19 @@ npm run lint --workspace=backend
 npm run lint --workspace=frontend
 ```
 
+### TypeScript 类型检查
+
+根目录提供前后端工作区统一的纯类型检查入口，不会写入 `dist/`：
+
+```bash
+# 前后端 TypeScript 纯类型检查
+npm run type-check
+
+# 检查特定工作区
+npm run type-check --workspace=backend
+npm run type-check --workspace=frontend
+```
+
 ### Prettier
 
 Prettier 配置文件：`.prettierrc`
@@ -332,6 +345,7 @@ git push origin feature/your-feature-name
 
 在提交 PR 前，请确保：
 
+- [ ] 代码通过 `npm run type-check` 纯类型检查
 - [ ] 代码通过所有 lint 检查
 - [ ] 代码格式符合 Prettier 规范
 - [ ] 所有测试通过

@@ -57,7 +57,7 @@ export const usePlatforms = () => {
 
   // 全选平台
   const selectAllPlatforms = useCallback(() => {
-    const allPlatformIds = platforms.filter((p) => p.enabled).map((p) => p.id);
+    const allPlatformIds = platforms.filter(p => p.enabled).map(p => p.id);
     setSelectedPlatforms(allPlatformIds);
   }, [platforms, setSelectedPlatforms]);
 
@@ -71,7 +71,7 @@ export const usePlatforms = () => {
     if (platforms.length === 0) {
       loadPlatforms();
     }
-  }, []);
+  }, [loadPlatforms, platforms.length]);
 
   return {
     platforms,

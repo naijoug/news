@@ -3,13 +3,11 @@ import { NewsItem, NewsFilter, ApiResponse } from '../types';
 
 // 获取新闻列表
 // 使用 HTTP 缓存机制（ETag + 304），不需要应用层缓存
-export const fetchNews = async (
-  filter?: NewsFilter
-): Promise<ApiResponse<NewsItem[]>> => {
+export const fetchNews = async (filter?: NewsFilter): Promise<ApiResponse<NewsItem[]>> => {
   try {
     // 构建查询参数
-    const params: Record<string, any> = {};
-    
+    const params: Record<string, string | number> = {};
+
     if (filter?.platformIds && filter.platformIds.length > 0) {
       params.platforms = filter.platformIds.join(',');
     }

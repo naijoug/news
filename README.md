@@ -115,6 +115,9 @@ npm run type-check
 # 前后端 ESLint 检查
 npm run lint
 
+# 后端 Jest 回归测试
+npm test
+
 # 发布前完整构建体检
 npm run build
 ```

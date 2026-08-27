@@ -244,7 +244,10 @@ git commit -m "refactor(backend): 优化数据库查询逻辑"
 ### 后端测试
 
 ```bash
-# 运行所有后端测试
+# 运行所有后端测试（根目录入口）
+npm test
+
+# 或定向到后端工作区
 npm test --workspace=backend
 
 # 监听模式

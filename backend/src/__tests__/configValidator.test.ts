@@ -116,4 +116,21 @@ describe('ConfigValidator', () => {
       errors: { _general: ['Platforms must be an array'] },
     });
   });
+
+  it('rejects duplicate platform ids before import-time overwrite ambiguity', () => {
+    const result = ConfigValidator.validatePlatforms([
+      validStaticPlatform,
+      {
+        ...validStaticPlatform,
+        name: 'Duplicate Hacker News',
+      },
+    ]);
+
+    expect(result).toEqual({
+      valid: false,
+      errors: {
+        'hacker-news': ['Platform id must be unique'],
+      },
+    });
+  });
 });

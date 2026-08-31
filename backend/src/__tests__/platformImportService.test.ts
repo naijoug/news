@@ -90,6 +90,17 @@ describe('PlatformImportService', () => {
     );
   });
 
+  it('throws a validation detail before importing duplicate platform ids', () => {
+    const configPath = writeConfig('duplicate-platforms.json', [
+      makePlatform('hacker-news'),
+      makePlatform('hacker-news', { name: 'Duplicate Hacker News' }),
+    ]);
+
+    expect(() => loadPlatformConfig(configPath)).toThrow(
+      'Platform configuration validation failed:\nhacker-news: Platform id must be unique'
+    );
+  });
+
   it('creates new platforms, updates existing platforms, and skips failed imports', async () => {
     const existingPlatform = makePlatform('existing', {
       enabled: false,

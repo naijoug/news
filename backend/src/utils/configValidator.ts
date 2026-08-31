@@ -138,12 +138,24 @@ export class ConfigValidator {
     const allErrors: Record<string, string[]> = {};
     let hasErrors = false;
 
+    const seenIds = new Set<string>();
+
     platforms.forEach((platform, index) => {
       const result = this.validatePlatform(platform);
+      const platformId =
+        isRecord(platform) && typeof platform.id === 'string' ? platform.id : `platform_${index}`;
+
+      if (isRecord(platform) && typeof platform.id === 'string' && platform.id) {
+        if (seenIds.has(platform.id)) {
+          result.valid = false;
+          result.errors.push('Platform id must be unique');
+        } else {
+          seenIds.add(platform.id);
+        }
+      }
+
       if (!result.valid) {
         hasErrors = true;
-        const platformId =
-          isRecord(platform) && typeof platform.id === 'string' ? platform.id : `platform_${index}`;
         allErrors[platformId] = result.errors;
       }
     });

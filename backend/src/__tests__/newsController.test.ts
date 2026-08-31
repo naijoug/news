@@ -106,6 +106,36 @@ describe('NewsController', () => {
       expect(next).not.toHaveBeenCalled();
     });
 
+    it('passes repeated platform query parameters through as platform IDs', async () => {
+      const { controller, newsRepo, res, next } = createController();
+      newsRepo.getNews.mockResolvedValue([]);
+      newsRepo.getNewsCount.mockResolvedValue(0);
+
+      await controller.getNews(
+        {
+          query: {
+            platforms: ['weibo', 'zhihu'],
+          },
+        } as unknown as Request,
+        res as Response,
+        next
+      );
+
+      expectRepositoryFilter(newsRepo, {
+        platformIds: ['weibo', 'zhihu'],
+        limit: 50,
+        offset: 0,
+      });
+      expect(res.json).toHaveBeenCalledWith({
+        success: true,
+        data: [],
+        total: 0,
+        limit: 50,
+        offset: 0,
+      });
+      expect(next).not.toHaveBeenCalled();
+    });
+
     it('passes repository failures to Express error middleware without writing a response', async () => {
       const { controller, newsRepo, res, next } = createController();
       const error = new Error('database unavailable');

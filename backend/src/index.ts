@@ -14,7 +14,6 @@ import { importPlatformConfig } from './services/PlatformImportService';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors());
@@ -33,9 +32,11 @@ app.use('/api', cacheMiddleware, apiRoutes);
 app.use(notFoundHandler);
 app.use(errorHandler);
 
-// Initialize database and start server
-initializeDatabase()
-  .then(async () => {
+export const startServer = async (): Promise<void> => {
+  const port = process.env.PORT || 3000;
+
+  try {
+    await initializeDatabase();
     console.log('Database initialized successfully');
 
     // Seed/update configured platforms on startup so a fresh Docker volume is usable immediately.
@@ -59,13 +60,17 @@ initializeDatabase()
     cleanupService.start();
     console.log(`Cleanup service started (keeping ${daysToKeep} days of data)`);
 
-    app.listen(PORT, () => {
-      console.log(`Server running on port ${PORT}`);
+    app.listen(port, () => {
+      console.log(`Server running on port ${port}`);
     });
-  })
-  .catch(error => {
+  } catch (error) {
     console.error('Failed to initialize database:', error);
     process.exit(1);
-  });
+  }
+};
+
+if (require.main === module) {
+  startServer();
+}
 
 export default app;

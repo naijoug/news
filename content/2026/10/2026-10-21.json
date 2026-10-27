@@ -1,0 +1,200 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-21",
+  "am": {
+    "tech": [
+      {
+        "id": "openai-google-cloud-orchestra",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI模型登陆谷歌云 并收购Orchestra Bio",
+          "en": "OpenAI models come to Google Cloud; OpenAI buys Orchestra Bio"
+        },
+        "summary": {
+          "zh": "OpenAI模型和Codex通过谷歌云提供，ChatGPT广告扩展至89个国家，并收购生命科学平台Orchestra Bio。",
+          "en": "OpenAI made its models and Codex available via Google Cloud, expanded ChatGPT ads to 89 countries and acquired Orchestra Bio."
+        },
+        "sources": [
+          {
+            "name": "ToolSift",
+            "url": "https://toolsift.ai/news/2026-10-21/",
+            "lang": "en"
+          },
+          {
+            "name": "The Morning Build",
+            "url": "https://themorningbuild.com/digest/2026-10-21/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "wiz-php2shell",
+        "originalLang": "en",
+        "title": {
+          "zh": "Wiz披露AI发现的PHP严重远程代码执行漏洞",
+          "en": "Wiz discloses AI-found critical PHP RCE flaws"
+        },
+        "summary": {
+          "zh": "安全公司Wiz披露“PHP2Shell”漏洞，称借助AI发现，影响大量网站，补丁已于当日发布。",
+          "en": "Wiz disclosed PHP2Shell, critical PHP remote-code-execution flaws found with AI that affect a large share of websites; patches shipped the same day."
+        },
+        "sources": [
+          {
+            "name": "Wiz Blog",
+            "url": "https://www.wiz.io/blog/php2shell-php-rce",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nvidia-dsx-pod",
+        "originalLang": "en",
+        "title": {
+          "zh": "英伟达推出14天交付的集装箱式AI工厂DSX POD",
+          "en": "Nvidia unveils DSX POD AI factories shipping in 14 days"
+        },
+        "summary": {
+          "zh": "英伟达发布可在14天内部署的集装箱式AI工厂DSX POD；Mistral推出Voxtral 3语音模型。",
+          "en": "Nvidia introduced DSX POD containerized AI factories deployable in 14 days; Mistral launched Voxtral 3 voice models."
+        },
+        "sources": [
+          {
+            "name": "SEN-X",
+            "url": "https://senx.ai/news/2026-10-21-daily-ai-news",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "libya-turkiye-maritime-deal",
+        "originalLang": "en",
+        "title": {
+          "zh": "利比亚议会批准与土耳其的海洋划界协议",
+          "en": "Libya's parliament approves maritime deal with Türkiye"
+        },
+        "summary": {
+          "zh": "利比亚议会批准与土耳其的海洋边界协议，并撤销此前针对安卡拉的决议。",
+          "en": "Libya's parliament approved its maritime-boundary deal with Türkiye and repealed earlier resolutions against Ankara."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-21-2026/4095279",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "lebanon-israel-tampa-talks",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国主持黎以军事技术谈判在坦帕举行",
+          "en": "US-hosted Lebanon-Israel military talks open in Tampa"
+        },
+        "summary": {
+          "zh": "美国主持的黎巴嫩与以色列军事技术谈判在坦帕结束首日会谈；特朗普敦促泽连斯基结束战争。",
+          "en": "US-sponsored Lebanon-Israel military-technical talks wrapped their first day in Tampa; Trump urged Zelenskyy to end the war."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-21-2026/4095279",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "spacex-earnings-lift-stocks",
+        "originalLang": "en",
+        "title": {
+          "zh": "SpaceX财报亮眼提振科技股",
+          "en": "Strong SpaceX results lift tech stocks"
+        },
+        "summary": {
+          "zh": "10月21日纳指涨1.05%，标普500涨0.58%，SpaceX和超微电脑业绩提振AI板块。",
+          "en": "The Nasdaq rose 1.05% and the S&P 500 0.58% on Oct. 21 as results from SpaceX and Super Micro boosted AI sentiment."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stocks-markets-rates-oil-earnings-ai-4fa93685cd49e51e7ff0d840fdd38b0d",
+            "lang": "en"
+          },
+          {
+            "name": "WSJ",
+            "url": "https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-spacex-spurs-ai-relief-rally-9d3763e7",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "737-max-10-certified",
+        "originalLang": "en",
+        "title": {
+          "zh": "FAA为波音737 MAX 10颁发型号合格证",
+          "en": "FAA certifies Boeing 737 MAX 10"
+        },
+        "summary": {
+          "zh": "美国联邦航空管理局为波音737 MAX 10颁证；谷歌云故障影响英国多家银行服务。",
+          "en": "The FAA certified the Boeing 737 MAX 10; a Google Cloud outage hit UK banks and services."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-21-2026/4095279",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "china-russia-pm-meeting-31",
+        "originalLang": "zh",
+        "title": {
+          "zh": "李强与米舒斯京举行中俄总理第三十一次定期会晤",
+          "en": "Li Qiang and Mishustin hold 31st regular meeting"
+        },
+        "summary": {
+          "zh": "李强在圣彼得堡与俄罗斯总理米舒斯京举行中俄总理第三十一次定期会晤。",
+          "en": "Li Qiang and Russian PM Mikhail Mishustin held their 31st regular meeting in St. Petersburg."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/21/VIDEKy8AnoQOglEVjoaPakKn261021.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "long-march-90th",
+        "originalLang": "zh",
+        "title": {
+          "zh": "纪念红军长征胜利90周年",
+          "en": "China marks 90th anniversary of the Long March"
+        },
+        "summary": {
+          "zh": "《新闻联播》报道纪念长征胜利90周年相关活动，强调走好新的长征路。",
+          "en": "CCTV covered events marking the 90th anniversary of the Long March's conclusion."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/21/VIDEKy8AnoQOglEVjoaPakKn261021.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "东方财富",
+            "url": "https://finance.eastmoney.com/a/202610213902955117.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-15",
+  "am": {
+    "tech": [
+      {
+        "id": "eu-ai-act-first-probes",
+        "originalLang": "en",
+        "title": {
+          "zh": "欧盟首次依据《人工智能法》向OpenAI和Anthropic发出调查问询",
+          "en": "EU opens first AI Act probes into OpenAI, Anthropic"
+        },
+        "summary": {
+          "zh": "欧盟就智能体安全事件向OpenAI和Anthropic发出首批《人工智能法》信息要求，这是该法首次执法测试。",
+          "en": "The EU sent its first AI Act information requests to OpenAI and Anthropic over agent-security incidents, the law's first enforcement test."
+        },
+        "sources": [
+          {
+            "name": "AI News Today",
+            "url": "https://ai-news-online.com/briefing/2026-10-15/",
+            "lang": "en"
+          },
+          {
+            "name": "DX Today",
+            "url": "https://dxtoday.com/blog/2026-10-15",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "en": "According to [AI News Today](https://ai-news-online.com/briefing/2026-10-15/) and [DX Today](https://dxtoday.com/blog/2026-10-15), Brussels opened the first enforcement test of the EU AI Act with information requests aimed at OpenAI and Anthropic.\n\nThe requests follow a string of agent-security incidents disclosed by the labs this month. Separately, eight US states sued OpenAI over ChatGPT safety claims."
+        }
+      },
+      {
+        "id": "states-sue-openai",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国八州起诉OpenAI 指ChatGPT安全宣传不实",
+          "en": "Eight states sue OpenAI over ChatGPT safety claims"
+        },
+        "summary": {
+          "zh": "美国八个州起诉OpenAI，指控其ChatGPT安全宣传不实并对儿童构成风险。",
+          "en": "Eight US states sued OpenAI over ChatGPT safety claims and risks to children."
+        },
+        "sources": [
+          {
+            "name": "CuratedAI",
+            "url": "https://www.curatedai.net/briefing/2026-10-15.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "trump-iran-war-end-soon",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普称伊朗战争将很快结束、油价将下降",
+          "en": "Trump says Iran war will end soon and oil will fall"
+        },
+        "summary": {
+          "zh": "特朗普声称对伊朗的战争很快结束，油价随后将回落。",
+          "en": "Trump claimed the Iran war would end soon and oil prices would fall."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-15-2026/4089210",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "iraq-no-attacks-from-territory",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊拉克总理承诺不允许从境内攻击沙特等国",
+          "en": "Iraq PM pledges no attacks on Saudi Arabia from Iraq"
+        },
+        "summary": {
+          "zh": "伊拉克总理阿里·扎伊迪承诺不允许从伊拉克境内对沙特或其他地区国家发动袭击。",
+          "en": "Iraqi PM Ali al-Zaidi pledged not to allow attacks on Saudi Arabia or other regional countries from Iraq."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-15-2026/4089210",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "taiz-clashes-houthis",
+        "originalLang": "en",
+        "title": {
+          "zh": "也门政府军称塔伊兹冲突中逾200名胡塞武装人员死伤",
+          "en": "Yemen says 200+ Houthis killed or hurt in Taiz"
+        },
+        "summary": {
+          "zh": "也门政府军称在塔伊兹的冲突中造成200多名胡塞武装人员死伤。",
+          "en": "Yemeni forces said more than 200 Houthi fighters were killed or injured in Taiz clashes."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-15-2026/4089210",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "dow-up-556-rotation",
+        "originalLang": "en",
+        "title": {
+          "zh": "资金撤离科技股 道指大涨556点",
+          "en": "Dow jumps 556 points as investors rotate out of tech"
+        },
+        "summary": {
+          "zh": "10月15日道指涨1.1%至52177.69点，批发物价超预期，资金从科技股转向其他板块。",
+          "en": "The Dow rose 1.1% to 52,177.69 on Oct. 15 as investors rotated out of tech despite hot wholesale inflation."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stock-markets-kospi-tech-shares-e889ad7dee2b7dd959f1b8bc87366914",
+            "lang": "en"
+          },
+          {
+            "name": "Investopedia",
+            "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10152026-12174789",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-q3-revenue-reported",
+        "originalLang": "en",
+        "title": {
+          "zh": "报道称Anthropic第三季度营收168亿美元",
+          "en": "Anthropic reportedly posts $16.8B Q3 revenue"
+        },
+        "summary": {
+          "zh": "据报道Anthropic三季度营收达168亿美元；Modal以157.5亿美元估值融资7.5亿美元。",
+          "en": "Anthropic reportedly posted $16.8B in Q3 revenue, and Modal raised $750M at a $15.75B valuation."
+        },
+        "sources": [
+          {
+            "name": "AI News Today",
+            "url": "https://ai-news-online.com/briefing/2026-10-15/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "new-yalu-river-bridge",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中朝新鸭绿江大桥开通 李强致辞",
+          "en": "New China-DPRK Yalu River Bridge opens"
+        },
+        "summary": {
+          "zh": "李强在中朝新鸭绿江大桥开通仪式上致辞，并会见博茨瓦纳总统。",
+          "en": "Li Qiang spoke at the opening of the new China-DPRK Yalu River Bridge and met Botswana's president."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/15/VIDEk89bQYrpSqGrWKeOz3jD261015.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "新闻联播文字版",
+            "url": "https://www.cuobiezi.net/news/cctv/xwlb/day/2026-10-15",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "zhuque-2-ten-satellites",
+        "originalLang": "zh",
+        "title": {
+          "zh": "朱雀二号“一箭十星”发射成功",
+          "en": "Zhuque-2 launches ten satellites at once"
+        },
+        "summary": {
+          "zh": "国内联播快讯报道朱雀二号运载火箭“一箭十星”发射成功；全国秋粮收获进度超六成。",
+          "en": "CCTV briefs reported a Zhuque-2 rocket launched ten satellites; the autumn harvest passed 60%."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/15/VIDEk89bQYrpSqGrWKeOz3jD261015.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

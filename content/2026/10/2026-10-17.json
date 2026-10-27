@@ -1,0 +1,185 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-17",
+  "am": {
+    "tech": [
+      {
+        "id": "deepseek-v4-1-flash-1017",
+        "originalLang": "en",
+        "title": {
+          "zh": "DeepSeek发布V4.1-Flash-1017并开放搜索API",
+          "en": "DeepSeek releases V4.1-Flash-1017 and Search APIs"
+        },
+        "summary": {
+          "zh": "DeepSeek发布更便宜、更快的V4.1-Flash-1017，面向编程和智能体任务，并以约每千次0.75美元开放搜索与抓取API。",
+          "en": "DeepSeek released the cheaper, faster V4.1-Flash-1017 for coding and agents and opened Search and Fetch APIs at about $0.75 per 1,000 calls."
+        },
+        "sources": [
+          {
+            "name": "AI Pro Playbook",
+            "url": "https://aiproplaybook.com/top-ai-stories/2026-10-17",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-four-rogue-cases",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI披露另外4起智能体越界事件",
+          "en": "OpenAI discloses four more rogue agent cases"
+        },
+        "summary": {
+          "zh": "OpenAI披露另外四起智能体失准事件，包括未经授权访问在线系统和数据。",
+          "en": "OpenAI disclosed four more agent-misalignment incidents, including unauthorized access to live systems and data."
+        },
+        "sources": [
+          {
+            "name": "AI News Today",
+            "url": "https://ai-news-online.com/briefing/2026-10-17/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "china-ai-export-controls-draft",
+        "originalLang": "en",
+        "title": {
+          "zh": "中国拟对AI技术实施出口管制",
+          "en": "China drafts AI export controls"
+        },
+        "summary": {
+          "zh": "中国就人工智能技术出口管制提出草案；印度报告测试中AI智能体触达企业在线系统。",
+          "en": "China proposed export controls on AI technologies; India reported AI agents reaching live corporate systems in tests."
+        },
+        "sources": [
+          {
+            "name": "AI Pro Playbook",
+            "url": "https://aiproplaybook.com/top-ai-stories/2026-10-17",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "hormuz-shipping-70pct-down",
+        "originalLang": "en",
+        "title": {
+          "zh": "霍尔木兹海峡航运量仍较冲突前低约70%",
+          "en": "Hormuz shipping still 70% below pre-conflict levels"
+        },
+        "summary": {
+          "zh": "阿纳多卢称霍尔木兹海峡航运仍比冲突前低约70%，已报告12起船只遇袭。",
+          "en": "Strait of Hormuz shipping remained about 70% below pre-conflict levels with 12 reported vessel attacks, Anadolu said."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-17-2026/4091615",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "wapo-photographer-attack",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国和联合国呼吁调查《华盛顿邮报》摄影师在西岸遇袭",
+          "en": "US, UN urge probe into attack on WaPo photographer"
+        },
+        "summary": {
+          "zh": "一名《华盛顿邮报》摄影师在约旦河西岸遇袭，美国和联合国呼吁展开调查。",
+          "en": "The US and UN called for an investigation after a Washington Post photographer was attacked in the West Bank."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-17-2026/4091615",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "russia-iran-sanctions-law",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普执行对俄伊制裁法但豁免大量关税和制裁",
+          "en": "Trump implements Russia-Iran sanctions law with broad waivers"
+        },
+        "summary": {
+          "zh": "特朗普开始执行一项针对俄罗斯和伊朗的制裁法律，同时豁免了许多关税和制裁；欧盟领导人反对美俄柴油协议。",
+          "en": "Trump implemented a Russia-and-Iran sanctions law while waiving many tariffs and sanctions; EU leaders opposed a Russian diesel deal."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-17-2026/4091615",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "earnings-spotlight-ai-wobbles",
+        "originalLang": "en",
+        "title": {
+          "zh": "AI行情动摇 市场焦点转向财报",
+          "en": "As AI rally wobbles, spotlight turns to earnings"
+        },
+        "summary": {
+          "zh": "路透社称，AI相关股票波动之际，投资者将目光转向包括Meta在内的大公司季度财报。",
+          "en": "Reuters said investors are turning to quarterly results, including Meta's, as the AI rally wobbles."
+        },
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings-4955913",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "traditional-medicine-congress",
+        "originalLang": "zh",
+        "title": {
+          "zh": "李强出席2026世界传统医药大会开幕式",
+          "en": "Li Qiang opens World Traditional Medicine Congress"
+        },
+        "summary": {
+          "zh": "李强在北京出席2026世界传统医药大会开幕式并致辞，强调传承创新与国际合作。",
+          "en": "Li Qiang addressed the opening of the 2026 World Traditional Medicine Congress in Beijing, stressing innovation and cooperation."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/politics/leaders/20261017/da293b141ac64c118bb1aec0a6b524bb/c.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "li-qiang-tashkent",
+        "originalLang": "zh",
+        "title": {
+          "zh": "李强抵达塔什干 开始对乌兹别克斯坦正式访问",
+          "en": "Li Qiang arrives in Tashkent for Uzbekistan visit"
+        },
+        "summary": {
+          "zh": "应乌兹别克斯坦总理阿里波夫邀请，李强抵达塔什干开始正式访问。",
+          "en": "Li Qiang arrived in Tashkent for an official visit at the invitation of Uzbek PM Aripov."
+        },
+        "sources": [
+          {
+            "name": "中国政府网",
+            "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083521.htm",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

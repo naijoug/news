@@ -1,0 +1,176 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-19",
+  "am": {
+    "tech": [
+      {
+        "id": "anthropic-q3-public-benefit",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic三季度营收168亿美元 拟将5%股份注入公益基金",
+          "en": "Anthropic posts $16.8B Q3, pledges 5% of shares to public-benefit fund"
+        },
+        "summary": {
+          "zh": "Anthropic三季度营收168亿美元、环比增长45%，并承诺将5%股份投入公益基金。",
+          "en": "Anthropic reported $16.8B in Q3 revenue, up 45% sequentially, and committed 5% of its shares to a public-benefit fund."
+        },
+        "sources": [
+          {
+            "name": "Lightscape Partners",
+            "url": "https://lightscape.beehiiv.com/p/the-ai-rundown-by-lightscape-partners-10-19-2026",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-19-2026/4093015",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "us-bars-deepseek-federal",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国禁止联邦民事机构使用DeepSeek",
+          "en": "US bars DeepSeek from federal civilian agencies"
+        },
+        "summary": {
+          "zh": "美国禁止联邦民事机构和政府合同使用DeepSeek；中国提议将境外托管受限AI模型视为出口。",
+          "en": "The US barred DeepSeek from federal civilian agencies and contracts; China proposed treating overseas hosting of restricted models as exports."
+        },
+        "sources": [
+          {
+            "name": "CuratedAI",
+            "url": "https://www.curatedai.net/briefing/2026-10-19.html",
+            "lang": "en"
+          },
+          {
+            "name": "AI and GPP",
+            "url": "https://aiandgpp.com/2026/10/19/the-briefing-19-october-2026/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "trump-holds-off-russia",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普暂缓对俄新措施以保护乌克兰和谈",
+          "en": "Trump holds off on new Russia measures"
+        },
+        "summary": {
+          "zh": "特朗普决定暂不对俄罗斯采取新措施，以保护乌克兰和平谈判。",
+          "en": "Trump held off on new Russia measures to protect Ukraine peace talks."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-19-2026/4093015",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "canada-base-fire",
+        "originalLang": "en",
+        "title": {
+          "zh": "加拿大军事基地火灾致4死",
+          "en": "Fire at Canadian military base kills four"
+        },
+        "summary": {
+          "zh": "加拿大一处军事基地发生火灾，造成4人死亡、数十人受伤。",
+          "en": "A fire at a Canadian military base killed four and injured dozens."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-19-2026/4093015",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "paris-clashes-arrests",
+        "originalLang": "en",
+        "title": {
+          "zh": "巴黎再爆冲突 抗议被捕人数逾2000",
+          "en": "Paris clashes renew as protest arrests top 2,000"
+        },
+        "summary": {
+          "zh": "巴黎再次发生冲突，抗议相关被捕人数已超过2000人；美国驻中东使馆发布安全警告。",
+          "en": "Clashes resumed in Paris with more than 2,000 protest arrests, while the US warned Americans in the Middle East."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-19-2026/4093015",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "ai-chip-rebound-oct19",
+        "originalLang": "en",
+        "title": {
+          "zh": "AI与芯片股反弹 纳指涨1.1%",
+          "en": "AI and chip stocks rebound; Nasdaq up 1.1%"
+        },
+        "summary": {
+          "zh": "10月19日纳指涨1.11%，标普500涨0.41%，AI信贷担忧缓解。",
+          "en": "The Nasdaq rose 1.11% and the S&P 500 0.41% on Oct. 19 as AI credit worries eased."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-5aec11ee466841cc2a69b2d23ab77f0e",
+            "lang": "en"
+          },
+          {
+            "name": "WSJ",
+            "url": "https://www.wsj.com/finance/investing/u-s-stocks-mostly-higher-as-ai-credit-worries-abate-600bf008",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "china-gdp-q3-4-6",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国家统计局：前三季度GDP同比增长4.6%",
+          "en": "China's GDP grows 4.6% in first three quarters"
+        },
+        "summary": {
+          "zh": "前三季度国内生产总值1071071亿元，同比增长4.6%；三季度增长4.5%，环比增长1.2%。",
+          "en": "China's GDP reached 107.1 trillion yuan in the first three quarters, up 4.6%; Q3 grew 4.5% year on year and 1.2% quarter on quarter."
+        },
+        "sources": [
+          {
+            "name": "国家统计局",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965618.html",
+            "lang": "zh"
+          },
+          {
+            "name": "央广网",
+            "url": "https://news.cnr.cn/native/gd/kx/20261019/t20261019_527846418.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "新华网",
+            "url": "https://www.xinhuanet.com/20261019/c08e00d73e244a45b5feeca94cfb3c35/c.html",
+            "lang": "zh"
+          }
+        ],
+        "body": {
+          "zh": "国家统计局10月19日发布数据，前三季度国内生产总值1071071亿元，按不变价格计算同比增长4.6%。\n\n分季度看，一季度增长5.0%，二季度增长4.3%，三季度增长4.5%；三季度GDP环比增长1.2%。新华网评论称，前三季度增速符合全年经济预期增长目标。",
+          "en": "China's statistics bureau said GDP reached 107.1 trillion yuan in the first three quarters, up 4.6% at constant prices ([NBS](https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965618.html)).\n\nGrowth was 5.0% in Q1, 4.3% in Q2 and 4.5% in Q3, with Q3 up 1.2% on the quarter. Xinhua said the pace is in line with the full-year target."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-20",
+  "am": {
+    "tech": [
+      {
+        "id": "deepseek-deepinfer",
+        "originalLang": "en",
+        "title": {
+          "zh": "DeepSeek开源生产级推理栈DeepInfer",
+          "en": "DeepSeek open-sources DeepInfer inference stack"
+        },
+        "summary": {
+          "zh": "DeepSeek开源其生产推理栈DeepInfer，支持英伟达和华为硬件；MiniMax发布低成本百万上下文模型M3.1 Flash。",
+          "en": "DeepSeek open-sourced DeepInfer, its production inference stack supporting Nvidia and Huawei hardware; MiniMax released M3.1 Flash."
+        },
+        "sources": [
+          {
+            "name": "AI Weekly",
+            "url": "https://aiweekly.co/ai-news-today/edition/2026-10-20",
+            "lang": "en"
+          },
+          {
+            "name": "AI Early Edition",
+            "url": "https://aiearlyedition.com/archive/2026-10-20/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "dhs-orders-deepseek-removal",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国国土安全部要求联邦机构移除DeepSeek产品",
+          "en": "DHS orders DeepSeek off federal systems"
+        },
+        "summary": {
+          "zh": "美国国土安全部命令联邦民事机构移除DeepSeek产品及相关第三方服务；微软推出Guardian Agents监控企业智能体。",
+          "en": "DHS ordered federal civilian agencies to remove DeepSeek products; Microsoft introduced Guardian Agents to monitor enterprise agents."
+        },
+        "sources": [
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/briefing/2026-10-20",
+            "lang": "en"
+          },
+          {
+            "name": "AI Pro Playbook",
+            "url": "https://aiproplaybook.com/top-ai-stories/2026-10-20",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "trump-zelenskyy-negotiator",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普希望由泽连斯基以外人士代表乌克兰谈判",
+          "en": "Trump wants someone other than Zelenskyy to negotiate"
+        },
+        "summary": {
+          "zh": "特朗普呼吁由泽连斯基以外的人代表乌克兰进行谈判。",
+          "en": "Trump called for someone other than Zelenskyy to negotiate for Ukraine."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-20-2026/4094091",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "alberta-vote-remain",
+        "originalLang": "en",
+        "title": {
+          "zh": "加拿大艾伯塔省公投预计选择留在加拿大",
+          "en": "Alberta projected to vote to stay in Canada"
+        },
+        "summary": {
+          "zh": "预测显示艾伯塔省公投结果为留在加拿大。",
+          "en": "Alberta was projected to vote to remain in Canada."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-20-2026/4094091",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "wfp-gaza-cut",
+        "originalLang": "en",
+        "title": {
+          "zh": "世界粮食计划署将加沙粮援削减三分之一",
+          "en": "WFP cuts Gaza food aid by a third"
+        },
+        "summary": {
+          "zh": "因资金短缺，世界粮食计划署将加沙粮食援助削减三分之一；英国威胁制裁与非法定居点相关的企业和个人。",
+          "en": "WFP cut Gaza food aid by a third amid funding shortages; the UK threatened sanctions over illegal West Bank settlements."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-20-2026/4094091",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "brent-above-110",
+        "originalLang": "en",
+        "title": {
+          "zh": "布伦特原油升破每桶110美元",
+          "en": "Brent crude tops $110"
+        },
+        "summary": {
+          "zh": "阿纳多卢报道，布伦特原油价格升至每桶110美元以上。",
+          "en": "Brent crude climbed above $110 a barrel, Anadolu reported."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-20-2026/4094091",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "dow-up-earnings-oct20",
+        "originalLang": "en",
+        "title": {
+          "zh": "企业财报强劲 道指涨逾1%",
+          "en": "Dow gains 1% on strong earnings"
+        },
+        "summary": {
+          "zh": "10月20日道指涨1.02%至52495.88点，Equifax、孩之宝等财报亮眼，纳指基本持平。",
+          "en": "The Dow rose 1.02% to 52,495.88 on Oct. 20 on strong results from Equifax, Hasbro and others; the Nasdaq was flat."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stock-markets-oil-ai-rates-inflation-b972b64127db5412a2b02c35ecf95c88",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "li-qiang-sco-pm-meeting",
+        "originalLang": "zh",
+        "title": {
+          "zh": "李强出席上合组织成员国政府首脑理事会第二十五次会议",
+          "en": "Li Qiang attends SCO heads of government meeting"
+        },
+        "summary": {
+          "zh": "李强出席上合组织总理理事会第二十五次会议，并会见伊朗第一副总统和白俄罗斯总理。",
+          "en": "Li Qiang attended the 25th SCO heads of government meeting and met Iran's first vice president and Belarus's PM."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/20/VIDEg8YUfusIsrZEDYP0r5vm261020.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "industrial-output-5-3",
+        "originalLang": "zh",
+        "title": {
+          "zh": "前三季度规模以上工业增加值同比增长5.3%",
+          "en": "Industrial output up 5.3% in three quarters"
+        },
+        "summary": {
+          "zh": "前三季度规模以上工业增加值同比增长5.3%；丁薛祥出席国家数据集团成立大会。",
+          "en": "Industrial value added rose 5.3% in three quarters; Ding Xuexiang attended the launch of the National Data Group."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/20/VIDEg8YUfusIsrZEDYP0r5vm261020.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "东方财富",
+            "url": "https://finance.eastmoney.com/a/202610203901611279.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

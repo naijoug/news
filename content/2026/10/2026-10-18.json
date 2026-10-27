@@ -1,0 +1,171 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-18",
+  "am": {
+    "tech": [
+      {
+        "id": "deepseek-mit-open-weights",
+        "originalLang": "en",
+        "title": {
+          "zh": "DeepSeek以MIT许可开放V4.1-Flash-1017权重",
+          "en": "DeepSeek opens V4.1-Flash-1017 weights under MIT license"
+        },
+        "summary": {
+          "zh": "DeepSeek以MIT许可发布V4.1-Flash-1017权重，支持百万token上下文，编程基准提升。",
+          "en": "DeepSeek released V4.1-Flash-1017 weights under the MIT license with a 1M-token context and better coding scores."
+        },
+        "sources": [
+          {
+            "name": "AI News Today",
+            "url": "https://ai-news-online.com/briefing/2026-10-18/",
+            "lang": "en"
+          },
+          {
+            "name": "Artificial Record",
+            "url": "https://artificialrecord.com/editions/ai-industry-daily-briefing-2026-10-18/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "opencode-key-breach",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenCode披露API密钥泄露事件",
+          "en": "OpenCode discloses breach of stored AI API keys"
+        },
+        "summary": {
+          "zh": "OpenCode披露数据泄露，影响1.4%控制台用户存储的AI API密钥；Anthropic宣布在新斯科舍长期租用数据中心。",
+          "en": "OpenCode disclosed a breach affecting stored AI API keys of 1.4% of Console users; Anthropic announced a long-term Nova Scotia data-center lease."
+        },
+        "sources": [
+          {
+            "name": "AI News Today",
+            "url": "https://ai-news-online.com/briefing/2026-10-18/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "khamis-mushait-missiles",
+        "originalLang": "en",
+        "title": {
+          "zh": "沙特联军拦截两枚射向海米斯穆谢特的胡塞导弹",
+          "en": "Coalition intercepts Houthi missiles aimed at Khamis Mushait"
+        },
+        "summary": {
+          "zh": "沙特领导的联军拦截两枚胡塞武装射向海米斯穆谢特的弹道导弹。",
+          "en": "The Saudi-led coalition intercepted two Houthi ballistic missiles aimed at Khamis Mushait."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-18-2026/4092346",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "hegseth-iran-warning",
+        "originalLang": "en",
+        "title": {
+          "zh": "赫格塞思警告伊朗放弃核野心否则面临军事行动",
+          "en": "Hegseth warns Iran to drop nuclear ambitions"
+        },
+        "summary": {
+          "zh": "美国防长赫格塞思警告伊朗必须放弃核野心，否则将面临军事行动；鲁比奥对美籍摄影记者在西岸遇袭表示关切。",
+          "en": "Defense Secretary Hegseth warned Iran to abandon nuclear ambitions or face military action; Rubio voiced concern over an attack on a US photojournalist."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-18-2026/4092346",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "unh-jnj-raise-guidance",
+        "originalLang": "en",
+        "title": {
+          "zh": "联合健康和强生上调业绩指引",
+          "en": "UnitedHealth and J&J raise guidance"
+        },
+        "summary": {
+          "zh": "财报季中，联合健康和强生上调全年指引，罗氏和STERIS宣布交易。",
+          "en": "UnitedHealth and Johnson & Johnson raised guidance, while Roche and STERIS struck deals."
+        },
+        "sources": [
+          {
+            "name": "Ava Advisor",
+            "url": "https://ava.fund/news/unitedhealth-j-and-j-raise-guidance-roche-steris-strike-deals-18102026",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "rail-passengers-3-71b",
+        "originalLang": "zh",
+        "title": {
+          "zh": "前三季度全国铁路发送旅客37.1亿人次",
+          "en": "Rail carried 3.71 billion passengers in three quarters"
+        },
+        "summary": {
+          "zh": "前三季度全国铁路发送旅客37.1亿人次，同比增长4.8%；1.3万亿元超长期特别国债发行完毕。",
+          "en": "China's railways carried 3.71 billion passengers in three quarters, up 4.8%; 1.3 trillion yuan of ultra-long special bonds were fully issued."
+        },
+        "sources": [
+          {
+            "name": "新闻联播文字版",
+            "url": "https://cn.govopendata.com/xinwenlianbo/20261018/",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "li-qiang-uzbekistan-talks",
+        "originalLang": "zh",
+        "title": {
+          "zh": "李强会见乌兹别克斯坦总理 签署多项合作文件",
+          "en": "Li Qiang holds talks in Uzbekistan"
+        },
+        "summary": {
+          "zh": "李强会见乌兹别克斯坦总理，双方签署多项合作文件。",
+          "en": "Li Qiang met Uzbekistan's prime minister and signed several cooperation documents."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/18/VIDEwbbKEIJCpjSWIkdZAQee261018.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "beijing-marathon",
+        "originalLang": "zh",
+        "title": {
+          "zh": "北京马拉松3.2万人开跑",
+          "en": "32,000 run the Beijing Marathon"
+        },
+        "summary": {
+          "zh": "北京马拉松鸣枪开跑，3.2万名跑者参赛。",
+          "en": "About 32,000 runners started the Beijing Marathon."
+        },
+        "sources": [
+          {
+            "name": "京报网",
+            "url": "https://news.bjd.com.cn/2026/10/18/11998965.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

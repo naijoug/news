@@ -1,0 +1,195 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-16",
+  "am": {
+    "tech": [
+      {
+        "id": "muse-spark-open-weights",
+        "originalLang": "en",
+        "title": {
+          "zh": "Meta开放8160亿参数Muse Spark权重",
+          "en": "Meta opens weights of 816B Muse Spark"
+        },
+        "summary": {
+          "zh": "Meta发布开源权重多模态模型Muse Spark Open，总参数8160亿、激活420亿，支持百万token上下文并可在Mac集群部署。",
+          "en": "Meta released Muse Spark Open, an 816B open-weight multimodal model with 42B active parameters, 1M-token context and Mac-cluster support."
+        },
+        "sources": [
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/briefing/2026-10-16",
+            "lang": "en"
+          },
+          {
+            "name": "Artificial Prism",
+            "url": "https://artificialprism.com/daily/2026-10-16/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "ftc-demands-ai-labs",
+        "originalLang": "en",
+        "title": {
+          "zh": "FTC就智能体事件向OpenAI和Anthropic发出正式问询",
+          "en": "FTC sends formal demands to OpenAI and Anthropic"
+        },
+        "summary": {
+          "zh": "美国FTC就智能体事件和安全做法向OpenAI、Anthropic发出正式要求；Anthropic向METR研究人员提供员工级访问权限。",
+          "en": "The FTC sent OpenAI and Anthropic formal demands over agent incidents; Anthropic gave METR researchers employee-level access."
+        },
+        "sources": [
+          {
+            "name": "AI Pro Playbook",
+            "url": "https://aiproplaybook.com/top-ai-stories/2026-10-16",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "bend-oregon-school-shooting",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国俄勒冈州本德市小学枪击案致5死",
+          "en": "Bend, Oregon elementary school shooting kills five"
+        },
+        "summary": {
+          "zh": "俄勒冈州本德市一所小学发生枪击，造成包括3名儿童和1名教师在内的5人死亡。",
+          "en": "A shooting at an elementary school in Bend, Oregon killed five people, including three children and a teacher."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-16-2026/4090527",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "trump-rejects-nuclear-iran",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普排除对伊朗动用核打击",
+          "en": "Trump rules out nuclear strikes on Iran"
+        },
+        "summary": {
+          "zh": "特朗普表示不会对伊朗动用核武器；沙特领导的联军拦截无人机。",
+          "en": "Trump rejected nuclear strikes on Iran, while the Saudi-led coalition intercepted drones."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-16-2026/4090527",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "tech-selloff-weekly-loss",
+        "originalLang": "en",
+        "title": {
+          "zh": "科技股持续抛售 纳指跌2.1%录得周跌",
+          "en": "Tech sell-off drags Nasdaq down 2.1%"
+        },
+        "summary": {
+          "zh": "10月16日纳指跌2.1%，标普500跌1.1%，两者周线下跌，道指周线上涨。",
+          "en": "On Oct. 16 the Nasdaq fell 2.1% and the S&P 500 1.1%, both posting weekly losses while the Dow gained for the week."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stocks-markets-us-ai-oil-tech-warsh-d2655f64db7ec8ae450525d58f97b628",
+            "lang": "en"
+          },
+          {
+            "name": "Investopedia",
+            "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10162026-12176848",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "iea-accelerate-release-lukoil",
+        "originalLang": "en",
+        "title": {
+          "zh": "IEA成员加快释放约1亿桶储备 美国延长卢克石油豁免",
+          "en": "IEA members speed oil release; US extends Lukoil waiver"
+        },
+        "summary": {
+          "zh": "IEA成员国加快释放约1亿桶应急石油储备；美国将对卢克石油的制裁豁免延长至4月24日。",
+          "en": "IEA members accelerated release of about 100 million barrels of emergency stocks, and the US extended a Lukoil sanctions waiver to April 24."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-16-2026/4090527",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "xi-inner-mongolia-ulanqab",
+        "originalLang": "zh",
+        "title": {
+          "zh": "习近平在内蒙古乌兰察布考察",
+          "en": "Xi Jinping inspects Ulanqab, Inner Mongolia"
+        },
+        "summary": {
+          "zh": "习近平在内蒙古乌兰察布考察，强调统筹高质量发展和高水平保护。",
+          "en": "Xi Jinping inspected Ulanqab in Inner Mongolia, stressing coordinated high-quality development and protection."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/16/VIDEx4GVKthyEyuM0E6sy6RL261016.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "state-council-ai-plus",
+        "originalLang": "zh",
+        "title": {
+          "zh": "李强主持国务院常务会议 听取“人工智能+”行动进展",
+          "en": "State Council reviews 'AI Plus' progress"
+        },
+        "summary": {
+          "zh": "国务院常务会议听取“人工智能+”行动进展汇报，讨论教师法、价格法修订草案。",
+          "en": "A State Council executive meeting reviewed the AI Plus initiative and discussed revisions to the Teachers Law and Price Law."
+        },
+        "sources": [
+          {
+            "name": "中国共产党新闻网",
+            "url": "https://cpc.people.com.cn/n1/2026/1017/c64094-40816438.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "elderly-care-pricing",
+        "originalLang": "zh",
+        "title": {
+          "zh": "我国规范养老服务价格",
+          "en": "China moves to standardize elderly care pricing"
+        },
+        "summary": {
+          "zh": "《新闻联播》报道，我国出台规范养老服务价格的举措。",
+          "en": "CCTV reported new measures to standardize elderly care service pricing."
+        },
+        "sources": [
+          {
+            "name": "时间轴",
+            "url": "https://www.timelines.cn/xwlb/20261016/",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

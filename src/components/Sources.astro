@@ -1,5 +1,6 @@
 ---
 import type { Source } from '../lib/editions';
+import UiText from './UiText.astro';
 
 interface Props {
   sources: Source[];
@@ -9,12 +10,18 @@ const { sources } = Astro.props;
 ---
 
 <p class="sources">
-  <span class="sources-label">来源</span>
+  <span class="sources-label">
+    <UiText zh="来源" en="Sources" />
+  </span>
   {
     sources.map((source) => (
       <a href={source.url} target="_blank" rel="noopener noreferrer">
         {source.name}
-        <span class="sr-only">（在新标签页打开）</span>
+        {source.lang === 'en' && <span class="source-lang">EN</span>}
+        {source.lang === 'zh' && <span class="source-lang">中</span>}
+        <span class="sr-only">
+          <UiText zh="（在新标签页打开）" en=" (opens in a new tab)" />
+        </span>
       </a>
     ))
   }

@@ -1,0 +1,114 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Sources from '../../../components/Sources.astro';
+import TextToggle from '../../../components/TextToggle.astro';
+import UiText from '../../../components/UiText.astro';
+import ViewMark from '../../../components/ViewMark.astro';
+import {
+  dayPath,
+  getDays,
+  partMeta,
+  sectionById,
+  sectionPath,
+  storyPath,
+  type Day,
+  type Story,
+} from '../../../lib/editions';
+import { href } from '../../../lib/urls';
+
+export function getStaticPaths() {
+  return getDays().flatMap((day) =>
+    day.stories.map((story) => ({
+      params: { date: day.date, id: story.id },
+      props: { day, story },
+    })),
+  );
+}
+
+interface Props {
+  day: Day;
+  story: Story;
+}
+
+const { day, story } = Astro.props;
+const section = sectionById(story.sectionId);
+const part = partMeta(story.part);
+const hasZh = Boolean(story.title.zh && story.summary.zh);
+const hasEn = Boolean(story.title.en && story.summary.en);
+const titleZh = story.title.zh || story.title.en || story.id;
+const titleEn = story.title.en || story.title.zh || story.id;
+const description = story.summary.zh || story.summary.en || titleZh;
+const hasBody = Boolean(story.bodyHtml?.zh || story.bodyHtml?.en);
+---
+
+<Base
+  title={`${titleZh} · 朝夕`}
+  titleEn={`${titleEn} · Zhaoxi`}
+  description={description}
+  path={storyPath(story)}
+  current={section?.id as 'tech' | 'world' | 'business' | 'china' | undefined}
+  noindex={day.sample}
+>
+  <article class="story-detail">
+    <header class="page-head">
+      <p class="kicker">
+        <a href={href(dayPath(day))}>
+          <UiText zh={day.dateLabel} en={day.dateLabelEn} />
+        </a>
+        {
+          section && (
+            <a href={href(sectionPath(section.id))}>
+              <UiText zh={section.name.zh} en={section.name.en} />
+            </a>
+          )
+        }
+        <UiText zh={part.zh} en={part.en} />
+      </p>
+      <div class="detail-tools">
+        <ViewMark originalLang={story.originalLang} hasZh={hasZh} hasEn={hasEn} />
+        <TextToggle originalLang={story.originalLang} hasZh={hasZh} hasEn={hasEn} />
+      </div>
+      <div
+        class="copy"
+        data-original={story.originalLang}
+        data-has-zh={hasZh ? '' : undefined}
+        data-has-en={hasEn ? '' : undefined}
+      >
+        {
+          hasZh && (
+            <div class="t-zh" lang="zh-Hans">
+              <h1>{story.title.zh}</h1>
+              <p class="dek">{story.summary.zh}</p>
+              {story.bodyHtml?.zh && <div class="prose" set:html={story.bodyHtml.zh} />}
+            </div>
+          )
+        }
+        {
+          hasEn && (
+            <div class="t-en" lang="en">
+              <h1>{story.title.en}</h1>
+              <p class="dek">{story.summary.en}</p>
+              {story.bodyHtml?.en && <div class="prose" set:html={story.bodyHtml.en} />}
+            </div>
+          )
+        }
+      </div>
+    </header>
+    {
+      hasBody && (
+        <p class="attribution">
+          <UiText
+            zh="较长的正文整理自来源，供对照阅读。朝夕不是原发布者。"
+            en="The longer body is carried over from the source for context. Zhaoxi is not the publisher."
+          />
+        </p>
+      )
+    }
+    <Sources sources={story.sources} />
+    <p class="permalink">
+      <a href={href(dayPath(day))}>
+        <UiText zh="返回这一天" en="Back to this day" />
+      </a>
+    </p>
+  </article>
+</Base>

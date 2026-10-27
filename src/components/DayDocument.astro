@@ -1,0 +1,86 @@
+---
+import DayFeed from './DayFeed.astro';
+import UiText from './UiText.astro';
+import { dayPath, type Day } from '../lib/editions';
+import { href } from '../lib/urls';
+
+interface Props {
+  day: Day;
+  older?: Day | null;
+  newer?: Day | null;
+  showPermalink?: boolean;
+}
+
+const { day, older = null, newer = null, showPermalink = false } = Astro.props;
+---
+
+<header class="page-head">
+  <p class="kicker">
+    <time datetime={day.date}>
+      <UiText zh={day.weekday} en={day.weekdayEn} />
+    </time>
+    {
+      day.sample && (
+        <span class="pill">
+          <UiText zh="示例" en="Sample" />
+        </span>
+      )
+    }
+  </p>
+  <h1>
+    <UiText zh={day.dateLabel} en={day.dateLabelEn} />
+  </h1>
+  {
+    day.sample && (
+      <p class="sample-banner">
+        <UiText
+          zh="示例日刊，用来核对版式。上午在上，下午在下。真实稿件不要加 sample。"
+          en="Sample day for the layout. Morning is on top, afternoon below. Do not mark a real day as sample."
+        />
+      </p>
+    )
+  }
+  {
+    day.lead && (
+      <p class="lead">
+        <UiText zh={day.lead.zh} en={day.lead.en} />
+      </p>
+    )
+  }
+  {
+    showPermalink && (
+      <p class="permalink">
+        <a href={href(dayPath(day))}>
+          <UiText zh="这一天的固定地址" en="Permanent link for this day" />
+        </a>
+      </p>
+    )
+  }
+</header>
+<DayFeed day={day} />
+{
+  (older || newer) && (
+    <nav class="pager" aria-label="days">
+      <div>
+        {older && (
+          <a href={href(dayPath(older))}>
+            <small>
+              <UiText zh="更早" en="Earlier" />
+            </small>
+            <UiText zh={older.dateLabel} en={older.dateLabelEn} />
+          </a>
+        )}
+      </div>
+      <div class="next">
+        {newer && (
+          <a href={href(dayPath(newer))}>
+            <small>
+              <UiText zh="更新" en="Later" />
+            </small>
+            <UiText zh={newer.dateLabel} en={newer.dateLabelEn} />
+          </a>
+        )}
+      </div>
+    </nav>
+  )
+}

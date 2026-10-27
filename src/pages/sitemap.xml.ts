@@ -1,19 +1,22 @@
 import type { APIRoute } from 'astro';
-import { SECTIONS, editionPath, getEditions, sectionPath } from '../lib/editions';
+import { SECTIONS, dayPath, getDays, sectionPath, storyPath } from '../lib/editions';
 import { absolute } from '../lib/urls';
 import { xmlEscape } from '../../scripts/feed.mjs';
 
 export const GET: APIRoute = () => {
-  const real = getEditions().filter((edition) => !edition.sample);
+  const real = getDays().filter((day) => !day.sample);
   const paths: string[] = [];
   if (real.length > 0) {
     paths.push('/', 'archive/');
     for (const section of SECTIONS) {
-      if (real.some((edition) => (edition.sections[section.id]?.length ?? 0) > 0)) {
+      if (real.some((day) => day.stories.some((story) => story.sectionId === section.id))) {
         paths.push(sectionPath(section.id));
       }
     }
-    for (const edition of real) paths.push(editionPath(edition));
+    for (const day of real) {
+      paths.push(dayPath(day));
+      for (const story of day.stories) paths.push(storyPath(story));
+    }
   }
   const urls = paths.map((path) => `<url><loc>${xmlEscape(absolute(path))}</loc></url>`).join('\n');
   const body = `<?xml version="1.0" encoding="UTF-8"?>

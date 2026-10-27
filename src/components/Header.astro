@@ -1,9 +1,10 @@
 ---
 import { SECTIONS, sectionPath } from '../lib/editions';
+import UiText from './UiText.astro';
 import { href } from '../lib/urls';
 
 interface Props {
-  current?: 'home' | 'archive' | 'edition' | 'tech' | 'world' | 'business' | 'china';
+  current?: 'home' | 'archive' | 'tech' | 'world' | 'business' | 'china';
 }
 
 const { current } = Astro.props;
@@ -17,17 +18,25 @@ const { current } = Astro.props;
           <span class="seal" aria-hidden="true">日</span>
           <span class="logo-word">朝夕</span>
         </a>
-        <p class="tagline">每日早报与晚报</p>
+        <p class="tagline">
+          <UiText zh="每日一刊，上午与下午" en="One edition a day, morning and afternoon" />
+        </p>
       </div>
       <div class="tools">
         <a href={href('rss.xml')}>RSS</a>
+        <button type="button" class="theme-toggle" id="ui-toggle">
+          <span class="ui-zh">EN</span>
+          <span class="ui-en">中文</span>
+        </button>
         <button type="button" class="theme-toggle" id="theme-toggle">深色</button>
       </div>
     </div>
     <nav aria-label="栏目">
       <ul class="nav-list">
         <li>
-          <a href={href('archive/')} aria-current={current === 'archive' ? 'page' : undefined}>归档</a>
+          <a href={href('archive/')} aria-current={current === 'archive' ? 'page' : undefined}>
+            <UiText zh="归档" en="Archive" />
+          </a>
         </li>
         {
           SECTIONS.map((section) => (
@@ -36,7 +45,7 @@ const { current } = Astro.props;
                 href={href(sectionPath(section.id))}
                 aria-current={current === section.id ? 'page' : undefined}
               >
-                {section.name}
+                <UiText zh={section.name.zh} en={section.name.en} />
               </a>
             </li>
           ))
@@ -46,25 +55,58 @@ const { current } = Astro.props;
   </div>
   <script is:inline>
     (function () {
-      var button = document.getElementById('theme-toggle');
-      if (!button) return;
+      var themeButton = document.getElementById('theme-toggle');
+      var uiButton = document.getElementById('ui-toggle');
+      var nav = document.querySelector('.site-header nav');
+
       function currentTheme() {
         return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
       }
-      function label(theme) {
-        var toDark = theme !== 'dark';
-        button.textContent = toDark ? '深色' : '浅色';
-        button.setAttribute('aria-label', toDark ? '切换到深色模式' : '切换到浅色模式');
+      function currentUi() {
+        return document.documentElement.getAttribute('data-ui') === 'en' ? 'en' : 'zh';
       }
-      label(currentTheme());
-      button.addEventListener('click', function () {
-        var next = currentTheme() === 'dark' ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', next);
+      function themeLabel(theme) {
+        if (!themeButton) return;
+        var ui = currentUi();
+        var toDark = theme !== 'dark';
+        if (ui === 'en') {
+          themeButton.textContent = toDark ? 'Dark' : 'Light';
+          themeButton.setAttribute('aria-label', toDark ? 'Switch to dark mode' : 'Switch to light mode');
+        } else {
+          themeButton.textContent = toDark ? '深色' : '浅色';
+          themeButton.setAttribute('aria-label', toDark ? '切换到深色模式' : '切换到浅色模式');
+        }
+      }
+      function applyUi(ui) {
+        var root = document.documentElement;
+        root.setAttribute('data-ui', ui);
+        root.lang = ui === 'en' ? 'en' : 'zh-Hans';
+        var title = ui === 'en' ? root.getAttribute('data-title-en') : root.getAttribute('data-title-zh');
+        if (title) document.title = title;
+        if (nav) nav.setAttribute('aria-label', ui === 'en' ? 'Sections' : '栏目');
         try {
-          localStorage.setItem('theme', next);
+          localStorage.setItem('ui-lang', ui);
         } catch (e) {}
-        label(next);
-      });
+        themeLabel(currentTheme());
+        if (window.__zhaoxiSyncText) window.__zhaoxiSyncText();
+      }
+
+      themeLabel(currentTheme());
+      if (themeButton) {
+        themeButton.addEventListener('click', function () {
+          var next = currentTheme() === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          try {
+            localStorage.setItem('theme', next);
+          } catch (e) {}
+          themeLabel(next);
+        });
+      }
+      if (uiButton) {
+        uiButton.addEventListener('click', function () {
+          applyUi(currentUi() === 'en' ? 'zh' : 'en');
+        });
+      }
       var media = window.matchMedia('(prefers-color-scheme: dark)');
       if (media.addEventListener) {
         media.addEventListener('change', function (event) {
@@ -75,7 +117,7 @@ const { current } = Astro.props;
           if (stored === 'light' || stored === 'dark') return;
           var theme = event.matches ? 'dark' : 'light';
           document.documentElement.setAttribute('data-theme', theme);
-          label(theme);
+          themeLabel(theme);
         });
       }
     })();

@@ -1,43 +1,71 @@
 ---
 import Base from '../layouts/Base.astro';
-import { editionPath, getEditions, groupByMonth, hasRealEdition } from '../lib/editions';
+import UiText from '../components/UiText.astro';
+import { dayPath, getDays, groupByMonth, hasRealDay, partStoryCount } from '../lib/editions';
 import { href } from '../lib/urls';
 
-const editions = getEditions();
-const months = groupByMonth(editions);
+const days = getDays();
+const months = groupByMonth(days);
 ---
 
 <Base
   title="归档 · 朝夕"
-  description="按日期回看朝夕的早报与晚报。"
+  titleEn="Archive · Zhaoxi"
+  description="按日期回看朝夕。同一天里，上午在上，下午在下。"
   path="archive/"
   current="archive"
-  noindex={!hasRealEdition(editions)}
+  noindex={!hasRealDay(days)}
 >
   <header class="page-head">
-    <p class="eyebrow">刊例</p>
-    <h1>归档</h1>
-    <p class="dek">按日期回看早报与晚报。同一天里，晚报排在早报之前。</p>
+    <p class="eyebrow">
+      <UiText zh="刊例" en="Index" />
+    </p>
+    <h1>
+      <UiText zh="归档" en="Archive" />
+    </h1>
+    <p class="dek">
+      <UiText
+        zh="一天一份。打开后，上午在上，下午在下。"
+        en="One file a day. Morning is on top, afternoon below."
+      />
+    </p>
   </header>
   {
     months.map((month) => (
       <section class="month">
-        <h2>{month.label}</h2>
+        <h2>
+          <UiText zh={month.label} en={month.labelEn} />
+        </h2>
         <ol class="days">
           {month.days.map((day) => (
             <li class="day">
               <time datetime={day.date}>
-                {day.dayLabel}
-                <span>{day.weekday}</span>
+                <a href={href(dayPath(day))}>
+                  <UiText zh={day.dayLabel} en={day.dayLabelEn} />
+                </a>
+                <span>
+                  <UiText zh={day.weekday} en={day.weekdayEn} />
+                </span>
               </time>
               <div class="day-links">
-                {day.editions.map((edition) => (
-                  <a href={href(editionPath(edition))}>
-                    {edition.editionLabel}
-                    <em>{edition.storyCount} 则</em>
-                    {edition.sample && <span class="pill">示例</span>}
+                <a href={href(dayPath(day))}>
+                  <UiText zh={`${day.storyCount} 则`} en={`${day.storyCount} stories`} />
+                </a>
+                {partStoryCount(day, 'am') > 0 && (
+                  <a href={href(`${dayPath(day)}#am`)}>
+                    <UiText zh="上午" en="Morning" />
                   </a>
-                ))}
+                )}
+                {partStoryCount(day, 'pm') > 0 && (
+                  <a href={href(`${dayPath(day)}#pm`)}>
+                    <UiText zh="下午" en="Afternoon" />
+                  </a>
+                )}
+                {day.sample && (
+                  <span class="pill">
+                    <UiText zh="示例" en="Sample" />
+                  </span>
+                )}
               </div>
             </li>
           ))}

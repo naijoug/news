@@ -1,33 +1,32 @@
 import type { APIRoute } from 'astro';
-import { SECTIONS, editionPath, getEditions } from '../lib/editions';
+import { getDays, storyPath, type Story } from '../lib/editions';
 import { absolute } from '../lib/urls';
-import { editionPubDate, renderEditionHtml, renderEditionText, renderRss } from '../../scripts/feed.mjs';
+import { renderRss, renderStoryHtml, renderStoryText, storyPubDate } from '../../scripts/feed.mjs';
+
+function preferZh(story: Story): string {
+  return story.title.zh || story.title.en || story.id;
+}
 
 export const GET: APIRoute = () => {
-  const items = getEditions()
-    .filter((edition) => !edition.sample)
-    .map((edition) => {
-      const model = {
-        lead: edition.lead,
-        sections: SECTIONS.map((section) => ({
-          name: section.name,
-          stories: edition.sections[section.id] ?? [],
-        })).filter((section) => section.stories.length > 0),
-      };
-      return {
-        title: `${edition.dateLabel}${edition.editionLabel}`,
-        link: absolute(editionPath(edition)),
-        pubDate: editionPubDate(edition.date, edition.edition),
-        text: renderEditionText(model),
-        html: renderEditionHtml(model),
-      };
+  const items = getDays()
+    .filter((day) => !day.sample)
+    .flatMap((day) => {
+      const pm = day.stories.filter((story) => story.part === 'pm');
+      const am = day.stories.filter((story) => story.part === 'am');
+      return [...pm, ...am].map((story) => ({
+        title: preferZh(story),
+        link: absolute(storyPath(story)),
+        pubDate: storyPubDate(day.date, story.part),
+        text: renderStoryText(story),
+        html: renderStoryHtml(story),
+      }));
     });
 
   const body = renderRss({
     title: '朝夕',
     link: absolute('/'),
     selfUrl: absolute('rss.xml'),
-    description: '每日新闻简报，分早报与晚报。涵盖科技与AI、国际与政治、商业与市场、中国。',
+    description: '每日一刊。上午与下午在同一天里。栏目为科技与AI、国际与政治、商业与市场、中国。',
     items,
   });
 

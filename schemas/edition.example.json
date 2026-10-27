@@ -1,38 +1,34 @@
 {
   "$schema": "./edition.schema.json",
   "date": "2026-01-15",
-  "edition": "morning",
   "sample": true,
-  "lead": "可选导语，一两句话介绍这一刊。没有导语就删掉 lead。",
-  "sections": {
+  "lead": {
+    "zh": "可选导语。没有导语就删掉 lead。下午没稿时不要写 pm。",
+    "en": "Optional lead. Omit lead when unused. Omit pm until afternoon stories exist."
+  },
+  "am": {
     "tech": [
       {
-        "title": "示例：一条科技占位",
-        "summary": "用一两句话说明发生了什么。这是格式示例，不是真实报道。",
+        "id": "sample-eval",
+        "originalLang": "en",
+        "title": {
+          "zh": "示例：一条科技占位",
+          "en": "Sample: a tech placeholder"
+        },
+        "summary": {
+          "zh": "用一两句话说明发生了什么。这是格式示例，不是真实报道。",
+          "en": "One or two sentences on what happened. This is a format sample, not a report."
+        },
+        "body": {
+          "en": "Optional longer copy. Use Markdown paragraphs, lists, and https links only.\n\n- Point one.\n- See the [sample source](https://example.com/tech)."
+        },
         "sources": [
-          { "name": "示例来源", "url": "https://example.com/tech" }
+          { "name": "Example Lab", "url": "https://example.com/tech", "lang": "en" }
         ]
       }
     ],
-    "world": [
-      {
-        "title": "示例：一条国际占位",
-        "summary": "同一事实若有多家来源，就在 sources 里并列，不要只留一家。",
-        "sources": [
-          { "name": "示例来源甲", "url": "https://example.com/world-a" },
-          { "name": "示例来源乙", "url": "https://example.com/world-b" }
-        ]
-      }
-    ],
-    "business": [
-      {
-        "title": "示例：一条商业占位",
-        "summary": "市场类摘要写上已公布的关键数字，以及它对照的时期。",
-        "sources": [
-          { "name": "示例来源", "url": "https://example.com/business" }
-        ]
-      }
-    ],
+    "world": [],
+    "business": [],
     "china": []
   }
 }

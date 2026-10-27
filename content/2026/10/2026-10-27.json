@@ -1,0 +1,127 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-27",
+  "sample": true,
+  "lead": {
+    "zh": "这是示例日刊，用来演示上午与下午写在同一个文件里。这些条目不是真实报道。",
+    "en": "Sample day showing morning and afternoon in one file. These items are not real reporting."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "model-eval",
+        "originalLang": "en",
+        "title": {
+          "zh": "示例：实验室公布一项评测",
+          "en": "Sample: a lab publishes an evaluation"
+        },
+        "summary": {
+          "zh": "占位条目，说明一份评测。详情页有更完整的译文，并链回来源。",
+          "en": "Placeholder about an evaluation, with a longer body on the detail page and a link back to the source."
+        },
+        "body": {
+          "zh": "这条只用来演示更完整的详情页，不是报道。\n\n正文可以带上从来源整理来的几段话，也可以有列表：\n\n- 一条标明为示例的占位结论。\n- 指向[示例来源](https://example.com/tech-eval)的链接。\n\n**朝夕不是这段文字的原发布者。**",
+          "en": "This sample is only here to show a longer detail page. It is not a report.\n\nThe body can carry a few paragraphs brought over from a source, plus a list:\n\n- A placeholder finding, clearly labeled as a sample.\n- A link to the [sample source](https://example.com/tech-eval).\n\n**Zhaoxi did not originate this text.**"
+        },
+        "sources": [
+          { "name": "Example Lab", "url": "https://example.com/tech-eval", "lang": "en" }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "summit-note",
+        "originalLang": "zh",
+        "title": {
+          "zh": "示例：一场会谈的简讯",
+          "en": "Sample: notes from a summit"
+        },
+        "summary": {
+          "zh": "占位简讯，演示中文原文配英文翻译。详情页保留稍长的正文和来源。",
+          "en": "Placeholder brief. The original is Chinese, with an English translation and a longer body."
+        },
+        "body": {
+          "zh": "原文是中文。阅读界面是英文时，默认显示翻译，并标出翻译图标。\n\n- 第一条是占位。\n- 来源见[示例公报](https://example.com/summit-note)。",
+          "en": "The original is Chinese. An English UI shows this translation by default, with the translation icon.\n\n- The first point is a placeholder.\n- The source is the [sample communique](https://example.com/summit-note)."
+        },
+        "sources": [
+          { "name": "示例公报", "url": "https://example.com/summit-note", "lang": "zh" }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "chip-lane",
+        "originalLang": "en",
+        "title": {
+          "zh": "示例：出口清单上的一条占位",
+          "en": "Sample: one line on an export list"
+        },
+        "summary": {
+          "zh": "商业占位，中英标题和摘要都有，但没有长正文。详情页只显示摘要和来源。",
+          "en": "Market placeholder with both languages and no long body, so the detail page is the summary plus sources."
+        },
+        "sources": [
+          { "name": "Example Desk", "url": "https://example.com/chip-lane", "lang": "en" }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "city-grid",
+        "originalLang": "zh",
+        "title": {
+          "zh": "示例：一座城市的电网"
+        },
+        "summary": {
+          "zh": "只有中文、没有译文，因此卡片上不显示翻译开关。这是示例，不是报道。"
+        },
+        "sources": [
+          { "name": "示例地方报", "url": "https://example.com/city-grid", "lang": "zh" }
+        ]
+      }
+    ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "lab-release",
+        "originalLang": "en",
+        "title": {
+          "zh": "示例：下午发布的实验记录",
+          "en": "Sample: an afternoon lab note"
+        },
+        "summary": {
+          "zh": "下午的占位条目，写在同一天的 pm 里，用来出现在上午卡片的下方。",
+          "en": "Afternoon placeholder stored in pm of the same file, so it renders under the morning cards."
+        },
+        "body": {
+          "zh": "下午的稿追加到**同一个** `2026-10-27.json`，不要新建第二个文件。\n\n详见[示例记录](https://example.com/lab-release)。",
+          "en": "Afternoon copy is appended to the **same** `2026-10-27.json`. Do not create a second file.\n\nSee the [sample note](https://example.com/lab-release)."
+        },
+        "sources": [
+          { "name": "Example Lab", "url": "https://example.com/lab-release", "lang": "en" }
+        ]
+      }
+    ],
+    "world": [],
+    "business": [],
+    "china": [
+      {
+        "id": "port-hours",
+        "originalLang": "zh",
+        "title": {
+          "zh": "示例：港口作业时间",
+          "en": "Sample: port working hours"
+        },
+        "summary": {
+          "zh": "下午的中文短条目，带英文翻译，没有长正文。",
+          "en": "A short afternoon item in Chinese, with an English translation and no long body."
+        },
+        "sources": [
+          { "name": "示例港务", "url": "https://example.com/port-hours", "lang": "zh" }
+        ]
+      }
+    ]
+  }
+}

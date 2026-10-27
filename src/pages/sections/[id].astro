@@ -1,32 +1,33 @@
 ---
 import Base from '../../layouts/Base.astro';
-import StoryItem from '../../components/StoryItem.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import UiText from '../../components/UiText.astro';
 import {
   SECTIONS,
-  editionPath,
-  getEditions,
+  dayPath,
+  getDays,
   sectionPath,
-  type Edition,
+  type Day,
   type SectionInfo,
   type Story,
 } from '../../lib/editions';
 import { href } from '../../lib/urls';
 
 interface Group {
-  edition: Edition;
+  day: Day;
   stories: Story[];
 }
 
 export function getStaticPaths() {
-  const editions = getEditions();
+  const days = getDays();
   return SECTIONS.map((section) => ({
     params: { id: section.id },
     props: {
       section,
-      groups: editions
-        .map((edition) => ({
-          edition,
-          stories: edition.sections[section.id] ?? [],
+      groups: days
+        .map((day) => ({
+          day,
+          stories: day.stories.filter((story) => story.sectionId === section.id),
         }))
         .filter((group) => group.stories.length > 0),
     },
@@ -39,37 +40,51 @@ interface Props {
 }
 
 const { section, groups } = Astro.props;
-const indexable = groups.some((group) => !group.edition.sample);
+const indexable = groups.some((group) => !group.day.sample);
 ---
 
 <Base
-  title={`${section.name} · 朝夕`}
-  description={`${section.name}：${section.description}。按刊期汇总。`}
+  title={`${section.name.zh} · 朝夕`}
+  titleEn={`${section.name.en} · Zhaoxi`}
+  description={`${section.name.zh}：${section.description.zh}`}
   path={sectionPath(section.id)}
   current={section.id as 'tech' | 'world' | 'business' | 'china'}
   noindex={!indexable}
 >
   <header class="page-head">
-    <p class="eyebrow">栏目</p>
-    <h1>{section.name}</h1>
-    <p class="dek">{section.description}</p>
+    <p class="eyebrow">
+      <UiText zh="栏目" en="Section" />
+    </p>
+    <h1>
+      <UiText zh={section.name.zh} en={section.name.en} />
+    </h1>
+    <p class="dek">
+      <UiText zh={section.description.zh} en={section.description.en} />
+    </p>
   </header>
   {
     groups.length === 0 ? (
-      <p class="empty">这一栏还没有条目。</p>
+      <p class="empty">
+        <UiText zh="这一栏还没有条目。" en="Nothing in this section yet." />
+      </p>
     ) : (
       groups.map((group) => (
         <section class="section-group">
           <h2>
-            <a href={href(editionPath(group.edition))}>
-              {group.edition.dateLabel}
-              {group.edition.editionLabel}
+            <a href={href(dayPath(group.day))}>
+              <UiText zh={group.day.dateLabel} en={group.day.dateLabelEn} />
             </a>
-            {group.edition.sample && <span class="pill">示例</span>}
+            {group.day.sample && (
+              <span class="pill">
+                <UiText zh="示例" en="Sample" />
+              </span>
+            )}
           </h2>
-          {group.stories.map((story) => (
-            <StoryItem story={story} />
-          ))}
+          <div class="card-grid">
+            {group.stories.map((story) => (
+              <StoryCard story={story} showSection={false} />
+            ))}
+          </div>
         </section>
       ))
     )

@@ -24,7 +24,7 @@ const hasEn = Boolean(story.title.en && story.summary.en);
       <ViewMark originalLang={story.originalLang} hasZh={hasZh} hasEn={hasEn} />
       {
         showSection && section && (
-          <a class="card-section" href={href(sectionPath(section.id))}>
+          <a class={`card-section tag-${section.id}`} href={href(sectionPath(section.id))}>
             <UiText zh={section.name.zh} en={section.name.en} />
           </a>
         )

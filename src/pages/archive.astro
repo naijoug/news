@@ -1,0 +1,48 @@
+---
+import Base from '../layouts/Base.astro';
+import { editionPath, getEditions, groupByMonth, hasRealEdition } from '../lib/editions';
+import { href } from '../lib/urls';
+
+const editions = getEditions();
+const months = groupByMonth(editions);
+---
+
+<Base
+  title="归档 · 朝夕"
+  description="按日期回看朝夕的早报与晚报。"
+  path="archive/"
+  current="archive"
+  noindex={!hasRealEdition(editions)}
+>
+  <header class="page-head">
+    <p class="eyebrow">刊例</p>
+    <h1>归档</h1>
+    <p class="dek">按日期回看早报与晚报。同一天里，晚报排在早报之前。</p>
+  </header>
+  {
+    months.map((month) => (
+      <section class="month">
+        <h2>{month.label}</h2>
+        <ol class="days">
+          {month.days.map((day) => (
+            <li class="day">
+              <time datetime={day.date}>
+                {day.dayLabel}
+                <span>{day.weekday}</span>
+              </time>
+              <div class="day-links">
+                {day.editions.map((edition) => (
+                  <a href={href(editionPath(edition))}>
+                    {edition.editionLabel}
+                    <em>{edition.storyCount} 则</em>
+                    {edition.sample && <span class="pill">示例</span>}
+                  </a>
+                ))}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))
+  }
+</Base>

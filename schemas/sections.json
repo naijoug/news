@@ -1,0 +1,22 @@
+[
+  {
+    "id": "tech",
+    "name": "科技与AI",
+    "description": "技术、人工智能与科学研究"
+  },
+  {
+    "id": "world",
+    "name": "国际与政治",
+    "description": "全球局势、外交与公共政策"
+  },
+  {
+    "id": "business",
+    "name": "商业与市场",
+    "description": "公司、产业与金融市场"
+  },
+  {
+    "id": "china",
+    "name": "中国",
+    "description": "国内政策、社会与经济"
+  }
+]

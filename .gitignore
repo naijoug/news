@@ -1,36 +1,5 @@
-# Dependencies
 node_modules/
-
-# Build outputs
 dist/
-build/
-
-# Environment variables
-.env
-.env.local
-
-# Database
-*.db
-*.db-journal
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
+.astro/
 .DS_Store
-Thumbs.db
-
-# Test artifacts
-frontend/playwright-report/
-playwright-report/
-
-# Data
-backend/data/*.db
+*.log

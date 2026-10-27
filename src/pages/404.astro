@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="未找到 · 朝夕" description="这一页不在朝夕的刊例里。" path="404.html" noindex>
+  <header class="page-head">
+    <p class="eyebrow">404</p>
+    <h1>未找到</h1>
+    <p class="dek">这一页不在刊例里。</p>
+  </header>
+  <p class="empty"><a href={import.meta.env.BASE_URL}>返回首页</a></p>
+</Base>

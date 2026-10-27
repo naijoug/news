@@ -1,0 +1,25 @@
+---
+import { editionPath, getEditions } from '../lib/editions';
+import { href } from '../lib/urls';
+
+const latest = getEditions()[0];
+---
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="footer-name">朝夕</p>
+    <p>每日早报与晚报。每条新闻只留标题、摘要和来源。</p>
+    <p><a href={href('rss.xml')}>订阅 RSS</a></p>
+    {
+      latest && (
+        <p class="fine">
+          最新一刊：
+          <a href={href(editionPath(latest))}>
+            {latest.dateLabel}
+            {latest.editionLabel}
+          </a>
+        </p>
+      )
+    }
+  </div>
+</footer>

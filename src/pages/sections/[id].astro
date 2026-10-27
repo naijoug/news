@@ -1,0 +1,77 @@
+---
+import Base from '../../layouts/Base.astro';
+import StoryItem from '../../components/StoryItem.astro';
+import {
+  SECTIONS,
+  editionPath,
+  getEditions,
+  sectionPath,
+  type Edition,
+  type SectionInfo,
+  type Story,
+} from '../../lib/editions';
+import { href } from '../../lib/urls';
+
+interface Group {
+  edition: Edition;
+  stories: Story[];
+}
+
+export function getStaticPaths() {
+  const editions = getEditions();
+  return SECTIONS.map((section) => ({
+    params: { id: section.id },
+    props: {
+      section,
+      groups: editions
+        .map((edition) => ({
+          edition,
+          stories: edition.sections[section.id] ?? [],
+        }))
+        .filter((group) => group.stories.length > 0),
+    },
+  }));
+}
+
+interface Props {
+  section: SectionInfo;
+  groups: Group[];
+}
+
+const { section, groups } = Astro.props;
+const indexable = groups.some((group) => !group.edition.sample);
+---
+
+<Base
+  title={`${section.name} · 朝夕`}
+  description={`${section.name}：${section.description}。按刊期汇总。`}
+  path={sectionPath(section.id)}
+  current={section.id as 'tech' | 'world' | 'business' | 'china'}
+  noindex={!indexable}
+>
+  <header class="page-head">
+    <p class="eyebrow">栏目</p>
+    <h1>{section.name}</h1>
+    <p class="dek">{section.description}</p>
+  </header>
+  {
+    groups.length === 0 ? (
+      <p class="empty">这一栏还没有条目。</p>
+    ) : (
+      groups.map((group) => (
+        <section class="section-group">
+          <h2>
+            <a href={href(editionPath(group.edition))}>
+              {group.edition.dateLabel}
+              {group.edition.editionLabel}
+            </a>
+            {group.edition.sample && <span class="pill">示例</span>}
+          </h2>
+          {group.stories.map((story) => (
+            <StoryItem story={story} />
+          ))}
+        </section>
+      ))
+    )
+  }
+</Base>

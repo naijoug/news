@@ -168,7 +168,7 @@ No other fields. Chinese names such as `"科技与AI"` are not keys.
 
 `"sample": true` still builds and is labeled 示例 / Sample. Sample days are left out of the RSS feed and the sitemap, and their pages are `noindex`. The files under `content/2026/10/` are samples so the site builds; replace them, or add a later date, when real copy starts. Do not set `sample` on a real day. While every day is a sample, `robots.txt` disallows crawlers.
 
-The homepage is the newest date. On a day page, morning is above afternoon.
+The homepage lists dates, newest first, with up to eight headlines and a count of the rest. Open a date for that day's page: morning is above afternoon.
 
 ### What CI checks
 

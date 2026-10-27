@@ -1,23 +1,34 @@
 ---
 import Base from '../layouts/Base.astro';
-import DayDocument from '../components/DayDocument.astro';
-import { dayDescription, dayPath, getDays } from '../lib/editions';
-import { href } from '../lib/urls';
+import DayIndex from '../components/DayIndex.astro';
+import UiText from '../components/UiText.astro';
+import { getDays, hasRealDay } from '../lib/editions';
 
 const days = getDays();
-const latest = days[0];
-const older = days[1] ?? null;
-if (!latest) throw new Error('No days to render');
+if (days.length === 0) throw new Error('No days to render');
 ---
 
 <Base
-  title={`朝夕 · ${latest.dateLabel}`}
-  titleEn={`Zhaoxi · ${latest.dateLabelEn}`}
-  description={`朝闻道，夕死可矣！ If one hears the Way in the morning, one may die content in the evening. ${dayDescription(latest)}`}
+  title="朝夕"
+  titleEn="Zhaoxi"
+  description="朝闻道，夕死可矣！ If one hears the Way in the morning, one may die content in the evening."
   path="/"
   current="home"
-  noindex={latest.sample}
-  prev={older ? href(dayPath(older)) : undefined}
+  noindex={!hasRealDay(days)}
 >
-  <DayDocument day={latest} older={older} showPermalink />
+  <header class="page-head">
+    <p class="eyebrow">
+      <UiText zh="目录" en="Index" />
+    </p>
+    <h1>
+      <UiText zh="近日" en="Recent days" />
+    </h1>
+    <p class="dek">
+      <UiText
+        zh="每天列出若干标题。点开日期，看这一天的上午和下午。"
+        en="A few headlines from each day. Open a date for that morning and afternoon."
+      />
+    </p>
+  </header>
+  <DayIndex days={days} />
 </Base>

@@ -1,0 +1,84 @@
+---
+import UiText from './UiText.astro';
+import { dayPath, sectionById, sectionPath, storyPath, type Day } from '../lib/editions';
+import { href } from '../lib/urls';
+
+interface Props {
+  days: Day[];
+}
+
+const { days } = Astro.props;
+const PREVIEW = 8;
+---
+
+<ol class="day-index">
+  {
+    days.map((day) => {
+      const shown = day.stories.slice(0, PREVIEW);
+      const more = day.stories.length - shown.length;
+      return (
+        <li class="day-row">
+          <h2>
+            <a href={href(dayPath(day))}>
+              <time datetime={day.date}>
+                <span class="day-date">
+                  <UiText zh={day.dateLabel} en={day.dateLabelEn} />
+                </span>
+                <span class="day-weekday">
+                  <UiText zh={day.weekday} en={day.weekdayEn} />
+                </span>
+              </time>
+            </a>
+            {day.sample && (
+              <span class="pill">
+                <UiText zh="示例" en="Sample" />
+              </span>
+            )}
+          </h2>
+          <ul class="headline-list">
+            {shown.map((story) => {
+              const section = sectionById(story.sectionId);
+              const hasZh = Boolean(story.title.zh);
+              const hasEn = Boolean(story.title.en);
+              return (
+                <li class="headline-row">
+                  {section && (
+                    <a class={`headline-tag tag-${section.id}`} href={href(sectionPath(section.id))}>
+                      <UiText zh={section.name.zh} en={section.name.en} />
+                    </a>
+                  )}
+                  <a class="headline-title" href={href(storyPath(story))}>
+                    <span
+                      class="copy"
+                      data-original={story.originalLang}
+                      data-has-zh={hasZh ? '' : undefined}
+                      data-has-en={hasEn ? '' : undefined}
+                    >
+                      {hasZh && (
+                        <span class="t-zh" lang="zh-Hans">
+                          {story.title.zh}
+                        </span>
+                      )}
+                      {hasEn && (
+                        <span class="t-en" lang="en">
+                          {story.title.en}
+                        </span>
+                      )}
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+          {more > 0 && (
+            <p class="more-count">
+              <a href={href(dayPath(day))}>
+                <UiText zh={`还有 ${more} 则`} en={`+${more} more`} />
+              </a>
+            </p>
+          )}
+        </li>
+      );
+    })
+  }
+</ol>

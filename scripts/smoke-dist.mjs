@@ -69,6 +69,20 @@ const notFound = read('404.html');
 if (notFound && !notFound.includes('未找到')) fail('404 page missing 未找到');
 const latest = days[0];
 
+function orderedStories(day) {
+  const out = [];
+  for (const partId of ['am', 'pm']) {
+    const block = day[partId];
+    if (!block) continue;
+    for (const sectionId of SECTION_IDS) {
+      for (const story of block[sectionId] || []) out.push(story);
+    }
+  }
+  return out;
+}
+
+const LETTER_ICON = 'M1 11.2 3.7 3.2h1.6l2.7 8';
+
 if (home && latest) {
   for (const name of ['朝夕', '科技与AI', '国际与政治', '商业与市场', '中国']) {
     if (!home.includes(name)) fail(`homepage missing ${name}`);
@@ -77,28 +91,46 @@ if (home && latest) {
   if (!home.includes('id="theme-toggle"')) fail('homepage missing theme toggle');
   if (!home.includes('id="ui-toggle"')) fail('homepage missing language toggle');
   if (!home.includes('application/rss+xml')) fail('homepage missing RSS autodiscovery');
-  if (!home.includes('card-grid')) fail('homepage missing the story grid');
-  if (!home.includes('text-toggle')) fail('homepage missing the original/translation toggle');
-  if (!home.includes('mark-original') || !home.includes('mark-translation')) {
-    fail('homepage missing original and translation icons');
-  }
+  if (!home.includes('day-index')) fail('homepage missing the date index');
+  if (home.includes('card-grid')) fail('homepage still renders the story grid');
+  if (home.includes(LETTER_ICON)) fail('homepage still uses the letter-shaped translation icon');
   const [year, month, day] = latest.date.split('-').map(Number);
   const dateLabel = `${year}年${month}月${day}日`;
   if (!home.includes(dateLabel)) fail(`homepage missing latest date ${dateLabel}`);
-  if (partHasStories(latest.am) && !home.includes('上午')) fail('homepage missing 上午');
-  if (partHasStories(latest.pm) && !home.includes('下午')) fail('homepage missing 下午');
-  const lead = latest.lead && (latest.lead.zh || latest.lead.en);
-  if (lead && !home.includes(escapeText(lead))) fail('homepage missing latest lead');
-  if (latest.sample && !home.includes('noindex')) fail('sample homepage should be noindex');
+  if (!home.includes(`days/${latest.date}/`)) fail(`homepage missing link to days/${latest.date}/`);
+  const preview = orderedStories(latest);
+  const firstTitle = preview[0] && (preview[0].title?.zh || preview[0].title?.en);
+  if (firstTitle && !home.includes(escapeText(firstTitle))) {
+    fail('homepage missing a headline from the latest day');
+  }
+  const hidden = preview.length - Math.min(preview.length, 8);
+  if (hidden > 0 && !home.includes(`还有 ${hidden} 则`)) {
+    fail(`homepage missing +${hidden} more for the latest day`);
+  }
+  if (days.every((day) => day.sample === true) && !home.includes('noindex')) {
+    fail('sample homepage should be noindex');
+  }
   if (!home.includes('https://naijoug.github.io/news/')) {
     fail('homepage canonical is not https://naijoug.github.io/news/');
   }
   if (home.includes('/editions/')) fail('homepage still links to the old edition route');
+  if (!home.includes('朝闻道，夕死可矣！')) fail('homepage missing the slogan');
 }
 
 for (const day of days) {
   const html = read(`days/${day.date}/index.html`);
   if (html && day.sample && !html.includes('noindex')) fail(`sample day ${day.date} should be noindex`);
+  if (html) {
+    if (!html.includes('card-grid')) fail(`day ${day.date} missing the story grid`);
+    if (!html.includes('text-toggle')) fail(`day ${day.date} missing the original/translation toggle`);
+    if (!html.includes('mark-original') || !html.includes('mark-translation')) {
+      fail(`day ${day.date} missing original and translation icons`);
+    }
+    if (html.includes(LETTER_ICON)) fail(`day ${day.date} still uses the letter-shaped translation icon`);
+    if (!html.includes('M10.1 2.3 13.5 5.1')) fail(`day ${day.date} missing the arrow translation icon`);
+    if (partHasStories(day.am) && !html.includes('上午')) fail(`day ${day.date} missing 上午`);
+    if (partHasStories(day.pm) && !html.includes('下午')) fail(`day ${day.date} missing 下午`);
+  }
   for (const partId of ['am', 'pm']) {
     const block = day[partId];
     if (!block) continue;

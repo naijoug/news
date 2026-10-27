@@ -1,0 +1,34 @@
+---
+import StoryCard from './StoryCard.astro';
+import UiText from './UiText.astro';
+import { PARTS, SECTIONS, partStoryCount, type Day } from '../lib/editions';
+
+interface Props {
+  day: Day;
+  showSection?: boolean;
+}
+
+const { day, showSection = true } = Astro.props;
+---
+
+{
+  PARTS.map((part) => {
+    const count = partStoryCount(day, part.id);
+    if (count === 0) return null;
+    const block = day.parts.find((item) => item.id === part.id);
+    if (!block) return null;
+    const stories = SECTIONS.flatMap((section) => block.storiesBySection[section.id] ?? []);
+    return (
+      <section class="part-block" id={part.id}>
+        <h2 class="part-label">
+          <UiText zh={part.zh} en={part.en} />
+        </h2>
+        <div class="card-grid">
+          {stories.map((story) => (
+            <StoryCard story={story} showSection={showSection} />
+          ))}
+        </div>
+      </section>
+    );
+  })
+}

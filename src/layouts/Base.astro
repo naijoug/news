@@ -14,25 +14,27 @@ import { absolute, href } from '../lib/urls';
 
 interface Props {
   title: string;
+  titleEn?: string;
   description: string;
   path: string;
-  current?: 'home' | 'archive' | 'edition' | 'tech' | 'world' | 'business' | 'china';
+  current?: 'home' | 'archive' | 'tech' | 'world' | 'business' | 'china';
   noindex?: boolean;
   prev?: string;
   next?: string;
 }
 
-const { title, description, path, current, noindex = false, prev, next } = Astro.props;
+const { title, titleEn = title, description, path, current, noindex = false, prev, next } = Astro.props;
 const canonical = absolute(path);
 const rss = absolute('rss.xml');
 ---
 
 <!doctype html>
-<html lang="zh-Hans">
+<html lang="zh-Hans" data-ui="zh" data-text="auto" data-title-zh={title} data-title-en={titleEn}>
   <head>
     <meta charset="utf-8" />
     <script is:inline>
       (function () {
+        var root = document.documentElement;
         try {
           var stored = localStorage.getItem('theme');
           var theme =
@@ -41,10 +43,23 @@ const rss = absolute('rss.xml');
               : window.matchMedia('(prefers-color-scheme: dark)').matches
                 ? 'dark'
                 : 'light';
-          document.documentElement.setAttribute('data-theme', theme);
+          root.setAttribute('data-theme', theme);
         } catch (e) {
-          document.documentElement.setAttribute('data-theme', 'light');
+          root.setAttribute('data-theme', 'light');
         }
+        var ui = 'zh';
+        var text = 'auto';
+        try {
+          var storedUi = localStorage.getItem('ui-lang');
+          if (storedUi === 'en' || storedUi === 'zh') ui = storedUi;
+          var storedText = localStorage.getItem('text-mode');
+          if (storedText === 'original' || storedText === 'translation' || storedText === 'auto') {
+            text = storedText;
+          }
+        } catch (e) {}
+        root.setAttribute('data-ui', ui);
+        root.setAttribute('data-text', text);
+        root.lang = ui === 'en' ? 'en' : 'zh-Hans';
       })();
     </script>
     <style is:inline>
@@ -59,6 +74,14 @@ const rss = absolute('rss.xml');
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
+    <script is:inline>
+      (function () {
+        var root = document.documentElement;
+        var ui = root.getAttribute('data-ui');
+        var nextTitle = ui === 'en' ? root.getAttribute('data-title-en') : root.getAttribute('data-title-zh');
+        if (nextTitle) document.title = nextTitle;
+      })();
+    </script>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
     <link rel="alternate" type="application/rss+xml" title="朝夕" href={rss} />
@@ -75,7 +98,10 @@ const rss = absolute('rss.xml');
     <meta name="theme-color" content="#141311" media="(prefers-color-scheme: dark)" />
   </head>
   <body>
-    <a class="skip" href="#main">跳到正文</a>
+    <a class="skip" href="#main">
+      <span class="ui-zh">跳到正文</span>
+      <span class="ui-en">Skip to content</span>
+    </a>
     <Header current={current} />
     <main id="main">
       <div class="wrap">
@@ -83,5 +109,45 @@ const rss = absolute('rss.xml');
       </div>
     </main>
     <Footer />
+    <script is:inline>
+      (function () {
+        function viewingTranslation(toggle) {
+          var root = document.documentElement;
+          var text = root.getAttribute('data-text') || 'auto';
+          var ui = root.getAttribute('data-ui') || 'zh';
+          var original = toggle.getAttribute('data-original');
+          var hasZh = toggle.hasAttribute('data-has-zh');
+          var hasEn = toggle.hasAttribute('data-has-en');
+          if (text === 'original') return false;
+          if (text === 'translation') return original === 'en' ? hasZh : hasEn;
+          if (ui === 'en') return hasEn && original === 'zh';
+          return hasZh && original === 'en';
+        }
+        function sync() {
+          document.querySelectorAll('.text-toggle').forEach(function (toggle) {
+            var translated = viewingTranslation(toggle);
+            var originalBtn = toggle.querySelector('[data-mode="original"]');
+            var translationBtn = toggle.querySelector('[data-mode="translation"]');
+            if (originalBtn) originalBtn.setAttribute('aria-pressed', translated ? 'false' : 'true');
+            if (translationBtn) translationBtn.setAttribute('aria-pressed', translated ? 'true' : 'false');
+          });
+        }
+        window.__zhaoxiSyncText = sync;
+        document.addEventListener('click', function (event) {
+          var target = event.target;
+          if (!target || !target.closest) return;
+          var button = target.closest('.text-toggle [data-mode]');
+          if (!button) return;
+          var mode = button.getAttribute('data-mode');
+          if (mode !== 'original' && mode !== 'translation') return;
+          document.documentElement.setAttribute('data-text', mode);
+          try {
+            localStorage.setItem('text-mode', mode);
+          } catch (e) {}
+          sync();
+        });
+        sync();
+      })();
+    </script>
   </body>
 </html>

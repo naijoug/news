@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-26",
+  "sample": true,
+  "lead": {
+    "zh": "示例日刊，只有上午。下午还没写时，不要另建文件。",
+    "en": "Sample day with morning only. Do not add another file before the afternoon exists."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "open-weights",
+        "originalLang": "en",
+        "title": {
+          "zh": "示例：一份权重发布说明",
+          "en": "Sample: a weights release note"
+        },
+        "summary": {
+          "zh": "占位条目，演示英文原文和中文翻译写在同一条里。这一天没有下午。",
+          "en": "Placeholder showing an English original and a Chinese translation. This day has no afternoon block."
+        },
+        "sources": [
+          { "name": "Example Lab", "url": "https://example.com/open-weights", "lang": "en" }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "harbor-talks",
+        "originalLang": "zh",
+        "title": {
+          "zh": "示例：港口谈判的一句",
+          "en": "Sample: one line on harbor talks"
+        },
+        "summary": {
+          "zh": "中文原文配英文翻译，没有长正文。详情页只保留摘要和来源。",
+          "en": "Chinese original with an English translation and no long body. The detail page keeps the summary and sources."
+        },
+        "sources": [
+          { "name": "示例通讯社", "url": "https://example.com/harbor-talks", "lang": "zh" }
+        ]
+      }
+    ],
+    "business": [],
+    "china": []
+  }
+}

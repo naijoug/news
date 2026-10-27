@@ -1,21 +1,22 @@
 /// <reference types="astro/client" />
 
 declare module '../../scripts/edition-order.mjs' {
-  export function compareEditionsDesc<T extends { date: string; edition: string }>(a: T, b: T): number;
+  export function compareDaysDesc<T extends { date: string }>(a: T, b: T): number;
 }
 
-interface FeedSection {
-  name: string;
-  stories: {
-    title: string;
-    summary: string;
-    sources: { name: string; url: string }[];
-  }[];
+declare module '../../scripts/markdown.mjs' {
+  export function renderMarkdown(source: string): string;
 }
 
-interface FeedEdition {
-  lead?: string;
-  sections: FeedSection[];
+interface FeedLocalized {
+  zh?: string;
+  en?: string;
+}
+
+interface FeedStory {
+  title: FeedLocalized;
+  summary: FeedLocalized;
+  sources: { name: string; url: string }[];
 }
 
 interface FeedItem {
@@ -28,9 +29,9 @@ interface FeedItem {
 
 declare module '../../scripts/feed.mjs' {
   export function xmlEscape(value: string): string;
-  export function editionPubDate(date: string, edition: string): string;
-  export function renderEditionText(edition: FeedEdition): string;
-  export function renderEditionHtml(edition: FeedEdition): string;
+  export function storyPubDate(date: string, part: string): string;
+  export function renderStoryText(story: FeedStory): string;
+  export function renderStoryHtml(story: FeedStory): string;
   export function renderRss(input: {
     title: string;
     link: string;

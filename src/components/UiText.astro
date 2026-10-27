@@ -1,0 +1,11 @@
+---
+interface Props {
+  zh?: string;
+  en?: string;
+}
+
+const { zh, en } = Astro.props;
+---
+
+{zh && <span class={en ? 'ui-zh' : undefined}>{zh}</span>}
+{en && <span class={zh ? 'ui-en' : undefined}>{en}</span>}

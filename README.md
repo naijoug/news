@@ -1,8 +1,8 @@
 # 朝夕
 
-每天两刊的中文新闻简报，发布在 GitHub Pages 上。栏目固定为四块：**科技与AI**、**国际与政治**、**商业与市场**、**中国**。每条只有标题、一两句摘要，和来源链接。
+每天一刊的新闻简报，中英都能读，发布在 GitHub Pages 上。栏目固定为四块：**科技与AI**、**国际与政治**、**商业与市场**、**中国**。上午和下午写在**同一个** JSON 文件里。
 
-Zhaoxi is a static daily digest. A morning edition (早报) and an evening edition (晚报) are each **one JSON file**. Pushing that file to `main` validates it and deploys the site. Nobody needs a local build to publish.
+Zhaoxi is a static daily digest. Each calendar day is **one JSON file**. Morning stories go in `am`. Afternoon stories, when they exist, go in `pm` on that same file. Pushing the file to `main` validates it and deploys the site. Nobody needs a local build to publish.
 
 **Site:** https://naijoug.github.io/news/
 
@@ -21,9 +21,23 @@ If the first run of “Deploy GitHub Pages” fails because Pages was not switch
 
 Pull requests run `.github/workflows/ci.yml` (test + build only). They are not deployed. A push to `main` is what publishes, including a file created with the GitHub contents API.
 
+If Pages is already set to GitHub Actions, publishing a new day does not need another setting.
+
 ## Why Astro
 
-The site is [Astro](https://astro.build/). It turns a handful of page types — latest edition, permalinks, archive, section indexes, RSS, sitemap — into static HTML and ships no client-side framework. Edition files stay plain JSON outside the app, so a writer adds a day by creating one file. The build runs only in GitHub Actions.
+The site is [Astro](https://astro.build/). It turns a handful of page types — the latest day, day archives, story pages, section indexes, RSS, sitemap — into static HTML and ships no client-side framework. Day files stay plain JSON outside the app, so a writer adds a day by creating one file, or appends the afternoon by editing that file. The build runs only in GitHub Actions.
+
+Latin text uses self-hosted Fira Code. Chinese text uses the existing system font stack. There is no separate i18n framework: the page renders both languages, and a small script plus CSS chooses which one is visible.
+
+## Reading the site
+
+The UI language (中文 / EN, the `EN` button in the header) and the story text (原文 / 翻译) are separate.
+
+- UI language is stored in `localStorage` as `ui-lang` (`zh` or `en`). Default is Chinese.
+- Story text is stored as `text-mode`: `auto` (follow the UI language), `original`, or `translation`.
+- In `auto`, a Chinese UI shows Chinese when that text exists. An English original then shows the translation and the translation icon. Switching the toggle to 原文 shows the English and the original icon.
+- A Chinese original does the reverse when the UI is English.
+- If a story has only one language, the translation control is hidden.
 
 ## Authoring spec（写作规范）
 
@@ -32,28 +46,27 @@ The JSON Schema `schemas/edition.schema.json` is normative. `schemas/edition.exa
 ### Path
 
 ```
-content/YYYY/MM/YYYY-MM-DD-morning.json
-content/YYYY/MM/YYYY-MM-DD-evening.json
+content/YYYY/MM/YYYY-MM-DD.json
 ```
 
 Examples:
 
 ```
-content/2026/10/2026-10-27-morning.json    早报
-content/2026/10/2026-10-27-evening.json    晚报
-content/2026/09/2026-09-01-evening.json    晚报，月份必须是两位
+content/2026/10/2026-10-27.json
+content/2026/09/2026-09-01.json    月份必须是两位
 ```
 
 Rules:
 
+- One file per calendar day. Do not create `YYYY-MM-DD-morning.json`, `YYYY-MM-DD-evening.json`, or any second file for the same date.
 - `YYYY-MM-DD` in the filename, the directory, and the `date` field are the same real calendar date.
 - The directory is `YYYY/MM` with a zero-padded month (`09`, not `9`).
-- The filename suffix is `morning` (早报) or `evening` (晚报), and it matches `edition`.
-- One edition per file. Two files can share a date only when one is `morning` and the other is `evening`.
 - UTF-8 JSON, no BOM. Two-space indentation is recommended. Minified JSON is accepted.
 - Do not put anything else under `content/`.
 
-Creating the file on branch `main` is enough. The GitHub contents API path is that exact path (slashes included). No local `npm run build` is required.
+Creating or updating that file on branch `main` is enough. The GitHub contents API path is that exact path (slashes included). No local `npm run build` is required.
+
+From a file in `content/YYYY/MM/`, the schema pointer is `../../../schemas/edition.schema.json`.
 
 ### Document
 
@@ -61,15 +74,25 @@ Creating the file on branch `main` is enough. The GitHub contents API path is th
 {
   "$schema": "../../../schemas/edition.schema.json",
   "date": "2026-10-27",
-  "edition": "morning",
-  "lead": "可选。一两句话介绍这一刊。没有导语就不要写这个字段。",
-  "sections": {
+  "lead": {
+    "zh": "可选。没有导语就不要写 lead。",
+    "en": "Optional. Omit lead when there is no introduction."
+  },
+  "am": {
     "tech": [
       {
-        "title": "标题",
-        "summary": "一两句话说明发生了什么，以及为什么值得打开原文。",
+        "id": "model-eval",
+        "originalLang": "en",
+        "title": { "zh": "中文标题", "en": "English title" },
+        "summary": {
+          "zh": "一两句中文摘要，说明发生了什么。",
+          "en": "One or two English sentences on what happened."
+        },
+        "body": {
+          "en": "Optional Markdown. Paragraphs, lists, and https links.\n\n- A point.\n- The [source](https://example.com/story)."
+        },
         "sources": [
-          { "name": "来源名", "url": "https://example.com/story" }
+          { "name": "Example Desk", "url": "https://example.com/story", "lang": "en" }
         ]
       }
     ],
@@ -83,45 +106,69 @@ Creating the file on branch `main` is enough. The GitHub contents API path is th
 | Field | Required | Rule |
 | --- | --- | --- |
 | `date` | yes | `YYYY-MM-DD`, a real calendar date, identical to the path |
-| `edition` | yes | `morning` (早报) or `evening` (晚报). Not the Chinese word |
-| `lead` | no | 1–200 characters. Omit the key when unused. Do not send `""` |
-| `sample` | no | `true` only for placeholders. Omit or `false` for a real edition |
+| `am` | yes | Morning block. Object with **exactly** `tech`, `world`, `business`, `china` |
+| `pm` | no | Afternoon block, same shape as `am`. Omit the key until afternoon stories exist |
+| `lead` | no | `{ "zh"?, "en"? }`, each 1–200 characters. Omit the key when unused |
+| `sample` | no | `true` only for placeholders. Omit or `false` for a real day |
 | `$schema` | no | Editor hint. Ignored by the site |
-| `sections` | yes | Object with **exactly** these keys, in any order |
+
+Do not use `edition`, `sections`, `morning`, or `evening`. Those were the old two-file model.
 
 Section keys:
 
-| Key | 栏目 |
-| --- | --- |
-| `tech` | 科技与AI |
-| `world` | 国际与政治 |
-| `business` | 商业与市场 |
-| `china` | 中国 |
+| Key | 栏目 | English |
+| --- | --- | --- |
+| `tech` | 科技与AI | Tech and AI |
+| `world` | 国际与政治 | World and politics |
+| `business` | 商业与市场 | Business and markets |
+| `china` | 中国 | China |
 
-All four keys are required. Use `[]` when that section has no stories. The edition needs at least one story in total. At most 8 stories per section. The site prints sections in the order above, not the order of the keys.
+All four keys are required inside `am`, and inside `pm` when `pm` is present. Use `[]` when that section has no stories. The file needs at least one story in total. `pm`, if present, needs at least one story of its own. At most 8 stories per section. The site prints morning, then afternoon, and sections in the order above.
 
-Each story:
+### Adding the afternoon later
+
+Ship the morning alone: write `am` and omit `pm`.
+
+When afternoon stories are ready, edit **this same file**. Add a `pm` object with all four section keys and the new stories. Do not create another file. Do not rename existing `id`s — they are the story URLs.
+
+An agent appending the afternoon should:
+
+1. Open `content/YYYY/MM/YYYY-MM-DD.json` for that calendar day.
+2. If the file does not exist, create it with `date`, `am`, and the four section keys.
+3. If it exists, leave `am` and every existing story `id` untouched.
+4. Set `pm` to `{ "tech": [], "world": [], "business": [], "china": [] }` and put the afternoon stories in the right arrays.
+5. Keep every story `id` unique inside the file.
+
+### Story fields
 
 | Field | Rule |
 | --- | --- |
-| `title` | 2–100 characters |
-| `summary` | One or two sentences, 8–280 characters |
-| `sources` | 1–5 items. Each is `{ "name", "url" }` |
+| `id` | 2–60 characters. Lowercase letters, digits, and hyphens (`model-eval`). Unique in the day. Stable URL slug |
+| `originalLang` | `zh` or `en`. The language the story was written in. Required |
+| `title` | `{ "zh"?, "en"? }`. The original language is required. 2–100 characters |
+| `summary` | Same languages as `title`, 8–280 characters. A translation must include both title and summary |
+| `body` | Optional. Same shape, up to 6000 characters per language. Markdown, not raw HTML |
+| `sources` | 1–5 items |
+
+`body` may be omitted for a short item. The detail page then shows the summary and the sources. A language used in `body` must also have `title` and `summary` in that language.
+
+Markdown allowed in `body`: paragraphs (blank line), `- ` lists, `**bold**`, `*emphasis*`, and `[label](https://...)`. Anything else is shown as text. Raw HTML is escaped.
 
 Each source:
 
 | Field | Rule |
 | --- | --- |
-| `name` | 1–40 characters, the publication or page name |
+| `name` | 1–80 characters, the publication or page name |
 | `url` | `https://` URL with a host name, max 2000 characters |
+| `lang` | Optional `zh` or `en`, the language of that source page |
 
-No other fields. Chinese names such as `"科技与AI"` or `"早报"` are not keys and not values of `edition`.
+No other fields. Chinese names such as `"科技与AI"` are not keys.
 
-### Sample editions
+### Sample days
 
-`"sample": true` still builds and is labeled 示例刊 on the site. Sample editions are left out of the RSS feed and the sitemap, and the page is `noindex`. The two files under `content/2026/10/` are samples so the site builds; replace them, or add a later date, when real copy starts. Do not set `sample` on a real edition. While every edition is a sample, `robots.txt` disallows crawlers.
+`"sample": true` still builds and is labeled 示例 / Sample. Sample days are left out of the RSS feed and the sitemap, and their pages are `noindex`. The files under `content/2026/10/` are samples so the site builds; replace them, or add a later date, when real copy starts. Do not set `sample` on a real day. While every day is a sample, `robots.txt` disallows crawlers.
 
-The homepage is the newest date. On that date, the evening edition is newer than the morning edition.
+The homepage is the newest date. On a day page, morning is above afternoon.
 
 ### What CI checks
 
@@ -130,8 +177,8 @@ The homepage is the newest date. On that date, the evening edition is newer than
 ```
 Edition content is invalid.
 
-content/2026/10/2026-10-27-morning.json
-  - /sections has unknown field "科技与AI" — use the key "tech"
+content/2026/10/2026-10-27.json
+  - /am has unknown field "科技与AI" — use the key "tech"
   - filename date is 2026-10-27 but "date" is "2026-10-28"
 
 See README.md (“Authoring spec”) and schemas/edition.schema.json.
@@ -141,8 +188,9 @@ See README.md (“Authoring spec”) and schemas/edition.schema.json.
 
 | Page | URL |
 | --- | --- |
-| Latest edition | https://naijoug.github.io/news/ |
-| One edition | https://naijoug.github.io/news/editions/2026-10-27-morning/ |
+| Latest day | https://naijoug.github.io/news/ |
+| One day | https://naijoug.github.io/news/days/2026-10-27/ |
+| One story | https://naijoug.github.io/news/stories/2026-10-27/model-eval/ |
 | Archive | https://naijoug.github.io/news/archive/ |
 | 科技与AI | https://naijoug.github.io/news/sections/tech/ |
 | 国际与政治 | https://naijoug.github.io/news/sections/world/ |
@@ -150,7 +198,7 @@ See README.md (“Authoring spec”) and schemas/edition.schema.json.
 | 中国 | https://naijoug.github.io/news/sections/china/ |
 | RSS | https://naijoug.github.io/news/rss.xml |
 
-RSS `pubDate` is a nominal time: 08:00 Asia/Shanghai for morning, 20:00 for evening. The feed includes real editions only.
+RSS items are individual non-sample stories. `pubDate` is a nominal time: 08:00 Asia/Shanghai for `am`, 16:00 for `pm`. The feed prefers the Chinese title when it exists.
 
 ## Local preview
 

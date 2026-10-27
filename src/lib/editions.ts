@@ -1,66 +1,127 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import sectionFile from '../../schemas/sections.json';
-import { compareEditionsDesc } from '../../scripts/edition-order.mjs';
+import { compareDaysDesc } from '../../scripts/edition-order.mjs';
+import { renderMarkdown } from '../../scripts/markdown.mjs';
+
+export type Lang = 'zh' | 'en';
+export type PartId = 'am' | 'pm';
+
+export interface Localized {
+  zh?: string;
+  en?: string;
+}
 
 export interface Source {
   name: string;
   url: string;
+  lang?: Lang;
 }
 
 export interface Story {
-  title: string;
-  summary: string;
+  id: string;
+  originalLang: Lang;
+  title: Localized;
+  summary: Localized;
+  body?: Localized;
+  bodyHtml?: Localized;
   sources: Source[];
+  part: PartId;
+  sectionId: string;
+  date: string;
 }
 
 export interface SectionInfo {
   id: string;
-  name: string;
-  description: string;
+  name: Localized;
+  description: Localized;
+}
+
+export interface Part {
+  id: PartId;
+  storiesBySection: Record<string, Story[]>;
+}
+
+export interface Day {
+  date: string;
+  sample: boolean;
+  lead?: Localized;
+  parts: Part[];
+  stories: Story[];
+  weekday: string;
+  weekdayEn: string;
+  dateLabel: string;
+  dateLabelEn: string;
+  monthLabel: string;
+  monthLabelEn: string;
+  dayLabel: string;
+  dayLabelEn: string;
+  storyCount: number;
 }
 
 export const SECTIONS = sectionFile as SectionInfo[];
 
-export type EditionKind = 'morning' | 'evening';
-
-export interface Edition {
-  date: string;
-  edition: EditionKind;
-  sample: boolean;
-  lead?: string;
-  sections: Record<string, Story[]>;
-  slug: string;
-  weekday: string;
-  dateLabel: string;
-  editionLabel: string;
-  storyCount: number;
-}
+export const PARTS: { id: PartId; zh: string; en: string }[] = [
+  { id: 'am', zh: '上午', en: 'Morning' },
+  { id: 'pm', zh: '下午', en: 'Afternoon' },
+];
 
 const WEEKDAYS = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
-const FILE_RE = /^(\d{4})\/(\d{2})\/(\d{4}-\d{2}-\d{2})-(morning|evening)\.json$/;
+const WEEKDAYS_EN = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const MONTHS_EN = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
+];
+const FILE_RE = /^(\d{4})\/(\d{2})\/(\d{4}-\d{2}-\d{2})\.json$/;
 
-export function editionKindLabel(kind: EditionKind): string {
-  return kind === 'evening' ? '晚报' : '早报';
+export function partMeta(id: PartId) {
+  return PARTS.find((part) => part.id === id) ?? PARTS[0];
 }
 
-export function formatDate(iso: string): { weekday: string; dateLabel: string; monthLabel: string; dayLabel: string } {
+export function sectionById(id: string): SectionInfo | undefined {
+  return SECTIONS.find((section) => section.id === id);
+}
+
+export function formatDate(iso: string) {
   const [year, month, day] = iso.split('-').map(Number);
   const utc = new Date(Date.UTC(year, month - 1, day));
+  const monthEn = MONTHS_EN[month - 1] ?? '';
   return {
     weekday: WEEKDAYS[utc.getUTCDay()] ?? '',
+    weekdayEn: WEEKDAYS_EN[utc.getUTCDay()] ?? '',
     dateLabel: `${year}年${month}月${day}日`,
+    dateLabelEn: `${monthEn} ${day}, ${year}`,
     monthLabel: `${year}年${month}月`,
+    monthLabelEn: `${monthEn} ${year}`,
     dayLabel: `${day}日`,
+    dayLabelEn: `${monthEn} ${day}`,
   };
 }
 
-export function editionPath(edition: Pick<Edition, 'slug'>): string {
-  return `editions/${edition.slug}/`;
+export function dayPath(day: Pick<Day, 'date'>): string {
+  return `days/${day.date}/`;
+}
+
+export function storyPath(story: Pick<Story, 'date' | 'id'>): string {
+  return `stories/${story.date}/${story.id}/`;
 }
 
 export function sectionPath(id: string): string {
   return `sections/${id}/`;
+}
+
+export function hasLang(text: Localized | undefined, lang: Lang): boolean {
+  return Boolean(text && text[lang]);
 }
 
 function walk(dir: string, out: string[] = []): string[] {
@@ -77,30 +138,63 @@ function fail(message: string): never {
   throw new Error(message);
 }
 
-function asStory(value: unknown, label: string): Story {
+function asLocalized(value: unknown): Localized | undefined {
+  if (!value || typeof value !== 'object') return undefined;
+  const row = value as Record<string, unknown>;
+  const out: Localized = {};
+  if (typeof row.zh === 'string') out.zh = row.zh;
+  if (typeof row.en === 'string') out.en = row.en;
+  return out;
+}
+
+function asStory(value: unknown, label: string, date: string, part: PartId, sectionId: string): Story {
   if (!value || typeof value !== 'object') fail(`${label} is not an object`);
   const story = value as Record<string, unknown>;
-  if (typeof story.title !== 'string' || typeof story.summary !== 'string' || !Array.isArray(story.sources)) {
-    fail(`${label} is missing title, summary, or sources`);
+  const id = story.id;
+  const originalLang = story.originalLang;
+  if (typeof id !== 'string' || (originalLang !== 'zh' && originalLang !== 'en')) {
+    fail(`${label} is missing id or originalLang`);
   }
+  const title = asLocalized(story.title);
+  const summary = asLocalized(story.summary);
+  if (!title || !summary) fail(`${label} is missing title or summary`);
+  if (!Array.isArray(story.sources)) fail(`${label} is missing sources`);
   const sources = story.sources.map((source, index) => {
     if (!source || typeof source !== 'object') fail(`${label} source ${index} is not an object`);
     const row = source as Record<string, unknown>;
     if (typeof row.name !== 'string' || typeof row.url !== 'string') {
       fail(`${label} source ${index} is missing name or url`);
     }
-    return { name: row.name, url: row.url };
+    const rawLang = row.lang;
+    const lang: Lang | undefined = rawLang === 'zh' || rawLang === 'en' ? rawLang : undefined;
+    return { name: row.name, url: row.url, lang };
   });
-  return { title: story.title, summary: story.summary, sources };
+  const body = asLocalized(story.body);
+  const bodyHtml = body
+    ? {
+        zh: body.zh ? renderMarkdown(body.zh) : undefined,
+        en: body.en ? renderMarkdown(body.en) : undefined,
+      }
+    : undefined;
+  return {
+    id,
+    originalLang,
+    title,
+    summary,
+    body,
+    bodyHtml,
+    sources,
+    part,
+    sectionId,
+    date,
+  };
 }
 
-function loadEdition(contentRoot: string, file: string): Edition {
+function loadDay(contentRoot: string, file: string): Day {
   const rel = path.relative(contentRoot, file).split(path.sep).join('/');
   const match = FILE_RE.exec(rel);
   if (!match) {
-    fail(
-      `Unexpected file content/${rel}. Expected content/YYYY/MM/YYYY-MM-DD-morning.json or content/YYYY/MM/YYYY-MM-DD-evening.json`,
-    );
+    fail(`Unexpected file content/${rel}. Expected content/YYYY/MM/YYYY-MM-DD.json`);
   }
   let parsed: unknown;
   try {
@@ -113,96 +207,94 @@ function loadEdition(contentRoot: string, file: string): Edition {
   if (!parsed || typeof parsed !== 'object') fail(`content/${rel} is not a JSON object`);
   const data = parsed as Record<string, unknown>;
   const date = data.date;
-  const edition = data.edition;
-  if (typeof date !== 'string' || (edition !== 'morning' && edition !== 'evening')) {
-    fail(`content/${rel} is missing a date or edition`);
+  if (typeof date !== 'string' || date !== match[3]) {
+    fail(`content/${rel} does not match its date field`);
   }
-  if (date !== match[3] || edition !== match[4]) {
-    fail(`content/${rel} does not match its date and edition fields`);
-  }
-  const sectionsRaw = data.sections;
-  if (!sectionsRaw || typeof sectionsRaw !== 'object') fail(`content/${rel} is missing sections`);
-  const sections: Record<string, Story[]> = {};
-  for (const section of SECTIONS) {
-    const list = (sectionsRaw as Record<string, unknown>)[section.id];
-    if (!Array.isArray(list)) fail(`content/${rel} is missing sections.${section.id}`);
-    sections[section.id] = list.map((story, index) =>
-      asStory(story, `content/${rel} sections.${section.id}[${index}]`),
-    );
+  const parts: Part[] = [];
+  const stories: Story[] = [];
+  const seen = new Set<string>();
+  for (const partId of ['am', 'pm'] as const) {
+    if (partId === 'pm' && !Object.prototype.hasOwnProperty.call(data, 'pm')) continue;
+    const block = data[partId];
+    if (!block || typeof block !== 'object') fail(`content/${rel} is missing ${partId}`);
+    const storiesBySection: Record<string, Story[]> = {};
+    for (const section of SECTIONS) {
+      const list = (block as Record<string, unknown>)[section.id];
+      if (!Array.isArray(list)) fail(`content/${rel} is missing ${partId}.${section.id}`);
+      storiesBySection[section.id] = list.map((story, index) => {
+        const parsedStory = asStory(
+          story,
+          `content/${rel} ${partId}.${section.id}[${index}]`,
+          date,
+          partId,
+          section.id,
+        );
+        if (seen.has(parsedStory.id)) fail(`content/${rel} repeats story id ${parsedStory.id}`);
+        seen.add(parsedStory.id);
+        return parsedStory;
+      });
+      stories.push(...storiesBySection[section.id]);
+    }
+    parts.push({ id: partId, storiesBySection });
   }
   const formatted = formatDate(date);
-  const storyCount = SECTIONS.reduce((count, section) => count + sections[section.id].length, 0);
   return {
     date,
-    edition,
     sample: data.sample === true,
-    lead: typeof data.lead === 'string' ? data.lead : undefined,
-    sections,
-    slug: `${date}-${edition}`,
-    weekday: formatted.weekday,
-    dateLabel: formatted.dateLabel,
-    editionLabel: editionKindLabel(edition),
-    storyCount,
+    lead: asLocalized(data.lead),
+    parts,
+    stories,
+    ...formatted,
+    storyCount: stories.length,
   };
 }
 
-export function getEditions(): Edition[] {
+export function getDays(): Day[] {
   const contentRoot = path.join(process.cwd(), 'content');
-  const editions = walk(contentRoot).map((file) => loadEdition(contentRoot, file));
-  if (editions.length === 0) {
-    fail('No editions found. Add content/YYYY/MM/YYYY-MM-DD-morning.json');
+  const days = walk(contentRoot)
+    .filter((file) => file.endsWith('.json'))
+    .map((file) => loadDay(contentRoot, file));
+  if (days.length === 0) {
+    fail('No days found. Add content/YYYY/MM/YYYY-MM-DD.json');
   }
-  editions.sort(compareEditionsDesc);
-  return editions;
+  days.sort(compareDaysDesc);
+  return days;
 }
 
-export function hasRealEdition(editions: Edition[] = getEditions()): boolean {
-  return editions.some((edition) => !edition.sample);
+export function hasRealDay(days: Day[] = getDays()): boolean {
+  return days.some((day) => !day.sample);
 }
 
-export interface DayGroup {
-  date: string;
-  dayLabel: string;
-  weekday: string;
-  editions: Edition[];
+export function partStoryCount(day: Day, id: PartId): number {
+  const part = day.parts.find((item) => item.id === id);
+  if (!part) return 0;
+  return SECTIONS.reduce((count, section) => count + (part.storiesBySection[section.id]?.length ?? 0), 0);
 }
 
 export interface MonthGroup {
   key: string;
   label: string;
-  days: DayGroup[];
+  labelEn: string;
+  days: Day[];
 }
 
-export function groupByMonth(editions: Edition[]): MonthGroup[] {
+export function groupByMonth(days: Day[]): MonthGroup[] {
   const months: MonthGroup[] = [];
-  for (const edition of editions) {
-    const key = edition.date.slice(0, 7);
-    const formatted = formatDate(edition.date);
+  for (const day of days) {
+    const key = day.date.slice(0, 7);
     let month = months.find((item) => item.key === key);
     if (!month) {
-      month = { key, label: formatted.monthLabel, days: [] };
+      month = { key, label: day.monthLabel, labelEn: day.monthLabelEn, days: [] };
       months.push(month);
     }
-    let day = month.days.find((item) => item.date === edition.date);
-    if (!day) {
-      day = {
-        date: edition.date,
-        dayLabel: formatted.dayLabel,
-        weekday: formatted.weekday,
-        editions: [],
-      };
-      month.days.push(day);
-    }
-    day.editions.push(edition);
+    month.days.push(day);
   }
   return months;
 }
 
-export function editionDescription(edition: Edition): string {
-  if (edition.lead) return edition.lead;
-  for (const section of SECTIONS) {
-    const story = edition.sections[section.id]?.[0];
-    if (story) return story.summary;
-  }
-  return '朝夕每日新闻简报。';
+export function dayDescription(day: Day): string {
+  if (day.lead?.zh) return day.lead.zh;
+  if (day.lead?.en) return day.lead.en;
+  const story = day.stories[0];
+  return story?.summary.zh || story?.summary.en || '朝夕每日新闻。';
 }

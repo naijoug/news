@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import DayDocument from '../../components/DayDocument.astro';
+import { dayDescription, dayPath, getDays, type Day } from '../../lib/editions';
+import { href } from '../../lib/urls';
+
+export function getStaticPaths() {
+  const days = getDays();
+  return days.map((day, index) => ({
+    params: { date: day.date },
+    props: {
+      day,
+      newer: index > 0 ? days[index - 1] : null,
+      older: index < days.length - 1 ? days[index + 1] : null,
+    },
+  }));
+}
+
+interface Props {
+  day: Day;
+  newer: Day | null;
+  older: Day | null;
+}
+
+const { day, newer, older } = Astro.props;
+---
+
+<Base
+  title={`${day.dateLabel} · 朝夕`}
+  titleEn={`${day.dateLabelEn} · Zhaoxi`}
+  description={dayDescription(day)}
+  path={dayPath(day)}
+  current="archive"
+  noindex={day.sample}
+  prev={older ? href(dayPath(older)) : undefined}
+  next={newer ? href(dayPath(newer)) : undefined}
+>
+  <DayDocument day={day} older={older} newer={newer} />
+</Base>

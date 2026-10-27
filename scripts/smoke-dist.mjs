@@ -1,11 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { compareEditionsDesc } from './edition-order.mjs';
+import { compareDaysDesc } from './edition-order.mjs';
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(repoRoot, 'dist');
 const failures = [];
+const SECTION_IDS = ['tech', 'world', 'business', 'china'];
 
 function fail(message) {
   failures.push(message);
@@ -34,6 +35,11 @@ function escapeText(value) {
   return value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 }
 
+function partHasStories(block) {
+  if (!block) return false;
+  return SECTION_IDS.some((id) => (block[id] || []).length > 0);
+}
+
 const required = [
   'index.html',
   'archive/index.html',
@@ -49,11 +55,11 @@ const required = [
 ];
 for (const rel of required) read(rel);
 
-const editions = walkContent(path.join(repoRoot, 'content'))
+const days = walkContent(path.join(repoRoot, 'content'))
   .map((file) => JSON.parse(fs.readFileSync(file, 'utf8')))
-  .sort(compareEditionsDesc);
+  .sort(compareDaysDesc);
 
-if (editions.length === 0) fail('no content editions to smoke-test');
+if (days.length === 0) fail('no content days to smoke-test');
 
 const home = read('index.html');
 const rss = read('rss.xml');
@@ -61,37 +67,64 @@ const sitemap = read('sitemap.xml');
 const robots = read('robots.txt');
 const notFound = read('404.html');
 if (notFound && !notFound.includes('未找到')) fail('404 page missing 未找到');
-const latest = editions[0];
+const latest = days[0];
 
-if (home) {
+if (home && latest) {
   for (const name of ['朝夕', '科技与AI', '国际与政治', '商业与市场', '中国']) {
     if (!home.includes(name)) fail(`homepage missing ${name}`);
   }
   if (!home.includes('lang="zh-Hans"')) fail('homepage missing lang="zh-Hans"');
   if (!home.includes('id="theme-toggle"')) fail('homepage missing theme toggle');
+  if (!home.includes('id="ui-toggle"')) fail('homepage missing language toggle');
   if (!home.includes('application/rss+xml')) fail('homepage missing RSS autodiscovery');
+  if (!home.includes('card-grid')) fail('homepage missing the story grid');
+  if (!home.includes('text-toggle')) fail('homepage missing the original/translation toggle');
+  if (!home.includes('mark-original') || !home.includes('mark-translation')) {
+    fail('homepage missing original and translation icons');
+  }
   const [year, month, day] = latest.date.split('-').map(Number);
   const dateLabel = `${year}年${month}月${day}日`;
-  const kind = latest.edition === 'evening' ? '晚报' : '早报';
   if (!home.includes(dateLabel)) fail(`homepage missing latest date ${dateLabel}`);
-  if (!home.includes(kind)) fail(`homepage missing latest edition label ${kind}`);
-  if (latest.lead && !home.includes(escapeText(latest.lead))) fail('homepage missing latest lead');
+  if (partHasStories(latest.am) && !home.includes('上午')) fail('homepage missing 上午');
+  if (partHasStories(latest.pm) && !home.includes('下午')) fail('homepage missing 下午');
+  const lead = latest.lead && (latest.lead.zh || latest.lead.en);
+  if (lead && !home.includes(escapeText(lead))) fail('homepage missing latest lead');
   if (latest.sample && !home.includes('noindex')) fail('sample homepage should be noindex');
   if (!home.includes('https://naijoug.github.io/news/')) {
     fail('homepage canonical is not https://naijoug.github.io/news/');
   }
+  if (home.includes('/editions/')) fail('homepage still links to the old edition route');
 }
 
-for (const edition of editions) {
-  const slug = `${edition.date}-${edition.edition}`;
-  const html = read(`editions/${slug}/index.html`);
-  if (!html) continue;
-  const title = edition.sections?.tech?.[0]?.title;
-  if (title && !html.includes(escapeText(title))) fail(`edition ${slug} missing its first tech title`);
-  if (edition.sample) {
-    if (rss.includes(escapeText(title ?? slug))) fail(`RSS includes sample edition ${slug}`);
-    if (sitemap.includes(`/editions/${slug}/`)) fail(`sitemap includes sample edition ${slug}`);
-    if (!html.includes('noindex')) fail(`sample edition ${slug} should be noindex`);
+for (const day of days) {
+  const html = read(`days/${day.date}/index.html`);
+  if (html && day.sample && !html.includes('noindex')) fail(`sample day ${day.date} should be noindex`);
+  for (const partId of ['am', 'pm']) {
+    const block = day[partId];
+    if (!block) continue;
+    for (const sectionId of SECTION_IDS) {
+      for (const story of block[sectionId] || []) {
+        const page = read(`stories/${day.date}/${story.id}/index.html`);
+        const title = story.title?.zh || story.title?.en;
+        if (title && page && !page.includes(escapeText(title))) {
+          fail(`story ${day.date}/${story.id} missing its title`);
+        }
+        if (story.title?.zh && story.title?.en && page) {
+          if (!page.includes(escapeText(story.title.zh)) || !page.includes(escapeText(story.title.en))) {
+            fail(`story ${day.date}/${story.id} missing a bilingual title`);
+          }
+        }
+        if (day.sample && title) {
+          if (rss.includes(escapeText(title))) fail(`RSS includes sample story ${story.id}`);
+          if (sitemap.includes(`/stories/${day.date}/${story.id}/`)) {
+            fail(`sitemap includes sample story ${story.id}`);
+          }
+        }
+        if (page && story.body && !page.includes('prose')) {
+          fail(`story ${day.date}/${story.id} with a body is missing prose`);
+        }
+      }
+    }
   }
 }
 
@@ -114,7 +147,7 @@ if (/fonts\.googleapis\.com|fonts\.gstatic\.com/.test(`${builtCss}\n${home}`)) {
 if (!rss.includes('<rss') || !rss.includes('朝夕')) fail('RSS feed is missing its channel');
 if (!sitemap.includes('<urlset')) fail('sitemap is missing urlset');
 
-const real = editions.filter((edition) => edition.sample !== true);
+const real = days.filter((day) => day.sample !== true);
 if (real.length === 0) {
   if (!/Disallow:\s*\//.test(robots)) fail('sample-only site should disallow crawlers');
 } else if (!/Sitemap:/.test(robots)) {
@@ -127,4 +160,4 @@ if (failures.length > 0) {
   process.exit(1);
 }
 
-console.log(`Smoke-tested dist/ (${editions.length} edition file(s)).`);
+console.log(`Smoke-tested dist/ (${days.length} day file(s)).`);

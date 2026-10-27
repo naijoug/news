@@ -8,15 +8,21 @@ const schemaPath = path.join(repoRoot, 'schemas', 'edition.schema.json');
 const examplePath = path.join(repoRoot, 'schemas', 'edition.example.json');
 const sectionsPath = path.join(repoRoot, 'schemas', 'sections.json');
 
-const FILE_RE = /^(\d{4})\/(\d{2})\/(\d{4}-\d{2}-\d{2})-(morning|evening)\.json$/;
+const FILE_RE = /^(\d{4})\/(\d{2})\/(\d{4}-\d{2}-\d{2})\.json$/;
+const OLD_FILE_RE = /^(\d{4})\/(\d{2})\/(\d{4}-\d{2}-\d{2})-(morning|evening)\.json$/;
+const LANGS = ['zh', 'en'];
 
 const FIELD_HINTS = {
   科技与AI: ' — use the key "tech"',
   国际与政治: ' — use the key "world"',
   商业与市场: ' — use the key "business"',
   中国: ' — use the key "china"',
-  早报: ' — use "morning"',
-  晚报: ' — use "evening"',
+  edition: ' — remove it; morning stories go in "am", afternoon stories in "pm"',
+  sections: ' — use "am" and optional "pm" instead of "sections"',
+  morning: ' — use "am"',
+  evening: ' — use "pm"',
+  早报: ' — use "am"',
+  晚报: ' — use "pm"',
 };
 
 export function loadSchema() {
@@ -24,7 +30,7 @@ export function loadSchema() {
 }
 
 export function sectionIds() {
-  return loadSchema().properties.sections.required;
+  return loadSchema().$defs.part.required;
 }
 
 function hintFor(name) {
@@ -38,13 +44,18 @@ function formatAjvError(error) {
       return `${loc} has unknown field "${error.params.additionalProperty}"${hintFor(error.params.additionalProperty)}`;
     case 'required':
       return `${loc} is missing "${error.params.missingProperty}"`;
-    case 'enum': {
-      const allowed = error.params.allowedValues.join(', ');
-      const editionHint =
-        error.instancePath === '/edition' ? ' (morning is 早报, evening is 晚报)' : '';
-      return `${loc} must be one of: ${allowed}${editionHint}`;
-    }
+    case 'enum':
+      if (error.instancePath.endsWith('/originalLang')) {
+        return `${loc} must be "zh" or "en" (the language the story was written in)`;
+      }
+      if (error.instancePath.endsWith('/lang')) {
+        return `${loc} must be "zh" or "en"`;
+      }
+      return `${loc} must be one of: ${error.params.allowedValues.join(', ')}`;
     case 'type':
+      if (error.instancePath === '/lead') {
+        return `${loc} must be an object with "zh" and/or "en"`;
+      }
       return `${loc} must be ${error.params.type}`;
     case 'minLength':
       return `${loc} must be at least ${error.params.limit} characters`;
@@ -54,9 +65,14 @@ function formatAjvError(error) {
       return `${loc} must contain at least ${error.params.limit} item(s)`;
     case 'maxItems':
       return `${loc} must contain at most ${error.params.limit} items`;
+    case 'minProperties':
+      return `${loc} must include at least one language`;
     case 'pattern':
       if (String(error.schema).includes('https://') || String(error.message).includes('https://')) {
         return `${loc} must be an https URL`;
+      }
+      if (error.instancePath.endsWith('/id')) {
+        return `${loc} must be a lowercase id of letters, digits, and hyphens (used in the story URL)`;
       }
       return `${loc} ${error.message}`;
     default:
@@ -76,73 +92,130 @@ export function isRealDate(iso) {
 
 function filenameErrors(relPath, data) {
   const errors = [];
-  const match = FILE_RE.exec(relPath);
-  if (!match) {
+  const old = OLD_FILE_RE.exec(relPath);
+  if (old) {
     errors.push(
-      'path must be content/YYYY/MM/YYYY-MM-DD-morning.json or content/YYYY/MM/YYYY-MM-DD-evening.json ' +
-        `(month is two digits; got content/${relPath})`,
+      `path content/${relPath} is the old morning/evening split. Use content/${old[1]}/${old[2]}/${old[3]}.json and put afternoon stories in "pm" of that same file`,
     );
     return errors;
   }
-  const [, year, month, date, edition] = match;
+  const match = FILE_RE.exec(relPath);
+  if (!match) {
+    errors.push(
+      `path must be content/YYYY/MM/YYYY-MM-DD.json (one file per calendar day; got content/${relPath})`,
+    );
+    return errors;
+  }
+  const [, year, month, date] = match;
   if (year !== date.slice(0, 4) || month !== date.slice(5, 7)) {
     errors.push(`directory ${year}/${month}/ does not match the filename date ${date}`);
   }
   if (data && typeof data.date === 'string' && data.date !== date) {
     errors.push(`filename date is ${date} but "date" is ${JSON.stringify(data.date)}`);
   }
-  if (data && (data.edition === 'morning' || data.edition === 'evening') && data.edition !== edition) {
-    errors.push(
-      `filename edition is ${edition} but "edition" is ${JSON.stringify(data.edition)} (morning is 早报, evening is 晚报)`,
-    );
+  return errors;
+}
+
+function storyErrors(story, loc, idsSeen, where) {
+  const errors = [];
+  if (!story || typeof story !== 'object') return errors;
+  if (typeof story.id === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(story.id)) {
+    if (idsSeen.has(story.id)) {
+      errors.push(`${loc}/id duplicates ${idsSeen.get(story.id)}`);
+    } else {
+      idsSeen.set(story.id, where);
+    }
   }
+  const original = story.originalLang;
+  if (original !== 'zh' && original !== 'en') return errors;
+  const title = story.title;
+  const summary = story.summary;
+  if (!title || typeof title !== 'object' || !summary || typeof summary !== 'object') return errors;
+
+  if (typeof title[original] !== 'string') {
+    errors.push(`${loc}/title is missing "${original}" (originalLang)`);
+  }
+  if (typeof summary[original] !== 'string') {
+    errors.push(`${loc}/summary is missing "${original}" (originalLang)`);
+  }
+  for (const lang of LANGS) {
+    const hasTitle = typeof title[lang] === 'string';
+    const hasSummary = typeof summary[lang] === 'string';
+    if (hasTitle !== hasSummary) {
+      const present = hasTitle ? 'title' : 'summary';
+      const missing = hasTitle ? 'summary' : 'title';
+      errors.push(`${loc} has ${present}.${lang} without ${missing}.${lang}`);
+    }
+    if (hasTitle && title[lang].trim().length < 2) errors.push(`${loc}/title/${lang} must not be blank`);
+    if (hasSummary && summary[lang].trim().length < 8) errors.push(`${loc}/summary/${lang} must not be blank`);
+  }
+  const body = story.body;
+  if (body && typeof body === 'object') {
+    for (const lang of LANGS) {
+      if (typeof body[lang] !== 'string') continue;
+      if (body[lang].trim().length < 1) errors.push(`${loc}/body/${lang} must not be blank`);
+      if (typeof title[lang] !== 'string' || typeof summary[lang] !== 'string') {
+        errors.push(`${loc}/body/${lang} needs title.${lang} and summary.${lang}`);
+      }
+    }
+  }
+  if (!Array.isArray(story.sources)) return errors;
+  story.sources.forEach((source, sourceIndex) => {
+    if (!source || typeof source !== 'object' || typeof source.url !== 'string') return;
+    if (!/^https:\/\/\S+$/.test(source.url)) return;
+    const sourceLoc = `${loc}/sources/${sourceIndex}/url`;
+    try {
+      const url = new URL(source.url);
+      if (url.protocol !== 'https:' || !url.hostname.includes('.')) {
+        errors.push(`${sourceLoc} must be an https URL with a host name`);
+      }
+    } catch {
+      errors.push(`${sourceLoc} must be an https URL with a host name`);
+    }
+  });
   return errors;
 }
 
 function contentErrors(data, ids) {
   const errors = [];
-  if (!data || typeof data !== 'object') return errors;
+  if (!data || typeof data !== 'object' || Array.isArray(data)) return errors;
   if (typeof data.date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(data.date) && !isRealDate(data.date)) {
     errors.push(`date ${data.date} is not a real calendar date`);
   }
-  const sections = data.sections;
-  if (!sections || typeof sections !== 'object') return errors;
+  const idsSeen = new Map();
   let stories = 0;
-  let sawLists = true;
-  for (const id of ids) {
-    const list = sections[id];
-    if (!Array.isArray(list)) {
-      sawLists = false;
-      continue;
-    }
-    stories += list.length;
-    list.forEach((story, index) => {
-      if (!story || typeof story !== 'object') return;
-      const loc = `/sections/${id}/${index}`;
-      if (typeof story.title === 'string' && story.title.trim().length < 2) {
-        errors.push(`${loc}/title must not be blank`);
+  let sawAm = false;
+  for (const partId of ['am', 'pm']) {
+    if (!Object.prototype.hasOwnProperty.call(data, partId)) continue;
+    const part = data[partId];
+    if (!part || typeof part !== 'object' || Array.isArray(part)) continue;
+    if (partId === 'am') sawAm = true;
+    let partStories = 0;
+    let sawLists = true;
+    for (const id of ids) {
+      const list = part[id];
+      if (!Array.isArray(list)) {
+        sawLists = false;
+        continue;
       }
-      if (typeof story.summary === 'string' && story.summary.trim().length < 8) {
-        errors.push(`${loc}/summary must not be blank`);
-      }
-      if (!Array.isArray(story.sources)) return;
-      story.sources.forEach((source, sourceIndex) => {
-        if (!source || typeof source !== 'object' || typeof source.url !== 'string') return;
-        if (!/^https:\/\/\S+$/.test(source.url)) return;
-        const sourceLoc = `${loc}/sources/${sourceIndex}/url`;
-        try {
-          const url = new URL(source.url);
-          if (url.protocol !== 'https:' || !url.hostname.includes('.')) {
-            errors.push(`${sourceLoc} must be an https URL with a host name`);
-          }
-        } catch {
-          errors.push(`${sourceLoc} must be an https URL with a host name`);
-        }
+      partStories += list.length;
+      list.forEach((story, index) => {
+        errors.push(...storyErrors(story, `/${partId}/${id}/${index}`, idsSeen, `${partId}/${id}`));
       });
-    });
+    }
+    stories += partStories;
+    if (partId === 'pm' && sawLists && ids.length > 0 && partStories === 0) {
+      errors.push(
+        'pm is present but has no stories; omit "pm" until afternoon stories are ready, then add them to this same file',
+      );
+    }
   }
-  if (sawLists && ids.length > 0 && stories === 0) {
-    errors.push('edition has no stories; add at least one across the four sections');
+  if (sawAm && stories === 0 && errors.length === 0) {
+    errors.push('day has no stories; add at least one across am or pm');
+  }
+  if (sawAm && stories === 0 && !errors.some((message) => message.startsWith('day has no stories'))) {
+    const blocking = errors.some((message) => message.includes('missing') || message.includes('unknown'));
+    if (!blocking) errors.push('day has no stories; add at least one across am or pm');
   }
   return errors;
 }
@@ -194,14 +267,14 @@ function listFiles(dir) {
 
 export function validateContentTree(contentDir, { schema = loadSchema() } = {}) {
   const validate = compile(schema);
-  const ids = schema.properties.sections.required;
+  const ids = schema.$defs.part.required;
   const errors = [];
   const files = listFiles(contentDir);
   const seen = new Map();
   if (files.length === 0) {
     errors.push({
       file: path.relative(repoRoot, contentDir) || 'content',
-      messages: ['no edition files found; add content/YYYY/MM/YYYY-MM-DD-morning.json'],
+      messages: ['no day files found; add content/YYYY/MM/YYYY-MM-DD.json'],
     });
   }
   for (const file of files) {
@@ -215,10 +288,8 @@ export function validateContentTree(contentDir, { schema = loadSchema() } = {}) 
     const messages = validateDocument(raw.text, { relPath, validate, ids });
     const match = FILE_RE.exec(relPath);
     if (match && messages.length === 0) {
-      const key = `${match[3]}-${match[4]}`;
-      if (seen.has(key)) {
-        messages.push(`duplicates ${seen.get(key)}`);
-      }
+      const key = match[3];
+      if (seen.has(key)) messages.push(`duplicates ${seen.get(key)}`);
       seen.set(key, display);
     }
     if (messages.length > 0) errors.push({ file: display, messages });
@@ -228,7 +299,7 @@ export function validateContentTree(contentDir, { schema = loadSchema() } = {}) 
 
 export function validateExampleFile(file = examplePath, { schema = loadSchema() } = {}) {
   const validate = compile(schema);
-  const ids = schema.properties.sections.required;
+  const ids = schema.$defs.part.required;
   const raw = readUtf8(file);
   const display = path.relative(repoRoot, file).split(path.sep).join('/');
   if (raw.error) return { ok: false, errors: [{ file: display, messages: [raw.error] }] };
@@ -239,14 +310,30 @@ export function validateExampleFile(file = examplePath, { schema = loadSchema() 
 export function sectionsMatchSchema() {
   const sections = JSON.parse(fs.readFileSync(sectionsPath, 'utf8'));
   const ids = sections.map((section) => section.id);
-  const required = loadSchema().properties.sections.required;
-  return { ids, required, ok: JSON.stringify(ids) === JSON.stringify(required) };
+  const required = loadSchema().$defs.part.required;
+  const namesOk = sections.every(
+    (section) =>
+      section.name &&
+      typeof section.name.zh === 'string' &&
+      typeof section.name.en === 'string' &&
+      section.description &&
+      typeof section.description.zh === 'string' &&
+      typeof section.description.en === 'string',
+  );
+  return {
+    ids,
+    required,
+    ok: JSON.stringify(ids) === JSON.stringify(required) && namesOk,
+    detail: namesOk
+      ? `section ids [${ids.join(', ')}] do not match schema required [${required.join(', ')}]`
+      : 'schemas/sections.json names and descriptions must be { "zh", "en" } objects',
+  };
 }
 
 export function report(result) {
   if (result.ok) {
     const count = result.files ?? 0;
-    console.log(count ? `Validated ${count} edition file(s).` : 'Validated.');
+    console.log(count ? `Validated ${count} day file(s).` : 'Validated.');
     return;
   }
   console.error('Edition content is invalid.\n');
@@ -272,9 +359,7 @@ if (isMain()) {
   if (!sections.ok) {
     errors.push({
       file: 'schemas/sections.json',
-      messages: [
-        `section ids [${sections.ids.join(', ')}] do not match schema required [${sections.required.join(', ')}]`,
-      ],
+      messages: [sections.detail],
     });
   }
   const ok = errors.length === 0;

@@ -1,0 +1,67 @@
+---
+import TextToggle from './TextToggle.astro';
+import UiText from './UiText.astro';
+import ViewMark from './ViewMark.astro';
+import { partMeta, sectionById, storyPath, sectionPath, type Story } from '../lib/editions';
+import { href } from '../lib/urls';
+
+interface Props {
+  story: Story;
+  showSection?: boolean;
+  showPart?: boolean;
+}
+
+const { story, showSection = true, showPart = true } = Astro.props;
+const section = sectionById(story.sectionId);
+const part = partMeta(story.part);
+const hasZh = Boolean(story.title.zh && story.summary.zh);
+const hasEn = Boolean(story.title.en && story.summary.en);
+---
+
+<article class="card">
+  <div class="card-top">
+    <p class="card-kicker">
+      <ViewMark originalLang={story.originalLang} hasZh={hasZh} hasEn={hasEn} />
+      {
+        showSection && section && (
+          <a class="card-section" href={href(sectionPath(section.id))}>
+            <UiText zh={section.name.zh} en={section.name.en} />
+          </a>
+        )
+      }
+      {
+        showPart && (
+          <span class="card-part">
+            <UiText zh={part.zh} en={part.en} />
+          </span>
+        )
+      }
+    </p>
+    <TextToggle originalLang={story.originalLang} hasZh={hasZh} hasEn={hasEn} />
+  </div>
+  <a class="card-link" href={href(storyPath(story))}>
+    <div
+      class="copy"
+      data-original={story.originalLang}
+      data-has-zh={hasZh ? '' : undefined}
+      data-has-en={hasEn ? '' : undefined}
+    >
+      {
+        hasZh && (
+          <div class="t-zh" lang="zh-Hans">
+            <h3>{story.title.zh}</h3>
+            <p class="summary">{story.summary.zh}</p>
+          </div>
+        )
+      }
+      {
+        hasEn && (
+          <div class="t-en" lang="en">
+            <h3>{story.title.en}</h3>
+            <p class="summary">{story.summary.en}</p>
+          </div>
+        )
+      }
+    </div>
+  </a>
+</article>

@@ -920,6 +920,10 @@ html[data-ui="en"][data-text="auto"] .text-toggle[data-original="zh"][data-has-e
   min-width: 0;
 }
 
+.headline-tag {
+  white-space: nowrap;
+}
+
 .headline-title {
   flex: 1;
   min-width: 0;

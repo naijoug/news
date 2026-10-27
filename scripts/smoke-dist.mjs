@@ -127,7 +127,7 @@ for (const day of days) {
       fail(`day ${day.date} missing original and translation icons`);
     }
     if (html.includes(LETTER_ICON)) fail(`day ${day.date} still uses the letter-shaped translation icon`);
-    if (!html.includes('M1.4 3.55h7.1')) fail(`day ${day.date} missing the arrow translation icon`);
+    if (!html.includes('M10.1 2.3 13.5 5.1')) fail(`day ${day.date} missing the arrow translation icon`);
     if (partHasStories(day.am) && !html.includes('上午')) fail(`day ${day.date} missing 上午`);
     if (partHasStories(day.pm) && !html.includes('下午')) fail(`day ${day.date} missing 下午`);
   }

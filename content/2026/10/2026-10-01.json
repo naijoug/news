@@ -1,0 +1,241 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-01",
+  "am": {
+    "tech": [
+      {
+        "id": "gemini-4-argon-cyber",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌向网络防御者限量开放 Gemini 4 Argon",
+          "en": "Google gates Gemini 4 Argon release to cyber defenders"
+        },
+        "summary": {
+          "zh": "据多家AI日报汇总，谷歌10月1日向网络安全防御方有限开放 Gemini 4 Argon，支持百万token输出并提供试行API定价。",
+          "en": "AI briefings reported Google released Gemini 4 Argon on a gated basis to cyber defenders on Oct. 1, with 1M-token outputs and introductory API pricing."
+        },
+        "sources": [
+          {
+            "name": "explainx.ai",
+            "url": "https://www.explainx.ai/catch-up-on-ai/2026-10-01",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "ftc-ai-safety-probe",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国FTC对OpenAI、Anthropic等AI实验室展开安全调查",
+          "en": "FTC opens industry-wide AI safety probe"
+        },
+        "summary": {
+          "zh": "美国联邦贸易委员会开启一项涉及OpenAI、Anthropic等多家AI实验室的行业安全调查；加州同日签署涉及AI裁员透明度的法律。",
+          "en": "The US Federal Trade Commission opened a safety investigation spanning OpenAI, Anthropic and other labs; California also signed laws on AI-driven firings and layoffs."
+        },
+        "sources": [
+          {
+            "name": "AI News Today",
+            "url": "https://ai-news-online.com/briefing/2026-10-01/",
+            "lang": "en"
+          },
+          {
+            "name": "AI Lately",
+            "url": "https://ailately.com/articles/the-signal-brief-oct-1",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "flydubai-cockpit-stabbing",
+        "originalLang": "en",
+        "title": {
+          "zh": "迪拜飞往特拉维夫航班驾驶舱内发生持刀袭击后备降沙特",
+          "en": "Flydubai flight to Tel Aviv diverts to Saudi Arabia after cockpit attack"
+        },
+        "summary": {
+          "zh": "Flydubai FZ1073航班驾驶舱内发生冲突，飞机紧急下降后备降沙特塔布克，全体乘客和机组安全，动机仍在调查。",
+          "en": "An altercation in the cockpit of Flydubai flight FZ1073 from Dubai to Tel Aviv led to an emergency descent and diversion to Tabuk, Saudi Arabia; all aboard were safe and the motive is under investigation."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-1-2026/4074422",
+            "lang": "en"
+          },
+          {
+            "name": "The New York Times",
+            "url": "https://www.nytimes.com/issue/todayspaper/2026/10/01/todays-new-york-times",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据阿纳多卢通讯社报道，Flydubai 表示，由迪拜飞往本-古里安机场的 FZ1073 航班“驾驶舱内发生冲突”，机组成员控制住局面并将飞机安全备降沙特塔布克。\n\n《纽约时报》称，冲突中有人被刺伤，飞机一度急剧下降，乘客极度恐慌。航空公司表示事件原因和动机尚不清楚，已展开正式调查。",
+          "en": "According to [Anadolu](https://www.aa.com.tr/en/world/morning-briefing-oct-1-2026/4074422), Flydubai said \"an altercation occurred in the flight deck\" of FZ1073 and the crew secured the aircraft and diverted safely to Tabuk.\n\n[The New York Times](https://www.nytimes.com/issue/todayspaper/2026/10/01/todays-new-york-times) reported a stabbing and a terrifying plunge before the landing. The airline said the motive is unknown and under formal investigation."
+        }
+      },
+      {
+        "id": "us-forces-leave-iraq",
+        "originalLang": "en",
+        "title": {
+          "zh": "美军撤离伊拉克，结束二十余年军事存在",
+          "en": "US forces leave Iraq after more than two decades"
+        },
+        "summary": {
+          "zh": "特朗普宣布最后一批美军撤离伊拉克；伊拉克总理同日宣布美国主导的国际反“伊斯兰国”联盟任务结束。",
+          "en": "Trump announced the last American forces are leaving Iraq, and Iraq's prime minister declared the end of the US-led coalition mission against IS."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-1-2026/4074422",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261001/950c38234e174cf1b55c565e033b9b12/c.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "tennessee-execution-halt",
+        "originalLang": "en",
+        "title": {
+          "zh": "死刑犯注射后存活，美国田纳西州暂停执行死刑",
+          "en": "Tennessee halts executions after prisoner survives lethal injection"
+        },
+        "summary": {
+          "zh": "田纳西州死刑犯克里斯塔·派克在注射执行后仍存活，该州随即叫停其余死刑执行。",
+          "en": "Tennessee halted remaining executions after condemned prisoner Christa Pike survived lethal injections."
+        },
+        "sources": [
+          {
+            "name": "Democracy Now!",
+            "url": "https://www.democracynow.org/2026/10/1/headlines",
+            "lang": "en"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org/programs/morning-edition/nx-s1-5971886/morning-edition-for-october-1-2026",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "stocks-treasury-swing",
+        "originalLang": "en",
+        "title": {
+          "zh": "美债收益率触及24年高点后回落，美股小幅收涨",
+          "en": "Stocks edge higher as Treasury yields retreat from 24-year high"
+        },
+        "summary": {
+          "zh": "10月1日美债收益率一度升至约5.34%的24年高点后回落，标普500指数涨0.2%至7666.45点。",
+          "en": "Treasury yields hit a 24-year high near 5.34% before easing on Oct. 1, and the S&P 500 rose 0.2% to 7,666.45."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c367e6e87c621f06078ea223ab7ce6d1",
+            "lang": "en"
+          },
+          {
+            "name": "WSJ",
+            "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-01-2026",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "meta-data-center-taxes",
+        "originalLang": "en",
+        "title": {
+          "zh": "《纽约时报》：Meta借AI数据中心规避数十亿美元联邦税",
+          "en": "NYT: Meta uses AI data centers to avoid billions in federal taxes"
+        },
+        "summary": {
+          "zh": "《纽约时报》独家报道称，Meta利用AI数据中心相关的税收优惠规避了数十亿美元联邦税款。",
+          "en": "A New York Times exclusive reported that Meta is exploiting tax breaks tied to AI data centers to avoid billions in federal taxes."
+        },
+        "sources": [
+          {
+            "name": "The New York Times",
+            "url": "https://www.nytimes.com/issue/todayspaper/2026/10/01/todays-new-york-times",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "cmu-3b-gift",
+        "originalLang": "en",
+        "title": {
+          "zh": "卡内基梅隆大学获30亿美元捐赠，创美国纪录",
+          "en": "Carnegie Mellon receives record $3B gift"
+        },
+        "summary": {
+          "zh": "卡内基梅隆大学获得一笔30亿美元捐赠，NPR称这是美国历史上最大的单笔高校捐赠。",
+          "en": "Carnegie Mellon University received a $3 billion gift, which NPR described as the largest in US history."
+        },
+        "sources": [
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org/programs/morning-edition/nx-s1-5971886/morning-edition-for-october-1-2026",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "national-day-77",
+        "originalLang": "zh",
+        "title": {
+          "zh": "新中国成立77周年 天安门广场举行国庆升旗仪式",
+          "en": "China marks 77th National Day with Tiananmen flag-raising"
+        },
+        "summary": {
+          "zh": "10月1日天安门广场举行国庆升旗仪式，各地开展庆祝活动，国庆假期出行迎来创纪录高峰。",
+          "en": "A National Day flag-raising ceremony was held at Tiananmen Square on Oct. 1 as China marked its 77th anniversary amid a record travel rush."
+        },
+        "sources": [
+          {
+            "name": "央广网",
+            "url": "https://news.cnr.cn/native/gd/kx/20261001/t20261001_527830874.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "CGTN",
+            "url": "https://news.cgtn.com/news/2026-10-01/China-celebrates-77th-National-Day-with-record-travel-rush-1QTlhURguVG/index.html",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据央广网报道，10月1日清晨天安门广场举行庆祝新中国成立77周年升旗仪式，大批群众前往观礼。\n\n据[CGTN](https://news.cgtn.com/news/2026-10-01/China-celebrates-77th-National-Day-with-record-travel-rush-1QTlhURguVG/index.html)报道，全国多地举办庆祝活动，国庆长假出行规模创下纪录。"
+        }
+      },
+      {
+        "id": "holiday-travel-peak",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国庆假期首日迎出行高峰 交通部门全力保障",
+          "en": "Holiday travel peaks on first day of National Day break"
+        },
+        "summary": {
+          "zh": "中国政府网称，假期首日跨区域人员流动规模大，铁路、公路客流集中，小客车高速通行免费。",
+          "en": "China's government portal said the first day of the holiday saw heavy cross-regional travel, with toll-free expressways for small passenger cars."
+        },
+        "sources": [
+          {
+            "name": "中国政府网",
+            "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7082585.htm",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

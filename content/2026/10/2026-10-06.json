@@ -1,0 +1,242 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-06",
+  "am": {
+    "tech": [
+      {
+        "id": "mistral-large-4",
+        "originalLang": "en",
+        "title": {
+          "zh": "Mistral发布万亿参数多模态模型Large 4",
+          "en": "Mistral launches trillion-parameter Large 4"
+        },
+        "summary": {
+          "zh": "Mistral推出万亿参数多模态MoE模型Large 4（昵称“Le Chonk”）。",
+          "en": "Mistral launched Large 4, nicknamed \"Le Chonk,\" a trillion-parameter multimodal MoE model."
+        },
+        "sources": [
+          {
+            "name": "AI HOT",
+            "url": "https://aihot.app/en/daily/2026-10-06/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "deepseek-12b-raise",
+        "originalLang": "en",
+        "title": {
+          "zh": "报道称DeepSeek拟融资至少120亿美元",
+          "en": "DeepSeek reportedly raising at least $12 billion"
+        },
+        "summary": {
+          "zh": "据报道DeepSeek正筹集至少120亿美元，腾讯和宁德时代参与；芯片公司Etched以400亿至500亿美元估值接受报价。",
+          "en": "DeepSeek is reportedly raising at least $12 billion with Tencent and CATL; chipmaker Etched is fielding bids at a $40-50 billion valuation."
+        },
+        "sources": [
+          {
+            "name": "DX Today",
+            "url": "https://dxtoday.com/blog/2026-10-06",
+            "lang": "en"
+          },
+          {
+            "name": "AI Weekly",
+            "url": "https://aiweekly.co/ai-news-today/edition/2026-10-06",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "pentagon-stops-claude",
+        "originalLang": "en",
+        "title": {
+          "zh": "五角大楼称已停止使用Claude",
+          "en": "Pentagon says it stopped using Claude"
+        },
+        "summary": {
+          "zh": "AI日报称，五角大楼表示已停止使用Anthropic的Claude；多家AI实验室在纽约宣誓作证。",
+          "en": "The Pentagon said it had stopped using Anthropic's Claude, and AI labs testified under oath in New York, briefings reported."
+        },
+        "sources": [
+          {
+            "name": "AI News Today",
+            "url": "https://ai-news-online.com/briefing/2026-10-06/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "mecca-alliance-collective-defense",
+        "originalLang": "en",
+        "title": {
+          "zh": "土耳其、沙特、巴基斯坦同意“立即”落实集体防御",
+          "en": "Mecca alliance moves to immediate collective defense"
+        },
+        "summary": {
+          "zh": "麦加防务联盟在利雅得召开紧急会议，决定立即落实集体防御承诺，向沙特快速部署部队。",
+          "en": "The Mecca alliance's emergency meeting in Riyadh agreed to immediately implement collective defense and rapidly deploy forces to Saudi Arabia."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-6-2026/4079174",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据阿纳多卢通讯社报道，土耳其、沙特和巴基斯坦三国在利雅得召开麦加联盟战略政治与防务委员会紧急会议，讨论沙特面临的安全威胁。\n\n联合声明称委员会决定“立即转入集体防御承诺的实际落实”，并确保约定的军事力量迅速部署至沙特。同日，沙特领导的联军称摧毁也门萨达省一处存放20枚弹道导弹的仓库。",
+          "en": "Per [Anadolu](https://aa.com.tr/en/world/morning-briefing-oct-6-2026/4079174), Türkiye, Saudi Arabia and Pakistan met in Riyadh to address threats facing the kingdom.\n\nThe joint statement said the committee would \"move immediately to the practical implementation of the collective defense commitments.\" The Saudi-led coalition also said it destroyed a depot holding 20 ballistic missiles in Yemen's Saada."
+        }
+      },
+      {
+        "id": "spain-early-election",
+        "originalLang": "en",
+        "title": {
+          "zh": "西班牙首相桑切斯宣布提前大选",
+          "en": "Spain's Sanchez calls early elections"
+        },
+        "summary": {
+          "zh": "住房法令遭否决后，西班牙首相佩德罗·桑切斯宣布提前举行大选。",
+          "en": "Spanish PM Pedro Sanchez called early elections after his housing decrees were rejected."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-6-2026/4079174",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "us-bombers-leave-fairford",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普证实因威胁撤回驻英轰炸机",
+          "en": "Trump confirms threat prompted bomber withdrawal from UK"
+        },
+        "summary": {
+          "zh": "特朗普表示“存在一些威胁”，美军已将轰炸机从英国费尔福德基地撤回；英方称基地安全。",
+          "en": "Trump said \"there were some threats\" behind moving US bombers from RAF Fairford; the UK said the base is safe."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-6-2026/4079174",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "sp500-record-nvidia-6t",
+        "originalLang": "en",
+        "title": {
+          "zh": "标普500创新高 英伟达市值逼近6万亿美元",
+          "en": "S&P 500 hits record as Nvidia nears $6 trillion"
+        },
+        "summary": {
+          "zh": "10月6日标普500涨0.58%至7818.93点，纳指同创新高，英伟达市值接近6万亿美元。",
+          "en": "The S&P 500 rose 0.58% to a record 7,818.93 on Oct. 6, the Nasdaq also closed at a record, and Nvidia neared $6 trillion in value."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-267ca73e15e09f7e8deb5f6076405f48",
+            "lang": "en"
+          },
+          {
+            "name": "NBC News",
+            "url": "https://www.nbcnews.com/business/markets/stocks-records-oil-nvidia-rcna601852",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "imf-debt-tax-cuts",
+        "originalLang": "en",
+        "title": {
+          "zh": "IMF警告举债减税推高全球利率",
+          "en": "IMF warns debt-financed tax cuts push up global rates"
+        },
+        "summary": {
+          "zh": "国际货币基金组织警告，举债融资的减税会推高全球利率。",
+          "en": "The IMF warned that debt-financed tax cuts increase global interest rates."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://h.aa.com.tr/en/world/bombing-topples-power-line-in-philippines-muslim-south/en",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "holiday-return-peak",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国庆返程客流集中 国庆档票房破10亿",
+          "en": "Return travel peaks; holiday box office tops 1 billion yuan"
+        },
+        "summary": {
+          "zh": "10月6日国庆返程客流集中，全国44个高速路段易拥堵，国庆档电影票房突破10亿元。",
+          "en": "Return travel peaked on Oct. 6 with 44 congestion-prone expressway sections, and holiday box office passed 1 billion yuan."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/06/VIDEET7mtGntgBO3i5NAIeVk261006.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "腾讯新闻",
+            "url": "https://news.qq.com/rain/a/20261006A034KH00",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "holiday-major-projects",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国庆假期一批大国重器与重点工程取得新突破",
+          "en": "Major projects hit milestones over the holiday"
+        },
+        "summary": {
+          "zh": "中新网报道，哈得-富满油田油气累计采出超2600万吨，AG600完成北疆林区防火任务。",
+          "en": "China News Service said the Hade-Fuman field's output passed 26 million tonnes and the AG600 completed forest fire duties in northern Xinjiang."
+        },
+        "sources": [
+          {
+            "name": "中新网",
+            "url": "https://www.chinanews.com/gn/2026/10-06/10708304.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "mfa-oct-6-taiwan",
+        "originalLang": "zh",
+        "title": {
+          "zh": "外交部：台湾问题不容外部干涉",
+          "en": "Foreign ministry: no outside interference on Taiwan"
+        },
+        "summary": {
+          "zh": "外交部发言人郭嘉昆10月6日就台湾、南海及中美关系答问，强调台湾问题不容外部干涉。",
+          "en": "Spokesperson Guo Jiakun said on Oct. 6 that Taiwan allows no outside interference and addressed the South China Sea and China-US ties."
+        },
+        "sources": [
+          {
+            "name": "中国驻美国大使馆",
+            "url": "https://us.china-embassy.gov.cn/lcbt/wjbfyrbt/202610/t20261006_12035789.htm",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

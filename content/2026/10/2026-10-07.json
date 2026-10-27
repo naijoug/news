@@ -1,0 +1,180 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-07",
+  "am": {
+    "tech": [
+      {
+        "id": "gpt-6-intelligent-ui",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI发布GPT-6及“智能界面”，回答可含图表与按钮",
+          "en": "OpenAI rolls out GPT-6 with Intelligent UI"
+        },
+        "summary": {
+          "zh": "OpenAI推出GPT-6，ChatGPT回答可包含交互式图表、表单、按钮和示意图；付费用户使用GPT-6 Sol，免费和Go用户使用GPT-6 Luna。",
+          "en": "OpenAI rolled out GPT-6 with \"Intelligent UI,\" letting ChatGPT answers include interactive charts, forms and buttons; paid tiers get GPT-6 Sol and Free/Go users GPT-6 Luna."
+        },
+        "sources": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/gpt-6-for-everyone/",
+            "lang": "en"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "OpenAI在官方博客宣布向所有用户推出GPT-6，并引入“智能界面”（Intelligent UI）：ChatGPT可直接在回答中生成交互式图表、表单、按钮、示意图和任务工具。\n\n据[The Verge](https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6)报道，付费档位获得GPT-6 Sol，免费和Go用户获得GPT-6 Luna。",
+          "en": "In a [blog post](https://openai.com/index/gpt-6-for-everyone/), OpenAI rolled out GPT-6 to everyone along with Intelligent UI, which lets ChatGPT build interactive charts, forms, buttons, diagrams and task tools into replies.\n\n[The Verge](https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6) reported paid tiers get GPT-6 Sol while Free and Go users get GPT-6 Luna."
+        }
+      },
+      {
+        "id": "synthid-detector-global",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌向全球开放SynthID检测器",
+          "en": "Google expands SynthID Detector globally"
+        },
+        "summary": {
+          "zh": "谷歌开放SynthID Detector，用户可检测由谷歌及合作伙伴工具生成的图像、视频和音频。",
+          "en": "Google opened its SynthID Detector globally so users can check AI-generated images, video and audio from Google and partner tools."
+        },
+        "sources": [
+          {
+            "name": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "vessel-hit-off-oman",
+        "originalLang": "en",
+        "title": {
+          "zh": "一艘巴拿马籍船只在阿曼附近海域遇袭起火",
+          "en": "Panama-flagged vessel struck and set ablaze off Oman"
+        },
+        "summary": {
+          "zh": "阿纳多卢称，一艘巴拿马籍船只在阿曼外海遇袭起火，10名船员被疏散。",
+          "en": "A Panama-flagged vessel was struck and set ablaze off Oman, with 10 crew evacuated, Anadolu reported."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-7-2026/4080363",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "trump-putin-call-plague",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普称将与普京通话 俄罗斯疑现肺鼠疫病例",
+          "en": "Trump says Putin call scheduled amid Russia plague reports"
+        },
+        "summary": {
+          "zh": "特朗普表示已安排与普京通话，此前俄罗斯伊尔库茨克州报告疑似肺鼠疫致死病例。",
+          "en": "Trump said a call with Putin was scheduled after reports of a suspected fatal pneumonic plague case in Russia's Irkutsk region."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-7-2026/4080363",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "lithuania-nuclear-amendment",
+        "originalLang": "en",
+        "title": {
+          "zh": "立陶宛推进涉核武器的宪法修正案",
+          "en": "Lithuania advances nuclear-weapons constitutional amendment"
+        },
+        "summary": {
+          "zh": "立陶宛推进一项涉及核武器的宪法修正案；卡塔尔继续斡旋美伊接触。",
+          "en": "Lithuania moved on a constitutional amendment concerning nuclear weapons, while Qatar mediated US-Iran contacts."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-7-2026/4080363",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "stocks-retreat-oct7",
+        "originalLang": "en",
+        "title": {
+          "zh": "美债收益率上升 美股自纪录高位回落",
+          "en": "Wall Street retreats from record highs"
+        },
+        "summary": {
+          "zh": "10月7日道指跌0.7%，标普500跌0.2%至7801.77点，罗素2000跌1.3%。",
+          "en": "On Oct. 7 the Dow fell 0.7%, the S&P 500 slipped 0.2% to 7,801.77 and the Russell 2000 lost 1.3%."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stocks-markets-rates-oil-earnings-44b75c188756038371cf3112ede9cee8",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-00ad8ec13f0265ac3c41a0d9d7fdb265",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "autumn-harvest-40pct",
+        "originalLang": "zh",
+        "title": {
+          "zh": "全国秋粮收获过四成",
+          "en": "Autumn grain harvest passes 40%"
+        },
+        "summary": {
+          "zh": "《新闻联播》报道，各地秋粮收获加快，全国已收获过四成；国庆假期公园游客超2.1亿人次。",
+          "en": "CCTV reported China's autumn harvest more than 40% complete and over 210 million park visits during the holiday."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.com/2026/10/07/VIDEefV9gcMb88k42X2zBgUv261007.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "china-laos-railway-cargo",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中老铁路跨境货值突破千亿元",
+          "en": "China-Laos Railway cargo value tops 100 billion yuan"
+        },
+        "summary": {
+          "zh": "国内联播快讯：中老铁路货值破千亿元，“三北”工程完成2.65亿亩任务。",
+          "en": "CCTV briefs: China-Laos Railway cargo value topped 100 billion yuan, and the Three-North shelterbelt hit 265 million mu."
+        },
+        "sources": [
+          {
+            "name": "新闻联播文字版",
+            "url": "https://www.cuobiezi.net/news/cctv/xwlb/day/2026-10-07",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

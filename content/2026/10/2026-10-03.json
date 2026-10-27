@@ -1,0 +1,189 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-03",
+  "am": {
+    "tech": [
+      {
+        "id": "apple-full-disk-access-agents",
+        "originalLang": "en",
+        "title": {
+          "zh": "苹果将收紧macOS完全磁盘访问权限以防AI智能体滥用",
+          "en": "Apple to curb Mac Full Disk Access over AI agents"
+        },
+        "summary": {
+          "zh": "苹果表示将限制macOS的“完全磁盘访问”权限，原因是AI智能体可能滥用宽泛的文件权限。",
+          "en": "Apple said it will restrict macOS Full Disk Access because AI agents can misuse broad file permissions."
+        },
+        "sources": [
+          {
+            "name": "AI News Today",
+            "url": "https://ai-news-online.com/briefing/2026-10-03/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-100m-engineers",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic投入1亿美元培训1万名企业部署工程师",
+          "en": "Anthropic commits $100M to train 10,000 deployment engineers"
+        },
+        "summary": {
+          "zh": "Anthropic宣布投入1亿美元，培养1万名企业AI部署工程师；同日加州就网络安全事件传唤OpenAI。",
+          "en": "Anthropic announced $100 million to train 10,000 enterprise deployment engineers, as California subpoenaed OpenAI over cybersecurity incidents."
+        },
+        "sources": [
+          {
+            "name": "Artificial Record",
+            "url": "https://artificialrecord.com/editions/ai-industry-daily-briefing-2026-10-03/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "flydubai-suspends-tel-aviv",
+        "originalLang": "en",
+        "title": {
+          "zh": "Flydubai应当局要求暂停特拉维夫航线",
+          "en": "Flydubai suspends Tel Aviv flights"
+        },
+        "summary": {
+          "zh": "Flydubai首席执行官称，FZ1073航班驾驶舱安全事件后，应当局要求暂停飞往特拉维夫的航班；172名乘客和机组均安全。",
+          "en": "Flydubai's CEO said Tel Aviv flights are suspended at authorities' request after the FZ1073 flight-deck incident; all 172 people aboard were safe."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-3-2026/4076721",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "france-student-protests",
+        "originalLang": "en",
+        "title": {
+          "zh": "法国学生抗议升级 数百所学校关闭",
+          "en": "Hundreds of French schools shut as student protests escalate"
+        },
+        "summary": {
+          "zh": "法国教育部长称有1207所高中曾受干扰或被封锁，170名学生和65名教职员工受伤，多人被捕。",
+          "en": "France's education minister said 1,207 high schools were disrupted or blocked, with 170 students and 65 staff injured amid mass arrests."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-3-2026/4076721",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "g7-oil-reserve-release",
+        "originalLang": "en",
+        "title": {
+          "zh": "七国集团同意四个月内释放1亿桶应急石油储备",
+          "en": "G7 agrees to release 100 million barrels of emergency oil"
+        },
+        "summary": {
+          "zh": "G7领导人同意通过国际能源署协调，在四个月内释放1亿桶应急储备，并在前20天大量释放柴油。",
+          "en": "G7 leaders agreed a coordinated 100-million-barrel release over four months via the IEA, with a front-loaded diesel release in the first 20 days."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-3-2026/4076721",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据阿纳多卢通讯社报道，此次释放旨在应对油价飙升和能源市场剧烈波动。G7承诺成员之间不限制能源出口，并呼吁所有产油国避免出口禁令。\n\n各方还同意协调炼厂检修计划，在可能情况下临时提高开工率，并将在未来几天讨论是否追加柴油释放。",
+          "en": "Per [Anadolu](https://aa.com.tr/en/world/morning-briefing-oct-3-2026/4076721), the release responds to surging prices and volatility. G7 members pledged no energy export restrictions among themselves and urged producers to avoid bans.\n\nThey also agreed to coordinate refinery maintenance and raise utilization where possible, with talks on further diesel releases in coming days."
+        }
+      },
+      {
+        "id": "euro-inflation-3-8",
+        "originalLang": "en",
+        "title": {
+          "zh": "欧元区9月通胀升至3.8%",
+          "en": "Euro area inflation rises to 3.8% in September"
+        },
+        "summary": {
+          "zh": "欧盟统计局初值显示，欧元区9月通胀由8月的3.2%升至3.8%，能源同比涨18.8%。",
+          "en": "Eurostat's flash estimate put euro-area inflation at 3.8% in September, up from 3.2%, with energy up 18.8%."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-3-2026/4076721",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "autumn-harvest-holiday-consumption",
+        "originalLang": "zh",
+        "title": {
+          "zh": "秋粮收获过三成 国庆消费文旅升温",
+          "en": "Autumn harvest passes 30% as holiday spending heats up"
+        },
+        "summary": {
+          "zh": "《新闻联播》报道，全国秋粮收获进度超三成；国庆期间消费、旅游市场活跃，年度电影票房突破300亿元。",
+          "en": "CCTV News reported autumn grain harvest more than 30% complete, with strong holiday spending and annual box office passing 30 billion yuan."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/03/VIDERJzNTF2ciWtD4alRYamG261003.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "co2-storage-grid",
+        "originalLang": "zh",
+        "title": {
+          "zh": "我国首个百兆瓦级压缩二氧化碳储能项目并网",
+          "en": "China's first 100MW-class compressed CO2 storage project connects to grid"
+        },
+        "summary": {
+          "zh": "央视《国内联播快讯》报道，首个百兆瓦级压缩二氧化碳储能项目并网，青岛胶州湾第二海底隧道盾构掘进完成。",
+          "en": "CCTV reported China's first 100MW-class compressed CO2 energy storage project was grid-connected, and boring finished on Qingdao's second Jiaozhou Bay tunnel."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/03/VIDE1nZJej11WPlNPVhBxFDA261003.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "mfa-oct-3-briefing",
+        "originalLang": "zh",
+        "title": {
+          "zh": "外交部就APEC等问题答记者问",
+          "en": "Foreign ministry briefs on APEC and other issues"
+        },
+        "summary": {
+          "zh": "外交部发言人郭嘉昆10月3日就APEC相关安排等问题回答记者提问，并驳斥涉疆不实说法。",
+          "en": "Foreign ministry spokesperson Guo Jiakun answered questions on APEC and rejected Xinjiang \"genocide\" claims on Oct. 3."
+        },
+        "sources": [
+          {
+            "name": "中国驻美国大使馆",
+            "url": "https://us.china-embassy.gov.cn/lcbt/wjbfyrbt/202610/t20261003_12035446.htm",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

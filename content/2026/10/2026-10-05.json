@@ -1,0 +1,199 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-05",
+  "am": {
+    "tech": [
+      {
+        "id": "reflection-beam-model",
+        "originalLang": "en",
+        "title": {
+          "zh": "Reflection发布5010亿参数开源权重模型Beam",
+          "en": "Reflection launches 501B-parameter open-weight model Beam"
+        },
+        "summary": {
+          "zh": "Reflection推出MoE架构开源模型Beam，总参数5010亿、激活参数230亿，定位对标中国开源模型。",
+          "en": "Reflection launched Beam, a 501B-parameter open-weight MoE model with 23B active parameters, pitched against Chinese open models."
+        },
+        "sources": [
+          {
+            "name": "Techmeme",
+            "url": "https://www.techmeme.com/261005/h1935",
+            "lang": "en"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/05/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-eu-watermark",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI在欧盟为ChatGPT和Codex文本加水印",
+          "en": "OpenAI to watermark ChatGPT and Codex text in EU"
+        },
+        "summary": {
+          "zh": "OpenAI宣布在欧盟对ChatGPT和Codex生成文本添加水印，并计划在图像生成结果旁展示广告。",
+          "en": "OpenAI announced text watermarking for ChatGPT and Codex in the EU and plans for visual ads alongside image results."
+        },
+        "sources": [
+          {
+            "name": "AI Early Edition",
+            "url": "https://www.aiearlyedition.com/archive/2026-10-05/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "brazil-runoff-bolsonaro-lula",
+        "originalLang": "en",
+        "title": {
+          "zh": "巴西大选进入第二轮：弗拉维奥·博索纳罗首轮领先卢拉",
+          "en": "Brazil heads to runoff with Flavio Bolsonaro ahead of Lula"
+        },
+        "summary": {
+          "zh": "计票99.73%时，弗拉维奥·博索纳罗得票47.08%，卢拉45.10%，两人将于10月25日进行决选。",
+          "en": "With 99.73% counted, Flavio Bolsonaro had 47.08% to Lula's 45.10%; the two meet in an Oct. 25 runoff."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-5-2026/4077995",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据阿纳多卢通讯社报道，参议员弗拉维奥·博索纳罗在首轮投票中领先现任总统卢拉逾230万票，但未达到直接胜选所需的50%以上有效票。\n\n这一结果与多数选前民调相反。45岁的弗拉维奥由其父、前总统雅伊尔·博索纳罗亲自选定代表自由党参选。",
+          "en": "According to [Anadolu](https://aa.com.tr/en/world/morning-briefing-oct-5-2026/4077995), Flavio Bolsonaro led President Lula by more than 2.3 million votes but fell short of the 50%-plus-one threshold.\n\nThe result reversed most pre-election polling. Flavio, 45, was handpicked by his father, former President Jair Bolsonaro, to lead the Liberal Party ticket."
+        }
+      },
+      {
+        "id": "yemen-offensive-houthis",
+        "originalLang": "en",
+        "title": {
+          "zh": "也门政府宣布全面军事行动收复胡塞控制区",
+          "en": "Yemen launches full offensive to retake Houthi territory"
+        },
+        "summary": {
+          "zh": "也门总统领导委员会主席阿利米宣布对胡塞武装发起全面军事行动，沙特领导的联军表示支持。",
+          "en": "Yemen's leadership council chief Rashad al-Alimi launched comprehensive operations against the Houthis, backed by the Saudi-led coalition."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-5-2026/4077995",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "alamein-water-declaration",
+        "originalLang": "en",
+        "title": {
+          "zh": "四国峰会反对损害埃及苏丹水权的单边行动",
+          "en": "Summit rejects unilateral moves on Egypt, Sudan water rights"
+        },
+        "summary": {
+          "zh": "埃及、苏丹、厄立特里亚、索马里领导人发表《阿拉曼联合宣言》，反对损害埃苏水权的单边措施，涉及复兴大坝争端。",
+          "en": "Leaders of Egypt, Sudan, Eritrea and Somalia issued the El Alamein declaration rejecting unilateral measures over Nile water amid the GERD dispute."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-5-2026/4077995",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "nasdaq-record-oct5",
+        "originalLang": "en",
+        "title": {
+          "zh": "AI乐观情绪推动纳指创新高",
+          "en": "Nasdaq hits record on AI optimism"
+        },
+        "summary": {
+          "zh": "10月5日纳指涨1.05%至27477.31点创纪录，标普500涨0.66%，AI乐观情绪抵消美债收益率上升影响。",
+          "en": "The Nasdaq rose 1.05% to a record 27,477.31 on Oct. 5 and the S&P 500 gained 0.66% as AI optimism offset rising yields."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-7f89624b604f25f313502c77d4d0b010",
+            "lang": "en"
+          },
+          {
+            "name": "WSJ",
+            "url": "https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-ai-bets-offset-bond-yield-fears-9dd6ce7f",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "holiday-day5-traffic",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国庆假期第五天道路交通平稳 6日迎返程高峰",
+          "en": "Traffic steady on day five; return peak expected Oct. 6"
+        },
+        "summary": {
+          "zh": "中国政府网消息，假期第五天全国道路交通平稳有序，预计6日迎来返程高峰。",
+          "en": "Road traffic was orderly on day five, with the return peak expected on Oct. 6, the government portal said."
+        },
+        "sources": [
+          {
+            "name": "中国政府网",
+            "url": "https://www.gov.cn/lianbo/202610/content_7082651.htm",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "holiday-consumption-observation",
+        "originalLang": "zh",
+        "title": {
+          "zh": "出行热、体验丰、门市旺：国庆消费市场观察",
+          "en": "Holiday consumption: travel, experiences and busy stores"
+        },
+        "summary": {
+          "zh": "中新网报道，长线游、县域游和沉浸式体验带动假期消费。",
+          "en": "China News Service said long-haul trips, county tourism and immersive experiences drove holiday spending."
+        },
+        "sources": [
+          {
+            "name": "中新网",
+            "url": "https://www.chinanews.com/cj/2026/10-05/10708296.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "holiday-safety-dispatch",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国务院安委办调度国庆假期安全防范工作",
+          "en": "State Council safety office reviews holiday safety"
+        },
+        "summary": {
+          "zh": "国务院安委办、应急管理部视频调度国庆假期安全防范工作，部署返程高峰安全保障。",
+          "en": "The State Council work safety office and emergency ministry held a video dispatch on holiday safety ahead of the return peak."
+        },
+        "sources": [
+          {
+            "name": "应急管理部",
+            "url": "https://www.mem.gov.cn/xw/yjyw/202610/t20261005_718348.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

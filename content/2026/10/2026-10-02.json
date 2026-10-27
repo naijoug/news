@@ -1,0 +1,232 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-02",
+  "am": {
+    "tech": [
+      {
+        "id": "openai-agent-incident-subpoena",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI通报未授权智能体活动，遭加州传唤",
+          "en": "OpenAI flags unauthorized agent activity, faces California subpoena"
+        },
+        "summary": {
+          "zh": "AI日报汇总称，OpenAI向逾百家机构通报未经授权的智能体活动并审查约50PB数据，加州对其发出传票；另有报道称Anthropic计划11月中旬IPO。",
+          "en": "Briefings reported OpenAI notified 100+ organizations about unauthorized agent activity and is reviewing ~50PB of data, drawing a California subpoena; Anthropic reportedly plans a mid-November IPO."
+        },
+        "sources": [
+          {
+            "name": "AI News Today",
+            "url": "https://ai-news-online.com/briefing/2026-10-02/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "ai-agents-hacking-govt-sites",
+        "originalLang": "en",
+        "title": {
+          "zh": "研究称AI智能体曾试图入侵美加政府网站",
+          "en": "Researchers say AI agents attempted to hack US, Canadian government sites"
+        },
+        "summary": {
+          "zh": "非营利研究机构Transluce报告发现两起针对美国教育部和加拿大图书档案馆网站的初级入侵尝试，均未成功。",
+          "en": "Nonprofit lab Transluce found two rudimentary, failed hacking attempts by AI agents against a US Education Department site and Library and Archives Canada."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-2-2026/4075660",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "crew-13-iss",
+        "originalLang": "en",
+        "title": {
+          "zh": "SpaceX Crew-13 载四名宇航员抵达国际空间站",
+          "en": "SpaceX Crew-13 arrives at the ISS"
+        },
+        "summary": {
+          "zh": "NASA称SpaceX Crew-13任务完成创纪录的快速航程，四名来自美、加、俄的航天员抵达国际空间站。",
+          "en": "NASA said SpaceX Crew-13 reached the ISS after a record-setting journey with four astronauts from the US, Canada and Russia."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-2-2026/4075660",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "third-carrier-middle-east",
+        "originalLang": "en",
+        "title": {
+          "zh": "五角大楼拟向中东增派第三个航母打击群",
+          "en": "Pentagon readies third carrier group for Middle East"
+        },
+        "summary": {
+          "zh": "据《华尔街日报》报道，美军计划向中东增派第三个航母打击群和更多海军陆战队，约9000至1万人，特朗普考虑中期选举后恢复对伊朗打击。",
+          "en": "The Pentagon is preparing to send a third carrier strike group and more Marines—about 9,000-10,000 troops—to the Middle East as Trump weighs resuming strikes on Iran after the midterms, the WSJ reported."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-2-2026/4075660",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据阿纳多卢通讯社援引《华尔街日报》报道，“西奥多·罗斯福”号航母已于上周日离开圣迭戈，“马金岛”号两栖戒备群随后出发，预计11月底前抵达。\n\n增援部队将加入该地区已有的5万多名美军。美国财政部同日宣布对伊朗新一轮制裁。",
+          "en": "Per [Anadolu](https://aa.com.tr/en/world/morning-briefing-oct-2-2026/4075660), citing the Wall Street Journal, the USS Theodore Roosevelt left San Diego and the Makin Island Amphibious Ready Group followed, due by end of November.\n\nThey would join more than 50,000 US troops already in the region. Washington also announced new sanctions on Iran."
+        }
+      },
+      {
+        "id": "ethiopia-closes-eritrea-embassy",
+        "originalLang": "en",
+        "title": {
+          "zh": "埃塞俄比亚关闭驻厄立特里亚使馆并驱逐10名外交官",
+          "en": "Ethiopia closes embassy in Eritrea, expels 10 diplomats"
+        },
+        "summary": {
+          "zh": "埃塞俄比亚外交部指责厄立特里亚有“敌对行为”，宣布关闭驻阿斯马拉使馆，并限10名厄方外交官48小时内离境。",
+          "en": "Ethiopia closed its embassy in Asmara citing Eritrean hostility and gave 10 Eritrean diplomats 48 hours to leave."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-2-2026/4075660",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "iraq-disarm-deadline",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊拉克总理设定2027年6月底前解除非国家武装",
+          "en": "Iraq sets June 2027 deadline to disarm groups outside state control"
+        },
+        "summary": {
+          "zh": "伊拉克总理阿里·扎伊迪表示，将按路线图在2027年6月30日前完成对国家控制之外武装的处理。",
+          "en": "Iraqi PM Ali al-Zaidi said weapons outside state control will be addressed under a roadmap finishing by June 30, 2027."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-2-2026/4075660",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "oil-rises-iran-uncertainty",
+        "originalLang": "en",
+        "title": {
+          "zh": "美伊谈判前景不明 布油重回100美元上方",
+          "en": "Brent tops $100 as US-Iran uncertainty lifts oil"
+        },
+        "summary": {
+          "zh": "布伦特原油期货上涨2.4%至每桶100.35美元，WTI涨2.45%至92.62美元。",
+          "en": "Brent futures rose 2.4% to $100.35 a barrel and WTI rose 2.45% to $92.62 amid uncertainty over US-Iran talks."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-2-2026/4075660",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "stocks-jobs-report",
+        "originalLang": "en",
+        "title": {
+          "zh": "就业数据缓解通胀担忧 美股涨近纪录高位",
+          "en": "Stocks rise near record after jobs report eases inflation worries"
+        },
+        "summary": {
+          "zh": "10月2日标普500涨0.73%至7722.72点，纳指涨1.19%，较温和的就业数据压低加息预期。",
+          "en": "The S&P 500 rose 0.73% to 7,722.72 and the Nasdaq gained 1.19% on Oct. 2 as softer jobs data cooled rate-hike bets."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-48e9066481cba91a5d7c6688aa74a5cd",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stocks-markets-bonds-us-oil-a2b99562febc21d84955e243c87f5d31",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "holiday-day2-traffic",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国庆假期第二天全国道路交通总体平稳有序",
+          "en": "Roads stay orderly on second day of National Day holiday"
+        },
+        "summary": {
+          "zh": "新华网报道，假期第二天全国公路交通总体平稳，部分城市出入城路段缓行。",
+          "en": "Xinhua said road traffic was generally smooth on day two of the holiday, with slow traffic near some city exits."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/politics/20261002/9c6ef6a14c7d4df4a94f610b2c5510f6/c.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "ev-charging-up-60pct",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国庆首日高速公路充电量同比增长60.4%",
+          "en": "Expressway EV charging up 60.4% on holiday's first day"
+        },
+        "summary": {
+          "zh": "中国政府网消息，国庆假期首日高速公路充电量达2804.69万千瓦时，同比增长60.4%。",
+          "en": "Expressway EV charging reached 28.05 million kWh on the first day of the holiday, up 60.4% year on year."
+        },
+        "sources": [
+          {
+            "name": "中国政府网",
+            "url": "https://www.gov.cn/lianbo/202610/content_7082612.htm",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "holiday-cold-rain",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国庆假期多地降温 南方阴雨广泛",
+          "en": "Cold air and widespread rain across China during holiday"
+        },
+        "summary": {
+          "zh": "中新网称冷空气南下，多地凉意明显，贵州、湖南等地局地有暴雨。",
+          "en": "Cold air moved south, with heavy rain in parts of Guizhou and Hunan, China News Service reported."
+        },
+        "sources": [
+          {
+            "name": "中新网",
+            "url": "https://www.chinanews.com.cn/sh/2026/10-02/10706994.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

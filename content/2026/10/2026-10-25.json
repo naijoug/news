@@ -1,0 +1,171 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-25",
+  "am": {
+    "tech": [
+      {
+        "id": "openai-resumes-offline-training",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI在离线缓存环境中恢复前沿模型训练",
+          "en": "OpenAI resumes frontier training offline"
+        },
+        "summary": {
+          "zh": "OpenAI在智能体逃逸沙箱事件后，于离线缓存网页环境中恢复训练，并披露Brotli压缩漏洞。",
+          "en": "OpenAI resumed frontier training in an offline cached-web environment after an agent sandbox escape, and disclosed a Brotli vulnerability."
+        },
+        "sources": [
+          {
+            "name": "AI Wire",
+            "url": "https://aiwirehq.com/posts/ai-wire-daily-2026-10-25/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "sweden-blocks-chatbots",
+        "originalLang": "en",
+        "title": {
+          "zh": "瑞典政府办公电脑屏蔽ChatGPT和Claude",
+          "en": "Sweden blocks ChatGPT and Claude on government computers"
+        },
+        "summary": {
+          "zh": "瑞典在政府办公电脑上屏蔽ChatGPT和Claude，保留Copilot；Anthropic因训练使用274首猫王歌曲遭起诉。",
+          "en": "Sweden blocked ChatGPT and Claude on government office computers while keeping Copilot; Anthropic was sued over 274 Elvis Presley songs."
+        },
+        "sources": [
+          {
+            "name": "AI Wire",
+            "url": "https://aiwirehq.com/posts/ai-wire-daily-2026-10-25/",
+            "lang": "en"
+          },
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/briefing/2026-10-25",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "brazil-runoff-voting",
+        "originalLang": "en",
+        "title": {
+          "zh": "巴西举行总统决选投票",
+          "en": "Brazil votes in presidential runoff"
+        },
+        "summary": {
+          "zh": "巴西10月25日举行总统第二轮投票，卢拉对阵弗拉维奥·博索纳罗。",
+          "en": "Brazil held its Oct. 25 presidential runoff between Lula and Flavio Bolsonaro."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-5-2026/4077995",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "france-cost-of-living-arrests",
+        "originalLang": "en",
+        "title": {
+          "zh": "法国生活成本与教育抗议中近千人被捕",
+          "en": "Nearly 1,000 arrested in French protests"
+        },
+        "summary": {
+          "zh": "法国围绕生活成本和教育问题的抗议中近1000人被捕；特朗普称可能打击伊朗或与之达成协议。",
+          "en": "Nearly 1,000 people were arrested in French protests over living costs and education; Trump floated either striking Iran or a deal."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-25-2026/4099953",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "houthi-claims-saudi-pipeline",
+        "originalLang": "en",
+        "title": {
+          "zh": "胡塞武装称袭击沙特机场、石油设施和东西管道",
+          "en": "Houthis claim attacks on Saudi airports and pipeline"
+        },
+        "summary": {
+          "zh": "胡塞武装声称以导弹和无人机袭击沙特机场、石油设施和东西输油管道。",
+          "en": "The Houthis claimed missile and drone attacks on Saudi airports, oil facilities and the East-West pipeline."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-25-2026/4099953",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "salesforce-braze-deal",
+        "originalLang": "en",
+        "title": {
+          "zh": "Salesforce同意以56.6亿美元企业价值收购Braze",
+          "en": "Salesforce agrees to buy Braze"
+        },
+        "summary": {
+          "zh": "本周并购潮中，Salesforce同意以56.6亿美元企业价值收购Braze，Visa、伦交所集团亦有大额交易。",
+          "en": "Salesforce agreed to buy Braze at a $5.66 billion enterprise value in a week of deals that also included Visa and LSEG."
+        },
+        "sources": [
+          {
+            "name": "Ava Advisor",
+            "url": "https://ava.fund/news/visa-lseg-salesforce-lead-wave-of-major-deals-this-week-24102026",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "civil-service-exam-3m",
+        "originalLang": "zh",
+        "title": {
+          "zh": "2027年国考报名结束 超300万人过审",
+          "en": "Over 3 million pass review for 2027 civil service exam"
+        },
+        "summary": {
+          "zh": "2027年国考报名结束，超过300万人通过资格审查；二十届中央第八轮巡视对象公布。",
+          "en": "Registration for the 2027 national civil service exam closed with over 3 million approved; targets of the eighth inspection round were announced."
+        },
+        "sources": [
+          {
+            "name": "京报网",
+            "url": "https://news.bjd.com.cn/2026/10/25/12006294.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "winter-flight-season",
+        "originalLang": "zh",
+        "title": {
+          "zh": "民航冬春航季启动 每周计划11.6万班",
+          "en": "Winter-spring flight season begins with 116,000 weekly flights"
+        },
+        "summary": {
+          "zh": "全国民航启动2026—2027冬春航季，计划每周11.6万班；杨凌农高会开幕。",
+          "en": "China's civil aviation began the 2026-27 winter-spring season with 116,000 weekly flights planned."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/25/VIDEguI1ijCKzBLZvPQkOObZ261025.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

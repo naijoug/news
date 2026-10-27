@@ -1,0 +1,160 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-22",
+  "am": {
+    "tech": [
+      {
+        "id": "claude-duet-preview",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic预览主动式智能体Claude Duet",
+          "en": "Anthropic previews proactive agent Claude Duet"
+        },
+        "summary": {
+          "zh": "Anthropic预览主动式智能体Claude Duet；Mistral发布Large 4开源权重模型。",
+          "en": "Anthropic previewed Claude Duet, a proactive agent, and Mistral released its Large 4 open-weight model."
+        },
+        "sources": [
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/briefing/2026-10-22",
+            "lang": "en"
+          },
+          {
+            "name": "Dan's Brief",
+            "url": "https://dansbrief.com/briefs/2026-10-22/ai",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "barclays-ai-job-cuts",
+        "originalLang": "en",
+        "title": {
+          "zh": "巴克莱计划因AI裁员5000人",
+          "en": "Barclays plans 5,000 AI-linked job cuts"
+        },
+        "summary": {
+          "zh": "巴克莱计划削减5000个与AI相关的岗位；有报道称OpenAI在IPO前寻求融资300亿美元。",
+          "en": "Barclays planned 5,000 AI-linked job cuts, and OpenAI was reported to be raising $30 billion ahead of an IPO."
+        },
+        "sources": [
+          {
+            "name": "The Brief",
+            "url": "https://www.ai-brief.io/briefings/2026-10-22",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "trump-not-negotiating-iran",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普称未与伊朗谈判 问题将“很快”解决",
+          "en": "Trump says US not negotiating with Iran"
+        },
+        "summary": {
+          "zh": "特朗普表示美国没有与伊朗谈判，但问题将“相当快”得到解决。",
+          "en": "Trump said the US was not negotiating with Iran and a resolution would come \"fairly soon.\""
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-22-2026/4096629",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "badr-defense-memorandum",
+        "originalLang": "en",
+        "title": {
+          "zh": "土耳其、卡塔尔、印尼、巴基斯坦签署“巴德尔”防务合作备忘录",
+          "en": "Türkiye, Qatar, Indonesia, Pakistan sign Badr defense memorandum"
+        },
+        "summary": {
+          "zh": "四国签署“巴德尔”防务合作谅解备忘录。",
+          "en": "Türkiye, Qatar, Indonesia and Pakistan signed the Badr defense-cooperation memorandum."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-22-2026/4096629",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "dammam-airport-attack",
+        "originalLang": "en",
+        "title": {
+          "zh": "达曼法赫德国王国际机场遇袭致1死8伤",
+          "en": "Attack on Dammam airport kills one"
+        },
+        "summary": {
+          "zh": "沙特达曼法赫德国王国际机场遇袭，造成1人死亡、8人受伤。",
+          "en": "An attack on King Fahd International Airport in Dammam killed one and injured eight."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-22-2026/4096629",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "nasdaq-drops-ai-spending",
+        "originalLang": "en",
+        "title": {
+          "zh": "AI支出担忧再起 纳指重挫2.6%",
+          "en": "Nasdaq tumbles 2.6% on AI spending worries"
+        },
+        "summary": {
+          "zh": "10月22日纳指跌2.6%至26008.86点，标普500跌1.21%，油价上涨。",
+          "en": "The Nasdaq fell 2.6% to 26,008.86 on Oct. 22 and the S&P 500 1.21% as AI doubts revived and oil jumped."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stocks-markets-rates-earnings-oil-33767691a4a0730b96d6f0c5100ea9b2",
+            "lang": "en"
+          },
+          {
+            "name": "WSJ",
+            "url": "https://www.wsj.com/finance/stocks/u-s-tech-stocks-drop-on-ai-spending-concerns-05400b55",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "tibet-baqen-quake",
+        "originalLang": "zh",
+        "title": {
+          "zh": "西藏那曲巴青县发生7.0级地震 国家启动四级应急响应",
+          "en": "Magnitude-7.0 quake strikes Baqen, Tibet"
+        },
+        "summary": {
+          "zh": "10月22日22时33分，西藏那曲市巴青县发生7.0级地震，震源深度10公里，国家启动地震灾害四级应急响应。",
+          "en": "A magnitude-7.0 earthquake struck Baqen County in Nagqu, Tibet at 22:33 on Oct. 22 at a depth of 10 km; a level-4 national emergency response was launched."
+        },
+        "sources": [
+          {
+            "name": "应急管理部",
+            "url": "https://www.mem.gov.cn/xw/yjyw/202610/t20261022_736710.shtml",
+            "lang": "zh"
+          }
+        ],
+        "body": {
+          "zh": "据应急管理部消息，10月22日22时33分西藏那曲市巴青县发生7.0级地震，震源深度10公里。国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应，派出工作组赶赴震区。\n\n据后续报道，截至10月24日地震已造成16人遇难、76人受伤，1.2万余人转移安置，三轮排查未发现失联人员。（据中国经济网）"
+        }
+      }
+    ]
+  }
+}

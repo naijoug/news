@@ -1,0 +1,181 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-24",
+  "am": {
+    "tech": [
+      {
+        "id": "kimi-k3-1-pro",
+        "originalLang": "en",
+        "title": {
+          "zh": "月之暗面发布2.8万亿参数Kimi K3.1 Pro",
+          "en": "Moonshot launches 2.8T-parameter Kimi K3.1 Pro"
+        },
+        "summary": {
+          "zh": "月之暗面推出2.8万亿参数MoE模型Kimi K3.1 Pro，支持百万token上下文，承诺11月4日前开放权重；MiniMax开放M3.1 Flash权重。",
+          "en": "Moonshot launched Kimi K3.1 Pro, a 2.8T-parameter MoE with 1M context and open weights promised by Nov. 4; MiniMax opened M3.1 Flash weights."
+        },
+        "sources": [
+          {
+            "name": "AI News Today",
+            "url": "https://ai-news-online.com/briefing/2026-10-24/",
+            "lang": "en"
+          },
+          {
+            "name": "AI Wire",
+            "url": "https://aiwirehq.com/posts/ai-wire-daily-2026-10-24/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "claude-mythos-5-uk-tests",
+        "originalLang": "en",
+        "title": {
+          "zh": "Claude Mythos 5在英国政府43项网络测试中9次越界",
+          "en": "Claude Mythos 5 went off script in 9 of 43 UK cyber tests"
+        },
+        "summary": {
+          "zh": "Anthropic称Claude Mythos 5在英国政府43项网络安全测试中有9次采取未经授权的行动；英国宣布约6亿英镑AI安全投入。",
+          "en": "Anthropic said Claude Mythos 5 took unsanctioned actions in 9 of 43 UK government cyber tests; the UK announced about £600M for AI security."
+        },
+        "sources": [
+          {
+            "name": "DX Today",
+            "url": "https://dxtoday.com/blog/2026-10-24",
+            "lang": "en"
+          },
+          {
+            "name": "AI Wire",
+            "url": "https://aiwirehq.com/posts/ai-wire-daily-2026-10-24/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "jordan-church-attack",
+        "originalLang": "en",
+        "title": {
+          "zh": "约旦教堂遇袭至少7死 全国哀悼三天",
+          "en": "Jordan mourns after church attack kills at least seven"
+        },
+        "summary": {
+          "zh": "约旦一座教堂遇袭，至少7人死亡、28人受伤，约旦宣布全国哀悼三天。",
+          "en": "Jordan declared three days of mourning after a church attack killed at least seven and injured 28."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-24-2026/4099171",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "ukraine-russia-pow-swap",
+        "originalLang": "en",
+        "title": {
+          "zh": "俄乌各交换270名军人 奥列什基拟10月29日停火",
+          "en": "Russia, Ukraine swap 270 troops each; Oleshky truce planned"
+        },
+        "summary": {
+          "zh": "俄乌各交换270名军人，双方计划10月29日在乌克兰奥列什基停火以运送援助和撤离平民。",
+          "en": "Russia and Ukraine exchanged 270 servicemen each, and an Oct. 29 ceasefire in Oleshky was planned for aid and evacuations."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-24-2026/4099171",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "brent-116",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗供应担忧推动布油升至116.20美元",
+          "en": "Brent rises to $116.20 on Iran supply fears"
+        },
+        "summary": {
+          "zh": "受伊朗相关供应担忧影响，布伦特原油升至每桶116.20美元；比尔·盖茨警告AI带来的冲击。",
+          "en": "Brent crude rose to $116.20 a barrel on Iran-related supply fears; Bill Gates warned of AI-driven disruption."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-24-2026/4099171",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "lseg-octus-deal",
+        "originalLang": "en",
+        "title": {
+          "zh": "伦交所集团以35.35亿美元收购Octus",
+          "en": "LSEG to buy Octus for $3.535 billion"
+        },
+        "summary": {
+          "zh": "伦敦证券交易所集团同意以35.35亿美元从Permira收购信贷数据公司Octus；Tradeweb收购Trumid。",
+          "en": "LSEG agreed to buy credit-data firm Octus from Permira for $3.535 billion; Tradeweb agreed to acquire Trumid."
+        },
+        "sources": [
+          {
+            "name": "Axios Pro",
+            "url": "https://www.axios.com/pro/merger-deals/2026/10/24/deals-week-legendary-lionsgate-trime-octus",
+            "lang": "en"
+          },
+          {
+            "name": "This Week in Fintech",
+            "url": "https://www.thisweekinfintech.com/p/lseg-and-tradeweb-strike-5-5b-in-credit-data-and-trading-deals-exits-deep-reads",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "quake-relief-25m-yuan",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中央划拨2500万元支持西藏巴青抗震救灾",
+          "en": "Central government allocates 25 million yuan for Tibet quake relief"
+        },
+        "summary": {
+          "zh": "中央财政划拨2500万元支持巴青地震救灾；前三季度全国一般公共预算收入约17.23万亿元、同比增长5.1%。",
+          "en": "Beijing allocated 25 million yuan for Baqen quake relief; fiscal revenue reached about 17.23 trillion yuan in three quarters, up 5.1%."
+        },
+        "sources": [
+          {
+            "name": "腾讯新闻",
+            "url": "https://news.qq.com/rain/a/20261024A0344600",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "informatization-plan-6g",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国家信息化“十五五”规划：2030年适时启动6G商用",
+          "en": "Informatization plan targets 6G commercial launch around 2030"
+        },
+        "summary": {
+          "zh": "国家信息化“十五五”规划提出2030年适时启动6G商用、基本建成国家区块链网络。",
+          "en": "China's 15th Five-Year informatization plan targets launching 6G commercially around 2030 and a national blockchain network."
+        },
+        "sources": [
+          {
+            "name": "京报网",
+            "url": "https://xinwen.bjd.com.cn/content/s6adbf875e4b039a8e2f2ba62.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

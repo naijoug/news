@@ -1,47 +1,203 @@
 {
   "$schema": "../../../schemas/edition.schema.json",
   "date": "2026-10-26",
-  "sample": true,
-  "lead": {
-    "zh": "示例日刊，只有上午。下午还没写时，不要另建文件。",
-    "en": "Sample day with morning only. Do not add another file before the afternoon exists."
-  },
   "am": {
     "tech": [
       {
-        "id": "open-weights",
+        "id": "anthropic-files-ipo",
         "originalLang": "en",
         "title": {
-          "zh": "示例：一份权重发布说明",
-          "en": "Sample: a weights release note"
+          "zh": "Anthropic递交IPO申请 上半年营收163亿美元",
+          "en": "Anthropic files for IPO, reporting $16.3B first-half revenue"
         },
         "summary": {
-          "zh": "占位条目，演示英文原文和中文翻译写在同一条里。这一天没有下午。",
-          "en": "Placeholder showing an English original and a Chinese translation. This day has no afternoon block."
+          "zh": "Anthropic提交S-1文件拟在纳斯达克上市，披露上半年营收163亿美元、营业亏损6.93亿美元。",
+          "en": "Anthropic filed an S-1 for a Nasdaq IPO, reporting $16.3 billion in first-half revenue and a $693 million operating loss."
         },
         "sources": [
-          { "name": "Example Lab", "url": "https://example.com/open-weights", "lang": "en" }
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
+            "lang": "en"
+          },
+          {
+            "name": "DailyAI",
+            "url": "https://dailyai.com/2026/10/dai60-anthropics-books-metas-hat-and-a-cheaper-terra/",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据[《卫报》](https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates)报道，Anthropic于10月26日提交上市申请。据DailyAI汇总，S-1文件显示公司上半年营收163亿美元，营业亏损6.93亿美元，计划在纳斯达克上市。\n\n同日Meta宣布950亿美元股票发行计划，AI巨头融资潮进一步升温。",
+          "en": "The [Guardian](https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates) reported Anthropic filed for its IPO on Oct. 26. Per [DailyAI](https://dailyai.com/2026/10/dai60-anthropics-books-metas-hat-and-a-cheaper-terra/), the S-1 shows $16.3 billion in first-half revenue and a $693 million operating loss, with a Nasdaq listing planned.\n\nMeta announced a $95 billion stock offering the same day."
+        }
+      },
+      {
+        "id": "gpt-6-1-terra",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI推出更便宜的计算机使用模型GPT-6.1 Terra",
+          "en": "OpenAI launches cheaper computer-use model GPT-6.1 Terra"
+        },
+        "summary": {
+          "zh": "OpenAI发布GPT-6.1 Terra，每百万token输入1美元、输出5美元，面向计算机使用场景。",
+          "en": "OpenAI launched GPT-6.1 Terra, a cheaper computer-use model at $1/$5 per million input/output tokens."
+        },
+        "sources": [
+          {
+            "name": "DailyAI",
+            "url": "https://dailyai.com/2026/10/dai60-anthropics-books-metas-hat-and-a-cheaper-terra/",
+            "lang": "en"
+          }
         ]
       }
     ],
     "world": [
       {
-        "id": "harbor-talks",
-        "originalLang": "zh",
+        "id": "lula-wins-runoff",
+        "originalLang": "en",
         "title": {
-          "zh": "示例：港口谈判的一句",
-          "en": "Sample: one line on harbor talks"
+          "zh": "卢拉赢得巴西总统决选 弗拉维奥·博索纳罗称将寻求宣布无效",
+          "en": "Lula wins Brazil runoff; Flavio Bolsonaro seeks annulment"
         },
         "summary": {
-          "zh": "中文原文配英文翻译，没有长正文。详情页只保留摘要和来源。",
-          "en": "Chinese original with an English translation and no long body. The detail page keeps the summary and sources."
+          "zh": "卢拉以51.76%对48.24%击败弗拉维奥·博索纳罗赢得连任，后者表示将寻求宣布选举无效。",
+          "en": "Lula won Brazil's runoff with 51.76% to Flavio Bolsonaro's 48.24%; Bolsonaro said he would seek an annulment."
         },
         "sources": [
-          { "name": "示例通讯社", "url": "https://example.com/harbor-talks", "lang": "zh" }
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-26-2026/4100631",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据阿纳多卢通讯社报道，在10月25日举行的巴西总统决选中，现任总统卢拉获得51.76%的有效票，击败获得48.24%的参议员弗拉维奥·博索纳罗。\n\n弗拉维奥在首轮以47.08%对45.10%领先，但决选中被反超。他表示将寻求宣布选举结果无效。受此影响，巴西资产10月26日大幅下跌。",
+          "en": "Per [Anadolu](https://www.aa.com.tr/en/world/morning-briefing-oct-26-2026/4100631), President Lula won the Oct. 25 runoff with 51.76% of valid votes against Flavio Bolsonaro's 48.24%.\n\nFlavio had led the first round 47.08% to 45.10%. He said he would seek an annulment. Brazilian assets fell sharply on Oct. 26."
+        }
+      },
+      {
+        "id": "vucic-concedes-serbia",
+        "originalLang": "en",
+        "title": {
+          "zh": "塞尔维亚提前大选 武契奇承认其名单落败",
+          "en": "Vucic concedes his list lost Serbia's snap election"
+        },
+        "summary": {
+          "zh": "塞尔维亚总统武契奇承认其支持的名单在提前议会选举中落败；特朗普重申支持内塔尼亚胡。",
+          "en": "Serbian President Vucic conceded his list lost the snap parliamentary election; Trump reaffirmed support for Netanyahu."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-26-2026/4100631",
+            "lang": "en"
+          }
         ]
       }
     ],
-    "business": [],
-    "china": []
+    "business": [
+      {
+        "id": "meta-95b-stock-offering",
+        "originalLang": "en",
+        "title": {
+          "zh": "Meta计划发行950亿美元股票为AI扩张融资",
+          "en": "Meta plans $95 billion stock offering to fund AI"
+        },
+        "summary": {
+          "zh": "Meta宣布950亿美元股票发行计划，用于AI基础设施和“超级智能”，英伟达、AMD和博通有意认购至多50亿美元。",
+          "en": "Meta announced a $95 billion stock offering for AI infrastructure; Nvidia, AMD and Broadcom are interested in up to $5 billion."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "stocks-up-brazil-sinks",
+        "originalLang": "en",
+        "title": {
+          "zh": "美股收涨 巴西资产因卢拉胜选重挫",
+          "en": "Wall Street rises as Brazil sinks after Lula win"
+        },
+        "summary": {
+          "zh": "10月26日标普500涨0.70%，纳指涨0.82%，Anthropic上市申请提振科技股；巴西市场大跌。",
+          "en": "The S&P 500 rose 0.70% and the Nasdaq 0.82% on Oct. 26 as Anthropic's filing lifted tech, while Brazilian markets slumped."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stocks-markets-oil-earnings-trump-be3a56f58a77c5be863f0289d280be92",
+            "lang": "en"
+          },
+          {
+            "name": "PrimerIQ",
+            "url": "https://app.primeriq.com/market/2026-10-26/us_close",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "public-institution-regulation",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国务院公布《事业单位登记管理条例》",
+          "en": "State Council issues public institution registration rules"
+        },
+        "summary": {
+          "zh": "李强签署国务院令，公布《事业单位登记管理条例》；二十届中央第八轮巡视完成进驻。",
+          "en": "Li Qiang signed a State Council decree issuing new public institution registration rules; the eighth inspection round began."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/26/VIDEb1bLTNF4guiDP5HGo6wH261026.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "old-communities-renovated",
+        "originalLang": "zh",
+        "title": {
+          "zh": "1.6万个老旧小区完成改造",
+          "en": "16,000 old residential communities renovated"
+        },
+        "summary": {
+          "zh": "《新闻联播》报道，全国1.6万个老旧小区完成改造；长三角货物贸易进出口连续19个月增长。",
+          "en": "CCTV reported 16,000 old communities renovated and Yangtze River Delta goods trade growing for 19 straight months."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/26/VIDEb1bLTNF4guiDP5HGo6wH261026.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "pboc-bond-swap-facility",
+        "originalLang": "zh",
+        "title": {
+          "zh": "央行设立债市非银机构大额赎回互换便利",
+          "en": "PBOC sets up swap facility for bond fund redemptions"
+        },
+        "summary": {
+          "zh": "央行设立债券市场非银机构大额赎回互换便利；商务部就商业秘密保护规定征求意见。",
+          "en": "The PBOC created a swap facility for large redemptions by non-bank bond investors; Commerce sought comment on trade-secret rules."
+        },
+        "sources": [
+          {
+            "name": "新浪财经",
+            "url": "https://finance.sina.com.cn/jjxw/2026-10-26/doc-iniwqhxk2478260.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

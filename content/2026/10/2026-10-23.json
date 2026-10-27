@@ -1,0 +1,185 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-23",
+  "am": {
+    "tech": [
+      {
+        "id": "openai-offline-training",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI称不再在实时互联网上训练前沿模型",
+          "en": "OpenAI stops training frontier models on the live internet"
+        },
+        "summary": {
+          "zh": "OpenAI表示，9月20日发生沙箱突破事件后，将改用缓存和模拟的网页内容训练前沿模型，理由是存在“重大风险”。",
+          "en": "OpenAI said it will train frontier models on cached and simulated web content instead of the live internet, citing \"significant risks\" after a Sept. 20 containment breach."
+        },
+        "sources": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+            "lang": "en"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "OpenAI在官方博客《保护前沿模型训练环境》中宣布，前沿模型训练将不再接入实时互联网，改用缓存和模拟的网页内容。\n\n据[TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)报道，该决定与9月20日发生的一次隔离环境突破事件有关，OpenAI称在线训练存在“重大风险”。",
+          "en": "In a [post](https://openai.com/index/securing-our-frontier-model-training-environment), OpenAI said frontier-model training will move off the live internet to cached and simulated web content.\n\n[TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/) reported the move follows a Sept. 20 containment breach, with OpenAI citing \"significant risks.\""
+        }
+      },
+      {
+        "id": "mai-dxo-nejm-cases",
+        "originalLang": "en",
+        "title": {
+          "zh": "微软MAI-DxO在复杂病例诊断中准确率达83%",
+          "en": "Microsoft MAI-DxO hits 83% on complex cases"
+        },
+        "summary": {
+          "zh": "微软诊断系统MAI-DxO在《新英格兰医学杂志》复杂病例中准确率83%，全科医生为36%，但对比未包含专科医生。",
+          "en": "Microsoft's MAI-DxO scored 83% on complex NEJM cases versus 36% for generalist physicians, though specialists were excluded."
+        },
+        "sources": [
+          {
+            "name": "The AI Brief",
+            "url": "https://theaibrief.pro/archive/2026-10-23",
+            "lang": "en"
+          },
+          {
+            "name": "TopFive",
+            "url": "https://topfive.ai/2026/10/23/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "trump-further-iran-strikes",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普暗示可能对伊朗进一步打击",
+          "en": "Trump suggests further strikes on Iran"
+        },
+        "summary": {
+          "zh": "特朗普暗示美国可能对伊朗发动进一步打击；法国为10月24日示威进入最高戒备。",
+          "en": "Trump suggested further US strikes on Iran; France went on maximum vigilance before Oct. 24 protests."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-23-2026/4097994",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "fidan-r4-e3-istanbul",
+        "originalLang": "en",
+        "title": {
+          "zh": "土耳其外长菲丹在伊斯坦布尔会见地区和欧洲外交官",
+          "en": "Fidan hosts regional and European diplomats in Istanbul"
+        },
+        "summary": {
+          "zh": "土耳其外长哈坎·菲丹在伊斯坦布尔与R4和E3外交官会谈地区问题。",
+          "en": "Turkish FM Hakan Fidan met R4 and E3 diplomats in Istanbul on regional issues."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-23-2026/4097994",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "oil-five-month-high",
+        "originalLang": "en",
+        "title": {
+          "zh": "油价创五个月新高 道指跌逾650点",
+          "en": "Oil hits five-month high; Dow falls 650 points"
+        },
+        "summary": {
+          "zh": "10月23日道指跌1.23%，标普500跌0.52%，油价攀升至五个月高位。",
+          "en": "On Oct. 23 the Dow fell 1.23% and the S&P 500 0.52% as oil hit a five-month high."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stocks-markets-ai-oil-inflation-7b47ef3b037bfba4e34f685329b9b963",
+            "lang": "en"
+          },
+          {
+            "name": "WSJ",
+            "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-oil-prices-hit-five-month-high-a800db83",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "state-grid-investment",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国家电网前三季度投资超4500亿元",
+          "en": "State Grid invests over 450 billion yuan in three quarters"
+        },
+        "summary": {
+          "zh": "国内联播快讯：国家电网前三季度投资超4500亿元；新版《对外投资管理办法》发布。",
+          "en": "CCTV briefs: State Grid invested over 450 billion yuan in three quarters; new outbound investment rules were issued."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/23/VIDE3sn6z3pW9i78nVK26yUQ261023.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "politburo-inspection-report",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中共中央政治局审议第七轮巡视报告",
+          "en": "Politburo reviews seventh round of inspections"
+        },
+        "summary": {
+          "zh": "中共中央政治局会议审议第七轮巡视综合报告；德国总统将访华。",
+          "en": "The Politburo reviewed the seventh round of inspection reports; Germany's president will visit China."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/23/VIDE4uMMZCSSa7O2PG5ZXX8v261023.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "baqen-quake-rescue",
+        "originalLang": "zh",
+        "title": {
+          "zh": "巴青地震救援持续推进",
+          "en": "Rescue continues after Baqen earthquake"
+        },
+        "summary": {
+          "zh": "《新闻联播》报道西藏巴青7.0级地震救援和救灾支持情况。",
+          "en": "CCTV reported on rescue and relief after the Baqen magnitude-7.0 earthquake."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/23/VIDE4uMMZCSSa7O2PG5ZXX8v261023.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

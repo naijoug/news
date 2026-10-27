@@ -95,6 +95,22 @@ for (const edition of editions) {
   }
 }
 
+function collectCss(dir, out = []) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) collectCss(full, out);
+    else if (entry.name.endsWith('.css')) out.push(fs.readFileSync(full, 'utf8'));
+  }
+  return out;
+}
+
+const builtCss = collectCss(dist).join('\n');
+if (!builtCss.includes('Fira Code')) fail('built CSS does not declare Fira Code');
+if (!builtCss.includes('woff2')) fail('Fira Code is not self-hosted as woff2');
+if (/fonts\.googleapis\.com|fonts\.gstatic\.com/.test(`${builtCss}\n${home}`)) {
+  fail('page requests a third-party font host');
+}
+
 if (!rss.includes('<rss') || !rss.includes('朝夕')) fail('RSS feed is missing its channel');
 if (!sitemap.includes('<urlset')) fail('sitemap is missing urlset');
 

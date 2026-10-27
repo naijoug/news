@@ -8,9 +8,10 @@
   --accent-ink: #6f241c;
   --accent-soft: #f8ebe6;
   --accent-line: #e4c7be;
-  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Songti SC", "Noto Serif SC",
+  /* Fira Code supplies Latin. The families after it are the Chinese stack, used for CJK. */
+  --serif: "Fira Code", "Iowan Old Style", "Palatino Linotype", Palatino, "Songti SC", "Noto Serif SC",
     "Source Han Serif SC", "STSong", "SimSun", serif;
-  --sans: "Avenir Next", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC",
+  --sans: "Fira Code", "Avenir Next", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC",
     "Microsoft YaHei", "Source Han Sans SC", sans-serif;
   --wrap: 40rem;
 }

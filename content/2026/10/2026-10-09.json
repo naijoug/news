@@ -1,0 +1,209 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-09",
+  "am": {
+    "tech": [
+      {
+        "id": "gemini-workplace-agent",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌云推出跨Workspace、M365和Slack的通用Gemini办公智能体",
+          "en": "Google Cloud launches universal Gemini workplace agent"
+        },
+        "summary": {
+          "zh": "谷歌云推出可在Google Workspace、Microsoft 365和Slack间协调工作的Gemini智能体，具备持久的“同事”身份。",
+          "en": "Google Cloud launched a Gemini agent that orchestrates work across Workspace, Microsoft 365 and Slack with persistent \"coworker\" identities."
+        },
+        "sources": [
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/briefing/2026-10-09",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-evals-offline",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic限制内部评测接入实时互联网",
+          "en": "Anthropic restricts internal evals from live internet"
+        },
+        "summary": {
+          "zh": "出于安全担忧，Anthropic限制内部智能体评测访问实时互联网。",
+          "en": "Anthropic restricted internal agent evaluations from accessing the live internet over security concerns."
+        },
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/09/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "trump-no-iran-strike-midterms",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普称美国不会在中期选举前攻击伊朗",
+          "en": "Trump says US won't attack Iran before midterms"
+        },
+        "summary": {
+          "zh": "特朗普表示，美国在11月3日中期选举前不会攻击伊朗。",
+          "en": "Trump said the US would not attack Iran before the Nov. 3 midterm elections."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-9-2026/4082888",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "uk-jerusalem-mission",
+        "originalLang": "en",
+        "title": {
+          "zh": "英国保留东耶路撒冷领事馆并更名为“英国驻耶路撒冷使团”",
+          "en": "UK keeps East Jerusalem consulate as UK Mission, Jerusalem"
+        },
+        "summary": {
+          "zh": "英国决定保留其东耶路撒冷领事馆，更名为“英国驻耶路撒冷使团”。",
+          "en": "Britain decided to keep its East Jerusalem consulate open, renamed the UK Mission, Jerusalem."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-9-2026/4082888",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nobel-literature-anne-carson",
+        "originalLang": "en",
+        "title": {
+          "zh": "加拿大诗人安妮·卡森获诺贝尔文学奖",
+          "en": "Anne Carson wins Nobel Prize in Literature"
+        },
+        "summary": {
+          "zh": "加拿大诗人、古典学者安妮·卡森获得2026年诺贝尔文学奖。",
+          "en": "Canadian poet and classicist Anne Carson won the 2026 Nobel Prize in Literature."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-9-2026/4082888",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "wall-street-weekly-gains",
+        "originalLang": "en",
+        "title": {
+          "zh": "美股收高 三大指数录得周线上涨",
+          "en": "Wall Street ends week with gains"
+        },
+        "summary": {
+          "zh": "10月9日道指涨0.8%至51654.95点，标普500涨0.6%，三大指数周线均上涨，财报季将至。",
+          "en": "On Oct. 9 the Dow rose 0.8% to 51,654.95 and the S&P 500 gained 0.6%, with all three major indexes up for the week ahead of earnings season."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stocks-markets-oil-ai-bonds-5d0f953dbf96febb0690c1aef23fa8a9",
+            "lang": "en"
+          },
+          {
+            "name": "Investopedia",
+            "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10092026-12165767",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "wto-trade-forecast",
+        "originalLang": "en",
+        "title": {
+          "zh": "世贸组织发布全球贸易预测",
+          "en": "WTO issues global trade forecasts"
+        },
+        "summary": {
+          "zh": "世贸组织在能源冲击背景下更新全球贸易增长预测。",
+          "en": "The WTO updated its global trade growth forecasts amid the energy shock."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-9-2026/4082888",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "he-lifeng-sefcovic",
+        "originalLang": "zh",
+        "title": {
+          "zh": "何立峰会见欧盟委员会贸易和经济安全委员谢夫乔维奇",
+          "en": "He Lifeng meets EU trade chief Sefcovic"
+        },
+        "summary": {
+          "zh": "国务院副总理何立峰会见欧盟委员会贸易和经济安全委员谢夫乔维奇，就中欧经贸关系交换意见。",
+          "en": "Vice Premier He Lifeng met EU trade and economic security commissioner Maros Sefcovic to discuss China-EU trade ties."
+        },
+        "sources": [
+          {
+            "name": "中国政府网",
+            "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7082838.htm",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "wang-yi-pacific-delegation",
+        "originalLang": "zh",
+        "title": {
+          "zh": "王毅会见太平洋岛国政治家联合考察团",
+          "en": "Wang Yi meets Pacific island politicians"
+        },
+        "summary": {
+          "zh": "王毅会见以汤加副首相为团长的太平洋岛国政治家联合考察团，强调构建中国—太平洋岛国命运共同体。",
+          "en": "Wang Yi met a Pacific island political delegation led by Tonga's deputy prime minister."
+        },
+        "sources": [
+          {
+            "name": "外交部",
+            "url": "https://www.mfa.gov.cn/wjdt_674879/wjbxw_674885/202610/t20261009_12037388.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "mao-ning-cybersecurity",
+        "originalLang": "zh",
+        "title": {
+          "zh": "毛宁：维护网络安全是中美共同关切",
+          "en": "Mao Ning: cybersecurity is a shared China-US concern"
+        },
+        "summary": {
+          "zh": "外交部发言人毛宁在例行记者会上表示，维护网络安全是中美的共同关切，并就仁爱礁等问题答问。",
+          "en": "Spokesperson Mao Ning said cybersecurity is a common China-US concern and addressed Ren'ai Reef and other issues."
+        },
+        "sources": [
+          {
+            "name": "外交部",
+            "url": "https://www.mfa.gov.cn/web/fyrbt_673021/jzhsl_673025/202610/t20261009_12037287.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

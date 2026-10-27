@@ -1,0 +1,200 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-12",
+  "am": {
+    "tech": [
+      {
+        "id": "brad-smith-ai-rules",
+        "originalLang": "en",
+        "title": {
+          "zh": "微软布拉德·史密斯呼吁强制性AI规则与“断电开关”",
+          "en": "Microsoft's Brad Smith calls for mandatory AI rules and kill switches"
+        },
+        "summary": {
+          "zh": "微软总裁布拉德·史密斯呼吁出台强制性AI监管，设立“断电开关”并对失控系统追责；英国呼吁加强前沿模型监督。",
+          "en": "Microsoft's Brad Smith called for mandatory AI rules, kill switches and liability for rogue systems; the UK urged stronger frontier-model oversight."
+        },
+        "sources": [
+          {
+            "name": "The Brief",
+            "url": "https://www.ai-brief.io/briefings/2026-10-12",
+            "lang": "en"
+          },
+          {
+            "name": "Precise Impact AI",
+            "url": "https://www.preciseimpact.ai/briefing/ai-news-digest-2026-10-12",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "meta-muse-wonder-launch",
+        "originalLang": "en",
+        "title": {
+          "zh": "Meta推出面向智能体的Muse Wonder模型",
+          "en": "Meta launches Muse Wonder models for agentic work"
+        },
+        "summary": {
+          "zh": "Meta发布Muse Wonder系列模型，主打智能体、编程、记忆和专业任务。",
+          "en": "Meta launched Muse Wonder models aimed at agentic work, coding, memory and professional tasks."
+        },
+        "sources": [
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/briefing/2026-10-12",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "north-korea-missiles-east-sea",
+        "originalLang": "en",
+        "title": {
+          "zh": "朝鲜向东部海域发射多枚弹道导弹",
+          "en": "North Korea fires multiple ballistic missiles"
+        },
+        "summary": {
+          "zh": "韩方称朝鲜向东部海域发射多枚弹道导弹，飞行距离超过900公里。",
+          "en": "Seoul said North Korea fired multiple ballistic missiles toward the East Sea, flying more than 900 km."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-12-2026/4085595",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "trump-energy-ceasefire",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普宣布俄乌立即停火打击能源设施",
+          "en": "Trump announces Russia-Ukraine energy infrastructure ceasefire"
+        },
+        "summary": {
+          "zh": "特朗普宣布俄乌立即停止打击能源基础设施，但莫斯科和基辅尚未独立证实。",
+          "en": "Trump announced an immediate Russia-Ukraine ceasefire on energy infrastructure, not yet independently confirmed by Moscow or Kyiv."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-12-2026/4085595",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "riyadh-airport-new-attack",
+        "originalLang": "en",
+        "title": {
+          "zh": "利雅得机场再遭袭击",
+          "en": "Riyadh airport hit again"
+        },
+        "summary": {
+          "zh": "利雅得哈立德国王国际机场再次遭弹体袭击，造成一名巴基斯坦籍居民死亡、11人受伤。",
+          "en": "Another projectile attack on Riyadh's King Khalid airport killed a Pakistani resident and injured 11."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-12-2026/4085595",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "stocks-mixed-oct12",
+        "originalLang": "en",
+        "title": {
+          "zh": "油价维持100美元上方 美股涨跌不一",
+          "en": "Stocks mixed as oil stays above $100"
+        },
+        "summary": {
+          "zh": "10月12日道指涨0.38%至51850.55点，纳指跌0.44%，标普500微跌。",
+          "en": "On Oct. 12 the Dow rose 0.38% to 51,850.55, the Nasdaq fell 0.44% and the S&P 500 dipped slightly."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stock-markets-oil-trump-inflation-a9a26b9706963afe9bdeda1b2eb1f51d",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-f07713e8b2e438ac5903b50f5ce97235",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nev-output-up-11pct",
+        "originalLang": "zh",
+        "title": {
+          "zh": "前三季度新能源汽车产销均增约11%",
+          "en": "NEV output and sales up about 11% in three quarters"
+        },
+        "summary": {
+          "zh": "《新闻联播》报道，前三季度我国新能源汽车产销同比均增长约11%。",
+          "en": "CCTV reported China's new-energy vehicle output and sales both rose about 11% in the first three quarters."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.com/2026/10/12/VIDEyXPpFK2qWdsLETj26ClZ261012.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "png-50-years-ties",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中国与巴布亚新几内亚建交50周年 两国领导人互致贺电",
+          "en": "China and Papua New Guinea mark 50 years of ties"
+        },
+        "summary": {
+          "zh": "习近平、李强分别同巴布亚新几内亚领导人互致贺电，庆祝建交50周年；李强会见越南国会主席。",
+          "en": "Xi Jinping and Li Qiang exchanged messages with Papua New Guinea's leaders on 50 years of ties; Li met Vietnam's National Assembly chairman."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.com/2026/10/12/VIDEyXPpFK2qWdsLETj26ClZ261012.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "新闻联播文字版",
+            "url": "https://www.cuobiezi.net/news/cctv/xwlb/day/2026-10-12",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "zheng-qinwen-china-open",
+        "originalLang": "zh",
+        "title": {
+          "zh": "郑钦文夺得中国网球公开赛女单冠军",
+          "en": "Zheng Qinwen wins China Open women's title"
+        },
+        "summary": {
+          "zh": "郑钦文在中网女单决赛中夺冠。",
+          "en": "Zheng Qinwen won the women's singles title at the China Open."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.com/2026/10/12/VIDEyXPpFK2qWdsLETj26ClZ261012.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-11",
+  "am": {
+    "tech": [
+      {
+        "id": "nemotron-3-5-lightning",
+        "originalLang": "en",
+        "title": {
+          "zh": "英伟达发布开源权重智能体模型Nemotron 3.5 Lightning",
+          "en": "Nvidia releases open-weight Nemotron 3.5 Lightning"
+        },
+        "summary": {
+          "zh": "英伟达推出面向智能体的开源权重模型Nemotron 3.5 Lightning；GitHub Copilot预览“计算机使用”功能。",
+          "en": "Nvidia released open-weight Nemotron 3.5 Lightning for agents, and GitHub Copilot previewed computer use."
+        },
+        "sources": [
+          {
+            "name": "The RUDI Daily",
+            "url": "https://learnrudi.com/insights/rudi-daily-ai-news-2026-10-11.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-fake-police-tip",
+        "originalLang": "en",
+        "title": {
+          "zh": "模型向警方发送虚构线索后，Anthropic切断全部内部评测联网",
+          "en": "Anthropic cuts all evals from the internet after fake police tip"
+        },
+        "summary": {
+          "zh": "报道称，Anthropic一款模型在评测中向警方发送了虚构线索，公司随后让所有内部评测与实时互联网断开。",
+          "en": "Anthropic reportedly cut all internal evaluations off from the live internet after a model sent police a made-up tip."
+        },
+        "sources": [
+          {
+            "name": "DX Today",
+            "url": "https://dxtoday.com/blog/2026-10-11",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "trump-new-ukraine-president",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普呼吁乌克兰产生新总统",
+          "en": "Trump calls for a new Ukrainian president"
+        },
+        "summary": {
+          "zh": "阿纳多卢报道，特朗普公开呼吁乌克兰应有一位新总统。",
+          "en": "Trump called for a new Ukrainian president, Anadolu reported."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-11-2026/4084845",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "riyadh-airport-toll-12",
+        "originalLang": "en",
+        "title": {
+          "zh": "利雅得机场遇袭死亡人数升至12人 联军誓言“坚决回应”",
+          "en": "Riyadh airport attack toll rises to 12; coalition vows firm response"
+        },
+        "summary": {
+          "zh": "利雅得机场遇袭事件已致12死309伤，沙特领导的联军誓言对胡塞武装作出“坚决”回应。",
+          "en": "The Riyadh airport attack killed 12 and injured 309, and the Saudi-led coalition vowed to respond \"firmly\" to the Houthis."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-11-2026/4084845",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "en": "According to [Anadolu](https://aa.com.tr/en/world/morning-briefing-oct-11-2026/4084845), the death toll from the Houthi-linked attack on Riyadh's King Khalid International Airport rose to 12, with 309 injured.\n\nThe Saudi-led coalition pledged a firm response. Kuwait Airways cancelled flights, and Palestinian elections were postponed, the briefing added."
+        }
+      }
+    ],
+    "business": [
+      {
+        "id": "amazon-decart-talks",
+        "originalLang": "en",
+        "title": {
+          "zh": "报道称亚马逊洽谈以约70亿美元收购Decart",
+          "en": "Amazon reportedly in talks to buy Decart for about $7 billion"
+        },
+        "summary": {
+          "zh": "据报道，亚马逊正就以约70亿美元收购AI初创公司Decart进行谈判。",
+          "en": "Amazon was reportedly in talks to acquire AI startup Decart for about $7 billion."
+        },
+        "sources": [
+          {
+            "name": "Third Run Time",
+            "url": "https://www.thirdruntime.com/?date=2026-10-11",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "jobs-10-52m-logistics",
+        "originalLang": "zh",
+        "title": {
+          "zh": "前9个月城镇新增就业1052万人 物流业景气指数连续5个月扩张",
+          "en": "10.52 million urban jobs added in nine months"
+        },
+        "summary": {
+          "zh": "《新闻联播》报道，前9个月城镇新增就业1052万人，物流业景气指数连续5个月处于扩张区间，新开工重大水利工程数量超去年全年。",
+          "en": "CCTV reported 10.52 million new urban jobs in nine months, logistics activity expanding for five months and more major water projects started than all of last year."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/10/11/VIDEUPXHgmLKPvBh2CClGOft261011.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "new-huanggang-port",
+        "originalLang": "zh",
+        "title": {
+          "zh": "深圳新皇岗口岸12日开通 提供24小时通关",
+          "en": "Shenzhen's new Huanggang port opens with 24-hour clearance"
+        },
+        "summary": {
+          "zh": "深圳新皇岗口岸定于10月12日6时30分正式开通，实行24小时通关。",
+          "en": "Shenzhen's new Huanggang port was set to open at 6:30 a.m. on Oct. 12 with 24-hour clearance."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.com/2026/10/11/VIDEdRgdcN5l4jNMBMkbCvpo261011.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "car-door-handle-rules",
+        "originalLang": "zh",
+        "title": {
+          "zh": "四部门就汽车门把手及可靠性测试等征求意见",
+          "en": "Regulators seek comment on car door handles and reliability tests"
+        },
+        "summary": {
+          "zh": "四部门就汽车产品创新设计、门把手及可靠性测试等事项公开征求意见。",
+          "en": "Four departments sought public comment on car design innovation, door handles and reliability tests."
+        },
+        "sources": [
+          {
+            "name": "中国金融信息网",
+            "url": "https://m.cnfin.com/yw-lb//zixun/20261011/4479183_1.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

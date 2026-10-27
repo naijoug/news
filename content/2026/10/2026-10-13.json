@@ -1,0 +1,224 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-13",
+  "am": {
+    "tech": [
+      {
+        "id": "microsoft-maia-300",
+        "originalLang": "en",
+        "title": {
+          "zh": "微软发布Maia 300推理芯片",
+          "en": "Microsoft unveils Maia 300 inference chip"
+        },
+        "summary": {
+          "zh": "微软称Maia 300每兆瓦产出的token比领先GPU系统多40%，计划2027年以数吉瓦规模部署。",
+          "en": "Microsoft said Maia 300 delivers 40% more tokens per megawatt than leading GPU systems, with multi-gigawatt rollout planned for 2027."
+        },
+        "sources": [
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/briefing/2026-10-13",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-13-2026/4086787",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "character-ai-chapter-11",
+        "originalLang": "en",
+        "title": {
+          "zh": "Character.AI申请破产保护",
+          "en": "Character.AI files for Chapter 11"
+        },
+        "summary": {
+          "zh": "AI聊天公司Character.AI申请第11章破产保护；Anthropic称其防御措施使蒸馏抓取减少90%至99%。",
+          "en": "Character.AI filed for Chapter 11; Anthropic said its defenses cut Claude distillation harvesting by 90-99%."
+        },
+        "sources": [
+          {
+            "name": "Minutes of AI",
+            "url": "https://minutesofai.com/newsletter/the-close-2026-10-13",
+            "lang": "en"
+          },
+          {
+            "name": "DX Today",
+            "url": "https://dxtoday.com/blog/2026-10-13",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "uk-blames-irgc-fairford-plot",
+        "originalLang": "en",
+        "title": {
+          "zh": "英国指伊朗革命卫队策划费尔福德基地恐袭并实施制裁",
+          "en": "UK blames Iran's IRGC for RAF Fairford plot, imposes sanctions"
+        },
+        "summary": {
+          "zh": "英国将针对费尔福德空军基地的恐怖阴谋归咎于伊朗伊斯兰革命卫队，并宣布制裁。",
+          "en": "Britain blamed Iran's IRGC for a terror plot targeting RAF Fairford and imposed sanctions."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-13-2026/4086787",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "riyadh-airport-closure-extended",
+        "originalLang": "en",
+        "title": {
+          "zh": "沙特延长利雅得哈立德国王机场关闭期",
+          "en": "Saudi Arabia extends Riyadh airport closure"
+        },
+        "summary": {
+          "zh": "胡塞武装持续袭击后，沙特延长哈立德国王国际机场的关闭时间。",
+          "en": "Saudi Arabia extended the closure of King Khalid International Airport after Houthi attacks."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-13-2026/4086787",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "omar-residence-raid",
+        "originalLang": "en",
+        "title": {
+          "zh": "联邦探员搜查美国众议员奥马尔华盛顿住所",
+          "en": "Federal agents raid Rep. Ilhan Omar's residence"
+        },
+        "summary": {
+          "zh": "联邦探员因移民记录调查搜查众议员伊尔汗·奥马尔在华盛顿的住所。",
+          "en": "Federal agents raided Rep. Ilhan Omar's Washington residence in an immigration-records investigation."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-13-2026/4086787",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "bank-earnings-stocks-slip",
+        "originalLang": "en",
+        "title": {
+          "zh": "银行财报未能提振 美股小幅回落",
+          "en": "Stocks slip as bank earnings fail to excite"
+        },
+        "summary": {
+          "zh": "10月13日道指跌0.35%，标普500基本持平，首批大型银行财报发布。",
+          "en": "Stocks edged lower on Oct. 13 as the first big bank earnings landed; the Dow fell 0.35%."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stocks-markets-us-tech-oil-mideast-a2edaf9ec297fb75ff2a4e245063ec08",
+            "lang": "en"
+          },
+          {
+            "name": "WSJ",
+            "url": "https://www.wsj.com/finance/stocks/u-s-stocks-tick-down-as-bank-earnings-dont-excite-40b1934e",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "canton-fair-140",
+        "originalLang": "zh",
+        "title": {
+          "zh": "第140届广交会推出超50项创新举措",
+          "en": "140th Canton Fair rolls out 50+ new measures"
+        },
+        "summary": {
+          "zh": "《新闻联播》报道，第140届广交会推出50余项创新举措。",
+          "en": "CCTV reported the 140th Canton Fair introduced more than 50 new measures."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.com/2026/10/13/VIDEJdjvQp2B8ppzH4SdFCMu261013.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "national-health-conference",
+        "originalLang": "zh",
+        "title": {
+          "zh": "全国卫生与健康大会召开 部署“十五五”健康中国建设",
+          "en": "National health conference sets 15th Five-Year health goals"
+        },
+        "summary": {
+          "zh": "全国卫生与健康大会强调推进“十五五”时期健康中国建设。",
+          "en": "A national health conference set priorities for building a Healthy China in the 15th Five-Year Plan period."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.com/2026/10/13/VIDEJdjvQp2B8ppzH4SdFCMu261013.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "钛媒体",
+            "url": "https://www.tmtpost.com/nictation/8167605.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "wei-family-fraud-verdict",
+        "originalLang": "zh",
+        "title": {
+          "zh": "缅北魏氏家族电诈犯罪集团案一审宣判",
+          "en": "Verdict in northern Myanmar Wei family fraud case"
+        },
+        "summary": {
+          "zh": "缅北魏氏家族电信诈骗犯罪集团案一审宣判。",
+          "en": "A first-instance verdict was delivered in the northern Myanmar Wei family telecom fraud case."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.com/2026/10/13/VIDEJdjvQp2B8ppzH4SdFCMu261013.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "botswana-president-visit",
+        "originalLang": "zh",
+        "title": {
+          "zh": "博茨瓦纳总统访华",
+          "en": "Botswana's president visits China"
+        },
+        "summary": {
+          "zh": "博茨瓦纳总统对中国进行访问。",
+          "en": "Botswana's president visited China."
+        },
+        "sources": [
+          {
+            "name": "同花顺",
+            "url": "https://stock.10jqka.com.cn/20261013/c680650574.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

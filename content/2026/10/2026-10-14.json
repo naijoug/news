@@ -1,0 +1,150 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-14",
+  "am": {
+    "tech": [
+      {
+        "id": "gemini-4-argon-paid",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌向付费用户开放Gemini 4 Argon",
+          "en": "Google opens Gemini 4 Argon to paid users"
+        },
+        "summary": {
+          "zh": "谷歌向付费用户开放Gemini 4 Argon，提供API访问及机器人变体。",
+          "en": "Google opened Gemini 4 Argon to paid users with API access and a robotics variant."
+        },
+        "sources": [
+          {
+            "name": "AI Digest",
+            "url": "https://www.aidigest.com.au/the-brief-2026-10-14/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "character-ai-disney-bid",
+        "originalLang": "en",
+        "title": {
+          "zh": "迪士尼出价2000万美元竞购Character.AI资产",
+          "en": "Disney bids $20 million for Character.AI assets"
+        },
+        "summary": {
+          "zh": "Character.AI破产后，迪士尼出价2000万美元竞购其资产；美国监管机构开始调查银行使用AI智能体的情况。",
+          "en": "Disney bid $20 million for bankrupt Character.AI's assets, and US regulators began probing banks' use of AI agents."
+        },
+        "sources": [
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/briefing/2026-10-14",
+            "lang": "en"
+          },
+          {
+            "name": "AI Watch",
+            "url": "https://www.master-ia.fr/en/ai-watch/2026-10-14",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "riyadh-missile-debris",
+        "originalLang": "en",
+        "title": {
+          "zh": "拦截胡塞导弹碎片坠落利雅得致4伤",
+          "en": "Houthi missile debris injures four in Riyadh"
+        },
+        "summary": {
+          "zh": "被拦截的胡塞导弹碎片落入利雅得，致4人受伤、15栋房屋受损；达兰一座沙特阿美办公楼发生小火。",
+          "en": "Debris from intercepted Houthi missiles injured four and damaged 15 homes in Riyadh; a small fire hit an Aramco building in Dhahran."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-14-2026/4087993",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "centcom-rejects-hormuz-claim",
+        "originalLang": "en",
+        "title": {
+          "zh": "美军中央司令部驳斥伊朗控制霍尔木兹海峡说法",
+          "en": "CENTCOM rejects Iran's Hormuz control claim"
+        },
+        "summary": {
+          "zh": "美军中央司令部否认伊朗关于控制霍尔木兹海峡的说法；也门领导层誓言继续对胡塞行动。",
+          "en": "CENTCOM rejected Iran's claim of control over the Strait of Hormuz, as Yemen's leadership vowed to continue operations against the Houthis."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-14-2026/4087993",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "hot-inflation-worst-day",
+        "originalLang": "en",
+        "title": {
+          "zh": "核心通胀超预期 美股创7月以来最差单日表现",
+          "en": "Stocks have worst day since July on hot inflation"
+        },
+        "summary": {
+          "zh": "10月14日核心通胀数据超预期，标普500跌1.1%，纳指跌1.9%，加息预期升温。",
+          "en": "Core inflation beat estimates on Oct. 14; the S&P 500 fell 1.1% and the Nasdaq 1.9% as rate-hike bets grew."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stock-markets-earnings-bonds-artificial-intelligence-704d3190f0fba2908df07c85f26346ec",
+            "lang": "en"
+          },
+          {
+            "name": "WSJ",
+            "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-on-hot-inflation-report-ai-sell-off-6c98113d",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据美联社报道，10月14日公布的核心通胀数据高于预期，美股录得7月以来最差单日表现：标普500指数下跌1.1%至7718.94点，纳指下跌1.9%，罗素2000指数下跌1.9%。\n\n《华尔街日报》称，通胀数据强化了加息预期，同时AI相关股票遭抛售。",
+          "en": "Per [AP](https://apnews.com/article/stock-markets-earnings-bonds-artificial-intelligence-704d3190f0fba2908df07c85f26346ec), hotter-than-expected core inflation sent stocks to their worst day since July: the S&P 500 fell 1.1% to 7,718.94 and the Nasdaq 1.9%.\n\nThe [WSJ](https://www.wsj.com/finance/stocks/u-s-stocks-fall-on-hot-inflation-report-ai-sell-off-6c98113d) said the data bolstered the case for a rate increase amid an AI sell-off."
+        }
+      }
+    ],
+    "china": [
+      {
+        "id": "q3-trade-39-94t",
+        "originalLang": "zh",
+        "title": {
+          "zh": "海关总署：前三季度货物贸易进出口39.94万亿元 同比增长18.8%",
+          "en": "China's Q1-Q3 goods trade up 18.8% to 39.94 trillion yuan"
+        },
+        "summary": {
+          "zh": "海关总署披露，前三季度出口23.2万亿元、增长16.4%，进口16.74万亿元、增长22.3%。",
+          "en": "Customs said exports rose 16.4% to 23.2 trillion yuan and imports 22.3% to 16.74 trillion yuan in the first three quarters."
+        },
+        "sources": [
+          {
+            "name": "中新网",
+            "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714235.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "央视网",
+            "url": "https://news.cctv.cn/2026/10/14/ARTIUWyrzbshAYGGLxXAgvpV261014.shtml",
+            "lang": "zh"
+          }
+        ],
+        "body": {
+          "zh": "国务院新闻办公室10月14日举行新闻发布会，海关总署副署长王军介绍，前三季度我国货物贸易进出口总值39.94万亿元，同比增长18.8%。\n\n其中出口23.2万亿元，增长16.4%；进口16.74万亿元，增长22.3%。（据[中新网](https://www.chinanews.com.cn/cj/2026/10-14/10714235.shtml)、[央视网](https://news.cctv.cn/2026/10/14/ARTIUWyrzbshAYGGLxXAgvpV261014.shtml)）"
+        }
+      }
+    ]
+  }
+}

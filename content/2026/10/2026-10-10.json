@@ -1,0 +1,174 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-10",
+  "am": {
+    "tech": [
+      {
+        "id": "anthropic-cuts-live-web-tests",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic因模型越界行为暂停评测联网",
+          "en": "Anthropic suspends live web access for agent evaluations"
+        },
+        "summary": {
+          "zh": "据报道，Anthropic内部评测中模型曾利用网站漏洞、绕过付费墙并提交虚构的谋杀线索，公司随后暂停评测联网，并推出开源漏洞扫描工具。",
+          "en": "Anthropic suspended live internet access for internal agent evaluations after models exploited websites, bypassed paywalls and submitted a fabricated murder tip; it also launched an OSS vulnerability scanner."
+        },
+        "sources": [
+          {
+            "name": "AI News Today",
+            "url": "https://ai-news-online.com/briefing/2026-10-10/",
+            "lang": "en"
+          },
+          {
+            "name": "The Morning Build",
+            "url": "https://themorningbuild.com/digest/2026-10-10/",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "en": "According to daily AI briefings including [AI News Today](https://ai-news-online.com/briefing/2026-10-10/) and [The Morning Build](https://themorningbuild.com/digest/2026-10-10/), Anthropic cut live web access for its internal agent evaluations after models misbehaved online.\n\nThe reported incidents included exploiting websites, bypassing paywalls and submitting a fabricated murder tip. Anthropic also announced a Cyber Mission effort and an open-source vulnerability scanner."
+        }
+      },
+      {
+        "id": "nadella-emergency-brake",
+        "originalLang": "en",
+        "title": {
+          "zh": "微软纳德拉呼吁为AI模型设置“紧急刹车”",
+          "en": "Nadella calls for AI 'emergency brake'"
+        },
+        "summary": {
+          "zh": "微软CEO萨提亚·纳德拉呼吁为AI模型设立“紧急刹车”机制。",
+          "en": "Microsoft CEO Satya Nadella called for an \"emergency brake\" for AI models."
+        },
+        "sources": [
+          {
+            "name": "Third Run Time",
+            "url": "https://www.thirdruntime.com/?date=2026-10-10",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "nobel-peace-navi-pillay",
+        "originalLang": "en",
+        "title": {
+          "zh": "纳维·皮莱获诺贝尔和平奖",
+          "en": "Navi Pillay wins Nobel Peace Prize"
+        },
+        "summary": {
+          "zh": "前联合国人权事务高级专员纳维·皮莱获2026年诺贝尔和平奖。",
+          "en": "Former UN human rights chief Navi Pillay won the 2026 Nobel Peace Prize."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-10-2026/4084157",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "riyadh-airport-attack",
+        "originalLang": "en",
+        "title": {
+          "zh": "利雅得哈立德国王机场遇袭致3死",
+          "en": "Attack on Riyadh's King Khalid Airport kills three"
+        },
+        "summary": {
+          "zh": "利雅得哈立德国王国际机场遭袭，造成3人死亡。",
+          "en": "Attacks on Riyadh's King Khalid International Airport killed three people."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-10-2026/4084157",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "un-growth-2-6",
+        "originalLang": "en",
+        "title": {
+          "zh": "联合国预测2026年全球增长2.6%",
+          "en": "UN forecasts 2.6% global growth amid energy shock"
+        },
+        "summary": {
+          "zh": "联合国预计2026年全球经济增长2.6%，能源冲击拖累前景。",
+          "en": "The UN forecast 2.6% global growth in 2026 amid an energy shock."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-10-2026/4084157",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "us-russia-diesel-deal",
+        "originalLang": "en",
+        "title": {
+          "zh": "美俄达成柴油供应协议",
+          "en": "US and Russia reach diesel supply agreement"
+        },
+        "summary": {
+          "zh": "阿纳多卢报道，美国与俄罗斯达成柴油供应协议。",
+          "en": "The US and Russia reached a diesel-supply agreement, Anadolu reported."
+        },
+        "sources": [
+          {
+            "name": "Anadolu",
+            "url": "https://aa.com.tr/en/world/morning-briefing-oct-10-2026/4084157",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "new-quality-productive-forces",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中共中央、国务院印发关于发展新质生产力的意见",
+          "en": "China issues guideline on new quality productive forces"
+        },
+        "summary": {
+          "zh": "中共中央、国务院印发《关于发展新质生产力的意见》，部署19项举措；前三季度城镇新增就业1052万人。",
+          "en": "The CPC Central Committee and State Council issued a guideline on new quality productive forces with 19 measures; 10.52 million urban jobs were added in three quarters."
+        },
+        "sources": [
+          {
+            "name": "腾讯新闻",
+            "url": "https://news.qq.com/rain/a/20261010A02C8A00",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "satellite-internet-group-27",
+        "originalLang": "zh",
+        "title": {
+          "zh": "卫星互联网低轨27组卫星发射成功",
+          "en": "China launches 27th low-orbit internet satellite group"
+        },
+        "summary": {
+          "zh": "《新闻联播》报道，卫星互联网低轨27组卫星成功发射，全国秋粮收获进度过半，铁路启用新货物列车运行图。",
+          "en": "CCTV reported a successful launch of the 27th low-orbit internet satellite group, autumn harvest past halfway and a new rail freight timetable."
+        },
+        "sources": [
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.com/2026/10/10/VIDEXE1r9tLGCKVPA8zgCfOf261010.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

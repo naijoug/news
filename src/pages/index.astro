@@ -13,7 +13,7 @@ if (!latest) throw new Error('No days to render');
 <Base
   title={`朝夕 · ${latest.dateLabel}`}
   titleEn={`Zhaoxi · ${latest.dateLabelEn}`}
-  description={dayDescription(latest)}
+  description={`朝闻道，夕死可矣！ If one hears the Way in the morning, one may die content in the evening. ${dayDescription(latest)}`}
   path="/"
   current="home"
   noindex={latest.sample}

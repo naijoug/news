@@ -1,13 +1,24 @@
 :root {
   color-scheme: light;
-  --bg: #f6f3eb;
-  --ink: #211c18;
-  --muted: #5e574e;
-  --rule: rgba(33, 28, 24, 0.16);
-  --accent: #8c2f24;
-  --accent-ink: #6f241c;
-  --accent-soft: #f8ebe6;
-  --accent-line: #e4c7be;
+  --bg: #fafcf1;
+  --card: #ffffff;
+  --ink: #1c2410;
+  --muted: #4a5c32;
+  --rule: rgba(90, 110, 20, 0.16);
+  --card-line: #d9f99d;
+  --accent: #4d7c0f;
+  --accent-ink: #3f6212;
+  --accent-soft: #ecfccb;
+  --accent-line: #d9f99d;
+  --shadow: 0 10px 24px rgba(90, 110, 20, 0.08);
+  --tag-tech-bg: #d9f99d;
+  --tag-tech-ink: #3f6212;
+  --tag-world-bg: #d9f99d;
+  --tag-world-ink: #3f6212;
+  --tag-business-bg: #d9f99d;
+  --tag-business-ink: #3f6212;
+  --tag-china-bg: #d9f99d;
+  --tag-china-ink: #3f6212;
   /* Fira Code supplies Latin. The families after it are the Chinese stack, used for CJK. */
   --serif: "Fira Code", "Iowan Old Style", "Palatino Linotype", Palatino, "Songti SC", "Noto Serif SC",
     "Source Han Serif SC", "STSong", "SimSun", serif;
@@ -19,39 +30,72 @@
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --bg: #141311;
-    --ink: #f4efe6;
-    --muted: #c4baad;
-    --rule: rgba(244, 239, 230, 0.16);
-    --accent: #f0b2a4;
-    --accent-ink: #f0b2a4;
-    --accent-soft: #2a1d1a;
-    --accent-line: #643832;
+    --bg: #141a10;
+    --card: #1c2614;
+    --ink: #f4f8e8;
+    --muted: #c9d6a8;
+    --rule: rgba(220, 235, 170, 0.16);
+    --card-line: rgba(190, 242, 100, 0.32);
+    --accent: #a3e635;
+    --accent-ink: #ecfccb;
+    --accent-soft: #243218;
+    --accent-line: #3f5220;
+    --shadow: 0 12px 28px rgba(0, 0, 0, 0.32);
+    --tag-tech-bg: #2a3816;
+    --tag-tech-ink: #bef264;
+    --tag-world-bg: #2a3816;
+    --tag-world-ink: #bef264;
+    --tag-business-bg: #2a3816;
+    --tag-business-ink: #bef264;
+    --tag-china-bg: #2a3816;
+    --tag-china-ink: #bef264;
   }
 }
 
 :root[data-theme="light"] {
   color-scheme: light;
-  --bg: #f6f3eb;
-  --ink: #211c18;
-  --muted: #5e574e;
-  --rule: rgba(33, 28, 24, 0.16);
-  --accent: #8c2f24;
-  --accent-ink: #6f241c;
-  --accent-soft: #f8ebe6;
-  --accent-line: #e4c7be;
+  --bg: #fafcf1;
+  --card: #ffffff;
+  --ink: #1c2410;
+  --muted: #4a5c32;
+  --rule: rgba(90, 110, 20, 0.16);
+  --card-line: #d9f99d;
+  --accent: #4d7c0f;
+  --accent-ink: #3f6212;
+  --accent-soft: #ecfccb;
+  --accent-line: #d9f99d;
+  --shadow: 0 10px 24px rgba(90, 110, 20, 0.08);
+  --tag-tech-bg: #d9f99d;
+  --tag-tech-ink: #3f6212;
+  --tag-world-bg: #d9f99d;
+  --tag-world-ink: #3f6212;
+  --tag-business-bg: #d9f99d;
+  --tag-business-ink: #3f6212;
+  --tag-china-bg: #d9f99d;
+  --tag-china-ink: #3f6212;
 }
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --bg: #141311;
-  --ink: #f4efe6;
-  --muted: #c4baad;
-  --rule: rgba(244, 239, 230, 0.16);
-  --accent: #f0b2a4;
-  --accent-ink: #f0b2a4;
-  --accent-soft: #2a1d1a;
-  --accent-line: #643832;
+  --bg: #141a10;
+  --card: #1c2614;
+  --ink: #f4f8e8;
+  --muted: #c9d6a8;
+  --rule: rgba(220, 235, 170, 0.16);
+  --card-line: rgba(190, 242, 100, 0.32);
+  --accent: #a3e635;
+  --accent-ink: #ecfccb;
+  --accent-soft: #243218;
+  --accent-line: #3f5220;
+  --shadow: 0 12px 28px rgba(0, 0, 0, 0.32);
+  --tag-tech-bg: #2a3816;
+  --tag-tech-ink: #bef264;
+  --tag-world-bg: #2a3816;
+  --tag-world-ink: #bef264;
+  --tag-business-bg: #2a3816;
+  --tag-business-ink: #bef264;
+  --tag-china-bg: #2a3816;
+  --tag-china-ink: #bef264;
 }
 
 *,
@@ -141,8 +185,8 @@ a:hover {
 }
 
 .site-header {
-  border-top: 4px solid var(--accent);
-  border-bottom: 3px double var(--ink);
+  border-top: 3px solid var(--accent);
+  border-bottom: 1px solid var(--rule);
   background: var(--bg);
 }
 
@@ -284,6 +328,7 @@ main .wrap {
   background: var(--accent-soft);
   color: var(--accent-ink);
   border: 1px solid var(--accent-line);
+  border-radius: 0.75rem;
   font-family: var(--sans);
   font-size: 0.875rem;
   line-height: 1.65;
@@ -346,7 +391,7 @@ main .wrap {
 .edition-section + .edition-section {
   margin-top: 2.1rem;
   padding-top: 1.4rem;
-  border-top: 1px solid var(--ink);
+  border-top: 1px solid var(--rule);
 }
 
 .section-head {
@@ -446,7 +491,7 @@ main .wrap {
 .page-head {
   margin-bottom: 0.4rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid var(--ink);
+  border-bottom: 1px solid var(--rule);
 }
 
 .page-head h1 {
@@ -540,8 +585,10 @@ main .wrap {
 .pill {
   display: inline-block;
   margin-left: 0.35rem;
-  padding: 0.02rem 0.35rem;
+  padding: 0.02rem 0.4rem;
   border: 1px solid var(--accent-line);
+  border-radius: 999px;
+  background: var(--accent-soft);
   color: var(--accent-ink);
   font-size: 0.75rem;
   font-style: normal;
@@ -549,7 +596,7 @@ main .wrap {
 }
 
 .site-footer {
-  border-top: 3px double var(--ink);
+  border-top: 1px solid var(--rule);
   padding: 1.4rem 0 2.6rem;
   color: var(--muted);
   font-family: var(--sans);
@@ -611,6 +658,11 @@ main .wrap {
 
   .site-header {
     border-color: black;
+  }
+
+  .card {
+    background: white;
+    box-shadow: none;
   }
 
   .sources a::after {
@@ -760,8 +812,10 @@ html[data-ui="en"][data-text="auto"] .text-toggle[data-original="zh"][data-has-e
   gap: 0.35rem;
   min-width: 0;
   padding: 0.85rem 0.95rem 1rem;
-  border: 1px solid var(--rule);
-  background: transparent;
+  border: 1px solid var(--card-line);
+  border-radius: 0.9rem;
+  background: var(--card);
+  box-shadow: var(--shadow);
 }
 
 .card-top {
@@ -783,9 +837,44 @@ html[data-ui="en"][data-text="auto"] .text-toggle[data-original="zh"][data-has-e
   color: var(--muted);
 }
 
-.card-section {
-  color: var(--accent);
+.tag-tech {
+  --tag-bg: var(--tag-tech-bg);
+  --tag-ink: var(--tag-tech-ink);
+}
+
+.tag-world {
+  --tag-bg: var(--tag-world-bg);
+  --tag-ink: var(--tag-world-ink);
+}
+
+.tag-business {
+  --tag-bg: var(--tag-business-bg);
+  --tag-ink: var(--tag-business-ink);
+}
+
+.tag-china {
+  --tag-bg: var(--tag-china-bg);
+  --tag-ink: var(--tag-china-ink);
+}
+
+.card-section,
+.kicker a.section-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.5rem;
+  padding: 0.05rem 0.48rem;
+  border-radius: 999px;
+  background: var(--tag-bg);
+  color: var(--tag-ink);
   text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+.card-section:hover,
+.kicker a.section-tag:hover {
+  color: var(--tag-ink);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 .card-link {

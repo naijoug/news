@@ -57,7 +57,7 @@ const hasBody = Boolean(story.bodyHtml?.zh || story.bodyHtml?.en);
         </a>
         {
           section && (
-            <a href={href(sectionPath(section.id))}>
+            <a class={`section-tag tag-${section.id}`} href={href(sectionPath(section.id))}>
               <UiText zh={section.name.zh} en={section.name.en} />
             </a>
           )

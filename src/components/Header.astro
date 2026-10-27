@@ -1,0 +1,83 @@
+---
+import { SECTIONS, sectionPath } from '../lib/editions';
+import { href } from '../lib/urls';
+
+interface Props {
+  current?: 'home' | 'archive' | 'edition' | 'tech' | 'world' | 'business' | 'china';
+}
+
+const { current } = Astro.props;
+---
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="masthead">
+      <div class="identity">
+        <a class="brand" href={href('/')}>
+          <span class="seal" aria-hidden="true">日</span>
+          <span class="logo-word">朝夕</span>
+        </a>
+        <p class="tagline">每日早报与晚报</p>
+      </div>
+      <div class="tools">
+        <a href={href('rss.xml')}>RSS</a>
+        <button type="button" class="theme-toggle" id="theme-toggle">深色</button>
+      </div>
+    </div>
+    <nav aria-label="栏目">
+      <ul class="nav-list">
+        <li>
+          <a href={href('archive/')} aria-current={current === 'archive' ? 'page' : undefined}>归档</a>
+        </li>
+        {
+          SECTIONS.map((section) => (
+            <li>
+              <a
+                href={href(sectionPath(section.id))}
+                aria-current={current === section.id ? 'page' : undefined}
+              >
+                {section.name}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+  <script is:inline>
+    (function () {
+      var button = document.getElementById('theme-toggle');
+      if (!button) return;
+      function currentTheme() {
+        return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      }
+      function label(theme) {
+        var toDark = theme !== 'dark';
+        button.textContent = toDark ? '深色' : '浅色';
+        button.setAttribute('aria-label', toDark ? '切换到深色模式' : '切换到浅色模式');
+      }
+      label(currentTheme());
+      button.addEventListener('click', function () {
+        var next = currentTheme() === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        try {
+          localStorage.setItem('theme', next);
+        } catch (e) {}
+        label(next);
+      });
+      var media = window.matchMedia('(prefers-color-scheme: dark)');
+      if (media.addEventListener) {
+        media.addEventListener('change', function (event) {
+          var stored = null;
+          try {
+            stored = localStorage.getItem('theme');
+          } catch (e) {}
+          if (stored === 'light' || stored === 'dark') return;
+          var theme = event.matches ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-theme', theme);
+          label(theme);
+        });
+      }
+    })();
+  </script>
+</header>

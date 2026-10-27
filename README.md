@@ -1,285 +1,167 @@
-# 热点新闻聚合系统
+# 朝夕
 
-一个从多个平台自动抓取热点新闻并以时间线形式展示的网站。
+每天两刊的中文新闻简报，发布在 GitHub Pages 上。栏目固定为四块：**科技与AI**、**国际与政治**、**商业与市场**、**中国**。每条只有标题、一两句摘要，和来源链接。
 
-## 项目结构
+Zhaoxi is a static daily digest. A morning edition (早报) and an evening edition (晚报) are each **one JSON file**. Pushing that file to `main` validates it and deploys the site. Nobody needs a local build to publish.
+
+**Site:** https://naijoug.github.io/news/
+
+The production origin is set in `astro.config.mjs` (`site` and the default base `/news`). A custom domain would need that `site` value updated.
+
+## One-time setup
+
+The deploy workflow is `.github/workflows/pages.yml`. It uses the official Pages actions (`configure-pages`, `upload-pages-artifact`, `deploy-pages`) and needs no secrets.
+
+Before the first deploy, in the repository on GitHub:
+
+1. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
+2. If Actions are turned off: **Settings → Actions → General → Actions permissions**, allow actions.
+
+If the first run of “Deploy GitHub Pages” fails because Pages was not switched yet, re-run that workflow after step 1. A failed build does not replace the last successful deployment.
+
+Pull requests run `.github/workflows/ci.yml` (test + build only). They are not deployed. A push to `main` is what publishes, including a file created with the GitHub contents API.
+
+## Why Astro
+
+The site is [Astro](https://astro.build/). It turns a handful of page types — latest edition, permalinks, archive, section indexes, RSS, sitemap — into static HTML and ships no client-side framework. Edition files stay plain JSON outside the app, so a writer adds a day by creating one file. The build runs only in GitHub Actions.
+
+## Authoring spec（写作规范）
+
+The JSON Schema `schemas/edition.schema.json` is normative. `schemas/edition.example.json` is a valid template. CI rejects a push when a file does not match this spec; the log names the file and the JSON pointer.
+
+### Path
 
 ```
-news-aggregator/
-├── backend/          # 后端服务（Node.js + Express + TypeScript）
-│   ├── src/
-│   │   ├── controllers/    # API 控制器
-│   │   ├── services/       # 业务逻辑
-│   │   ├── repositories/   # 数据访问层
-│   │   ├── crawlers/       # 爬虫模块
-│   │   ├── routes/         # 路由定义
-│   │   ├── models/         # 数据模型
-│   │   ├── types/          # TypeScript 类型定义
-│   │   └── utils/          # 工具函数
-│   └── data/               # SQLite 数据库文件
-└── frontend/         # 前端应用（React + TypeScript + Vite）
-    └── src/
-        ├── components/     # React 组件
-        ├── services/       # API 服务
-        ├── hooks/          # 自定义 Hooks
-        ├── context/        # Context 状态管理
-        └── types/          # TypeScript 类型定义
+content/YYYY/MM/YYYY-MM-DD-morning.json
+content/YYYY/MM/YYYY-MM-DD-evening.json
 ```
 
-## 技术栈
+Examples:
 
-### 后端
+```
+content/2026/10/2026-10-27-morning.json    早报
+content/2026/10/2026-10-27-evening.json    晚报
+content/2026/09/2026-09-01-evening.json    晚报，月份必须是两位
+```
 
-- Node.js + Express
-- TypeScript
-- SQLite (`sqlite3`)
-- Cheerio (静态页面爬取)
-- node-cron (定时任务)
+Rules:
 
-### 前端
+- `YYYY-MM-DD` in the filename, the directory, and the `date` field are the same real calendar date.
+- The directory is `YYYY/MM` with a zero-padded month (`09`, not `9`).
+- The filename suffix is `morning` (早报) or `evening` (晚报), and it matches `edition`.
+- One edition per file. Two files can share a date only when one is `morning` and the other is `evening`.
+- UTF-8 JSON, no BOM. Two-space indentation is recommended. Minified JSON is accepted.
+- Do not put anything else under `content/`.
 
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS
-- Axios
+Creating the file on branch `main` is enough. The GitHub contents API path is that exact path (slashes included). No local `npm run build` is required.
 
-## 快速开始
+### Document
 
-### 前置要求
+```json
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-27",
+  "edition": "morning",
+  "lead": "可选。一两句话介绍这一刊。没有导语就不要写这个字段。",
+  "sections": {
+    "tech": [
+      {
+        "title": "标题",
+        "summary": "一两句话说明发生了什么，以及为什么值得打开原文。",
+        "sources": [
+          { "name": "来源名", "url": "https://example.com/story" }
+        ]
+      }
+    ],
+    "world": [],
+    "business": [],
+    "china": []
+  }
+}
+```
 
-- Node.js 18.x 或更高版本
-- npm 9.x 或更高版本
+| Field | Required | Rule |
+| --- | --- | --- |
+| `date` | yes | `YYYY-MM-DD`, a real calendar date, identical to the path |
+| `edition` | yes | `morning` (早报) or `evening` (晚报). Not the Chinese word |
+| `lead` | no | 1–200 characters. Omit the key when unused. Do not send `""` |
+| `sample` | no | `true` only for placeholders. Omit or `false` for a real edition |
+| `$schema` | no | Editor hint. Ignored by the site |
+| `sections` | yes | Object with **exactly** these keys, in any order |
 
-### 安装依赖
+Section keys:
+
+| Key | 栏目 |
+| --- | --- |
+| `tech` | 科技与AI |
+| `world` | 国际与政治 |
+| `business` | 商业与市场 |
+| `china` | 中国 |
+
+All four keys are required. Use `[]` when that section has no stories. The edition needs at least one story in total. At most 8 stories per section. The site prints sections in the order above, not the order of the keys.
+
+Each story:
+
+| Field | Rule |
+| --- | --- |
+| `title` | 2–100 characters |
+| `summary` | One or two sentences, 8–280 characters |
+| `sources` | 1–5 items. Each is `{ "name", "url" }` |
+
+Each source:
+
+| Field | Rule |
+| --- | --- |
+| `name` | 1–40 characters, the publication or page name |
+| `url` | `https://` URL with a host name, max 2000 characters |
+
+No other fields. Chinese names such as `"科技与AI"` or `"早报"` are not keys and not values of `edition`.
+
+### Sample editions
+
+`"sample": true` still builds and is labeled 示例刊 on the site. Sample editions are left out of the RSS feed and the sitemap, and the page is `noindex`. The two files under `content/2026/10/` are samples so the site builds; replace them, or add a later date, when real copy starts. Do not set `sample` on a real edition. While every edition is a sample, `robots.txt` disallows crawlers.
+
+The homepage is the newest date. On that date, the evening edition is newer than the morning edition.
+
+### What CI checks
+
+`npm test` and the build both run `scripts/validate-content.mjs`. A bad file fails the job before deploy. The log looks like:
+
+```
+Edition content is invalid.
+
+content/2026/10/2026-10-27-morning.json
+  - /sections has unknown field "科技与AI" — use the key "tech"
+  - filename date is 2026-10-27 but "date" is "2026-10-28"
+
+See README.md (“Authoring spec”) and schemas/edition.schema.json.
+```
+
+## Routes
+
+| Page | URL |
+| --- | --- |
+| Latest edition | https://naijoug.github.io/news/ |
+| One edition | https://naijoug.github.io/news/editions/2026-10-27-morning/ |
+| Archive | https://naijoug.github.io/news/archive/ |
+| 科技与AI | https://naijoug.github.io/news/sections/tech/ |
+| 国际与政治 | https://naijoug.github.io/news/sections/world/ |
+| 商业与市场 | https://naijoug.github.io/news/sections/business/ |
+| 中国 | https://naijoug.github.io/news/sections/china/ |
+| RSS | https://naijoug.github.io/news/rss.xml |
+
+RSS `pubDate` is a nominal time: 08:00 Asia/Shanghai for morning, 20:00 for evening. The feed includes real editions only.
+
+## Local preview
+
+Writers do not need this. To preview:
 
 ```bash
-# 安装所有依赖（根目录和子项目）
 npm install
-```
-
-### 开发环境
-
-```bash
-# 同时启动前后端开发服务器
-npm run dev
-
-# 或分别启动
-npm run dev:backend   # 后端运行在 http://localhost:3000
-npm run dev:frontend  # 前端运行在 http://localhost:5173
-```
-
-### 环境变量
-
-#### 后端环境变量
-
-复制 `backend/.env.example` 到 `backend/.env` 并根据需要修改配置：
-
-```bash
-cd backend
-cp .env.example .env
-```
-
-#### 前端环境变量
-
-前端使用 Vite 的环境变量系统：
-
-- `.env.development` - 开发环境配置
-- `.env.production` - 生产环境配置
-
-### 初始化数据
-
-平台配置会在后端首次启动时自动导入（幂等）。如需手动导入或更新：
-
-```bash
-npm run import-platforms --workspace=backend
-```
-
-### 构建生产版本
-
-```bash
-# 构建前后端
-npm run build
-
-# 或分别构建
-npm run build:backend
-npm run build:frontend
-```
-
-### 本地质量检查
-
-```bash
-# 前后端 TypeScript 纯类型检查（不写入 dist/）
-npm run type-check
-
-# 前后端 ESLint 检查
-npm run lint
-
-# 后端 Jest 回归测试
 npm test
-
-# 发布前完整构建体检
-npm run build
+npm run dev
 ```
 
-### 生产环境部署
+Open http://localhost:4321/news/ . The dev server defaults the base path to `/news/`, matching GitHub Pages for this repository. `npm run build` validates, typechecks, builds `dist/`, and smoke-tests it.
 
-详细的部署说明请查看 [DEPLOYMENT.md](./docs/DEPLOYMENT.md)
-
-#### 使用 Docker（推荐）
-
-```bash
-# 构建并启动
-docker compose up -d
-
-# 查看日志
-docker compose logs -f
-
-# 停止服务
-docker compose down
-```
-
-#### 传统部署
-
-```bash
-# 安装 PM2
-npm install -g pm2
-
-# 启动服务（在仓库根目录执行）
-pm2 start backend/dist/index.js --name news-aggregator
-
-# 查看状态
-pm2 status
-```
-
-## 功能特性
-
-- ✅ 多平台新闻聚合（微博、知乎、百度、抖音、B站、Hacker News、Product Hunt、GitHub Trending、V2EX）
-- ✅ 时间线展示，按时间倒序排列
-- ✅ 平台筛选，支持多选
-- ✅ 响应式设计，支持桌面、平板和移动设备
-- ✅ 自动定时爬取（每天 8:00 和 20:00）
-- ✅ 配置化爬虫引擎，易于扩展新平台
-- ✅ 数据缓存和性能优化
-- ✅ 错误边界和离线检测
-- ✅ 图片懒加载
-
-## 文档
-
-- **[API 文档](./docs/API.md)** - 完整的 REST API 接口说明
-- **[平台配置指南](./docs/PLATFORM_CONFIGURATION.md)** - 如何添加和配置新的新闻平台
-- **[平台管理指南](./docs/PLATFORM_MANAGEMENT.md)** - 平台管理功能说明
-- **[部署指南](./docs/DEPLOYMENT.md)** - 生产环境部署说明
-- **[贡献指南](./docs/CONTRIBUTING.md)** - 如何参与项目开发
-- **[需求文档](./.kiro/specs/news-aggregator/requirements.md)** - 系统需求规格
-- **[设计文档](./.kiro/specs/news-aggregator/design.md)** - 架构和设计决策
-
-## API 快速参考
-
-### 获取新闻列表
-
-```bash
-GET /api/news?platforms=weibo,zhihu&limit=50&offset=0
-```
-
-### 获取平台列表
-
-```bash
-GET /api/platforms
-```
-
-### 手动触发爬取
-
-```bash
-POST /api/crawl/trigger
-```
-
-详细的 API 文档请查看 [API.md](./docs/API.md)
-
-## 添加新平台
-
-添加新平台只需三步：
-
-1. 在 `backend/src/config/platforms.json` 中添加平台配置
-2. 运行 `npm run import-platforms --workspace=backend` 导入配置
-3. 使用 `npm run test-crawler --workspace=backend -- --platform={id}` 测试
-
-详细的配置指南请查看 [PLATFORM_CONFIGURATION.md](./docs/PLATFORM_CONFIGURATION.md)
-
-## 开发指南
-
-查看 `.kiro/specs/news-aggregator/` 目录下的文档：
-
-- `requirements.md` - 需求文档
-- `design.md` - 设计文档
-- `tasks.md` - 实施计划
-
-## 性能优化
-
-- 前端使用图片懒加载和代码分割
-- API 响应缓存（5 分钟）
-- 数据库索引优化
-- 自动清理 7 天前的旧数据
-- Gzip 压缩（生产环境）
-
-## 故障排除
-
-### 爬虫不工作
-
-检查日志并手动触发：
-
-```bash
-curl -X POST http://localhost:3000/api/crawl/trigger
-```
-
-### 数据库锁定
-
-重启服务：
-
-```bash
-pm2 restart news-aggregator
-```
-
-### 前端无法连接后端
-
-检查环境变量配置和 API 地址。
-
-## 开发工具
-
-项目配置了以下开发工具：
-
-- **ESLint** - 代码质量检查
-- **Prettier** - 代码格式化
-- **Husky** - Git hooks 管理
-- **lint-staged** - 提交前自动检查
-
-### 代码检查和格式化
-
-```bash
-# 检查代码
-npm run lint
-
-# 自动修复
-npm run lint:fix
-
-# 格式化代码
-npm run format
-```
-
-Git 提交时会自动运行代码检查和格式化。
-
-## 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-在贡献代码前，请阅读 [贡献指南](./docs/CONTRIBUTING.md) 了解：
-
-- 开发环境设置
-- 代码规范
-- 提交规范
-- 测试要求
-- Pull Request 流程
-
-## License
-
-MIT
+Node.js 22 or newer.

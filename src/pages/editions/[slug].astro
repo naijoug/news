@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+import EditionView from '../../components/EditionView.astro';
+import { editionDescription, editionPath, getEditions, type Edition } from '../../lib/editions';
+import { href } from '../../lib/urls';
+
+export function getStaticPaths() {
+  const editions = getEditions();
+  return editions.map((edition, index) => ({
+    params: { slug: edition.slug },
+    props: {
+      edition,
+      older: editions[index + 1] ?? null,
+      newer: editions[index - 1] ?? null,
+    },
+  }));
+}
+
+interface Props {
+  edition: Edition;
+  older: Edition | null;
+  newer: Edition | null;
+}
+
+const { edition, older, newer } = Astro.props;
+---
+
+<Base
+  title={`${edition.dateLabel}${edition.editionLabel} · 朝夕`}
+  description={editionDescription(edition)}
+  path={editionPath(edition)}
+  current="edition"
+  noindex={edition.sample}
+  prev={older ? href(editionPath(older)) : undefined}
+  next={newer ? href(editionPath(newer)) : undefined}
+>
+  <EditionView edition={edition} older={older} newer={newer} />
+</Base>

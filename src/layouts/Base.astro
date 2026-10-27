@@ -1,0 +1,79 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { absolute, href } from '../lib/urls';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  current?: 'home' | 'archive' | 'edition' | 'tech' | 'world' | 'business' | 'china';
+  noindex?: boolean;
+  prev?: string;
+  next?: string;
+}
+
+const { title, description, path, current, noindex = false, prev, next } = Astro.props;
+const canonical = absolute(path);
+const rss = absolute('rss.xml');
+---
+
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <script is:inline>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light';
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+    <style is:inline>
+      html[data-theme='dark'] {
+        background: #141311;
+        color: #f4efe6;
+      }
+      html[data-theme='light'] {
+        background: #f6f3eb;
+        color: #211c18;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" type="application/rss+xml" title="朝夕" href={rss} />
+    <link rel="icon" href={href('favicon.svg')} type="image/svg+xml" />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    {prev && <link rel="prev" href={prev} />}
+    {next && <link rel="next" href={next} />}
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content="zh_CN" />
+    <meta name="theme-color" content="#f6f3eb" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#141311" media="(prefers-color-scheme: dark)" />
+  </head>
+  <body>
+    <a class="skip" href="#main">跳到正文</a>
+    <Header current={current} />
+    <main id="main">
+      <div class="wrap">
+        <slot />
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>

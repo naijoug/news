@@ -14,8 +14,11 @@ const LANGS = ['zh', 'en'];
 
 const FIELD_HINTS = {
   科技与AI: ' — use the key "tech"',
+  科技: ' — use the key "tech"',
   国际与政治: ' — use the key "world"',
+  国际: ' — use the key "world"',
   商业与市场: ' — use the key "business"',
+  商业: ' — use the key "business"',
   中国: ' — use the key "china"',
   edition: ' — remove it; morning stories go in "am", afternoon stories in "pm"',
   sections: ' — use "am" and optional "pm" instead of "sections"',

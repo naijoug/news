@@ -1,6 +1,6 @@
 # 朝夕
 
-每天一刊的新闻简报，中英都能读，发布在 GitHub Pages 上。栏目固定为四块：**科技与AI**、**国际与政治**、**商业与市场**、**中国**。上午和下午写在**同一个** JSON 文件里。
+每天一刊的新闻简报，中英都能读，发布在 GitHub Pages 上。栏目固定为四块：**科技**、**国际**、**商业**、**中国**。上午和下午写在**同一个** JSON 文件里。
 
 Zhaoxi is a static daily digest. Each calendar day is **one JSON file**. Morning stories go in `am`. Afternoon stories, when they exist, go in `pm` on that same file. Pushing the file to `main` validates it and deploys the site. Nobody needs a local build to publish.
 
@@ -118,9 +118,9 @@ Section keys:
 
 | Key | 栏目 | English |
 | --- | --- | --- |
-| `tech` | 科技与AI | Tech and AI |
-| `world` | 国际与政治 | World and politics |
-| `business` | 商业与市场 | Business and markets |
+| `tech` | 科技 | Tech |
+| `world` | 国际 | World |
+| `business` | 商业 | Business |
 | `china` | 中国 | China |
 
 All four keys are required inside `am`, and inside `pm` when `pm` is present. Use `[]` when that section has no stories. The file needs at least one story in total. `pm`, if present, needs at least one story of its own. At most 8 stories per section. The site prints morning, then afternoon, and sections in the order above.
@@ -162,7 +162,7 @@ Each source:
 | `url` | `https://` URL with a host name, max 2000 characters |
 | `lang` | Optional `zh` or `en`, the language of that source page |
 
-No other fields. Chinese names such as `"科技与AI"` are not keys.
+No other fields. Section labels such as `"科技"` are not keys.
 
 ### Sample days
 
@@ -192,9 +192,9 @@ See README.md (“Authoring spec”) and schemas/edition.schema.json.
 | One day | https://naijoug.github.io/news/days/2026-10-27/ |
 | One story | https://naijoug.github.io/news/stories/2026-10-27/model-eval/ |
 | Archive | https://naijoug.github.io/news/archive/ |
-| 科技与AI | https://naijoug.github.io/news/sections/tech/ |
-| 国际与政治 | https://naijoug.github.io/news/sections/world/ |
-| 商业与市场 | https://naijoug.github.io/news/sections/business/ |
+| 科技 | https://naijoug.github.io/news/sections/tech/ |
+| 国际 | https://naijoug.github.io/news/sections/world/ |
+| 商业 | https://naijoug.github.io/news/sections/business/ |
 | 中国 | https://naijoug.github.io/news/sections/china/ |
 | RSS | https://naijoug.github.io/news/rss.xml |
 

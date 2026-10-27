@@ -84,8 +84,11 @@ function orderedStories(day) {
 const LETTER_ICON = 'M1 11.2 3.7 3.2h1.6l2.7 8';
 
 if (home && latest) {
-  for (const name of ['朝夕', '科技与AI', '国际与政治', '商业与市场', '中国']) {
+  for (const name of ['朝夕', '科技', '国际', '商业', '中国', 'Tech', 'World', 'Business', 'China']) {
     if (!home.includes(name)) fail(`homepage missing ${name}`);
+  }
+  for (const name of ['科技与AI', '国际与政治', '商业与市场', 'Tech and AI', 'World and politics', 'Business and markets']) {
+    if (home.includes(name)) fail(`homepage still uses the long section name ${name}`);
   }
   if (!home.includes('lang="zh-Hans"')) fail('homepage missing lang="zh-Hans"');
   if (!home.includes('id="theme-toggle"')) fail('homepage missing theme toggle');
@@ -117,6 +120,17 @@ if (home && latest) {
   if (!home.includes('朝闻道，夕死可矣！')) fail('homepage missing the slogan');
 }
 
+const techSection = read('sections/tech/index.html');
+if (techSection && !techSection.includes('data-title-en="Tech · Zhaoxi"')) {
+  fail('tech section page title is not Tech');
+}
+if (techSection && !techSection.includes('>科技</span>')) fail('tech section heading is not 科技');
+if (techSection && techSection.includes('科技与AI')) fail('tech section page still says 科技与AI');
+
+if (rss && !rss.includes('栏目为科技、国际、商业、中国')) {
+  fail('RSS description still uses the long section names');
+}
+
 for (const day of days) {
   const html = read(`days/${day.date}/index.html`);
   if (html && day.sample && !html.includes('noindex')) fail(`sample day ${day.date} should be noindex`);
@@ -130,6 +144,12 @@ for (const day of days) {
     if (!html.includes('M10.1 2.3 13.5 5.1')) fail(`day ${day.date} missing the arrow translation icon`);
     if (partHasStories(day.am) && !html.includes('上午')) fail(`day ${day.date} missing 上午`);
     if (partHasStories(day.pm) && !html.includes('下午')) fail(`day ${day.date} missing 下午`);
+    for (const name of ['科技与AI', '国际与政治', '商业与市场', 'Tech and AI', 'World and politics', 'Business and markets']) {
+      if (html.includes(name)) fail(`day ${day.date} still uses the long section name ${name}`);
+    }
+    if (!html.includes('>科技</span>') || !html.includes('>Tech</span>')) {
+      fail(`day ${day.date} is missing the short bilingual section labels`);
+    }
   }
   for (const partId of ['am', 'pm']) {
     const block = day[partId];

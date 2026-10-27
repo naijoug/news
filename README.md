@@ -164,4 +164,4 @@ npm run dev
 
 Open http://localhost:4321/news/ . The dev server defaults the base path to `/news/`, matching GitHub Pages for this repository. `npm run build` validates, typechecks, builds `dist/`, and smoke-tests it.
 
-Node.js 22 or newer.
+Node.js 22.23.4 or newer. CI installs 22.23.4, which is the minimum Astro accepts.

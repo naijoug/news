@@ -5,7 +5,7 @@
   "description": "朝夕 — a daily Chinese news digest published to GitHub Pages.",
   "type": "module",
   "engines": {
-    "node": ">=22"
+    "node": ">=22.23.4"
   },
   "scripts": {
     "validate": "node scripts/validate-content.mjs",

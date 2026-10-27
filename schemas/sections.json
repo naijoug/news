@@ -1,7 +1,7 @@
 [
   {
     "id": "tech",
-    "name": { "zh": "科技与AI", "en": "Tech and AI" },
+    "name": { "zh": "科技", "en": "Tech" },
     "description": {
       "zh": "技术、人工智能与科学研究",
       "en": "Technology, artificial intelligence, and research"
@@ -9,7 +9,7 @@
   },
   {
     "id": "world",
-    "name": { "zh": "国际与政治", "en": "World and politics" },
+    "name": { "zh": "国际", "en": "World" },
     "description": {
       "zh": "全球局势、外交与公共政策",
       "en": "World affairs, diplomacy, and public policy"
@@ -17,7 +17,7 @@
   },
   {
     "id": "business",
-    "name": { "zh": "商业与市场", "en": "Business and markets" },
+    "name": { "zh": "商业", "en": "Business" },
     "description": {
       "zh": "公司、产业与金融市场",
       "en": "Companies, industries, and financial markets"

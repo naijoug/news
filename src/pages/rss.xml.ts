@@ -26,7 +26,7 @@ export const GET: APIRoute = () => {
     title: '朝夕',
     link: absolute('/'),
     selfUrl: absolute('rss.xml'),
-    description: '每日一刊。上午与下午在同一天里。栏目为科技与AI、国际与政治、商业与市场、中国。',
+    description: '每日一刊。上午与下午在同一天里。栏目为科技、国际、商业、中国。',
     items,
   });
 

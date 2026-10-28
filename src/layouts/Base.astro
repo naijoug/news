@@ -30,7 +30,7 @@ const rss = absolute('rss.xml');
 ---
 
 <!doctype html>
-<html lang="zh-Hans" data-ui="zh" data-text="auto" data-title-zh={title} data-title-en={titleEn}>
+<html lang="zh-Hans" data-ui="zh" data-title-zh={title} data-title-en={titleEn}>
   <head>
     <meta charset="utf-8" />
     <script is:inline>
@@ -49,17 +49,11 @@ const rss = absolute('rss.xml');
           root.setAttribute('data-theme', 'light');
         }
         var ui = 'zh';
-        var text = 'auto';
         try {
           var storedUi = localStorage.getItem('ui-lang');
           if (storedUi === 'en' || storedUi === 'zh') ui = storedUi;
-          var storedText = localStorage.getItem('text-mode');
-          if (storedText === 'original' || storedText === 'translation' || storedText === 'auto') {
-            text = storedText;
-          }
         } catch (e) {}
         root.setAttribute('data-ui', ui);
-        root.setAttribute('data-text', text);
         root.lang = ui === 'en' ? 'en' : 'zh-Hans';
       })();
     </script>
@@ -112,42 +106,14 @@ const rss = absolute('rss.xml');
     <Footer />
     <script is:inline>
       (function () {
-        function viewingTranslation(toggle) {
-          var root = document.documentElement;
-          var text = root.getAttribute('data-text') || 'auto';
-          var ui = root.getAttribute('data-ui') || 'zh';
-          var original = toggle.getAttribute('data-original');
-          var hasZh = toggle.hasAttribute('data-has-zh');
-          var hasEn = toggle.hasAttribute('data-has-en');
-          if (text === 'original') return false;
-          if (text === 'translation') return original === 'en' ? hasZh : hasEn;
-          if (ui === 'en') return hasEn && original === 'zh';
-          return hasZh && original === 'en';
-        }
-        function sync() {
-          document.querySelectorAll('.text-toggle').forEach(function (toggle) {
-            var translated = viewingTranslation(toggle);
-            var originalBtn = toggle.querySelector('[data-mode="original"]');
-            var translationBtn = toggle.querySelector('[data-mode="translation"]');
-            if (originalBtn) originalBtn.setAttribute('aria-pressed', translated ? 'false' : 'true');
-            if (translationBtn) translationBtn.setAttribute('aria-pressed', translated ? 'true' : 'false');
-          });
-        }
-        window.__zhaoxiSyncText = sync;
-        document.addEventListener('click', function (event) {
-          var target = event.target;
-          if (!target || !target.closest) return;
-          var button = target.closest('.text-toggle [data-mode]');
-          if (!button) return;
-          var mode = button.getAttribute('data-mode');
-          if (mode !== 'original' && mode !== 'translation') return;
-          document.documentElement.setAttribute('data-text', mode);
-          try {
-            localStorage.setItem('text-mode', mode);
-          } catch (e) {}
+        document.querySelectorAll('details.version-fold').forEach(function (fold) {
+          var summary = fold.querySelector('summary');
+          function sync() {
+            if (summary) summary.setAttribute('aria-expanded', fold.open ? 'true' : 'false');
+          }
+          fold.addEventListener('toggle', sync);
           sync();
         });
-        sync();
       })();
     </script>
   </body>

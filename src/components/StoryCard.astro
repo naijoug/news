@@ -1,7 +1,6 @@
 ---
-import TextToggle from './TextToggle.astro';
 import UiText from './UiText.astro';
-import ViewMark from './ViewMark.astro';
+import VersionFold from './VersionFold.astro';
 import { partMeta, sectionById, storyPath, sectionPath, type Story } from '../lib/editions';
 import { href } from '../lib/urls';
 
@@ -21,7 +20,6 @@ const hasEn = Boolean(story.title.en && story.summary.en);
 <article class="card">
   <div class="card-top">
     <p class="card-kicker">
-      <ViewMark originalLang={story.originalLang} hasZh={hasZh} hasEn={hasEn} />
       {
         showSection && section && (
           <a class={`card-section tag-${section.id}`} href={href(sectionPath(section.id))}>
@@ -36,8 +34,7 @@ const hasEn = Boolean(story.title.en && story.summary.en);
           </span>
         )
       }
-    </p>
-    <TextToggle originalLang={story.originalLang} hasZh={hasZh} hasEn={hasEn} />
+      </p>
   </div>
   <a class="card-link" href={href(storyPath(story))}>
     <div
@@ -64,4 +61,5 @@ const hasEn = Boolean(story.title.en && story.summary.en);
       }
     </div>
   </a>
+  <VersionFold originalLang={story.originalLang} title={story.title} summary={story.summary} />
 </article>

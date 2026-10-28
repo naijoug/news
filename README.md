@@ -27,7 +27,7 @@ If Pages is already set to GitHub Actions, publishing a new day does not need an
 
 The site is [Astro](https://astro.build/). It turns a handful of page types — the latest day, day archives, story pages, section indexes, RSS, sitemap — into static HTML and ships no client-side framework. Day files stay plain JSON outside the app, so a writer adds a day by creating one file, or appends the afternoon by editing that file. The build runs only in GitHub Actions.
 
-Latin text uses self-hosted Fira Code. Chinese text uses the existing system font stack. There is no separate i18n framework: the page renders both languages, and a small script plus CSS chooses which one is visible.
+Latin text uses self-hosted Fira Code. Chinese text uses self-hosted Noto Serif SC, then the system songti stack. There is no separate i18n framework: the page renders both languages, and a small script plus CSS chooses which one is visible.
 
 ## Reading the site
 

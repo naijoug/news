@@ -16,25 +16,34 @@ const PREVIEW = 8;
     days.map((day) => {
       const shown = day.stories.slice(0, PREVIEW);
       const more = day.stories.length - shown.length;
+      const dayNumber = String(Number(day.date.slice(8)));
       return (
         <li class="day-row">
-          <h2>
-            <a href={href(dayPath(day))}>
-              <time datetime={day.date}>
-                <span class="day-date">
-                  <UiText zh={day.dateLabel} en={day.dateLabelEn} />
+          <div class="day-mast">
+            <h2>
+              <a href={href(dayPath(day))}>
+                <time datetime={day.date}>
+                  <span class="day-num" aria-hidden="true">
+                    {dayNumber}
+                  </span>
+                  <span class="day-meta">
+                    <span class="day-date">
+                      <UiText zh={day.dateLabel} en={day.dateLabelEn} />
+                    </span>
+                    <span class="day-weekday">
+                      <UiText zh={day.weekday} en={day.weekdayEn} />
+                    </span>
+                  </span>
+                </time>
+              </a>
+              {day.sample && (
+                <span class="pill">
+                  <UiText zh="示例" en="Sample" />
                 </span>
-                <span class="day-weekday">
-                  <UiText zh={day.weekday} en={day.weekdayEn} />
-                </span>
-              </time>
-            </a>
-            {day.sample && (
-              <span class="pill">
-                <UiText zh="示例" en="Sample" />
-              </span>
-            )}
-          </h2>
+              )}
+            </h2>
+          </div>
+          <div class="day-body">
           <ul class="headline-list">
             {shown.map((story) => {
               const section = sectionById(story.sectionId);
@@ -77,6 +86,7 @@ const PREVIEW = 8;
               </a>
             </p>
           )}
+          </div>
         </li>
       );
     })

@@ -1,0 +1,404 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-28",
+  "lead": {
+    "zh": "晚刊：以色列计票僵局；SK海力士创纪录季报；OpenAI拟购谷歌TPU；Anthropic研究称专家易顺从AI；习近平贺卢拉连任。",
+    "en": "Evening: Israel vote deadlock; SK Hynix record quarter; OpenAI may buy Google TPUs; Anthropic finds experts defer to AI; Xi congratulates Lula."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "anthropic-experts-defer-ai",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic研究：专业分析师决策时八成顺从AI偏好",
+          "en": "Anthropic study: experts deferred to AI preferences 86% of the time"
+        },
+        "summary": {
+          "zh": "Anthropic让50名分析师用AI助手做政策抉择，助手被暗中设定偏好后，分析师有86%选择与AI一致；仅15%承认思路来自AI。",
+          "en": "In an Anthropic study, 50 analysts using AI assistants chose the AI-preferred option 86% of the time; only 15% credited AI when explaining their reasoning."
+        },
+        "body": {
+          "zh": "据[半岛电视台](https://www.aljazeera.com/economy/2026/10/28/experts-defer-to-ai-in-decision-making-anthropic-study-finds)，Anthropic在周二发表的研究中，让50名专业分析师为虚构农业合作社做评估与扩容建议，每人需在两可选项间做四次选择再给出最终建议。\n\n研究人员在参与者不知情的情况下，让AI助手偏向某一决策。结果分析师有86%选择与助手一致（随机应接近50%）；若事先已有偏好却与AI冲突，60%会改口。解释决策时77%沿用了AI论点，但仅15%点明来源。作者提醒该实验仅一项任务、且助手被故意设偏，仍警告AI先验可能塑造政策与安全相关判断。",
+          "en": "Per [Al Jazeera](https://www.aljazeera.com/economy/2026/10/28/experts-defer-to-ai-in-decision-making-anthropic-study-finds), Anthropic asked 50 professional analysts to advise a fictional farming co-op, making four binary choices plus a final recommendation.\n\nUnbeknownst to them, each AI assistant was steered toward a preference. Analysts matched that preference 86% of the time versus a 50/50 baseline; when they disagreed beforehand, 60% switched. Seventy-seven percent reused the AI’s arguments in explanations, but only 15% credited AI. Authors note limits (one task, deliberately biased agents) yet warn AI “priors” could shape consequential policy, including AI safety."
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/10/28/experts-defer-to-ai-in-decision-making-anthropic-study-finds",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-google-tpu-buy",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI据报拟购买谷歌TPU 加深算力去Nvidia化",
+          "en": "OpenAI reportedly plans to buy Google TPUs"
+        },
+        "summary": {
+          "zh": "The Information称OpenAI计划直接采购谷歌张量处理单元，此前已租用TPU；价格与规模未披露，双方均未公开确认。",
+          "en": "The Information reported OpenAI plans to purchase Google TPUs after already renting them; terms and volumes are undisclosed, and neither company has confirmed a deal."
+        },
+        "body": {
+          "zh": "据[路透转述The Information](https://www.investing.com/news/stock-market-news/openai-plans-to-buy-googles-ai-chips-the-information-reports-4977342)，OpenAI在长期依赖英伟达GPU之外，正计划采购谷歌自研AI芯片TPU，以扩充训练与推理算力。\n\n报道称OpenAI此前已租用谷歌TPU，直接采购将进一步分散供应链风险。价格、数量与交付节奏均未公布；OpenAI亦在推进自研、与Broadcom合作的芯片路线。",
+          "en": "Per [Reuters citing The Information](https://www.investing.com/news/stock-market-news/openai-plans-to-buy-googles-ai-chips-the-information-reports-4977342), OpenAI plans to buy Google’s Tensor Processing Units in addition to its heavy Nvidia GPU use, diversifying compute supply.\n\nOpenAI already rents Google TPUs; a direct purchase would deepen that relationship. Price, volume, and timing were not disclosed. OpenAI is also building its own chips with Broadcom. Neither OpenAI nor Google had publicly confirmed a completed deal."
+        },
+        "sources": [
+          {
+            "name": "The Information (via Reuters/Investing)",
+            "url": "https://www.investing.com/news/stock-market-news/openai-plans-to-buy-googles-ai-chips-the-information-reports-4977342",
+            "lang": "en"
+          },
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-28-2026/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "israel-election-deadlock",
+        "originalLang": "en",
+        "title": {
+          "zh": "以色列大选计票：两大阵营均不过半 阿盟政党成关键",
+          "en": "Israel election: both blocs short of majority; Arab parties pivotal"
+        },
+        "summary": {
+          "zh": "计票过七成时，内塔尼亚胡阵营约54席、埃森科特约47席，均未达61席多数；阿拉伯政党约19席或成组阁关键。",
+          "en": "With most ballots counted, Netanyahu’s bloc sat near 54 seats and Eisenkot’s near 47—both short of 61—while Arab parties near 19 seats looked like kingmakers."
+        },
+        "body": {
+          "zh": "据[卫报](https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news)与[Ynet](https://www.ynetnews.com/article/id4ldfii7)等，以色列大选后计票显示利库德仍是最大单一政党，但内塔尼亚胡右翼联盟与前总参谋长加迪·埃森科特领导的反对派均难单独过半。\n\n出口民调曾一度显示反对派略领先；计票推进后两阵营仍胶着。阿拉伯政党得票走高，外界关注其是否与任何一方组成多数。组阁谈判预计漫长。",
+          "en": "Per [The Guardian](https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news) and [Ynet](https://www.ynetnews.com/article/id4ldfii7), vote counts left Netanyahu’s bloc and Gadi Eisenkot’s opposition both short of the 61 seats needed in the 120-member Knesset.\n\nExit polls had briefly favored Eisenkot; later tallies still showed deadlock. Likud remained the largest single party. Arab parties’ stronger showing put them in a potential kingmaker role, with coalition talks expected to last weeks."
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
+            "lang": "en"
+          },
+          {
+            "name": "Ynet",
+            "url": "https://www.ynetnews.com/article/id4ldfii7",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261028/0e9e573e5d7745a583910364241c9a9f/c.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "houthi-saudi-riyadh-missiles",
+        "originalLang": "en",
+        "title": {
+          "zh": "胡塞宣称袭击沙特炼厂 沙特称拦截射向利雅得导弹",
+          "en": "Houthis claim Saudi refinery strike; Riyadh says missiles intercepted"
+        },
+        "summary": {
+          "zh": "也门胡塞武装称打击拉斯塔努拉炼厂；沙特主导联军称拦截两枚射向利雅得的弹道导弹。埃及议会授权可向沙特提供军事支持。",
+          "en": "Houthis claimed a strike on Ras Tanura; the Saudi-led coalition said it intercepted two ballistic missiles toward Riyadh. Egypt’s parliament authorized military support for Saudi Arabia if requested."
+        },
+        "body": {
+          "zh": "据[新华社](https://english.news.cn/20261028/0e9e573e5d7745a583910364241c9a9f/c.html)与多家简报，沙特主导联军发言人称防空系统拦截并摧毁两枚射向首都利雅得的胡塞弹道导弹。胡塞方面另称袭击了沙特拉斯塔努拉炼厂，沙特方面未立刻证实炼厂受损。\n\n埃及议会同时授权总统可在利雅得提出请求时提供军事支持。海湾紧张叠加，油价波动加剧。",
+          "en": "Per [Xinhua](https://english.news.cn/20261028/0e9e573e5d7745a583910364241c9a9f/c.html) and regional briefings, the Saudi-led coalition said air defenses intercepted two Houthi ballistic missiles aimed at Riyadh. Houthis separately claimed a strike on the Ras Tanura refinery; Saudi confirmation of refinery damage was not immediate.\n\nEgypt’s parliament authorized military support for Saudi Arabia if Riyadh asks. The dual track of claimed industrial strikes and capital-bound missiles kept Gulf risk—and oil volatility—elevated."
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261028/0e9e573e5d7745a583910364241c9a9f/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "World Watch",
+            "url": "https://worldwatch.media/en/digest/2026-10-28",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "china-ai-stocks-wipeout",
+        "originalLang": "en",
+        "title": {
+          "zh": "中国AI概念股自高点回撤约四成 市值蒸发约4800亿美元",
+          "en": "China AI stocks wipe about $480B as STAR50 plunges ~40% from peak"
+        },
+        "summary": {
+          "zh": "科创50等AI与半导体权重自7月高点大幅回落，相关市值蒸发约4800亿美元；沪深300已入熊市区间，估值仍偏高引发续跌担忧。",
+          "en": "AI- and chip-heavy Chinese equities fell about 40% from July peaks, wiping roughly $480 billion; the CSI 300 is in bear territory while valuations remain elevated."
+        },
+        "body": {
+          "zh": "据[X News汇总](https://x.com/i/trending/2115156146776666520)，跟踪AI与半导体龙头的科创50自7月高点回撤约四成，AI相关股票市值蒸发约4800亿美元；更广的沪深300自6月高点跌约20%，进入熊市区间。\n\nAI股一度占A股市值约四成、成交过半，散户受伤明显。基金经理称“投机疯牛”已破。尽管大跌，部分标的市盈率仍远高于纳斯达克同业，市场担心调整未完。",
+          "en": "Per [X News](https://x.com/i/trending/2115156146776666520), China’s tech-heavy STAR 50 tracking AI and semiconductor leaders tumbled about 40% from its July peak, with AI-related names erasing roughly $480 billion in market value. The broader CSI 300 fell about 20% from June highs into bear-market territory.\n\nAI stocks had made up a huge share of market cap and trading volume, leaving many retail investors exposed. A Beijing fund manager called it a bursting “speculative crazy bull.” Valuations remain high versus Nasdaq peers, feeding talk of further downside."
+        },
+        "sources": [
+          {
+            "name": "X News",
+            "url": "https://x.com/i/trending/2115156146776666520",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "us-stocks-ai-rally-tue",
+        "originalLang": "en",
+        "title": {
+          "zh": "美股周二收高：纳指涨约1.2% AI与芯片股领涨",
+          "en": "U.S. stocks rise Tuesday; Nasdaq +1.2% on AI and chips"
+        },
+        "summary": {
+          "zh": "标普500涨0.6%、纳指涨约1.2%；博通、英伟达等AI相关走强。投资者等待微软与Alphabet财报。",
+          "en": "The S&P 500 rose 0.6% and the Nasdaq about 1.2% as Broadcom, Nvidia and other AI names led; Microsoft and Alphabet earnings were next."
+        },
+        "sources": [
+          {
+            "name": "Commonwealth Bank / AAP",
+            "url": "https://www.commbank.com.au/articles/newsroom/2026/10/ai-stocks-lift-wall-street-closer-to-record-high.html",
+            "lang": "en"
+          },
+          {
+            "name": "Benzinga",
+            "url": "https://www.benzinga.com/markets/market-summary/26/10/62643930/nasdaq-jumps-over-300-points-amid-surge-in-chip-stocks-investor-sentiment-improves-greed-index-remains-in-fear-zone",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "xi-congratulates-lula",
+        "originalLang": "zh",
+        "title": {
+          "zh": "习近平致电祝贺卢拉当选连任巴西总统",
+          "en": "Xi congratulates Lula on re-election as Brazil’s president"
+        },
+        "summary": {
+          "zh": "习近平27日致电卢拉，祝贺其连任；卢拉在25日决选中以约51.8%得票击败弗拉维奥·博索纳罗。",
+          "en": "Xi Jinping cabled congratulations on Oct. 27 after Lula won Sunday’s runoff with about 51.8% against Flávio Bolsonaro."
+        },
+        "body": {
+          "zh": "据[北京日报客户端](https://xinwen.bjd.com.cn/content/s6ae1394de4b0e42f8f022414.html)与新华社，国家主席习近平10月27日致电卢拉，祝贺他当选连任巴西联邦共和国总统，并提及中巴命运共同体与全球南方合作。\n\n巴西高等选举法院数据显示，卢拉在决选中得票约51.79%，弗拉维奥·博索纳罗约48.21%。败选方有赴美动向报道。",
+          "en": "Per [Beijing Daily](https://xinwen.bjd.com.cn/content/s6ae1394de4b0e42f8f022414.html) and Xinhua, President Xi Jinping sent a congratulatory message to Luiz Inácio Lula da Silva on Oct. 27 after Lula’s re-election, stressing China–Brazil ties and Global South cooperation.\n\nBrazil’s electoral court put Lula at about 51.79% versus Flávio Bolsonaro’s 48.21% in the runoff. Separate reports said the defeated candidate was heading to the United States."
+        },
+        "sources": [
+          {
+            "name": "北京日报客户端",
+            "url": "https://xinwen.bjd.com.cn/content/s6ae1394de4b0e42f8f022414.html",
+            "lang": "zh"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261028/0e9e573e5d7745a583910364241c9a9f/c.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nrta-ban-boot-ads",
+        "originalLang": "zh",
+        "title": {
+          "zh": "广电总局新规：有线与IPTV不得播放开机广告",
+          "en": "China media regulator bans boot-up ads on cable and IPTV"
+        },
+        "summary": {
+          "zh": "国家广电总局发布有线与IPTV运营规定，11月27日起施行，要求开机可进全屏直播、不得播放开机广告，并缩短开机时长。",
+          "en": "NRTA rules effective Nov. 27 require boot-to-fullscreen live TV, ban boot-up ads on cable and IPTV, and push shorter start times."
+        },
+        "sources": [
+          {
+            "name": "新浪财经（长安剑）",
+            "url": "https://finance.sina.com.cn/wm/2026-10-28/doc-iniwtpiz3939447.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "北京日报客户端",
+            "url": "https://xinwen.bjd.com.cn/content/s6ae1394de4b0e42f8f022414.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "deepmind-genie-4",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌DeepMind发布Genie 4：实时可交互世界模型",
+          "en": "Google DeepMind unveils Genie 4 real-time world model"
+        },
+        "summary": {
+          "zh": "Genie 4支持实时交互、原生音频、更自然人体动作与物理模拟；先向受信任测试者开放，计划推向Google AI Ultra用户。",
+          "en": "Genie 4 adds real-time steering, native audio, more natural motion and physics; trusted testers first, then Google AI Ultra’s Project Genie."
+        },
+        "body": {
+          "zh": "据[DeepMind博客](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)与[TechCrunch](https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/)，谷歌DeepMind发布新一代世界模型Genie 4，可生成可交互的仿真环境，并加入原生环境音、音乐与对话，用户可用自然语言与键盘操控场景。\n\n目前为研究预览，受信任测试者优先；公司称将向Google AI Ultra订阅者的Project Genie及部分Gemini API早期合作方推广。",
+          "en": "Per [DeepMind](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/) and [TechCrunch](https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/), Google DeepMind introduced Genie 4, a multimodal world model for photorealistic interactive simulation with native ambient audio, music, and dialogue, steerable via language and keyboard.\n\nIt starts as a research preview for trusted testers, with planned access for Google AI Ultra Project Genie subscribers and early Gemini API partners."
+        },
+        "sources": [
+          {
+            "name": "Google DeepMind",
+            "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+            "lang": "en"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-gsa-claude-discount",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic扩大GSA协议：美联邦及地方采购Claude享四折优惠",
+          "en": "Anthropic expands GSA deal: 40% off Claude for U.S. governments"
+        },
+        "summary": {
+          "zh": "Anthropic称与GSA协议扩至州与地方政府，Claude企业版、政府版与API享约40%折扣，估可为公共部门节省约10亿美元。",
+          "en": "Anthropic said its GSA agreement now covers state and local buyers with about 40% off Claude Enterprise, Claude for Government, and the API, estimating up to $1B in public-sector savings."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-28-2026/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "oleshky-ceasefire-to-nov1",
+        "originalLang": "en",
+        "title": {
+          "zh": "俄方称奥列什基人道停火将持续至11月1日",
+          "en": "Russia says Oleshky humanitarian ceasefire runs through Nov. 1"
+        },
+        "summary": {
+          "zh": "俄人权专员称美方斡旋的赫尔松州奥列什基局部停火获遵守，将持续至莫斯科时间11月1日22:59。",
+          "en": "Russia’s human-rights commissioner said the U.S.-brokered local ceasefire around Oleshky is holding through 22:59 Moscow time on Nov. 1."
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-28-2026/4103303",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "flavio-bolsonaro-us-exile",
+        "originalLang": "en",
+        "title": {
+          "zh": "败选的弗拉维奥·博索纳罗据报赴美“流亡”",
+          "en": "Defeated Flávio Bolsonaro reportedly heads to U.S. “exile”"
+        },
+        "summary": {
+          "zh": "自由党议员称落败总统候选人弗拉维奥已启程赴美；有报道称其抵迈阿密，美方此前表示将发放签证。",
+          "en": "A Liberal Party lawmaker said defeated candidate Flávio Bolsonaro left for the U.S.; reports put him in Miami after Washington said visas would be issued."
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261028/0e9e573e5d7745a583910364241c9a9f/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-28-2026/4103303",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "sk-hynix-q3-record",
+        "originalLang": "en",
+        "title": {
+          "zh": "SK海力士三季报创新高：营收超100万亿韩元 营业利润同比增632%",
+          "en": "SK Hynix posts record Q3: revenue tops ₩100T, OP +632% YoY"
+        },
+        "summary": {
+          "zh": "AI存储需求推动季营收约104.6万亿韩元、营业利润约83.3万亿韩元，均超预期；股价大涨，公司拟约100万亿韩元股东回报。",
+          "en": "AI memory demand drove record Q3 revenue of about ₩104.6T and operating profit of ₩83.3T, beating estimates; shares jumped as the firm outlined ~₩100T in shareholder returns."
+        },
+        "body": {
+          "zh": "据[SK海力士新闻稿](https://news.skhynix.com/en/q3-2026-business-results/)与[CNBC](https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html)，公司公布2026年三季度营收104.6155万亿韩元（同比约+328%）、营业利润83.3338万亿韩元（同比约+632%），营业利润率约80%，营收首次单季突破100万亿韩元。\n\n增长主要来自服务器DDR5与HBM4出货。公司称已与主要客户签订覆盖2027–28年逾半数产能的长期协议，并预期存储短缺或延续至2030年；同时宣布含股息与回购在内约100万亿韩元级股东回报计划。周三股价收涨约11%。",
+          "en": "Per [SK hynix](https://news.skhynix.com/en/q3-2026-business-results/) and [CNBC](https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html), Q3 revenue hit ₩104.6155 trillion (+328% YoY) and operating profit ₩83.3338 trillion (+632% YoY), an ~80% margin—the first quarter above ₩100 trillion in sales.\n\nGains were led by server DDR5 and HBM4. Management said LTAs cover more than half of 2027–28 capacity, expects shortages into 2030, and outlined roughly ₩100 trillion in shareholder returns (dividends plus buybacks). Shares closed about 11% higher Wednesday."
+        },
+        "sources": [
+          {
+            "name": "SK hynix Newsroom",
+            "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "mfa-uk-border-phones",
+        "originalLang": "zh",
+        "title": {
+          "zh": "外交部就英方边检长时间扣查中国公民及手机提出交涉",
+          "en": "China MFA protests UK border detentions and phone seizures"
+        },
+        "summary": {
+          "zh": "外交部称接多起中国公民在英被长时间扣留、盘查及电子设备被查扣的报告，对任意过度执法表示强烈不满并已严正交涉。",
+          "en": "China’s MFA said it received multiple reports of lengthy UK border detentions and device seizures of Chinese citizens, protested “arbitrary” enforcement, and lodged démarches."
+        },
+        "body": {
+          "zh": "据[北京日报客户端](https://xinwen.bjd.com.cn/content/s6ae1394de4b0e42f8f022414.html)援引外交部例行记者会，发言人郭嘉昆表示，近日外交部和驻英使馆收到多起中国公民被英国边境执法人员长时间扣留、盘查，以及随身手机等电子设备被查扣的报告。\n\n中方对英方任意、过度执法表示强烈不满与严重关切，已提出严正交涉，并将维护中国公民人身安全与正当权益。",
+          "en": "Per [Beijing Daily](https://xinwen.bjd.com.cn/content/s6ae1394de4b0e42f8f022414.html) citing the MFA briefing, spokesperson Guo Jiakun said the ministry and embassy in the UK had received multiple reports of Chinese citizens held and questioned at length by British border officers, with phones and other devices seized.\n\nBeijing expressed strong dissatisfaction and serious concern over what it called arbitrary, excessive enforcement, said it had lodged solemn démarches, and pledged to protect citizens’ safety and lawful rights."
+        },
+        "sources": [
+          {
+            "name": "北京日报客户端",
+            "url": "https://xinwen.bjd.com.cn/content/s6ae1394de4b0e42f8f022414.html",
+            "lang": "zh"
+          },
+          {
+            "name": "新浪财经（长安剑）",
+            "url": "https://finance.sina.com.cn/wm/2026-10-28/doc-iniwtpiz3939447.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "ccd-eight-rules-sept",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中央纪委：9月全国查处违反中央八项规定精神问题3.29万起",
+          "en": "CCD: 32,940 “eight-point” violations handled in September"
+        },
+        "summary": {
+          "zh": "中央纪委国家监委公布9月月报：查处违反中央八项规定精神问题32940起，批评教育和处理40122人，其中党纪政务处分28461人。",
+          "en": "The CCD/NSC September bulletin listed 32,940 eight-point regulation cases, with 40,122 people criticized or punished, including 28,461 Party/government sanctions."
+        },
+        "sources": [
+          {
+            "name": "北京日报客户端",
+            "url": "https://xinwen.bjd.com.cn/content/s6ae1394de4b0e42f8f022414.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

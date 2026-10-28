@@ -138,11 +138,14 @@ for (const day of days) {
     if (!html.includes('card-grid')) fail(`day ${day.date} missing the story grid`);
     if (!html.includes('version-fold')) fail(`day ${day.date} missing the translation fold`);
     if (!html.includes('aria-expanded')) fail(`day ${day.date} missing aria-expanded on the translation control`);
-    if (!html.includes('展开翻译') || !html.includes('展开原文')) {
-      fail(`day ${day.date} missing the translation and original labels`);
+    if (!html.includes('展开译文') || !html.includes('展开原文')) {
+      fail(`day ${day.date} missing the expand labels`);
+    }
+    if (!html.includes('>译文<') || !html.includes('>原文<')) {
+      fail(`day ${day.date} missing the 译文 and 原文 marks`);
     }
     if (!html.includes('M2.7 4.5h7.2')) fail(`day ${day.date} missing the line translation icon`);
-    if (!html.includes('M4.2 2.4h5.1L12.4 5.4')) fail(`day ${day.date} missing the line original icon`);
+    if (html.includes('M4.2 2.4h5.1L12.4 5.4')) fail(`day ${day.date} still uses a separate original icon`);
     if (html.includes('text-toggle') || html.includes('mark-original') || html.includes('mark-translation')) {
       fail(`day ${day.date} still has the old original/translation toggle`);
     }

@@ -34,8 +34,8 @@ Latin text uses self-hosted Fira Code. Chinese text uses self-hosted Noto Serif 
 The UI language (中文 / EN, the `EN` button in the header) chooses the story text you see first.
 
 - UI language is stored in `localStorage` as `ui-lang` (`zh` or `en`). Default is Chinese.
-- A story shows that language when it exists, and the original when it does not.
-- If both languages exist, a small line icon opens the other version under the text. A pair of pages means translation; a single document means the original. Clicking the icon again closes it.
+- Chinese UI shows the Chinese text first. English UI shows the English text first. If that language is missing, the original is shown.
+- If both languages exist, the same line icon sits under the text and opens the other version. The block is marked 译文 / Translation or 原文 / Original. Clicking the icon again closes it.
 - If a story has only one language, the icon is omitted.
 
 ## Authoring spec（写作规范）

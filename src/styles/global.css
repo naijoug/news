@@ -692,8 +692,8 @@ html[data-ui="en"] .ui-en {
 .copy > .t-en,
 .alt-copy > .t-zh,
 .alt-copy > .t-en,
-.icon-yi,
-.icon-yuan {
+.label-yi,
+.label-yuan {
   display: none;
 }
 
@@ -712,29 +712,19 @@ html[data-ui="en"] .alt-copy > .t-zh {
   display: block;
 }
 
-html[data-ui="zh"] .version-fold[data-original="zh"] .icon-yi,
-html[data-ui="en"] .version-fold[data-original="en"] .icon-yi,
-html[data-ui="zh"] .version-fold[data-original="en"] .icon-yuan,
-html[data-ui="en"] .version-fold[data-original="zh"] .icon-yuan {
+html[data-ui="zh"] .version-fold[data-original="zh"] .label-yi,
+html[data-ui="en"] .version-fold[data-original="en"] .label-yi,
+html[data-ui="zh"] .version-fold[data-original="en"] .label-yuan,
+html[data-ui="en"] .version-fold[data-original="zh"] .label-yuan {
   display: block;
 }
 
-.card,
-.story-detail {
-  position: relative;
-}
-
-.card:has(.version-fold) .card-top,
-.story-detail:has(.version-fold) .kicker {
-  min-height: 2.75rem;
-  padding-right: 3rem;
+.version-fold {
+  margin-top: 0.7rem;
 }
 
 .version-summary {
-  position: absolute;
-  z-index: 1;
-  top: 0.72rem;
-  right: 0.72rem;
+  position: relative;
   width: 2.75rem;
   height: 2.75rem;
   display: grid;
@@ -760,11 +750,6 @@ html[data-ui="en"] .version-summary .tip.ui-en {
   display: block;
 }
 
-.story-detail > .version-fold > .version-summary {
-  top: 0;
-  right: 0;
-}
-
 .version-summary::-webkit-details-marker {
   display: none;
 }
@@ -773,7 +758,8 @@ html[data-ui="en"] .version-summary .tip.ui-en {
   content: "";
 }
 
-.version-summary > .version-glyph {
+.version-summary .label-yi,
+.version-summary .label-yuan {
   position: absolute;
   inset: 0;
 }
@@ -788,26 +774,9 @@ html[data-ui="en"] .version-summary .tip.ui-en {
   stroke-linejoin: round;
 }
 
-.version-summary > .version-glyph svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .version-summary .tip {
   position: absolute;
   inset: 0;
-}
-
-.alt-kicker .version-glyph svg {
-  width: 0.95rem;
-  height: 0.95rem;
-}
-
-.version-fold:not([open]) {
-  height: 0;
-  overflow: visible;
 }
 
 .alt-panel {
@@ -817,13 +786,10 @@ html[data-ui="en"] .version-summary .tip.ui-en {
 }
 
 .alt-kicker {
-  display: flex;
-  align-items: center;
-  gap: 0.45rem;
   margin-bottom: 0.55rem;
-  color: var(--ink);
+  color: var(--muted);
   font-size: 0.75rem;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.16em;
 }
 
 .alt-title {

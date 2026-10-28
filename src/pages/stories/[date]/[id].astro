@@ -1,9 +1,8 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import Sources from '../../../components/Sources.astro';
-import TextToggle from '../../../components/TextToggle.astro';
 import UiText from '../../../components/UiText.astro';
-import ViewMark from '../../../components/ViewMark.astro';
+import VersionFold from '../../../components/VersionFold.astro';
 import {
   dayPath,
   getDays,
@@ -64,10 +63,6 @@ const hasBody = Boolean(story.bodyHtml?.zh || story.bodyHtml?.en);
         }
         <UiText zh={part.zh} en={part.en} />
       </p>
-      <div class="detail-tools">
-        <ViewMark originalLang={story.originalLang} hasZh={hasZh} hasEn={hasEn} />
-        <TextToggle originalLang={story.originalLang} hasZh={hasZh} hasEn={hasEn} />
-      </div>
       <div
         class="copy"
         data-original={story.originalLang}
@@ -94,6 +89,12 @@ const hasBody = Boolean(story.bodyHtml?.zh || story.bodyHtml?.en);
         }
       </div>
     </header>
+    <VersionFold
+      originalLang={story.originalLang}
+      title={story.title}
+      summary={story.summary}
+      bodyHtml={story.bodyHtml}
+    />
     {
       hasBody && (
         <p class="attribution">

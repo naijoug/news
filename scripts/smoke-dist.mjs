@@ -136,12 +136,17 @@ for (const day of days) {
   if (html && day.sample && !html.includes('noindex')) fail(`sample day ${day.date} should be noindex`);
   if (html) {
     if (!html.includes('card-grid')) fail(`day ${day.date} missing the story grid`);
-    if (!html.includes('text-toggle')) fail(`day ${day.date} missing the original/translation toggle`);
-    if (!html.includes('mark-original') || !html.includes('mark-translation')) {
-      fail(`day ${day.date} missing original and translation icons`);
+    if (!html.includes('version-fold')) fail(`day ${day.date} missing the translation fold`);
+    if (!html.includes('aria-expanded')) fail(`day ${day.date} missing aria-expanded on the translation control`);
+    if (!html.includes('>译<') || !html.includes('>原<')) {
+      fail(`day ${day.date} missing the 译 and 原 seals`);
     }
-    if (html.includes(LETTER_ICON)) fail(`day ${day.date} still uses the letter-shaped translation icon`);
-    if (!html.includes('M10.1 2.3 13.5 5.1')) fail(`day ${day.date} missing the arrow translation icon`);
+    if (html.includes('text-toggle') || html.includes('mark-original') || html.includes('mark-translation')) {
+      fail(`day ${day.date} still has the old original/translation toggle`);
+    }
+    if (html.includes(LETTER_ICON) || html.includes('M10.1 2.3 13.5 5.1')) {
+      fail(`day ${day.date} still uses the old translation icon`);
+    }
     if (partHasStories(day.am) && !html.includes('上午')) fail(`day ${day.date} missing 上午`);
     if (partHasStories(day.pm) && !html.includes('下午')) fail(`day ${day.date} missing 下午`);
     for (const name of ['科技与AI', '国际与政治', '商业与市场', 'Tech and AI', 'World and politics', 'Business and markets']) {

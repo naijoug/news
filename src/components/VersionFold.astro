@@ -1,0 +1,65 @@
+---
+import type { Lang, Localized } from '../lib/editions';
+
+interface Props {
+  originalLang: Lang;
+  title: Localized;
+  summary: Localized;
+  bodyHtml?: Localized;
+}
+
+const { originalLang, title, summary, bodyHtml } = Astro.props;
+const hasZh = Boolean(title.zh && summary.zh);
+const hasEn = Boolean(title.en && summary.en);
+---
+
+{
+  hasZh && hasEn && (
+    <details class="version-fold" data-original={originalLang} data-has-zh="" data-has-en="">
+      <summary class="version-summary" aria-expanded="false">
+        <span class="version-seal" aria-hidden="true">
+          <span class="seal-yi">译</span>
+          <span class="seal-yuan">原</span>
+        </span>
+        <span class="sr-only">
+          <span class="seal-yi">
+            <span class="ui-zh">翻译</span>
+            <span class="ui-en">Translation</span>
+          </span>
+          <span class="seal-yuan">
+            <span class="ui-zh">原文</span>
+            <span class="ui-en">Original</span>
+          </span>
+        </span>
+      </summary>
+      <div class="alt-panel">
+        <p class="alt-kicker">
+          <span class="version-seal" aria-hidden="true">
+            <span class="seal-yi">译</span>
+            <span class="seal-yuan">原</span>
+          </span>
+          <span class="seal-yi">
+            <span class="ui-zh">翻译</span>
+            <span class="ui-en">Translation</span>
+          </span>
+          <span class="seal-yuan">
+            <span class="ui-zh">原文</span>
+            <span class="ui-en">Original</span>
+          </span>
+        </p>
+        <div class="alt-copy" lang={originalLang === 'zh' ? 'zh-Hans' : 'en'}>
+          <div class="t-zh" lang="zh-Hans">
+            <p class="alt-title">{title.zh}</p>
+            <p class="alt-dek">{summary.zh}</p>
+            {bodyHtml?.zh && <div class="prose" set:html={bodyHtml.zh} />}
+          </div>
+          <div class="t-en" lang="en">
+            <p class="alt-title">{title.en}</p>
+            <p class="alt-dek">{summary.en}</p>
+            {bodyHtml?.en && <div class="prose" set:html={bodyHtml.en} />}
+          </div>
+        </div>
+      </div>
+    </details>
+  )
+}

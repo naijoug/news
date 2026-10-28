@@ -31,13 +31,12 @@ Latin text uses self-hosted Fira Code. Chinese text uses self-hosted Noto Serif 
 
 ## Reading the site
 
-The UI language (中文 / EN, the `EN` button in the header) and the story text (原文 / 翻译) are separate.
+The UI language (中文 / EN, the `EN` button in the header) chooses the story text you see first.
 
 - UI language is stored in `localStorage` as `ui-lang` (`zh` or `en`). Default is Chinese.
-- Story text is stored as `text-mode`: `auto` (follow the UI language), `original`, or `translation`.
-- In `auto`, a Chinese UI shows Chinese when that text exists. An English original then shows the translation and the translation icon. Switching the toggle to 原文 shows the English and the original icon.
-- A Chinese original does the reverse when the UI is English.
-- If a story has only one language, the translation control is hidden.
+- A story shows that language when it exists, and the original when it does not.
+- If both languages exist, a small 译 or 原 seal opens the other version under the text. 译 means the extra text is a translation; 原 means it is the original. Clicking the seal again closes it.
+- If a story has only one language, the seal is omitted.
 
 ## Authoring spec（写作规范）
 

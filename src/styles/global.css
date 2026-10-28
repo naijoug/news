@@ -1123,3 +1123,23 @@ html[data-ui="en"][data-text="auto"] .text-toggle[data-original="zh"][data-has-e
     display: none;
   }
 }
+
+@media (max-width: 40rem) {
+  .day-row {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+
+  .nav-list {
+    letter-spacing: 0.04em;
+    column-gap: 0.7rem;
+  }
+
+  .tools {
+    flex-wrap: wrap;
+  }
+
+  .logo-word {
+    letter-spacing: 0.22em;
+  }
+}

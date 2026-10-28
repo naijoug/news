@@ -11,43 +11,75 @@ interface Props {
 const { originalLang, title, summary, bodyHtml } = Astro.props;
 const hasZh = Boolean(title.zh && summary.zh);
 const hasEn = Boolean(title.en && summary.en);
+
+const counter = globalThis as { __zhaoxiFold?: number };
+counter.__zhaoxiFold = (counter.__zhaoxiFold ?? 0) + 1;
+const foldId = `version-fold-${counter.__zhaoxiFold}`;
 ---
 
 {
   hasZh && hasEn && (
     <details class="version-fold" data-original={originalLang} data-has-zh="" data-has-en="">
-      <summary class="version-summary" aria-expanded="false">
-        <span class="version-seal" aria-hidden="true">
-          <span class="seal-yi">译</span>
-          <span class="seal-yuan">原</span>
+      <summary class="version-summary" aria-expanded="false" aria-labelledby={`${foldId}-name`}>
+        <span class="version-glyph icon-yi" title="展开翻译">
+          <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+            <path d="M2.7 4.5h7.2v8H2.7z"></path>
+            <path d="M5.5 2.6h7.6v8.2H5.5z"></path>
+            <path d="M7.3 5.2h4"></path>
+            <path d="M7.3 7.1h2.7"></path>
+          </svg>
+          <span class="tip ui-zh" title="展开翻译"></span>
+          <span class="tip ui-en" title="Show translation"></span>
         </span>
-        <span class="sr-only">
-          <span class="seal-yi">
-            <span class="ui-zh">翻译</span>
-            <span class="ui-en">Translation</span>
+        <span class="version-glyph icon-yuan" title="展开原文">
+          <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+            <path d="M4.2 2.4h5.1L12.4 5.4V13.6H4.2V2.4z"></path>
+            <path d="M9.2 2.6V5.5h3"></path>
+            <path d="M6.2 8.1h4.2"></path>
+            <path d="M6.2 10.4h2.8"></path>
+          </svg>
+          <span class="tip ui-zh" title="展开原文"></span>
+          <span class="tip ui-en" title="Show original"></span>
+        </span>
+        <span id={`${foldId}-name`} class="sr-only">
+          <span class="icon-yi">
+            <span class="ui-zh">展开翻译</span>
+            <span class="ui-en">Show translation</span>
           </span>
-          <span class="seal-yuan">
-            <span class="ui-zh">原文</span>
-            <span class="ui-en">Original</span>
+          <span class="icon-yuan">
+            <span class="ui-zh">展开原文</span>
+            <span class="ui-en">Show original</span>
           </span>
         </span>
       </summary>
       <div class="alt-panel">
         <p class="alt-kicker">
-          <span class="version-seal" aria-hidden="true">
-            <span class="seal-yi">译</span>
-            <span class="seal-yuan">原</span>
+          <span class="version-glyph icon-yi" aria-hidden="true">
+            <svg viewBox="0 0 16 16" width="16" height="16">
+              <path d="M2.7 4.5h7.2v8H2.7z"></path>
+              <path d="M5.5 2.6h7.6v8.2H5.5z"></path>
+              <path d="M7.3 5.2h4"></path>
+              <path d="M7.3 7.1h2.7"></path>
+            </svg>
           </span>
-          <span class="seal-yi">
+          <span class="version-glyph icon-yuan" aria-hidden="true">
+            <svg viewBox="0 0 16 16" width="16" height="16">
+              <path d="M4.2 2.4h5.1L12.4 5.4V13.6H4.2V2.4z"></path>
+              <path d="M9.2 2.6V5.5h3"></path>
+              <path d="M6.2 8.1h4.2"></path>
+              <path d="M6.2 10.4h2.8"></path>
+            </svg>
+          </span>
+          <span class="icon-yi">
             <span class="ui-zh">翻译</span>
             <span class="ui-en">Translation</span>
           </span>
-          <span class="seal-yuan">
+          <span class="icon-yuan">
             <span class="ui-zh">原文</span>
             <span class="ui-en">Original</span>
           </span>
         </p>
-        <div class="alt-copy" lang={originalLang === 'zh' ? 'zh-Hans' : 'en'}>
+        <div class="alt-copy">
           <div class="t-zh" lang="zh-Hans">
             <p class="alt-title">{title.zh}</p>
             <p class="alt-dek">{summary.zh}</p>

@@ -692,8 +692,8 @@ html[data-ui="en"] .ui-en {
 .copy > .t-en,
 .alt-copy > .t-zh,
 .alt-copy > .t-en,
-.seal-yi,
-.seal-yuan {
+.icon-yi,
+.icon-yuan {
   display: none;
 }
 
@@ -712,11 +712,11 @@ html[data-ui="en"] .alt-copy > .t-zh {
   display: block;
 }
 
-html[data-ui="zh"] .version-fold[data-original="zh"] .seal-yi,
-html[data-ui="en"] .version-fold[data-original="en"] .seal-yi,
-html[data-ui="zh"] .version-fold[data-original="en"] .seal-yuan,
-html[data-ui="en"] .version-fold[data-original="zh"] .seal-yuan {
-  display: inline;
+html[data-ui="zh"] .version-fold[data-original="zh"] .icon-yi,
+html[data-ui="en"] .version-fold[data-original="en"] .icon-yi,
+html[data-ui="zh"] .version-fold[data-original="en"] .icon-yuan,
+html[data-ui="en"] .version-fold[data-original="zh"] .icon-yuan {
+  display: block;
 }
 
 .card,
@@ -742,9 +742,22 @@ html[data-ui="en"] .version-fold[data-original="zh"] .seal-yuan {
   padding: 0;
   border: 0;
   background: transparent;
-  color: var(--seal);
+  color: var(--ink);
   cursor: pointer;
   list-style: none;
+}
+
+.version-summary:hover,
+.version-summary:focus-visible {
+  opacity: 0.55;
+}
+
+.version-summary:active {
+  opacity: 0.35;
+}
+
+html[data-ui="en"] .version-summary .tip.ui-en {
+  display: block;
 }
 
 .story-detail > .version-fold > .version-summary {
@@ -760,22 +773,36 @@ html[data-ui="en"] .version-fold[data-original="zh"] .seal-yuan {
   content: "";
 }
 
-.version-seal {
-  display: inline-grid;
-  place-items: center;
-  width: 1.4rem;
-  height: 1.4rem;
-  border: 1px solid var(--seal);
-  color: var(--seal);
-  background: transparent;
-  font-size: 0.72rem;
-  line-height: 1;
-  letter-spacing: 0;
+.version-summary > .version-glyph {
+  position: absolute;
+  inset: 0;
 }
 
-.version-fold[open] > .version-summary .version-seal {
-  background: var(--seal);
-  color: var(--bg);
+.version-glyph svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.version-summary > .version-glyph svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.version-summary .tip {
+  position: absolute;
+  inset: 0;
+}
+
+.alt-kicker .version-glyph svg {
+  width: 0.95rem;
+  height: 0.95rem;
 }
 
 .version-fold:not([open]) {
@@ -794,7 +821,7 @@ html[data-ui="en"] .version-fold[data-original="zh"] .seal-yuan {
   align-items: center;
   gap: 0.45rem;
   margin-bottom: 0.55rem;
-  color: var(--seal);
+  color: var(--ink);
   font-size: 0.75rem;
   letter-spacing: 0.14em;
 }

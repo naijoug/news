@@ -35,8 +35,8 @@ The UI language (中文 / EN, the `EN` button in the header) chooses the story t
 
 - UI language is stored in `localStorage` as `ui-lang` (`zh` or `en`). Default is Chinese.
 - A story shows that language when it exists, and the original when it does not.
-- If both languages exist, a small 译 or 原 seal opens the other version under the text. 译 means the extra text is a translation; 原 means it is the original. Clicking the seal again closes it.
-- If a story has only one language, the seal is omitted.
+- If both languages exist, a small line icon opens the other version under the text. A pair of pages means translation; a single document means the original. Clicking the icon again closes it.
+- If a story has only one language, the icon is omitted.
 
 ## Authoring spec（写作规范）
 

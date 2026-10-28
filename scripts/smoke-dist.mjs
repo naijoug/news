@@ -191,7 +191,9 @@ function collectCss(dir, out = []) {
 
 const builtCss = collectCss(dist).join('\n');
 if (!builtCss.includes('Fira Code')) fail('built CSS does not declare Fira Code');
-if (!builtCss.includes('woff2')) fail('Fira Code is not self-hosted as woff2');
+if (!builtCss.includes('Noto Serif SC')) fail('built CSS does not declare Noto Serif SC');
+if (!builtCss.includes('woff2')) fail('fonts are not self-hosted as woff2');
+if (home.includes('class="seal"')) fail('homepage still shows the 日 seal');
 if (/fonts\.googleapis\.com|fonts\.gstatic\.com/.test(`${builtCss}\n${home}`)) {
   fail('page requests a third-party font host');
 }

@@ -1037,7 +1037,7 @@ html[data-ui="en"] .day-en {
 .headline-row {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   gap: 0.2rem 0.55rem;
   min-width: 0;
 }
@@ -1083,77 +1083,72 @@ html[data-ui="en"] .day-en {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 1.85rem;
-  padding: 0.18rem 0.5rem 0.08rem;
   border: 0;
-  border-radius: 0;
   background: transparent;
   color: var(--ink);
   text-decoration: none;
-  letter-spacing: 0.02em;
-  line-height: 1.15;
-  font-size: 1.05rem;
+  line-height: 1;
   isolation: isolate;
 }
 
-.ink-wash {
+.stamp {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink);
+}
+
+.stamp-edge {
   position: absolute;
-  z-index: 0;
-  left: -0.55rem;
-  top: 50%;
-  width: calc(100% + 1.15rem);
-  height: 1.55rem;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   color: var(--wash);
   pointer-events: none;
-  transform: translateY(-52%) rotate(-3deg);
 }
 
-.ink-wash path {
-  fill: currentColor;
-}
-
-.wash-body {
-  opacity: 0.42;
-}
-
-.wash-edge {
-  opacity: 0.26;
-}
-
-.wash-core {
-  opacity: 0.16;
-}
-
-.wash-tip {
-  opacity: 0.22;
-}
-
-:root[data-theme="dark"] .wash-body {
-  opacity: 0.3;
-}
-
-:root[data-theme="dark"] .wash-edge {
-  opacity: 0.18;
-}
-
-:root[data-theme="dark"] .wash-core {
-  opacity: 0.1;
-}
-
-:root[data-theme="dark"] .wash-tip {
-  opacity: 0.16;
+.stamp-zh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.02rem;
+  padding: 0.2rem 0.34rem 0.16rem;
+  font-family: "Alimama DaoLiTi", "Noto Serif SC", serif;
+  font-size: 0.92rem;
+  line-height: 0.92;
+  letter-spacing: 0;
 }
 
 .ink-label-text {
   position: relative;
   z-index: 1;
-  font-family: "Long Cang", "Noto Serif SC", cursive;
+}
+
+.ink-label-text .ui-zh {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .ink-label-text .ui-en {
-  font-family: "Caveat", "Fira Code", cursive;
-  font-size: 1.2rem;
-  letter-spacing: 0.01em;
+  display: none;
+  padding: 0.28rem 0.42rem 0.22rem;
+  font-family: "Noto Serif SC", "Source Han Serif SC", serif;
+  font-size: 0.72rem;
+  font-variant: small-caps;
+  letter-spacing: 0.14em;
+  line-height: 1;
+}
+
+html[data-ui="en"] .ink-label-text .ui-en {
+  display: inline-block;
 }
 
 .card-section:hover,
@@ -1161,14 +1156,6 @@ html[data-ui="en"] .day-en {
 .kicker a.section-tag:hover,
 .ink-label:hover {
   color: var(--ink);
-}
-
-.ink-label:hover .wash-body {
-  opacity: 0.52;
-}
-
-:root[data-theme="dark"] .ink-label:hover .wash-body {
-  opacity: 0.38;
 }
 
 .card-link {

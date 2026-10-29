@@ -12,8 +12,9 @@
   --accent-soft: #e6e2d9;
   --accent-line: #d4cfc6;
   --shadow: none;
-  /* Ink only. No vermilion seals or red dots. */
+  /* Ink only. No vermilion, red, or seal color anywhere. */
   --seal: var(--ink);
+  --wash: #5c5852;
   --tag-tech-bg: transparent;
   --tag-tech-ink: var(--ink);
   --tag-world-bg: transparent;
@@ -44,6 +45,7 @@
     --accent-line: #3a3834;
     --shadow: none;
     --seal: var(--ink);
+    --wash: #cfc9c0;
     --tag-tech-bg: transparent;
     --tag-tech-ink: var(--ink);
     --tag-world-bg: transparent;
@@ -69,8 +71,9 @@
   --accent-soft: #e6e2d9;
   --accent-line: #d4cfc6;
   --shadow: none;
-  /* Ink only. No vermilion seals or red dots. */
+  /* Ink only. No vermilion, red, or seal color anywhere. */
   --seal: var(--ink);
+  --wash: #5c5852;
   --tag-tech-bg: transparent;
   --tag-tech-ink: var(--ink);
   --tag-world-bg: transparent;
@@ -95,8 +98,9 @@
   --accent-soft: #2a2926;
   --accent-line: #3a3834;
   --shadow: none;
-  /* Ink only. No vermilion seals or red dots. */
+  /* Ink only. No vermilion, red, or seal color anywhere. */
   --seal: var(--ink);
+  --wash: #cfc9c0;
   --tag-tech-bg: transparent;
   --tag-tech-ink: var(--ink);
   --tag-world-bg: transparent;
@@ -1079,27 +1083,27 @@ html[data-ui="en"] .day-en {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 1.55rem;
-  padding: 0.12rem 0.55rem;
+  min-height: 1.85rem;
+  padding: 0.18rem 0.5rem 0.08rem;
   border: 0;
   border-radius: 0;
   background: transparent;
   color: var(--ink);
   text-decoration: none;
-  letter-spacing: 0.12em;
-  line-height: 1.4;
-  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  line-height: 1.15;
+  font-size: 1.05rem;
   isolation: isolate;
 }
 
 .ink-wash {
   position: absolute;
   z-index: 0;
-  left: -0.45rem;
+  left: -0.55rem;
   top: 50%;
-  width: calc(100% + 0.95rem);
-  height: 1.35rem;
-  color: var(--ink);
+  width: calc(100% + 1.15rem);
+  height: 1.55rem;
+  color: var(--wash);
   pointer-events: none;
   transform: translateY(-52%) rotate(-3deg);
 }
@@ -1109,52 +1113,47 @@ html[data-ui="en"] .day-en {
 }
 
 .wash-body {
-  opacity: 0.46;
+  opacity: 0.42;
 }
 
 .wash-edge {
-  opacity: 0.72;
+  opacity: 0.26;
 }
 
 .wash-core {
-  opacity: 0.38;
+  opacity: 0.16;
 }
 
 .wash-tip {
-  opacity: 0.4;
-}
-
-.tag-world .wash-body {
-  opacity: 0.4;
-}
-
-.tag-world .wash-edge {
-  opacity: 0.62;
-}
-
-.tag-business .wash-body {
-  opacity: 0.5;
-}
-
-.tag-china .wash-edge {
-  opacity: 0.8;
+  opacity: 0.22;
 }
 
 :root[data-theme="dark"] .wash-body {
-  opacity: 0.55;
+  opacity: 0.3;
 }
 
 :root[data-theme="dark"] .wash-edge {
-  opacity: 0.82;
+  opacity: 0.18;
 }
 
 :root[data-theme="dark"] .wash-core {
-  opacity: 0.48;
+  opacity: 0.1;
+}
+
+:root[data-theme="dark"] .wash-tip {
+  opacity: 0.16;
 }
 
 .ink-label-text {
   position: relative;
   z-index: 1;
+  font-family: "Long Cang", "Noto Serif SC", cursive;
+}
+
+.ink-label-text .ui-en {
+  font-family: "Caveat", "Fira Code", cursive;
+  font-size: 1.2rem;
+  letter-spacing: 0.01em;
 }
 
 .card-section:hover,
@@ -1165,7 +1164,11 @@ html[data-ui="en"] .day-en {
 }
 
 .ink-label:hover .wash-body {
-  opacity: 0.62;
+  opacity: 0.52;
+}
+
+:root[data-theme="dark"] .ink-label:hover .wash-body {
+  opacity: 0.38;
 }
 
 .card-link {

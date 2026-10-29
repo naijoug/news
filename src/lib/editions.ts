@@ -53,6 +53,8 @@ export interface Day {
   dateLabel: string;
   dateLabelEn: string;
   literaryDate: string;
+  verticalMonth: string;
+  verticalDay: string;
   shortDate: string;
   shortDateEn: string;
   monthLabel: string;
@@ -102,6 +104,14 @@ function cnDay(day: number): string {
   const ones = day % 10;
   return `${CN_DIGIT[tens] ?? ''}十${ones ? (CN_DIGIT[ones] ?? '') : ''}`;
 }
+
+function cnDayCompact(day: number): string {
+  if (day === 20) return '二十';
+  if (day > 20 && day < 30) return `廿${CN_DIGIT[day - 20] ?? ''}`;
+  if (day === 30) return '三十';
+  if (day === 31) return '三十一';
+  return cnDay(day);
+}
 const FILE_RE = /^(\d{4})\/(\d{2})\/(\d{4}-\d{2}-\d{2})\.json$/;
 
 export function partMeta(id: PartId) {
@@ -122,6 +132,8 @@ export function formatDate(iso: string) {
     dateLabel: `${year}年${month}月${day}日`,
     dateLabelEn: `${monthEn} ${day}, ${year}`,
     literaryDate: `${cnMonth(month)}月${cnDay(day)}日`,
+    verticalMonth: `${cnMonth(month)}月`,
+    verticalDay: cnDayCompact(day),
     shortDate: `${month}月${day}日`,
     shortDateEn: `${MONTHS_SHORT[month - 1] ?? ''} ${day}`,
     monthLabel: `${year}年${month}月`,

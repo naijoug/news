@@ -14,32 +14,43 @@ const PREVIEW = 8;
 
 <ol class="day-index">
   {
-    days.map((day) => {
+    days.map((day, index) => {
       const shown = day.stories.slice(0, PREVIEW);
       const more = day.stories.length - shown.length;
       const dayNumber = String(Number(day.date.slice(8)));
       return (
-        <li class="day-row">
+        <li class:list={['day-row', index === 0 && 'is-today']}>
           <div class="day-mast">
             <h2>
               <a href={href(dayPath(day))}>
                 <time datetime={day.date}>
-                  <span class="day-num" aria-hidden="true">
-                    {dayNumber}
+                  <span class="day-v ui-zh">
+                    <span class="v-date">
+                      {day.verticalMonth}
+                      {day.verticalDay}
+                    </span>
+                    <span class="v-week">{day.weekday}</span>
                   </span>
-                  <span class="day-meta">
-                    <span class="day-literary">
-                      <UiText zh={day.literaryDate} en={day.dayLabelEn} />
-                    </span>
-                    <span class="day-weekday">
-                      <UiText zh={day.weekday} en={day.weekdayEn} />
-                    </span>
-                    <span class="day-date">
-                      <UiText zh={day.dateLabel} en={day.dateLabelEn} />
-                    </span>
+                  <span class="day-en ui-en">
+                    <span class="day-num">{dayNumber}</span>
+                    <span class="day-literary">{day.shortDateEn}</span>
+                    <span class="day-weekday">{day.weekdayEn}</span>
+                  </span>
+                  <span class="day-date">
+                    <UiText zh={day.dateLabel} en={day.dateLabelEn} />
                   </span>
                 </time>
               </a>
+              {index === 0 && (
+                <span class="today-seal" title="今天">
+                  <span class="ui-zh">今</span>
+                  <span class="ui-en">今</span>
+                  <span class="sr-only">
+                    <span class="ui-zh">今天</span>
+                    <span class="ui-en">Today</span>
+                  </span>
+                </span>
+              )}
               {day.sample && (
                 <span class="pill">
                   <UiText zh="示例" en="Sample" />

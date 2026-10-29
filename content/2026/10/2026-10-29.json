@@ -272,5 +272,251 @@
         }
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "github-copilot-fusion",
+        "originalLang": "en",
+        "title": {
+          "zh": "GitHub 正式推出 Copilot Fusion，智能编排多模型；代理已发起逾四成 PR",
+          "en": "GitHub launches Copilot Fusion; agents now start over 40% of pull requests"
+        },
+        "summary": {
+          "zh": "GitHub 在 Universe 宣布 Copilot Fusion 正式可用：按任务自动路由与编排模型，提供 Standard/High/Max 三档；Octoverse 称截至9月逾40%的 PR 由智能体起草首稿，3月时仅17%。",
+          "en": "At Universe, GitHub made Copilot Fusion generally available—auto routing and orchestrating models at Standard, High or Max effort. Octoverse says agents drafted the first version of over 40% of PRs by September, up from 17% in March."
+        },
+        "sources": [
+          {
+            "name": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+            "lang": "en"
+          },
+          {
+            "name": "GitHub Octoverse 2026",
+            "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "Copilot Fusion 把 Project HydraFusion 的多模型编排与自动选模结合。开发者选 Fusion 与努力档位后，系统按任务决定用单模型、级联（Cascade）还是批判修订（Critique）流程。\n\n- Artificial Analysis Coding Agent Index 上，Fusion Max 得分 60，与 Claude Code + Opus 5.5 Max 相差约 2 分，但平均 API 成本约一半、耗时约少 40%。\n- Octoverse：过去12个月向 GitHub 推送 179 亿次；带智能体配置文件的新仓库平均提交量约为无配置仓库的 8 倍。\n- 付费用户短期使用 Fusion 可享模型费用 30% 折扣；企业可管控 Fusion 可用模型并设为默认。\n\n来源：[GitHub Changelog](https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/)、[Octoverse 2026](https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/)",
+          "en": "Copilot Fusion combines Project HydraFusion multi-model orchestration with auto model selection. After picking Fusion and an effort level, it chooses single-model, cascade, or critique workflows per task.\n\n- On the Artificial Analysis Coding Agent Index, Fusion Max scored 60—within two points of Claude Code with Opus 5.5 Max—at about half the average API cost and about 40% less time per task.\n- Octoverse: developers pushed to GitHub 17.9 billion times in 12 months; new repos with an agent config averaged eight times as many commits as those without.\n- Paid users get a limited-time 30% discount on model costs when using Fusion; admins can restrict which models Fusion may use and set it as the default.\n\nSources: [GitHub Changelog](https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/), [Octoverse 2026](https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/)"
+        }
+      },
+      {
+        "id": "openai-google-tpu",
+        "originalLang": "en",
+        "title": {
+          "zh": "媒体称 OpenAI 计划采购谷歌 TPU，以分散对英伟达依赖",
+          "en": "OpenAI plans to buy Google TPUs to diversify beyond Nvidia, report says"
+        },
+        "summary": {
+          "zh": "The Information 报道 OpenAI 计划购买谷歌张量处理单元（TPU），在已于2025年租用基础上扩大算力并降低对英伟达 GPU 的依赖；交易细节未披露，双方均未正式确认。Oracle 亦称将在云端提供谷歌 TPU。",
+          "en": "The Information reported OpenAI plans to buy Google Tensor Processing Units after renting them since 2025, diversifying beyond Nvidia GPUs. Terms were undisclosed and neither company confirmed. Oracle also said Google TPUs will come to its cloud."
+        },
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/openai-plans-to-buy-googles-ai-chips-the-information-reports-4977342",
+            "lang": "en"
+          },
+          {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/openai-plans-buy-googles-ai-chips-information-reports-6498406",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "en": "According to The Information, OpenAI wants Google's custom AI accelerators to add training and inference capacity while reducing sole reliance on Nvidia. OpenAI had already rented Google chips; a purchase would deepen that tie even as the two compete in chatbots and search.\n\n- Final pricing and volumes were not reported. Neither OpenAI nor Google publicly confirmed the deal.\n- Separately, Oracle said Google TPUs would arrive on Oracle Cloud in 2027, the first major deployment outside Google's own cloud, alongside Cerebras systems.\n\nSources: [Investing.com / Reuters](https://www.investing.com/news/stock-market-news/openai-plans-to-buy-googles-ai-chips-the-information-reports-4977342), [CNA](https://www.channelnewsasia.com/business/openai-plans-buy-googles-ai-chips-information-reports-6498406)"
+        }
+      }
+    ],
+    "world": [
+      {
+        "id": "spain-train-crash-mourning",
+        "originalLang": "en",
+        "title": {
+          "zh": "西班牙高铁相撞至少68死，桑切斯宣布全国哀悼三天",
+          "en": "Spain train crash kills at least 68; Sánchez declares three days of mourning"
+        },
+        "summary": {
+          "zh": "10月28日马德里至安达卢西亚高铁线托莱多附近，一列Renfe列车追尾停驶的Iryo列车，造成至少68人死亡、逾百人受伤；首相桑切斯宣布全国哀悼三天。交通部长称调度中心发出“难以解释”的复开指令。",
+          "en": "On Oct. 28 a Renfe high-speed train rear-ended a halted Iryo train near Urda, Toledo, killing at least 68 and injuring over 100. PM Sánchez declared three days of mourning. Officials blamed an “inexplicable” control-centre order after a signalling failure."
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261029/707472c613e34d06b755dec9e30d720d/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/train-accident-spain-4f65471a0e36f448d7ee9efe0768cd77",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "事故发生在乌尔达附近，两列同向列车共载约544人；这是西班牙今年第二起重大高铁事故（1月亚当斯附近已造成46人死亡）。\n\n- 交通部长普恩特称，LZB 信号系统约上午8:30因电脑故障失效，约63公里区间多列列车停下；调度中心随后指示至少两列恢复正常运行，尽管仍有停车信号。\n- Renfe 列车在约17分钟内行驶约25公里后撞上停住的 Iryo 列车；普恩特称另一名司机曾纠正类似错误指令。\n- 桑切斯誓言彻查，若有过失将严肃追责；反对党要求全面独立审查铁路安全。\n\n来源：[The Guardian](https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo)、[新华社](https://english.news.cn/20261029/707472c613e34d06b755dec9e30d720d/c.html)",
+          "en": "The crash near Urda involved about 544 passengers on the Madrid–Andalusia high-speed line—Spain’s second major HSR disaster this year after January’s Adamuz crash that killed 46.\n\n- Transport minister Óscar Puente said the LZB system failed around 8:30am, stranding trains across roughly 63km; the Madrid control centre then ordered at least two trains to resume normal running despite a stop signal.\n- The Renfe train travelled about 25km in roughly 17 minutes before hitting the stationary Iryo train. Puente said another driver had refused a similar order.\n- Sánchez pledged a thorough probe; the opposition called for a full independent review of rail safety.\n\nSources: [The Guardian](https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo), [Xinhua](https://english.news.cn/20261029/707472c613e34d06b755dec9e30d720d/c.html)"
+        }
+      },
+      {
+        "id": "israel-election-deadlock",
+        "originalLang": "en",
+        "title": {
+          "zh": "以色列大选初步结果：反内塔尼亚胡阵营约67席，组阁前景胶着",
+          "en": "Israel election: anti-Netanyahu camp near 67 seats, no clear majority path"
+        },
+        "summary": {
+          "zh": "以色列议会选举计票逾八成后，反对内塔尼亚胡的政党合计约67席（含阿拉伯政党约19席），内氏阵营约53席；两方均难单独过61席门槛，最终结果仍待军队等双信封选票计完。",
+          "en": "With most regular ballots counted, parties opposed to Benjamin Netanyahu held about 67 of 120 Knesset seats (including roughly 19 for Arab parties) versus about 53 for his bloc. Neither side can easily clear 61 alone; absentee ballots remain."
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261029/707472c613e34d06b755dec9e30d720d/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "Haaretz",
+            "url": "https://www.haaretz.com/israel-news/elections/2026-10-28/ty-article/.premium/with-85-6-of-votes-counted-opposition-wins-67-seats-with-19-for-arab-parties/000001a1-82fc-d9a9-a3ed-9bfcdc4c0000",
+            "lang": "en"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "en": "Updated results after roughly 85–89% of regular polling-station votes showed Gadi Eisenkot’s Jewish-led opposition bloc around the high 40s and Arab lists near 19, for a combined anti-Netanyahu total near 67. Netanyahu’s camp sat near 53.\n\n- About half a million double-envelope votes from military bases, hospitals and other sites were still being counted, with completion expected by Friday and fuller tallies into early November.\n- Many opposition parties have ruled out relying on Arab parties for a governing majority, leaving coalition maths uncertain.\n\nSources: [Xinhua](https://english.news.cn/20261029/707472c613e34d06b755dec9e30d720d/c.html), [Haaretz](https://www.haaretz.com/israel-news/elections/2026-10-28/ty-article/.premium/with-85-6-of-votes-counted-opposition-wins-67-seats-with-19-for-arab-parties/000001a1-82fc-d9a9-a3ed-9bfcdc4c0000)"
+        }
+      }
+    ],
+    "business": [
+      {
+        "id": "alphabet-stock-plunge",
+        "originalLang": "en",
+        "title": {
+          "zh": "Alphabet 盘前跌约10%，或创上市以来财报后最大跌幅；微软涨近4%",
+          "en": "Alphabet slides ~10% premarket toward its worst post-earnings drop; Microsoft up ~4%"
+        },
+        "summary": {
+          "zh": "10月29日美股盘前，Alphabet 因三季报自由现金流大幅为负、搜索广告增长不及预期而跌约10%，若收盘跌超9.77%将创2004年上市以来财报后最大跌幅；微软因资本开支低于预期、现金流仍为正上涨近4%，纳指期货跌约1%。",
+          "en": "On Oct. 29 Alphabet fell about 10% premarket after deeper-than-expected negative free cash flow and soft search ads—set for its worst post-earnings drop since 2004 if it closes below −9.77%. Microsoft rose nearly 4% on lighter-than-feared capex. Nasdaq futures fell about 1%."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/economy-news/nasdaq-futures-slide-as-mixed-big-tech-results-test-ai-trade-4981842",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "市场焦点从营收增速转向 AI 投入回报。Alphabet 三季度自由现金流约 −90.7 亿美元（分析师原预期约 −27 亿），全年资本开支指引仍为 1950–2050 亿美元；搜索广告增 12% 至约 633.5 亿美元，略逊预期。\n\n- 微软当季资本开支与融资租赁约 452 亿美元（同比 +30%），低于分析师约 506.7 亿美元预期；自由现金流降至约 186.3 亿美元但仍为正。\n- 分析师称微软扩张更“克制”，Alphabet 财报与电话会则显混乱；投资者开始更严格审视超大规模云厂商的烧钱节奏。\n\n来源：[CNBC](https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html)、[Reuters](https://www.investing.com/news/economy-news/nasdaq-futures-slide-as-mixed-big-tech-results-test-ai-trade-4981842)",
+          "en": "Investors shifted from growth headlines to AI returns. Alphabet’s free cash flow was about −$9.07B versus roughly −$2.7B expected; full-year capex guidance stayed $195B–$205B. Search ads grew 12% to about $63.35B, missing estimates.\n\n- Microsoft’s capex and finance leases were $45.2B (+30% YoY), below ~$50.67B expected; free cash flow fell to about $18.63B but stayed positive.\n- Quilter Cheviot’s Ben Barringer said Microsoft’s build-out looks measured while Alphabet’s results and call looked messy. Nasdaq-100 futures were down more than 1%.\n\nSources: [CNBC](https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html), [Reuters](https://www.investing.com/news/economy-news/nasdaq-futures-slide-as-mixed-big-tech-results-test-ai-trade-4981842)"
+        }
+      },
+      {
+        "id": "lagarde-steps-down",
+        "originalLang": "en",
+        "title": {
+          "zh": "欧洲央行行长拉加德宣布2027年2月7日提前卸任",
+          "en": "ECB President Christine Lagarde to step down on 7 February 2027"
+        },
+        "summary": {
+          "zh": "欧洲央行10月29日称，行长克里斯蒂娜·拉加德已告知理事会与欧洲理事会主席科斯塔，将于2027年2月7日卸任，较八年任期提前约九个月；继任者将按条约程序由欧洲理事会任命。",
+          "en": "The ECB said on Oct. 29 that President Christine Lagarde will leave on 7 February 2027, about nine months before her eight-year term ends. The European Council will appoint her successor under the Treaty process."
+        },
+        "sources": [
+          {
+            "name": "European Central Bank",
+            "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+            "lang": "en"
+          },
+          {
+            "name": "European Council",
+            "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/29/statement-by-president-antonio-costa-on-the-forthcoming-departure-of-christine-lagarde-from-the-european-central-bank/",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "en": "Lagarde has led the ECB since late 2019 through the pandemic, energy shocks and euro-area inflation above 11%. Her term was due to run to October 2027.\n\n- European Council President António Costa thanked her and said the succession process would start at once for a timely euro-area composition decision under Article 283 TFEU.\n- The Governing Council gave her a standing ovation. Markets awaited the ECB’s latest policy decision later Thursday.\n\nSources: [ECB](https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html), [European Council](https://www.consilium.europa.eu/en/press/press-releases/2026/10/29/statement-by-president-antonio-costa-on-the-forthcoming-departure-of-christine-lagarde-from-the-european-central-bank/)"
+        }
+      }
+    ],
+    "china": [
+      {
+        "id": "hainan-trade-facilitation",
+        "originalLang": "zh",
+        "title": {
+          "zh": "商务部等四部门出台16项措施，提高海南自贸港贸易自由化便利化水平",
+          "en": "Four ministries issue 16 measures to ease trade in Hainan Free Trade Port"
+        },
+        "summary": {
+          "zh": "商务部、国家发改委、生态环境部、海关总署联合印发通知，从货物贸易、服务贸易、新业态三方面提出16项措施，优化保税监管与研发测试，提升外籍人员入境执业便利，并深化与香港及粤港澳大湾区合作。",
+          "en": "Commerce, NDRC, ecology and customs ministries jointly issued 16 measures for Hainan’s Free Trade Port—upgrading goods trade, opening services (including foreign professionals), and expanding bonded repair, remanufacturing and ties with Hong Kong and the Greater Bay Area."
+        },
+        "sources": [
+          {
+            "name": "中华人民共和国商务部",
+            "url": "https://www.mofcom.gov.cn/xwfb/rcxwfb/art/2026/art_3474b02cab214c10b4a4fe49892b89da.html",
+            "lang": "zh"
+          },
+          {
+            "name": "央视网",
+            "url": "https://news.cctv.cn/2026/10/29/ARTI3WsIFt074gipzsmD6VvU261029.shtml",
+            "lang": "zh"
+          }
+        ],
+        "body": {
+          "zh": "《通知》聚焦汽车、石化新材料等产业，提出优化保税监管、保税交割、研发测试等支持举措；服务贸易方面扩大医疗、保险、职业资格认可等开放，提升外籍人员入境与执业便利；新业态方面探索保税维修、再制造，支持海南与香港全面深化合作。\n\n- 部门要求海南落实主体责任并强化风险防控。\n\n来源：[商务部](https://www.mofcom.gov.cn/xwfb/rcxwfb/art/2026/art_3474b02cab214c10b4a4fe49892b89da.html)",
+          "en": "The notice backs bonded supervision, delivery and R&D testing for autos and petrochemical materials; widens openings in healthcare, insurance and foreign professional credentials; and explores bonded repair and remanufacturing while deepening Hainan–Hong Kong and Greater Bay Area cooperation.\n\n- Agencies told Hainan to take primary implementation responsibility and strengthen risk controls.\n\nSource: [Ministry of Commerce](https://www.mofcom.gov.cn/xwfb/rcxwfb/art/2026/art_3474b02cab214c10b4a4fe49892b89da.html)"
+        }
+      },
+      {
+        "id": "fengyun-ai-weather",
+        "originalLang": "zh",
+        "title": {
+          "zh": "首批风云卫星极端天气AI模型发布，台风解译约27秒出报告",
+          "en": "China releases first Fengyun satellite AI models for extreme weather"
+        },
+        "summary": {
+          "zh": "10月29日风云卫星用户大会上，国家卫星气象中心发布台风智能云图解译与强对流短临预警两套AI模型：前者约每15分钟运行、27秒生成解译文本；后者用风云四号近两小时观测预判未来四小时云图演变。",
+          "en": "On Oct. 29 China released Fengyun AI models for typhoon cloud interpretation and severe-convection nowcasting. The typhoon model runs about every 15 minutes and drafts text in 27 seconds; the convection model forecasts four-hour cloud evolution from two hours of FY-4 data."
+        },
+        "sources": [
+          {
+            "name": "中国气象局",
+            "url": "https://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xqxyw/202610/t20261029_8115448.html",
+            "lang": "zh"
+          },
+          {
+            "name": "Global Times",
+            "url": "https://www.globaltimes.cn/page/202610/1373201.shtml",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "台风模型融合多通道云图与20余种实况产品，覆盖7类台风特征，可自动分析位置、结构、强度与演变并可视化依据；强对流模型将云图演变拆解为“大系统移动”与“小系统生消”，把预警提前至约四小时。\n\n- 发布现场还介绍了许健民气象卫星创新中心相关AI攻关团队。\n\n来源：[中国气象局](https://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xqxyw/202610/t20261029_8115448.html)",
+          "en": "The typhoon model fuses multi-channel imagery and 20-plus products across seven feature types, with visual explanations. The convection model separates large-scale motion from local cell growth/decay to push warnings toward a four-hour lead time.\n\n- Organizers also introduced an AI satellite-meteorology innovation team under the Xu Jianmin center.\n\nSource: [China Meteorological Administration](https://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xqxyw/202610/t20261029_8115448.html)"
+        }
+      }
+    ]
   }
 }

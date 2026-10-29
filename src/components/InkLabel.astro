@@ -1,0 +1,23 @@
+---
+interface Props {
+  href: string;
+  sectionId: string;
+  class?: string;
+}
+
+const { href, sectionId, class: className } = Astro.props;
+
+const wash: Record<string, string> = {
+  tech: 'M8 18C12 7 30 4 46 11C64 4 78 9 82 17C78 26 60 29 44 22C26 29 8 26 8 18Z',
+  world: 'M5 16C10 6 26 4 44 10C62 3 80 8 85 17C80 27 62 30 44 23C22 30 6 26 5 16Z',
+  business: 'M7 17C12 8 28 5 46 12C66 5 76 10 81 17C77 26 58 28 44 22C24 29 8 25 7 17Z',
+  china: 'M6 15C11 5 28 3 46 10C66 2 82 8 86 16C81 28 62 31 44 23C20 30 6 25 6 15Z',
+};
+---
+
+<a class:list={['ink-label', `tag-${sectionId}`, className]} href={href}>
+  <svg class="ink-wash" viewBox="0 0 90 32" preserveAspectRatio="none" aria-hidden="true">
+    <path d={wash[sectionId] ?? wash.tech}></path>
+  </svg>
+  <span class="ink-label-text"><slot /></span>
+</a>

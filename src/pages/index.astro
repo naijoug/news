@@ -9,24 +9,28 @@ if (days.length === 0) throw new Error('No days to render');
 ---
 
 <Base
-  title="朝夕"
-  titleEn="Zhaoxi"
+  title="朝夕 · 每日新闻"
+  titleEn="朝夕 · Daily News"
   description="朝闻道，夕死可矣！ If one hears the Way in the morning, one may die content in the evening."
   path="/"
   current="home"
   noindex={!hasRealDay(days)}
 >
   <header class="page-head index-head">
+    <svg class="ink-mountains" viewBox="0 0 800 120" aria-hidden="true">
+      <path d="M0 96 90 58 150 86 230 36 310 90 390 28 470 82 560 44 650 92 730 48 800 90V120H0Z"></path>
+      <path d="M0 108 130 74 210 98 330 58 430 96 570 68 690 102 800 70V120H0Z"></path>
+    </svg>
     <p class="eyebrow">
-      <UiText zh="目录" en="Index" />
+      <UiText zh="册页" en="Leaves" />
     </p>
     <h1>
-      <UiText zh="近日" en="Recent days" />
+      <UiText zh="每日新闻" en="Daily News" />
     </h1>
     <p class="dek">
       <UiText
-        zh="每天列出若干标题。点开日期，看这一天的上午和下午。"
-        en="A few headlines from each day. Open a date for that morning and afternoon."
+        zh="点开日期，看这一天的上午和下午。"
+        en="Open a date for that morning and afternoon."
       />
     </p>
   </header>

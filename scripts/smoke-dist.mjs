@@ -118,12 +118,28 @@ if (home && latest) {
   }
   if (home.includes('/editions/')) fail('homepage still links to the old edition route');
   if (!home.includes('朝闻道，夕死可矣！')) fail('homepage missing the slogan');
+  if (!home.includes('朝夕 · 每日新闻')) fail('homepage title is not 朝夕 · 每日新闻');
+  if (!home.includes('data-title-en="朝夕 · Daily News"')) fail('homepage English title is not 朝夕 · Daily News');
+  if (!home.includes('十月')) fail('homepage missing the literary month');
+}
+
+const latestDay = latest && read(`days/${latest.date}/index.html`);
+if (latest && latestDay) {
+  const [, monthNum, dayNum] = latest.date.split('-').map(Number);
+  const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  if (!latestDay.includes(`朝夕 · ${monthNum}月${dayNum}日`)) {
+    fail(`day ${latest.date} title is not 朝夕 · ${monthNum}月${dayNum}日`);
+  }
+  if (!latestDay.includes(`data-title-en="朝夕 · ${shortMonths[monthNum - 1]} ${dayNum}"`)) {
+    fail(`day ${latest.date} English title is not 朝夕 · ${shortMonths[monthNum - 1]} ${dayNum}`);
+  }
 }
 
 const techSection = read('sections/tech/index.html');
-if (techSection && !techSection.includes('data-title-en="Tech · Zhaoxi"')) {
-  fail('tech section page title is not Tech');
+if (techSection && !techSection.includes('data-title-en="朝夕 · Tech"')) {
+  fail('tech section page title is not 朝夕 · Tech');
 }
+if (techSection && !techSection.includes('朝夕 · 科技')) fail('tech section page title is not 朝夕 · 科技');
 if (techSection && !techSection.includes('>科技</span>')) fail('tech section heading is not 科技');
 if (techSection && techSection.includes('科技与AI')) fail('tech section page still says 科技与AI');
 

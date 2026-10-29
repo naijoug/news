@@ -2,6 +2,7 @@
   color-scheme: light;
   --bg: #f2f0ea;
   --card: #f2f0ea;
+  --leaf: #f8f6f0;
   --ink: #1b1b1a;
   --muted: #5e5952;
   --rule: #d4cfc6;
@@ -31,6 +32,7 @@
     color-scheme: dark;
     --bg: #1b1b1a;
     --card: #1b1b1a;
+    --leaf: #242321;
     --ink: #f2f0ea;
     --muted: #a39e96;
     --rule: #3a3834;
@@ -56,6 +58,7 @@
   color-scheme: light;
   --bg: #f2f0ea;
   --card: #f2f0ea;
+  --leaf: #f8f6f0;
   --ink: #1b1b1a;
   --muted: #5e5952;
   --rule: #d4cfc6;
@@ -80,6 +83,7 @@
   color-scheme: dark;
   --bg: #1b1b1a;
   --card: #1b1b1a;
+  --leaf: #242321;
   --ink: #f2f0ea;
   --muted: #a39e96;
   --rule: #3a3834;
@@ -498,9 +502,9 @@ main .wrap {
 }
 
 .index-head h1 {
-  font-size: 0.95rem;
+  font-size: clamp(1.6rem, 4vw, 2.1rem);
   font-weight: 500;
-  letter-spacing: 0.28em;
+  letter-spacing: 0.18em;
 }
 
 .eyebrow {
@@ -866,19 +870,39 @@ html[data-ui="en"] .version-summary .tip.ui-en {
   --tag-ink: var(--tag-china-ink);
 }
 
+.ink-mountains {
+  display: block;
+  width: min(100%, 34rem);
+  height: 4.2rem;
+  margin: 0 0 0.2rem;
+  color: var(--ink);
+}
+
+.ink-mountains path:first-child {
+  fill: currentColor;
+  opacity: 0.07;
+}
+
+.ink-mountains path:last-child {
+  fill: currentColor;
+  opacity: 0.12;
+}
+
 .day-index {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 1.2rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+  max-width: 44rem;
 }
 
 .day-row {
-  display: grid;
-  grid-template-columns: 9.5rem minmax(0, 1fr);
-  gap: 0.4rem 2rem;
-  align-items: start;
-  padding: 2.15rem 0 2rem;
-  border-bottom: 1px solid var(--rule);
+  display: block;
+  padding: 1.35rem 1.35rem 1.2rem;
+  border: 1px solid var(--rule);
+  background: var(--leaf);
 }
 
 .day-row h2 {
@@ -894,9 +918,9 @@ html[data-ui="en"] .version-summary .tip.ui-en {
 
 .day-row time {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.45rem;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem 1.5rem;
 }
 
 .day-num {
@@ -914,14 +938,22 @@ html[data-ui="en"] .version-summary .tip.ui-en {
   gap: 0.12rem;
 }
 
+.day-literary {
+  font-size: 1.15rem;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+}
+
 .day-date {
-  font-size: 0.95rem;
-  letter-spacing: 0.03em;
+  color: var(--muted);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
   line-height: 1.45;
 }
 
-.day-row h2 a:hover .day-num {
-  color: var(--seal);
+.day-row h2 a:hover .day-literary {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
 }
 
 .day-weekday {
@@ -933,11 +965,12 @@ html[data-ui="en"] .version-summary .tip.ui-en {
 
 .headline-list {
   list-style: none;
-  padding: 0.35rem 0 0;
-  margin: 0;
+  padding: 0.85rem 0 0;
+  margin: 0.85rem 0 0;
+  border-top: 1px solid var(--rule);
   display: flex;
   flex-direction: column;
-  gap: 0.55rem;
+  gap: 0.62rem;
 }
 
 .headline-row {
@@ -982,28 +1015,74 @@ html[data-ui="en"] .version-summary .tip.ui-en {
 
 .card-section,
 .headline-tag,
-.kicker a.section-tag {
+.kicker a.section-tag,
+.ink-label {
+  position: relative;
   flex: none;
   display: inline-flex;
   align-items: center;
-  min-height: 1.35rem;
-  padding: 0 0.32rem;
-  border: 1px solid var(--seal);
-  border-radius: 1px;
+  justify-content: center;
+  min-height: 1.55rem;
+  padding: 0.12rem 0.55rem;
+  border: 0;
+  border-radius: 0;
   background: transparent;
-  color: var(--seal);
+  color: var(--ink);
   text-decoration: none;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   line-height: 1.4;
-  font-size: 0.75rem;
+  font-size: 0.78rem;
+  isolation: isolate;
+}
+
+.ink-wash {
+  position: absolute;
+  z-index: 0;
+  inset: -0.18rem -0.15rem;
+  width: calc(100% + 0.3rem);
+  height: calc(100% + 0.36rem);
+  color: var(--ink);
+  pointer-events: none;
+}
+
+.ink-wash path {
+  fill: currentColor;
+}
+
+.tag-tech .ink-wash {
+  opacity: 0.16;
+}
+
+.tag-world .ink-wash {
+  opacity: 0.12;
+}
+
+.tag-business .ink-wash {
+  opacity: 0.18;
+}
+
+.tag-china .ink-wash {
+  opacity: 0.22;
+}
+
+:root[data-theme="dark"] .ink-wash {
+  opacity: 0.34;
+}
+
+.ink-label-text {
+  position: relative;
+  z-index: 1;
 }
 
 .card-section:hover,
 .headline-tag:hover,
-.kicker a.section-tag:hover {
-  color: var(--tag-ink);
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
+.kicker a.section-tag:hover,
+.ink-label:hover {
+  color: var(--ink);
+}
+
+.ink-label:hover .ink-wash {
+  opacity: 0.28;
 }
 
 .card-link {
@@ -1121,9 +1200,10 @@ html[data-ui="en"] .version-summary .tip.ui-en {
 }
 
 @media (max-width: 40rem) {
-  .day-row {
-    grid-template-columns: 1fr;
-    gap: 0.9rem;
+  .day-row time {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.35rem;
   }
 
   .nav-list {

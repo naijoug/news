@@ -52,6 +52,9 @@ export interface Day {
   weekdayEn: string;
   dateLabel: string;
   dateLabelEn: string;
+  literaryDate: string;
+  shortDate: string;
+  shortDateEn: string;
   monthLabel: string;
   monthLabelEn: string;
   dayLabel: string;
@@ -82,6 +85,23 @@ const MONTHS_EN = [
   'November',
   'December',
 ];
+const MONTHS_SHORT = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const CN_DIGIT = ['〇', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
+
+function cnMonth(month: number): string {
+  if (month === 10) return '十';
+  if (month < 10) return CN_DIGIT[month] ?? '';
+  return `十${CN_DIGIT[month - 10] ?? ''}`;
+}
+
+function cnDay(day: number): string {
+  if (day < 10) return CN_DIGIT[day] ?? '';
+  if (day === 10) return '十';
+  if (day < 20) return `十${CN_DIGIT[day - 10] ?? ''}`;
+  const tens = Math.floor(day / 10);
+  const ones = day % 10;
+  return `${CN_DIGIT[tens] ?? ''}十${ones ? (CN_DIGIT[ones] ?? '') : ''}`;
+}
 const FILE_RE = /^(\d{4})\/(\d{2})\/(\d{4}-\d{2}-\d{2})\.json$/;
 
 export function partMeta(id: PartId) {
@@ -101,6 +121,9 @@ export function formatDate(iso: string) {
     weekdayEn: WEEKDAYS_EN[utc.getUTCDay()] ?? '',
     dateLabel: `${year}年${month}月${day}日`,
     dateLabelEn: `${monthEn} ${day}, ${year}`,
+    literaryDate: `${cnMonth(month)}月${cnDay(day)}日`,
+    shortDate: `${month}月${day}日`,
+    shortDateEn: `${MONTHS_SHORT[month - 1] ?? ''} ${day}`,
     monthLabel: `${year}年${month}月`,
     monthLabelEn: `${monthEn} ${year}`,
     dayLabel: `${day}日`,

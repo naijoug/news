@@ -26,8 +26,8 @@ const { day, newer, older } = Astro.props;
 ---
 
 <Base
-  title={`${day.dateLabel} · 朝夕`}
-  titleEn={`${day.dateLabelEn} · Zhaoxi`}
+  title={`朝夕 · ${day.shortDate}`}
+  titleEn={`朝夕 · ${day.shortDateEn}`}
   description={dayDescription(day)}
   path={dayPath(day)}
   current="archive"

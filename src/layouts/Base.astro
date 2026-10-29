@@ -81,6 +81,7 @@ const rss = absolute('rss.xml');
     <link rel="canonical" href={canonical} />
     <link rel="alternate" type="application/rss+xml" title="朝夕" href={rss} />
     <link rel="icon" href={href('favicon.svg')} type="image/svg+xml" />
+    <link rel="apple-touch-icon" href={href('apple-touch-icon.png')} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     {prev && <link rel="prev" href={prev} />}
     {next && <link rel="next" href={next} />}

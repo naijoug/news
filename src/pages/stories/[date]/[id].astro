@@ -1,5 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import InkLabel from '../../../components/InkLabel.astro';
 import Sources from '../../../components/Sources.astro';
 import UiText from '../../../components/UiText.astro';
 import VersionFold from '../../../components/VersionFold.astro';
@@ -41,8 +42,8 @@ const hasBody = Boolean(story.bodyHtml?.zh || story.bodyHtml?.en);
 ---
 
 <Base
-  title={`${titleZh} · 朝夕`}
-  titleEn={`${titleEn} · Zhaoxi`}
+  title={`朝夕 · ${titleZh}`}
+  titleEn={`朝夕 · ${titleEn}`}
   description={description}
   path={storyPath(story)}
   current={section?.id as 'tech' | 'world' | 'business' | 'china' | undefined}
@@ -56,9 +57,9 @@ const hasBody = Boolean(story.bodyHtml?.zh || story.bodyHtml?.en);
         </a>
         {
           section && (
-            <a class={`section-tag tag-${section.id}`} href={href(sectionPath(section.id))}>
+            <InkLabel class="section-tag" href={href(sectionPath(section.id))} sectionId={section.id}>
               <UiText zh={section.name.zh} en={section.name.en} />
-            </a>
+            </InkLabel>
           )
         }
         <UiText zh={part.zh} en={part.en} />

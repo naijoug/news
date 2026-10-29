@@ -1,4 +1,5 @@
 ---
+import InkLabel from './InkLabel.astro';
 import UiText from './UiText.astro';
 import { dayPath, sectionById, sectionPath, storyPath, type Day } from '../lib/editions';
 import { href } from '../lib/urls';
@@ -27,11 +28,14 @@ const PREVIEW = 8;
                     {dayNumber}
                   </span>
                   <span class="day-meta">
-                    <span class="day-date">
-                      <UiText zh={day.dateLabel} en={day.dateLabelEn} />
+                    <span class="day-literary">
+                      <UiText zh={day.literaryDate} en={day.dayLabelEn} />
                     </span>
                     <span class="day-weekday">
                       <UiText zh={day.weekday} en={day.weekdayEn} />
+                    </span>
+                    <span class="day-date">
+                      <UiText zh={day.dateLabel} en={day.dateLabelEn} />
                     </span>
                   </span>
                 </time>
@@ -52,9 +56,9 @@ const PREVIEW = 8;
               return (
                 <li class="headline-row">
                   {section && (
-                    <a class={`headline-tag tag-${section.id}`} href={href(sectionPath(section.id))}>
+                    <InkLabel class="headline-tag" href={href(sectionPath(section.id))} sectionId={section.id}>
                       <UiText zh={section.name.zh} en={section.name.en} />
-                    </a>
+                    </InkLabel>
                   )}
                   <a class="headline-title" href={href(storyPath(story))}>
                     <span

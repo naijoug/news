@@ -1,4 +1,5 @@
 ---
+import InkLabel from './InkLabel.astro';
 import UiText from './UiText.astro';
 import VersionFold from './VersionFold.astro';
 import { partMeta, sectionById, storyPath, sectionPath, type Story } from '../lib/editions';
@@ -22,9 +23,9 @@ const hasEn = Boolean(story.title.en && story.summary.en);
     <p class="card-kicker">
       {
         showSection && section && (
-          <a class={`card-section tag-${section.id}`} href={href(sectionPath(section.id))}>
+          <InkLabel class="card-section" href={href(sectionPath(section.id))} sectionId={section.id}>
             <UiText zh={section.name.zh} en={section.name.en} />
-          </a>
+          </InkLabel>
         )
       }
       {

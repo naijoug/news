@@ -118,12 +118,28 @@ if (home && latest) {
   }
   if (home.includes('/editions/')) fail('homepage still links to the old edition route');
   if (!home.includes('朝闻道，夕死可矣！')) fail('homepage missing the slogan');
+  if (!home.includes('朝夕 · 每日新闻')) fail('homepage title is not 朝夕 · 每日新闻');
+  if (!home.includes('data-title-en="朝夕 · Daily News"')) fail('homepage English title is not 朝夕 · Daily News');
+  if (!home.includes('十月')) fail('homepage missing the literary month');
+}
+
+const latestDay = latest && read(`days/${latest.date}/index.html`);
+if (latest && latestDay) {
+  const [, monthNum, dayNum] = latest.date.split('-').map(Number);
+  const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  if (!latestDay.includes(`朝夕 · ${monthNum}月${dayNum}日`)) {
+    fail(`day ${latest.date} title is not 朝夕 · ${monthNum}月${dayNum}日`);
+  }
+  if (!latestDay.includes(`data-title-en="朝夕 · ${shortMonths[monthNum - 1]} ${dayNum}"`)) {
+    fail(`day ${latest.date} English title is not 朝夕 · ${shortMonths[monthNum - 1]} ${dayNum}`);
+  }
 }
 
 const techSection = read('sections/tech/index.html');
-if (techSection && !techSection.includes('data-title-en="Tech · Zhaoxi"')) {
-  fail('tech section page title is not Tech');
+if (techSection && !techSection.includes('data-title-en="朝夕 · Tech"')) {
+  fail('tech section page title is not 朝夕 · Tech');
 }
+if (techSection && !techSection.includes('朝夕 · 科技')) fail('tech section page title is not 朝夕 · 科技');
 if (techSection && !techSection.includes('>科技</span>')) fail('tech section heading is not 科技');
 if (techSection && techSection.includes('科技与AI')) fail('tech section page still says 科技与AI');
 
@@ -202,10 +218,15 @@ function collectCss(dir, out = []) {
 const builtCss = collectCss(dist).join('\n');
 if (!builtCss.includes('Fira Code')) fail('built CSS does not declare Fira Code');
 if (!builtCss.includes('Noto Serif SC')) fail('built CSS does not declare Noto Serif SC');
+if (!builtCss.includes('Long Cang')) fail('built CSS does not declare Long Cang');
+if (!builtCss.includes('Caveat')) fail('built CSS does not declare Caveat');
 if (!builtCss.includes('woff2')) fail('fonts are not self-hosted as woff2');
 if (home.includes('class="seal"')) fail('homepage still shows the 日 seal');
 if (/fonts\.googleapis\.com|fonts\.gstatic\.com/.test(`${builtCss}\n${home}`)) {
   fail('page requests a third-party font host');
+}
+if (/#b23a2b|#c9897c/i.test(`${builtCss}\n${home}\n${read('favicon.svg')}`)) {
+  fail('built site still uses a vermilion color');
 }
 
 if (!rss.includes('<rss') || !rss.includes('朝夕')) fail('RSS feed is missing its channel');

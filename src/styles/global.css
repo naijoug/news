@@ -12,15 +12,16 @@
   --accent-soft: #e6e2d9;
   --accent-line: #d4cfc6;
   --shadow: none;
-  --seal: #b23a2b;
+  /* Ink only. No vermilion seals or red dots. */
+  --seal: var(--ink);
   --tag-tech-bg: transparent;
-  --tag-tech-ink: #b23a2b;
+  --tag-tech-ink: var(--ink);
   --tag-world-bg: transparent;
-  --tag-world-ink: #b23a2b;
+  --tag-world-ink: var(--ink);
   --tag-business-bg: transparent;
-  --tag-business-ink: #b23a2b;
+  --tag-business-ink: var(--ink);
   --tag-china-bg: transparent;
-  --tag-china-ink: #b23a2b;
+  --tag-china-ink: var(--ink);
   /* Fira Code draws Latin. Noto Serif SC draws Chinese, then the system songti stack. */
   --serif: "Fira Code", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
   --sans: "Fira Code", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
@@ -42,15 +43,15 @@
     --accent-soft: #2a2926;
     --accent-line: #3a3834;
     --shadow: none;
-    --seal: #c9897c;
+    --seal: var(--ink);
     --tag-tech-bg: transparent;
-    --tag-tech-ink: #c9897c;
+    --tag-tech-ink: var(--ink);
     --tag-world-bg: transparent;
-    --tag-world-ink: #c9897c;
+    --tag-world-ink: var(--ink);
     --tag-business-bg: transparent;
-    --tag-business-ink: #c9897c;
+    --tag-business-ink: var(--ink);
     --tag-china-bg: transparent;
-    --tag-china-ink: #c9897c;
+    --tag-china-ink: var(--ink);
   }
 }
 
@@ -68,15 +69,16 @@
   --accent-soft: #e6e2d9;
   --accent-line: #d4cfc6;
   --shadow: none;
-  --seal: #b23a2b;
+  /* Ink only. No vermilion seals or red dots. */
+  --seal: var(--ink);
   --tag-tech-bg: transparent;
-  --tag-tech-ink: #b23a2b;
+  --tag-tech-ink: var(--ink);
   --tag-world-bg: transparent;
-  --tag-world-ink: #b23a2b;
+  --tag-world-ink: var(--ink);
   --tag-business-bg: transparent;
-  --tag-business-ink: #b23a2b;
+  --tag-business-ink: var(--ink);
   --tag-china-bg: transparent;
-  --tag-china-ink: #b23a2b;
+  --tag-china-ink: var(--ink);
 }
 
 :root[data-theme="dark"] {
@@ -93,15 +95,16 @@
   --accent-soft: #2a2926;
   --accent-line: #3a3834;
   --shadow: none;
-  --seal: #c9897c;
+  /* Ink only. No vermilion seals or red dots. */
+  --seal: var(--ink);
   --tag-tech-bg: transparent;
-  --tag-tech-ink: #c9897c;
+  --tag-tech-ink: var(--ink);
   --tag-world-bg: transparent;
-  --tag-world-ink: #c9897c;
+  --tag-world-ink: var(--ink);
   --tag-business-bg: transparent;
-  --tag-business-ink: #c9897c;
+  --tag-business-ink: var(--ink);
   --tag-china-bg: transparent;
-  --tag-china-ink: #c9897c;
+  --tag-china-ink: var(--ink);
 }
 
 *,
@@ -1004,20 +1007,17 @@ html[data-ui="en"] .day-en {
   letter-spacing: 0.08em;
 }
 
-.today-seal {
+.today-mark {
   position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  width: 1.4rem;
-  height: 1.4rem;
-  display: grid;
-  place-items: center;
-  background: #b23a2b;
-  color: #f3efe6;
+  top: 0.62rem;
+  right: 0.7rem;
+  color: var(--ink);
   font-family: "Noto Serif SC", "Source Han Serif SC", serif;
-  font-size: 0.74rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
   line-height: 1;
-  transform: rotate(-8deg);
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 0.12rem;
 }
 
 .headline-list {

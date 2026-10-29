@@ -1,0 +1,276 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-29",
+  "am": {
+    "tech": [
+      {
+        "id": "gemini-4-carbon",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌发布 Gemini 4 Carbon，主打网络安全与长程智能体",
+          "en": "Google unveils Gemini 4 Carbon, its new frontier model for cyber and long tasks"
+        },
+        "summary": {
+          "zh": "谷歌 DeepMind 10月28日发布 Gemini 4 Carbon，称其在 Artificial Analysis 智能指数 v5.0 上以 59 分排名第一，漏洞发现、利用验证与补丁三项安全基准领先；首批仅向部分网络防御者开放。",
+          "en": "Google DeepMind announced Gemini 4 Carbon on Oct. 28, saying it ranks No. 1 on the Artificial Analysis Intelligence Index v5.0 (59) and leads cyber benchmarks for finding, exploiting and patching bugs. Access starts with a subset of cyber defenders."
+        },
+        "sources": [
+          {
+            "name": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "Carbon 在 Gemini 4 Argon（两周前发布）基础上进一步提升编程、智能体与长程任务能力。谷歌公布的成绩包括：SEC-bench Pro 88.2%（发现漏洞）、ExploitGym 54.8%（验证可利用性）、CWE-bench 71.0%（修复）。\n\n- 谷歌称内部测试中 Carbon 可连续运行数天处理复杂工程任务，生成安全代码的成功率比 Argon 高一倍以上。\n- 安全方面，Terminal-Bench 4.0 上的成功作弊降至 0%，间接提示注入攻击成功率为 0%。\n- 采取分阶段发布：本周先向部分网络防御者开放，再经 Fairwind 计划扩展到可信合作伙伴，之后面向开发者和消费者；并参与美国政府自愿性的发布前模型测试。\n- 推广期价格为每百万输入 token 2 美元、输出 10 美元，之后为 4 美元/20 美元。\n\n来源：[Google 官方博客](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)",
+          "en": "Carbon builds on Gemini 4 Argon, released two weeks earlier, with gains in coding, agentic and long-horizon work. Google reports 88.2% on SEC-bench Pro (finding vulnerabilities), 54.8% on ExploitGym (exploitation) and 71.0% on CWE-bench (patching).\n\n- Google says internal teams have seen Carbon run for days on multi-step engineering tasks, with more than 2x the secure-code success rate of Argon.\n- On safety, successful cheating on Terminal-Bench 4.0 fell to 0.0% and indirect prompt-injection attack success to 0.0%.\n- Rollout is staged: a subset of cyber defenders this week, then trusted partners via the Fairwind Program, then developers and consumers. Google says it is taking part in the U.S. government's voluntary pre-release testing.\n- Introductory pricing is $2 per million input tokens and $10 per million output tokens, rising to $4 and $20 later.\n\nSource: [Google blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)"
+        }
+      },
+      {
+        "id": "axiom-cfsg-lean",
+        "originalLang": "en",
+        "title": {
+          "zh": "Axiom 用 AI 智能体在 Lean 中完整形式化“有限单群分类定理”",
+          "en": "Axiom's AI agents fully formalize the Classification of Finite Simple Groups in Lean"
+        },
+        "summary": {
+          "zh": "Axiom 发布首个完整的计算机验证版有限单群分类定理（CFSG）证明：原证明约 1.5 万页、500 多篇论文；团队指挥数十个 AI 智能体在 24 天内写出约 4310 万行 Lean 代码，并发现 34 处需修正的偏差。",
+          "en": "Axiom released the first complete computer-checked proof of the Classification of Finite Simple Groups, a ~15,000-page result. Dozens of AI agents produced about 43.1 million lines of Lean in 24 days and surfaced 34 notable deviations from the published record."
+        },
+        "sources": [
+          {
+            "name": "Axiom",
+            "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+            "lang": "en"
+          },
+          {
+            "name": "GitHub · AxiomMath/CFSG",
+            "url": "https://github.com/AxiomMath/CFSG",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "有限单群分类定理被称为“巨型定理”，给出所有有限单群的完整清单：素数阶循环群、交错群、16 个李型群族，以及 26 个散在单群。\n\n- 项目沿用“第一代证明”，基于 Mathlib 与 TauCeti，代码已在 GitHub 公开，不含 sorry。\n- 形式化过程中发现大量小错误，以及 34 处值得注意的偏差，最大的一处涉及“非平衡群定理”的已发表论证；团队给出替代论证，并整理成新论文。\n- 这是 AI 智能体在大规模数学形式化上的又一里程碑。\n\n来源：[Axiom 研究博客](https://axiommath.ai/research/the-enormous-theorem-formalized/)、[GitHub 仓库](https://github.com/AxiomMath/CFSG)",
+          "en": "The classification, nicknamed the enormous theorem, lists every finite simple group: cyclic groups of prime order, alternating groups, sixteen families of Lie type, and 26 sporadic groups.\n\n- The project follows the first-generation proof, builds on Mathlib and TauCeti, and is public on GitHub with no sorry.\n- Formalization exposed many minor errors and 34 noteworthy deviations, the biggest in a published route to the Unbalanced Group Theorem; Axiom supplied an alternative argument in a new paper.\n\nSources: [Axiom research blog](https://axiommath.ai/research/the-enormous-theorem-formalized/), [GitHub repository](https://github.com/AxiomMath/CFSG)"
+        }
+      }
+    ],
+    "world": [
+      {
+        "id": "hormuz-mine-claims",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗称油轮在霍尔木兹海峡以东触雷起火，美军否认",
+          "en": "Iran says tanker hit mine east of Hormuz; CENTCOM rejects mine claims"
+        },
+        "summary": {
+          "zh": "伊朗海军称一艘关闭追踪系统的油轮擅闯霍尔木兹海峡以东“禁区”触雷起火，并称海峡对未经协调的船只“不安全且关闭”；美军中央司令部10月28日回应称主要航道已被清雷、通行安全。",
+          "en": "Iran's navy said a tanker that had switched off its tracking systems struck mines east of the Strait of Hormuz and caught fire, calling the strait closed to uncoordinated ships. U.S. Central Command said on Oct. 28 the main transit routes are clear."
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/middle-east/iran-says-oil-tanker-catches-fire-after-hitting-naval-mine-east-of-strait-of-hormuz/4102560",
+            "lang": "en"
+          },
+          {
+            "name": "Iran International",
+            "url": "https://www.iranintl.com/en/202610286050",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "en": "Iran's navy, in a statement carried by IRNA, did not name the tanker or report casualties. It said ships seeking safe passage must coordinate with Iran's armed forces.\n\n- CENTCOM said on X that all internationally recognized primary routes \"have been cleared of sea mines by U.S. forces and remain so,\" and that thousands of ships use them safely.\n- Independent confirmation of the strike was not available. U.S.-Iran talks begun after a June memorandum broke down over navigation in the strait.\n\nSources: [Anadolu Agency](https://www.aa.com.tr/en/middle-east/iran-says-oil-tanker-catches-fire-after-hitting-naval-mine-east-of-strait-of-hormuz/4102560), [Iran International](https://www.iranintl.com/en/202610286050)"
+        }
+      },
+      {
+        "id": "drc-ebola-10000",
+        "originalLang": "en",
+        "title": {
+          "zh": "刚果（金）埃博拉确诊病例突破一万例",
+          "en": "DR Congo's Ebola outbreak tops 10,000 confirmed cases"
+        },
+        "summary": {
+          "zh": "刚果（金）卫生部门称，截至10月25日，自5月暴发以来埃博拉（本迪布焦病毒）确诊病例达 10060 例、死亡 4887 例，病死率 48.6%；疫情已波及肯尼亚、尼日利亚等国，世卫组织呼吁持续防控。",
+          "en": "DR Congo reported 10,060 confirmed Ebola (Bundibugyo virus) cases and 4,887 deaths as of Oct. 25 since the outbreak began in May, a 48.6% fatality rate. Cases have spread to Kenya and Nigeria, and WHO urged sustained containment."
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261028/0e9e573e5d7745a583910364241c9a9f/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "UN News",
+            "url": "https://news.un.org/en/story/2026/10/1168689",
+            "lang": "en"
+          },
+          {
+            "name": "WHO",
+            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "fed-holds-rates-oct",
+        "originalLang": "en",
+        "title": {
+          "zh": "美联储按兵不动维持 3.75%–4%，两名委员主张加息",
+          "en": "Fed holds rates at 3.75%–4%; two officials dissent in favor of a hike"
+        },
+        "summary": {
+          "zh": "美联储10月28日以 10 比 2 维持联邦基金利率 3.75%–4% 不变，称通胀“仍然偏高”、需等待更多信息；理事库克和克利夫兰联储主席哈马克主张加息 25 个基点。美股三大指数小幅收涨。",
+          "en": "The Fed voted 10–2 on Oct. 28 to hold the federal funds rate at 3.75%–4%, saying inflation \"remains elevated\" and it awaits more information. Lisa Cook and Beth Hammack dissented for a quarter-point hike. U.S. stocks closed slightly higher."
+        },
+        "sources": [
+          {
+            "name": "Federal Reserve",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-7864eac2e13db75f07758ed9c39ad96b",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "en": "The statement upgraded the economy to growing \"at a strong pace,\" with robust capital investment. The Fed raised rates by a quarter point in September for the first time in three years.\n\n- Chair Kevin Warsh said Q3 growth likely ran above 3%, led by consumer spending and double-digit business investment.\n- He announced that in 2027 one of the eight FOMC meetings will focus only on strategy, with no rate vote or statement.\n- The next policy meeting is in December. At the close, the Dow rose 0.19% to 52,475.10, the S&P 500 0.28% to 7,743.98 and the Nasdaq 0.27% to 26,549.85.\n\nSources: [Federal Reserve](https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm), [CNBC](https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html), [AP](https://apnews.com/article/wall-street-stocks-dow-nasdaq-7864eac2e13db75f07758ed9c39ad96b)"
+        }
+      },
+      {
+        "id": "alphabet-microsoft-q3",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌云收入翻倍但 Alphabet 盈利不及预期；微软 Azure 增 48%",
+          "en": "Alphabet misses as Cloud doubles; Microsoft beats with Azure up 48%"
+        },
+        "summary": {
+          "zh": "Alphabet 三季度营收 1276 亿美元（+25%），谷歌云增 103% 至 307 亿美元，但营收与每股收益均不及预期，资本支出 514 亿美元致自由现金流为负，盘后跌逾 7%；微软营收 923 亿美元（+19%）超预期，盘后上涨。",
+          "en": "Alphabet's Q3 revenue rose 25% to $127.6B and Google Cloud 103% to $30.7B, but revenue and EPS missed, and $51.4B of capex pushed free cash flow negative; shares fell over 7% after hours. Microsoft beat with $92.3B (+19%) and rose."
+        },
+        "sources": [
+          {
+            "name": "Alphabet (SEC filing)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+            "lang": "en"
+          },
+          {
+            "name": "Microsoft Source",
+            "url": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "en": "**Alphabet**: GAAP EPS was $2.12 versus $2.87 a year ago, partly due to an $8.7B loss on equity securities. Search grew 12% to $63.4B. CEO Sundar Pichai cited a half-trillion-dollar revenue run rate and a Gemini app at one billion users. Free cash flow was about -$9.1B; 2026 capex guidance of $195B–$205B holds, with 2027 to \"increase significantly.\"\n\n**Microsoft**: fiscal Q1 GAAP EPS was $4.92, Microsoft Cloud revenue $63.9B (+30%), and commercial remaining performance obligation rose 73% to $677B. Free cash flow stayed positive at about $18.6B.\n\nSources: [Alphabet release (SEC)](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm), [Microsoft](https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/), [The Motley Fool](https://www.fool.com/investing/2026/10/28/microsoft-and-alphabet-just-reported-earnings-putting-the-ai-boom-to-the-test/)"
+        }
+      }
+    ],
+    "china": [
+      {
+        "id": "australia-returns-song-heads",
+        "originalLang": "zh",
+        "title": {
+          "zh": "澳大利亚向中方返还两件北宋皇陵流失石刻头像",
+          "en": "Australia returns two looted Northern Song tomb statue heads to China"
+        },
+        "summary": {
+          "zh": "10月28日，澳大利亚国家美术馆在堪培拉向中方返还两件北宋皇陵石刻头像，分别出自河南巩义永裕陵武官像和永昌陵文官像，约1994年被盗流失海外。",
+          "en": "On Oct. 28 the National Gallery of Australia returned to China two Northern Song limestone statue heads, a military official from Yongyu Mausoleum and a civil official from Yongchang Mausoleum in Gongyi, Henan, stolen around 1994."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.xinhuanet.com/20261028/ddb6bbf315254452902146f2d8ddc311/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "CGTN",
+            "url": "https://news.cgtn.com/news/2026-10-28/Australia-returns-two-Northern-Song-Dynasty-sculpture-heads-to-China-1RBJzHlmtJC/p.html",
+            "lang": "en"
+          },
+          {
+            "name": "Global Times",
+            "url": "https://www.globaltimes.cn/page/202610/1373118.shtml",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "武官头像高 68 厘米、重 132 公斤，文官头像高 70 厘米、重 223 公斤，是北宋皇陵石刻艺术的代表性文物。中方于 2025 年提交证据，双方依据国际公约与双边协议完成返还。\n\n来源：[新华网](https://www.xinhuanet.com/20261028/ddb6bbf315254452902146f2d8ddc311/c.html)、[CGTN](https://news.cgtn.com/news/2026-10-28/Australia-returns-two-Northern-Song-Dynasty-sculpture-heads-to-China-1RBJzHlmtJC/p.html)"
+        }
+      },
+      {
+        "id": "mfa-swiss-president-merz",
+        "originalLang": "zh",
+        "title": {
+          "zh": "外交部：欢迎瑞士联邦主席访华，回应默茨“减少依赖”言论",
+          "en": "China MFA welcomes Swiss president's visit, responds to Merz on dependence"
+        },
+        "summary": {
+          "zh": "外交部发言人郭嘉昆10月28日宣布瑞士联邦主席帕姆兰将访华、习近平将会见，称自贸合作是中瑞关系最大亮点；对德国总理默茨呼吁减少对华“单方面依赖”，回应称中德中欧合作底色是互利共赢。",
+          "en": "MFA spokesperson Guo Jiakun said Oct. 28 that Swiss President Parmelin will visit and meet Xi Jinping, calling free trade the highlight of ties. On Merz's call to cut \"one-sided dependence,\" he said China-EU cooperation is mutually beneficial."
+        },
+        "sources": [
+          {
+            "name": "中华人民共和国外交部",
+            "url": "https://www.fmprc.gov.cn/web/fyrbt_673021/jzhsl_673025/202610/t20261028_12048462.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "Ministry of Foreign Affairs (English)",
+            "url": "https://www.mfa.gov.cn/mfa_eng/xw/fyrbt/202610/t20261028_12048547.html",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "今年是中瑞建立创新战略伙伴关系 10 周年。郭嘉昆指出，瑞士是最早同中国签订自贸协定的欧洲大陆国家，今年 8 月又率先同中方完成自贸协定升级谈判。\n\n- 针对默茨在新加坡呼吁欧亚中等强国建立战略联盟、减少“不健康的单方面依赖”，郭嘉昆称希望德方、欧方保持客观理性，通过对话磋商化解分歧，共同维护产业链供应链稳定。\n- 被问及姆巴佩就涉毛泽东言论道歉，他表示“我们重视当事人作出的道歉”。\n- 对胡塞武装袭击沙特机场、炼油厂等目标，中方反对攻击民用目标，呼吁对话谈判。\n\n来源：[外交部例行记者会](https://www.fmprc.gov.cn/web/fyrbt_673021/jzhsl_673025/202610/t20261028_12048462.shtml)"
+        }
+      },
+      {
+        "id": "mbappe-china-fallout",
+        "originalLang": "en",
+        "title": {
+          "zh": "姆巴佩涉毛泽东言论风波：中国赞助商解约，央视停播西甲",
+          "en": "Mbappé's Mao remark costs him Chinese sponsors; CCTV suspends La Liga"
+        },
+        "summary": {
+          "zh": "姆巴佩在法国节目中称一张把他的脸P到毛泽东像上的梗图是“某位中国独裁者”，东鹏饮料、蒙牛、妙可蓝多相继解约，中央广播电视总台暂停转播西甲及其相关比赛；姆巴佩已用中法英三语道歉。",
+          "en": "After Mbappé called a meme of his face on Mao's image \"some Chinese dictator,\" Dongpeng, Mengniu and Milkground ended deals and China Media Group suspended La Liga coverage. He apologized in Chinese, French and English."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/28/china-mbappe-football-sponsor-meme-controversy.html",
+            "lang": "en"
+          },
+          {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/sport/20261027-kylian-mbappe-china-mao-zedong-sponsorship-deal",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/china-mbappe-companies-mao-zedong-837fee251df278d5657894ec226fa069",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "en": "China Media Group also pulled ads featuring him and said it would \"watch his actions even more closely.\" La Liga said the remarks were personal and announced a communication protocol for players. China's foreign ministry said on Oct. 28 it \"values\" the apology. Whether broadcasts have resumed could not be confirmed as of Oct. 28.\n\nSources: [CNBC](https://www.cnbc.com/2026/10/28/china-mbappe-football-sponsor-meme-controversy.html), [France 24](https://www.france24.com/en/sport/20261027-kylian-mbappe-china-mao-zedong-sponsorship-deal)"
+        }
+      }
+    ]
+  }
+}

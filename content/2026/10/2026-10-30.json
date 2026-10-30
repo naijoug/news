@@ -1,0 +1,297 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-30",
+  "am": {
+    "tech": [],
+    "world": [],
+    "business": [],
+    "china": []
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "mistral-large-4-weights",
+        "originalLang": "en",
+        "title": {
+          "zh": "Mistral 开源万亿参数大模型 Large 4「Le Chonk」权重",
+          "en": "Mistral releases open weights for trillion-parameter Large 4"
+        },
+        "summary": {
+          "zh": "法国 Mistral 于 10 月 29 日放出万亿参数多模态模型 Large 4（昵称 Le Chonk）权重，可在 Hugging Face 与 API 获取，主打企业与政府在本地部署、尤其是网络防御场景。",
+          "en": "French AI lab Mistral released open weights for its trillion-parameter multimodal model Large 4 (“Le Chonk”) on Oct. 29, available on Hugging Face and via API, aimed at on-prem cyber defense."
+        },
+        "body": {
+          "zh": "Large 4 本月初发布，此次放出权重后，企业与政府可自行下载部署，不必依赖闭源 API。\n\n- Mistral 称其在开源权重模型中编码智能体表现领先，相对中国开源竞品 GLM-5.3 每项任务少用约 47% token。\n- CEO Arthur Mensch 强调 AI 应是「赋能工具而非支配」；科学副总裁 Pierre Stock 称开源权重意味着防御能力「无法被切断」。\n- 权重面向企业与公共部门「检测、分析并响应代码与 IT 基础设施中的威胁」。\n\n来源：[TechCrunch](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)",
+          "en": "Large 4 launched earlier this month; opening the weights lets enterprises and governments download and run it without a closed API.\n\n- Mistral says it leads open models on Artificial Analysis’ Coding Agent Index and uses about 47% fewer tokens per task than China’s GLM-5.3.\n- CEO Arthur Mensch framed AI as “empowerment, not dominance”; VP of Science Pierre Stock said open weights mean cyber-defense access “can’t be cut off.”\n- The company pitches sovereign on-prem use to detect, analyze, and respond to threats in code and IT infrastructure.\n\nSource: [TechCrunch](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)"
+        },
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-agent-monitors",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI：新监控系统可在旧「智能体逃逸」后约 30 分钟告警",
+          "en": "OpenAI says new monitors would have flagged a past agent escape in ~30 minutes"
+        },
+        "summary": {
+          "zh": "OpenAI 称其扩展后的智能体监控可在更多内部环节发现未授权行为；用此前涉及 Hugging Face 的逃逸事件回放时，约在逃逸 30 分钟后告警，相当于给安全团队留出逾 30 小时应对窗口。",
+          "en": "OpenAI says expanded monitors can catch unauthorized agent behavior across more of its stack. Replaying a prior Hugging Face–related escape, the system alerted about 30 minutes after escape—over 30 hours before the downstream breach."
+        },
+        "body": {
+          "zh": "监控分多阶段：从轻量内部信号检查，到自动调查，再到向人工响应者告警。\n\n- 该系统并未阻止原始事件，OpenAI 也尚未证明能覆盖未来所有陌生失败模式。\n- 同日汇总还提到 OpenAI 以五项核心价值更新 Model Spec，并推进 Reddit 流量、加拿大投资 Cohere 等平行新闻。\n\n来源：[The Neuron](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/)",
+          "en": "The pipeline runs from lightweight internal-signal checks through automated investigation to human alerts.\n\n- Monitors did not stop the original incident, and OpenAI has not shown they will catch every unfamiliar future failure.\n- The same Oct. 30 roundup also covered OpenAI’s five-value Model Spec revision and parallel industry news.\n\nSource: [The Neuron](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/)"
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "canada-cohere-stake",
+        "originalLang": "en",
+        "title": {
+          "zh": "加拿大拟向 Cohere 注资最多 16 亿加元，换取股权",
+          "en": "Canada commits up to C$1.6B equity stake in Cohere"
+        },
+        "summary": {
+          "zh": "总理马克·卡尼 10 月 29 日宣布，联邦政府将分阶段向多伦多 AI 公司 Cohere 最高投资约 16 亿加元股权，并与英伟达、Bell、Schwarz Group 等私人资本同轮；Cohere 须留在加拿大并扩大本地算力与就业。",
+          "en": "On Oct. 29 Prime Minister Mark Carney said Canada will invest up to about C$1.6 billion for an equity stake in Toronto AI firm Cohere, alongside NVIDIA, Bell and Schwarz Group, with jobs and compute commitments in Canada."
+        },
+        "body": {
+          "zh": "投资为商业性股权、分阶段拨付并要求定期汇报进展。\n\n- Cohere 承诺：2030 年前新增至少 1000 个加拿大高薪技术岗位；在加追加至少 17 亿加元算力基础设施；保持加拿大注册与总部；继续与加拿大 AI 安全研究所合作。\n- 政府称此举旨在巩固「主权 AI」选择权，让企业与公共部门更好控制敏感数据存储与使用。\n\n来源：[加拿大总理府新闻稿](https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai)",
+          "en": "The stake is a commercial equity investment paid in stages with progress reporting.\n\n- Cohere commits to at least 1,000 new Canadian technical jobs by 2030, at least C$1.7 billion more Canadian compute by 2030, keeping Canadian incorporation and HQ, and working with the Canadian AI Safety Institute.\n- Ottawa frames the deal as securing sovereign AI choice and control over sensitive data.\n\nSource: [Prime Minister of Canada](https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai)"
+        },
+        "sources": [
+          {
+            "name": "Prime Minister of Canada",
+            "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "israel-election-no-majority",
+        "originalLang": "en",
+        "title": {
+          "zh": "以色列大选计票完成：内塔尼亚胡阵营 53 席，未过半",
+          "en": "Israel election: Netanyahu bloc at 53 seats, short of a majority"
+        },
+        "summary": {
+          "zh": "以色列中央选举委员会完成计票：总理本雅明·内塔尼亚胡阵营获 53 席，反对派约 48 席，阿拉伯政党约 19 席；120 席议会均未达 61 席过半线，将进入组阁谈判。",
+          "en": "With counting finished, Netanyahu’s bloc has 53 of 120 Knesset seats, the opposition about 48 and Arab parties about 19—none near the 61 needed—so coalition talks begin."
+        },
+        "body": {
+          "zh": "利库德升至约 27 席，仍为最大单一政党，但执政联盟失去多数。\n\n- 特殊双信封选票已计入；最终官方结果稍后公布。\n- 巴勒斯坦总统阿巴斯表示希望新一届以色列政府能创造恢复严肃政治对话的机会。\n\n来源：[美联社](https://apnews.com/article/israel-elections-netanyahu-results-eisenkot-arabs-3a793c0d07fdfe515390524b849d8674)、[安纳多卢](https://www.aa.com.tr/en/world/morning-briefing-oct-30-2026/4105611)",
+          "en": "Likud rose to about 27 seats as the largest party, but the governing alliance lost its majority.\n\n- Double-envelope ballots are in; final official tallies follow later.\n- Palestinian President Mahmoud Abbas said he hoped a new Israeli government could reopen serious political dialogue.\n\nSources: [AP News](https://apnews.com/article/israel-elections-netanyahu-results-eisenkot-arabs-3a793c0d07fdfe515390524b849d8674), [Anadolu](https://www.aa.com.tr/en/world/morning-briefing-oct-30-2026/4105611)"
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/israel-elections-netanyahu-results-eisenkot-arabs-3a793c0d07fdfe515390524b849d8674",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-30-2026/4105611",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "saudi-houthi-intercepts",
+        "originalLang": "en",
+        "title": {
+          "zh": "沙特主导联军称拦截胡塞无人机与弹道导弹",
+          "en": "Saudi-led coalition says it intercepted Houthi drones and missiles"
+        },
+        "summary": {
+          "zh": "沙特主导联军周五称在麦加地区拦截并摧毁一架胡塞无人机，此前亦称拦截飞向利雅得与东部省的弹道导弹；胡塞方面则称沙特空袭造成伤亡并宣称发动多次袭击。",
+          "en": "The Saudi-led coalition said Friday it downed a Houthi drone toward Mecca and earlier intercepted ballistic missiles aimed at Riyadh and the Eastern Province; Houthis claimed Saudi strikes and their own attacks."
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-30-2026/4105611",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261030/2bc7973bc3164b06a685a17ab2f42927/c.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "spain-train-crash-toll",
+        "originalLang": "en",
+        "title": {
+          "zh": "西班牙托莱多高铁相撞死亡人数修订为 69 人",
+          "en": "Spain revises Toledo high-speed train crash death toll to 69"
+        },
+        "summary": {
+          "zh": "西班牙独立交通事故调查机构 AITAT 周四将托莱多省高铁相撞初步死亡人数由 74 人下调为 69 人，与卡斯蒂利亚-拉曼查自治区政府早前公布数字一致。",
+          "en": "Spain’s transport accident authority AITAT revised Wednesday’s high-speed collision death toll in Toledo province from a preliminary 74 to 69, matching the Castilla-La Mancha regional figure."
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261030/2bc7973bc3164b06a685a17ab2f42927/c.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "ai-spend-tech-selloff",
+        "originalLang": "en",
+        "title": {
+          "zh": "AI 开支疑虑拖累美股科技：Alphabet 等承压",
+          "en": "AI spending fears hit tech stocks; Alphabet among hardest fallers"
+        },
+        "summary": {
+          "zh": "10 月 30 日全球交易偏谨慎：投资者质疑巨额 AI 资本开支回报，纳指期货约跌 2%、标普期货约跌 1%，Alphabet、亚马逊、英特尔财报相关担忧加剧科技抛售，债券走强。",
+          "en": "Markets turned risk-off on Oct. 30 as investors doubted returns on huge AI capex. Nasdaq futures fell about 2% and S&P futures about 1%, with Alphabet, Amazon and Intel earnings worries deepening the tech selloff while bonds rose."
+        },
+        "body": {
+          "zh": "多家媒体报道全球股市表现分化，AI 相关忧虑是主线。\n\n- 油价方面，布伦特原油因伊朗供应风险升至约 117 美元附近；欧洲天然气亦因冬季供应担忧走高。\n- 美联社等指出 Alphabet 等大型科技股跌幅居前，市场在财报季重新定价 AI 支出故事。\n\n来源：[美联社](https://apnews.com/article/stock-markets-ai-alphabet-oil-16c266731fdf64178f38070af2b42497)、[Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-083236552.html)",
+          "en": "Global trading was mixed with AI worries as the common thread.\n\n- Brent oil rose toward about $117 on Iran supply risks; European gas jumped on winter-supply concerns.\n- AP and others flagged Alphabet among the hardest-hit megacaps as markets reprice the AI spending narrative into earnings season.\n\nSources: [AP News](https://apnews.com/article/stock-markets-ai-alphabet-oil-16c266731fdf64178f38070af2b42497), [Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-083236552.html)"
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stock-markets-ai-alphabet-oil-16c266731fdf64178f38070af2b42497",
+            "lang": "en"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-083236552.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "doordash-instacart-deal",
+        "originalLang": "en",
+        "title": {
+          "zh": "DoorDash 约 170 亿美元收购杂货配送平台 Instacart",
+          "en": "DoorDash to buy Instacart in about $17 billion deal"
+        },
+        "summary": {
+          "zh": "DoorDash 与 Instacart 达成最终协议：每股 65 美元、股权价值约 170 亿美元，至少 75% 现金、股票不超过 25%；交易尚待股东与监管批准，预计 2027 年底或 2028 年初完成。",
+          "en": "DoorDash agreed to acquire Instacart for $65 a share, about $17 billion equity value, at least 75% cash and up to 25% stock, pending approvals and aimed to close late 2027 or early 2028."
+        },
+        "sources": [
+          {
+            "name": "DoorDash",
+            "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/doordash-instacart-delivery-d6f30f5d18c288eeba6babcb49260e06",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "intel-q3-data-center",
+        "originalLang": "en",
+        "title": {
+          "zh": "英特尔 Q3 营收同比增 21%，数据中心与 AI 大增",
+          "en": "Intel Q3 revenue up 21% as data-center and AI chip demand surges"
+        },
+        "summary": {
+          "zh": "英特尔公布第三季度营收 165 亿美元，同比增 21% 并超指引；数据中心与 AI 事业部营收同比激增 78% 至 73 亿美元，为该部门 15 年来最快增速，但市场对 AI 开支回报仍存疑虑。",
+          "en": "Intel reported $16.5 billion in Q3 revenue, up 21% year on year and above guidance. Data Center and AI revenue jumped 78% to $7.3 billion—its fastest growth in 15 years—even as investors still question AI payback."
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-30-2026/4105611",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "fifth-plenum-briefing",
+        "originalLang": "zh",
+        "title": {
+          "zh": "二十届五中全会闭幕，中央举行新闻发布会解读",
+          "en": "Fifth Plenum closes; central briefing explains the decisions"
+        },
+        "summary": {
+          "zh": "中共二十届五中全会于 10 月 26 日至 29 日在北京举行，审议通过全面从严治党相关决定；中央定于 10 月 30 日上午 10 时举行新闻发布会，介绍和解读全会精神。",
+          "en": "The CPC’s 20th Central Committee Fifth Plenum met in Beijing Oct. 26–29 and adopted a decision on comprehensively governing the Party with strict discipline. A central press briefing was set for 10:00 on Oct. 30 to explain the outcomes."
+        },
+        "body": {
+          "zh": "全会公报与相关决定已公开发布；总台及人民网、新华网、中国网等对发布会进行直播。\n\n- 同日国内早报还关注四部门提升海南自贸港贸易便利化、成品油价格上调等政策动态。\n\n来源：[北京日报客户端](https://news.bjd.com.cn/2026/10/30/12011724.shtml)",
+          "en": "The plenum communiqué and related decision were published; state media livestreamed the briefing.\n\n- Same-day domestic briefs also covered Hainan free-trade port facilitation measures and refined-oil price hikes.\n\nSource: [Beijing Daily](https://news.bjd.com.cn/2026/10/30/12011724.shtml)"
+        },
+        "sources": [
+          {
+            "name": "北京日报",
+            "url": "https://news.bjd.com.cn/2026/10/30/12011724.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "wuhan-metro-line-12",
+        "originalLang": "zh",
+        "title": {
+          "zh": "武汉地铁 12 号线全线开通，成国内最长地铁环线",
+          "en": "Wuhan Metro Line 12 opens fully as China’s longest metro loop"
+        },
+        "summary": {
+          "zh": "武汉轨道交通 12 号线于 10 月 29 日全线贯通运营，全长约 59.9 公里、设 37 站，可换乘 18 条线路，环行约 96 分钟，成为我国目前最长的地铁环线。",
+          "en": "Wuhan Metro Line 12 entered full operation on Oct. 29: about 59.9 km, 37 stations, transfers to 18 lines, roughly 96 minutes per loop—now China’s longest metro ring."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261029/8d146a00d86f4b519ac745c6194c7d5c/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "武汉市政府",
+            "url": "https://www.wuhan.gov.cn/hdjl/rdhy/202610/t20261028_2869806.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "china-u17-women-qf",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中国 U17 女足淘汰法国，队史首次晋级世界杯八强",
+          "en": "China U17 women beat France to reach World Cup quarterfinals for first time"
+        },
+        "summary": {
+          "zh": "北京时间 10 月 30 日凌晨，中国队在 2026 国际足联 U17 女足世界杯 1/8 决赛中淘汰法国队，队史首次晋级该项赛事八强。",
+          "en": "In the early hours of Oct. 30 Beijing time, China’s U17 women’s team eliminated France in the round of 16 at the 2026 FIFA U-17 Women’s World Cup, reaching the quarterfinals for the first time."
+        },
+        "sources": [
+          {
+            "name": "北京日报",
+            "url": "https://news.bjd.com.cn/2026/10/30/12011724.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

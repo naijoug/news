@@ -1,0 +1,281 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-10-31",
+  "am": {
+    "tech": [
+      {
+        "id": "binance-hack-north-korea",
+        "originalLang": "en",
+        "title": {
+          "zh": "币安遭史上最大加密货币盗窃，约 63 亿美元被转走",
+          "en": "Binance loses record $6.3B in hack blamed on North Korea"
+        },
+        "summary": {
+          "zh": "10 月 29 日约 63.6 亿美元在 20 分钟内从币安十条链上的热钱包流出。TRM、Chainalysis、Elliptic 均指向朝鲜黑客组织 TraderTraitor；约 30 亿美元已被冻结，币安称将全额覆盖用户损失。",
+          "en": "About $6.36B left Binance hot wallets on ten chains in roughly 20 minutes on Oct. 29. TRM, Chainalysis and Elliptic blame North Korea's TraderTraitor; about $3B is frozen and Binance says it will cover user losses."
+        },
+        "body": {
+          "zh": "这是加密史上最大的一次盗窃，约为 2025 年 Bybit 事件（约 15 亿美元）的四倍。\n\n- 币安称初步调查显示，攻击者通过一名工程师被入侵的笔记本电脑进入服务容器，提交了未授权提币交易；目前未发现私钥泄露。\n- 交易所已暂停全部充提，并表示已预留逾 63.4 亿美元自有资金，修复完成后将公布新的储备证明。\n- Chainalysis 观察到被盗资金与上月 Bitget 被盗资金在链上混同，是归因的关键证据。TRM 统计，朝鲜 2026 年已盗取约 74 亿美元加密资产。\n- 消息拖累比特币周五跌超 5%。\n\n来源：[TechCrunch](https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/)、[TRM Labs](https://www.trmlabs.com/resources/blog/north-korea-has-stolen-usd-128-billion-in-crypto-usd-74-billion-of-it-in-2026)、[Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html)",
+          "en": "It is the largest crypto theft on record, about four times the roughly $1.5B Bybit hack in 2025.\n\n- Binance says a compromised engineer's laptop let the attacker reach a service container and submit unauthorized withdrawals; it has seen no sign of a private-key leak.\n- The exchange suspended all deposits and withdrawals, set aside more than $6.34B of its own funds, and promises an updated proof of reserves after remediation.\n- Chainalysis saw the stolen funds commingle on-chain with last month's Bitget theft, a key piece of the attribution. TRM counts about $7.4B stolen by North Korea in 2026 so far.\n- Bitcoin fell more than 5% on Friday on the news.\n\nSources: [TechCrunch](https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/), [TRM Labs](https://www.trmlabs.com/resources/blog/north-korea-has-stolen-usd-128-billion-in-crypto-usd-74-billion-of-it-in-2026), [Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html)"
+        },
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/",
+            "lang": "en"
+          },
+          {
+            "name": "TRM Labs",
+            "url": "https://www.trmlabs.com/resources/blog/north-korea-has-stolen-usd-128-billion-in-crypto-usd-74-billion-of-it-in-2026",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "google-suncatcher-online",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌首颗「太空数据中心」卫星上线，用 Gemma 4 在轨写诗",
+          "en": "Google's first data-center satellite is online and writing poetry"
+        },
+        "summary": {
+          "zh": "谷歌 Project Suncatcher 原型卫星经约三周调试后与地面站通联，星上 TPU 运行的 Gemma 4 模型在轨生成了第一首俳句。",
+          "en": "Google's Project Suncatcher prototype satellite is talking to ground stations after about three weeks of commissioning, and its onboard Gemma 4 model wrote a haiku in orbit."
+        },
+        "body": {
+          "zh": "卫星 10 月 1 日发射，搭载四块 TPU，但目前一次只能运行一块、每次约 20 分钟。谷歌接下来将测试在轨散热与辐射影响，并计划在 2027 年发射两颗互联卫星。\n\n来源：[TechCrunch](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/)、[Google 博客](https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/)",
+          "en": "The satellite launched Oct. 1 with four TPUs, though it can run only one at a time for about 20 minutes. Google will now test heat and radiation effects in orbit, with two linked satellites planned for 2027.\n\nSources: [TechCrunch](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/), [Google blog](https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/)"
+        },
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+            "lang": "en"
+          },
+          {
+            "name": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "reddit-ai-mode-traffic",
+        "originalLang": "en",
+        "title": {
+          "zh": "Reddit：谷歌 AI 模式几乎不带来流量",
+          "en": "Reddit says Google's AI Mode sends it no traffic"
+        },
+        "summary": {
+          "zh": "Reddit 称 10 月来自谷歌搜索的周均引流平均减少逾 100 万次，AI 模式几乎不带来访问；CEO 霍夫曼计划转向以登录用户为主，以减少抓取。",
+          "en": "Reddit says Google search referrals fell by more than a million a week on average in October and AI Mode drives essentially no traffic; CEO Steve Huffman plans a mostly logged-in experience to curb scraping."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "iran-vance-letter",
+        "originalLang": "en",
+        "title": {
+          "zh": "万斯致信伊朗求重启谈判，美方同时备战「短促打击」",
+          "en": "Vance letter reaches Tehran as US readies possible post-midterm strike"
+        },
+        "summary": {
+          "zh": "伊朗塔斯尼姆通讯社称，美国副总统万斯致伊朗最高国家安全委员会秘书雷扎伊的信已送达，伊方尚未回复；特朗普否认授意，称信件涉及医疗物资。",
+          "en": "Iran's Tasnim says a letter from US Vice President JD Vance to security chief Mohsen Rezaei has arrived, unanswered so far; Trump denied directing it and said it concerned medical supplies."
+        },
+        "body": {
+          "zh": "据《华尔街日报》报道，信件旨在重启谈判、避免美国再次动武。与此同时，美方官员已通知多个中东盟友，为 11 月 3 日中期选举后可能进行的一次短促而猛烈的打击做准备，伊朗或对这些国家报复。\n\n能源市场方面，欧洲天然气价格突破每兆瓦时 100 欧元；布伦特原油周五回升至约 113 美元。\n\n来源：[World Watch](https://worldwatch.media/en/digest/2026-10-30)、[NPR](https://www.npr.org/2026/10/30/nx-s1-6023370/the-news-roundup-for-october-30-2026)、[Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html)",
+          "en": "The Wall Street Journal reported the letter seeks to restart talks and avoid another US attack. Meanwhile US officials have told several Middle East allies to prepare for a short, intense strike on Iran after the Nov. 3 midterms, which could draw Iranian retaliation against them.\n\nIn energy markets, European gas topped €100/MWh and Brent rebounded to about $113 on Friday.\n\nSources: [World Watch](https://worldwatch.media/en/digest/2026-10-30), [NPR](https://www.npr.org/2026/10/30/nx-s1-6023370/the-news-roundup-for-october-30-2026), [Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html)"
+        },
+        "sources": [
+          {
+            "name": "World Watch",
+            "url": "https://worldwatch.media/en/digest/2026-10-30",
+            "lang": "en"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org/2026/10/30/nx-s1-6023370/the-news-roundup-for-october-30-2026",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "oleshky-evacuation",
+        "originalLang": "en",
+        "title": {
+          "zh": "俄乌联合人道行动：被围城镇奥列什基开始撤离平民",
+          "en": "Civilians begin leaving besieged Oleshky in joint Russia-Ukraine mission"
+        },
+        "summary": {
+          "zh": "俄乌双方 10 月 29 日派员前往赫尔松州前线小城奥列什基，人道车队送入食品和药品，并协助长期断供的平民安全撤离。",
+          "en": "Russia and Ukraine sent representatives on Oct. 29 to Oleshky, a front-line town in Kherson region, bringing in food and medicine and helping civilians who faced months of shortages to leave."
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/2026/oct/30/all",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261030/2bc7973bc3164b06a685a17ab2f42927/c.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "eu-canada-associate",
+        "originalLang": "en",
+        "title": {
+          "zh": "冯德莱恩提议加拿大成为欧盟首个「联系成员」",
+          "en": "Von der Leyen proposes Canada as the EU's first associate member"
+        },
+        "summary": {
+          "zh": "欧盟—加拿大峰会在蒙特利尔开幕，欧盟委员会主席冯德莱恩提出「联系而不加入」的新安排，希望把双边关系提升到最高水平。",
+          "en": "Opening the EU-Canada summit in Montreal, Commission President Ursula von der Leyen floated making Canada the EU's first associate member, an \"association without accession.\""
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261030/2bc7973bc3164b06a685a17ab2f42927/c.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "nasdaq-ai-reckoning",
+        "originalLang": "en",
+        "title": {
+          "zh": "AI 开支担忧加剧，纳指周五暴跌 3.3%",
+          "en": "Nasdaq plunges 3.3% as AI spending fears deepen"
+        },
+        "summary": {
+          "zh": "美股月末交易日重挫：纳指跌 3.3%，标普 500 跌 2.2%，道指跌约 1.3%。亚马逊、Alphabet 罕见财报不及预期，再度引发对科技巨头 AI 投入可持续性的担忧。",
+          "en": "US stocks slid on the month's last trading day: the Nasdaq fell 3.3%, the S&P 500 2.2% and the Dow about 1.3%, as rare earnings misses at Amazon and Alphabet renewed doubts about Big Tech's AI spending."
+        },
+        "body": {
+          "zh": "这是对昨日下午所报科技股回调的延续，抛售明显扩大。\n\n- 纳指有望录得 2025 年 3 月以来最差单月表现。Alphabet 前一日已创二十多年来最大单日跌幅，周五继续下挫。\n- 埃克森美孚、雪佛龙一度触及历史新高，中东战事推高炼油利润。\n- 布伦特原油升至约 113 美元/桶，WTI 约 104 美元；币安被盗后比特币跌超 5%。\n\n来源：[Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html)",
+          "en": "This extends yesterday afternoon's tech pullback, with the selling now much broader.\n\n- The Nasdaq is on track for its worst month since March 2025. Alphabet, after its worst day in more than 20 years, kept falling.\n- ExxonMobil and Chevron briefly hit record highs as Middle East fighting widened refining margins.\n- Brent rose to about $113 and WTI to about $104; Bitcoin fell over 5% after the Binance hack.\n\nSource: [Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html)"
+        },
+        "sources": [
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "intel-worst-day",
+        "originalLang": "en",
+        "title": {
+          "zh": "英特尔四季度指引远逊预期，股价暴跌约 30%",
+          "en": "Intel sinks about 30% on a weak fourth-quarter outlook"
+        },
+        "summary": {
+          "zh": "英特尔预计四季度营收 150–160 亿美元、调整后每股收益 0.25 美元，均明显低于约 170 亿美元和 0.43 美元的预期，股价周五跌约 25%–30%，拖累全球芯片股。",
+          "en": "Intel guided Q4 revenue to $15–16B and adjusted EPS to $0.25, well short of roughly $17B and $0.43 expected. Shares fell about 25–30% on Friday and dragged chip stocks worldwide."
+        },
+        "body": {
+          "zh": "昨日下午报道了英特尔三季度营收同比增 21%，但市场更看重前景。\n\n- 内存成本飙升导致 PC 需求急剧下滑，叠加制造产能受限。\n- 以色列晶圆厂停产预计在两个季度内影响约 6 亿美元营收。\n- 数据中心需求依然强劲，但受供应短缺掣肘；多家分析机构下调目标价或评级。\n\n来源：[CNBC](https://www.cnbc.com/2026/10/30/intel-guidance-analyst-price-targets.html)、[Reuters / Investing.com](https://www.investing.com/news/stock-market-news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-4987123)",
+          "en": "Yesterday afternoon we reported Intel's 21% Q3 revenue growth, but investors focused on the outlook.\n\n- PC demand is falling sharply as memory costs soar, on top of manufacturing constraints.\n- A shutdown at its Israel fab is expected to cost about $600M of revenue over two quarters.\n- Data-center demand is strong but supply-limited; several analysts cut targets or downgraded the stock.\n\nSources: [CNBC](https://www.cnbc.com/2026/10/30/intel-guidance-analyst-price-targets.html), [Reuters via Investing.com](https://www.investing.com/news/stock-market-news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-4987123)"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/30/intel-guidance-analyst-price-targets.html",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-4987123",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "xi-parmelin-fta-upgrade",
+        "originalLang": "zh",
+        "title": {
+          "zh": "习近平会见瑞士联邦主席帕姆兰，中瑞签署自贸协定升级议定书",
+          "en": "Xi meets Swiss President Parmelin; China and Switzerland sign FTA upgrade"
+        },
+        "summary": {
+          "zh": "10 月 30 日下午，习近平在人民大会堂会见来华工作访问的瑞士联邦主席帕姆兰，双方见证签署中瑞自贸协定升级议定书及科研、劳动就业、媒体等领域合作文件。",
+          "en": "Xi Jinping met visiting Swiss President Guy Parmelin in Beijing on Oct. 30. The two witnessed the signing of an upgrade to the China-Switzerland free trade agreement and deals on research, labor and media."
+        },
+        "body": {
+          "zh": "双方强调扩大开放合作，深化经贸与科技创新合作。据商务部介绍，升级议定书将进一步提高货物、服务和投资的开放水平，并新增数字贸易、贸易与可持续发展等规则章节。\n\n来源：[中国政府网](https://www.gov.cn/yaowen/liebiao/202610/content_7084593.htm)、[商务部](https://www.mofcom.gov.cn/syxwfb/art/2026/art_9096fd92f9944f22bb264cc1ce1cd123.html)",
+          "en": "Both sides stressed wider opening and deeper cooperation in trade, science and innovation. China's commerce ministry says the upgrade raises market access for goods, services and investment and adds chapters on digital trade and on trade and sustainable development.\n\nSources: [gov.cn](https://www.gov.cn/yaowen/liebiao/202610/content_7084593.htm), [Ministry of Commerce](https://www.mofcom.gov.cn/syxwfb/art/2026/art_9096fd92f9944f22bb264cc1ce1cd123.html)"
+        },
+        "sources": [
+          {
+            "name": "中国政府网",
+            "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7084593.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "商务部",
+            "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_9096fd92f9944f22bb264cc1ce1cd123.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "winter-power-gas-turbine",
+        "originalLang": "zh",
+        "title": {
+          "zh": "能源局：迎峰度冬电力总体平衡；四部门发文促燃气轮机创新",
+          "en": "NEA sees balanced winter power supply; four agencies back gas turbine push"
+        },
+        "summary": {
+          "zh": "国家能源局 10 月 30 日表示，今冬全国电力供需总体平衡，极端寒潮下局部高峰或偏紧；四部门同日发布指导意见，提出到 2030 年燃气轮机自主创新能力显著增强。",
+          "en": "China's energy regulator said on Oct. 30 that winter power supply and demand should broadly balance, with possible local peak tightness in extreme cold. Four agencies also aim to sharply boost home-grown gas turbine capability by 2030."
+        },
+        "body": {
+          "zh": "- 前三季度电网企业固定资产投资超过 6000 亿元，完成全年预计投资约三分之二；全国发电装机达 41.3 亿千瓦，同比增 11.2%。\n- 指导意见目标是基本满足分布式能源、海上油气平台和长输管道压缩机等用机需求，重型燃气轮机发电试点取得阶段性成效。\n\n来源：[界面新闻快报](https://m.jiemian.com/lists/4.html?page=46)、天津日报简讯",
+          "en": "- Grid companies invested more than ¥600B in fixed assets in the first three quarters, about two-thirds of the year's plan; installed generating capacity reached 4.13 billion kW, up 11.2%.\n- The turbine guideline targets domestic supply for distributed energy, offshore platforms and pipeline compressors, plus progress on heavy-duty turbine power pilots.\n\nSources: [Jiemian](https://m.jiemian.com/lists/4.html?page=46), Tianjin Daily brief"
+        },
+        "sources": [
+          {
+            "name": "界面新闻",
+            "url": "https://m.jiemian.com/lists/4.html?page=46",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "xizang-quake-shelters",
+        "originalLang": "zh",
+        "title": {
+          "zh": "西藏巴青地震灾区降雪，三部门再调 1000 套救灾板房",
+          "en": "1,000 more relief shelters sent to snow-hit Baqen quake zone in Xizang"
+        },
+        "summary": {
+          "zh": "针对西藏巴青县地震灾区降雪，国家防减救灾委办公室、应急管理部会同国家粮储局 10 月 30 日增调 1000 套中央救灾物资板房，保障受灾群众过渡安置和温暖过冬。",
+          "en": "After snow hit the earthquake zone in Baqen County, Xizang, national disaster and emergency authorities sent another 1,000 central relief prefab shelters on Oct. 30 to house survivors through winter."
+        },
+        "sources": [
+          {
+            "name": "中国新闻网（芯媒体转载）",
+            "url": "https://xmt.pub/read/today?domain=domestic&level=official",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

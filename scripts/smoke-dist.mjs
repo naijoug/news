@@ -218,8 +218,9 @@ function collectCss(dir, out = []) {
 const builtCss = collectCss(dist).join('\n');
 if (!builtCss.includes('Fira Code')) fail('built CSS does not declare Fira Code');
 if (!builtCss.includes('Noto Serif SC')) fail('built CSS does not declare Noto Serif SC');
-if (!builtCss.includes('Alimama DaoLiTi')) fail('built CSS does not declare Alimama DaoLiTi');
-if (builtCss.includes('Long Cang') || builtCss.includes('Caveat')) fail('cursive tag fonts are still declared');
+if (!builtCss.includes('Liu Jian Mao Cao')) fail('built CSS does not declare Liu Jian Mao Cao');
+if (builtCss.includes('Alimama DaoLiTi')) fail('clerical seal font is still declared');
+if (home.includes('stamp-edge') || home.includes('stamp-zh')) fail('homepage still uses the seal frame');
 if (!builtCss.includes('woff2')) fail('fonts are not self-hosted as woff2');
 if (home.includes('class="seal"')) fail('homepage still shows the 日 seal');
 if (/fonts\.googleapis\.com|fonts\.gstatic\.com/.test(`${builtCss}\n${home}`)) {

@@ -14,7 +14,6 @@
   --shadow: none;
   /* Ink only. No vermilion, red, or seal color anywhere. */
   --seal: var(--ink);
-  --wash: #5c5852;
   --tag-tech-bg: transparent;
   --tag-tech-ink: var(--ink);
   --tag-world-bg: transparent;
@@ -45,7 +44,6 @@
     --accent-line: #3a3834;
     --shadow: none;
     --seal: var(--ink);
-    --wash: #cfc9c0;
     --tag-tech-bg: transparent;
     --tag-tech-ink: var(--ink);
     --tag-world-bg: transparent;
@@ -73,7 +71,6 @@
   --shadow: none;
   /* Ink only. No vermilion, red, or seal color anywhere. */
   --seal: var(--ink);
-  --wash: #5c5852;
   --tag-tech-bg: transparent;
   --tag-tech-ink: var(--ink);
   --tag-world-bg: transparent;
@@ -100,7 +97,6 @@
   --shadow: none;
   /* Ink only. No vermilion, red, or seal color anywhere. */
   --seal: var(--ink);
-  --wash: #cfc9c0;
   --tag-tech-bg: transparent;
   --tag-tech-ink: var(--ink);
   --tag-world-bg: transparent;
@@ -1037,7 +1033,7 @@ html[data-ui="en"] .day-en {
 .headline-row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: baseline;
   gap: 0.2rem 0.55rem;
   min-width: 0;
 }
@@ -1081,74 +1077,25 @@ html[data-ui="en"] .day-en {
   position: relative;
   flex: none;
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  align-items: baseline;
   border: 0;
   background: transparent;
   color: var(--ink);
   text-decoration: none;
   line-height: 1;
-  isolation: isolate;
-}
-
-.stamp {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--ink);
-}
-
-.stamp-edge {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  color: var(--wash);
-  pointer-events: none;
-}
-
-.stamp-zh {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.02rem;
-  padding: 0.2rem 0.34rem 0.16rem;
-  font-family: "Alimama DaoLiTi", "Noto Serif SC", serif;
-  font-size: 0.92rem;
-  line-height: 0.92;
-  letter-spacing: 0;
 }
 
 .ink-label-text {
-  position: relative;
-  z-index: 1;
-}
-
-.ink-label-text .ui-zh {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
-  border: 0;
-}
-
-.ink-label-text .ui-en {
-  display: none;
-  padding: 0.28rem 0.42rem 0.22rem;
-  font-family: "Noto Serif SC", "Source Han Serif SC", serif;
-  font-size: 0.72rem;
-  font-variant: small-caps;
-  letter-spacing: 0.14em;
+  font-family: "Liu Jian Mao Cao", "Noto Serif SC", cursive;
+  font-size: 1.5rem;
+  letter-spacing: 0.12em;
   line-height: 1;
 }
 
-html[data-ui="en"] .ink-label-text .ui-en {
-  display: inline-block;
+.ink-label-text .ui-en {
+  font-family: "Caveat", "Liu Jian Mao Cao", cursive;
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
 }
 
 .card-section:hover,

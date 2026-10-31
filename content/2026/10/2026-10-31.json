@@ -277,5 +277,322 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "claude-code-cursor-backdoor",
+        "originalLang": "en",
+        "title": {
+          "zh": "Cursor 市场出现仿冒 Claude Code 扩展，试图植入 SSH 后门",
+          "en": "Malicious Claude Code extension on Cursor marketplace planted SSH backdoor"
+        },
+        "summary": {
+          "zh": "Cursor 称 10 月 29 日其扩展市场曾短暂上架非 Anthropic 制作的 Anthropic.claude-code 2.1.312/2.1.313，恶意版本试图收集主机信息并安装持久化 SSH 后门；微软等亦跟进分析。",
+          "en": "Cursor said tampered Anthropic.claude-code 2.1.312/2.1.313 for Mac/Windows briefly appeared in its marketplace on Oct. 29, trying to collect host data and install a persistent SSH backdoor; Microsoft and others published follow-up analysis."
+        },
+        "body": {
+          "zh": "恶意包约在太平洋时间凌晨 2:27 至下午 1:35 可下载，并非 Anthropic 官方版本。\n\n- 载荷会回传主机名、用户名、系统信息、Git 邮箱与公网 IP，并尝试写入名为 `svc-telemetry` 的 SSH 公钥、开启本地 SSH、建立反向隧道；多数机因无管理员权限而使登录步骤失败。\n- Cursor 已下架恶意版本、一度关闭市场并轮换密钥重建，并与云厂商下线攻击者服务器。\n- 官方提醒：仅卸载扩展可能不够，需清除持久化脚本、隧道进程并轮换凭据；微软安全博客亦披露技术细节。\n\n来源：[Cursor 安全通告](https://cursor.com/blog/claude-code-extension-security-notice)、[Microsoft Security](https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/)",
+          "en": "The packages were available roughly 2:27am–1:35pm PT and were not built by Anthropic.\n\n- The payload beaconed host and user details (including Git email and public IP) and tried to add an SSH key labeled `svc-telemetry`, enable local SSH, and open a reverse tunnel; without admin rights the login step usually failed.\n- Cursor removed the builds, briefly shut the marketplace, rotated keys, rebuilt it, and helped take the attacker server offline.\n- Uninstalling alone may not clear dropped persistence; rotate credentials from a clean host. Microsoft’s security blog published a deeper technical breakdown.\n\nSources: [Cursor](https://cursor.com/blog/claude-code-extension-security-notice), [Microsoft Security](https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/)"
+        },
+        "sources": [
+          {
+            "name": "Cursor",
+            "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+            "lang": "en"
+          },
+          {
+            "name": "Microsoft Security",
+            "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-funding-shortfall",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI 新一轮融资据报仅募约 110 亿美元，远低于 300 亿目标",
+          "en": "OpenAI said to raise about $11B, well short of a $30B target"
+        },
+        "summary": {
+          "zh": "据《华尔街日报》等报道，OpenAI 最新一轮融资承诺约 110 亿美元，不到原定 300 亿美元目标的一半；估值亦由约 1.4 万亿美元下调讨论至约 1.25 万亿美元。",
+          "en": "The Wall Street Journal and follow-on reports say OpenAI has secured about $11 billion in its latest round—less than half a $30 billion target—with valuation talks around $1.25 trillion after higher aims."
+        },
+        "body": {
+          "zh": "融资降温与本周科技股因 AI 开支回报疑虑大幅回调同现。\n\n- 较早前消息称该公司正以约 1.25 万亿美元估值推进最高 300 亿美元融资，为 IPO 铺路。\n- 市场解读为 AI 投资人风险偏好降温，大型模型公司融资环境趋紧。\n\n来源：[Investing.com 转述 WSJ](https://www.investing.com/news/company-news/openai-raises-just-11bn-of-30bn-target-as-ai-investor-appetite-cools--wsj-4989165)、[TechCrunch（估值背景）](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)",
+          "en": "The shortfall lands as tech equities sold off this week on doubts about AI spending payback.\n\n- Earlier coverage said OpenAI was pursuing up to $30B at about a $1.25T valuation ahead of an IPO path.\n- Markets read the gap as cooler appetite for megacap AI private rounds.\n\nSources: [Investing.com citing WSJ](https://www.investing.com/news/company-news/openai-raises-just-11bn-of-30bn-target-as-ai-investor-appetite-cools--wsj-4989165), [TechCrunch background](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)"
+        },
+        "sources": [
+          {
+            "name": "Investing.com (WSJ)",
+            "url": "https://www.investing.com/news/company-news/openai-raises-just-11bn-of-30bn-target-as-ai-investor-appetite-cools--wsj-4989165",
+            "lang": "en"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "gemini-4-carbon-tops-index",
+        "originalLang": "en",
+        "title": {
+          "zh": "Gemini 4 Carbon 登顶 Artificial Analysis 智能指数 v5",
+          "en": "Gemini 4 Carbon takes #1 on Artificial Analysis Intelligence Index v5"
+        },
+        "summary": {
+          "zh": "Artificial Analysis 称谷歌 Gemini 4 Carbon（高推理）以约 59 分领跑 Intelligence Index v5，九项评测中四项第一；目前仍向部分用户开放，尚未全面公测。",
+          "en": "Artificial Analysis says Google’s Gemini 4 Carbon (high) leads Intelligence Index v5 at about 59, topping four of nine evaluations, while still rolling out only to selected users."
+        },
+        "sources": [
+          {
+            "name": "Artificial Analysis",
+            "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+            "lang": "en"
+          },
+          {
+            "name": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "us-patriot-ukraine-sale",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国务院批准对乌约 21 亿美元「爱国者」拦截弹潜在军售",
+          "en": "US State Department clears possible $2.1B Patriot sale to Ukraine"
+        },
+        "summary": {
+          "zh": "美国国务院批准向乌克兰潜在出售 500 枚「爱国者」PAC-3 MSE 拦截弹及相关设备，估价约 21 亿美元；称费用由加、德、挪等伙伴与欧盟相关贷款资助，不使用美方资金。",
+          "en": "The State Department approved a possible sale of 500 Patriot PAC-3 MSE interceptors and support to Ukraine, valued at about $2.1 billion, saying partners and EU-linked funds—not US money—would cover the cost."
+        },
+        "body": {
+          "zh": "主承包商为洛克希德·马丁；仍需国会程序，交货时间表未明，有报道称新弹或要到 2030 年代。\n\n- 泽连斯基近日称乌方今年平均每月仅获约 12 枚美制「爱国者」拦截弹，而需拦截约 150 枚俄方弹道导弹。\n- 安纳多卢、美联社等均报道了此项批准。\n\n来源：[安纳多卢](https://www.aa.com.tr/en/world/morning-briefing-oct-31-2026/4107022)、[美联社](https://apnews.com/article/trump-ukraine-zelenskyy-patriots-arms-sale-3016a2a6fc0088017478aabeebe75e81)",
+          "en": "Lockheed Martin is the principal contractor. Congressional notification still applies, and delivery timing is unclear; some reports say new missiles may not arrive until the 2030s.\n\n- Zelenskyy recently said Ukraine has received about 12 US Patriot interceptors a month this year while needing to stop roughly 150 Russian ballistic missiles a month.\n- Anadolu and AP both covered the approval.\n\nSources: [Anadolu](https://www.aa.com.tr/en/world/morning-briefing-oct-31-2026/4107022), [AP News](https://apnews.com/article/trump-ukraine-zelenskyy-patriots-arms-sale-3016a2a6fc0088017478aabeebe75e81)"
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-31-2026/4107022",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/trump-ukraine-zelenskyy-patriots-arms-sale-3016a2a6fc0088017478aabeebe75e81",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "poland-tribunal-crisis",
+        "originalLang": "en",
+        "title": {
+          "zh": "波兰宪法法庭主席遭停职，防暴警察进驻，总统中断出访赶回",
+          "en": "Poland’s constitutional court chief suspended; riot police and president intervene"
+        },
+        "summary": {
+          "zh": "政府任命法官周五宣布暂停宪法法庭主席斯维切科夫斯基及其副手职务，华沙法庭外防暴警察与抗议者对峙；总统纳夫罗茨基中断塞内加尔行程赶回并进入法庭，指责违宪夺权。",
+          "en": "Government-aligned judges suspended tribunal president Bogdan Święczkowski and his deputy on Friday; riot police faced protesters in Warsaw as President Karol Nawrocki aborted a Senegal trip, entered the court, and alleged a forcible constitutional seizure."
+        },
+        "body": {
+          "zh": "这场冲突延续十年来关于法庭合法性的争斗。\n\n- 图斯克政府称要恢复法治、让经议会选出的法官正常履职；正义党领袖卡钦斯基等则称「政变」。\n- 警察称三人因冲击围栏等被拘留；美驻波大使罗斯警告局势「非常严重」。\n\n来源：[The Guardian](https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended)、[安纳多卢](https://www.aa.com.tr/en/world/morning-briefing-oct-31-2026/4107022)",
+          "en": "The clash extends a decade-long fight over the tribunal’s legitimacy.\n\n- Tusk’s government says it must restore the rule of law so duly elected judges can work; Law and Justice’s Kaczyński and others call it a “coup.”\n- Police detained three people after fence breaches; US Ambassador Tom Rose called the situation “very serious.”\n\nSources: [The Guardian](https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended), [Anadolu](https://www.aa.com.tr/en/world/morning-briefing-oct-31-2026/4107022)"
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-31-2026/4107022",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "g20-atlanta-no-consensus",
+        "originalLang": "en",
+        "title": {
+          "zh": "亚特兰大 G20 外长会：欧洲反对与俄同框，集体合影取消",
+          "en": "G20 foreign ministers in Atlanta scrap group photo after Europe balks at Russia"
+        },
+        "summary": {
+          "zh": "美国主办的 G20 外长会在佐治亚州举行，因多国不愿与俄外长拉夫罗夫同框，传统合影被取消；会议在高油价与战事背景下谈能源与供应链，未发联合公报。",
+          "en": "At the US-hosted G20 foreign ministers’ meeting in Georgia, the group photo was dropped after several countries refused to appear with Russia’s Lavrov. Talks covered energy and supply chains without a joint communiqué."
+        },
+        "sources": [
+          {
+            "name": "Kyodo News",
+            "url": "https://english.kyodonews.net/articles/-/90011",
+            "lang": "en"
+          },
+          {
+            "name": "Horizon",
+            "url": "https://www.horizonapp.link/en/2026/10/31",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "fed-musalem-hike-soon",
+        "originalLang": "en",
+        "title": {
+          "zh": "圣路易斯联储主席穆萨莱姆：需「尽快」再加息",
+          "en": "St. Louis Fed’s Musalem: another rate hike needed “soon”"
+        },
+        "summary": {
+          "zh": "圣路易斯联储主席 Alberto Musalem 10 月 30 日表示，通胀仍偏高，额外收紧货币政策「有必要且应尽快」；同日另有地区联储官员亦主张继续紧缩。",
+          "en": "St. Louis Fed President Alberto Musalem said Oct. 30 that further policy firming is “necessary, and soon,” arguing inflation remains too high; other regional Fed voices also pressed for tighter policy."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/economy-news/feds-musalem-says-a-rate-hike-is-needed-soon-4988364",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "coinbase-q3-profit",
+        "originalLang": "en",
+        "title": {
+          "zh": "Coinbase 三季度净利约 7.19 亿美元，靠持仓浮盈扭亏",
+          "en": "Coinbase posts about $719M Q3 profit on crypto investment gains"
+        },
+        "summary": {
+          "zh": "Coinbase 公布第三季度净利约 7.19 亿美元，扭转此前亏损；营收同比下滑，利润主要来自持有加密资产的投资收益，交易相关收入仍偏弱。",
+          "en": "Coinbase reported roughly $719 million in Q3 net income, swinging back to profit. Revenue fell year on year; gains on crypto held for investment drove earnings while transaction revenue stayed soft."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/coinbase-snaps-losing-streak-with-thirdquarter-profit-on-crypto-trading-rebound-4985073",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "eu-oil-reserves-release",
+        "originalLang": "en",
+        "title": {
+          "zh": "欧盟拟加速动用约 4260 万桶战略石油储备平抑油价",
+          "en": "EU to speed release of about 42.6M barrels from strategic oil stocks"
+        },
+        "summary": {
+          "zh": "欧盟能源专员约恩森宣布，成员国将加速释放约 4260 万桶战略石油储备（约半数为柴油），以缓解中东局势推高的能源价格。",
+          "en": "EU Energy Commissioner Dan Jørgensen said member states will accelerate release of about 42.6 million barrels from strategic stocks—roughly half diesel—to help contain energy prices driven by Middle East tensions."
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-31-2026/4107022",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "manufacturing-pmi-oct",
+        "originalLang": "zh",
+        "title": {
+          "zh": "10 月制造业 PMI 降至 49.3，四个月第三次落入收缩",
+          "en": "China’s October manufacturing PMI falls to 49.3, third contraction in four months"
+        },
+        "summary": {
+          "zh": "国家统计局 31 日公布，10 月制造业 PMI 为 49.3，较上月回落 0.8 个百分点；生产、新订单指数分别降至 49.8、49.4。高技术与装备制造业仍处扩张，非制造业商务活动指数为 49.7。",
+          "en": "Official manufacturing PMI fell to 49.3 in October from 50.1, the NBS said Oct. 31—the third reading below 50 in four months. Production and new orders slipped to 49.8 and 49.4; high-tech and equipment stayed in expansion, while non-manufacturing came in at 49.7."
+        },
+        "body": {
+          "zh": "统计局归因于国庆前部分需求提前释放及国际环境复杂等因素。\n\n- 高技术制造业 PMI 51.3、装备制造业 50.6，仍高于荣枯线；大型企业 50.2，中小企业偏弱。\n- 铁路船舶航空航天、计算机通信电子等行业产需指数仍在 53 及以上；纺织、建材、有色等偏弱。\n- 路透等外媒称出口圣诞订单前置后回落、假日消费退潮，加大稳增长压力。\n\n来源：[新华网](https://www.news.cn/20261031/80c42faedaae4f22bf5a5f8242bee1fb/c.html)、[国家统计局解读](https://www.stats.gov.cn/sj/sjjd/202610/t20261031_1965719.html)、[美联社](https://apnews.com/article/china-manufacturing-economy-pmi-exports-f1e0e24004da425a1b3c8935b16a245c)",
+          "en": "The statistics bureau cited demand pulled forward before the National Day holiday and a complex external environment.\n\n- High-tech PMI was 51.3 and equipment 50.6; large firms stayed at 50.2 while medium and small firms weakened.\n- Rail/ship/aerospace and computer/communications stayed at or above 53 on production and orders; textiles, building materials and nonferrous metals lagged.\n- Reuters and others linked the dip to cooled Christmas export orders after September front-loading and fading holiday spending.\n\nSources: [Xinhua](https://www.news.cn/20261031/80c42faedaae4f22bf5a5f8242bee1fb/c.html), [NBS](https://www.stats.gov.cn/sj/sjjd/202610/t20261031_1965719.html), [AP](https://apnews.com/article/china-manufacturing-economy-pmi-exports-f1e0e24004da425a1b3c8935b16a245c)"
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261031/80c42faedaae4f22bf5a5f8242bee1fb/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "国家统计局",
+            "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261031_1965719.html",
+            "lang": "zh"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/china-manufacturing-economy-pmi-exports-f1e0e24004da425a1b3c8935b16a245c",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "gj21-sichuan-drone",
+        "originalLang": "zh",
+        "title": {
+          "zh": "GJ-21 隐身无人机完成在「四川舰」上首次起降",
+          "en": "GJ-21 stealth drone completes first takeoff and landing on Sichuan"
+        },
+        "summary": {
+          "zh": "国防部消息称，中国首型舰载隐身察打一体无人机 GJ-21 近日在 076 型两栖攻击舰「四川舰」上完成首次起飞与着舰，标志着海军大型水面平台具备固定翼隐身无人机起降能力。",
+          "en": "China’s first shipborne stealth reconnaissance-strike drone, the GJ-21, recently completed its first takeoff and landing on the Type 076 amphibious assault ship Sichuan, the navy said—showing fixed-wing stealth UAV ops from a large surface combatant."
+        },
+        "body": {
+          "zh": "「四川舰」（舷号 51）于 2024 年 12 月 27 日下水，采用电磁弹射与拦阻等技术，可搭载固定翼无人机、直升机与两栖装备。\n\n- 该舰自 2025 年 11 月首航试验以来持续开展海上测试。\n- 安纳多卢等外媒亦转述了此次起降消息。\n\n来源：[中国军网英文](https://eng.mod.gov.cn/2025xb/N/T/16497228.html)、[安纳多卢](https://www.aa.com.tr/en/world/morning-briefing-oct-31-2026/4107022)",
+          "en": "Sichuan (hull 51), launched Dec. 27, 2024, uses electromagnetic catapult and arresting gear and is designed to carry fixed-wing UAVs, helicopters and amphibious kit.\n\n- Sea trials have continued since its first outing in November 2025.\n- Anadolu and others also carried the navy’s announcement.\n\nSources: [MOD English](https://eng.mod.gov.cn/2025xb/N/T/16497228.html), [Anadolu](https://www.aa.com.tr/en/world/morning-briefing-oct-31-2026/4107022)"
+        },
+        "sources": [
+          {
+            "name": "Ministry of National Defense",
+            "url": "https://eng.mod.gov.cn/2025xb/N/T/16497228.html",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-31-2026/4107022",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "china-rejects-nyt-nvidia-claim",
+        "originalLang": "en",
+        "title": {
+          "zh": "中方驳斥纽时有关英伟达关联高管为华搜集情报报道",
+          "en": "China rejects NYT report alleging Nvidia-linked executive spied for Beijing"
+        },
+        "summary": {
+          "zh": "中国驳斥《纽约时报》有关一名与英伟达 CEO 黄仁勋有关联的高管为北京搜集情报的报道，称相关说法「没有根据」。",
+          "en": "China rejected a New York Times report alleging an executive tied to Nvidia CEO Jensen Huang gathered intelligence for Beijing, calling the claims “unsubstantiated.”"
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-31-2026/4107022",
+            "lang": "en"
+          }
+        ]
+      }
+    ]
   }
 }

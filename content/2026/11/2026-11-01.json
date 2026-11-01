@@ -298,5 +298,346 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "deepseek-super-agent",
+        "originalLang": "en",
+        "title": {
+          "zh": "DeepSeek 开源 Super-agent 原型：按工作项并行编码",
+          "en": "DeepSeek open-sources Super-agent prototype for parallel coding"
+        },
+        "summary": {
+          "zh": "DeepSeek Harness 团队开源 MIT 许可的 dsh-superagent-prototype：以 Router/Worker 架构监听 GitHub，把任务拆成独立工作项，常在约 15 分钟内交回 PR；官方标明属研究原型，非正式产品。",
+          "en": "DeepSeek’s Harness team open-sourced MIT-licensed dsh-superagent-prototype: a Router/Worker system that listens to GitHub, runs tasks as separate work items, and often returns PRs in about 15 minutes. It is labeled a research prototype, not a product."
+        },
+        "body": {
+          "zh": "10 月 31 日晚，团队发布《Exploring Super-agent Design》并开源原型。代理可为单一仓库主动接单：监听 GitHub（可选飞书），接到指派后在独立会话与目录执行，再带着 PR 回到原对话，网页面板只列出需人工关注的事项。\n\n- 架构含事件驱动、异步多通道通信、存算分离与外部 Watchdog。\n- 约 300 条消息、20 个请求的模拟中，中位完成约 12.4 分钟，P95 约 15.7 分钟；对照单会话中性提示的 P95 约 29.5 分钟。\n\n来源：[Stillflood AI Frontier Daily](https://sflood.com/en/daily/ai-2026-11-01)、[X 新闻摘要](https://x.com/i/trending/2116731970004591075)",
+          "en": "On the evening of Oct. 31 the team published “Exploring Super-agent Design” and open-sourced the prototype. It can mind one GitHub repo: listen (optionally Feishu), open a work item on assignment, run in its own session and directory, then return with a PR, while a web panel lists only items needing humans.\n\n- Design includes event-driven flow, async multi-channel messaging, separated storage and compute, and an external Watchdog.\n- In a ~300-message / 20-request simulation, median completion was about 12.4 minutes and p95 about 15.7, versus ~29.5 minutes p95 for a conventional single-session baseline.\n\nSources: [Stillflood AI Frontier Daily](https://sflood.com/en/daily/ai-2026-11-01), [X news](https://x.com/i/trending/2116731970004591075)"
+        },
+        "sources": [
+          {
+            "name": "Stillflood",
+            "url": "https://sflood.com/en/daily/ai-2026-11-01",
+            "lang": "en"
+          },
+          {
+            "name": "X",
+            "url": "https://x.com/i/trending/2116731970004591075",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "apple-intelligence-qwen-china",
+        "originalLang": "en",
+        "title": {
+          "zh": "苹果与阿里合作：中国版 Apple Intelligence 接入通义千问",
+          "en": "Apple partners with Alibaba so China Apple Intelligence can use Qwen"
+        },
+        "summary": {
+          "zh": "苹果宣布中国大陆首批 Apple Intelligence 功能将接入阿里通义千问，用户可在 Siri、写作工具与视觉智能中调用文本与图像理解；开发者测试自 11 月 4 日起，正式面向用户约在 12 月随 iOS 27.3 推出。",
+          "en": "Apple said the first Apple Intelligence features in mainland China will add Alibaba’s Qwen for text and image understanding inside Siri, Writing Tools and Visual Intelligence. Developer testing starts Nov. 4; a broader rollout is due with iOS 27.3 in December."
+        },
+        "body": {
+          "zh": "基础能力仍由苹果自有生成模型驱动，千问为扩展而非替代；首波不含完整 Siri AI。用户可选择是否启用及分享哪些信息，阿里称请求与回复不用于模型训练。\n\n- 面向在中国购买符合条件的 iPhone，或设备定位与 Apple 账户地区均为中国的用户。\n- 新华社引业内观点称，这是头部消费硬件厂商在中国市场首次以国产大模型作为系统级 AI 骨干之一。\n\n来源：[新华社](https://english.news.cn/20261101/773fa2ac33a34a5ca3484d7e5920d094/c.html)、[Stillflood](https://sflood.com/en/daily/ai-2026-11-01)",
+          "en": "Core features still run on Apple’s own generative models, with Qwen as an extension rather than a replacement; full Siri AI is not in the first wave. Users choose whether to enable it and what to share; Alibaba said requests and replies will not be used for training.\n\n- Available to buyers of eligible iPhones in China, or when device location and Apple Account region are both China.\n- Xinhua cited experts calling it a landmark step for a top hardware maker to use a Chinese model as a system-level AI backbone in the China market.\n\nSources: [Xinhua](https://english.news.cn/20261101/773fa2ac33a34a5ca3484d7e5920d094/c.html), [Stillflood](https://sflood.com/en/daily/ai-2026-11-01)"
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261101/773fa2ac33a34a5ca3484d7e5920d094/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "Stillflood",
+            "url": "https://sflood.com/en/daily/ai-2026-11-01",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "gemini-4-carbon",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌发布 Gemini 4 Carbon：强调网络安全与长程智能体",
+          "en": "Google launches Gemini 4 Carbon, stressing cyber defense and long-horizon agents"
+        },
+        "summary": {
+          "zh": "谷歌推出前沿模型 Gemini 4 Carbon，称在网络安全、自主编程与长程智能体任务上有显著提升，并在 Artificial Analysis 等榜单位居前列；社区对真实代码库表现仍有分歧。",
+          "en": "Google released frontier model Gemini 4 Carbon, claiming big gains in cybersecurity, autonomous coding and long-horizon agent work, and topping charts such as Artificial Analysis. Developers remain split on real-codebase quality."
+        },
+        "body": {
+          "zh": "多家日报称 Carbon 在安全评测与 Agent Arena 等榜单靠前；X 上讨论亦指出其在漏洞检测等基准领先，但部分开发者反馈实际仓库中幻觉仍多。\n\n- 定价与放量据报经 Fairwind 等项目逐步推进。\n- 同日生态还有 OpenAI 低价计算机用模型 GPT-6.1 Terra、Anthropic 扩展文本水印等并行消息。\n\n来源：[AIBriefs](https://aibriefs.news/ai-news-today)、[X 新闻摘要](https://x.com/i/trending/2116573310276252100)",
+          "en": "Daily digests say Carbon leads security and agent-arena style charts; X discussion also notes strong vuln-detection benchmarks while some developers still see more hallucinations in live repos.\n\n- Pricing and rollout are reportedly staged through programs such as Fairwind.\n- Parallel headlines include OpenAI’s cheaper computer-use model GPT-6.1 Terra and Anthropic’s expanded text watermarking.\n\nSources: [AIBriefs](https://aibriefs.news/ai-news-today), [X news](https://x.com/i/trending/2116573310276252100)"
+        },
+        "sources": [
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/ai-news-today",
+            "lang": "en"
+          },
+          {
+            "name": "X",
+            "url": "https://x.com/i/trending/2116573310276252100",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "poland-tribunal-crisis",
+        "originalLang": "en",
+        "title": {
+          "zh": "波兰宪法法庭危机：总统紧急磋商，图斯克拒妥协",
+          "en": "Poland’s constitutional-court crisis: president holds talks, Tusk rejects deal"
+        },
+        "summary": {
+          "zh": "波兰总统纳夫罗茨基就宪法法庭院长被暂停一事召集紧急党派磋商，图斯克所在公民联盟缺席；图斯克称反对派欲摧毁法治，欧盟委员会敦促总统接受新法官提名。",
+          "en": "President Karol Nawrocki convened urgent party talks after the Constitutional Tribunal’s chief was suspended; Tusk’s Civic Coalition stayed away. Tusk accused the right of wrecking the rule of law; the European Commission urged Nawrocki to accept new judge nominations."
+        },
+        "body": {
+          "zh": "周五法庭网站宣布正副院长被停职一个月，新选出、身份仍有争议的法官暂代领导；原领导层斥为「政变」并称网站遭非法接管。纳夫罗茨基中断塞内加尔行程回国，周六与法庭内外对峙仍在继续。\n\n- 图斯克称罢免皮斯任命的斯维切科夫斯基「痛苦但必要」，因其据称阻挠议会选出新法官。\n- 美国驻波兰大使呼吁各方冷静，称波兰最不需要的是冲突失控。\n\n来源：[半岛电视台](https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff)、[新华社世界简报](https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html)",
+          "en": "On Friday the tribunal’s website said its president and vice president were suspended for a month and a disputed newly elected judge took temporary charge; the old leadership called it a “coup” and said the site was seized. Nawrocki cut short a Senegal trip; the standoff continued Saturday.\n\n- Tusk called removing PiS-appointed Bogdan Święczkowski “painful but necessary,” accusing him of blocking parliament’s new judges.\n- The U.S. ambassador urged calm, saying Poland does not need a confrontation that spirals.\n\nSources: [Al Jazeera](https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff), [Xinhua world briefing](https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html)"
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "oleshky-evacuation",
+        "originalLang": "en",
+        "title": {
+          "zh": "美方斡旋临时停火下，奥列什基撤离居民抵达乌控区",
+          "en": "Oleshky evacuees reach Ukrainian-held land under a U.S.-brokered local truce"
+        },
+        "summary": {
+          "zh": "在美国斡旋的局部临时停火下，俄占赫尔松州奥列什基居民完成撤离并抵达乌克兰控制区与家人团聚；据报为 2022 年全面入侵以来规模较大的人道安排之一，周日停火将到期。",
+          "en": "Under a U.S.-brokered local ceasefire, residents evacuated from Russian-occupied Oleshky in Kherson reached Ukrainian-held territory and reunited with families—among the larger humanitarian moves since 2022. The truce was due to end Sunday."
+        },
+        "body": {
+          "zh": "居民可选择前往乌控区、俄罗斯或留下；数百人据报因物资短缺仍留城内。撤离路线经俄罗斯与白俄罗斯再进入乌方控制区。\n\n- 乌方监察员等称人道任务已结束，并希望对前线附近居民形成更常态化安排。\n- 与欧洲周末青年抗议、伊朗紧张等并行，构成周日国际要闻主线之一。\n\n来源：[美联社相关报道汇总](https://news.tvb.com/en/1204003-GlobalNewsHighlightsfromAP)、[Al Jazeera](https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family)",
+          "en": "Residents could leave for Ukraine, for Russia, or stay; hundreds reportedly remained despite severe shortages. The route ran through Russia and Belarus before Ukrainian-held ground.\n\n- Ukrainian officials said the humanitarian mission had ended and hoped for more regular missions for people near the front.\n- It sat alongside Europe’s youth protests and Iran tensions as a Sunday world headline.\n\nSources: [AP via TVB](https://news.tvb.com/en/1204003-GlobalNewsHighlightsfromAP), [Al Jazeera](https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family)"
+        },
+        "sources": [
+          {
+            "name": "AP via TVB",
+            "url": "https://news.tvb.com/en/1204003-GlobalNewsHighlightsfromAP",
+            "lang": "en"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "iran-no-us-meeting",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗外长：暂无与美官员会面计划，调解磋商仍在继续",
+          "en": "Iran’s FM: no plan to meet U.S. officials for now; mediation talks continue"
+        },
+        "summary": {
+          "zh": "伊朗外长阿拉格齐对半岛电视台表示，目前无意与美官员会面，卡塔尔与巴基斯坦调解磋商仍在进行；称须美方先接受伊方条件，再决定直接或间接谈判。",
+          "en": "Foreign Minister Abbas Araghchi told Al Jazeera Tehran has no plan to meet U.S. officials now, while Qatari and Pakistani mediation continues. He said Iran will decide on direct or indirect talks only after Washington accepts its conditions."
+        },
+        "body": {
+          "zh": "阿拉格齐否认媒体关于可能会面的猜测，称「目前没有必要」见美方官员。表态发布时，最高领袖此前已下令遇袭须「无地理限制」反击，霍尔木兹航运仍远低于战前。\n\n- 与上午版伊朗强硬表态形成日内更新：外交窗口仍在，但直接对话门槛未降。\n- 美国中期选举临近，市场与外交界均盯着选后美方是否再动武。\n\n来源：[新华社世界简报](https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html)",
+          "en": "Araghchi dismissed media speculation about meetings, saying Tehran saw no need to meet Americans at present. The comments landed after the supreme leader’s order for replies “without geographic limits,” with Hormuz traffic still far below pre-war levels.\n\n- It updates the morning Iran hard-line story: mediation continues, but the bar for direct talks is unchanged.\n- With U.S. midterms near, markets and diplomats watch whether Washington resumes strikes afterward.\n\nSource: [Xinhua world briefing](https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html)"
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "us-tech-ai-selloff",
+        "originalLang": "en",
+        "title": {
+          "zh": "美股科技再挫：英特尔单日跌约 29%，Alphabet 市值蒸发逾 5000 亿",
+          "en": "U.S. tech sells off again: Intel ~−29% in a day, Alphabet loses $500B+"
+        },
+        "summary": {
+          "zh": "投资者质疑巨额 AI 资本开支何时兑现利润，周五纳指期货与半导体板块重挫；英特尔因四季度指引逊预期创约半世纪最大单日跌幅，Alphabet 财报后市值蒸发逾 5000 亿美元。",
+          "en": "Investors questioned when huge AI capex will pay off as Nasdaq and chips sold off Friday. Intel posted its worst day in about half a century after soft Q4 guidance; Alphabet shed more than $500 billion after earnings."
+        },
+        "body": {
+          "zh": "10 月 30 日道指跌约 1.09%、标普约 1.82%、纳指 100 约 3.46%。英特尔收跌约 28.6%，市值一日蒸发逾 1400 亿美元；AMD 跌近 11%，英伟达跌逾 4%，费城半导体指数单日跌约 7.2%。\n\n- Alphabet 三季报营收略低于预期，自由现金流约 −90.7 亿美元，云增长快但资本开支翻倍。\n- 韩国三星、SK 海力士周五亦跟跌，尽管晶圆业务盈利创纪录。\n\n来源：[TipRanks 周报](https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-1)、[韩国中央日报](https://www.koreajoongangdaily.com/business/record-profits-fail-to-shield-samsung-sk-hynix-stocks-as-ai-spending-fears-rattle-markets/12948729)、[X](https://x.com/i/trending/2116644676329406627)",
+          "en": "On Oct. 30 the Dow fell about 1.09%, the S&P 500 about 1.82% and the Nasdaq 100 about 3.46%. Intel closed down ~28.6%, wiping more than $140 billion of value; AMD lost nearly 11%, Nvidia more than 4%, and the SOX about 7.2%.\n\n- Alphabet’s Q3 revenue slightly missed; free cash flow swung to about −$9.07 billion as cloud surged but capex more than doubled.\n- Samsung and SK hynix also fell Friday in Seoul despite record chip profits.\n\nSources: [TipRanks](https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-1), [Korea JoongAng Daily](https://www.koreajoongangdaily.com/business/record-profits-fail-to-shield-samsung-sk-hynix-stocks-as-ai-spending-fears-rattle-markets/12948729), [X](https://x.com/i/trending/2116644676329406627)"
+        },
+        "sources": [
+          {
+            "name": "TipRanks",
+            "url": "https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-1",
+            "lang": "en"
+          },
+          {
+            "name": "Korea JoongAng Daily",
+            "url": "https://www.koreajoongangdaily.com/business/record-profits-fail-to-shield-samsung-sk-hynix-stocks-as-ai-spending-fears-rattle-markets/12948729",
+            "lang": "en"
+          },
+          {
+            "name": "X",
+            "url": "https://x.com/i/trending/2116644676329406627",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "microsoft-25b-bond",
+        "originalLang": "en",
+        "title": {
+          "zh": "微软完成约 250 亿美元债券发行，加码 AI 基建融资",
+          "en": "Microsoft completes about $25 billion bond sale for AI infrastructure"
+        },
+        "summary": {
+          "zh": "微软完成近十年规模最大之一的多档债券发行，规模约 250 亿美元，称所得将支持 AI 基础设施等长期投入；时值同行因 AI 开支回报疑虑遭抛售。",
+          "en": "Microsoft completed a multi-tranche bond sale of about $25 billion—among its largest in nearly a decade—saying proceeds will fund long-term AI infrastructure even as peers sold off on AI-return doubts."
+        },
+        "body": {
+          "zh": "周日市场盘点将此列为周末少数正面科技融资信号之一，与 Alphabet、亚马逊、英特尔财报冲击形成对照。\n\n- 发行显示头部云厂商仍能以债务锁定算力扩张，而估值与股价承压的是「回报叙事」而非融资渠道本身。\n\n来源：[Pulsarium 市场日评](https://pulsarium.finance/news/daily/2026-11-01/)",
+          "en": "Sunday market roundups listed the deal among the few positive tech-funding signals of the weekend, against earnings shocks at Alphabet, Amazon and Intel.\n\n- It shows top cloud names can still debt-finance compute buildout; what is repricing is the return narrative, not access to capital.\n\nSource: [Pulsarium daily](https://pulsarium.finance/news/daily/2026-11-01/)"
+        },
+        "sources": [
+          {
+            "name": "Pulsarium",
+            "url": "https://pulsarium.finance/news/daily/2026-11-01/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "tqqq-inflow-after-nasdaq",
+        "originalLang": "en",
+        "title": {
+          "zh": "纳指急跌后近 10 亿美元流入三倍做多 ETF TQQQ",
+          "en": "Nearly $1 billion flows into 3× Nasdaq ETF TQQQ after the plunge"
+        },
+        "summary": {
+          "zh": "纳指 100 相关 ETF 大跌后，投机资金单日向三倍做多基金 TQQQ 净流入近 10 亿美元，为历史较大单日流入之一；市场对反弹与保证金风险看法分裂。",
+          "en": "After a sharp drop in Nasdaq-100 products, almost $1 billion flowed in a day into 3× bull fund TQQQ—one of its larger single-day inflows—splitting traders between rebound bets and margin-risk warnings."
+        },
+        "body": {
+          "zh": "X 新闻摘要称 QQQ 收于约 690.49 美元，盘中低见约 683.45；TQQQ 流入规模排进历史前列。\n\n- 部分交易员视之为「抄底杠杆」，亦有人警告连环平仓风险。\n- 下周焦点包括苹果、AMD 财报与美国中期选举。\n\n来源：[X 新闻摘要](https://x.com/i/trending/2116680652057682189)、[TipRanks](https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-1)",
+          "en": "X news summaries put QQQ near $690.49 after an intraday low around $683.45; the TQQQ inflow ranked among its largest days.\n\n- Some traders called it a leveraged dip-buy; others warned about cascade margin risk.\n- Next week’s calendar includes Apple and AMD earnings plus U.S. midterms.\n\nSources: [X news](https://x.com/i/trending/2116680652057682189), [TipRanks](https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-1)"
+        },
+        "sources": [
+          {
+            "name": "X",
+            "url": "https://x.com/i/trending/2116680652057682189",
+            "lang": "en"
+          },
+          {
+            "name": "TipRanks",
+            "url": "https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-1",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "china-swiss-fta-upgrade",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中瑞自贸协定升级议定书在京签署",
+          "en": "China and Switzerland sign FTA upgrade protocol in Beijing"
+        },
+        "summary": {
+          "zh": "10 月 30 日，在两国元首共同见证下，商务部部长王文涛与瑞士经济总局局长在京签署中瑞自贸协定升级议定书，升级货物、服务、投资开放并新增数字贸易、贸易与可持续发展等章节。",
+          "en": "On Oct. 30, with both leaders witnessing, Commerce Minister Wang Wentao and Switzerland’s SECO chief signed an FTA upgrade protocol in Beijing, deepening goods, services and investment openings and adding digital trade and trade-and-sustainable-development chapters."
+        },
+        "body": {
+          "zh": "升级在原协定八个章节基础上完善规则，并新增两章；双方将分别完成国内法律审批后推动生效。中瑞 2013 年签自贸协定，2014 年 7 月生效，2024 年 9 月启动升级谈判，2026 年 8 月宣布谈成。\n\n- 商务部称此举在不确定环境下体现支持自由贸易与多边体制。\n- 2025 年双边贸易额约 490.4 亿美元。\n\n来源：[商务部](https://www.mofcom.gov.cn/xwfb/bldhd/art/2026/art_fdb375a3400c4ae6ae78ec06060807bd.html)、[人民日报](https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188728.html)",
+          "en": "The protocol upgrades eight existing chapters and adds two new ones; each side must finish domestic legal procedures before entry into force. The original FTA was signed in 2013, entered force in July 2014, with upgrade talks started Sept. 2024 and concluded Aug. 2026.\n\n- MOFCOM said the deal shows support for free trade and multilateral rules amid uncertainty.\n- Bilateral trade was about $49.04 billion in 2025.\n\nSources: [MOFCOM](https://www.mofcom.gov.cn/xwfb/bldhd/art/2026/art_fdb375a3400c4ae6ae78ec06060807bd.html), [People’s Daily](https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188728.html)"
+        },
+        "sources": [
+          {
+            "name": "商务部",
+            "url": "https://www.mofcom.gov.cn/xwfb/bldhd/art/2026/art_fdb375a3400c4ae6ae78ec06060807bd.html",
+            "lang": "zh"
+          },
+          {
+            "name": "人民日报",
+            "url": "https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188728.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "china-pmi-oct-493",
+        "originalLang": "zh",
+        "title": {
+          "zh": "10 月制造业 PMI 回落至 49.3%，高技术仍扩张",
+          "en": "China’s October manufacturing PMI slips to 49.3%; high-tech still expands"
+        },
+        "summary": {
+          "zh": "国家统计局：10 月制造业 PMI 为 49.3%，较上月降 0.8 个百分点；生产与新订单指数分别降至 49.8% 与 49.4%，高技术制造业 PMI 51.3%、装备制造业 50.6%，继续高于荣枯线。",
+          "en": "NBS put October manufacturing PMI at 49.3%, down 0.8 point. Output and new orders fell to 49.8% and 49.4%, while high-tech manufacturing stayed at 51.3% and equipment at 50.6%, both above 50."
+        },
+        "body": {
+          "zh": "官方称受国庆前部分需求提前释放及国际环境复杂等因素影响，制造业景气有所回落，但新质生产力相关行业仍保持扩张。\n\n- 同日还发布一批国家标准自 11 月 1 日起实施等政策消息。\n\n来源：[国家统计局](https://www.stats.gov.cn/zwfwck/sjfb/202610/t20261031_1965718.html)、[中国新闻网](https://www.chinanews.com.cn/cj/2026/10-31/10723794.shtml)",
+          "en": "Officials cited demand pulled forward before the National Day holiday and a complex external environment for the softer reading, while new-quality productive forces sectors kept expanding.\n\n- The same day also saw notices that batches of national standards take effect from Nov. 1.\n\nSources: [NBS](https://www.stats.gov.cn/zwfwck/sjfb/202610/t20261031_1965718.html), [China News Service](https://www.chinanews.com.cn/cj/2026/10-31/10723794.shtml)"
+        },
+        "sources": [
+          {
+            "name": "国家统计局",
+            "url": "https://www.stats.gov.cn/zwfwck/sjfb/202610/t20261031_1965718.html",
+            "lang": "zh"
+          },
+          {
+            "name": "中国新闻网",
+            "url": "https://www.chinanews.com.cn/cj/2026/10-31/10723794.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "beijing-hydrogen-2030",
+        "originalLang": "zh",
+        "title": {
+          "zh": "北京氢能产业方案：2030 年产业链规模力争破 400 亿元",
+          "en": "Beijing hydrogen plan aims for over ¥40 billion industry scale by 2030"
+        },
+        "summary": {
+          "zh": "北京市经信局印发《北京市氢能产业发展实施方案（2026—2030 年）》，提出到 2030 年累计推广燃料电池汽车破万辆、加氢站超 40 座，全市氢能产业链规模突破 400 亿元，带动京津冀破千亿元。",
+          "en": "Beijing’s economy and IT bureau issued a 2026–2030 hydrogen plan: by 2030 more than 10,000 FCEVs, over 40 hydrogen stations, city industry scale above ¥40 billion, and over ¥100 billion across Beijing-Tianjin-Hebei."
+        },
+        "body": {
+          "zh": "方案围绕应用示范、产业培育、供应保障与公共平台部署四大工程、14 项重点任务，并推动绿色化工、热电联供等场景规模化。\n\n- 目标构建自主可控、经济高效、绿色安全的京津冀氢能全产业链。\n\n来源：[新华财经早报](https://www.cnfin.com/gs-lb/detail/20261101/4489342_1.html)、[京报网](https://news.bjd.com.cn/2026/11/01/12013981.shtml)",
+          "en": "The plan sets four projects and 14 tasks spanning demonstration, industry building, supply security and public platforms, including scaled green chemicals and combined heat and power.\n\n- The aim is a controllable, efficient and green Beijing-Tianjin-Hebei hydrogen value chain.\n\nSources: [China Financial Information](https://www.cnfin.com/gs-lb/detail/20261101/4489342_1.html), [Beijing Daily](https://news.bjd.com.cn/2026/11/01/12013981.shtml)"
+        },
+        "sources": [
+          {
+            "name": "中国金融信息网",
+            "url": "https://www.cnfin.com/gs-lb/detail/20261101/4489342_1.html",
+            "lang": "zh"
+          },
+          {
+            "name": "京报网",
+            "url": "https://news.bjd.com.cn/2026/11/01/12013981.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

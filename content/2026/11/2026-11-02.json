@@ -1,0 +1,312 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-02",
+  "am": {
+    "tech": [
+      {
+        "id": "openai-device-codex-quota",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI 收紧付费账户设备限制，12 月起 ChatGPT 与 Codex 共用额度",
+          "en": "OpenAI tightens paid-account device limits; ChatGPT and Codex share quota from December"
+        },
+        "summary": {
+          "zh": "帮助中心确认 Go/Plus/Pro 受单设备付费账户数量限制，出现「Device limit reached」则该付费号无法在本机使用；12 月起 Plus、Pro、Business 的 ChatGPT 与 Codex 将按 token 共用额度，即时闲聊不计。Pro 档 Work/Codex 额度已于 10 月 29 日翻倍。",
+          "en": "Help docs confirm Go/Plus/Pro face per-device paid-account caps; “Device limit reached” blocks that paid login. From December, Plus, Pro and Business share one ChatGPT–Codex token pool (instant chat excluded). Pro Work/Codex allowances doubled Oct. 29."
+        },
+        "body": {
+          "zh": "卡/设备限制用于风控：同一卡或设备关联过多订阅时可能无法新购；受限后买积分或重置用量不能解除。Free 与 Business/Enterprise/Edu 工作区不计入设备限额。\n\n- 公司邮件称将把 Work 能力并入主 Chat 体验做小范围测试，Codex 在桌面端仍保持独立入口。\n- 额度用尽可等待重置、升级或购买积分；设置 → 用量可查看合并后剩余与重置时间。\n\n来源：[OpenAI 帮助中心·设备限制](https://help.openai.com/en/articles/20001559-understanding-card-and-device-limits-in-chatgpt)、[用量说明](https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits)、[BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/)",
+          "en": "Card and device limits are anti-abuse: too many subscriptions on one card or device can block a new purchase; credits or usage resets do not clear the restriction. Free and Business/Enterprise/Edu workspaces do not count toward the device cap.\n\n- An OpenAI email said Work capabilities will be tested inside main Chat for a small cohort; Codex stays a separate desktop experience.\n- After the shared limit, users can wait for reset, upgrade, or buy credits; Settings → Usage shows combined remaining allowance and reset times.\n\nSources: [OpenAI Help · device limits](https://help.openai.com/en/articles/20001559-understanding-card-and-device-limits-in-chatgpt), [usage limits](https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits), [BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/)"
+        },
+        "sources": [
+          {
+            "name": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/20001559-understanding-card-and-device-limits-in-chatgpt",
+            "lang": "en"
+          },
+          {
+            "name": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+            "lang": "en"
+          },
+          {
+            "name": "BleepingComputer",
+            "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-compute-campus-policy",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI 拟中期选举后推政策公关：数据中心改称「AI 算力园区」",
+          "en": "OpenAI plans post-midterm blitz, rebranding data centers as “AI compute campuses”"
+        },
+        "summary": {
+          "zh": "Axios 报道，全球事务主管 Chris Lehane 称将在 11 月 9 日起的跛脚鸭会期发动政策与公关攻势，推销 AI「限速」护栏、社区协议，并把数据中心重新包装为「AI compute campuses」；目标是对接可能翻蓝的国会并框定 2028 年 AI 议题。",
+          "en": "Axios reports chief global affairs officer Chris Lehane will launch a policy and PR push in the Nov. 9 lame-duck session—AI “speed limits,” community compacts, and rebranding data centers as “AI compute campuses”—to engage a likely bluer Congress and frame the 2028 AI debate."
+        },
+        "body": {
+          "zh": "Lehane 称中期选举是「从一个时代到下一个时代的选举门户」，AI 将是 2028 年总统选战核心议题。方案还包括工人转型支持、教育培训与推动美方主导「民主价值观」的国际标准。\n\n- TechCrunch 等转述称此举意在缓解两党对耗电、噪音与土地占用的反弹，并以俄亥俄州大型项目为例强调社区收益。\n- 公司同时面对用户端设备限额与额度合并等订阅收紧，政策线与产品线同日升温。\n\n来源：[Axios](https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy)、[TechCrunch](https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/)",
+          "en": "Lehane called the midterms an “electoral portal from one era to the next,” expecting AI to be “the issue” in 2028. Proposals also cover worker support, education and training, and U.S. leadership on democratic AI standards.\n\n- TechCrunch and others say the rebrand aims to ease bipartisan backlash over power, noise and land use, citing a large Ohio project and community benefits.\n- The policy push lands alongside same-week product tightening on device limits and shared ChatGPT–Codex quotas.\n\nSources: [Axios](https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy), [TechCrunch](https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/)"
+        },
+        "sources": [
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy",
+            "lang": "en"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "us-midterms-eve",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国中期选举明日开票：众院或翻蓝，参院仍胶着",
+          "en": "U.S. midterms tomorrow: House may flip blue; Senate still tight"
+        },
+        "summary": {
+          "zh": "11 月 3 日改选全部 435 席众议员与约三分之一参议员。CBS 模型显示民主党有望拿下约 229 席重夺众院；参院竞争加剧，得州、堪萨斯等红州亦成战场。物价与总统支持率成主轴，广告花费据估破 110 亿美元。",
+          "en": "Voters on Nov. 3 choose all 435 House seats and about a third of the Senate. A CBS model had Democrats on pace for ~229 House seats; Senate races tightened into Texas, Kansas and other red states. Prices and the president’s ratings dominate; ad spend is pegged above $11 billion."
+        },
+        "body": {
+          "zh": "专栏作家 Susan Glasser 称这是对总统执政的公投；民调显示约四成选民为反对其政策而投票。AI 生成竞选广告缺少联邦强制披露，成为新争议。\n\n- 若民主党掌控两院，舆论预计将加强对伊朗相关军费与行政部门的监督。\n- 情报界仍关注俄、中、伊对选民的信息影响，地方官员称联邦预警渠道弱于 2016 年以来水平。\n\n来源：[CBS News](https://www.cbsnews.com/news/midterm-elections-preview-how-might-this-years-vote-change-washington/)、[X 新闻摘要](https://x.com/i/trending/2116918078915109086)",
+          "en": "Susan Glasser called the vote a referendum on the president; CBS polling shows more voters say they are casting ballots to oppose his policies than to support him. AI-generated campaign ads with little federal disclaimer rule are a fresh flashpoint.\n\n- Analysts say a Democratic Congress would likely intensify oversight of Iran-related defense spending and the executive branch.\n- U.S. intelligence still tracks Russian, Chinese and Iranian influence efforts; local officials call federal warning channels weaker than since 2016.\n\nSources: [CBS News](https://www.cbsnews.com/news/midterm-elections-preview-how-might-this-years-vote-change-washington/), [X news](https://x.com/i/trending/2116918078915109086)"
+        },
+        "sources": [
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/midterm-elections-preview-how-might-this-years-vote-change-washington/",
+            "lang": "en"
+          },
+          {
+            "name": "X",
+            "url": "https://x.com/i/trending/2116918078915109086",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "trump-iran-deal-or-end",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普：伊朗要么达成协议，否则美方将「结束」冲突",
+          "en": "Trump: Iran makes a deal or the U.S. will “end” the conflict"
+        },
+        "summary": {
+          "zh": "周日特朗普称与内塔尼亚胡通话并讨论伊朗，表示冲突将很快收场——「要么他们做交易，要么我们就结束它」；Axios 称以方希望中期选举后立刻再打，美方更愿再给外交时间。卡塔尔斡旋与美军加油机在以集结的消息并行。",
+          "en": "Sunday Trump said he spoke with Netanyahu about Iran and the war will wrap up soon—“either they’ll make a deal or we’ll just end it.” Axios: Israel wants post-midterm strikes; Washington prefers more diplomacy. Qatari talks and U.S. tanker reports in Israel ran in parallel."
+        },
+        "body": {
+          "zh": "特朗普称谈判「还行」但并不着急，并怀疑伊方履约；还点名 Pickaxe Mountain 等地下核设施「十分钟就能处理」。万斯上周致信伊朗国安会秘书礼萨伊，为数月来最高层级接触。\n\n- 以媒与社交平台流传拉蒙机场美军加油机照片，Channel 14 等称以色列境内美军加油机逾 80 架，数字未经独立核实。\n- 此为对昨日伊朗「无地理限制反击」叙事的选前升级：外交窗口仍开，军事选项同步摆上台面。\n\n来源：[Israel National News](https://www.israelnationalnews.com/news/435496)、[X 新闻摘要](https://x.com/i/trending/2116920010815803521)",
+          "en": "Trump said talks were “going fine” but he was “not in much of a hurry,” doubted Iranian reliability, and named Pickaxe Mountain among sites the U.S. could hit “in 10 minutes.” Vance’s letter to SNSC chief Rezaei was the highest-level U.S. outreach in months.\n\n- Israeli media and social posts showed U.S. tankers at Ramon Airport; Channel 14 and others claimed 80+ U.S. tankers in Israel—figures not independently confirmed.\n- It updates yesterday’s Iran hard-line story ahead of midterms: diplomacy stays open while strike options are kept visible.\n\nSources: [Israel National News](https://www.israelnationalnews.com/news/435496), [X news](https://x.com/i/trending/2116920010815803521)"
+        },
+        "sources": [
+          {
+            "name": "Israel National News",
+            "url": "https://www.israelnationalnews.com/news/435496",
+            "lang": "en"
+          },
+          {
+            "name": "X",
+            "url": "https://x.com/i/trending/2116920010815803521",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "ukraine-kstovo-drone",
+        "originalLang": "en",
+        "title": {
+          "zh": "乌克兰无人机再袭：下诺夫哥罗德州科斯托沃炼油厂起火",
+          "en": "Ukrainian drones hit again: fire at Kstovo oil refinery in Nizhny Novgorod"
+        },
+        "summary": {
+          "zh": "11 月 1 日凌晨，乌监控频道称俄第四大炼油厂、卢克石油旗下 NORSI（科斯托沃）遭无人机打击并起火；距乌边境约 800 公里，年加工原油约 1500–1700 万吨。俄方称「工业企业」遇袭并立案，称击落逾百架无人机。",
+          "en": "Overnight Nov. 1, Ukrainian monitors said Lukoil’s NORSI refinery in Kstovo—Russia’s fourth-largest, ~800 km from Ukraine—was struck and ablaze (15–17 Mt/year crude). Moscow said an industrial site was hit, opened a case, and claimed 100+ drones downed."
+        },
+        "body": {
+          "zh": "该厂 8 月 26 日曾遭确认打击并一度停工；2026 年以来乌方持续远程打击俄能源设施。京基独立报等称现场画面尚待独立核实。\n\n- 袭击发生在美方局部斡旋奥列什基撤离之后，显示能源战线并未因人道安排停歇。\n- 与油价高位、欧佩克+冻产消息叠加，强化供应风险溢价。\n\n来源：[Kyiv Independent](https://kyivindependent.com/russian-oil-refinery-in-kstovo-ablaze-after-reported-overnight-drone-strike/)、[Euronews](https://www.euronews.com/2026/11/01/russia-says-massive-drone-attack-targeted-industrial-enterprise-amid-reports-oil-refinery-)",
+          "en": "The plant was confirmed hit on Aug. 26 and had suspended operations; Ukraine has kept up long-range strikes on Russian energy sites through 2026. Kyiv Independent said footage was not yet independently verified.\n\n- The strike followed the U.S.-brokered Oleshky evacuation window, showing the energy campaign did not pause for that humanitarian track.\n- Together with high oil prices and OPEC+ holding output, it adds to supply-risk premium.\n\nSources: [Kyiv Independent](https://kyivindependent.com/russian-oil-refinery-in-kstovo-ablaze-after-reported-overnight-drone-strike/), [Euronews](https://www.euronews.com/2026/11/01/russia-says-massive-drone-attack-targeted-industrial-enterprise-amid-reports-oil-refinery-)"
+        },
+        "sources": [
+          {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/russian-oil-refinery-in-kstovo-ablaze-after-reported-overnight-drone-strike/",
+            "lang": "en"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/01/russia-says-massive-drone-attack-targeted-industrial-enterprise-amid-reports-oil-refinery-",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "asia-stocks-ai-fears",
+        "originalLang": "en",
+        "title": {
+          "zh": "亚洲周一低开：韩股开盘跌约 1.62%，承接美股 AI 开支担忧",
+          "en": "Asia opens lower Monday; KOSPI −1.62% on U.S. AI-spending fears"
+        },
+        "summary": {
+          "zh": "受周五美股拖累——标普跌约 1.82%、纳指约 2.86%，英特尔与亚马逊财报强化 AI 资本开支疑虑——首尔综合指数开盘跌 92.97 点至 5637.77。投资者同时盯着美国就业数据与周二中期选举。",
+          "en": "After Friday’s U.S. drop—S&P ~−1.82%, Nasdaq ~−2.86% on Intel and Amazon earnings that deepened AI-capex doubts—KOSPI opened down 92.97 points (1.62%) at 5,637.77. Investors also watch the U.S. jobs report and Tuesday’s midterms."
+        },
+        "body": {
+          "zh": "韩联社称美科技股疲软与中东斡旋并行影响风险偏好；多哈伊卡调停进入连续第三日。本周还有苹果（新任 CEO John Ternus）等财报，约占标普 500 两成公司披露。\n\n- 周五科技抛售已在昨日版详述，今日焦点是亚太开盘传导与选举周波动。\n\n来源：[韩联社](https://en.yna.co.kr/view/AEN20261102001300320)、[X 市场周前瞻](https://x.com/i/trending/2116879007266349539)",
+          "en": "Yonhap tied softer risk appetite to weak U.S. tech and ongoing Doha mediation with Iran entering a third day. The week also brings Apple earnings under new CEO John Ternus and other reports covering about 20% of the S&P 500.\n\n- Friday’s tech selloff was covered yesterday; today’s angle is the Asia open and election-week volatility.\n\nSources: [Yonhap](https://en.yna.co.kr/view/AEN20261102001300320), [X markets week-ahead](https://x.com/i/trending/2116879007266349539)"
+        },
+        "sources": [
+          {
+            "name": "Yonhap",
+            "url": "https://en.yna.co.kr/view/AEN20261102001300320",
+            "lang": "en"
+          },
+          {
+            "name": "X",
+            "url": "https://x.com/i/trending/2116879007266349539",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "opec-plus-december-hold",
+        "originalLang": "en",
+        "title": {
+          "zh": "欧佩克+七大产油国决定 12 月维持产量目标不变",
+          "en": "OPEC+ seven producers keep December oil output targets unchanged"
+        },
+        "summary": {
+          "zh": "沙特、俄、伊拉、科威特、哈萨克、阿尔及利亚与阿曼 11 月 1 日决定 12 月继续执行与 9 月相同的产量配额，合计约 3100 万桶/日；约 200 万桶/日额外减产保留至年底，下次会议 11 月 29 日。背景是中东冲突扰乱出口、布伦特上周五约 117.64 美元。",
+          "en": "Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria and Oman decided Nov. 1 to keep December quotas at September levels (~31 million bpd), holding ~2 million bpd of extra cuts through year-end. Next meeting Nov. 29 amid Middle East disruptions; Brent ~$117.64 Friday."
+        },
+        "body": {
+          "zh": "声明未详述冻产原因；媒体指各国仍在应对霍尔木兹相关中断，多数成员实际产量低于配额。集团已于 9 月完成 2023 年自愿减产 165 万桶/日的回吐，并在审视 2027 年配额产能基准。\n\n- 新华社与《国家报》等确认七国「维持 9 月所需产量至 12 月」。\n- 油价高位与乌再袭俄炼厂、美伊选前表态共振。\n\n来源：[The National](https://www.thenationalnews.com/business/energy/2026/11/01/opec-holds-december-oil-output-targets-steady-as-iran-war-disrupts-supply/)、[新华财经早报](https://www.cnfin.com/yw-lb/detail/20261102/4489483_1.html)",
+          "en": "The statement gave little rationale; outlets say members are still managing Hormuz-linked disruptions, with most producing below quotas. The group finished unwinding 1.65 million bpd of 2023 voluntary cuts in September and is reviewing 2027 capacity baselines.\n\n- The National and Xinhua Finance confirmed the seven will “maintain September required production for December.”\n- High prices sit alongside Ukraine’s refinery strikes and U.S.–Iran pre-election signaling.\n\nSources: [The National](https://www.thenationalnews.com/business/energy/2026/11/01/opec-holds-december-oil-output-targets-steady-as-iran-war-disrupts-supply/), [Xinhua Finance](https://www.cnfin.com/yw-lb/detail/20261102/4489483_1.html)"
+        },
+        "sources": [
+          {
+            "name": "The National",
+            "url": "https://www.thenationalnews.com/business/energy/2026/11/01/opec-holds-december-oil-output-targets-steady-as-iran-war-disrupts-supply/",
+            "lang": "en"
+          },
+          {
+            "name": "新华财经",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261102/4489483_1.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "ashare-q3-profits-record",
+        "originalLang": "zh",
+        "title": {
+          "zh": "沪深上市公司前三季净利超 5.1 万亿元，创四年新高",
+          "en": "Shanghai–Shenzhen listed firms’ Q3 YTD net profit tops ¥5.1 trillion, four-year high"
+        },
+        "summary": {
+          "zh": "截至 10 月 31 日，5224 家沪深公司披露三季报：前三季度营收 56.6 万亿元、净利润 5.1 万亿元，同比分别增 5.8%、8.5%，规模与增速均为 2022 年以来最高；约 73% 公司盈利。全国社会物流总额前三季度 280 万亿元，同比增 4.9%。",
+          "en": "By Oct. 31, 5,224 Shanghai–Shenzhen firms posted Q3 reports: ¥56.6 trillion revenue and ¥5.1 trillion net profit in the first three quarters (+5.8% / +8.5%), the strongest scale and growth since 2022; about 73% were profitable. Social logistics volume hit ¥280 trillion (+4.9%)."
+        },
+        "body": {
+          "zh": "滚动 ROE 约 7.9%。北交所纳入统计的 354 家中，约 69.5% 营收同比增长、81.4% 实现盈利。\n\n- 中国物流与采购联合会称物流运行「稳中有进、质效双升」。\n- 与今日金融管理部门开会研究资本市场工具、优化股票回购增持再贷款形成政策呼应。\n\n来源：[新华财经早报](https://www.cnfin.com/yw-lb/detail/20261102/4489483_1.html)",
+          "en": "Trailing ROE was about 7.9%. Of 354 Beijing Stock Exchange firms counted, ~69.5% grew revenue and ~81.4% were profitable.\n\n- CFLP described logistics as “steady with quality gains.”\n- The print pairs with today’s PBOC–CSRC meetings on market-support tools and buyback/increase loans.\n\nSource: [Xinhua Finance morning brief](https://www.cnfin.com/yw-lb/detail/20261102/4489483_1.html)"
+        },
+        "sources": [
+          {
+            "name": "新华财经",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261102/4489483_1.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "party-self-governance-resolution",
+        "originalLang": "zh",
+        "title": {
+          "zh": "二十届五中全会《全面从严治党》决定全文公布",
+          "en": "Full text published: CPC resolution on full and rigorous Party self-governance"
+        },
+        "summary": {
+          "zh": "10 月 29 日二十届五中全会通过的《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》于 11 月 1 日全文播发，要求修订党内监督条例，统筹纪律、监察、派驻、巡视监督，并点名打击利用虚拟货币、区块链、跨境资金等新型腐败。",
+          "en": "Fifth Plenum resolution on full and rigorous Party self-governance (Oct. 29) was published Nov. 1. It seeks a revised intra-Party supervision regulation, coordinated discipline and inspection oversight, and crackdowns on graft via crypto, blockchain and cross-border funds."
+        },
+        "body": {
+          "zh": "决定系统部署党性、民主集中制、干部队伍、组织体系、正风肃纪与不敢腐不能腐不想腐一体推进等篇章，强调「关键少数」特别是「一把手」监督。\n\n- 英文全译本同日由中国政府网／新华社发布。\n- 舆论将其视为新时代反腐制度化再加码，而非单次案件通报。\n\n来源：[中国政府网](https://www.gov.cn/zhengce/202611/content_7084690.htm)、[english.www.gov.cn](https://english.www.gov.cn/news/202611/01/content_WS6ae72983c6d00ca5f9a0e03f.html)",
+          "en": "Chapters cover Party spirit, democratic centralism, the cadre corps, organizational systems, conduct and discipline, and integrating deterrence, prevention and reform—stressing oversight of the “key few,” especially top leaders.\n\n- An English full text was posted the same day on the official government site / Xinhua.\n- Coverage frames it as institutionalizing anti-corruption rather than a single case dump.\n\nSources: [gov.cn](https://www.gov.cn/zhengce/202611/content_7084690.htm), [english.www.gov.cn](https://english.www.gov.cn/news/202611/01/content_WS6ae72983c6d00ca5f9a0e03f.html)"
+        },
+        "sources": [
+          {
+            "name": "中国政府网",
+            "url": "https://www.gov.cn/zhengce/202611/content_7084690.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "Xinhua / gov.cn EN",
+            "url": "https://english.www.gov.cn/news/202611/01/content_WS6ae72983c6d00ca5f9a0e03f.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "two-launch-lunar-rendezvous",
+        "originalLang": "zh",
+        "title": {
+          "zh": "载人登月细则：两次发射、环月交会对接",
+          "en": "Crewed moon plan detailed: two launches, lunar-orbit rendezvous"
+        },
+        "summary": {
+          "zh": "载人航天工程副总设计师王翔 11 月 1 日在学术大会说明：长征十号将分别把揽月着陆器与梦舟飞船送入地月转移轨道，二者在环月轨道交会对接，航天员换乘揽月降落月面；目标仍是 2030 年前首次载人登月。",
+          "en": "Deputy chief designer Wang Xiang said Nov. 1 two Long March 10 rockets will send the Lanyue lander and Mengzhou crew ship into Earth–moon transfer; they rendezvous in lunar orbit, then astronauts transfer to Lanyue for descent—still aiming for a first crewed landing before 2030."
+        },
+        "body": {
+          "zh": "相较昨日「梦舟／揽月将安排首飞」简讯，本日披露完整任务架构与接口一体化设计思路。已完成梦舟零高度逃逸、最大动压逃逸、揽月起降及长征十号低空演示等试验。\n\n- 王翔称方案匹配现有能力与基础设施，有利于飞船与着陆器系列化。\n- 强调先认知、后利用，载人与嫦娥无人探测在技术、设施与人才上共享。\n\n来源：[CGTN](https://news.cgtn.com/news/2026-11-01/China-unveils-detailed-two-launch-plan-for-first-manned-moon-landing-1RIAlmmOVgI/p.html)",
+          "en": "Beyond yesterday’s note that Mengzhou/Lanyue first flights are planned, today’s briefing spells out the full architecture and integrated interface design. Completed tests include Mengzhou zero-height and max-Q aborts, Lanyue landing/takeoff, and a Long March 10 low-altitude demo.\n\n- Wang said the split approach fits current infrastructure and supports vehicle families.\n- He stressed knowledge before resource use, and shared tech/infrastructure with Chang’e unmanned missions.\n\nSource: [CGTN](https://news.cgtn.com/news/2026-11-01/China-unveils-detailed-two-launch-plan-for-first-manned-moon-landing-1RIAlmmOVgI/p.html)"
+        },
+        "sources": [
+          {
+            "name": "CGTN",
+            "url": "https://news.cgtn.com/news/2026-11-01/China-unveils-detailed-two-launch-plan-for-first-manned-moon-landing-1RIAlmmOVgI/p.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "pboc-csrc-market-support",
+        "originalLang": "zh",
+        "title": {
+          "zh": "央行与证监会今日开会：研究资本市场工具与回购增持再贷款",
+          "en": "PBOC and CSRC meet today on market-support tools and buyback loans"
+        },
+        "summary": {
+          "zh": "据新华财经，11 月 2 日中国人民银行将与证监会组织部分券商、基金负责人，研究推动支持资本市场工具使用；同日央行、金融监管总局、证监会还将召集大行研究优化股票回购增持再贷款政策。",
+          "en": "Xinhua Finance says on Nov. 2 the PBOC and CSRC will gather some securities and fund chiefs to promote market-support tools; the same day PBOC, NFRA and CSRC will meet major banks on optimizing stock buyback and increase re-lending."
+        },
+        "body": {
+          "zh": "早报称此举意在推动已出台工具加快落地，并完善回购增持再贷款的使用体验与覆盖。会议安排与 A 股三季报盈利创四年新高等数据同日披露。\n\n- 政策信号偏稳市场、鼓励上市公司与机构用好存量工具。\n- 具体会后举措仍待官方通报。\n\n来源：[新华财经早报](https://www.cnfin.com/yw-lb/detail/20261102/4489483_1.html)",
+          "en": "The brief says the aim is faster use of existing tools and a smoother buyback/increase re-lending facility. The meetings coincide with four-year-high A-share Q3 profits.\n\n- Tone favors market stability and encouraging listed firms and institutions to use tools already on the books.\n- Concrete follow-ups await official readout.\n\nSource: [Xinhua Finance morning brief](https://www.cnfin.com/yw-lb/detail/20261102/4489483_1.html)"
+        },
+        "sources": [
+          {
+            "name": "新华财经",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261102/4489483_1.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -60,11 +60,11 @@ const rss = absolute('rss.xml');
     </script>
     <style is:inline>
       html[data-theme='dark'] {
-        background: #1b1b1a;
+        background: #111110;
         color: #f2f0ea;
       }
       html[data-theme='light'] {
-        background: #f2f0ea;
+        background: #e4dfd4;
         color: #1b1b1a;
       }
     </style>
@@ -91,21 +91,23 @@ const rss = absolute('rss.xml');
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
     <meta property="og:locale" content="zh_CN" />
-    <meta name="theme-color" content="#f2f0ea" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#1b1b1a" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#e4dfd4" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#111110" media="(prefers-color-scheme: dark)" />
   </head>
   <body>
     <a class="skip" href="#main">
       <span class="ui-zh">跳到正文</span>
       <span class="ui-en">Skip to content</span>
     </a>
-    <Header current={current} />
-    <main id="main">
-      <div class="wrap">
-        <slot />
-      </div>
-    </main>
-    <Footer />
+    <div class="book">
+      <Header current={current} />
+      <main id="main">
+        <div class="wrap">
+          <slot />
+        </div>
+      </main>
+      <Footer />
+    </div>
     <script is:inline>
       (function () {
         document.querySelectorAll('details.version-fold').forEach(function (fold) {

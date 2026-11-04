@@ -12,23 +12,25 @@ const { current } = Astro.props;
 
 <header class="site-header">
   <div class="wrap">
-    <div class="masthead">
-      <div class="identity">
-        <a class="brand" href={href('/')}>
-          <span class="logo-word">朝夕</span>
-        </a>
-        <p class="tagline">
-          <UiText zh="朝闻道，夕死可矣！" en="朝闻道，夕死可矣！" />
-        </p>
-      </div>
-      <div class="tools">
-        <a href={href('rss.xml')}>RSS</a>
-        <button type="button" class="theme-toggle" id="ui-toggle">
-          <span class="ui-zh">EN</span>
-          <span class="ui-en">中文</span>
-        </button>
-        <button type="button" class="theme-toggle" id="theme-toggle">深色</button>
-      </div>
+    <div class="tools">
+      <a href={href('rss.xml')}>
+        <UiText zh="订阅" en="RSS" />
+      </a>
+      <span class="mark-dot" aria-hidden="true">·</span>
+      <button type="button" class="theme-toggle" id="ui-toggle">
+        <span class="ui-zh">英文</span>
+        <span class="ui-en">中文</span>
+      </button>
+      <span class="mark-dot" aria-hidden="true">·</span>
+      <button type="button" class="theme-toggle" id="theme-toggle">深色</button>
+    </div>
+    <div class="nameplate">
+      <a class="brand" href={href('/')}>
+        <span class="logo-word">朝夕</span>
+      </a>
+      <p class="tagline">
+        <UiText zh="朝闻道，夕死可矣！" en="朝闻道，夕死可矣！" />
+      </p>
     </div>
     <nav aria-label="栏目">
       <ul class="nav-list">

@@ -1,0 +1,643 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-01",
+  "am": {
+    "tech": [
+      {
+        "id": "ai-training-robots-optout",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI、谷歌、微软与 Anthropic 支持统一 AI 训练退出信号",
+          "en": "OpenAI, Google, Microsoft and Anthropic back one AI training opt-out"
+        },
+        "summary": {
+          "zh": "四家大厂将遵守 robots.txt 中的共享策略令牌 `__usage_ai-training`，网站可用一条规则拒绝生成式 AI 训练抓取；Anthropic 已开始落地，OpenAI 称「未来数月」，微软与谷歌分别瞄准 2027 年 2 月与 2027 年初。",
+          "en": "The four labs will honor a shared robots.txt policy token, `__usage_ai-training`, so sites can opt out of generative AI training with one rule. Anthropic has started; OpenAI aims for “coming months”; Microsoft from Feb. 1, 2027; Google early 2027."
+        },
+        "body": {
+          "zh": "信号来自 Anthropic 工程师 Kevin Kelley 提交的 IETF 草案，用熟悉的 `Disallow`/`Allow` 语法表达训练偏好，不替代各公司现有爬虫名单。\n\n- 该令牌表达的是使用偏好，不是强制禁爬；私人协议仍可覆盖。\n- 谷歌称若站点用此令牌退出且未单独配置 Google-Extended，将按屏蔽 Google-Extended 处理；不改变普通搜索排名。\n- 微软强调新偏好「不构成授权或付费安排」，并另设页面级 grounding 控件。\n\n来源：[The Next Web](https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic)、[X 新闻摘要](https://x.com/i/trending/2116541174605660445)",
+          "en": "The signal comes from an IETF draft by Anthropic’s Kevin Kelley, using familiar Disallow/Allow syntax for training preferences without replacing named crawler rules.\n\n- It states a preference, not a crawl ban; private deals can override it.\n- Google will treat the token as a Google-Extended block when that crawler is not listed separately; ordinary Search ranking is unchanged.\n- Microsoft says the preferences “do not establish licensing or payment arrangements” and is adding a separate page-level grounding control.\n\nSources: [The Next Web](https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic), [X news](https://x.com/i/trending/2116541174605660445)"
+        },
+        "sources": [
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic",
+            "lang": "en"
+          },
+          {
+            "name": "X",
+            "url": "https://x.com/i/trending/2116541174605660445",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "claude-ultra-plan",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic 将 Max 20x 改名为 Ultra，已验证账户取消五小时窗口",
+          "en": "Anthropic renames Max 20x to Ultra and drops the five-hour limit for verified accounts"
+        },
+        "summary": {
+          "zh": "Anthropic 把 Claude 订阅顶档 Max 20x 更名为 Ultra（仍约每月 200 美元），Max 5x 简称为 Max；已验证的 Ultra 账户不再受滚动五小时用量窗限制，但仍保留约为 Pro 十倍的周用量上限，以及 Fable 模型的单独周限额。",
+          "en": "Anthropic renamed Claude Max 20x to Ultra ($200/month) and Max 5x to Max. Verified Ultra accounts lose the rolling five-hour session cap but keep about 10× Pro weekly usage, plus a separate weekly limit for Fable."
+        },
+        "body": {
+          "zh": "现有订户自动迁转、价格不变。帮助中心称验证依据账户与支付历史自动完成，新账号可能暂时保留限制。\n\n- 设置 → 用量中若看不到「当前会话」条，通常表示已验证。\n- Ultra 仍含 Claude Code、优先体验与每月 API 积分等权益。\n\n来源：[Claude 帮助中心](https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan)、[Notebookcheck](https://www.notebookcheck.net/Claude-Ultra-drops-the-five-hour-limit-for-verified-accounts.1438692.0.html)",
+          "en": "Existing subscribers migrate automatically at the same price. Anthropic verifies accounts from history and payment patterns; new accounts may keep a temporary limit.\n\n- In Settings → Usage, no “Current session” bar usually means verified.\n- Ultra still includes Claude Code, priority access, and monthly API credits.\n\nSources: [Claude Help Center](https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan), [Notebookcheck](https://www.notebookcheck.net/Claude-Ultra-drops-the-five-hour-limit-for-verified-accounts.1438692.0.html)"
+        },
+        "sources": [
+          {
+            "name": "Claude Help Center",
+            "url": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan",
+            "lang": "en"
+          },
+          {
+            "name": "Notebookcheck",
+            "url": "https://www.notebookcheck.net/Claude-Ultra-drops-the-five-hour-limit-for-verified-accounts.1438692.0.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-funding-cut-20b",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI 新一轮融资目标据报下调至约 200 亿美元",
+          "en": "OpenAI said to cut its fundraising target to about $20 billion"
+        },
+        "summary": {
+          "zh": "继周五传出仅募约 110 亿美元后，CNBC 周六确认 OpenAI 将本轮目标从约 300 亿美元下调至最多约 200 亿美元，投后估值约 1.25 万亿美元；轮次仍未关闭，阿联酋资本与 Coatue 等领投。",
+          "en": "After Friday reports of about $11 billion raised, CNBC confirmed Saturday that OpenAI pared its target from about $30 billion to up to $20 billion at a ~$1.25 trillion post-money valuation. The round remains open, led by UAE investors and Coatue."
+        },
+        "body": {
+          "zh": "金融时报等称部分大额投资者缩减认购，首轮交割或低于 200 亿美元；公司仍计划后续面向高净值个人的零售份额。\n\n- 背景是美股科技股因 AI 资本开支回报疑虑大跌，英特尔、美光、英伟达等承压。\n- OpenAI 未立即置评；报道称其希望在 Anthropic 潜在上市前尽量完成融资。\n\n来源：[CNBC](https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html)、[TechCrunch](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)",
+          "en": "The FT and others said some large investors cut allocations and a first close may land below $20 billion; a later retail tranche for wealthy individuals is still discussed.\n\n- The backdrop is a tech selloff driven by doubts over AI capex payback, with Intel, Micron and Nvidia among the hardest hit.\n- OpenAI did not immediately comment; reports say it wants to finish before a potential Anthropic listing.\n\nSources: [CNBC](https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html), [TechCrunch](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+            "lang": "en"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "europe-genz-protests-sat",
+        "originalLang": "en",
+        "title": {
+          "zh": "法德青年抗议再起：法国约 32 万人上街，德国多地夜间冲突",
+          "en": "Youth protests return across France and Germany; clashes after dark"
+        },
+        "summary": {
+          "zh": "10 月 31 日，法国第三周末青年主导示威，官方估计约 32 万人；德国「GenZ regelt!」在数十城集会，日间大体和平，晚间汉堡等地出现焚烧与投掷，警察动用水炮与胡椒喷雾。",
+          "en": "On Oct. 31 France’s third weekend of youth-led rallies drew about 320,000 people by government count. Germany’s “GenZ regelt!” filled dozens of cities; evenings in Hamburg and elsewhere saw fires and clashes, with water cannon and pepper spray."
+        },
+        "body": {
+          "zh": "诉求集中在生活成本、教育、住房与气候；法国出动约 7 万名警察，巴黎游行改道至城郊。\n\n- 法国内政部长称整体有序，但谴责夜间骚乱，包括巴黎一名警察遭燃烧瓶袭击。\n- 意大利此前亦有大规模学生与工会行动，抗议高物价与军费优先。\n\n来源：[美联社](https://apnews.com/article/protests-europe-youth-france-germany-spain-362a7cb69871ab21bd894290dad639f5)、[海峡时报](https://www.straitstimes.com/world/while-you-were-sleeping-5-stories-you-might-have-missed-nov-1-2026)",
+          "en": "Demands center on living costs, schools, housing and climate. France deployed about 70,000 officers and rerouted Paris marches to the outskirts.\n\n- Interior Minister Laurent Nuñez called daytime marches mostly orderly but condemned night disorder, including a Molotov attack on an officer in Paris.\n- Italy had already seen large student and union marches over costs and military spending.\n\nSources: [AP News](https://apnews.com/article/protests-europe-youth-france-germany-spain-362a7cb69871ab21bd894290dad639f5), [The Straits Times](https://www.straitstimes.com/world/while-you-were-sleeping-5-stories-you-might-have-missed-nov-1-2026)"
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/protests-europe-youth-france-germany-spain-362a7cb69871ab21bd894290dad639f5",
+            "lang": "en"
+          },
+          {
+            "name": "The Straits Times",
+            "url": "https://www.straitstimes.com/world/while-you-were-sleeping-5-stories-you-might-have-missed-nov-1-2026",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "iran-khamenei-no-limits",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗最高领袖下令：遇袭须「无地理限制」立即强力反击",
+          "en": "Iran’s leader orders immediate response “without geographic limits” if attacked"
+        },
+        "summary": {
+          "zh": "穆杰塔巴·哈梅内伊周六会见军方高层，要求对任何新威胁作出「立即、有效且不受地理限制」的回应，并更新美以目标清单；卡塔尔斡旋仍在多哈与德黑兰推进，试图在美国中期选举后避免再战。",
+          "en": "Mojtaba Khamenei told commanders Saturday to meet any new threat with an “immediate, effective” reply “without geographic limits” and to refresh U.S. and Israeli target lists. Qatari mediation continued as diplomats try to avert renewed fighting after U.S. midterms."
+        },
+        "body": {
+          "zh": "声明发布之际，霍尔木兹海峡航运仍远低于战前；英方海事机构报告一艘油轮遭小艇贴附爆炸物袭击，为开战以来该水道首次确认的类似成功打击。\n\n- 鲁比奥称特朗普尚未决定是否再对伊动武，更希望外交解决。\n- 伊朗媒体称已收到万斯来信，但仍坚持美方先满足德黑兰条件。\n\n来源：[半岛电视台](https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace)、[SBS](https://www.sbs.com.au/news/podcast-episode/irans-leader-orders-swift-response-to-any-attack-morning-news-bulletin-1-november-2026/jqjit2v8b)",
+          "en": "The statement landed as Hormuz traffic stayed far below pre-war levels. UKMTO reported a tanker hit by explosives attached from a small boat—the first confirmed successful strike of that type in the strait since the war began.\n\n- Secretary Rubio said President Trump has not decided on new strikes and prefers diplomacy.\n- Iranian media said Tehran received Vance’s letter but still wants U.S. conditions met first.\n\nSources: [Al Jazeera](https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace), [SBS](https://www.sbs.com.au/news/podcast-episode/irans-leader-orders-swift-response-to-any-attack-morning-news-bulletin-1-november-2026/jqjit2v8b)"
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace",
+            "lang": "en"
+          },
+          {
+            "name": "SBS News",
+            "url": "https://www.sbs.com.au/news/podcast-episode/irans-leader-orders-swift-response-to-any-attack-morning-news-bulletin-1-november-2026/jqjit2v8b",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "g20-no-communique",
+        "originalLang": "en",
+        "title": {
+          "zh": "亚特兰大 G20 外长会闭幕：无联合公报，改发主席声明",
+          "en": "G20 foreign ministers end Atlanta talks with no joint communiqué"
+        },
+        "summary": {
+          "zh": "为期两天的 G20 外长会周六结束，因乌克兰战争等分歧未能达成共识，未发联合公报，改由美国务卿鲁比奥以主席国名义发布总结声明，强调能源粮食安全、关键矿产与航行自由等优先议题。",
+          "en": "Two days of G20 foreign ministers’ talks in Atlanta ended Saturday without consensus or a joint communiqué. Secretary Rubio issued a U.S. chair’s statement stressing energy and food security, critical minerals and freedom of navigation."
+        },
+        "body": {
+          "zh": "此前集体合影已因欧洲外长拒绝与俄外长拉夫罗夫同框而取消。\n\n- 鲁比奥称「不会假装已接近普遍接受的解决方案」，但在供应链与关键矿产上仍有合作空间。\n- 波兰外长西科尔斯基称桌上既有交战方，很难形成共同立场；下月佛州领导人峰会仍是目标。\n\n来源：[CNBC](https://www.cnbc.com/2026/10/31/g20-foreign-ministers-end-atlanta-meeting-without-consensus-on-issues.html)、[美联社相关报道](https://apnews.com/article/rubio-g20-ukraine-russia-poland-21c65a8bb02a3a0f0c89f0ce6d56d5fd)",
+          "en": "The traditional group photo had already been canceled after European ministers refused to stand with Russia’s Sergey Lavrov.\n\n- Rubio said he would not pretend the group was close to “universally accepted solutions,” but saw room on supply chains and critical minerals.\n- Poland’s Radosław Sikorski said common lines are hard when warring parties sit at the table; next month’s Florida leaders’ summit remains the aim.\n\nSources: [CNBC](https://www.cnbc.com/2026/10/31/g20-foreign-ministers-end-atlanta-meeting-without-consensus-on-issues.html), [AP News](https://apnews.com/article/rubio-g20-ukraine-russia-poland-21c65a8bb02a3a0f0c89f0ce6d56d5fd)"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/31/g20-foreign-ministers-end-atlanta-meeting-without-consensus-on-issues.html",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/rubio-g20-ukraine-russia-poland-21c65a8bb02a3a0f0c89f0ce6d56d5fd",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "oil-hormuz-friday-jump",
+        "originalLang": "en",
+        "title": {
+          "zh": "霍尔木兹油轮遇袭推升油价，布伦特结算约 117.64 美元",
+          "en": "Hormuz tanker attack lifts oil; Brent settles near $117.64"
+        },
+        "summary": {
+          "zh": "周五布伦特 12 月合约涨约 2.4% 至每桶 117.64 美元，为 4 月底以来最高结算；英国海事机构报告霍尔木兹海峡一艘油轮遭小艇贴附炸药袭击，市场担忧美国中期选举后冲突再升级。",
+          "en": "Brent’s December contract rose about 2.4% Friday to $117.64 a barrel, the highest settle since late April. UKMTO reported a Hormuz tanker hit by boat-attached explosives as traders braced for possible escalation after U.S. midterms."
+        },
+        "body": {
+          "zh": "更活跃的 1 月布伦特涨至约 113.43 美元；WTI 收于约 104.12 美元。本月布伦特累计上涨约 13.6%。\n\n- 航运消息称，这是 2 月美以对伊开战以来该水道首次确认的「水雷式」贴附炸药成功打击。\n- 卡塔尔斡旋团队同日往返德黑兰；沙特出口据船舶追踪仍略有回升。\n\n来源：[The Daily Star](https://www.thedailystar.net/business/global-economy/news/oil-jumps-11764-4312211)",
+          "en": "The more active January Brent rose to about $113.43; WTI settled near $104.12. Brent gained about 13.6% on the month.\n\n- Maritime sources called it the first confirmed successful limpet-style strike in the strait since the U.S.–Israel war with Iran began in February.\n- Qatari mediators were back in Tehran the same day; ship-trackers still showed a rise in Saudi crude exports.\n\nSource: [The Daily Star](https://www.thedailystar.net/business/global-economy/news/oil-jumps-11764-4312211)"
+        },
+        "sources": [
+          {
+            "name": "The Daily Star",
+            "url": "https://www.thedailystar.net/business/global-economy/news/oil-jumps-11764-4312211",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "merz-europe-energy-cost",
+        "originalLang": "en",
+        "title": {
+          "zh": "默茨称伊朗冲突八个月已给欧洲增加逾千亿欧元能源成本",
+          "en": "Merz says Iran conflict has added over €100 billion in Europe energy costs"
+        },
+        "summary": {
+          "zh": "德国总理弗里德里希·默茨在访问期间表示，过去约八个月与伊朗相关的冲突已使欧洲能源成本增加逾 1000 亿欧元，呼吁尽快外交降温；伊朗官员则批评欧洲早先支持军事行动、如今抱怨代价。",
+          "en": "German Chancellor Friedrich Merz said the Iran-related conflict has added more than €100 billion in European energy costs over about eight months and urged faster diplomacy. Iranian officials accused Europe of cheering earlier strikes and now complaining about the bill."
+        },
+        "body": {
+          "zh": "伊朗安全官员礼萨伊在社交平台回击称「战争与恐怖有代价」；外长阿拉格齐称「千亿欧元与伊朗军队可能造成的打击相比不值一提」。\n\n- 能源成本上升与霍尔木兹通行量仍约为战前七成左右相互印证，成为周末市场关注点。\n\n来源：[半岛电视台](https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace)、[X 相关讨论](https://x.com/i/trending/2116298067662217650)",
+          "en": "Iran’s security chief Mohsen Rezaei wrote that “war and terror come at a price”; Foreign Minister Abbas Araghchi said €100 billion is “nothing” beside the blow Iran’s forces could deal.\n\n- Higher energy costs track with Hormuz traffic still far below pre-war norms, a weekend focus for markets.\n\nSources: [Al Jazeera](https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace), [X](https://x.com/i/trending/2116298067662217650)"
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace",
+            "lang": "en"
+          },
+          {
+            "name": "X",
+            "url": "https://x.com/i/trending/2116298067662217650",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "canton-fair-phase3",
+        "originalLang": "zh",
+        "title": {
+          "zh": "第 140 届广交会第三期开幕，超 1.2 万家企业参展",
+          "en": "Canton Fair Phase 3 opens with more than 12,000 exhibitors"
+        },
+        "summary": {
+          "zh": "10 月 31 日，第 140 届中国进出口商品交易会第三期在广州开幕，主题「美好生活」，展览面积约 51.5 万平方米、展位约 2.5 万个，参展企业超 1.2 万家，其中优质企业超 3100 家，AI 智能产品与绿色轻工成亮点。",
+          "en": "Phase 3 of the 140th Canton Fair opened in Guangzhou on Oct. 31 under the theme “Better Life,” with about 515,000 m², 25,000 booths and more than 12,000 exhibitors—over 3,100 rated high-quality—spotlighting AI-enabled and greener light industry."
+        },
+        "body": {
+          "zh": "展区覆盖玩具孕婴童、时尚、家纺、文具、健康休闲等；「智慧医疗」专区有 46 家企业、168 个展位。\n\n- 多家企业展示 AI 陪伴公仔、智能健康检测等新品，并借平台对接南美、欧洲等买家。\n- 贸易服务展区机构达 256 家，较上届增约 20%，首次覆盖十大类生产性服务业。\n\n来源：[中国新闻网](https://www.chinanews.com.cn/cj/2026/10-31/10723922.shtml)",
+          "en": "Sections cover toys and maternity, fashion, home textiles, stationery and leisure health; a smart-medical zone hosts 46 firms and 168 booths.\n\n- Exhibitors showed AI companion toys and health devices and courted buyers from South America and Europe.\n- The trade-services zone has 256 institutions, up about 20%, covering ten producer-service categories for the first time.\n\nSource: [China News Service](https://www.chinanews.com.cn/cj/2026/10-31/10723922.shtml)"
+        },
+        "sources": [
+          {
+            "name": "中国新闻网",
+            "url": "https://www.chinanews.com.cn/cj/2026/10-31/10723922.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "mengzhou-lanyue-prep",
+        "originalLang": "zh",
+        "title": {
+          "zh": "载人登月预演：梦舟飞船与揽月着陆器将安排首次飞行",
+          "en": "China to fly Mengzhou crew ship and Lanyue lander before crewed moon landing"
+        },
+        "summary": {
+          "zh": "第七届载人航天学术大会上传出：登月阶段研制建设扎实推进，计划 2030 年前实现中国人首次登月；后续将组织长征十号技术验证飞行，以及梦舟载人飞船和揽月着陆器首次飞行等任务。",
+          "en": "At the 7th Manned Spaceflight Academic Conference, officials said lunar landing development is advancing toward a Chinese crewed landing before 2030, with Long March 10 tech flights and first flights of the Mengzhou crew ship and Lanyue lander still to come."
+        },
+        "body": {
+          "zh": "空间站已常态化运营，在轨科学与应用项目超 200 项；不久将迎来首位外籍航天员及低成本货运访问。\n\n- 今年初已完成长征十号低空演示与梦舟最大动压逃逸试验。\n- 登月采用「两次发射、环月对接」等方案，突破地月往返、月面短期驻留等人机联合能力。\n\n来源：[中国新闻网／央视](https://www.chinanews.com.cn/gn/2026/10-31/10723897.shtml)",
+          "en": "The space station is in steady operations with more than 200 science and application projects; a first foreign astronaut and lower-cost cargo visits are expected soon.\n\n- Earlier this year China flew a Long March 10 low-altitude demo and a Mengzhou max-dynamic-pressure abort test.\n- The landing architecture includes dual launches and lunar-orbit rendezvous for short surface stays and crewed exploration.\n\nSource: [China News Service / CCTV](https://www.chinanews.com.cn/gn/2026/10-31/10723897.shtml)"
+        },
+        "sources": [
+          {
+            "name": "中国新闻网",
+            "url": "https://www.chinanews.com.cn/gn/2026/10-31/10723897.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "renewables-q3-output",
+        "originalLang": "zh",
+        "title": {
+          "zh": "前三季度可再生能源发电 3.13 万亿千瓦时，同比增约 8%",
+          "en": "China’s renewable power hits 3.13 trillion kWh in first three quarters, up ~8%"
+        },
+        "summary": {
+          "zh": "国家能源局发布：前三季度全国可再生能源发电量 3.13 万亿千瓦时，同比增长约 8%，占全部发电量 41.8%；风光合计发电 1.92 万亿千瓦时，同比增 11%，可再生能源发电增量占全国发电增量约 87.5%。",
+          "en": "NEA data show renewable generation of 3.13 trillion kWh in the first three quarters, up about 8% and 41.8% of all power. Wind and solar together produced 1.92 trillion kWh (+11%); renewables supplied about 87.5% of national generation growth."
+        },
+        "body": {
+          "zh": "截至 9 月底，可再生能源装机约 25.18 亿千瓦，约占总装机 60.9%；风光合计约 20.1 亿千瓦，光伏装机已超过煤电。\n\n- 前三季度可再生能源新增装机约 1.8 亿千瓦，占全部新增装机 71.7%。\n- 官方称发展为完成全年目标奠定基础。\n\n来源：[中国经济网／人民日报海外版](https://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261031_3277764.shtml)",
+          "en": "By end-September renewables capacity was about 2.518 billion kW (~60.9% of total); wind and solar together about 2.01 billion kW, with solar capacity surpassing coal.\n\n- New renewable installs were about 180 GW in the period, 71.7% of all new capacity.\n- Officials said the pace supports full-year targets.\n\nSource: [China Economic Net / People’s Daily Overseas](https://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261031_3277764.shtml)"
+        },
+        "sources": [
+          {
+            "name": "中国经济网",
+            "url": "https://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261031_3277764.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "deepseek-super-agent",
+        "originalLang": "en",
+        "title": {
+          "zh": "DeepSeek 开源 Super-agent 原型：按工作项并行编码",
+          "en": "DeepSeek open-sources Super-agent prototype for parallel coding"
+        },
+        "summary": {
+          "zh": "DeepSeek Harness 团队开源 MIT 许可的 dsh-superagent-prototype：以 Router/Worker 架构监听 GitHub，把任务拆成独立工作项，常在约 15 分钟内交回 PR；官方标明属研究原型，非正式产品。",
+          "en": "DeepSeek’s Harness team open-sourced MIT-licensed dsh-superagent-prototype: a Router/Worker system that listens to GitHub, runs tasks as separate work items, and often returns PRs in about 15 minutes. It is labeled a research prototype, not a product."
+        },
+        "body": {
+          "zh": "10 月 31 日晚，团队发布《Exploring Super-agent Design》并开源原型。代理可为单一仓库主动接单：监听 GitHub（可选飞书），接到指派后在独立会话与目录执行，再带着 PR 回到原对话，网页面板只列出需人工关注的事项。\n\n- 架构含事件驱动、异步多通道通信、存算分离与外部 Watchdog。\n- 约 300 条消息、20 个请求的模拟中，中位完成约 12.4 分钟，P95 约 15.7 分钟；对照单会话中性提示的 P95 约 29.5 分钟。\n\n来源：[Stillflood AI Frontier Daily](https://sflood.com/en/daily/ai-2026-11-01)、[X 新闻摘要](https://x.com/i/trending/2116731970004591075)",
+          "en": "On the evening of Oct. 31 the team published “Exploring Super-agent Design” and open-sourced the prototype. It can mind one GitHub repo: listen (optionally Feishu), open a work item on assignment, run in its own session and directory, then return with a PR, while a web panel lists only items needing humans.\n\n- Design includes event-driven flow, async multi-channel messaging, separated storage and compute, and an external Watchdog.\n- In a ~300-message / 20-request simulation, median completion was about 12.4 minutes and p95 about 15.7, versus ~29.5 minutes p95 for a conventional single-session baseline.\n\nSources: [Stillflood AI Frontier Daily](https://sflood.com/en/daily/ai-2026-11-01), [X news](https://x.com/i/trending/2116731970004591075)"
+        },
+        "sources": [
+          {
+            "name": "Stillflood",
+            "url": "https://sflood.com/en/daily/ai-2026-11-01",
+            "lang": "en"
+          },
+          {
+            "name": "X",
+            "url": "https://x.com/i/trending/2116731970004591075",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "apple-intelligence-qwen-china",
+        "originalLang": "en",
+        "title": {
+          "zh": "苹果与阿里合作：中国版 Apple Intelligence 接入通义千问",
+          "en": "Apple partners with Alibaba so China Apple Intelligence can use Qwen"
+        },
+        "summary": {
+          "zh": "苹果宣布中国大陆首批 Apple Intelligence 功能将接入阿里通义千问，用户可在 Siri、写作工具与视觉智能中调用文本与图像理解；开发者测试自 11 月 4 日起，正式面向用户约在 12 月随 iOS 27.3 推出。",
+          "en": "Apple said the first Apple Intelligence features in mainland China will add Alibaba’s Qwen for text and image understanding inside Siri, Writing Tools and Visual Intelligence. Developer testing starts Nov. 4; a broader rollout is due with iOS 27.3 in December."
+        },
+        "body": {
+          "zh": "基础能力仍由苹果自有生成模型驱动，千问为扩展而非替代；首波不含完整 Siri AI。用户可选择是否启用及分享哪些信息，阿里称请求与回复不用于模型训练。\n\n- 面向在中国购买符合条件的 iPhone，或设备定位与 Apple 账户地区均为中国的用户。\n- 新华社引业内观点称，这是头部消费硬件厂商在中国市场首次以国产大模型作为系统级 AI 骨干之一。\n\n来源：[新华社](https://english.news.cn/20261101/773fa2ac33a34a5ca3484d7e5920d094/c.html)、[Stillflood](https://sflood.com/en/daily/ai-2026-11-01)",
+          "en": "Core features still run on Apple’s own generative models, with Qwen as an extension rather than a replacement; full Siri AI is not in the first wave. Users choose whether to enable it and what to share; Alibaba said requests and replies will not be used for training.\n\n- Available to buyers of eligible iPhones in China, or when device location and Apple Account region are both China.\n- Xinhua cited experts calling it a landmark step for a top hardware maker to use a Chinese model as a system-level AI backbone in the China market.\n\nSources: [Xinhua](https://english.news.cn/20261101/773fa2ac33a34a5ca3484d7e5920d094/c.html), [Stillflood](https://sflood.com/en/daily/ai-2026-11-01)"
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261101/773fa2ac33a34a5ca3484d7e5920d094/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "Stillflood",
+            "url": "https://sflood.com/en/daily/ai-2026-11-01",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "gemini-4-carbon",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌发布 Gemini 4 Carbon：强调网络安全与长程智能体",
+          "en": "Google launches Gemini 4 Carbon, stressing cyber defense and long-horizon agents"
+        },
+        "summary": {
+          "zh": "谷歌推出前沿模型 Gemini 4 Carbon，称在网络安全、自主编程与长程智能体任务上有显著提升，并在 Artificial Analysis 等榜单位居前列；社区对真实代码库表现仍有分歧。",
+          "en": "Google released frontier model Gemini 4 Carbon, claiming big gains in cybersecurity, autonomous coding and long-horizon agent work, and topping charts such as Artificial Analysis. Developers remain split on real-codebase quality."
+        },
+        "body": {
+          "zh": "多家日报称 Carbon 在安全评测与 Agent Arena 等榜单靠前；X 上讨论亦指出其在漏洞检测等基准领先，但部分开发者反馈实际仓库中幻觉仍多。\n\n- 定价与放量据报经 Fairwind 等项目逐步推进。\n- 同日生态还有 OpenAI 低价计算机用模型 GPT-6.1 Terra、Anthropic 扩展文本水印等并行消息。\n\n来源：[AIBriefs](https://aibriefs.news/ai-news-today)、[X 新闻摘要](https://x.com/i/trending/2116573310276252100)",
+          "en": "Daily digests say Carbon leads security and agent-arena style charts; X discussion also notes strong vuln-detection benchmarks while some developers still see more hallucinations in live repos.\n\n- Pricing and rollout are reportedly staged through programs such as Fairwind.\n- Parallel headlines include OpenAI’s cheaper computer-use model GPT-6.1 Terra and Anthropic’s expanded text watermarking.\n\nSources: [AIBriefs](https://aibriefs.news/ai-news-today), [X news](https://x.com/i/trending/2116573310276252100)"
+        },
+        "sources": [
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/ai-news-today",
+            "lang": "en"
+          },
+          {
+            "name": "X",
+            "url": "https://x.com/i/trending/2116573310276252100",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "poland-tribunal-crisis",
+        "originalLang": "en",
+        "title": {
+          "zh": "波兰宪法法庭危机：总统紧急磋商，图斯克拒妥协",
+          "en": "Poland’s constitutional-court crisis: president holds talks, Tusk rejects deal"
+        },
+        "summary": {
+          "zh": "波兰总统纳夫罗茨基就宪法法庭院长被暂停一事召集紧急党派磋商，图斯克所在公民联盟缺席；图斯克称反对派欲摧毁法治，欧盟委员会敦促总统接受新法官提名。",
+          "en": "President Karol Nawrocki convened urgent party talks after the Constitutional Tribunal’s chief was suspended; Tusk’s Civic Coalition stayed away. Tusk accused the right of wrecking the rule of law; the European Commission urged Nawrocki to accept new judge nominations."
+        },
+        "body": {
+          "zh": "周五法庭网站宣布正副院长被停职一个月，新选出、身份仍有争议的法官暂代领导；原领导层斥为「政变」并称网站遭非法接管。纳夫罗茨基中断塞内加尔行程回国，周六与法庭内外对峙仍在继续。\n\n- 图斯克称罢免皮斯任命的斯维切科夫斯基「痛苦但必要」，因其据称阻挠议会选出新法官。\n- 美国驻波兰大使呼吁各方冷静，称波兰最不需要的是冲突失控。\n\n来源：[半岛电视台](https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff)、[新华社世界简报](https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html)",
+          "en": "On Friday the tribunal’s website said its president and vice president were suspended for a month and a disputed newly elected judge took temporary charge; the old leadership called it a “coup” and said the site was seized. Nawrocki cut short a Senegal trip; the standoff continued Saturday.\n\n- Tusk called removing PiS-appointed Bogdan Święczkowski “painful but necessary,” accusing him of blocking parliament’s new judges.\n- The U.S. ambassador urged calm, saying Poland does not need a confrontation that spirals.\n\nSources: [Al Jazeera](https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff), [Xinhua world briefing](https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html)"
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "oleshky-evacuation",
+        "originalLang": "en",
+        "title": {
+          "zh": "美方斡旋临时停火下，奥列什基撤离居民抵达乌控区",
+          "en": "Oleshky evacuees reach Ukrainian-held land under a U.S.-brokered local truce"
+        },
+        "summary": {
+          "zh": "在美国斡旋的局部临时停火下，俄占赫尔松州奥列什基居民完成撤离并抵达乌克兰控制区与家人团聚；据报为 2022 年全面入侵以来规模较大的人道安排之一，周日停火将到期。",
+          "en": "Under a U.S.-brokered local ceasefire, residents evacuated from Russian-occupied Oleshky in Kherson reached Ukrainian-held territory and reunited with families—among the larger humanitarian moves since 2022. The truce was due to end Sunday."
+        },
+        "body": {
+          "zh": "居民可选择前往乌控区、俄罗斯或留下；数百人据报因物资短缺仍留城内。撤离路线经俄罗斯与白俄罗斯再进入乌方控制区。\n\n- 乌方监察员等称人道任务已结束，并希望对前线附近居民形成更常态化安排。\n- 与欧洲周末青年抗议、伊朗紧张等并行，构成周日国际要闻主线之一。\n\n来源：[美联社相关报道汇总](https://news.tvb.com/en/1204003-GlobalNewsHighlightsfromAP)、[Al Jazeera](https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family)",
+          "en": "Residents could leave for Ukraine, for Russia, or stay; hundreds reportedly remained despite severe shortages. The route ran through Russia and Belarus before Ukrainian-held ground.\n\n- Ukrainian officials said the humanitarian mission had ended and hoped for more regular missions for people near the front.\n- It sat alongside Europe’s youth protests and Iran tensions as a Sunday world headline.\n\nSources: [AP via TVB](https://news.tvb.com/en/1204003-GlobalNewsHighlightsfromAP), [Al Jazeera](https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family)"
+        },
+        "sources": [
+          {
+            "name": "AP via TVB",
+            "url": "https://news.tvb.com/en/1204003-GlobalNewsHighlightsfromAP",
+            "lang": "en"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "iran-no-us-meeting",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗外长：暂无与美官员会面计划，调解磋商仍在继续",
+          "en": "Iran’s FM: no plan to meet U.S. officials for now; mediation talks continue"
+        },
+        "summary": {
+          "zh": "伊朗外长阿拉格齐对半岛电视台表示，目前无意与美官员会面，卡塔尔与巴基斯坦调解磋商仍在进行；称须美方先接受伊方条件，再决定直接或间接谈判。",
+          "en": "Foreign Minister Abbas Araghchi told Al Jazeera Tehran has no plan to meet U.S. officials now, while Qatari and Pakistani mediation continues. He said Iran will decide on direct or indirect talks only after Washington accepts its conditions."
+        },
+        "body": {
+          "zh": "阿拉格齐否认媒体关于可能会面的猜测，称「目前没有必要」见美方官员。表态发布时，最高领袖此前已下令遇袭须「无地理限制」反击，霍尔木兹航运仍远低于战前。\n\n- 与上午版伊朗强硬表态形成日内更新：外交窗口仍在，但直接对话门槛未降。\n- 美国中期选举临近，市场与外交界均盯着选后美方是否再动武。\n\n来源：[新华社世界简报](https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html)",
+          "en": "Araghchi dismissed media speculation about meetings, saying Tehran saw no need to meet Americans at present. The comments landed after the supreme leader’s order for replies “without geographic limits,” with Hormuz traffic still far below pre-war levels.\n\n- It updates the morning Iran hard-line story: mediation continues, but the bar for direct talks is unchanged.\n- With U.S. midterms near, markets and diplomats watch whether Washington resumes strikes afterward.\n\nSource: [Xinhua world briefing](https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html)"
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "us-tech-ai-selloff",
+        "originalLang": "en",
+        "title": {
+          "zh": "美股科技再挫：英特尔单日跌约 29%，Alphabet 市值蒸发逾 5000 亿",
+          "en": "U.S. tech sells off again: Intel ~−29% in a day, Alphabet loses $500B+"
+        },
+        "summary": {
+          "zh": "投资者质疑巨额 AI 资本开支何时兑现利润，周五纳指期货与半导体板块重挫；英特尔因四季度指引逊预期创约半世纪最大单日跌幅，Alphabet 财报后市值蒸发逾 5000 亿美元。",
+          "en": "Investors questioned when huge AI capex will pay off as Nasdaq and chips sold off Friday. Intel posted its worst day in about half a century after soft Q4 guidance; Alphabet shed more than $500 billion after earnings."
+        },
+        "body": {
+          "zh": "10 月 30 日道指跌约 1.09%、标普约 1.82%、纳指 100 约 3.46%。英特尔收跌约 28.6%，市值一日蒸发逾 1400 亿美元；AMD 跌近 11%，英伟达跌逾 4%，费城半导体指数单日跌约 7.2%。\n\n- Alphabet 三季报营收略低于预期，自由现金流约 −90.7 亿美元，云增长快但资本开支翻倍。\n- 韩国三星、SK 海力士周五亦跟跌，尽管晶圆业务盈利创纪录。\n\n来源：[TipRanks 周报](https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-1)、[韩国中央日报](https://www.koreajoongangdaily.com/business/record-profits-fail-to-shield-samsung-sk-hynix-stocks-as-ai-spending-fears-rattle-markets/12948729)、[X](https://x.com/i/trending/2116644676329406627)",
+          "en": "On Oct. 30 the Dow fell about 1.09%, the S&P 500 about 1.82% and the Nasdaq 100 about 3.46%. Intel closed down ~28.6%, wiping more than $140 billion of value; AMD lost nearly 11%, Nvidia more than 4%, and the SOX about 7.2%.\n\n- Alphabet’s Q3 revenue slightly missed; free cash flow swung to about −$9.07 billion as cloud surged but capex more than doubled.\n- Samsung and SK hynix also fell Friday in Seoul despite record chip profits.\n\nSources: [TipRanks](https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-1), [Korea JoongAng Daily](https://www.koreajoongangdaily.com/business/record-profits-fail-to-shield-samsung-sk-hynix-stocks-as-ai-spending-fears-rattle-markets/12948729), [X](https://x.com/i/trending/2116644676329406627)"
+        },
+        "sources": [
+          {
+            "name": "TipRanks",
+            "url": "https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-1",
+            "lang": "en"
+          },
+          {
+            "name": "Korea JoongAng Daily",
+            "url": "https://www.koreajoongangdaily.com/business/record-profits-fail-to-shield-samsung-sk-hynix-stocks-as-ai-spending-fears-rattle-markets/12948729",
+            "lang": "en"
+          },
+          {
+            "name": "X",
+            "url": "https://x.com/i/trending/2116644676329406627",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "microsoft-25b-bond",
+        "originalLang": "en",
+        "title": {
+          "zh": "微软完成约 250 亿美元债券发行，加码 AI 基建融资",
+          "en": "Microsoft completes about $25 billion bond sale for AI infrastructure"
+        },
+        "summary": {
+          "zh": "微软完成近十年规模最大之一的多档债券发行，规模约 250 亿美元，称所得将支持 AI 基础设施等长期投入；时值同行因 AI 开支回报疑虑遭抛售。",
+          "en": "Microsoft completed a multi-tranche bond sale of about $25 billion—among its largest in nearly a decade—saying proceeds will fund long-term AI infrastructure even as peers sold off on AI-return doubts."
+        },
+        "body": {
+          "zh": "周日市场盘点将此列为周末少数正面科技融资信号之一，与 Alphabet、亚马逊、英特尔财报冲击形成对照。\n\n- 发行显示头部云厂商仍能以债务锁定算力扩张，而估值与股价承压的是「回报叙事」而非融资渠道本身。\n\n来源：[Pulsarium 市场日评](https://pulsarium.finance/news/daily/2026-11-01/)",
+          "en": "Sunday market roundups listed the deal among the few positive tech-funding signals of the weekend, against earnings shocks at Alphabet, Amazon and Intel.\n\n- It shows top cloud names can still debt-finance compute buildout; what is repricing is the return narrative, not access to capital.\n\nSource: [Pulsarium daily](https://pulsarium.finance/news/daily/2026-11-01/)"
+        },
+        "sources": [
+          {
+            "name": "Pulsarium",
+            "url": "https://pulsarium.finance/news/daily/2026-11-01/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "tqqq-inflow-after-nasdaq",
+        "originalLang": "en",
+        "title": {
+          "zh": "纳指急跌后近 10 亿美元流入三倍做多 ETF TQQQ",
+          "en": "Nearly $1 billion flows into 3× Nasdaq ETF TQQQ after the plunge"
+        },
+        "summary": {
+          "zh": "纳指 100 相关 ETF 大跌后，投机资金单日向三倍做多基金 TQQQ 净流入近 10 亿美元，为历史较大单日流入之一；市场对反弹与保证金风险看法分裂。",
+          "en": "After a sharp drop in Nasdaq-100 products, almost $1 billion flowed in a day into 3× bull fund TQQQ—one of its larger single-day inflows—splitting traders between rebound bets and margin-risk warnings."
+        },
+        "body": {
+          "zh": "X 新闻摘要称 QQQ 收于约 690.49 美元，盘中低见约 683.45；TQQQ 流入规模排进历史前列。\n\n- 部分交易员视之为「抄底杠杆」，亦有人警告连环平仓风险。\n- 下周焦点包括苹果、AMD 财报与美国中期选举。\n\n来源：[X 新闻摘要](https://x.com/i/trending/2116680652057682189)、[TipRanks](https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-1)",
+          "en": "X news summaries put QQQ near $690.49 after an intraday low around $683.45; the TQQQ inflow ranked among its largest days.\n\n- Some traders called it a leveraged dip-buy; others warned about cascade margin risk.\n- Next week’s calendar includes Apple and AMD earnings plus U.S. midterms.\n\nSources: [X news](https://x.com/i/trending/2116680652057682189), [TipRanks](https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-1)"
+        },
+        "sources": [
+          {
+            "name": "X",
+            "url": "https://x.com/i/trending/2116680652057682189",
+            "lang": "en"
+          },
+          {
+            "name": "TipRanks",
+            "url": "https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-1",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "china-swiss-fta-upgrade",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中瑞自贸协定升级议定书在京签署",
+          "en": "China and Switzerland sign FTA upgrade protocol in Beijing"
+        },
+        "summary": {
+          "zh": "10 月 30 日，在两国元首共同见证下，商务部部长王文涛与瑞士经济总局局长在京签署中瑞自贸协定升级议定书，升级货物、服务、投资开放并新增数字贸易、贸易与可持续发展等章节。",
+          "en": "On Oct. 30, with both leaders witnessing, Commerce Minister Wang Wentao and Switzerland’s SECO chief signed an FTA upgrade protocol in Beijing, deepening goods, services and investment openings and adding digital trade and trade-and-sustainable-development chapters."
+        },
+        "body": {
+          "zh": "升级在原协定八个章节基础上完善规则，并新增两章；双方将分别完成国内法律审批后推动生效。中瑞 2013 年签自贸协定，2014 年 7 月生效，2024 年 9 月启动升级谈判，2026 年 8 月宣布谈成。\n\n- 商务部称此举在不确定环境下体现支持自由贸易与多边体制。\n- 2025 年双边贸易额约 490.4 亿美元。\n\n来源：[商务部](https://www.mofcom.gov.cn/xwfb/bldhd/art/2026/art_fdb375a3400c4ae6ae78ec06060807bd.html)、[人民日报](https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188728.html)",
+          "en": "The protocol upgrades eight existing chapters and adds two new ones; each side must finish domestic legal procedures before entry into force. The original FTA was signed in 2013, entered force in July 2014, with upgrade talks started Sept. 2024 and concluded Aug. 2026.\n\n- MOFCOM said the deal shows support for free trade and multilateral rules amid uncertainty.\n- Bilateral trade was about $49.04 billion in 2025.\n\nSources: [MOFCOM](https://www.mofcom.gov.cn/xwfb/bldhd/art/2026/art_fdb375a3400c4ae6ae78ec06060807bd.html), [People’s Daily](https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188728.html)"
+        },
+        "sources": [
+          {
+            "name": "商务部",
+            "url": "https://www.mofcom.gov.cn/xwfb/bldhd/art/2026/art_fdb375a3400c4ae6ae78ec06060807bd.html",
+            "lang": "zh"
+          },
+          {
+            "name": "人民日报",
+            "url": "https://paper.people.com.cn/rmrb/pc/content/202611/01/content_30188728.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "china-pmi-oct-493",
+        "originalLang": "zh",
+        "title": {
+          "zh": "10 月制造业 PMI 回落至 49.3%，高技术仍扩张",
+          "en": "China’s October manufacturing PMI slips to 49.3%; high-tech still expands"
+        },
+        "summary": {
+          "zh": "国家统计局：10 月制造业 PMI 为 49.3%，较上月降 0.8 个百分点；生产与新订单指数分别降至 49.8% 与 49.4%，高技术制造业 PMI 51.3%、装备制造业 50.6%，继续高于荣枯线。",
+          "en": "NBS put October manufacturing PMI at 49.3%, down 0.8 point. Output and new orders fell to 49.8% and 49.4%, while high-tech manufacturing stayed at 51.3% and equipment at 50.6%, both above 50."
+        },
+        "body": {
+          "zh": "官方称受国庆前部分需求提前释放及国际环境复杂等因素影响，制造业景气有所回落，但新质生产力相关行业仍保持扩张。\n\n- 同日还发布一批国家标准自 11 月 1 日起实施等政策消息。\n\n来源：[国家统计局](https://www.stats.gov.cn/zwfwck/sjfb/202610/t20261031_1965718.html)、[中国新闻网](https://www.chinanews.com.cn/cj/2026/10-31/10723794.shtml)",
+          "en": "Officials cited demand pulled forward before the National Day holiday and a complex external environment for the softer reading, while new-quality productive forces sectors kept expanding.\n\n- The same day also saw notices that batches of national standards take effect from Nov. 1.\n\nSources: [NBS](https://www.stats.gov.cn/zwfwck/sjfb/202610/t20261031_1965718.html), [China News Service](https://www.chinanews.com.cn/cj/2026/10-31/10723794.shtml)"
+        },
+        "sources": [
+          {
+            "name": "国家统计局",
+            "url": "https://www.stats.gov.cn/zwfwck/sjfb/202610/t20261031_1965718.html",
+            "lang": "zh"
+          },
+          {
+            "name": "中国新闻网",
+            "url": "https://www.chinanews.com.cn/cj/2026/10-31/10723794.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "beijing-hydrogen-2030",
+        "originalLang": "zh",
+        "title": {
+          "zh": "北京氢能产业方案：2030 年产业链规模力争破 400 亿元",
+          "en": "Beijing hydrogen plan aims for over ¥40 billion industry scale by 2030"
+        },
+        "summary": {
+          "zh": "北京市经信局印发《北京市氢能产业发展实施方案（2026—2030 年）》，提出到 2030 年累计推广燃料电池汽车破万辆、加氢站超 40 座，全市氢能产业链规模突破 400 亿元，带动京津冀破千亿元。",
+          "en": "Beijing’s economy and IT bureau issued a 2026–2030 hydrogen plan: by 2030 more than 10,000 FCEVs, over 40 hydrogen stations, city industry scale above ¥40 billion, and over ¥100 billion across Beijing-Tianjin-Hebei."
+        },
+        "body": {
+          "zh": "方案围绕应用示范、产业培育、供应保障与公共平台部署四大工程、14 项重点任务，并推动绿色化工、热电联供等场景规模化。\n\n- 目标构建自主可控、经济高效、绿色安全的京津冀氢能全产业链。\n\n来源：[新华财经早报](https://www.cnfin.com/gs-lb/detail/20261101/4489342_1.html)、[京报网](https://news.bjd.com.cn/2026/11/01/12013981.shtml)",
+          "en": "The plan sets four projects and 14 tasks spanning demonstration, industry building, supply security and public platforms, including scaled green chemicals and combined heat and power.\n\n- The aim is a controllable, efficient and green Beijing-Tianjin-Hebei hydrogen value chain.\n\nSources: [China Financial Information](https://www.cnfin.com/gs-lb/detail/20261101/4489342_1.html), [Beijing Daily](https://news.bjd.com.cn/2026/11/01/12013981.shtml)"
+        },
+        "sources": [
+          {
+            "name": "中国金融信息网",
+            "url": "https://www.cnfin.com/gs-lb/detail/20261101/4489342_1.html",
+            "lang": "zh"
+          },
+          {
+            "name": "京报网",
+            "url": "https://news.bjd.com.cn/2026/11/01/12013981.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

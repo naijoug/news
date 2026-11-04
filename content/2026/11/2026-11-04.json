@@ -1,0 +1,277 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-04",
+  "am": {
+    "tech": [],
+    "world": [],
+    "business": [],
+    "china": []
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "apple-siri-ai-developers",
+        "originalLang": "en",
+        "title": {
+          "zh": "苹果向所有开发者开放 Siri AI",
+          "en": "Apple opens Siri AI to all developers"
+        },
+        "summary": {
+          "zh": "随 iOS/macOS 等 27.3 测试版推出 Siri AI 开发者预览：任何 App 都可通过 App Intents 暴露内容与操作，并用新「skills」把多步操作串成一次请求；App Store 版本要到明年春季才开放提交。",
+          "en": "A Siri AI developer preview in the 27.3 betas lets any app expose content and actions via App Intents, with new “skills” chaining several steps into one request; App Store submissions open in spring."
+        },
+        "sources": [
+          {
+            "name": "Apple Developer",
+            "url": "https://developer.apple.com/news/?id=gdk2umrf",
+            "lang": "en"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "google-schools-search-ai",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌：中小学禁用 AI 就连搜索一起关",
+          "en": "Google ties school Search access to AI settings"
+        },
+        "summary": {
+          "zh": "谷歌宣布 K-12 学生账号的 Gemini、Gemini in Classroom 与搜索默认关闭，需管理员逐项开启；搜索本身含 AI 概览等功能，学校若完全禁用 AI，学生将无法使用谷歌搜索。",
+          "en": "Google says Gemini, Gemini in Classroom and Search will be off by default for K-12 student accounts until admins enable them; because Search now includes AI features, schools that ban AI outright lose Search."
+        },
+        "sources": [
+          {
+            "name": "Engadget",
+            "url": "https://www.engadget.com/2305432/google-says-that-students-in-schools-that-ban-ai-wont-have-access-to-search/",
+            "lang": "en"
+          },
+          {
+            "name": "9to5Google",
+            "url": "https://9to5google.com/2026/11/03/google-search-ai-guided-learning-changes/",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/ai-schools-classroom-students-google-7ba4219e505db1c11d672f6eefe7155a",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "us-midterms-democrats-sweep",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国中期选举：民主党拿下参众两院",
+          "en": "US midterms: Democrats win both House and Senate"
+        },
+        "summary": {
+          "zh": "美联社等报道，民主党在中期选举中同时夺得众议院和参议院多数，参院预计 54 比 44，净翻转 7 席，包括得州、堪萨斯、缅因等红州；众院至少 228 席，远超 218 席门槛。",
+          "en": "AP and others report Democrats won control of both chambers. The Senate is set at 54–44 after seven flips, including Texas, Kansas and Maine; Democrats hold at least 228 House seats, well past the 218 needed."
+        },
+        "body": {
+          "zh": "民主党自 2023 年以来首次全面掌控国会，特朗普最后两年任期将面对两院调查与立法掣肘。\n\n- **参议院翻转七席**：艾奥瓦（Turek）、堪萨斯（Hamilton 击败现任 Marshall）、缅因（Jackson 击败 Collins）、北卡（Cooper）、俄亥俄（Sherrod Brown）、南卡（Andrews）与得州（Talarico 击败 Paxton，30 多年来民主党首次在得州赢得全州选举）。\n- **众议院**：14 名共和党现任落选、民主党无人落选；九州年中重划选区原本预计利好共和党，但民主党反而在这些州净增约 15 席。\n- **州长**：NBC 预测民主党翻转得州、佐治亚、内华达、俄亥俄和艾奥瓦。\n- **民调**：NBC 出口民调显示特朗普不满意率 62%，近半选民视此次投票为对他的否定；生活成本与腐败是核心议题。\n\n据 Ballotpedia，这是 1954 年以来首次出现上一个偶数年赢得参院的政党在下一轮失去参院。来源：[AP](https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226)、[NPR](https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power)、[Ballotpedia](https://news.ballotpedia.org/2026/11/04/democrats-win-u-s-house-and-senate-majorities/)、[NBC News](https://www.nbcnews.com/politics/2026-election/live-blog/election-results-house-senate-trump-live-updates-rcna607376)",
+          "en": "Democrats will hold full control of Congress for the first time since 2023, setting up two years of investigations and legislative resistance to President Trump.\n\n- **Seven Senate flips**: Iowa (Turek), Kansas (Hamilton over incumbent Marshall), Maine (Jackson over Collins), North Carolina (Cooper), Ohio (Sherrod Brown), South Carolina (Andrews) and Texas (Talarico over Paxton, the first Democratic statewide win there in 30-plus years).\n- **House**: 14 Republican incumbents lost and no Democrats did; mid-decade redistricting in nine states was expected to help Republicans, yet Democrats netted about 15 seats there.\n- **Governors**: NBC projects Democratic flips in Texas, Georgia, Nevada, Ohio and Iowa.\n- **Exit polls**: NBC found Trump's disapproval at 62%, with nearly half of voters calling the vote a rebuke; cost of living and corruption dominated.\n\nBallotpedia says it is the first time since 1954 that the party that won the Senate in the previous even year lost it in the next. Sources: [AP](https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226), [NPR](https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power), [Ballotpedia](https://news.ballotpedia.org/2026/11/04/democrats-win-u-s-house-and-senate-majorities/), [NBC News](https://www.nbcnews.com/politics/2026-election/live-blog/election-results-house-senate-trump-live-updates-rcna607376)"
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
+            "lang": "en"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power",
+            "lang": "en"
+          },
+          {
+            "name": "Ballotpedia News",
+            "url": "https://news.ballotpedia.org/2026/11/04/democrats-win-u-s-house-and-senate-majorities/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "iran-hormuz-talks-strikes",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗称美方答复「不具说服力」，特朗普确认空袭格什姆岛",
+          "en": "Iran calls US reply “unconvincing” as Trump confirms Qeshm strike"
+        },
+        "summary": {
+          "zh": "伊朗就重开霍尔木兹海峡提出七项条件，称美方答复不够；特朗普确认美军空袭格什姆岛一处防空设施，称是「小规模打击」而非战争。卡塔尔仍在斡旋，海峡又有油轮遇袭。",
+          "en": "Iran said Washington's answer to its seven conditions for reopening the Strait of Hormuz fell short; Trump confirmed a strike on an anti-aircraft site on Qeshm Island, calling it “minor.” Qatar keeps mediating as more tankers are hit."
+        },
+        "body": {
+          "zh": "伊朗最高国家安全委员会秘书雷扎伊称，美方必须「完整、明确」回应伊方七项条件（包括解除制裁、结束海上封锁），海峡才会重开。卡塔尔外交部发言人表示双方仍「致力于谈判进程」，卡方在实时传递提案。\n\n- 美媒援引官员称，美军中央司令部已备好最早于选后周三开始的打击计划，届时三艘航母在该地区。\n- 伊斯兰革命卫队称四艘油轮在禁航区触雷起火，另扣押两艘船；英国海事贸易行动办公室报告一艘油轮机舱被两枚不明弹药击中，无人伤亡。\n\n来源：[Al Jazeera](https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes)",
+          "en": "Mohsen Rezaei, secretary of Iran's Supreme National Security Council, said the US must “fully and explicitly” address seven conditions, including sanctions relief and an end to the naval blockade, before Hormuz reopens. Qatar's foreign ministry said both sides “remain committed to the negotiation process.”\n\n- US media, citing officials, said Central Command had plans for strikes that could start as early as Wednesday, with three carriers in the region.\n- The IRGC claimed four tankers hit mines in a prohibited lane and were ablaze, and two more ships were detained; UKMTO reported a tanker's engine room struck by two projectiles, with no casualties.\n\nSource: [Al Jazeera](https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes)"
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes",
+            "lang": "en"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "asia-markets-blue-wave",
+        "originalLang": "en",
+        "title": {
+          "zh": "「蓝色浪潮」冲击亚洲股市：沪指涨 2.16%，日经跌 1.42%",
+          "en": "Asian markets split on blue wave: Shanghai up 2.16%, Nikkei down 1.42%"
+        },
+        "summary": {
+          "zh": "民主党横扫国会后亚洲股市分化：上证综指涨 2.16% 至 3686，深成指涨 4.22%，恒指连涨四日；日经指数一度跌超 3%，收跌 1.42%，芯片股承压。美元走弱，金价站上每盎司 4000 美元。",
+          "en": "After the Democratic sweep, Shanghai rose 2.16% to 3,686, Shenzhen jumped 4.22% and the Hang Seng gained a fourth day; the Nikkei fell over 3% intraday before closing down 1.42% on chip losses. The dollar slid and gold held above $4,000."
+        },
+        "body": {
+          "zh": "投资者担心民主党控制国会会收紧数据中心监管、放缓 AI 基建开支，东京电子、爱德万、软银集团、铠侠跌 3%–5%。韩国 KOSPI 一度暴跌逾 4%，在特朗普表示不会挑战选举结果后收涨 0.62%；台股收跌 0.8%。\n\n- 美国 10 年期国债收益率降 7 个基点至 4.89%，美元对 G10 货币全线走弱。\n- 职位空缺数据好于预期后，市场预计美联储 12 月加息 25 个基点的概率升至 80%。\n- 布伦特原油约 103.76 美元/桶，美伊谈判仍是变数。\n\n来源：[RTHK](https://news.rthk.hk/rthk/en/component/k2/1876550-20261104.htm?spTabChangeable=0)、[RTTNews](https://www.finanzen.ch/nachrichten/aktien/asian-shares-mixed-as-democrats-retake-us-congress-1036713443)、[Reuters/The Star](https://www.thestar.com.my/business/business-news/2026/11/04/asian-stocks-recalibrate-as-investors-assess-blue-sweep-risks)",
+          "en": "Investors worried a Democratic Congress could tighten oversight of data centers and slow AI infrastructure spending; Tokyo Electron, Advantest, SoftBank Group and Kioxia fell 3–5%. Korea's KOSPI plunged more than 4% before closing up 0.62% after Trump signaled he would not contest the results; Taiwan ended down 0.8%.\n\n- The US 10-year yield fell 7 basis points to 4.89% and the dollar weakened against all G10 peers.\n- After strong job-openings data, markets put the odds of a 25bp Fed hike in December at 80%.\n- Brent traded near $103.76 a barrel amid uncertainty over US-Iran talks.\n\nSources: [RTHK](https://news.rthk.hk/rthk/en/component/k2/1876550-20261104.htm?spTabChangeable=0), [RTTNews](https://www.finanzen.ch/nachrichten/aktien/asian-shares-mixed-as-democrats-retake-us-congress-1036713443), [Reuters/The Star](https://www.thestar.com.my/business/business-news/2026/11/04/asian-stocks-recalibrate-as-investors-assess-blue-sweep-risks)"
+        },
+        "sources": [
+          {
+            "name": "RTHK",
+            "url": "https://news.rthk.hk/rthk/en/component/k2/1876550-20261104.htm?spTabChangeable=0",
+            "lang": "en"
+          },
+          {
+            "name": "RTTNews via finanzen.ch",
+            "url": "https://www.finanzen.ch/nachrichten/aktien/asian-shares-mixed-as-democrats-retake-us-congress-1036713443",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via The Star",
+            "url": "https://www.thestar.com.my/business/business-news/2026/11/04/asian-stocks-recalibrate-as-investors-assess-blue-sweep-risks",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "crowdstrike-ai-agent-security",
+        "originalLang": "en",
+        "title": {
+          "zh": "CrowdStrike 约 4.95 亿美元收购两家 AI 安全初创公司",
+          "en": "CrowdStrike to buy two AI security startups for about $495M"
+        },
+        "summary": {
+          "zh": "据《华尔街日报》与 TechCrunch，CrowdStrike 将以约 4 亿美元收购 Fiddler AI、约 9500 万美元收购 Dreadnode，分别用于 AI 智能体可观测性与自动化 AI 安全测试，预计在 2027 财年第四季度完成。",
+          "en": "Per the WSJ and TechCrunch, CrowdStrike will pay about $400M for Fiddler AI and about $95M for Dreadnode, adding AI-agent observability and automated AI security testing; both deals are expected to close in its fiscal Q4 2027."
+        },
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
+            "lang": "en"
+          },
+          {
+            "name": "CrowdStrike",
+            "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-fiddler-to-deliver-agent-observability/",
+            "lang": "en"
+          },
+          {
+            "name": "SecurityWeek",
+            "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "pboc-fx-reserve-ratio",
+        "originalLang": "zh",
+        "title": {
+          "zh": "央行近五年首次上调外汇存款准备金率至 6%",
+          "en": "PBOC raises FX deposit reserve ratio to 6%, first hike in five years"
+        },
+        "summary": {
+          "zh": "人民银行决定自 11 月 15 日起将金融机构外汇存款准备金率由 4% 上调至 6%，以收紧境内美元流动性、抑制人民币单边升值预期。消息公布后在岸人民币对美元一度跌破 6.67。",
+          "en": "The PBOC will lift banks' FX deposit reserve ratio from 4% to 6% from Nov. 15, tightening onshore dollar liquidity to curb one-way yuan appreciation bets. The onshore yuan briefly weakened past 6.67 per dollar after the move."
+        },
+        "body": {
+          "zh": "这是 2021 年 12 月以来首次上调该比率；上一次调整是 2023 年 9 月由 6% 下调至 4%。\n\n- 背景：9 月中旬以来美元指数涨约 3%，人民币对美元仍逆势走强，11 月 2 日升破 6.65，创四年多新高；在岸盘中最高 6.6449。\n- 市场反应：中间价报 6.7150；截至 3 日 18 时在岸报 6.6710，日内贬值 0.38%。\n- 分析人士认为，此举意在减缓升值节奏、增强双向波动，而非扭转人民币中长期走势。\n\n来源：[新华网](https://www.xinhuanet.com/fortune/20261103/87be95ca6d1c44dc83f193b9a6a126c8/c.html)、[央广网](https://finance.cnr.cn/jjgd/20261103/t20261103_527861415.shtml)、[第一财经](https://m.yicai.com/news/103424095.html)、[21 世纪经济报道](https://www.21jingji.com/article/20261103/herald/b9be5ca4cd810987654134eedf4c2d42.html)",
+          "en": "It is the first increase since December 2021; the last change, in September 2023, cut the ratio from 6% to 4%.\n\n- Background: the yuan kept strengthening even as the dollar index rose about 3% since mid-September, breaking 6.65 on Nov. 2, a four-year high.\n- Market reaction: the fixing was set at 6.7150; by 6 p.m. on Nov. 3 the onshore rate was 6.6710, down 0.38% on the day.\n- Analysts see the aim as slowing appreciation and encouraging two-way moves, not reversing the yuan's longer trend.\n\nSources: [Xinhua](https://www.xinhuanet.com/fortune/20261103/87be95ca6d1c44dc83f193b9a6a126c8/c.html), [CNR](https://finance.cnr.cn/jjgd/20261103/t20261103_527861415.shtml), [Yicai](https://m.yicai.com/news/103424095.html)"
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.xinhuanet.com/fortune/20261103/87be95ca6d1c44dc83f193b9a6a126c8/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "央广网",
+            "url": "https://finance.cnr.cn/jjgd/20261103/t20261103_527861415.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "第一财经",
+            "url": "https://m.yicai.com/news/103424095.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "wuzhen-wic-summit-2026",
+        "originalLang": "zh",
+        "title": {
+          "zh": "世界互联网大会乌镇峰会：聚焦 AI 开源开放",
+          "en": "World Internet Conference Wuzhen Summit focuses on open-source AI"
+        },
+        "summary": {
+          "zh": "2026 年世界互联网大会乌镇峰会 11 月 2 日至 5 日举行，主题「开源开放 共建共享」，设 27 个分论坛，涵盖机器人与具身智能等；4 日发布《中国互联网发展报告 2026》和《世界互联网发展报告 2026》蓝皮书。",
+          "en": "The 2026 World Internet Conference Wuzhen Summit runs Nov. 2–5 under an open-source, open-access theme, with 27 sub-forums including robotics and embodied AI; 2026 China and world internet development blue books were released on Nov. 4."
+        },
+        "sources": [
+          {
+            "name": "中国日报网",
+            "url": "https://cn.chinadaily.com.cn/5b753f9fa310030f813cf408/5bd54ba2a3101a87ca8ff5ee/5bd54bdea3101a87ca8ff5f0",
+            "lang": "zh"
+          },
+          {
+            "name": "华图教育·时政早报",
+            "url": "https://sydw.huatu.com/2026/1104/2876805.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "lijian-2-qianfan-launch",
+        "originalLang": "zh",
+        "title": {
+          "zh": "力箭二号遥二火箭发射成功，18 颗千帆卫星入轨",
+          "en": "Lijian-2 Y2 rocket puts 18 Qianfan satellites into orbit"
+        },
+        "summary": {
+          "zh": "11 月 3 日 8 时 15 分，中科宇航力箭二号遥二运载火箭在东风商业航天创新试验区升空，将千帆极轨 21 组共 18 颗卫星送入预定轨道，飞行试验任务圆满成功。",
+          "en": "At 8:15 a.m. on Nov. 3, CAS Space's Lijian-2 Y2 rocket lifted off from the Dongfeng commercial space test zone and placed the 18-satellite Qianfan polar-orbit group 21 into planned orbit."
+        },
+        "sources": [
+          {
+            "name": "人民网",
+            "url": "https://kr.people.com.cn/n3/2026/1104/c203201-20515420.html",
+            "lang": "zh"
+          },
+          {
+            "name": "华图教育·时政早报",
+            "url": "https://sydw.huatu.com/2026/1104/2876805.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

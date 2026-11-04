@@ -6,34 +6,8 @@ interface Props {
 }
 
 const { href, sectionId, class: className } = Astro.props;
-const counter = globalThis as { __stamp?: number };
-counter.__stamp = (counter.__stamp ?? 0) + 1;
-const fid = `stamp-${sectionId}-${counter.__stamp}`;
-
-const pair: Record<string, [string, string]> = {
-  tech: ['科', '技'],
-  world: ['国', '际'],
-  business: ['商', '业'],
-  china: ['中', '国'],
-};
-const [top, bottom] = pair[sectionId] ?? pair.tech;
 ---
 
 <a class:list={['ink-label', `tag-${sectionId}`, className]} href={href}>
-  <span class="stamp">
-    <svg class="stamp-edge" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-      <defs>
-        <filter id={fid} x="-18%" y="-22%" width="136%" height="144%">
-          <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed={sectionId.length + 4} result="noise"></feTurbulence>
-          <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.2" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
-        </filter>
-      </defs>
-      <rect x="4" y="5" width="92" height="90" rx="8" fill="none" stroke="currentColor" stroke-width="1.35" vector-effect="non-scaling-stroke" filter={`url(#${fid})`}></rect>
-    </svg>
-    <span class="stamp-zh ui-zh" aria-hidden="true">
-      <span>{top}</span>
-      <span>{bottom}</span>
-    </span>
-    <span class="ink-label-text"><slot /></span>
-  </span>
+  <span class="ink-label-text"><slot /></span>
 </a>

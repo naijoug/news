@@ -269,5 +269,279 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "openai-linux-948-lpe",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI 称 AI 流水线发现并验证 948 个 Linux 提权漏洞",
+          "en": "OpenAI says AI pipeline found and exploited 948 Linux LPEs"
+        },
+        "summary": {
+          "zh": "OpenAI 发布报告称，其自主漏洞发现流水线在一次运行中复现 1724 个漏洞，并生成 948 个可让普通用户拿到 root 的本地提权利用，还附带候选补丁；API 成本约 121 万美元。",
+          "en": "OpenAI said its autonomous vuln pipeline reproduced 1,724 findings and produced 948 working local privilege-escalation exploits that could give an unprivileged user root, plus candidate patches, at about $1.21M in API cost."
+        },
+        "sources": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+            "lang": "en"
+          },
+          {
+            "name": "The Hacker News",
+            "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+            "lang": "en"
+          },
+          {
+            "name": "Phoronix",
+            "url": "https://www.phoronix.com/news/OpenAI-948-Linux-LPE-Bugs",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "OpenAI 称该流水线覆盖发现、动态验证、可利用性评估和补丁生成，核心是即将发布的网络安全模型；扫描对象是一台标准桌面发行版配置的虚拟机，而非特意弱化的靶机。\n\n- 中期 10 月那次运行分析了约 280 万行代码（约内核 7%），候选发现 2308 个，动态复现率约 74.7%。\n- 公司表示正按 Linux 社区建议优先上报关键漏洞，并与 Patch the Planet 伙伴合作逐步提交其余补丁（[OpenAI](https://openai.com/index/a-thousand-fewer-paths-to-root/)）。\n- 同期对 hardened kernelCTF 环境的试跑还拿到 21 个 LPE；OpenAI 认为自动补丁生成对跟上发现速度越来越关键。",
+          "en": "OpenAI says the pipeline covers discovery, dynamic validation, exploitability assessment and patch generation, powered by an upcoming cyber model, against stock desktop VMs rather than softened targets.\n\n- A mid-October run audited about 2.8M lines (~7% of the kernel), produced 2,308 candidates and reproduced ~74.7% of them.\n- Critical reports are going out first with Patch the Planet partners ([OpenAI](https://openai.com/index/a-thousand-fewer-paths-to-root/)).\n- A hardened kernelCTF-style run yielded 21 LPEs; OpenAI argues automated patching is essential as discovery scales."
+        }
+      },
+      {
+        "id": "moonshot-kimi-k31-pro-weights",
+        "originalLang": "en",
+        "title": {
+          "zh": "月之暗面按承诺开源 Kimi K3.1 Pro 权重",
+          "en": "Moonshot releases Kimi K3.1 Pro open weights as promised"
+        },
+        "summary": {
+          "zh": "月之暗面在 Hugging Face 放出 Kimi K3.1 Pro 权重：约 2.8 万亿总参数、约 1040 亿激活的 MoE，上下文约 100 万 token；权重约 1.56 TB，华为 Ascend 等已宣布推理支持。",
+          "en": "Moonshot AI posted Kimi K3.1 Pro weights on Hugging Face: a ~2.8T-parameter MoE with ~104B active and about a 1M-token context. The dump is ~1.56 TB; Huawei Ascend and others announced inference support."
+        },
+        "sources": [
+          {
+            "name": "TechNode",
+            "url": "https://technode.com/2026/11/05/moonshot-ai-releases-kimi-k3-1-pro-model-weights/",
+            "lang": "en"
+          },
+          {
+            "name": "Hugging Face",
+            "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+            "lang": "en"
+          },
+          {
+            "name": "Kimi Blog",
+            "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "K3.1 Pro 在 Kimi K3 基础上加强了编程、三维创作、金融研究和长程智能体任务的强化学习，此前已通过 App 与 API 可用。\n\n- 开源兑现了 10 月上线时的权重承诺；多数用户仍会走云端或托管推理。\n- 华为称通过 vLLM Ascend 与 SGLang 覆盖 Atlas A3、昇腾 950 等（[TechNode](https://technode.com/2026/11/05/moonshot-ai-releases-kimi-k3-1-pro-model-weights/)）。",
+          "en": "K3.1 Pro builds on Kimi K3 with more RL for coding, 3D work, financial research and long agent tasks; it was already on apps and the API.\n\n- The drop fulfills Moonshot’s October weight pledge; most users will still use hosted inference.\n- Huawei said vLLM Ascend and SGLang cover Atlas A3 and Ascend 950 ([TechNode](https://technode.com/2026/11/05/moonshot-ai-releases-kimi-k3-1-pro-model-weights/))."
+        }
+      },
+      {
+        "id": "apple-intelligence-china-qwen",
+        "originalLang": "en",
+        "title": {
+          "zh": "Apple Intelligence 中国大陆开发者测试启动，接入阿里通义千问",
+          "en": "Apple Intelligence China developer beta uses Alibaba’s Qwen"
+        },
+        "summary": {
+          "zh": "苹果于北京时间 11 月 4 日随 iOS 27.3 开发者测试版在中国大陆开启 Apple Intelligence；写作工具、实时翻译、视觉智能等接入阿里通义千问，面向兼容 iPhone，计划 12 月随正式版对公众开放。",
+          "en": "Apple started Apple Intelligence testing in mainland China with the iOS 27.3 developer beta on Nov 4 Beijing time. Writing Tools, Live Translation and Visual Intelligence use Alibaba’s Qwen; public rollout is planned with iOS 27.3 in December."
+        },
+        "sources": [
+          {
+            "name": "TechNode",
+            "url": "https://technode.com/2026/11/04/apple-intelligence-enters-developer-beta-in-china-with-qwen-integration/",
+            "lang": "en"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/04/apple-begins-ai-trial-in-china-powered-by-alibaba",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261101/773fa2ac33a34a5ca3484d7e5920d094/c.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "hormuz-tankers-fire",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗称霍尔木兹「非法航道」两艘油轮与拖船起火",
+          "en": "Iran says two tankers and a tug caught fire on Hormuz ‘illegal’ route"
+        },
+        "summary": {
+          "zh": "伊朗伊斯兰革命卫队 11 月 5 日称，前夜有两艘超级油轮和一艘拖船在霍尔木兹海峡南部「非法未经授权」航道起火；其中一艘触雷起火，拖船救火时亦起火。",
+          "en": "Iran’s IRGC said on Nov 5 that two supertankers and a tug caught fire overnight on an “illegal and unauthorized” southern route in the Strait of Hormuz; one hit naval mines, and the tug burned while assisting."
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261105/91ea9945c5ee43478e5e4b22e1966b61/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "Iran International",
+            "url": "https://www.iranintl.com/en/202611054282",
+            "lang": "en"
+          },
+          {
+            "name": "Arab News",
+            "url": "https://www.arabnews.com/middle-east/irans-irgc-says-two-tankers-and-tugboat-caught-fire-in-strait-of-hormuz-3009888",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "革命卫队还称电子战部队控制并迫降了两架「入侵」廉价无人攻击机，并指责美国诱使船只走布雷航道、推高盟友保险成本。\n\n- 伊朗自 2 月 28 日起收紧海峡管控，禁止与以色列、美国有关联的船只安全通过。\n- 此事发生在美中期选举后、市场押注冲突降温、油价大跌之际（[新华社](https://english.news.cn/20261105/91ea9945c5ee43478e5e4b22e1966b61/c.html)）。",
+          "en": "The IRGC also said its electronic-warfare unit seized two “invading” low-cost attack drones and blamed Washington for luring ships into a mined lane and hiking allies’ insurance bills.\n\n- Iran has barred safe passage for Israel- and US-linked vessels since Feb 28.\n- The fires come as markets bet on de-escalation after the US midterms and oil plunged ([Xinhua](https://english.news.cn/20261105/91ea9945c5ee43478e5e4b22e1966b61/c.html))."
+        }
+      },
+      {
+        "id": "trump-iran-options-after-midterms",
+        "originalLang": "en",
+        "title": {
+          "zh": "中期惨败后特朗普伊朗选项两难：再打、谈和或「绞杀」",
+          "en": "After midterm rout, Trump faces strike, deal or ‘strangle’ on Iran"
+        },
+        "summary": {
+          "zh": "Axios 称美军正收尾可能重启对伊大规模作战的准备并向中东增派力量，同时卡塔尔斡旋草案；万斯公开把败选归咎于战争，特朗普承认油价冲击但称「会在我想结束时结束」。",
+          "en": "Axios reports the US military is finishing prep for a possible return to major Iran combat while Qatar floats a draft deal. Vance publicly blamed the war for the losses; Trump agreed gas prices hurt but said it ends “whenever I want.”"
+        },
+        "sources": [
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/11/05/trump-iran-war-midterm-defeat-bad-options",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "幕僚概括三条路：恢复空袭（政治上极不受欢迎）、谈出协议（伊朗或抬价）、以及用封锁加制裁「绞杀」拖时间。\n\n- 准备增兵不等于已授权打击；卡塔尔方面在选前就问过美方若败选怎么办，得到的答复是「先看选举」。\n- 德黑兰庆祝选情被部分外交官视为可能刺激特朗普再动手（[Axios](https://www.axios.com/2026/11/05/trump-iran-war-midterm-defeat-bad-options)）。",
+          "en": "Aides sketch three paths: resume strikes (politically toxic), negotiate (Iran may raise demands), or “strangle” via blockade and sanctions.\n\n- Force movements do not mean strikes are authorized; Qatari mediators were told before the vote to wait for results.\n- Iranian gloating may, some diplomats warn, make Trump more likely to hit back ([Axios](https://www.axios.com/2026/11/05/trump-iran-war-midterm-defeat-bad-options))."
+        }
+      }
+    ],
+    "business": [
+      {
+        "id": "asia-ai-stocks-selloff",
+        "originalLang": "en",
+        "title": {
+          "zh": "韩股跌超 5%、日经下挫，全球抛售 AI 与数据中心相关股",
+          "en": "Kospi sinks over 5% as investors dump AI and data-center stocks"
+        },
+        "summary": {
+          "zh": "民主党中期胜利后，市场押注数据中心监管趋严：韩国综指跌逾 5%，日经 225 跌近 2%；美股期货分化，英伟达等芯片与 CoreWeave 等「新云」继续承压，油价亦走低。",
+          "en": "After the Democratic midterm win, bets on tighter data-center rules hit Asia: South Korea’s Kospi fell more than 5% and Japan’s Nikkei nearly 2%. US futures were mixed as Nvidia and neocloud names like CoreWeave stayed under pressure; oil also fell."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e",
+            "lang": "en"
+          },
+          {
+            "name": "Yonhap",
+            "url": "https://en.yna.co.kr/view/AEN20261105007200320",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "这是对周三美股「蓝潮」救济行情的延续：道指大涨时 AI 基建股已逆势下跌，周四亚洲半导体与电力相关股跟跌。\n\n- 得州等地反数据中心选情与新州长拟议的建设暂停令，加重了对产能扩张的担忧（[CNBC](https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html)）。\n- 资金更多转向已有现金与算力的超大规模云厂商，而非高杠杆「新云」（[美联社](https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e)）。",
+          "en": "It extends Wednesday’s US session, when the Dow surged but AI infrastructure stocks fell. Thursday’s Asian chip and power names followed lower.\n\n- Anti–data-center ballot wins and Texas’s pledged construction pause deepened build-out fears ([CNBC](https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html)).\n- Money rotated toward cash-rich hyperscalers over leveraged neoclouds ([AP](https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e))."
+        }
+      },
+      {
+        "id": "oil-plunge-deescalation-bets",
+        "originalLang": "en",
+        "title": {
+          "zh": "中期后油价续跌：市场押注美伊冲突降温",
+          "en": "Oil keeps falling as markets bet on US-Iran de-escalation"
+        },
+        "summary": {
+          "zh": "民主党拿下国会后，交易员押注外交优先于再开战：美油与布伦特在周三跌超 8% 后继续承压；霍尔木兹油轮起火消息未能扭转整体的降温押注。",
+          "en": "With Democrats holding Congress, traders keep betting diplomacy over renewed strikes: US crude and Brent stayed soft after Wednesday’s >8% drop, and Hormuz tanker fires did not reverse the de-escalation trade."
+        },
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/economy-news/oil-and-data-centre-stocks-sink-after-us-midterms-5002057",
+            "lang": "en"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-falls-090519607.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "baidu-ernie-55-flash-base",
+        "originalLang": "en",
+        "title": {
+          "zh": "百度开源文心 ERNIE 5.5 Flash Base：2800 亿 MoE 基座",
+          "en": "Baidu open-sources ERNIE 5.5 Flash Base, a 280B MoE checkpoint"
+        },
+        "summary": {
+          "zh": "百度 11 月 5 日放出 ERNIE-5.5-Flash-Base：总参 2800 亿、每 token 激活约 140 亿的稀疏 MoE 预训练基座，供微调与研究；许可排除欧盟、英国和韩国，超 5000 万美元相关营收需单独授权。",
+          "en": "Baidu released ERNIE-5.5-Flash-Base on Nov 5: a 280B-parameter sparse MoE pretrain (≈14B active) for fine-tuning and research. The license excludes the EU, UK and South Korea and needs Baidu’s OK above $50M related revenue."
+        },
+        "sources": [
+          {
+            "name": "Hugging Face",
+            "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
+            "lang": "en"
+          },
+          {
+            "name": "Unite.AI",
+            "url": "https://www.unite.ai/baidu-releases-ernie-5-5-flash-base-for-further-training/",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "该检查点止于预训练，后训练版「文心 5.5 Flash」另行发布；语料约 33.5 万亿 token，推理支持最长约 100 万 token。\n\n- 自家评测称 MMLU 约 93.3、HumanEval+ 约 82.3，但 FullStackBench 等不及部分竞品基座。\n- 协议禁止用其输出去改进无关模型，限制蒸馏与合成数据路径（[Unite.AI](https://www.unite.ai/baidu-releases-ernie-5-5-flash-base-for-further-training/)）。",
+          "en": "The checkpoint stops at pre-training; a post-trained ERNIE 5.5 Flash is promised later. Training used ~33.5T tokens; inference supports up to about 1M tokens.\n\n- Baidu’s harness cites ~93.3 MMLU and ~82.3 HumanEval+, with mixed results elsewhere.\n- The license bars using outputs to improve unrelated models, limiting distillation paths ([Unite.AI](https://www.unite.ai/baidu-releases-ernie-5-5-flash-base-for-further-training/))."
+        }
+      },
+      {
+        "id": "canton-fair-140-closes",
+        "originalLang": "zh",
+        "title": {
+          "zh": "第 140 届广交会闭幕：境外采购商 35.2 万创新高",
+          "en": "140th Canton Fair closes with record 352,000 overseas buyers"
+        },
+        "summary": {
+          "zh": "中国对外贸易中心称，10 月 15 日至 11 月 4 日举行的第 140 届广交会吸引 219 个国家和地区的 35.2 万名境外采购商，同比增长 12.2%；现场意向出口成交 267.5 亿美元。",
+          "en": "China’s Foreign Trade Centre said the 140th Canton Fair (Oct 15–Nov 4) drew 352,000 overseas buyers from 219 countries and regions, up 12.2%, with $26.75B in on-site intended export deals."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261105/0171f534a6314b86bc1e775e47c8936b/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "中新网",
+            "url": "https://www.chinanews.com.cn/cj/2026/11-04/10726274.shtml",
+            "lang": "zh"
+          }
+        ],
+        "body": {
+          "zh": "欧盟、美国、共建「一带一路」国家采购商分别增长 38.2%、22.2%、16.6%；专业采购商占比超 75%。\n\n- 现场新品、人工智能产品分别增长 8%、14.1%；绿色展品占比 26%。\n- 超 3.2 万家企业携 488 万件展品参展，近两成企业开展对外投资（[新华网](https://www.news.cn/20261105/0171f534a6314b86bc1e775e47c8936b/c.html)）。",
+          "en": "Buyers from the EU, the US and Belt and Road countries rose 38.2%, 22.2% and 16.6%; professionals were over 75% of attendees.\n\n- New products and AI exhibits rose 8% and 14.1%; green exhibits were 26% of the floor.\n- More than 32,000 firms showed 4.88M items; nearly 20% said they are investing abroad ([Xinhua](https://www.news.cn/20261105/0171f534a6314b86bc1e775e47c8936b/c.html))."
+        }
+      }
+    ]
   }
 }

@@ -1,0 +1,273 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-05",
+  "lead": {
+    "zh": "民主党横扫国会后，美股迎来一年半来最强单日，油价重挫；伊朗称美国选民拒绝了战争；第九届进博会今日开幕。",
+    "en": "After Democrats swept Congress, the Dow had its best day in 18 months as oil plunged; Iran says US voters rejected the war; the 9th CIIE opens in Shanghai today."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "tencent-hy4-release",
+        "originalLang": "en",
+        "title": {
+          "zh": "腾讯发布混元 Hy4 正式版，新增视觉与电脑操作能力",
+          "en": "Tencent releases Hy4 with vision and computer use"
+        },
+        "summary": {
+          "zh": "腾讯 11 月 4 日发布 770B 参数的混元 Hy4 正式版，首次加入视觉理解和电脑操作能力，已上线元宝、CodeBuddy 等产品；模型权重和系统卡称将在几天内开源。",
+          "en": "Tencent released the production version of Hy4, a 770B-parameter MoE model that adds visual understanding and computer use for the first time. It is live in Yuanbao, CodeBuddy and Tencent Cloud; weights and system cards are promised in the coming days."
+        },
+        "sources": [
+          {
+            "name": "Tencent",
+            "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+            "lang": "en"
+          },
+          {
+            "name": "NPDev News",
+            "url": "https://npdev.ai/news/ai/2026-11-04",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "腾讯称，Hy4 在指令遵循、长文本理解和长程智能体任务上较 8 月预览版明显提升，并首次支持命令行与图形界面的电脑操作。\n\n- 已接入元宝、WorkBuddy、CodeBuddy、企业微信助手、ima 和腾讯云 TokenHub，也可通过 OpenRouter 等第三方调用。\n- 定价与预览版相同：每百万输入 token 约 0.90 美元、输出约 2.70 美元，TokenHub 年底前五折。\n- 目前只能租用、不能自部署：权重和系统卡尚未发布，可下载的仍是 8 月的 Apache 2.0 预览版。",
+          "en": "Tencent says Hy4 improves on the August preview in instruction following, long-document understanding and long-horizon agent work, and adds command-line and GUI computer use.\n\n- Live in Yuanbao, WorkBuddy, CodeBuddy, WeCom's assistant, ima and Tencent Cloud TokenHub, and via third-party routers such as OpenRouter.\n- Pricing is unchanged at roughly $0.90 per million input tokens and $2.70 per million output tokens, with a 50% TokenHub discount through Dec 31.\n- You can rent it but not self-host it yet: weights and system cards are still pending ([NPDev](https://npdev.ai/news/ai/2026-11-04))."
+        }
+      },
+      {
+        "id": "meta-acquires-conductor",
+        "originalLang": "en",
+        "title": {
+          "zh": "Meta 收购 AI 编程初创公司 Conductor",
+          "en": "Meta acquires AI coding startup Conductor"
+        },
+        "summary": {
+          "zh": "Meta 收购了 Conductor，这家 2024 年成立的公司让开发者在并行工作区里同时调度多个编程智能体，智能体本身来自 Anthropic、OpenAI 等大模型公司。",
+          "en": "Meta has bought Conductor, a 2024 startup that lets developers run multiple coding agents in parallel workspaces. The agents themselves come from labs like Anthropic and OpenAI."
+        },
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-pierre-chatgpt-scale",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI 收购 Pierre 加码 Codex；称 ChatGPT 周活 12 亿",
+          "en": "OpenAI buys Pierre for Codex, says ChatGPT has 1.2B weekly users"
+        },
+        "summary": {
+          "zh": "OpenAI 宣布收购 Pierre Computer Company，扩充 Codex 的写代码、读代码和审代码工具；同时称 ChatGPT 周活达 12 亿，类搜索查询约相当于谷歌搜索量的 20%（自家估算）。",
+          "en": "OpenAI will acquire Pierre Computer Company to expand Codex's tools for building, understanding and reviewing code. It also said ChatGPT has 1.2B weekly users and search-like queries equal about 20% of Google's volume, by its own estimate."
+        },
+        "sources": [
+          {
+            "name": "AI Hub",
+            "url": "https://aihub.com/briefing",
+            "lang": "en"
+          },
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "iran-reacts-midterms",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗称美国选民「对战争说不」，哈梅内伊警告敌意不会改变",
+          "en": "Iran hails midterm rebuke; Khamenei says US hostility won't end"
+        },
+        "summary": {
+          "zh": "伊朗官员把民主党横扫国会解读为美国人拒绝伊朗战争，但最高领袖穆杰塔巴·哈梅内伊称期待美国政策转向是「严重错误」。特朗普承认战争和油价拖累了共和党，并说战争「会在我想结束的时候结束」。",
+          "en": "Iranian officials framed the Democratic sweep as Americans rejecting the war, but Supreme Leader Mojtaba Khamenei said anyone expecting a US policy shift is \"seriously mistaken.\" Trump admitted the war and fuel prices hurt Republicans but said it will end \"when I want.\""
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/us-iran-midterm-election-f3c48a92df2bd8a658d3e704a7291d11",
+            "lang": "en"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/4/iran-hails-us-voters-rejecting-war-while-khamenei-warns-hostility-wont-end",
+            "lang": "en"
+          },
+          {
+            "name": "21经济网",
+            "url": "https://www.21jingji.com/article/20261105/herald/cd97fb56df56810e8c7e876d38f51d0e.html",
+            "lang": "zh"
+          }
+        ],
+        "body": {
+          "zh": "美伊战事推高美国油价和物价，是共和党在周二中期选举中失去参众两院的重要原因。德黑兰谈判代表称美国人投出了「对战争说不」的一票。\n\n- 哈梅内伊则称，任何期待美国对伊政策转变的人都「严重错误」。\n- 分析人士预计伊朗立场会更强硬而非软化，美方进一步空袭的可能仍在（[RFE/RL](https://www.rferl.org/a/iran-us-midterm-election-war-talks/33890496.html)）。\n- 特朗普承认战争影响了选情，但表示他会再做同样决定，并称没说过战争会在选举后立刻结束。",
+          "en": "Anger over war-driven fuel and grocery prices helped Democrats take both chambers on Tuesday. Tehran's negotiators said Americans voted \"no to war.\"\n\n- Khamenei said anyone expecting a change in US policy is \"seriously mistaken\" ([Al Jazeera](https://www.aljazeera.com/news/2026/11/4/iran-hails-us-voters-rejecting-war-while-khamenei-warns-hostility-wont-end)).\n- Analysts expect Iran to harden rather than soften, and further US strikes remain possible ([RFE/RL](https://www.rferl.org/a/iran-us-midterm-election-war-talks/33890496.html)).\n- Trump acknowledged the war hurt his party but said he would do it again, and that it will end when he wants ([AP](https://apnews.com/article/midterm-elections-democrats-republicans-trump-b1d26390b7ed7968435089be6d3bf612))."
+        }
+      },
+      {
+        "id": "ukraine-school-strike-abu-dhabi",
+        "originalLang": "en",
+        "title": {
+          "zh": "俄军轰炸乌克兰学校致 40 死，阿布扎比和谈前夕基辅断电",
+          "en": "Russian strike on Ukrainian school kills 40 ahead of Abu Dhabi talks"
+        },
+        "summary": {
+          "zh": "泽连斯基称，俄军周一轰炸扎波罗热州一所用作救援物资发放点的学校，死亡人数升至 40 人，另有 30 多人可能仍被埋。周三俄军夜袭致基辅大面积断电断水；美俄乌三方定于 11 月 10–11 日在阿布扎比会谈。",
+          "en": "Zelenskyy said the death toll from Monday's bombing of a school used as an aid hub in Zaporizhzhia has reached 40, with 30-plus possibly still under rubble. Overnight strikes cut power and water in Kyiv; US-brokered talks are set for Abu Dhabi on Nov 10-11."
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/ukraine-russia-war-kyiv-airstrike-water-37dc5e85a5c8c135996bc2720e0674d9",
+            "lang": "en"
+          },
+          {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/ukraine-partners-coordinate-peace-efforts-ahead-of-abu-dhabi-talks-with-russia-2/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "dow-best-day-blue-wave",
+        "originalLang": "en",
+        "title": {
+          "zh": "道指暴涨 1569 点创一年半最佳单日，油价跌超 8%",
+          "en": "Dow jumps 1,569 points, best day in 18 months, as oil sinks 8%"
+        },
+        "summary": {
+          "zh": "民主党拿下国会、特朗普接受选举结果，消除了政治不确定性。道指涨 3.03% 至 53356.12 点，标普 500 涨 1.58%，纳指涨 1.44%；美油和布伦特原油均跌超 8%，但 AI 基建股逆势下挫。",
+          "en": "With Democrats taking Congress and Trump accepting the result, the Dow rose 3.03% to 53,356.12, the S&P 500 1.58% and the Nasdaq 1.44%. US crude and Brent fell more than 8%, while AI infrastructure stocks slid."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+            "lang": "en"
+          },
+          {
+            "name": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/dow-scores-its-best-day-in-18-months-in-a-broad-relief-rally-after-democrats-sweep-to-power-in-congress-d7348fc0",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261105/906833b4c13b440193fa7167969dc792/c.html",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "这是道指自 2025 年 4 月 9 日（特朗普宣布暂停对等关税）以来最好的单日表现，并重回 53000 点上方。\n\n- 副总统万斯把败选归咎于伊朗战争后，油价加速下跌，市场押注战争更早结束；能源板块跌 4.77%，可选消费和金融分别涨 4.27% 和 3.46%。\n- 微软、亚马逊涨超 6%，苹果涨超 5%；英伟达跌约 3%，CoreWeave 跌超 9%，美光、希捷等存储股跌 7% 以上。\n- 新任得州州长希诺霍萨承诺对数据中心建设实施暂停令，加重了对 AI 基建的担忧（[CNBC](https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html)）。",
+          "en": "It was the Dow's best day since April 9, 2025, when Trump paused his reciprocal tariffs, and it closed back above 53,000.\n\n- Oil fell faster after Vice President JD Vance blamed the Iran war for the losses; energy lost 4.77% while consumer discretionary and financials rose 4.27% and 3.46% ([Xinhua](https://english.news.cn/20261105/906833b4c13b440193fa7167969dc792/c.html)).\n- Microsoft and Amazon rose more than 6% and Apple more than 5%; Nvidia fell about 3% and CoreWeave more than 9%.\n- Texas governor-elect Gina Hinojosa's pledged moratorium on data centers added to AI build-out worries ([CNBC](https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html))."
+        }
+      },
+      {
+        "id": "pboc-buyback-relending-cut",
+        "originalLang": "zh",
+        "title": {
+          "zh": "央行下调股票回购增持再贷款利率至 1%",
+          "en": "PBOC cuts stock buyback relending rate to 1%"
+        },
+        "summary": {
+          "zh": "央行自 11 月 4 日起将股票回购增持再贷款利率下调 0.25 个百分点至 1%，银行已申请额度超 2000 亿元；今天还将开展 3000 亿元 3 个月期买断式逆回购。",
+          "en": "The PBOC cut the rate on its stock buyback relending facility by 0.25 point to 1% from Nov 4; banks have applied for more than 200B yuan. It also runs a 300B-yuan, 3-month outright reverse repo today."
+        },
+        "sources": [
+          {
+            "name": "同花顺财经",
+            "url": "https://news.10jqka.com.cn/20261105/c681478974.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "21经济网",
+            "url": "https://www.21jingji.com/article/20261105/herald/cd97fb56df56810e8c7e876d38f51d0e.html",
+            "lang": "zh"
+          }
+        ],
+        "body": {
+          "zh": "央行称此举旨在维护资本市场平稳运行。该再贷款支持 21 家全国性银行和 5 家系统重要性城商行，支持比例 100%、期限 1 年，可展期。\n\n- 11 月 2 日座谈会后，银行报送的再贷款额度申请已超 2000 亿元，央行表示将充分满足需求。\n- 央行第三批互换便利（SFISF）操作落地，24 家券商中标，已披露金额合计超 400 亿元，将用于增持股票和股票 ETF（财联社）。\n- 另有消息称部分券商收到放慢 IPO 节奏的窗口指导，业内认为是收紧而非「一刀切」暂停。"
+        }
+      }
+    ],
+    "china": [
+      {
+        "id": "ciie-2026-opens",
+        "originalLang": "zh",
+        "title": {
+          "zh": "第九届进博会今日在上海开幕，展览面积创新高",
+          "en": "9th China International Import Expo opens in Shanghai"
+        },
+        "summary": {
+          "zh": "第九届中国国际进口博览会 11 月 5 日开幕，4142 家境外企业参展，展览面积首次突破 44 万平方米，全球首发、亚洲首秀、中国首展的代表性展品超过 480 件，均创历届新高。",
+          "en": "The 9th CIIE opens in Shanghai on Nov 5 with 4,142 overseas exhibitors, more than 440,000 square meters of space and over 480 global, Asian or China debut products, all records."
+        },
+        "sources": [
+          {
+            "name": "21经济网",
+            "url": "https://www.21jingji.com/article/20261105/herald/cd97fb56df56810e8c7e876d38f51d0e.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "comprehensive-conservation-plan",
+        "originalLang": "zh",
+        "title": {
+          "zh": "五部门印发全面节约方案：2030 年单位 GDP 能耗降约 10%",
+          "en": "China sets 2030 targets for energy, water and land efficiency"
+        },
+        "summary": {
+          "zh": "发改委等五部门印发《实施全面节约战略行动方案》，提出到 2030 年单位 GDP 能耗、用水量、建设用地面积较 2025 年分别下降约 10%、10%、15%，主要再生资源年循环利用量达 5.1 亿吨。",
+          "en": "Five agencies led by the NDRC issued a conservation plan targeting cuts of about 10% in energy use, 10% in water use and 15% in construction land per unit of GDP by 2030 versus 2025, and 510M tonnes of recycled resources a year."
+        },
+        "sources": [
+          {
+            "name": "同花顺财经",
+            "url": "https://news.10jqka.com.cn/20261105/c681478974.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "21经济网",
+            "url": "https://www.21jingji.com/article/20261105/herald/cd97fb56df56810e8c7e876d38f51d0e.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "ai-agent-self-regulation-pact",
+        "originalLang": "zh",
+        "title": {
+          "zh": "华为、阿里、腾讯等 20 家单位发布《智能体发展自律公约》",
+          "en": "Huawei, Alibaba, Tencent and others sign AI agent self-regulation pact"
+        },
+        "summary": {
+          "zh": "中国信通院联合华为、阿里、腾讯、小米等 20 家单位发布《智能体发展自律公约》，提出共建智能体互联基础设施，推进注册解析、能力发现、协议互认等技术与标准。",
+          "en": "CAICT and 20 organizations including Huawei, Alibaba, Tencent and Xiaomi issued a self-regulation pact for AI agents, pledging shared interconnection infrastructure and standards for agent registration, discovery and protocol compatibility."
+        },
+        "sources": [
+          {
+            "name": "同花顺财经",
+            "url": "https://news.10jqka.com.cn/20261105/c681478974.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-06",
+  "lead": {
+    "zh": "纳指跌入修正、亚盘跟跌；霍尔木兹再损油轮；巴拉圭总统因银行危机辞职；OpenAI 发布 GPT-6 Cyber。",
+    "en": "Nasdaq slips into correction as Asia follows; more Hormuz tanker hits; Paraguay’s president resigns; OpenAI launches GPT-6 Cyber."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "openai-gpt-6-cyber",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI 发布 GPT-6 Cyber：对齐导向的网络安全模型",
+          "en": "OpenAI launches GPT-6 Cyber, an aligned cybersecurity model"
+        },
+        "summary": {
+          "zh": "OpenAI 于 11 月 5 日推出 GPT-6 Cyber，ExploitGym 成功率升至 48.5%；已验证 948 个 Linux 本地提权利用、发现 81 个 Firefox 高危漏洞，并将网络安全风险标为 Critical。",
+          "en": "On Nov 5 OpenAI introduced GPT-6 Cyber, scoring 48.5% on ExploitGym; it helped validate 948 Linux privilege-escalation exploits and 81 novel high-severity Firefox bugs, rating cyber risk Critical."
+        },
+        "body": {
+          "zh": "OpenAI 称 GPT-6 Cyber 面向授权安全研究：在指定范围内发现并验证可利用漏洞，同时强化不越权攻击。\n\n- ExploitGym 成功率从 GPT-5.6 Cyber 的 32.1% 升至 48.5%（相对提升约 51%）。\n- 对齐测试中，无部署提示时在 99.93% 的案例中避免攻击范围外服务，有提示时为 100%。\n- 实战中验证了 948 个 Linux 本地提权利用，并发现 81 个此前未知的 Firefox 高危漏洞；Mozilla 已陆续修复。\n- 按准备度框架将网络安全能力标为 Critical（此前 High）；初期仅通过 API/Codex 向获批的 Daybreak Red 客户开放（[OpenAI](https://openai.com/index/introducing-gpt-6-cyber)）。",
+          "en": "OpenAI says GPT-6 Cyber is built to find and validate exploitable vulnerabilities while staying inside researcher-set scope.\n\n- On ExploitGym it rose to **48.5%** from **32.1%** for GPT-5.6 Cyber (~51% relative gain).\n- In alignment tests it avoided out-of-scope service exploits in **99.93%** of cases without the deployment prompt and **100%** with it.\n- Researchers used it to develop **948** working Linux privilege-escalation exploits and identify **81** novel high-severity Firefox issues; Mozilla has shipped many fixes.\n- Rated **Critical** for cybersecurity under the Preparedness Framework (up from High). Initially available via API/Codex to approved Daybreak Red customers ([OpenAI](https://openai.com/index/introducing-gpt-6-cyber))."
+        },
+        "sources": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/introducing-gpt-6-cyber",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "agility-robotics-nasdaq",
+        "originalLang": "en",
+        "title": {
+          "zh": "Agility Robotics 登陆纳斯达克，成美国首家纯人形机器人上市公司",
+          "en": "Agility Robotics lists on Nasdaq as first U.S. pure-play humanoid firm"
+        },
+        "summary": {
+          "zh": "俄勒冈人形机器人公司 Agility 于 11 月 5 日以 AGLT 代码开盘，合并与融资合计约 4.65 亿美元；Digit 已有商用部署，Digit 5 多年度订单承诺逾 3 亿美元（视里程碑）。",
+          "en": "Agility began Nasdaq trading as AGLT on Nov 5 after a deal raising about $465 million gross; Digit is already deployed commercially, with more than $300 million in contingent Digit 5 orders."
+        },
+        "body": {
+          "zh": "Agility Robotics（代码 AGLT）于 2026 年 11 月 5 日完成与 Churchill Capital Corp XI 的合并，成为美国首家已有商用部署的纯人形机器人上市公司，毛融资约 4.65 亿美元。\n\n- Digit 已累计运行逾 6.5 万小时，客户包括 GXO、Schaeffler、丰田加拿大制造等。\n- 公司称 Digit 5 多年度订单承诺逾 3 亿美元，但仍取决于合同里程碑；Ars 指出 2025 年营收仅约 180 万美元，规模化仍待验证（[Agility](https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt)、[Ars Technica](https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/)）。",
+          "en": "Agility Robotics (Nasdaq: **AGLT**) completed its combination with Churchill Capital Corp XI on **Nov 5, 2026**, becoming the first U.S. publicly listed pure-play humanoid robotics company with active commercial deployments. Gross proceeds were about **$465 million**.\n\n- Digit has logged **>65,000** operating hours with customers including GXO, Schaeffler and Toyota Motor Manufacturing Canada.\n- The company cites **>$300 million** in committed multi-year Digit 5 orders subject to milestones; Ars notes 2025 revenue of about **$1.8 million** and that humanoid scale remains unproven ([Agility](https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt), [Ars Technica](https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/))."
+        },
+        "sources": [
+          {
+            "name": "Agility Robotics",
+            "url": "https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt",
+            "lang": "en"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "china-blocks-softbank-abb",
+        "originalLang": "en",
+        "title": {
+          "zh": "中国否决软银约 54 亿美元收购 ABB 机器人业务",
+          "en": "China blocks SoftBank’s ~$5.4B deal for ABB Robotics"
+        },
+        "summary": {
+          "zh": "ABB 11 月 5 日确认，中国外商投资安全审查工作机制禁止软银收购其在华机器人业务；交易企业价值约 53.75 亿美元，双方仍在沟通。",
+          "en": "ABB said on Nov 5 that China’s foreign-investment security review office prohibited SoftBank from acquiring ABB Robotics in China; enterprise value was $5.375 billion; talks continue."
+        },
+        "body": {
+          "zh": "ABB 曾于 2025 年 10 月同意向软银出售机器人业务，企业价值 53.75 亿美元，需获监管批准。\n\n- 2026 年 11 月 5 日，ABB 称软银告知：中国外商投资安全审查工作机制办公室**禁止**收购 ABB 在华机器人业务。\n- 《南华早报》称，这是继 Meta/Manus 交易后年内又一起重大中方否决案；双方表示仍在讨论后续安排（[ABB](https://new.abb.com/news/detail/140154/update-on-divestment-of-abb-robotics)、[SCMP](https://www.scmp.com/business/china-business/article/3373415/china-blocks-softbanks-us54-billion-takeover-abbs-robotics-division)）。",
+          "en": "In October 2025 ABB agreed to sell Robotics to SoftBank for an enterprise value of **$5.375 billion**, subject to approvals.\n\n- On **Nov 5, 2026** ABB said SoftBank informed it that China’s Office of the Working Mechanism for Foreign Investment Security Review **prohibited** the acquisition of ABB Robotics in China.\n- SCMP framed it as a second major China block this year after the Meta/Manus unwind; the companies said talks continue ([ABB](https://new.abb.com/news/detail/140154/update-on-divestment-of-abb-robotics), [SCMP](https://www.scmp.com/business/china-business/article/3373415/china-blocks-softbanks-us54-billion-takeover-abbs-robotics-division))."
+        },
+        "sources": [
+          {
+            "name": "ABB",
+            "url": "https://new.abb.com/news/detail/140154/update-on-divestment-of-abb-robotics",
+            "lang": "en"
+          },
+          {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/business/china-business/article/3373415/china-blocks-softbanks-us54-billion-takeover-abbs-robotics-division",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "trump-iran-destroy-warning",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普警告或须「摧毁」伊朗剩余部分；德黑兰经卡塔尔递交核提议",
+          "en": "Trump warns U.S. may have to “destroy” rest of Iran; Tehran sends proposal"
+        },
+        "summary": {
+          "zh": "11 月 6 日报道称特朗普称美国或须「摧毁」伊朗其余部分、重建约需 25 年；同时伊朗据报经卡塔尔向美方提交核方案，华盛顿在审阅，德黑兰等待七项要求获满足。",
+          "en": "On Nov 6 coverage, Trump said the U.S. may have to “destroy” the rest of Iran and rebuilding could take 25 years; Iran reportedly sent a nuclear proposal via Qatar that Washington is reviewing."
+        },
+        "body": {
+          "zh": "据半岛电视台 11 月 6 日直播博客，特朗普称美国或许必须「摧毁」伊朗其余部分，重建可能需要 **25 年**，并说人们「很快就会知道」他是否动手。\n\n- 伊朗据报通过**卡塔尔**斡旋向美方递交核方案；华盛顿正在审阅，德黑兰则称等待其**七项要求**获满足。\n- 背景是中期选举后美以与伊朗冲突仍在继续（[Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran)）。",
+          "en": "Al Jazeera’s Nov 6 liveblog: Trump said the U.S. may have to **“destroy”** the rest of Iran, that rebuilding would take **25 years**, and that people will **“know soon enough”** if he acts.\n\n- Iran reportedly sent a nuclear proposal through **Qatari** mediators; Washington is reviewing it while Tehran waits for **seven demands** to be met.\n- The remarks come amid the ongoing U.S.–Israel/Iran conflict after the midterms ([Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran))."
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "hormuz-tankers-hit-nov5",
+        "originalLang": "en",
+        "title": {
+          "zh": "霍尔木兹再有油轮受损，海湾航运风险未消",
+          "en": "More tankers damaged in Strait of Hormuz as Gulf risk persists"
+        },
+        "summary": {
+          "zh": "路透社称伊朗报告周四再有三艘油轮在霍尔木兹受损；英方海事机构称自周日以来至少五艘船遇险，袭击节奏接近战争高峰期。",
+          "en": "Reuters: Iran reported three more tankers damaged in Hormuz on Thursday; UKMTO said at least five vessels reported incidents since Sunday, near recent peak attack rates."
+        },
+        "body": {
+          "zh": "迪拜 **11 月 5 日（路透）**：伊朗报告霍尔木兹海峡又有 **三艘**油轮受损。英方 UKMTO 称自周日以来至少 **五艘**船报告遇险；10 月曾有 **35** 艘船遇袭，为战争以来单月最高。\n\n- 革命卫队称两艘油轮触雷、另一艘周四起火；UKMTO 另称一艘船周三晚被两枚不明投射物击中。\n- 中期后市场曾押注冲突降温、油价大跌，周四油价则因航运风险有所反弹（[Reuters via Investing.com](https://www.investing.com/news/commodities-news/tankers-hit-in-hormuz-as-iran-keeps-up-pressure-after-us-vote-5005038)）。",
+          "en": "Dubai, **Nov 5 (Reuters):** Iran reported **three more** tankers damaged in the Strait of Hormuz. UKMTO said at least **five** vessels reported incidents since Sunday; October saw **35** vessels hit, a monthly high of the war.\n\n- The IRGC said two tankers struck naval mines and another caught fire Thursday; UKMTO also reported a vessel struck by two unidentified projectiles late Wednesday.\n- Oil had plunged on midterm bets the war might ease, then bounced as shipping risk stayed elevated ([Reuters via Investing.com](https://www.investing.com/news/commodities-news/tankers-hit-in-hormuz-as-iran-keeps-up-pressure-after-us-vote-5005038))."
+        },
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/commodities-news/tankers-hit-in-hormuz-as-iran-keeps-up-pressure-after-us-vote-5005038",
+            "lang": "en"
+          },
+          {
+            "name": "Straits Times",
+            "url": "https://www.straitstimes.com/world/while-you-were-sleeping-5-stories-you-might-have-missed-nov-6-2026",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "paraguay-pena-resigns",
+        "originalLang": "en",
+        "title": {
+          "zh": "巴拉圭总统佩尼亚因 Ueno 银行危机辞职",
+          "en": "Paraguay President Santiago Peña resigns amid Ueno Bank collapse"
+        },
+        "summary": {
+          "zh": "佩尼亚 11 月 5 日宣布辞职；Ueno 银行被央行接管后约 300 万储户存款遭冻结，国会推进弹劾，其曾为银行控股方股东。",
+          "en": "Peña resigned Nov 5 after Ueno Bank’s resolution froze deposits for about three million customers; Congress advanced impeachment over alleged conflicts tied to his past shareholding."
+        },
+        "body": {
+          "zh": "佩尼亚（红党，2023 年上任）在视频中称辞职是为维护稳定与民主制度，并对民众致歉。Ueno 经数日危机后被央行责令处置，约 **300 万**客户无法取款，抗议与弹劾随之升级。\n\n- 众议院在其辞职后仍一致通过弹劾动议送交参议院。\n- 副总统 Pedro Alliana 理论上接任，亦因丑闻受质疑（[The Guardian](https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns)、[BBC](https://www.bbc.com/news/articles/c6p9g39vln3yo)）。",
+          "en": "Peña (Colorado Party, in office since 2023) said in a video that he was resigning to preserve stability and democratic institutions, and apologized to the public. After days of turmoil, the central bank ordered Ueno into resolution and froze deposits for about **three million** customers; protests and impeachment followed.\n\n- The lower house still unanimously advanced an impeachment motion to the Senate after he quit.\n- Vice President Pedro Alliana would normally succeed him and is also under scrutiny ([The Guardian](https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns), [BBC](https://www.bbc.com/news/articles/c6p9g39vln3yo))."
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
+            "lang": "en"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/articles/c6p9g39vln3yo",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "nasdaq-ai-correction-nov5",
+        "originalLang": "en",
+        "title": {
+          "zh": "纳指跌入修正区间：AI 与数据中心股暴跌",
+          "en": "Nasdaq enters correction as AI and data-center stocks plunge"
+        },
+        "summary": {
+          "zh": "周四纳指跌约 5.5% 进入修正；标普跌约 4.4%、道指跌约 3.4%。英伟达跌逾 9%，美光与 AMD 各跌约 17%；「七巨头」合计市值蒸发逾 1 万亿美元。",
+          "en": "Nasdaq fell about 5.5% into correction; S&P about −4.4%, Dow about −3.4%. Nvidia fell more than 9%; Micron and AMD about −17% each; Magnificent Seven lost more than $1T."
+        },
+        "body": {
+          "zh": "CNBC 等报道：纳斯达克综合指数周四跌约 **5.5%**，较近期高点回撤逾 10%，进入技术性**修正**；标普 500 约跌 **4.4%**，道指跌逾 **1800** 点（约 **−3.4%**），为 2025 年 4 月以来最差单日之一。\n\n- 英伟达跌逾 **9%**（年内转负），美光与 AMD 各跌约 **17%**，CoreWeave 约跌 **10%**；「七巨头」合计市值蒸发逾 **1 万亿美元**。\n- 催化剂被归结为民主党中期拿下国会、地方反数据中心选情，市场担忧 AI 基建与资本开支放缓（[CNBC](https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html)）。",
+          "en": "CNBC and others: the Nasdaq Composite fell about **5.5%**, more than 10% below its recent high — a technical **correction**. The S&P 500 lost about **4.4%** and the Dow more than **1,800** points (**−3.4%**), among the worst sessions since April 2025.\n\n- Nvidia fell more than **9%** (turning negative year-to-date); Micron and AMD about **−17%** each; CoreWeave about **−10%**. The Magnificent Seven together lost more than **$1 trillion** in market value.\n- Traders tied the selloff to the Democratic midterm sweep and local opposition to data centers, fearing slower AI build-out and capex ([CNBC](https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html))."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html",
+            "lang": "en"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-futures-steady-midterm-105838388.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "asia-markets-ai-rout-nov6",
+        "originalLang": "en",
+        "title": {
+          "zh": "亚盘跟随美股 AI 抛售：韩股领跌、综指跌破 5000",
+          "en": "Asian markets tumble after Wall Street’s AI rout; Korea leads losses"
+        },
+        "summary": {
+          "zh": "11 月 6 日亚盘开盘大跌：韩国综指开盘跌约 2.2%，盘中一度逼近跌 9%、跌破 5000 点；日经跌逾 2%，澳股下滑。霍尔木兹风险亦推升油价。",
+          "en": "On Nov 6 Asia open, Korea’s Kospi opened about −2.2% and traded nearly 9% lower below 5,000; Nikkei fell over 2%, ASX slipped. Oil firmed on Hormuz risk."
+        },
+        "body": {
+          "zh": "韩联社：韩国综指开盘报 5263.26 点，跌 **2.24%**；随后交易中一度跌近 **9%**、跌破 5000 点。日经 225 跌逾 **2%**，澳股 ASX 200 下滑。\n\n- 市场延续华尔街对民主党中期后数据中心监管趋严、半导体需求放缓的担忧。\n- 油价则因霍尔木兹航运风险部分收复此前跌幅（[Yonhap](https://en.yna.co.kr/view/AEN20261106001600320)、[Chosun Biz](https://biz.chosun.com/stock/stock_general/2026/11/06/GM4TQNZYGYYDANZVGY4TAZRQGI/)）。",
+          "en": "Yonhap: South Korea’s Kospi opened at **5,263.26**, down **2.24%**, then traded nearly **9%** lower and below **5,000** in the session. Japan’s Nikkei 225 fell more than **2%**; Australia’s ASX 200 slipped.\n\n- The move extends Wall Street’s bet that a Democratic midterm win means tighter data-center rules and softer chip demand.\n- Oil firmed as Hormuz shipping risk stayed in focus ([Yonhap](https://en.yna.co.kr/view/AEN20261106001600320), [Chosun Biz](https://biz.chosun.com/stock/stock_general/2026/11/06/GM4TQNZYGYYDANZVGY4TAZRQGI/))."
+        },
+        "sources": [
+          {
+            "name": "Yonhap",
+            "url": "https://en.yna.co.kr/view/AEN20261106001600320",
+            "lang": "en"
+          },
+          {
+            "name": "Chosun Biz",
+            "url": "https://biz.chosun.com/stock/stock_general/2026/11/06/GM4TQNZYGYYDANZVGY4TAZRQGI/"
+          },
+          {
+            "name": "SMH",
+            "url": "https://www.smh.com.au/business/markets/wall-street-plunges-as-ai-stocks-tumble-asx-set-to-slide-lower-20261106-p61bvl.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nvidia-h200-hong-kong-stockpile",
+        "originalLang": "en",
+        "title": {
+          "zh": "路透：约 60 万片英伟达 H200 滞留香港，内地大批进口仍未获批",
+          "en": "Reuters: ~600,000 Nvidia H200s stuck in Hong Kong awaiting approval"
+        },
+        "summary": {
+          "zh": "知情人士称约 60 万片 H200 存放香港待运内地；北京尚未批准大规模进口，部分互联网公司近月各获约 1 万片。黑市八卡服务器报价已超 600 万元人民币。",
+          "en": "Sources told Reuters ~600,000 H200s sit in Hong Kong awaiting mainland shipment; Beijing has not cleared large-volume imports, though some firms each got ~10,000 recently."
+        },
+        "body": {
+          "zh": "**11 月 5 日（路透独家）**：约 **60 万**片英伟达 **H200** 存放在香港，等待运往内地。北京尚未批准大规模进口，尽管 AI 需求旺盛；近月部分大型互联网公司各自获准进口约 **1 万**片。\n\n- 工信部、发改委及英伟达、阿里、字节、DeepSeek、腾讯均未置评。\n- 非官方市场：八卡 H200 服务器 10 月底报价逾 **600 万元**人民币（约 90 万美元），约为一年前三倍；受美方管控的 Blackwell 服务器报价逾 **2000 万元**（[Reuters via Investing.com](https://www.investing.com/news/stock-market-news/exclusivenvidia-chips-pile-up-in-hong-kong-as-china-withholds-import-approval-5003223)）。",
+          "en": "**Nov 5 (Reuters exclusive):** About **600,000** Nvidia **H200** chips are stored in Hong Kong awaiting mainland China shipment. Beijing is withholding large-scale import approval despite AI demand; several major internet firms each obtained about **10,000** H200s in recent months.\n\n- MIIT, NDRC, Nvidia, Alibaba, ByteDance, DeepSeek and Tencent did not comment.\n- On the unofficial market, an 8-card H200 server was quoted above **6 million yuan** (~$900,000) by end-October, about 3× a year earlier; Blackwell servers under U.S. controls were offered above **20 million yuan** ([Reuters via Investing.com](https://www.investing.com/news/stock-market-news/exclusivenvidia-chips-pile-up-in-hong-kong-as-china-withholds-import-approval-5003223))."
+        },
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/exclusivenvidia-chips-pile-up-in-hong-kong-as-china-withholds-import-approval-5003223",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "ma-xingrui-bribery-indictment",
+        "originalLang": "zh",
+        "title": {
+          "zh": "检察机关对马兴瑞涉嫌受贿案提起公诉",
+          "en": "Former Politburo member Ma Xingrui indicted on bribery charges"
+        },
+        "summary": {
+          "zh": "最高检 11 月 5 日通报：中共中央政治局原委员马兴瑞涉嫌受贿，已指定湖北宜昌检方审查起诉并向法院提起公诉，指控其非法收受特别巨额财物。",
+          "en": "China’s SPP said Nov 5 that former Politburo member Ma Xingrui was indicted for taking bribes; Yichang prosecutors in Hubei filed the case, alleging exceptionally large illegal gains."
+        },
+        "body": {
+          "zh": "新华社：马兴瑞曾任中央政治局委员、中央农村工作领导小组副组长。检方称其利用职务便利为他人谋利，并非法收受**特别巨额**财物。\n\n- 最高检依法决定逮捕，并指定宜昌市检察院向法院提起公诉。\n- 今年 7 月，其已因严重违纪违法被开除党籍、公职（[新华网](https://www.xinhuanet.com/20261105/71f77f728ca44330b92c195159495f69/c.html)、[Xinhua](https://english.news.cn/20261105/8c8172040ef848edb4e17cd048930646/c.html)）。",
+          "en": "Xinhua: Ma Xingrui previously served as a Politburo member and deputy head of the Central Rural Work Leading Group. Prosecutors say he used his posts to seek benefits for others and illegally accepted **exceptionally large** sums.\n\n- The Supreme People’s Procuratorate ordered his arrest and assigned the Yichang procuratorate in Hubei to file the case.\n- In July he was expelled from the Party and public office for serious violations ([Xinhua](https://english.news.cn/20261105/8c8172040ef848edb4e17cd048930646/c.html))."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.xinhuanet.com/20261105/71f77f728ca44330b92c195159495f69/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261105/8c8172040ef848edb4e17cd048930646/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/china-ma-xingrui-politburo-corruption-29b694aba4c924b46f2e1d70f352f17d",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "china-space-ultracold-9-7pk",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中国空间站制备已知最冷物质：铷原子云达 9.7 皮开尔文",
+          "en": "China Space Station cools matter to 9.7 picokelvin, a new record"
+        },
+        "summary": {
+          "zh": "中科院等 11 月 6 日通报：空间站超冷原子实验将铷原子云等效温度降至 9.7 pK，可观测约 7 秒，成果将刊于《科学》。",
+          "en": "CAS-linked teams reported Nov 6 that an ultracold-atom cabinet on the China Space Station cooled a rubidium cloud to 9.7 pK with about 7 seconds of observation; results due in Science."
+        },
+        "body": {
+          "zh": "报道称，利用全光阱等技术，温度约较室温低 14 个数量级；此前纪录包括德国落塔约 38 pK、NASA 空间站约 52 pK。\n\n- 实验柜位于梦天舱，由空间应用中心、北大、中科院上海光机所等联合完成，观测窗口长于地面与国际空间站既往实验。\n- 相关论文题为 “Quantum gases below 10 picokelvin in space”（[环球时报](https://www.globaltimes.cn/page/202611/1373767.shtml)、[新华网](https://www.xinhuanet.com/20261106/ea6cf914429e48ea9e61274b7c32c41f/c.html)、[Science](https://www.science.org/doi/10.1126/science.aea5324)）。",
+          "en": "Reports say an all-optical trap and related techniques cooled the cloud by about 14 orders of magnitude versus room temperature. Prior marks include roughly **38 pK** in a German drop tower and about **52 pK** on the NASA space-station experiment.\n\n- The cabinet sits in the Mengtian module; teams from the CAS Space Application Center, Peking University and SIOM led the work, with a longer observation window than prior ground and ISS runs.\n- The paper is titled “Quantum gases below 10 picokelvin in space” ([Global Times](https://www.globaltimes.cn/page/202611/1373767.shtml), [Science](https://www.science.org/doi/10.1126/science.aea5324))."
+        },
+        "sources": [
+          {
+            "name": "Global Times",
+            "url": "https://www.globaltimes.cn/page/202611/1373767.shtml",
+            "lang": "en"
+          },
+          {
+            "name": "新华网",
+            "url": "https://www.xinhuanet.com/20261106/ea6cf914429e48ea9e61274b7c32c41f/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "Science",
+            "url": "https://www.science.org/doi/10.1126/science.aea5324",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "wang-yi-kim-song-nam",
+        "originalLang": "en",
+        "title": {
+          "zh": "王毅会见朝方金成男，推进金正恩访华后的外交互动",
+          "en": "Wang Yi meets North Korea’s Kim Song Nam after Kim Jong Un’s China visit"
+        },
+        "summary": {
+          "zh": "中国外长王毅会见朝鲜劳动党中央国际部部长金成男，延续金正恩近期访华后的高层互动；双方强调巩固传统友好与战略沟通。",
+          "en": "Chinese Foreign Minister Wang Yi met Kim Song Nam, head of the Workers’ Party international department, extending high-level contacts after Kim Jong Un’s recent China visit."
+        },
+        "body": {
+          "zh": "据《南华早报》等报道，会见安排在金正恩访问丹东等地之后，中朝官员正加紧外交互动。\n\n- 双方重申巩固传统友好关系，并就地区局势保持沟通。\n- 细节以官方通稿与可靠外电为准（[SCMP](https://www.scmp.com/news/china/diplomacy/article/3373385/chinese-and-north-korean-officials-step-diplomatic-drive-wake-kim-jong-un-visit)）。",
+          "en": "SCMP and others report the meeting follows Kim Jong Un’s visit that included Dandong, as Chinese and North Korean officials step up diplomatic contacts.\n\n- Both sides stressed traditional friendship and strategic communication on regional issues.\n- Details rest on official readouts and reliable wires ([SCMP](https://www.scmp.com/news/china/diplomacy/article/3373385/chinese-and-north-korean-officials-step-diplomatic-drive-wake-kim-jong-un-visit))."
+        },
+        "sources": [
+          {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/china/diplomacy/article/3373385/chinese-and-north-korean-officials-step-diplomatic-drive-wake-kim-jong-un-visit",
+            "lang": "en"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -271,5 +271,284 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "claude-fable-mythos-5-2",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，面向高难度技术任务",
+          "en": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 for hard technical work"
+        },
+        "summary": {
+          "zh": "Anthropic 推出面向高难度编程、推理与视觉任务的 Fable 5.2 与 Mythos 5.2。二者为同一底层模型，生成速度最高提升约30%，API 价格降至每百万输入/输出代币8美元和40美元。",
+          "en": "Anthropic released Claude Fable 5.2 and Mythos 5.2, the same underlying model for demanding coding, reasoning and vision work. Outputs are up to 30% faster than the 5.1 versions, priced at $8 and $40 per million input and output tokens."
+        },
+        "body": {
+          "zh": "Anthropic 11月9日宣布升级 Claude Fable 与 Claude Mythos。公司称，预发布测试中，新模型帮助完成此前难以推进的软件迁移，从零设计了三款可工作的电子设备，解决了两个黑洞物理中的未决问题，并由约1000个智能体在30小时内完成了费马大定理的形式化证明。一名工程师还让 Fable 5.2 从空文件夹出发、协调超过1000个子智能体、连续工作八天，做出一套能在笔记本上启动的原型操作系统。\n\nFable 与 Mythos 是同一底层模型。Fable 带有较强的网络安全与生物学安全限制，向所有用户开放；从事网络安全或生物医学研究的机构可通过生命科学与网络验证计划申请 Mythos。可选的快速模式将生成速度最高再提升约2.5倍，价格为每百万输入/输出代币16美元和80美元。Fable 5.2 已在 Anthropic 平台以及亚马逊云科技、谷歌云和微软 Azure 上线；公司仍建议日常任务先用 Claude Opus 5.5，把 Fable 留给更开放、更困难的工作。\n\n- 来源：[Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2)、[The Verge](https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2)、[CNBC](https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html)",
+          "en": "Anthropic on Nov. 9 upgraded Claude Fable and Claude Mythos. In prerelease testing, it said, the models helped complete software migrations that had seemed infeasible, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, and formalized a proof of Fermat's Last Theorem in 30 hours with about 1,000 agents. In one experiment, an engineer asked Fable 5.2 to build a prototype operating system from an empty folder; it coordinated more than 1,000 subagents over eight days and produced a system that could boot on a laptop.\n\nFable and Mythos are the same underlying model. Fable, with stronger cybersecurity and biology safeguards, is available to all users; organizations in cybersecurity or biomedical research can apply for Mythos through Anthropic's Life Sciences and Cyber Verification Programs. An optional fast mode speeds token generation by up to 2.5 times, at $16 and $80 per million input and output tokens. Fable 5.2 is available on Anthropic's platform as well as AWS, Google Cloud and Microsoft Azure. Anthropic still recommends Claude Opus 5.5 for everyday work, and Fable for more ambitious, open-ended tasks.\n\n- Sources: [Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2), [The Verge](https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2), [CNBC](https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html)"
+        },
+        "sources": [
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+            "lang": "en"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-dots-multi-computer",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI 允许同一 ChatGPT Dot 连接多台本地电脑",
+          "en": "OpenAI lets one ChatGPT Dot connect to multiple local computers"
+        },
+        "summary": {
+          "zh": "OpenAI 宣布，用户可将多台本地电脑连接到同一个 Dot，并按任务指定由哪台电脑执行。每个对话线程同一时间只使用一台电脑，Dot 自带的云端电脑仍保持连接。",
+          "en": "OpenAI said a single ChatGPT Dot can now connect to several of a user's local computers, with the user choosing which machine handles each task. Each thread uses one computer at a time; the Dot's cloud computer stays connected."
+        },
+        "sources": [
+          {
+            "name": "ChatGPT Learn",
+            "url": "https://learn.chatgpt.com/docs/dots/computers-and-apps",
+            "lang": "en"
+          },
+          {
+            "name": "MODEL",
+            "url": "https://readmodelmag.com/stories/openai-dots-multiple-computers",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "meta-instagram-age-detection-global",
+        "originalLang": "en",
+        "title": {
+          "zh": "Meta 将 Instagram 人工智能年龄识别推广至全球",
+          "en": "Meta expands Instagram's AI age detection worldwide"
+        },
+        "summary": {
+          "zh": "Meta 开始在全球范围内对 Instagram 使用人工智能估算年龄，识别可能为13至17岁、却登记为成年人的用户，并将其纳入限制更严的青少年账户；Facebook 的推广仍在继续，Threads 计划稍后跟进。",
+          "en": "Meta began rolling out AI age estimation on Instagram worldwide, to identify users who appear to be 13 to 17 even if they registered with an adult birth date, and place them in more restrictive Teen Accounts. A Facebook rollout continues, with Threads planned later."
+        },
+        "sources": [
+          {
+            "name": "Meta",
+            "url": "https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world/",
+            "lang": "en"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/tech/1029627/meta-instagram-ai-age-assurance-global-expansion",
+            "lang": "en"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "abu-dhabi-ukraine-talks",
+        "originalLang": "en",
+        "title": {
+          "zh": "俄乌美时隔九个月在阿布扎比重启三方和谈",
+          "en": "Russia, Ukraine and the US resume talks in Abu Dhabi after nine months"
+        },
+        "summary": {
+          "zh": "乌克兰、俄罗斯与美国代表团11月10日在阿布扎比开始为期两天的三方和谈，这是今年2月日内瓦会谈后的首次。议题包括停火、安全保证和人道问题；会谈开始前，俄军袭击了乌克兰能源设施。",
+          "en": "Ukraine, Russia and the US opened two-day talks in Abu Dhabi on Nov. 10, the first trilateral meeting since February. The agenda includes a ceasefire, security guarantees and humanitarian issues; Russia struck Ukrainian energy sites hours earlier."
+        },
+        "body": {
+          "zh": "乌克兰对外情报局局长鲁斯捷姆·乌梅罗夫表示，议程围绕“结束敌对行动、靠近和平”的关键问题，代表团按总统泽连斯基确定的目标开展工作。美方由特使史蒂夫·惠特科夫和贾里德·库什纳出席；俄方代表团由总统助理弗拉基米尔·梅金斯基率领。乌克兰希望讨论换俘，以及可能的海上与能源停火，并为未来领导人峰会做准备。\n\n华盛顿称，会谈也可能为讨论欧洲更广泛的安全安排、以及基辅与莫斯科的战后安全关切铺路。领土仍是核心分歧：莫斯科要求乌克兰从顿巴斯撤军并限制北约前景，基辅拒绝从现有控制区撤退，并要求先无条件停火。泽连斯基强调，任何涉及欧洲安全的安排都须有欧洲国家参与。欧洲官员当天与乌方、美方另行协调，但不进入三方会谈本身。\n\n乌克兰总理科列茨基说，俄军通宵袭击了波尔塔瓦、第聂伯罗彼得罗夫斯克、文尼察和基洛夫格勒等地的五座主要变电站。《基辅独立报》报道，过去一天的袭击至少造成9人死亡、39人受伤。泽连斯基指责俄方在和谈前加强对乌打击，以向基辅施压。\n\n- 来源：[《基辅独立报》](https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/)、[美联社](https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-uae-3d878a3e56d5df5bd198a6d20c824d18)、[《卫报》](https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates)",
+          "en": "Ukraine's foreign intelligence chief, Rustem Umerov, said the agenda covers key questions on ending hostilities and moving closer to peace, and that the delegation is working to objectives set by President Volodymyr Zelensky. The US side is represented by envoy Steve Witkoff and Jared Kushner; Russia's delegation is led by presidential aide Vladimir Medinsky. Kyiv hopes to discuss prisoner exchanges and a possible maritime and energy ceasefire, and to lay groundwork for a future leaders' summit.\n\nWashington said the meetings could also open discussion of broader European security arrangements and the postwar security concerns of both Kyiv and Moscow. Territory remains the core dispute: Moscow wants Ukraine to withdraw from Donbas and accept limits on NATO membership, while Kyiv rejects leaving the ground it now holds and wants an unconditional ceasefire first. Zelensky has said issues of Europe's security must be discussed with European nations. European officials met Ukrainian and US counterparts separately and are not in the trilateral format itself.\n\nUkrainian Prime Minister Sergii Koretskyi said Russia overnight hit five major substations that transmit electricity between regions, in Poltava, Dnipropetrovsk, Vinnytsia and Kirovohrad. The Kyiv Independent reported that Russian attacks over the past day killed at least nine people and injured 39. Zelensky accused Moscow of intensifying strikes to pressure Kyiv at the talks.\n\n- Sources: [The Kyiv Independent](https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/), [AP](https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-uae-3d878a3e56d5df5bd198a6d20c824d18), [The Guardian](https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates)"
+        },
+        "sources": [
+          {
+            "name": "The Kyiv Independent",
+            "url": "https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-uae-3d878a3e56d5df5bd198a6d20c824d18",
+            "lang": "en"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "trump-iran-end-fairly-soon",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普称对伊战争“相当快”可能结束，并称伊朗“军事上已基本结束”",
+          "en": "Trump says the Iran war could end 'fairly soon' and is 'militarily effectively over'"
+        },
+        "summary": {
+          "zh": "特朗普在白宫会见卡塔尔首相后称，正看到结束冲突的势头，战争“相当快”可能结束，并称“伊朗在军事上已基本结束”。他仍表示美军已准备就绪；海湾国家倾向维持对伊朗的海上封锁。",
+          "en": "After meeting Qatar's prime minister, Trump said there was momentum toward ending the conflict, that it could end 'fairly soon,' and that 'Iran militarily is effectively over.' He still said US forces were ready; Gulf states prefer keeping the naval blockade."
+        },
+        "body": {
+          "zh": "特朗普在与卡塔尔首相兼外交大臣谢赫·穆罕默德·本·阿卜杜拉赫曼·阿勒萨尼会晤后对记者表示：“我们看到结束这场冲突的势头。我认为它会相当快地结束。”他同时在社交平台发文称，卡塔尔、沙特、阿联酋、巴林和科威特倾向于维持现状，即继续对伊朗实施海上封锁，并限制其通过陆路运送先进武器等物资。\n\n特朗普仍称美方“已上膛、随时可以行动”，但进一步军事打击“看起来并不十分必要”。分析认为，市场正在消化部分地缘溢价，不过双方在核材料处置和霍尔木兹海峡通行等问题上分歧仍大，谈判前景并不确定。\n\n- 来源：[CNBC](https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html)、[新华社](https://english.news.cn/20261110/eee10e4fe129421394627f7e1015fc4e/c.html)",
+          "en": "After meeting Qatar's prime minister and foreign minister, Sheikh Mohammed bin Abdulrahman Al Thani, Trump told reporters: 'We're seeing momentum toward the end of this conflict. I think it's going to be ending fairly soon.' He also said 'Iran militarily is effectively over.' In a social-media post he wrote that Qatar, Saudi Arabia, the UAE, Bahrain and Kuwait preferred the status quo: keeping a naval blockade on Iran and restricting land routes used to move advanced weapons and other material.\n\nTrump still said US forces were 'locked and loaded,' but that further military action did not seem 'a very necessary thing' at this point. Analysts said markets were unwinding some of the geopolitical risk premium, though a deal remains uncertain given wide gaps over nuclear material and access to the Strait of Hormuz.\n\n- Sources: [CNBC](https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html), [Xinhua](https://english.news.cn/20261110/eee10e4fe129421394627f7e1015fc4e/c.html)"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261110/eee10e4fe129421394627f7e1015fc4e/c.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "softbank-q2-7b-loss",
+        "originalLang": "en",
+        "title": {
+          "zh": "软银第二财季净亏损约1.12万亿日元，折合70亿美元",
+          "en": "SoftBank swings to a $7 billion net loss in the fiscal second quarter"
+        },
+        "summary": {
+          "zh": "软银公布7月至9月净亏损1.12万亿日元（约70亿美元），上年同期为净利2.5万亿日元。公司称，截至9月末的六个月里，美国人工智能数据中心发电设备采购计划调整带来约37亿美元亏损；但股价周二收涨13.9%。",
+          "en": "SoftBank posted a net loss of 1.12 trillion yen ($7 billion) for July–September, versus a 2.5 trillion yen profit a year earlier. A $3.7 billion hit in the six months to Sept. 30 came from US AI data-center power-equipment plan changes. Shares closed 13.9% higher Tuesday."
+        },
+        "body": {
+          "zh": "软银周二公布，第二财季净亏损1.12万亿日元，营收2.22万亿日元，高于伦敦证交所集团预估的2.02万亿日元。公司表示，此前为防设备短缺、提前为美国人工智能数据中心锁定发电设备；截至9月末，相关累计付款达94.8亿美元。愿景基金板块当季亏损815.8亿日元，上年同期则为盈利2.38万亿日元。\n\n截至9月末，软银对 OpenAI 的累计投资成本为546亿美元，公允价值996亿美元，累计投资收益450亿美元。公司称，OpenAI 新一轮融资可能带来的估值上调尚未计入本期业绩。尽管录得亏损，受隔夜美股科技股反弹带动，软银股价周二收涨13.9%。\n\n- 来源：[CNBC](https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html)、[软银财报](https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q2fy2026_01_en.pdf)",
+          "en": "SoftBank on Tuesday reported a fiscal second-quarter net loss of 1.12 trillion yen. Revenue was 2.22 trillion yen, above the 2.02 trillion yen LSEG estimate. The company said it had made advance investments to secure power-generation equipment for US AI data-center projects amid shortage concerns; cumulative payments for that equipment totaled $9.48 billion at the end of September. Its Vision Fund segment swung to a loss of 81.58 billion yen, from a profit of 2.38 trillion yen a year earlier.\n\nAs of the end of September, SoftBank's cumulative investment in OpenAI was $54.6 billion, with a fair value of $99.6 billion and a cumulative gain of $45 billion. SoftBank said a possible higher valuation after a new OpenAI funding round had not yet been reflected in these results. Despite the loss, its shares closed 13.9% higher Tuesday after the overnight rebound in US technology stocks.\n\n- Sources: [CNBC](https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html), [SoftBank financial report](https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q2fy2026_01_en.pdf)"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
+            "lang": "en"
+          },
+          {
+            "name": "SoftBank Group",
+            "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q2fy2026_01_en.pdf",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "brent-falls-below-90-nov10",
+        "originalLang": "en",
+        "title": {
+          "zh": "布伦特原油跌破每桶90美元，为8月以来首次",
+          "en": "Brent crude falls below $90 a barrel for the first time since August"
+        },
+        "summary": {
+          "zh": "特朗普称对伊战争“相当快”可能结束后，布伦特原油周二早盘一度跌破每桶90美元，为8月以来首次；美国东部时间上午5时33分报90.14美元，跌2.65%，西德州原油报84.78美元，跌约2.4%。",
+          "en": "After Trump said the Iran war could end 'fairly soon,' Brent slipped below $90 a barrel on Tuesday morning for the first time since August. At 5:33 a.m. ET it was at $90.14, down 2.65%; WTI was at $84.78, down about 2.4%."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html",
+            "lang": "en"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/business/2026/nov/10/oil-prices-fall-donald-trump-iran-war-ftse-100-markets",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "china-pauses-24pct-us-tariffs",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中方继续暂停对美加征24%关税两个月，保留10%税率",
+          "en": "China extends its pause on the 24% tariff on US goods for two months"
+        },
+        "summary": {
+          "zh": "国务院关税税则委员会宣布，自11月10日13时01分起，在两个月内继续暂停实施24%的对美加征关税税率，保留10%的对美加征关税税率，以落实中美元首会晤共识。",
+          "en": "China's Customs Tariff Commission said that from 1:01 p.m. on Nov. 10 it will keep the 24% additional tariff on US goods suspended for two more months, while retaining the 10% additional tariff, to implement the consensus from the Xi-Trump meeting."
+        },
+        "body": {
+          "zh": "税委会公告2026年第6号称，为落实中美两国元首华盛顿会晤达成的成果共识，经国务院批准，自2026年11月10日13时01分起，调整税委会公告2025年第4号规定的加征关税措施：在2个月内继续暂停实施24%的对美加征关税税率，保留10%的对美加征关税税率。公告日期为11月9日。\n\n这与当天已生效的稀土等出口管制暂停延长，同属落实近期中美经贸共识的一部分，但措施本身不同：此次调整的是对美加征关税，而非出口管制。\n\n- 来源：[财政部关税司公告](https://gss.mof.gov.cn/gzdt/zhengcefabu/202611/t20261109_4004260.htm)",
+          "en": "In announcement No. 6 of 2026, the Customs Tariff Commission said that, with State Council approval and to implement the results of the Xi-Trump meeting in Washington, it would adjust the additional tariffs set out in its 2025 announcement No. 4, effective 1:01 p.m. on Nov. 10, 2026: the 24% additional tariff on goods of US origin stays suspended for two more months, and the 10% additional tariff is kept. The notice is dated Nov. 9.\n\nThe step is part of the same effort to carry out the recent China-US trade consensus as the two-month extension of the rare-earth and other export-control pause, but it is a different measure: this one changes additional tariffs on US goods, not export controls.\n\n- Source: [Customs Tariff Commission announcement](https://gss.mof.gov.cn/gzdt/zhengcefabu/202611/t20261109_4004260.htm)"
+        },
+        "sources": [
+          {
+            "name": "财政部关税司",
+            "url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/202611/t20261109_4004260.htm",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "taiyuan-howard-johnson-fire",
+        "originalLang": "zh",
+        "title": {
+          "zh": "太原豪生国际公寓火灾已造成14人遇难，相关负责人被控制",
+          "en": "Taiyuan apartment fire kills 14; property managers placed under control"
+        },
+        "summary": {
+          "zh": "太原市政府通报，迎泽区豪生国际公寓11月8日下午发生火灾，已造成14人遇难、25人在院救治，其中危重9人。消防疏散营救60人，产权单位管理人员和物业负责人已被控制，事故原因仍在调查。",
+          "en": "Taiyuan said a Nov. 8 fire at Howard Johnson apartments in Yingze District killed 14 people, with 25 in hospital, including nine in critical condition. Rescuers saved or evacuated 60 people. Property managers are under control; the cause is under investigation."
+        },
+        "body": {
+          "zh": "据新华社报道，11月9日下午，太原市人民政府召开新闻发布会通报：11月8日16时59分，迎泽区豪生国际公寓发生火灾。消防力量17时04分抵达现场，19时明火被扑灭，20时30分搜救结束，组织疏散营救被困群众60人。截至发布会时，火灾造成14人遇难，25人在院救治，其中危重伤9人、重伤4人、轻伤12人。\n\n太原已成立事故处置工作组，累计投入应急救援力量1500余人次。目前已对产权单位管理人员、物业公司负责人采取控制措施，事故原因正在调查中，调查结果将依法依规向社会公布。\n\n- 来源：[新华网](https://www.news.cn/20261109/ac8c99339dd6433184a38d2095b31645/c.html)",
+          "en": "Xinhua reported that Taiyuan's municipal government briefed the press on the afternoon of Nov. 9. The fire started at 4:59 p.m. on Nov. 8 at the Howard Johnson International Apartments in Yingze District. Firefighters reached the scene at 5:04 p.m., open flames were out by 7 p.m., and search and rescue ended at 8:30 p.m. Sixty people were evacuated or rescued. As of the briefing, 14 people had died and 25 were in hospital: nine in critical condition, four seriously injured and 12 with lesser injuries.\n\nThe city formed a response team and said it had deployed more than 1,500 emergency personnel in total. Managers of the property-owning unit and of the property company have been placed under control. The cause is still under investigation, and the findings will be released in accordance with the law.\n\n- Source: [Xinhua](https://www.news.cn/20261109/ac8c99339dd6433184a38d2095b31645/c.html)"
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261109/ac8c99339dd6433184a38d2095b31645/c.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "china-october-cpi-07",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中国10月居民消费价格同比上涨0.7%，环比持平",
+          "en": "China's October consumer prices rise 0.7% year on year, flat on the month"
+        },
+        "summary": {
+          "zh": "国家统计局公布，10月全国CPI同比上涨0.7%，环比持平。食品价格同比下降2.9%，非食品价格上涨1.5%；1至10月平均同比上涨0.9%。",
+          "en": "China's National Bureau of Statistics said October CPI rose 0.7% from a year earlier and was unchanged from September. Food prices fell 2.9% year on year, while non-food prices rose 1.5%. The January–October average was up 0.9%."
+        },
+        "sources": [
+          {
+            "name": "国家统计局",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
+            "lang": "zh"
+          },
+          {
+            "name": "央视网",
+            "url": "https://jingji.cctv.cn/2026/11/09/ARTItDMLkIIAxSKzgxSjRfzQ261109.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

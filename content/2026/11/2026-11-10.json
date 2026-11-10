@@ -1,0 +1,275 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-10",
+  "am": {
+    "tech": [
+      {
+        "id": "nvidia-board-probes-jensen-huang",
+        "originalLang": "en",
+        "title": {
+          "zh": "英伟达董事会就黄仁勋疑遭外国情报渗透启动独立调查",
+          "en": "Nvidia board opens independent probe into whether Jensen Huang was targeted by foreign intelligence"
+        },
+        "summary": {
+          "zh": "英伟达董事会11月8日宣布，由独立董事组成的委员会在外部律师协助下调查CEO黄仁勋是否成为外国情报行动目标；黄仁勋承认婚外情并致歉，周一股价收跌约4%。",
+          "en": "Nvidia's board said Nov. 8 that a committee of independent directors, with outside counsel, will investigate reports that CEO Jensen Huang was targeted by a foreign intelligence effort. Huang admitted an affair and apologized; shares fell about 4% Monday."
+        },
+        "body": {
+          "zh": "据《纽约时报》此前报道，美国情报部门认定新加坡云计算公司 Megaspeed 前高管 Alice Huang（与黄仁勋无亲属关系）在为北京收集信息；Megaspeed 是英伟达云合作伙伴，美方正调查其是否帮助中国获取受限的先进 AI 芯片。\n\n董事会声明称，目前**没有理由认为国家安全或公司机密受到损害**，但会审查所有信息，并对黄仁勋及管理层保持信心。黄仁勋在致员工信中承认不忠、表示将全力配合。中国外交部发言人郭嘉昆称所谓“中国间谍”指控“毫无根据”。\n\n- 花旗分析师提醒，投资者将关注公司治理影响和监管审查。\n- 来源：[NVIDIA 董事会声明](https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors)、[美联社](https://apnews.com/article/nvidia-jensen-huang-investigation-chinese-spy-68839e7ca6ba2b121529f7e475e501d6)、[路透社](https://www.investing.com/news/stock-market-news/explainerwhat-we-know-about-nvidias-probe-into-ceo-jensen-huang-5010580)",
+          "en": "The New York Times reported last month that US intelligence concluded Alice Huang (no relation), a former executive at Singapore cloud firm Megaspeed, was gathering information for Beijing. Megaspeed is an Nvidia cloud partner that US authorities have investigated over suspicions it helped China obtain restricted AI chips.\n\nThe board said it has **no reason to believe national security or Nvidia secrets were compromised**, but will examine all available information, and that it has confidence in Huang. Huang told staff he had been unfaithful and would cooperate fully. China's foreign ministry called the spy allegation groundless.\n\n- Citi analysts flagged governance implications and increased regulatory scrutiny as key issues.\n- Sources: [Nvidia board statement](https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors), [AP](https://apnews.com/article/nvidia-jensen-huang-investigation-chinese-spy-68839e7ca6ba2b121529f7e475e501d6), [Reuters](https://www.investing.com/news/stock-market-news/explainerwhat-we-know-about-nvidias-probe-into-ceo-jensen-huang-5010580)"
+        },
+        "sources": [
+          {
+            "name": "NVIDIA Newsroom",
+            "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/nvidia-jensen-huang-investigation-chinese-spy-68839e7ca6ba2b121529f7e475e501d6",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/explainerwhat-we-know-about-nvidias-probe-into-ceo-jensen-huang-5010580",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "meta-muse-ember",
+        "originalLang": "en",
+        "title": {
+          "zh": "Meta 发布最小最高效模型 Muse Ember",
+          "en": "Meta launches Muse Ember, its smallest and most efficient AI model"
+        },
+        "summary": {
+          "zh": "Meta 推出面向智能体日常工作的小模型 Muse Ember，主打工具调用、编码子任务、路由、信息抽取和长文档解析，并称单位成本智能高于 Claude Haiku 5.5 和 GPT-6 Luna。",
+          "en": "Meta launched Muse Ember, a small model built for repetitive agent work such as tool calls, coding subtasks, routing, extraction and long-document parsing, claiming more intelligence per dollar than Claude Haiku 5.5 or GPT-6 Luna."
+        },
+        "sources": [
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/tech/1029979/meta-is-launching-its-smallest-and-most-efficient-ai-model-muse-ember",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-gas-generators-3-4b",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic 斥资约34亿美元锁定1.7吉瓦燃气发电机",
+          "en": "Anthropic secures about $3.4B of gas generators for 1.7 GW of power"
+        },
+        "summary": {
+          "zh": "据《金融时报》报道，Anthropic 接手得州 OnePWR Solutions 现有订单，锁定可发电1.7吉瓦的燃气发电机，交易约34亿美元，显示电力已成为 AI 扩张的关键瓶颈。",
+          "en": "Anthropic took over existing orders from Texas-based OnePWR Solutions for gas generators able to produce 1.7 GW, a deal worth about $3.4 billion, the Financial Times reported, underlining power as a key constraint on AI expansion."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-9-2026/",
+            "lang": "en"
+          },
+          {
+            "name": "TopFive",
+            "url": "https://topfive.ai/2026/11/09/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "iran-talks-stall-rubio-nov9",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗和谈陷入僵局：鲁比奥称德黑兰条件“离谱”，特朗普称维持现状",
+          "en": "Iran talks stall as Rubio calls Tehran's terms 'outrageous'; Trump keeps war at 'status quo'"
+        },
+        "summary": {
+          "zh": "美国务卿鲁比奥称和谈远未突破；伊朗坚持先解除封锁和制裁再谈。特朗普称恢复空袭“极不可能”，但美军“已上膛”。美军周日打击格什姆岛，霍尔木兹海峡油轮遇袭持续。",
+          "en": "Rubio said talks are not near a breakthrough as Iran insists the US end its blockade and sanctions first. Trump called renewed strikes 'highly unlikely' but said forces are 'locked and loaded.' The US struck Qeshm Island and tanker attacks in Hormuz continue."
+        },
+        "body": {
+          "zh": "伊朗的方案是：美国结束对其港口的封锁、解除部分制裁并停止轰炸，换取德黑兰解除对霍尔木兹海峡的封锁，核问题等后续再谈；伊方称可将重启谈判的时间表从七天压缩到两天。鲁比奥在赴巴黎出席七国集团外长会前称这些条件“离谱、荒唐、不现实”。\n\n特朗普周日对 CNN 表示，只要谈判有进展并签署“强有力的协议”，恢复打击“极不可能”，但美方已锁定包括38座桥梁在内的基础设施目标。周一他又称战争维持“现状”。卡塔尔首相周一赴白宫会见特朗普。\n\n- 英国海事贸易行动办公室（UKMTO）确认，周六在阿曼哈萨卜以北起火的油轮系遭攻击；伊朗国家电视台称24小时内有四艘油轮在海峡“被拦停”。\n- 布伦特原油周一收跌5.85%至每桶92.57美元。",
+          "en": "Iran's plan would have the US end its port blockade, lift some sanctions and halt bombing in return for Tehran lifting its blockade of the Strait of Hormuz, with nuclear talks to follow; Iran says the restart timeline could shrink from seven days to two. Rubio, heading to the G7 in Paris, called the terms 'outrageous and ridiculous and really not realistic.'\n\nTrump told CNN that resuming strikes is 'highly unlikely' if talks progress toward a strong agreement, though the US has identified infrastructure targets including 38 bridges. On Monday he said the war was being kept at 'status quo.' Qatar's prime minister met Trump at the White House Monday.\n\n- UKMTO reclassified a tanker fire north of Khasab, Oman, as an attack; Iranian state TV said four tankers were halted in the strait over 24 hours.\n- Brent crude settled down 5.85% at $92.57 a barrel Monday."
+        },
+        "sources": [
+          {
+            "name": "NBC News",
+            "url": "https://www.nbcnews.com/world/iran/iran-defends-2-day-proposal-peace-talks-us-rejects-outrageous-conditio-rcna608263",
+            "lang": "en"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/",
+            "lang": "en"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/09/trump-says-us-has-won-iran-war-as-rubio-reports-no-progress-in-talks",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "g7-paris-ukraine-rubio",
+        "originalLang": "en",
+        "title": {
+          "zh": "七国集团外长巴黎会晤，欧洲敦促美方确保乌克兰和平方案公平",
+          "en": "G7 foreign ministers meet in Paris as Europe presses Rubio on Ukraine"
+        },
+        "summary": {
+          "zh": "七国集团外长11月9日至10日在巴黎会晤，欧洲各国外长敦促鲁比奥确保任何乌克兰解决方案对基辅公平并让欧洲参与谈判，会议还讨论维持对俄制裁和遏制“影子船队”。",
+          "en": "G7 foreign ministers met in Paris on Nov. 9-10, with European ministers urging Rubio to ensure any Ukraine settlement is fair to Kyiv and includes Europe, while also discussing Russia sanctions and its shadow fleet."
+        },
+        "sources": [
+          {
+            "name": "AFP",
+            "url": "https://www.afp.com/en/europe-top-diplomats-press-rubio-ukraine-g7",
+            "lang": "en"
+          },
+          {
+            "name": "DW",
+            "url": "https://www.dw.com/en/g7-ministers-meet-as-europe-seeks-greater-say-in-ukraine-peace-talks/a-79894960",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "wall-street-rally-nov9",
+        "originalLang": "en",
+        "title": {
+          "zh": "美股大涨：标普创4月以来最大单日涨幅，道指涨逾1100点",
+          "en": "Wall Street rallies: S&P 500 posts best day since April, Dow jumps 1,100 points"
+        },
+        "summary": {
+          "zh": "油价下跌缓解通胀担忧，美股三大指数周一全线大涨：道指涨2.15%至52389.75点，标普500涨2.35%至7549.94点，纳指涨2.74%至25253.14点；英伟达逆势跌约4%。",
+          "en": "Falling oil eased inflation fears and US stocks surged Monday: the Dow rose 2.15% to 52,389.75, the S&P 500 2.35% to 7,549.94 and the Nasdaq 2.74% to 25,253.14. Nvidia fell about 4%."
+        },
+        "body": {
+          "zh": "上周民主党在中期选举中大胜，市场担心数据中心建设和能源使用监管收紧会拖累 AI 基建热潮，标普录得自2025年4月以来最大单周跌幅。周一标普500十一大板块全线上涨，工业和非必需消费品板块分别涨3.78%和3.05%，能源板块仅涨0.41%。\n\n标普500创4月8日以来最大单日涨幅，纳指创7月30日以来最大单日涨幅；道指已回到选举日收盘水平之上。WTI 原油跌4.38%至每桶86.85美元。投资者还在等待本周公布的美国通胀数据。",
+          "en": "Stocks slumped last week after Democrats' sweeping midterm win fed fears that tighter rules on data centers and energy use could slow the AI build-out, giving the S&P 500 its worst week since April 2025. On Monday all 11 S&P sectors rose, led by industrials and consumer discretionary.\n\nThe S&P had its biggest one-day gain since April 8 and the Nasdaq its best since July 30; the Dow is back above its Election Day close. WTI fell 4.38% to $86.85 a barrel. Investors now await US inflation data later this week."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+            "lang": "en"
+          },
+          {
+            "name": "The Business Times",
+            "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-wall-street-jumps-oil-slide-cools-inflation-worries-nvidia-slumps",
+            "lang": "en"
+          },
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261110/c1afb0b6a60d402392fc62bea56e2ae2/c.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "brent-oil-slides-nov9",
+        "originalLang": "en",
+        "title": {
+          "zh": "布伦特原油重挫近6%，跌破93美元",
+          "en": "Brent crude slides nearly 6% to below $93"
+        },
+        "summary": {
+          "zh": "在特朗普称恢复对伊朗空袭“极不可能”后，布伦特原油周一下跌5.85%至每桶92.57美元，WTI 跌4.38%至86.85美元，延续一周多的回落，但仍比战前高约五成。",
+          "en": "Brent fell 5.85% to $92.57 a barrel Monday and WTI 4.38% to $86.85 after Trump said renewed strikes on Iran were 'highly unlikely,' extending a slide of more than a week, though prices remain roughly 50% above pre-war levels."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+            "lang": "en"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "china-extends-rare-earth-pause",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中方延长暂停稀土等出口管制措施两个月至明年1月10日",
+          "en": "China extends pause on rare-earth export controls by two months to Jan. 10"
+        },
+        "summary": {
+          "zh": "为落实中美第八轮经贸磋商共识，商务部宣布自11月10日起继续暂停2025年10月出台的稀土、锂电池、超硬材料等出口管制及对部分美国实体的反制措施两个月；美方也将“关联方规则”暂停延至同日。",
+          "en": "To implement the consensus of the eighth round of China-US trade talks, MOFCOM said it will keep its October 2025 export controls on rare earths, lithium batteries and superhard materials, plus countermeasures on some US entities, suspended for two more months from Nov. 10."
+        },
+        "body": {
+          "zh": "上一次暂停是在釜山习特会后达成，为期一年；这次只延长两个月，至2027年1月10日。商务部同时宣布继续暂停对不可靠实体清单中11家美国实体、出口管制管控名单中16家美国实体以及韩华海洋5家美国相关子公司的措施两个月。\n\n据路透社报道，特朗普预计本月下旬赴深圳出席 APEC 领导人会议并与习近平会面。此前何立峰副总理与美方贝森特、格里尔视频通话，对美方近期经贸限制表达“严重关切”。",
+          "en": "The previous pause, agreed after the Xi-Trump summit in Busan, ran a full year; this one runs only two months, to Jan. 10, 2027. MOFCOM also renewed for two months its suspensions covering 11 US firms on the Unreliable Entity List, 16 US entities on the export-control list and five US units of Hanwha Ocean.\n\nReuters says Trump is expected to travel to Shenzhen later this month for the APEC leaders' summit and meet Xi. Vice Premier He Lifeng earlier told Bessent and Greer on a video call that China had serious concerns about recent US trade restrictions."
+        },
+        "sources": [
+          {
+            "name": "第一财经",
+            "url": "https://www.yicai.com/brief/103433169.html",
+            "lang": "zh"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/commodities-news/china-extends-suspension-of-new-rare-earth-controls-until-january-5010878",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "china-eu-antidumping-probes",
+        "originalLang": "en",
+        "title": {
+          "zh": "中国对欧盟对位芳纶长丝和亚乙基降冰片烯发起反倾销调查",
+          "en": "China opens anti-dumping probes into EU para-aramid yarn and ethylidene norbornene"
+        },
+        "summary": {
+          "zh": "商务部对原产于欧盟的对位芳纶长丝和亚乙基降冰片烯启动反倾销调查。商务部称，欧盟今年已对中国产品发起16起调查，几乎是去年同期的两倍，其中9起涉及化工产品。",
+          "en": "MOFCOM launched anti-dumping probes into EU para-aramid filament yarn and ethylidene norbornene. It said the EU has opened 16 investigations into Chinese products this year, nearly double a year earlier, nine of them on chemicals."
+        },
+        "sources": [
+          {
+            "name": "City News Service",
+            "url": "https://www.citynewsservice.cn/articles/china-biz-buzz/daily-buzz/daily-buzz-november-9-2026-ekdqp3qm",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "china-10y-yield-record-low",
+        "originalLang": "en",
+        "title": {
+          "zh": "中国10年期国债收益率跌至约1.58%的历史新低",
+          "en": "China's 10-year bond yield falls to a record low near 1.58%"
+        },
+        "summary": {
+          "zh": "股市大幅波动后避险需求上升，叠加央行将政策利率锚改为隔夜利率，中国10年期国债收益率跌至约1.58%的历史低位；央行10月增持黄金83万盎司，连续第24个月增持。",
+          "en": "Safe-haven demand after sharp equity sell-offs, and the central bank's switch to an overnight policy rate, pushed China's 10-year yield to a record low near 1.58%. The PBOC added 830,000 ounces of gold in October, its 24th straight monthly increase."
+        },
+        "sources": [
+          {
+            "name": "City News Service",
+            "url": "https://www.citynewsservice.cn/articles/china-biz-buzz/daily-buzz/daily-buzz-november-9-2026-ekdqp3qm",
+            "lang": "en"
+          },
+          {
+            "name": "Caixin Global",
+            "url": "https://www.caixinglobal.com/2026-11-09/business-brief-nov-9-china-moves-to-stabilize-stock-markets-102502746.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ]
+  }
+}

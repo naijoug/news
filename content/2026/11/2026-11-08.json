@@ -1,0 +1,232 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-08",
+  "lead": {
+    "zh": "以色列总统授权艾森科特组阁；美中央司令部成立“铁门”特遣队；日中部发生5.7级地震；伯克希尔公布三季报；西渝高铁嘉陵江特大桥合龙。",
+    "en": "Herzog tasked Eisenkot with forming a government; CENTCOM created Task Force Iron Gate; a 5.7 quake hit central Japan; Berkshire posted results; a Xi’an–Chongqing rail bridge was closed."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "baidu-maps-harmonyos-indoor",
+        "originalLang": "zh",
+        "title": {
+          "zh": "百度地图鸿蒙版上线室内导航，首批覆盖22城106家商场",
+          "en": "Baidu Maps for HarmonyOS adds indoor navigation in 106 malls"
+        },
+        "summary": {
+          "zh": "百度地图11月7日宣布，鸿蒙版上线基于华为星迹定位技术的室内导航，可自动切换楼层，并实现室内外连续导航。首批支持全国22个城市、106家大型商业体和热门商场。",
+          "en": "Baidu Maps said on Nov. 7 that its HarmonyOS app now offers indoor navigation built on Huawei’s StarTracer positioning, with automatic floor changes and continuous indoor-outdoor routing. The first rollout covers 106 malls and commercial complexes in 22 Chinese cities."
+        },
+        "sources": [
+          {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/1/023/790.htm",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "nyt-new-matrix-nvidia-chips",
+        "originalLang": "en",
+        "title": {
+          "zh": "时报：美方批准空壳公司在华组装英伟达H200芯片",
+          "en": "Times: U.S. cleared an empty-office firm in China to handle Nvidia H200 chips"
+        },
+        "summary": {
+          "zh": "《纽约时报》报道，美国商务部将中国公司New Matrix列入可处理英伟达H200芯片的批准名单，但记者在其登记地址只看到空置未完工的办公室，物业也称没有该公司记录；其所有者与一家自2024年起被美方列入黑名单的私募基金有关联。",
+          "en": "The New York Times reported that Commerce listed New Matrix as cleared to handle Nvidia H200 chips, but its Beijing address appeared to be an empty unfinished office, with no record at the property office. Its owners are tied to a firm blacklisted by the U.S. since 2024."
+        },
+        "body": {
+          "zh": "The Verge 11月7日引述时报报道称，New Matrix约17个月前成立，网上信息很少；这并非孤例，一些与受国家安全相关贸易限制实体有关联的公司也被批准购买英伟达芯片。特朗普政府在英伟达同意将对华销售分成15%给美国政府后，放宽了此前的对华芯片限制。\n\n- 来源：[The Verge](https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government)",
+          "en": "The Verge, citing the Times, said New Matrix was created about 17 months ago and that little information about it can be found online. The paper described a broader pattern of approvals for companies linked to entities already under national-security trade restrictions. The Trump administration eased earlier limits on Nvidia sales to China after the company agreed to give the U.S. government a 15% share of those sales.\n\n- Source: [The Verge](https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government)"
+        },
+        "sources": [
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "eisenkot-tapped-to-form-government",
+        "originalLang": "en",
+        "title": {
+          "zh": "以色列总统授权艾森科特组阁，距多数仍有变数",
+          "en": "Herzog tasks Gadi Eisenkot with forming Israel’s next government"
+        },
+        "summary": {
+          "zh": "以色列总统赫茨奥格周六晚宣布，将授权亚沙尔党主席加迪·艾森科特组阁。艾森科特在政党协商中获得120席中的67份推荐，内塔尼亚胡获得46份。他将有28天时间组阁，必要时可再延长14天。",
+          "en": "President Isaac Herzog said Saturday evening that he would task Yashar party leader Gadi Eisenkot with forming Israel’s next government. Eisenkot received 67 of 120 party recommendations, against 46 for Benjamin Netanyahu. He will have 28 days, with a possible 14-day extension."
+        },
+        "body": {
+          "zh": "《以色列时报》报道，正式授权仪式定于周日下午5时在总统府举行。艾森科特称现在需要组建“国家紧急政府”。内塔尼亚胡则呼吁成立包含其原执政联盟的“民族团结政府”，并警告依赖阿拉伯政党的政府“无法生存”。艾森科特方面多次表示不会与内塔尼亚胡共事。\n\n- 来源：[Times of Israel](https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/)",
+          "en": "The Times of Israel said the formal mandate would be presented at 5 p.m. Sunday. Eisenkot called for a “national emergency government.” Netanyahu urged a “national unity government” that would include his outgoing coalition partners and warned that a government dependent on Arab parties would not survive. Eisenkot has repeatedly said he will not sit with Netanyahu.\n\n- Source: [Times of Israel](https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/)"
+        },
+        "sources": [
+          {
+            "name": "The Times of Israel",
+            "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "centcom-task-force-iron-gate",
+        "originalLang": "en",
+        "title": {
+          "zh": "美军中央司令部成立“铁门”特遣队，意在切断伊朗陆路转运",
+          "en": "CENTCOM creates Task Force Iron Gate to disrupt Iran’s land routes"
+        },
+        "summary": {
+          "zh": "美国中央司令部11月7日宣布，司令库珀下令在佛罗里达坦帕组建约20人的“铁门”特遣队，协调阻止伊朗通过陆路和里海运送先进武器、两用技术、受制裁物资和非法收入。声明称海上封锁已阻止伊朗出口超过250亿美元原油。",
+          "en": "CENTCOM said on Nov. 7 that Adm. Brad Cooper created Task Force Iron Gate, a Tampa team of about 20 people, to help block Iran’s land and Caspian shipments of weapons and illicit revenue. It said the naval blockade had already stopped more than $25 billion in Iranian oil exports."
+        },
+        "sources": [
+          {
+            "name": "U.S. Central Command",
+            "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644250/centcom-launches-task-force-to-disrupt-iranian-ground-transit-routes-supporting/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "japan-shizuoka-earthquake",
+        "originalLang": "en",
+        "title": {
+          "zh": "日本中部发生5.7级地震，爱知县至少16人受伤",
+          "en": "Magnitude-5.7 earthquake hits central Japan; at least 16 injured in Aichi"
+        },
+        "summary": {
+          "zh": "日本气象厅说，周日凌晨1时刚过，静冈县西部发生里氏5.7级地震，震源深度约41公里，无海啸威胁。爱知县知多市观测到震度5强，为1997年3月以来该县首次。爱知县消防部门报告至少16人受伤，部分地区停水。",
+          "en": "A magnitude-5.7 earthquake struck western Shizuoka shortly after 1 a.m. Sunday, at a depth of about 41 kilometers, with no tsunami threat. Chita in Aichi recorded an intensity of upper 5, its first since 1997. Aichi fire departments reported at least 16 injuries."
+        },
+        "sources": [
+          {
+            "name": "NHK World",
+            "url": "https://www3.nhk.or.jp/nhkworld/news/20261108de72261/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "berkshire-q3-earnings",
+        "originalLang": "en",
+        "title": {
+          "zh": "伯克希尔第三季度营业利润127亿美元，并加快回购",
+          "en": "Berkshire’s third-quarter operating earnings fall to $12.7 billion"
+        },
+        "summary": {
+          "zh": "伯克希尔·哈撒韦11月7日公布，第三季度营业利润127.05亿美元，低于上年同期的134.85亿美元；归属于股东的净利润221.12亿美元。公司三季度回购约96亿美元股票，前九个月合计约144亿美元。",
+          "en": "Berkshire said on Nov. 7 that third-quarter operating earnings were $12.705 billion, down from $13.485 billion a year earlier. Net earnings were $22.112 billion. It bought back about $9.6 billion of stock in the quarter and $14.4 billion in nine months."
+        },
+        "body": {
+          "zh": "按税后口径，保险承保利润从上年同期的23.69亿美元降至13.52亿美元，保险投资收益、铁路和能源等业务互有增减。截至9月30日，保险浮存金约1785亿美元，较2025年末增加约21亿美元。\n\n- 来源：[Berkshire Hathaway](https://berkshirehathaway.com/news/nov0726.pdf)",
+          "en": "On an after-tax basis, insurance underwriting earnings fell to $1.352 billion from $2.369 billion a year earlier, while results in insurance investment income, BNSF and Berkshire Hathaway Energy were mixed. Insurance float was about $178.5 billion on Sept. 30, up about $2.1 billion from the end of 2025.\n\n- Source: [Berkshire Hathaway](https://berkshirehathaway.com/news/nov0726.pdf)"
+        },
+        "sources": [
+          {
+            "name": "Berkshire Hathaway",
+            "url": "https://berkshirehathaway.com/news/nov0726.pdf",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": []
+  },
+  "pm": {
+    "tech": [],
+    "world": [
+      {
+        "id": "houthi-aramco-tower-riyadh",
+        "originalLang": "en",
+        "title": {
+          "zh": "胡塞武装袭击利雅得金融区，阿美大厦受损",
+          "en": "Houthi strike damages Aramco Tower in Riyadh"
+        },
+        "summary": {
+          "zh": "也门胡塞武装称周六打击了利雅得商务区。沙特能源部说，阿美大厦仅受轻微损坏，没有人员伤亡；BBC核实的画面显示至少一层受损较重，多层玻璃被震碎。沙特方面称防空系统拦截了多枚导弹。",
+          "en": "The Houthis said they struck Riyadh’s business district on Saturday. Saudi’s energy ministry reported only minor damage at Aramco Tower and no injuries, but BBC-verified footage showed heavier damage and shattered windows. Riyadh said several missiles were intercepted."
+        },
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/articles/c6ly3mjx958eo",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "khor-mor-drone-halt",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊拉克库尔德地区霍尔莫尔气田遭无人机袭击，生产暂停",
+          "en": "Iraq’s Khor Mor gas field halts production after a drone strike"
+        },
+        "summary": {
+          "zh": "路透社等报道，11月8日伊拉克库尔德地区霍尔莫尔气田一座液化石油气储罐遭无人机袭击，生产暂停。尚无组织宣称负责。",
+          "en": "Production was suspended at the Khor Mor gas field in Iraqi Kurdistan on Nov. 8 after a drone struck a liquefied-petroleum-gas storage tank, Reuters and other outlets reported. No group immediately claimed responsibility."
+        },
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/3fec1b0a85a0/business/energy/production-suspended-iraqs-khor-mor-gas-field-after-drone-attack-sources-say-2026-11-08/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "egypt-ayyat-train-crash",
+        "originalLang": "en",
+        "title": {
+          "zh": "埃及吉萨附近两列火车相撞，7人死亡、逾百人受伤",
+          "en": "Train collision near Egypt’s Giza kills 7 and injures more than 100"
+        },
+        "summary": {
+          "zh": "11月8日，埃及吉萨省阿亚特附近两列火车相撞，当局称7人死亡、至少125人受伤。",
+          "en": "Two trains collided near El Ayyat in Egypt’s Giza Governorate on Nov. 8, killing 7 people and injuring at least 125, authorities said."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/egypt-train-crash-giza-collision-cairo-injuries-4ad591268ce015d85ae302e22185b235",
+            "lang": "en"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [],
+    "china": [
+      {
+        "id": "xiyu-railway-jialing-bridge",
+        "originalLang": "zh",
+        "title": {
+          "zh": "西渝高铁北碚天府嘉陵江特大桥顺利合龙",
+          "en": "A major Jialing River bridge on the Xi’an–Chongqing high-speed railway is closed"
+        },
+        "summary": {
+          "zh": "11月8日，西渝高铁北碚天府嘉陵江特大桥顺利合龙。大桥位于重庆市北碚区，全长874.35米，主跨216米，是西渝高铁重庆枢纽段最大跨度桥梁。西渝高铁正线全长约739公里。",
+          "en": "The Beibei Tianfu Jialing River Bridge on the Xi’an–Chongqing high-speed railway was closed on Nov. 8. The 874.35-meter span in Beibei, with a 216-meter main span, is the longest on the Chongqing hub section. The line is about 739 kilometers."
+        },
+        "sources": [
+          {
+            "name": "新华社",
+            "url": "https://www.news.cn/20261108/4f5192dd504c4a9a8af46d26cf396cdd/c.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

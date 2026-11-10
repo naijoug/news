@@ -1,0 +1,216 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-09",
+  "lead": {
+    "zh": "长征十二号成功发射卫星互联网低轨29组卫星；太原公寓火灾致14人遇难；10月CPI上涨0.7%、PPI上涨5.7%；中方继续暂停对美加征24%关税。",
+    "en": "A Long March 12 launched internet satellites; a Taiyuan apartment fire killed 14 people; China’s October CPI rose 0.7% and PPI 5.7%; Beijing extended a pause on its 24% tariff on U.S. goods."
+  },
+  "am": {
+    "tech": [],
+    "world": [],
+    "business": [],
+    "china": [
+      {
+        "id": "long-march-12-satnet-29",
+        "originalLang": "zh",
+        "title": {
+          "zh": "长征十二号成功发射卫星互联网低轨29组卫星",
+          "en": "Long March 12 launches a 29th group of low-Earth-orbit internet satellites"
+        },
+        "summary": {
+          "zh": "11月9日4时24分，长征十二号运载火箭在海南商业航天发射场点火，将卫星互联网低轨29组卫星送入预定轨道。卫星由航天科技集团五院抓总研制。这是长征系列火箭第676次发射。",
+          "en": "A Long March 12 lifted off at 4:24 a.m. on Nov. 9 from Hainan and placed a 29th group of low-Earth-orbit internet satellites in orbit. The satellites were developed by CASC’s Fifth Academy. It was the 676th Long March launch."
+        },
+        "body": {
+          "zh": "航天科技集团介绍，长十二火箭由其所属商业火箭公司抓总研制、八院承担研制，是新一代低温液体推进剂运载火箭，也是中国首款4米级箭径、单芯级运载火箭，全长约62米，700公里太阳同步轨道运载能力不低于6吨。\n\n- 来源：[中国航天科技集团](https://www.spacechina.com/n25/n2014789/n2014804/c4748618/content.html)",
+          "en": "CASC said the Long March 12, a new-generation cryogenic liquid rocket and China’s first 4-meter-diameter single-core launcher, is about 62 meters long and can lift at least 6 tons to a 700-kilometer sun-synchronous orbit.\n\n- Source: [CASC](https://www.spacechina.com/n25/n2014789/n2014804/c4748618/content.html)"
+        },
+        "sources": [
+          {
+            "name": "中国航天科技集团",
+            "url": "https://www.spacechina.com/n25/n2014789/n2014804/c4748618/content.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  },
+  "pm": {
+    "tech": [],
+    "world": [
+      {
+        "id": "turkey-aliaga-steel-blast",
+        "originalLang": "en",
+        "title": {
+          "zh": "土耳其伊兹密尔省钢厂爆炸，造成重大伤亡",
+          "en": "Steel-plant explosion in western Turkey causes heavy casualties"
+        },
+        "summary": {
+          "zh": "11月9日，土耳其伊兹密尔省阿利亚加一座钢厂发生爆炸。BBC报道至少17人死亡；美联社较早报道为至少16人死亡、另有多人受伤。",
+          "en": "An explosion struck a steel plant in Aliağa, in Turkey’s Izmir province, on Nov. 9. The BBC reported at least 17 people were killed; an earlier AP report put the death toll at at least 16, with others injured."
+        },
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/articles/cq2d6d5z9y5jo",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/turkey-aliaga-explosion-steel-plant-habas-7892a839350d41aa530dfb01323cf7dc",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "asia-markets-monday-nov9",
+        "originalLang": "en",
+        "title": {
+          "zh": "亚股周一分化：日经反弹逾2%，沪指小涨，港股微跌",
+          "en": "Asia stocks are mixed: Nikkei rebounds, Shanghai edges up, Hang Seng slips"
+        },
+        "summary": {
+          "zh": "周一，日经225指数上涨2.33%，收于58775点，回补上周五部分跌幅；韩国综指下跌0.81%，报5018点。沪指涨0.32%，报3660.79点，深成指跌0.27%；恒生指数微跌0.1%，收于24448点。",
+          "en": "Japan’s Nikkei 225 rose 2.33% to 58,775 on Monday, recovering part of Friday’s drop, while South Korea’s Kospi fell 0.81% to 5,018. China’s Shanghai Composite gained 0.32% to 3,660.79 and the Shenzhen Component lost 0.27%. Hong Kong’s Hang Seng slipped 0.1% to 24,448."
+        },
+        "body": {
+          "zh": "新华社报道，沪深两市成交约1.48万亿元，陶瓷、煤炭和飞机制造等板块领涨，水泥、家具和食品板块下跌；创业板指跌0.27%，科创综指涨0.44%。\n\n- 来源：[新华社](https://english.news.cn/20261109/88268f1ce08043e3bde57eaa43397354/c.html)、[香港电台](https://news.rthk.hk/rthk/en/component/k2/1877136-20261109.htm)",
+          "en": "Xinhua said combined turnover on the Shanghai and Shenzhen exchanges was about 1.48 trillion yuan. Ceramics, coal and aircraft manufacturing led gains, while cement, furniture and food shares declined. The ChiNext fell 0.27% and the STAR Composite rose 0.44%.\n\n- Sources: [Xinhua](https://english.news.cn/20261109/88268f1ce08043e3bde57eaa43397354/c.html), [RTHK](https://news.rthk.hk/rthk/en/component/k2/1877136-20261109.htm)"
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261109/88268f1ce08043e3bde57eaa43397354/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "RTHK",
+            "url": "https://news.rthk.hk/rthk/en/component/k2/1877136-20261109.htm",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "china-october-cpi-ppi",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中国10月CPI同比上涨0.7%，PPI上涨5.7%",
+          "en": "China’s October CPI rises 0.7%, PPI 5.7%"
+        },
+        "summary": {
+          "zh": "国家统计局9日公布，10月全国CPI同比上涨0.7%、环比持平；PPI同比上涨5.7%、环比上涨0.7%。食品价格同比下降2.9%，交通通信价格上涨5.5%；煤炭、油气开采价格同比分别上涨36.6%和35.0%。",
+          "en": "China’s CPI rose 0.7% year on year in October and was unchanged from September, the National Bureau of Statistics said on Nov. 9. PPI rose 5.7% year on year and 0.7% month on month. Food prices fell 2.9% from a year earlier, while transport and communications rose 5.5%."
+        },
+        "body": {
+          "zh": "1至10月，CPI比上年同期上涨0.9%，PPI上涨2.7%。当月鲜菜价格同比下降16.9%，猪肉下降8.6%；汽油价格同比上涨22.4%，影响CPI上涨约0.63个百分点。\n\n中国政府网引述分析称，国际能源价格上行是PPI走高的主要原因之一，国内消费价格仍总体温和。\n\n- 来源：[国家统计局CPI](https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html)、[PPI](https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html)、[中国政府网](https://www.gov.cn/zhengce/202611/content_7085585.htm)",
+          "en": "For the first 10 months, CPI was up 0.9% from a year earlier and PPI was up 2.7%. Fresh vegetable prices fell 16.9% in October from a year earlier and pork fell 8.6%, while gasoline rose 22.4% and contributed about 0.63 percentage point to the CPI increase.\n\nOfficial commentary said higher global energy prices were a main driver of PPI, while consumer-price gains remained moderate.\n\n- Sources: [NBS CPI](https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html), [NBS PPI](https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html), [gov.cn](https://www.gov.cn/zhengce/202611/content_7085585.htm)"
+        },
+        "sources": [
+          {
+            "name": "国家统计局",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
+            "lang": "zh"
+          },
+          {
+            "name": "国家统计局",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
+            "lang": "zh"
+          },
+          {
+            "name": "中国政府网",
+            "url": "https://www.gov.cn/zhengce/202611/content_7085585.htm",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "korea-ftc-delivery-fines",
+        "originalLang": "en",
+        "title": {
+          "zh": "韩国对百味和Coupang外卖业务处以合计约6320亿韩元罚款",
+          "en": "Korea fines Baemin and Coupang Eats a combined 631.9 billion won"
+        },
+        "summary": {
+          "zh": "韩国公平交易委员会9日对友华兄弟（百味）罚款3311亿韩元、对Coupang罚款3008亿韩元，指两家平台滥用市场支配地位，要求餐厅在价格和优惠上不得劣于其他渠道。两家公司合计占韩国外卖市场九成以上，均表示将通过程序提出异议。",
+          "en": "Korea’s Fair Trade Commission on Nov. 9 fined Woowa Brothers (Baemin) 331.1 billion won and Coupang 300.8 billion won, saying the platforms, with more than 90% of the delivery market, forced restaurants to match rivals’ terms. Both firms said they would contest the decision."
+        },
+        "sources": [
+          {
+            "name": "The Korea Times",
+            "url": "https://www.koreatimes.co.kr/business/companies/20261109/woowa-brothers-coupang-face-465-mil-in-fines-for-abusing-delivery-market-dominance",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "taiyuan-haosheng-apartment-fire",
+        "originalLang": "zh",
+        "title": {
+          "zh": "太原迎泽区豪生国际公寓火灾造成14人遇难",
+          "en": "Taiyuan apartment fire kills 14 people"
+        },
+        "summary": {
+          "zh": "太原市政府9日下午通报，11月8日16时59分，迎泽区豪生国际公寓发生火灾，19时明火被扑灭，20时30分搜救结束，造成14人遇难、25人在院治疗，其中危重9人。产权单位和物业相关负责人已被控制，事故原因仍在调查。",
+          "en": "Taiyuan said on Nov. 9 that a fire at Haosheng International Apartment began at 4:59 p.m. on Nov. 8, killing 14 people and sending 25 to hospital, nine critically. Flames were out by 7 p.m. Property officials have been detained; the cause is under investigation."
+        },
+        "body": {
+          "zh": "通报称，消防17时04分抵达现场，共组织疏散营救被困群众60人，累计投入应急救援力量1500余人次。伤员实行“一人一专班，一人一方案”救治，国家卫健委派出医疗专家组指导治疗。\n\n- 来源：[新华社](https://www.news.cn/20261109/ac8c99339dd6433184a38d2095b31645/c.html)",
+          "en": "Officials said firefighters arrived at 5:04 p.m., 60 people were evacuated or rescued, and more than 1,500 emergency personnel were deployed in total. Each injured patient was assigned a dedicated treatment plan, and a National Health Commission expert team was sent to guide care.\n\n- Source: [Xinhua](https://www.news.cn/20261109/ac8c99339dd6433184a38d2095b31645/c.html)"
+        },
+        "sources": [
+          {
+            "name": "新华社",
+            "url": "https://www.news.cn/20261109/ac8c99339dd6433184a38d2095b31645/c.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "tcm-traditional-knowledge-ordinance",
+        "originalLang": "zh",
+        "title": {
+          "zh": "《中医药传统知识保护条例》公布，2027年1月1日起施行",
+          "en": "China publishes an ordinance on traditional Chinese medicine knowledge"
+        },
+        "summary": {
+          "zh": "国务院公布《中医药传统知识保护条例》，自2027年1月1日起施行。条例要求建立保护数据库和保护名录，明确持有人的传承使用、知情同意和利益分享等权利，并禁止境外组织和个人在中国境内开展中医药传统知识调查。",
+          "en": "China published an ordinance on traditional Chinese medicine knowledge, effective Jan. 1, 2027. It creates a protection database and list, recognizes holders’ rights to use, consent and benefit-sharing, and bars overseas parties from conducting such surveys in China."
+        },
+        "sources": [
+          {
+            "name": "新华社",
+            "url": "https://www.xinhuanet.com/politics/20261109/0a3367a4b2b545a59039aca7e20e10fc/c.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "china-extends-us-24pct-tariff-pause",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中方继续暂停对美加征24%关税两个月，10%税率保留",
+          "en": "China extends its pause on a 24% tariff on U.S. goods for two months"
+        },
+        "summary": {
+          "zh": "国务院关税税则委员会9日宣布，自11月10日13时01分起，继续暂停对原产于美国的进口商品加征24%关税，为期两个月，并保留10%的加征关税税率。公告称此举落实中美元首华盛顿会晤共识。",
+          "en": "China’s tariff commission said that from 1:01 p.m. on Nov. 10 it would keep suspending the 24% additional tariff on U.S. goods for two months, while leaving a 10% tariff in place. It said the step implements a Washington leaders’ consensus."
+        },
+        "body": {
+          "zh": "委员会表示，中方注意到美方多次声称拟以301条款关税替代已被裁定无效的《国际经济紧急权力法》关税，将继续密切关注并视情调整反制措施。继续暂停部分加征关税，有助于为两国企业合作提供相对稳定、可预期的政策环境。\n\n- 来源：[中国政府网](https://english.www.gov.cn/news/202611/09/content_WS6af18d6bc6d00ca5f9a0e308.html)",
+          "en": "The commission said China had noted U.S. statements about replacing International Emergency Economic Powers Act tariffs, which have been ruled invalid, with Section 301 tariffs, and would watch subsequent U.S. moves and adjust its countermeasures as needed. It said the continued partial suspension would offer firms a more stable and predictable policy environment.\n\n- Source: [english.www.gov.cn](https://english.www.gov.cn/news/202611/09/content_WS6af18d6bc6d00ca5f9a0e308.html)"
+        },
+        "sources": [
+          {
+            "name": "中国政府网",
+            "url": "https://english.www.gov.cn/news/202611/09/content_WS6af18d6bc6d00ca5f9a0e308.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ]
+  }
+}

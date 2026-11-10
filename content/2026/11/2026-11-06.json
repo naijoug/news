@@ -344,5 +344,174 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "china-mobile-compute-2027",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中国移动：2027年算力投资将超一千亿元",
+          "en": "China Mobile plans over 100 billion yuan in 2027 computing investment"
+        },
+        "summary": {
+          "zh": "中国移动董事长陈忠岳在2026移动网络大会上表示，2027年公司计划采购总额5000亿元以上，其中算力投资、终端采销均在1000亿元以上；未来两年智算能力将连续翻番，并建设多个吉瓦级智算园区。",
+          "en": "At the 2026 Mobile Network Conference, China Mobile Chairman Chen Zhongyue said 2027 procurement would exceed 500 billion yuan, including more than 100 billion yuan each for computing power and devices, with AI computing capacity set to double in each of the next two years."
+        },
+        "body": {
+          "zh": "陈忠岳说，今年中国移动投资的最大增量在算力。公司已建成多个万卡智算集群，正布局超大规模智算集群，并推进通信网、算力网与智能网一体建设。\n\n- 通信网方面，将提升热点区域深度覆盖，建优铁路5G专网，并推进超级上行和星地融合。\n- 算力网方面，将拓展400G OTN能力、加大空芯光纤应用，并升级算网大脑，推动算力并网调度。\n- 来源：[经济参考报](https://www.jjckb.cn/20261106/09726dcd47d94aa9bc7ed3a5942f913f/c.html)",
+          "en": "Chen said computing power is China Mobile’s largest investment increment this year. The company has already built clusters of more than 10,000 accelerators and is developing still larger ones, tying together its telecom, computing and intelligent networks.\n\n- On the telecom side, it will deepen coverage in busy areas, improve the railway 5G network, and advance “super uplink” and satellite-terrestrial integration.\n- On the computing network, it will expand 400G OTN capacity, increase hollow-core fiber use, and upgrade a “computing-network brain” for coordinated scheduling.\n- Source: [Economic Information Daily](https://www.jjckb.cn/20261106/09726dcd47d94aa9bc7ed3a5942f913f/c.html)"
+        },
+        "sources": [
+          {
+            "name": "经济参考报",
+            "url": "https://www.jjckb.cn/20261106/09726dcd47d94aa9bc7ed3a5942f913f/c.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "miit-agent-device-access",
+        "originalLang": "zh",
+        "title": {
+          "zh": "工信部发文加强智能体终端进网管理",
+          "en": "MIIT tightens network-access rules for AI-agent devices"
+        },
+        "summary": {
+          "zh": "工业和信息化部11月6日公布《关于加强智能体终端设备进网管理的通知》：预置智能体的手机、平板和可穿戴设备须通过适配验证与防诈评测，智能体应配备唯一身份码；OTA升级须报备并经评估后方可向用户提供。",
+          "en": "China’s industry ministry on Nov. 6 issued rules for phones, tablets and wearables that ship with AI agents: devices must pass compatibility and anti-fraud tests, agents should carry unique IDs, and over-the-air updates may go to users only after they are filed and reviewed."
+        },
+        "body": {
+          "zh": "通知所称智能体终端，是指预置安装智能体的手机、平板、可穿戴设备等电信终端设备。文号为工信厅信管〔2026〕42号，成文日期为10月24日，11月6日对外发布。\n\n- 智能体开发者须在设置页公示已完成适配的终端型号，上架前向应用分发平台提交适配验证情况。\n- 应用未经开发者电子签名同意，智能体不得强制调用；分发平台不得提供不兼容机型的下载。\n- 来源：[工业和信息化部](https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2026/art_5066b9dffa93405a988e266ff12bf674.html)、[政策解读](https://www.miit.gov.cn/jgsj/xgj/gzdt/art/2026/art_c88826acc43b404e81c95dabc5df1a24.html)",
+          "en": "The notice, issued as MIIT document No. 42 of 2026, was signed on Oct. 24 and published on Nov. 6. It covers telecom terminals that ship with an AI agent preinstalled.\n\n- Developers must list compatible device models on a settings page and submit that verification before an agent is listed in an app store.\n- Agents may not forcibly invoke an app unless the developer has agreed by electronic signature, and stores may not offer downloads for incompatible models.\n- Sources: [MIIT notice](https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2026/art_5066b9dffa93405a988e266ff12bf674.html), [policy briefing](https://www.miit.gov.cn/jgsj/xgj/gzdt/art/2026/art_c88826acc43b404e81c95dabc5df1a24.html)"
+        },
+        "sources": [
+          {
+            "name": "工业和信息化部",
+            "url": "https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2026/art_5066b9dffa93405a988e266ff12bf674.html",
+            "lang": "zh"
+          },
+          {
+            "name": "工业和信息化部政策解读",
+            "url": "https://www.miit.gov.cn/jgsj/xgj/gzdt/art/2026/art_c88826acc43b404e81c95dabc5df1a24.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "paraguay-alliana-sworn-in",
+        "originalLang": "en",
+        "title": {
+          "zh": "巴拉圭副总统阿利亚纳宣誓就任总统，佩尼亚被软禁",
+          "en": "Paraguay swears in Pedro Alliana after Peña is impeached"
+        },
+        "summary": {
+          "zh": "在总统佩尼亚因乌埃诺银行危机被弹劾后，原副总统佩德罗·阿利亚纳11月6日宣誓就任巴拉圭总统。检方随后要求逮捕佩尼亚，他已被软禁。",
+          "en": "After President Santiago Peña was impeached over the Ueno bank crisis, former vice president Pedro Alliana was sworn in as Paraguay’s president on Nov. 6. Prosecutors sought Peña’s arrest, and he was placed under house arrest."
+        },
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.investing.com/news/world-news/paraguays-alliana-sworn-in-as-president-after-pena-impeachment-5009378",
+            "lang": "en"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/07/pedro-alliana-sworn-in-as-paraguay-president-after-santiago-penas-impeachment",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "amsterdam-microsoft-data-center-protest",
+        "originalLang": "en",
+        "title": {
+          "zh": "抗议者闯入阿姆斯特丹微软数据中心工地",
+          "en": "Protesters break into Microsoft data-center site in Amsterdam"
+        },
+        "summary": {
+          "zh": "约100名抗议者11月6日闯入阿姆斯特丹一处微软数据中心施工现场，有人爬上起重机悬挂横幅。该项目由英国开发商建设、微软为唯一租户；阿姆斯特丹已禁止新建数据中心至2030年，但该项目因规划较早仍在推进。",
+          "en": "About 100 protesters entered a Microsoft data-center construction site in Amsterdam on Nov. 6, some scaling a crane to hang banners. The project, with Microsoft as sole tenant, predates the city’s ban on new data centers until 2030."
+        },
+        "sources": [
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "china-stocks-close-nov6",
+        "originalLang": "zh",
+        "title": {
+          "zh": "A股周五收跌：沪指跌1.10%，创业板跌近4%",
+          "en": "Chinese stocks fall on Friday; ChiNext drops nearly 4%"
+        },
+        "summary": {
+          "zh": "沪指周五收跌1.10%，报3649.18点；深成指跌2.57%，报11175.78点；创业板指跌3.96%，科创综指跌3.24%。沪深两市成交约1.66万亿元，较前一交易日缩小。电子元件和光电共封装板块领跌。",
+          "en": "The Shanghai Composite fell 1.10% to 3,649.18 on Friday, the Shenzhen Component 2.57%, the ChiNext 3.96% and the STAR Composite 3.24%. Turnover shrank to about 1.66 trillion yuan; electronic components and co-packaged optics led declines."
+        },
+        "body": {
+          "zh": "新华社报道，转基因、种植林业和银行等板块相对抗跌，成长股调整更深。\n\n- 来源：[新华社](https://english.news.cn/20261106/9ce6766912334037a87ae59f321872c9/c.html)",
+          "en": "Xinhua said shares tied to genetically modified organisms, planting and forestry, and banking were among the relatively firmer groups, while growth boards fell more sharply.\n\n- Source: [Xinhua](https://english.news.cn/20261106/9ce6766912334037a87ae59f321872c9/c.html)"
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261106/9ce6766912334037a87ae59f321872c9/c.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "npc-standing-committee-nov6",
+        "originalLang": "zh",
+        "title": {
+          "zh": "全国人大常委会通过南极活动法、反跨境腐败法，免去李乐成职务",
+          "en": "China’s legislature passes Antarctic and anti-corruption laws, removes industry minister"
+        },
+        "summary": {
+          "zh": "十四届全国人大常委会第二十五次会议11月6日闭幕，通过检察公益诉讼法、南极活动与环境保护法、新修订水法、反跨境腐败法及修改突发事件应对法等，并决定免去李乐成的工业和信息化部部长职务；会议还批准成立世界人工智能合作组织的协定。",
+          "en": "China’s NPC Standing Committee closed on Nov. 6 after passing laws on Antarctic activities, cross-border corruption, public-interest litigation and water. It removed Li Lecheng as industry minister and ratified the World AI Cooperation Organization agreement."
+        },
+        "body": {
+          "zh": "闭幕会由委员长赵乐际主持，154名常委会组成人员出席。国家主席习近平签署第86至91号主席令。\n\n会议还通过多项任免案，并听取有关专门委员会关于代表议案审议结果的报告。\n\n- 来源：[新华社](https://www.news.cn/20261106/fbcbfc602a674ae0abfb399cba855340/c.html)",
+          "en": "Chairman Zhao Leji presided. One hundred fifty-four members attended, and President Xi Jinping signed presidential orders No. 86 through 91.\n\nThe session also approved personnel changes and reports on deputies’ proposals.\n\n- Source: [Xinhua](https://www.news.cn/20261106/fbcbfc602a674ae0abfb399cba855340/c.html)"
+        },
+        "sources": [
+          {
+            "name": "新华社",
+            "url": "https://www.news.cn/20261106/fbcbfc602a674ae0abfb399cba855340/c.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "adora-huacheng-delivered",
+        "originalLang": "zh",
+        "title": {
+          "zh": "第二艘国产大型邮轮“爱达·花城号”在上海交付",
+          "en": "China delivers its second large domestic cruise ship, Adora Huacheng"
+        },
+        "summary": {
+          "zh": "11月6日，中国船舶集团上海外高桥造船建造的第二艘国产大型邮轮“爱达·花城号”在上海交付。该船长341米、总吨位14.19万吨，拥有2130间客房，满载可容纳5232名旅客，计划11月22日从广州开启首航季。",
+          "en": "China’s second large domestic cruise ship, Adora Huacheng, was delivered in Shanghai on Nov. 6. The 341-meter, 141,900-ton ship has 2,130 cabins for up to 5,232 passengers and starts its first season from Guangzhou on Nov. 22."
+        },
+        "sources": [
+          {
+            "name": "新华社",
+            "url": "https://www.news.cn/20261106/e8c574a6020e4c8eaaae6e8a2a1988db/c.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

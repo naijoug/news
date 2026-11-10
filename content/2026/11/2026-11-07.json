@@ -1,0 +1,184 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-07",
+  "lead": {
+    "zh": "美股周五分化，纳指反弹逾1%；国务院要求完善稳市机制；美国麻疹确诊升至5182例；克拉科夫发生枪击；新西兰大选难分胜负。",
+    "en": "U.S. stocks were mixed Friday as the Nasdaq rebounded; Beijing called for a more stable market; measles cases hit 5,182; a shooting in Krakow; New Zealand’s race was tight."
+  },
+  "am": {
+    "tech": [],
+    "world": [
+      {
+        "id": "us-measles-cases-5182",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国麻疹确诊升至5182例，连续13周三位数增长",
+          "en": "U.S. measles cases reach 5,182 after a 13th week of triple-digit gains"
+        },
+        "summary": {
+          "zh": "美国疾控中心数据显示，2026年麻疹确诊已达5182例，本周新增330例，为连续第13周出现三位数增长。约59%的感染者是儿童和青少年，96%为未接种或接种史不明；宾夕法尼亚州年内已报告6例相关死亡。",
+          "en": "U.S. measles cases have reached 5,182 after 330 new infections and a 13th week of triple-digit gains, the CDC said. About 59% of cases are in children and teens, and 96% were unvaccinated or of unknown status. Pennsylvania has reported six related deaths this year."
+        },
+        "body": {
+          "zh": "明尼苏达大学传染病研究与政策中心（CIDRAP）引述疾控中心数据还称，约11%的患者曾住院。目前仅阿肯色、夏威夷、密西西比、内华达和新罕布什尔五州尚未报告病例。\n\n本周纽约报告一名儿童死亡、威斯康星报告一名婴儿死亡，被该中心称为今年迄今最严重的一周。文章并称，美国自2000年以来一直保持的麻疹消除状态，预计将在泛美卫生组织下周于华盛顿开会后面临调整。\n\n- 来源：[CIDRAP](https://www.cidrap.umn.edu/measles/us-measles-total-2026-tops-5100-cases)",
+          "en": "CIDRAP, citing CDC figures, also said 11% of patients have been hospitalized. Only Arkansas, Hawaii, Mississippi, Nevada and New Hampshire have reported no cases in 2026.\n\nDeaths of a child in New York, reported on Nov. 3, and an infant in Wisconsin were described as making this the deadliest week of the year so far. The United States, which has held measles-elimination status since 2000, is expected to face a review when a PAHO commission meets next week in Washington.\n\n- Source: [CIDRAP](https://www.cidrap.umn.edu/measles/us-measles-total-2026-tops-5100-cases)"
+        },
+        "sources": [
+          {
+            "name": "CIDRAP",
+            "url": "https://www.cidrap.umn.edu/measles/us-measles-total-2026-tops-5100-cases",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "us-stocks-friday-mixed",
+        "originalLang": "en",
+        "title": {
+          "zh": "美股周五分化：纳指反弹逾1%，标普录得6月以来最差一周",
+          "en": "Nasdaq and S&P rebound Friday, but the S&P posts its worst week since June"
+        },
+        "summary": {
+          "zh": "美股周五收盘分化：道指跌约0.4%，标普500涨约0.3%，纳斯达克综指涨逾1%，对周四的重挫有所修复。不过标普仍录得6月以来最差一周。美国10月新增就业16.5万人，高于预期。",
+          "en": "U.S. stocks finished mixed on Friday, with the Dow down about 0.4%, the S&P 500 up about 0.3% and the Nasdaq Composite up more than 1% after Thursday’s selloff. It was still the S&P 500’s worst week since June. The U.S. added 165,000 jobs in October, above forecasts."
+        },
+        "body": {
+          "zh": "雅虎财经报道，周四的抛售蒸发了约3万亿美元市值，焦点仍是数据中心建设与人工智能支出是否放缓。就业方面，劳工部公布10月新增16.5万个岗位，高于修正后的上月6万，也高于经济学家预期的6.5万。\n\n- 来源：[Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html)",
+          "en": "Yahoo Finance said Thursday’s slide erased about $3 trillion in market value, with investors still weighing a possible slowdown in data-center construction and AI spending. The Labor Department said the United States added 165,000 jobs in October, above a revised 60,000 in the prior month and the 65,000 economists had expected.\n\n- Source: [Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html)"
+        },
+        "sources": [
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "state-council-market-stability",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国务院常务会议：完善资本市场稳市机制，增强股市内在稳定性",
+          "en": "State Council calls for stronger tools to stabilize the stock market"
+        },
+        "summary": {
+          "zh": "李强总理11月6日主持召开国务院常务会议，提出完善资本市场稳市机制、增强股市内在稳定性，并要求加快重大项目和“六张网”建设、用好政策性资金、抓好稳就业和防风险。新华社报道于当晚21时05分播发。",
+          "en": "A State Council meeting chaired by Premier Li Qiang on Nov. 6 called for stronger tools to stabilize the stock market, faster work on major projects and the “six networks,” and closer attention to jobs and financial risks."
+        },
+        "body": {
+          "zh": "会议强调要坚定发展信心，确保完成全年经济社会发展主要目标任务；支持企业扩大设备更新和无形资产投资，加强消费线上线下、城乡联动；及时足额拨付涉及基层和企业的款项。\n\n会议还听取社会救助工作汇报，要求健全社会救助体系，做到应保尽保，并推进照护、关爱等服务类救助。\n\n- 来源：[中国政府网](https://www.gov.cn/yaowen/liebiao/202611/content_7085401.htm)",
+          "en": "The meeting said China should keep its full-year economic and social targets in reach, support companies investing in equipment and intangible assets, and pay amounts owed to local governments and firms on time. It also heard a report on social assistance and called for a stronger safety net, including care services.\n\n- Source: [gov.cn](https://www.gov.cn/yaowen/liebiao/202611/content_7085401.htm)"
+        },
+        "sources": [
+          {
+            "name": "中国政府网",
+            "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7085401.htm",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "deepseek-partial-outage",
+        "originalLang": "zh",
+        "title": {
+          "zh": "DeepSeek网页与API出现部分中断，约45分钟后恢复",
+          "en": "DeepSeek’s website and APIs suffer a brief partial outage"
+        },
+        "summary": {
+          "zh": "DeepSeek官方状态页显示，11月7日7时11分至7时56分（UTC，北京时间15时11分至15时56分），V4 Pro与V4.1 Flash等API及网页服务出现部分中断，约45分钟后宣布已恢复。用户此前看到“服务器暂时不可用”等提示。",
+          "en": "DeepSeek’s status page said its website and APIs, including V4 Pro and V4.1 Flash, were partially unavailable from 07:11 to 07:56 UTC on Nov. 7 (15:11–15:56 Beijing time), about 45 minutes. Users had seen messages that the server was temporarily unavailable."
+        },
+        "sources": [
+          {
+            "name": "DeepSeek Status",
+            "url": "https://status.deepseek.com/incidents/7219383236287",
+            "lang": "en"
+          },
+          {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/1/023/697.htm",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "krakow-main-square-shooting",
+        "originalLang": "en",
+        "title": {
+          "zh": "波兰克拉科夫主广场发生枪击，6人死亡",
+          "en": "Gunman kills six people in Krakow’s main square"
+        },
+        "summary": {
+          "zh": "11月7日，一名枪手在波兰克拉科夫主广场开枪，造成6人死亡、多人受伤，随后被警方击伤。当局还在其家中发现其父母和妹妹的遗体，并按恐怖主义案件展开调查。",
+          "en": "A gunman opened fire in Krakow’s main square on Nov. 7, killing six people and wounding others before police shot him. Authorities also found the bodies of his parents and sister at the family home and opened a terrorism investigation."
+        },
+        "body": {
+          "zh": "美联社等报道，这是一起驾车闯入广场后的开枪袭击。伤者人数在不同报道中为15人左右。案件细节仍在调查中。\n\n- 来源：[美联社](https://apnews.com/article/poland-krakow-shooting-dead-guns-7f0f816ff970e37557130bd74fd92939)",
+          "en": "AP and other outlets described a drive-by attack on the square. Reports put the number of wounded at around 15. Details of the investigation were still emerging.\n\n- Source: [AP](https://apnews.com/article/poland-krakow-shooting-dead-guns-7f0f816ff970e37557130bd74fd92939)"
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/poland-krakow-shooting-dead-guns-7f0f816ff970e37557130bd74fd92939",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "new-zealand-election-too-close",
+        "originalLang": "en",
+        "title": {
+          "zh": "新西兰大选难分胜负，正式结果须等到11月27日",
+          "en": "New Zealand election is too close to call as special votes remain"
+        },
+        "summary": {
+          "zh": "新西兰11月7日举行大选，初步计票显示国家党获42席、工党36席，均不足以单独组阁。国家党联合行动党和新西兰优先党后，中右阵营有望取得微弱优势，但选举委员会要到11月27日才公布正式结果。",
+          "en": "New Zealand voted on Nov. 7, with preliminary results giving the National Party 42 seats and Labour 36, short of a majority. National plus ACT and New Zealand First would have a slim edge, but the official result is not due until Nov. 27."
+        },
+        "body": {
+          "zh": "BBC报道，绿党初步获16席，行动党13席，新西兰优先党12席，首次跨过5%门槛的机会党7席，毛利党5席。首相拉克森表示将看守至最终结果出炉后再进行实质性谈判；工党领袖希普金斯说，“人民已表态，但还需要一些时间才能听清他们说了什么。”\n\n- 来源：[BBC](https://www.bbc.com/news/articles/c3ewev11g1e0o)",
+          "en": "The BBC said preliminary tallies also gave the Greens 16 seats, ACT 13, New Zealand First 12, the Opportunity Party — crossing the 5% threshold for the first time — 7, and Te Pāti Māori 5. Prime Minister Christopher Luxon said he would lead a caretaker government until the final count; Labour leader Chris Hipkins said it would take time to work out what voters had said.\n\n- Source: [BBC](https://www.bbc.com/news/articles/c3ewev11g1e0o)"
+        },
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/articles/c3ewev11g1e0o",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [],
+    "china": [
+      {
+        "id": "antarctic-expedition-43-ceremony",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中国第43次南极考察队在三亚举行起航仪式",
+          "en": "China’s 43rd Antarctic expedition holds its departure ceremony in Sanya"
+        },
+        "summary": {
+          "zh": "新华社报道，中国第43次南极考察队即将起航执行科学考察任务。起航仪式11月7日上午在海南三亚南山港科考码头3号泊位举行。",
+          "en": "China’s 43rd Antarctic expedition is about to set sail on a scientific mission, Xinhua reported. A departure ceremony was held on the morning of Nov. 7 at berth 3 of the research dock at Nanshan Port in Sanya, Hainan."
+        },
+        "sources": [
+          {
+            "name": "新华社",
+            "url": "https://www.news.cn/tech/20261107/a28d039bded94a40828da0939a67301b/c.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

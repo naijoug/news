@@ -292,5 +292,286 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "alphaproof-code-signal",
+        "originalLang": "en",
+        "title": {
+          "zh": "DeepMind 用 AlphaProof Code 数学验证 Signal 加密代码",
+          "en": "DeepMind's AlphaProof Code verifies Signal's encryption code"
+        },
+        "summary": {
+          "zh": "谷歌 DeepMind 发布 AlphaProof Code，其智能体用 Lean 写出约300万行证明，在四周内验证了 Signal 核心加密代码的关键安全性质。",
+          "en": "Google DeepMind introduced AlphaProof Code, whose agents wrote about three million lines of Lean proofs to verify key security properties of Signal's core encryption code in four weeks."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/",
+            "lang": "en"
+          },
+          {
+            "name": "The daily AI brief",
+            "url": "https://www.thekush.codes/news/md",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "谷歌 DeepMind 11月11日发布 AlphaProof Code，称其为深度验证复杂软件的突破。系统的智能体在 Lean 中写出约300万行证明，用四周时间对 Signal 实际生产环境中的核心加密代码完成了指定安全性质的数学验证。\n\n- 验证范围限于指定的性质和代码，并非覆盖 Signal 的全部组件或所有可能攻击。\n- 研究人员还确认，系统会拒绝含已知漏洞的旧版本代码。\n\n来源：[The Neuron](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/)、[The daily AI brief](https://www.thekush.codes/news/md)",
+          "en": "Google DeepMind on Nov 11 introduced AlphaProof Code, which it calls a breakthrough in verifying complex software at depth. Its agents wrote about three million lines of Lean proofs and, over four weeks, mathematically verified specified security properties of Signal's production encryption code.\n\n- The analysis covered specified properties and code, not every part of Signal or every possible attack.\n- Researchers also checked that the system rejected older versions with known bugs.\n\nSources: [The Neuron](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/), [The daily AI brief](https://www.thekush.codes/news/md)"
+        }
+      },
+      {
+        "id": "chatgpt-business-agents",
+        "originalLang": "en",
+        "title": {
+          "zh": "ChatGPT 推出经认证的“商家智能体”",
+          "en": "ChatGPT adds verified Business Agents"
+        },
+        "summary": {
+          "zh": "OpenAI 在 ChatGPT 中测试企业主页功能，企业可认领资料并接入代表品牌的认证智能体，帮助用户比价购物等；首批面向电商和在线服务商。",
+          "en": "OpenAI is testing business profiles in ChatGPT, letting companies claim a profile and add verified agents that represent the brand for tasks like comparison shopping, starting with e-commerce and online services."
+        },
+        "sources": [
+          {
+            "name": "The Verge via The daily AI brief",
+            "url": "https://www.thekush.codes/news/md",
+            "lang": "en"
+          },
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "new-york-ai-safety-registration",
+        "originalLang": "en",
+        "title": {
+          "zh": "纽约州启动 AI 安全法执行准备",
+          "en": "New York moves to enforce its AI safety law"
+        },
+        "summary": {
+          "zh": "纽约州为1月起执行的 RAISE 法案开放大型前沿模型开发者注册，要求披露安全做法、报告重大事故；州长霍楚尔同时设立独立 AI 评测项目。",
+          "en": "New York opened registration for large frontier-model developers ahead of RAISE Act enforcement in January, requiring safety disclosures and incident reports; Gov. Hochul also launched an independent AI testing program."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/",
+            "lang": "en"
+          },
+          {
+            "name": "TechCrunch via The daily AI brief",
+            "url": "https://www.thekush.codes/news/md",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "abu-dhabi-talks-end",
+        "originalLang": "en",
+        "title": {
+          "zh": "阿布扎比俄乌和谈结束，未宣布突破",
+          "en": "Abu Dhabi Russia-Ukraine talks end without announced breakthrough"
+        },
+        "summary": {
+          "zh": "第二天会谈不到两小时即结束，据报道聚焦领土问题，未宣布进展；乌方随后另与美欧代表会面。会谈期间双方互袭无人机。",
+          "en": "The second day of talks ended after less than two hours, reportedly focused on territory, with no progress announced; Ukraine then met US and European envoys separately. Both sides traded drone strikes overnight."
+        },
+        "sources": [
+          {
+            "name": "RFE/RL",
+            "url": "https://www.rferl.org/a/ukraine-russia-talks-resume-in-abu-dhabi-amid-drone-attacks/33895197.html",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/russia-ukraine-war-talks-kushner-witkoff-7c8d1024302e0c6ad8be064eec852a64",
+            "lang": "en"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/11/constructive-abu-dhabi-talks-resume-but-a-ceasefire-is-nowhere-near",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "美国斡旋的俄乌阿布扎比会谈11月11日结束，第二天会谈不到两小时，未立即公布任何进展。据 Politico 报道，当天议题为领土问题；Axios 称会谈分为军事组（停火监督与安全）和政治组（领土分歧）。乌克兰代表团会后与美国及欧洲代表另行会面，泽连斯基欢迎欧洲参与谈判。\n\n- 分歧依旧：俄方要求控制整个顿巴斯，乌方拒绝割让领土；乌方坚持先停火和获得安全保障，俄方则主张顺序相反。俄外长拉夫罗夫拒绝停火。\n- 会谈期间俄军袭击乌克兰四个州的六处主要电力设施，克里维里赫部分停电停暖。\n- 列宁格勒州称击落150架乌克兰无人机，乌斯季卢加港区起火，3名工人受伤；俄国防部称一夜拦截627架无人机。\n\n来源：[RFE/RL](https://www.rferl.org/a/ukraine-russia-talks-resume-in-abu-dhabi-amid-drone-attacks/33895197.html)、[美联社](https://apnews.com/article/russia-ukraine-war-talks-kushner-witkoff-7c8d1024302e0c6ad8be064eec852a64)、[Euronews](https://www.euronews.com/2026/11/11/constructive-abu-dhabi-talks-resume-but-a-ceasefire-is-nowhere-near)",
+          "en": "US-brokered Russia-Ukraine talks in Abu Dhabi wrapped up on Nov 11 after a second-day session of under two hours, with no immediate word on progress. Politico reported the day focused on territory; Axios said the talks split into a military group on ceasefire monitoring and security and a political group on territorial disputes. Ukraine's delegation then met US and European envoys separately, and Zelenskyy welcomed Europe's involvement.\n\n- The gaps remain: Moscow demands all of Donbas and Kyiv refuses to cede land; Ukraine wants a ceasefire and guarantees first, Russia the reverse. Foreign Minister Lavrov rejected a ceasefire.\n- During the talks Russia hit six major power facilities in four Ukrainian regions, leaving Kryvyi Rih partly without power and heat.\n- Russia's Leningrad region said 150 Ukrainian drones were downed and the Ust-Luga port area caught fire, injuring three; Russia's defense ministry claimed 627 drones intercepted overnight.\n\nSources: [RFE/RL](https://www.rferl.org/a/ukraine-russia-talks-resume-in-abu-dhabi-amid-drone-attacks/33895197.html), [AP](https://apnews.com/article/russia-ukraine-war-talks-kushner-witkoff-7c8d1024302e0c6ad8be064eec852a64), [Euronews](https://www.euronews.com/2026/11/11/constructive-abu-dhabi-talks-resume-but-a-ceasefire-is-nowhere-near)"
+        }
+      },
+      {
+        "id": "cop31-leaders-summit",
+        "originalLang": "en",
+        "title": {
+          "zh": "COP31 领导人峰会开幕，古特雷斯称气候危机“跑在我们前面”",
+          "en": "COP31 leaders' summit opens as Guterres says crisis is 'outrunning us'"
+        },
+        "summary": {
+          "zh": "联合国气候大会 COP31 领导人峰会在土耳其安塔利亚开幕。东道主土耳其推动到2035年把电力在能源消费中的占比提高到35%的全球目标；伊朗总统佩泽希齐扬与会。",
+          "en": "The COP31 leaders' summit opened in Antalya, Türkiye. The host is pushing a global goal to raise electricity's share of energy use to 35% by 2035; Iranian President Pezeshkian attended."
+        },
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/3fec1b0a85a0/sustainability/cop/world-leaders-address-cop31-turkey-pushes-new-climate-deal-2026-11-11/",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/climate-change-cop31-turkey-un-conference-056ff011b2e6f324c2cd089862c13824",
+            "lang": "en"
+          },
+          {
+            "name": "Iran International",
+            "url": "https://www.iranintl.com/en/202611119622",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "coreweave-q3-backlog",
+        "originalLang": "en",
+        "title": {
+          "zh": "CoreWeave 三季度营收增168%，积压订单1325亿美元",
+          "en": "CoreWeave Q3 revenue jumps 168%, backlog hits $132.5 billion"
+        },
+        "summary": {
+          "zh": "CoreWeave 三季度营收36.6亿美元，同比增长168%，超出预期；积压订单约1325亿美元。盘后股价大涨，带动美股科技期货走高。",
+          "en": "CoreWeave's Q3 revenue rose 168% to $3.66 billion, beating estimates, with a backlog of about $132.5 billion. Shares jumped after hours and lifted US tech futures."
+        },
+        "sources": [
+          {
+            "name": "CoreWeave",
+            "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+            "lang": "en"
+          },
+          {
+            "name": "TipRanks",
+            "url": "https://www.tipranks.com/news/stock-market-today-nov-11-u-s-tech-stocks-rise-after-coreweaves-strong-results",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "AI 云服务商 CoreWeave 公布2026年第三季度业绩：营收36.61亿美元，同比增长168%，高于约35.4亿美元的市场预期；截至9月30日积压订单约1325亿美元，6月底为1040亿美元。\n\n- 财报后股价盘后一度大涨逾16%（Investing.com），缓解了市场对 AI 基建支出的担忧。\n- 受此带动，11月11日美股盘前纳指100期货涨约1.6%，标普500期货涨约0.7%，道指期货基本持平（TipRanks，美东时间5:47）。\n- 前一交易日美股因 CPI 超预期和英伟达下跌5.5%而收低。\n\n来源：[CoreWeave](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx)、[CNBC](https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html)、[TipRanks](https://www.tipranks.com/news/stock-market-today-nov-11-u-s-tech-stocks-rise-after-coreweaves-strong-results)",
+          "en": "AI cloud provider CoreWeave reported Q3 2026 revenue of $3.661 billion, up 168% year on year and above estimates near $3.54 billion. Its backlog was about $132.5 billion as of Sept 30, up from $104 billion at the end of June.\n\n- Shares jumped more than 16% in extended trading (Investing.com), easing worries about AI infrastructure spending.\n- On Nov 11, Nasdaq-100 futures were up about 1.6% and S&P 500 futures about 0.7% premarket, with Dow futures roughly flat (TipRanks, 5:47 a.m. ET).\n- Stocks had closed lower the previous session on hot CPI and a 5.5% Nvidia drop.\n\nSources: [CoreWeave](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx), [CNBC](https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html), [TipRanks](https://www.tipranks.com/news/stock-market-today-nov-11-u-s-tech-stocks-rise-after-coreweaves-strong-results)"
+        }
+      },
+      {
+        "id": "global-markets-oil-nov11",
+        "originalLang": "en",
+        "title": {
+          "zh": "全球股市多数上涨，油价从两月低点反弹",
+          "en": "Global stocks mostly rise; oil rebounds from two-month low"
+        },
+        "summary": {
+          "zh": "芯片股带动欧亚股市多数走高，德国10月通胀降至2.8%，DAX涨1%；霍尔木兹海峡船只遇袭担忧持续，布伦特原油涨约2%至93美元上方。",
+          "en": "Chip stocks lifted most European and Asian markets; German inflation eased to 2.8% and the DAX rose 1%. Brent rose about 2% to above $93 on lingering worries over attacks on ships in the Strait of Hormuz."
+        },
+        "sources": [
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-297d040c83844a9563327340b370c24e",
+            "lang": "en"
+          },
+          {
+            "name": "TipRanks",
+            "url": "https://www.tipranks.com/news/stock-market-today-nov-11-u-s-tech-stocks-rise-after-coreweaves-strong-results",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "pboc-q3-monetary-report",
+        "originalLang": "zh",
+        "title": {
+          "zh": "央行三季度货币政策报告：再贷款额度增加7000亿元",
+          "en": "PBOC Q3 report adds 700 billion yuan in relending quotas"
+        },
+        "summary": {
+          "zh": "央行发布三季度货币政策执行报告，继续实施适度宽松的货币政策，增加科技创新和技术改造再贷款2000亿元、支农支小再贷款5000亿元，并推动贷款定价基准多元化。",
+          "en": "The PBOC's Q3 monetary policy report keeps a moderately loose stance, adds 200 billion yuan in tech-innovation relending and 500 billion in agriculture and small-business relending, and pushes loan pricing beyond LPR."
+        },
+        "sources": [
+          {
+            "name": "新浪财经",
+            "url": "https://finance.sina.com.cn/china/2026-11-11/doc-iniykefx1864645.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "每日经济新闻",
+            "url": "https://www.nbd.com.cn/articles/2026-11-11/4644991.html",
+            "lang": "zh"
+          },
+          {
+            "name": "第一财经",
+            "url": "https://www.yicai.com/brief/103436615.html",
+            "lang": "zh"
+          }
+        ],
+        "body": {
+          "zh": "中国人民银行11月11日发布《2026年第三季度中国货币政策执行报告》，提出坚持实施好适度宽松的货币政策，增强政策前瞻性、灵活性、针对性，保持流动性充裕和社会融资条件相对宽松。\n\n- 结构性工具：将“六张网”建设纳入抵押补充贷款支持范围；增加科技创新和技术改造再贷款额度2000亿元，支持比例由60%上调至100%；增加支农支小再贷款额度5000亿元，其中民营企业再贷款3000亿元。\n- 利率改革：推动贷款利率定价从比较单一地参考LPR向更加多元的定价基准转型，指导金融机构探索发放挂钩DR001的浮动利率贷款。\n- 金融稳定：用好债市非银大额赎回互换便利，维护股票、债券、外汇市场平稳运行。\n- 数据：前三季度GDP同比增长4.6%；9月末M2同比增长7.2%；人民币对美元收盘价6.7053，较上年末升值4.1%。\n\n来源：[新浪财经](https://finance.sina.com.cn/china/2026-11-11/doc-iniykefx1864645.shtml)、[每日经济新闻](https://www.nbd.com.cn/articles/2026-11-11/4644991.html)、[第一财经](https://www.yicai.com/brief/103436615.html)",
+          "en": "The People's Bank of China released its Q3 2026 monetary policy report on Nov 11, pledging to keep a moderately loose monetary policy, ample liquidity and relatively loose financing conditions.\n\n- Structural tools: the \"six networks\" build-out joins pledged supplementary lending; tech-innovation and upgrade relending rises by 200 billion yuan with coverage raised from 60% to 100%; agriculture and small-business relending rises by 500 billion, including 300 billion for private firms.\n- Rate reform: loan pricing will shift from relying mainly on the LPR toward more diverse benchmarks, with banks guided to try floating-rate loans tied to DR001.\n- Stability: the bond-market non-bank redemption swap facility will be used to keep stock, bond and FX markets stable.\n- Data: GDP grew 4.6% in the first three quarters; M2 rose 7.2% at end-September; the yuan closed at 6.7053 per dollar, up 4.1% from end-2025.\n\nSources: [Sina Finance](https://finance.sina.com.cn/china/2026-11-11/doc-iniykefx1864645.shtml), [NBD](https://www.nbd.com.cn/articles/2026-11-11/4644991.html), [Yicai](https://www.yicai.com/brief/103436615.html)"
+        }
+      },
+      {
+        "id": "beijing-embodied-ai-plan",
+        "originalLang": "zh",
+        "title": {
+          "zh": "北京发布具身智能机器人三年行动方案",
+          "en": "Beijing unveils three-year embodied-AI robotics plan"
+        },
+        "summary": {
+          "zh": "北京力争到2028年培育不少于5家国际一流、10家国内领先的人形机器人整机企业，形成20万台/年整机产能，并新建超5万PFlops具身智能专用算力。",
+          "en": "Beijing aims by 2028 to foster at least five world-class and ten leading domestic humanoid-robot makers, build 200,000 units a year of capacity, and add over 50,000 PFlops of dedicated compute."
+        },
+        "sources": [
+          {
+            "name": "中新网",
+            "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730145.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "钛媒体",
+            "url": "https://www.tmtpost.com/nictation/8200979.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "credit-incentive-list-2026",
+        "originalLang": "zh",
+        "title": {
+          "zh": "发改委、央行印发全国守信激励措施基础清单",
+          "en": "China issues national list of incentives for creditworthy entities"
+        },
+        "summary": {
+          "zh": "《全国守信激励措施基础清单（2026年版）》提出200余项措施，包括行政审批绿色通道、减少抽查等行政激励，以及便捷乘机、金融服务、平台会员权益等社会化激励。",
+          "en": "A 2026 national list sets out over 200 incentives for creditworthy people and firms, from fast-track approvals and fewer inspections to easier air travel, financial services and platform membership perks."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.xinhuanet.com/government/20261111/0cb90904659646bda3d2286a4b65e312/c.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

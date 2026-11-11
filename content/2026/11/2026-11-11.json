@@ -1,0 +1,296 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-11",
+  "am": {
+    "tech": [
+      {
+        "id": "gemini-4-carbon",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌发布 Gemini 4 Carbon 前沿模型",
+          "en": "Google releases Gemini 4 Carbon frontier model"
+        },
+        "summary": {
+          "zh": "谷歌 DeepMind 推出其最强模型 Gemini 4 Carbon，主打网络安全与长程智能体任务，API 定价与 Gemini 4 Argon 相同。",
+          "en": "Google DeepMind made Gemini 4 Carbon, its strongest model, available, pitching it at cybersecurity and long-horizon agentic work at the same price as Gemini 4 Argon."
+        },
+        "sources": [
+          {
+            "name": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "谷歌 DeepMind 11月10日宣布向开发者、企业和消费者开放 Gemini 4 Carbon，称其在网络安全能力和复杂知识工作、软件工程、科学推理等长程智能体工作流上达到前沿水平。\n\n- API 通过 Google AI Studio 和 Gemini for business 向付费用户开放，介绍价为每百万输入 token 2 美元、输出 10 美元，与 Gemini 4 Argon 相同。\n- 同时向 Google AI Ultra 订阅者推送至 Antigravity、Gemini 应用和搜索 AI 模式。\n- 同日谷歌还发布了用于机密推理的 TPU 8tx 和大内存的 TPU 8i Max。\n\n来源：[Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)",
+          "en": "On Nov 10 Google DeepMind opened Gemini 4 Carbon to developers, enterprises and consumers, calling it frontier-level on cybersecurity and long-horizon agentic workflows across knowledge work, software engineering and scientific reasoning.\n\n- API access via Google AI Studio and Gemini for business for paying users at an introductory $2 per million input tokens and $10 per million output tokens, the same as Gemini 4 Argon.\n- Rolling out to Google AI Ultra subscribers in Antigravity, the Gemini app and AI Mode in Search.\n- Google also unveiled TPU 8tx for confidential inference and the high-memory TPU 8i Max the same day.\n\nSource: [Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)"
+        }
+      },
+      {
+        "id": "claude-sheets-beta",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic 推出 AI 电子表格 Claude Sheets",
+          "en": "Anthropic launches Claude Sheets spreadsheet tool"
+        },
+        "summary": {
+          "zh": "Anthropic 推出测试版 Claude Sheets，可创建和编辑含公式、多标签页的表格，支持协作、追踪 Claude 的修改并导出 Excel。",
+          "en": "Anthropic launched Claude Sheets in beta, an AI spreadsheet that builds and edits files with formulas and multiple tabs, supports co-editing, tracks Claude's changes and exports to Excel."
+        },
+        "sources": [
+          {
+            "name": "Engadget via Training Data Daily",
+            "url": "https://trainingdatadaily.com/archive/2026-11-10/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nvidia-china-rental-limits",
+        "originalLang": "en",
+        "title": {
+          "zh": "报道：英伟达收紧面向中国的海外 AI 芯片租赁",
+          "en": "Report: Nvidia tightens overseas AI chip rentals to China"
+        },
+        "summary": {
+          "zh": "据报道，英伟达要求云合作伙伴至少将51%的算力服务留给非中国客户；英伟达股价周二再跌5.5%。",
+          "en": "Nvidia reportedly told cloud partners to reserve at least 51% of services for non-Chinese clients; its shares fell another 5.5% on Tuesday."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-tuesday-november-10-2026/",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "en": "Nvidia reportedly tightened overseas AI chip rentals to Chinese customers, requiring cloud partners to reserve at least 51% of their services for non-Chinese clients. The same report said B300 server racks were selling for up to $2.8 million in China.\n\nThe stock fell 5.5% on Tuesday, its second straight decline as reports about CEO Jensen Huang and an alleged Chinese spy continued to weigh on it, according to CNBC.\n\nSources: [The Neuron](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-tuesday-november-10-2026/), [CNBC](https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html)"
+        }
+      }
+    ],
+    "world": [
+      {
+        "id": "abu-dhabi-talks-day-one",
+        "originalLang": "en",
+        "title": {
+          "zh": "阿布扎比和谈首日：鲁比奥称“非常有成效”",
+          "en": "Abu Dhabi talks day one: Rubio calls them 'very productive'"
+        },
+        "summary": {
+          "zh": "美俄乌三方在阿布扎比进行近4小时会谈，涉及人道问题、换俘和安全保障；鲁比奥称仍有大量工作要做。同时俄军夜袭乌克兰电网。",
+          "en": "US, Russian and Ukrainian negotiators met for nearly four hours in Abu Dhabi on humanitarian issues, prisoner swaps and security guarantees; Rubio said much work remains. Russia struck Ukraine's grid overnight."
+        },
+        "sources": [
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-uae-3d878a3e56d5df5bd198a6d20c824d18",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/3fec1b0a85a0/world/russia-pounds-ukraines-power-grid-talks-open-abu-dhabi-2026-11-10/",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu",
+            "url": "https://www.aa.com.tr/en/americas/us-secretary-of-state-rubio-describes-abu-dhabi-talks-between-us-russia-ukraine-as-very-productive/4119085",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "时隔九个月重启的美俄乌三方会谈首日在阿布扎比举行，持续近4小时，议题包括人道主义问题、交换战俘和安全保障。美国国务卿鲁比奥称会谈“非常有成效”，但仍有大量工作要做，并主张把欧洲盟友纳入谈判。会谈计划次日继续。\n\n- 会谈开始当天，俄军夜间空袭乌克兰10个地区，打击5座主要变电站，造成大面积停电，2人死亡（路透社）。\n- 丹麦同日宣布向乌克兰提供6.43亿欧元军援。\n\n来源：[美联社](https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-uae-3d878a3e56d5df5bd198a6d20c824d18)、[路透社](https://www.reuters.com/3fec1b0a85a0/world/russia-pounds-ukraines-power-grid-talks-open-abu-dhabi-2026-11-10/)",
+          "en": "The first day of US-mediated Russia-Ukraine talks in Abu Dhabi, the first in nine months, ran nearly four hours and covered humanitarian issues, prisoner exchanges and security guarantees. Secretary of State Marco Rubio called them \"very productive\" but said much work remains and urged bringing in European allies. Talks were set to continue the next day.\n\n- Overnight Russia struck 10 Ukrainian regions, hitting five major substations, causing widespread outages and killing two people (Reuters).\n- Denmark pledged EUR 643 million in military aid the same day.\n\nSources: [AP](https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-uae-3d878a3e56d5df5bd198a6d20c824d18), [Reuters](https://www.reuters.com/3fec1b0a85a0/world/russia-pounds-ukraines-power-grid-talks-open-abu-dhabi-2026-11-10/)"
+        }
+      },
+      {
+        "id": "qatar-us-iran-progress",
+        "originalLang": "en",
+        "title": {
+          "zh": "卡塔尔称美伊谈判取得“进展”",
+          "en": "Qatar sees 'progress' in US-Iran talks"
+        },
+        "summary": {
+          "zh": "卡塔尔首相会见特朗普次日，卡外交部称双方都在释放外交解决的积极信号，但无法判断距离协议还有多远。",
+          "en": "A day after Qatar's prime minister met Trump, Qatar's foreign ministry said both sides were signalling support for a diplomatic solution but it could not say how close a deal was."
+        },
+        "sources": [
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/10",
+            "lang": "en"
+          },
+          {
+            "name": "Iran International",
+            "url": "https://www.iranintl.com/en/202611103166",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "australia-ai-safety-regulator",
+        "originalLang": "en",
+        "title": {
+          "zh": "澳大利亚将立法设立 AI 安全监管机构",
+          "en": "Australia to legislate an AI safety regulator"
+        },
+        "summary": {
+          "zh": "澳总理阿尔巴尼斯等宣布，将把强制性 AI 安全要求写入法律，适用于所有在澳运营的前沿 AI 公司，并设新监管机构。",
+          "en": "Prime Minister Albanese and ministers said mandatory AI safety requirements will be legislated for all frontier AI firms operating in Australia, enforced by a new regulator."
+        },
+        "sources": [
+          {
+            "name": "AI SI Daily",
+            "url": "https://aisidaily.com/daily/ai-daily-2026-11-10/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "us-october-cpi-hot",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国10月CPI高于预期，12月加息几成定局",
+          "en": "Hot US October CPI all but seals a December Fed hike"
+        },
+        "summary": {
+          "zh": "美国10月CPI环比涨0.4%，核心CPI涨0.3%，均高于预期；沃勒称应考虑加息50个基点，市场完全定价12月加息。",
+          "en": "US CPI rose 0.4% in October and core 0.3%, both above forecasts; Waller said a half-point hike should be considered, and markets fully price a December increase."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "美国劳工统计局11月10日公布，10月CPI季调后环比上涨0.4%（预期0.3%），核心CPI上涨0.3%（预期0.2%），核心已连续三个月为0.3%。因去年政府停摆缺少数据，本次未公布同比数字；克利夫兰联储估算同比约3.8%。\n\n- 美联储理事沃勒在数据公布前表示，若核心CPI达到0.3%左右，12月就应考虑加息50个基点；达拉斯联储主席洛根也称可能需要更快加息。\n- CME FedWatch显示，市场完全定价12月8–9日加息25个基点，加息50个基点概率一度约15%。\n- 2年期美债收益率录得自2025年4月初以来最大涨幅。\n- 美股收跌：道指跌0.30%至52,231.89点，标普500跌0.38%，纳指跌0.74%，英伟达跌5.5%。\n\n来源：[CNBC](https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html)、[路透社](https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055)",
+          "en": "The BLS said Nov 10 that October CPI rose a seasonally adjusted 0.4% (forecast 0.3%) and core CPI 0.3% (forecast 0.2%), the third straight 0.3% core reading. No annual rate was published because last year's shutdown left no October 2025 data; the Cleveland Fed estimates about 3.8% year on year.\n\n- Fed Governor Christopher Waller said before the release that a core reading around 0.3% should put a 50-basis-point December hike on the table; Dallas Fed President Lorie Logan also suggested moving faster.\n- CME FedWatch shows a quarter-point hike at the Dec 8-9 meeting fully priced, with half-point odds briefly near 15%.\n- The 2-year Treasury yield posted its biggest rise since early April 2025.\n- Stocks fell: the Dow lost 0.30% to 52,231.89, the S&P 500 0.38% and the Nasdaq 0.74%, with Nvidia down 5.5%.\n\nSources: [CNBC](https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html), [Reuters](https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055)"
+        }
+      },
+      {
+        "id": "anthropic-ipo-roadshow",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic 启动IPO路演，定价区间70至78美元",
+          "en": "Anthropic launches IPO roadshow at $70-$78 a share"
+        },
+        "summary": {
+          "zh": "Anthropic 计划发行8.25亿股A类股，每股70至78美元，拟在纳斯达克以代码 ANT 上市，隐含估值约1.4万亿美元。",
+          "en": "Anthropic plans to sell 825 million Class A shares at $70 to $78 each and list on Nasdaq as ANT, implying a valuation of about $1.4 trillion."
+        },
+        "sources": [
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/news/roadshow-launch",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+            "lang": "en"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "Anthropic 11月10日宣布启动首次公开募股路演，发行8.25亿股A类普通股，定价区间每股70至78美元，其中约8.01亿股由公司发行、约2365万股由现有股东出售，拟在纳斯达克以代码 ANT 上市。TechCrunch 按区间上限计算隐含估值约1.404万亿美元。\n\n此前路透社报道，Anthropic 曾向投行流传一份约693亿美元的募资信息后又撤回，称定价信息有误并将更新文件。\n\n来源：[Anthropic](https://www.anthropic.com/news/roadshow-launch)、[CNBC](https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html)、[TechCrunch](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/)",
+          "en": "Anthropic launched its IPO roadshow on Nov 10, offering 825 million Class A shares at $70 to $78 each: about 801 million from the company and about 23.6 million from existing holders. It plans to list on Nasdaq as ANT. TechCrunch puts the implied valuation at about $1.404 trillion at the top of the range.\n\nEarlier, Reuters reported Anthropic had circulated and then retracted details of a roughly $69.3 billion raise, telling bankers the pricing information was inaccurate.\n\nSources: [Anthropic](https://www.anthropic.com/news/roadshow-launch), [CNBC](https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html), [TechCrunch](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/)"
+        }
+      }
+    ],
+    "china": [
+      {
+        "id": "china-trade-jan-oct-20pct",
+        "originalLang": "zh",
+        "title": {
+          "zh": "前10个月我国货物贸易进出口44.81万亿元，同比增长20%",
+          "en": "China's Jan-Oct goods trade hits 44.81 trillion yuan, up 20%"
+        },
+        "summary": {
+          "zh": "海关总署数据显示，前10个月出口25.99万亿元增长17.6%，进口18.82万亿元增长23.6%；10月单月进出口增长31.2%。",
+          "en": "Customs data show Jan-Oct exports of 25.99 trillion yuan (up 17.6%) and imports of 18.82 trillion (up 23.6%); October trade alone rose 31.2%."
+        },
+        "sources": [
+          {
+            "name": "中新网",
+            "url": "https://www.chinanews.com.cn/cj/2026/11-10/10729298.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "央视网",
+            "url": "https://jingji.cctv.cn/2026/11/10/ARTIfNSFJZSVlUTF6UF9MoDX261110.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "同花顺金融早报",
+            "url": "https://news.10jqka.com.cn/20261111/c681679091.shtml",
+            "lang": "zh"
+          }
+        ],
+        "body": {
+          "zh": "海关总署11月10日公布，今年前10个月我国货物贸易进出口总值44.81万亿元，同比增长20%。其中出口25.99万亿元，增长17.6%；进口18.82万亿元，增长23.6%。10月单月进出口4.87万亿元，同比增长31.2%。\n\n- 10月集成电路出口395.94亿美元，同比增长137.1%。\n- 10月汽车出口196.92亿美元，增长37.6%；稀土出口8223.99万美元，增长45%。\n\n来源：[中新网](https://www.chinanews.com.cn/cj/2026/11-10/10729298.shtml)、[同花顺金融早报](https://news.10jqka.com.cn/20261111/c681679091.shtml)",
+          "en": "China's customs administration said on Nov 10 that goods trade in the first ten months totalled 44.81 trillion yuan, up 20% year on year. Exports were 25.99 trillion yuan, up 17.6%, and imports 18.82 trillion, up 23.6%. October trade alone was 4.87 trillion yuan, up 31.2%.\n\n- October integrated-circuit exports were $39.59 billion, up 137.1%.\n- October car exports were $19.69 billion, up 37.6%; rare-earth exports were $82.24 million, up 45%.\n\nSources: [China News](https://www.chinanews.com.cn/cj/2026/11-10/10729298.shtml), [10jqka morning brief](https://news.10jqka.com.cn/20261111/c681679091.shtml)"
+        }
+      },
+      {
+        "id": "foundation-regulations-revised",
+        "originalLang": "zh",
+        "title": {
+          "zh": "修订后的《基金会管理条例》公布，明确收益须全部用于公益",
+          "en": "Revised foundation regulations require all income go to public good"
+        },
+        "summary": {
+          "zh": "国务院公布修订后的《基金会管理条例》，2027年1月1日起施行，规范互联网公开募捐，明确基金会收益应全部用于公益目的。",
+          "en": "The State Council published revised Regulations on Foundations, effective Jan 1, 2027, regulating online public fundraising and requiring all foundation income go to charitable purposes."
+        },
+        "sources": [
+          {
+            "name": "同花顺金融早报（新华社）",
+            "url": "https://news.10jqka.com.cn/20261111/c681679091.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "广州日报",
+            "url": "https://gzdaily.dayoo.com/pc/html/2026-11/11/index_2026-11-11.htm",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "china-us-leader-contact",
+        "originalLang": "zh",
+        "title": {
+          "zh": "外交部：中美就两国元首年内互动保持沟通",
+          "en": "China says it is in contact with US on leaders' engagement this year"
+        },
+        "summary": {
+          "zh": "外交部发言人郭嘉昆表示，中美双方就两国元首年内互动安排保持沟通；对中俄美元首会晤报道称暂无可提供的信息。",
+          "en": "Spokesman Guo Jiakun said China and the US are in contact on arrangements for leader-level engagement this year, and had no information to share on a reported China-Russia-US summit."
+        },
+        "sources": [
+          {
+            "name": "同花顺金融早报（央视新闻、澎湃）",
+            "url": "https://news.10jqka.com.cn/20261111/c681679091.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

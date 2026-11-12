@@ -1,0 +1,256 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-12",
+  "lead": {
+    "zh": "隔夜焦点是英伟达：董事会据报将讨论黄仁勋去留，股价盘后大跌。王毅与鲁比奥通话，为下周深圳中美元首会晤做准备。",
+    "en": "Overnight, Nvidia's board was said to be weighing Jensen Huang's future, and shares fell sharply after hours. Wang Yi and Marco Rubio spoke ahead of next week's Trump-Xi meeting in Shenzhen."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "nvidia-board-huang",
+        "originalLang": "en",
+        "title": {
+          "zh": "报道：英伟达董事会正准备讨论罢免黄仁勋",
+          "en": "Nvidia board is said to be preparing to weigh ousting Jensen Huang"
+        },
+        "summary": {
+          "zh": "《华尔街日报》援引知情人士报道，英伟达董事会最早于周三开会，讨论任职33年的首席执行官黄仁勋去留；《纽约时报》另称他还与一名下属高管有婚外情。公司股价盘后下跌约8%。",
+          "en": "The Wall Street Journal said Nvidia's board could meet as soon as Wednesday to decide CEO Jensen Huang's future after 33 years. The New York Times reported a second alleged affair with a subordinate executive. Shares fell about 8% after hours."
+        },
+        "body": {
+          "zh": "据《华尔街日报》报道，英伟达董事会正准备罢免联合创始人、首席执行官黄仁勋，并可能最早在周三开会决定其去留。黄仁勋已领导这家公司33年。\n\n周日，黄仁勋承认与一名美国情报机构指称涉嫌为中国情报工作的女子有婚外情。周三晚间，《纽约时报》报道称，他还与一名向他汇报的公司高管有婚外情。董事会已就相关指控展开独立调查；公司此前表示，目前没有发现国家安全或商业秘密受到损害的依据。\n\n[TechCrunch](https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/)报道，英伟达股价周三盘后下跌约8%，近五个交易日累计下跌约11%。黄仁勋直接下属众多，公司也没有明显的继任安排，外界担心一旦立即换帅可能出现管理真空。\n\n上述报道仍是匿名消息来源的转述，董事会尚未公布会议结果。",
+          "en": "The Wall Street Journal reported that Nvidia's board is preparing to oust co-founder and CEO Jensen Huang, who has led the company for 33 years, and could meet as soon as Wednesday to determine his future.\n\nOn Sunday, Huang admitted an extramarital affair with a woman U.S. intelligence has described as a suspected Chinese operative. On Wednesday evening, the New York Times reported a second alleged affair with an executive who reports to him. The board has already opened an independent investigation; the company has said it has seen no evidence that national security or company secrets were compromised.\n\n[TechCrunch](https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/) said Nvidia shares fell about 8% in Wednesday after-hours trading and about 11% over the past five sessions. Huang is known for a very large group of direct reports, and the company has no obvious succession plan, raising concern about a leadership vacuum if he were removed quickly.\n\nThese accounts still rely on unnamed sources, and the board has not announced the outcome of any meeting."
+        },
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via Moneycontrol",
+            "url": "https://www.moneycontrol.com/news/business/companies/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-14077450.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nwpu-h200-chips",
+        "originalLang": "en",
+        "title": {
+          "zh": "路透：美国黑名单上的西工大仍购得英伟达H200芯片",
+          "en": "Reuters: blacklisted Chinese university bought Nvidia H200 chips"
+        },
+        "summary": {
+          "zh": "路透根据采购记录报道，已被列入美国实体清单的西北工业大学上月通过国内供应商购入两块英伟达H200芯片，今年还多次租用含受限芯片的算力。",
+          "en": "Reuters, citing procurement records, reported that Northwestern Polytechnical University, which is on the U.S. Entity List, bought two Nvidia H200 chips last month through a domestic supplier and also rented access to servers with restricted chips."
+        },
+        "body": {
+          "zh": "据[路透社](https://www.straitstimes.com/asia/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-records-show)查阅采购记录，西北工业大学上月以87.47万元通过陕西博算网络科技购入两块英伟达H200芯片，采购方为其管理学院。西工大属于“国防七子”，美国商务部2001年将其列入实体清单，并在2019年收紧限制，对受控物项出口通常采取拒发许可政策。\n\n报道还称，该校今年通过五份算力租赁合同，从国内公司获得含H200及其他英伟达处理器的服务器使用权，其中网安学院在1月签下两份各含8块H200的七个月合同。路透还列举了深圳大学、武汉理工大学、北京航空航天大学等机构采购或租用受限芯片的记录，并表示西工大、英伟达和美国商务部产业与安全局均未回应置评请求。\n\n特朗普政府今年1月开始允许部分H200对华出口，但实体清单上的机构仍受单独限制。该报道凸显出口管制在经国内转售或算力租赁后的执行缺口。",
+          "en": "According to [Reuters](https://www.straitstimes.com/asia/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-records-show), procurement records show Northwestern Polytechnical University bought two Nvidia H200 chips last month for 874,700 yuan ($123,000) from Shaanxi Bosuan Network Technology, for its management school. The university is one of China's \"Seven Sons of National Defense.\" The U.S. Commerce Department added it to the Entity List in 2001 and tightened the rules in 2019, generally denying licenses for controlled U.S. technology.\n\nThe university also took five computing-rental contracts this year for servers that include H200s and other Nvidia processors; its cybersecurity school awarded two seven-month contracts in January for access to servers with eight H200 chips each. Reuters also cited purchases or rentals of restricted chips by institutions including Shenzhen University, Wuhan University of Technology and Beihang University. Northwestern Polytechnical, Nvidia and the U.S. Bureau of Industry and Security did not respond to requests for comment.\n\nThe Trump administration began allowing some H200 exports to China on a case-by-case basis in January, but that did not lift the separate Entity List restrictions. The records point to gaps when chips or server access move through domestic resellers and rental contracts."
+        },
+        "sources": [
+          {
+            "name": "Reuters via The Straits Times",
+            "url": "https://www.straitstimes.com/asia/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-records-show",
+            "lang": "en"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "wang-yi-rubio-call",
+        "originalLang": "zh",
+        "title": {
+          "zh": "王毅与鲁比奥通话，为深圳中美元首会晤做准备",
+          "en": "Wang Yi and Rubio speak ahead of the Trump-Xi meeting in Shenzhen"
+        },
+        "summary": {
+          "zh": "王毅11月11日与美国国务卿鲁比奥通电话，称谈话积极、建设性，并就两国元首互动交换意见。会谈正值下周深圳APEC期间中美元首预计会晤、双方拟推进人工智能安全对话之际。",
+          "en": "Wang Yi spoke with U.S. Secretary of State Marco Rubio on Nov 11, calling the exchange positive and constructive. The call comes about a week before Xi and Trump are expected to meet at APEC in Shenzhen, where the two sides also plan to advance an AI safety dialogue."
+        },
+        "body": {
+          "zh": "[新华社](https://english.news.cn/20261112/2684088573a64f6695937518dfd6378a/c.html)报道，王毅11月11日与鲁比奥通电话，双方就中美关系和两国元首互动深入交换意见。王毅说，当前中美关系稳定势头来之不易，是两国基于各自和共同利益作出的理性选择；中方愿加强沟通合作、妥善处理分歧，并相互支持办好2026年APEC领导人非正式会议和二十国集团峰会。美方暂未发布通话读稿。\n\n这次通话约在下周深圳APEC领导人会议一周前。习近平与特朗普今年已会晤两次，双方预计将在深圳再次见面。美国财长贝森特11月10日表示，两国将推进人工智能对话，包括模型测试交流，并着手建立严重事件发生时的直接通报渠道，同时“对彼此在人工智能上的分歧不抱幻想”。关税、农产品采购、稀土出口和技术限制等问题仍未解决。",
+          "en": "[Xinhua](https://english.news.cn/20261112/2684088573a64f6695937518dfd6378a/c.html) said Wang Yi spoke with Rubio on Nov 11 and the two sides discussed China-U.S. relations and contact between the two presidents. Wang said the current stability had not come easily and was a rational choice based on each country's interests and their shared ones. China, he said, is willing to strengthen communication, handle differences properly, and support each other in hosting the 2026 APEC Economic Leaders' Meeting and the G20 summit. There was no immediate readout from the State Department.\n\nThe call comes about a week before the APEC meeting in Shenzhen, where Xi and Trump are expected to meet again after two meetings earlier this year. On Nov 10, U.S. Treasury Secretary Scott Bessent said the two sides would advance an AI dialogue, including exchanges on model testing, and were working on a direct channel to alert each other to serious incidents, while warning that they should harbor no illusions about their differences. Disputes over tariffs, farm purchases, rare earths and technology restrictions remain unresolved."
+        },
+        "sources": [
+          {
+            "name": "新华社",
+            "url": "https://english.news.cn/20261112/2684088573a64f6695937518dfd6378a/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "The Straits Times",
+            "url": "https://www.straitstimes.com/asia/east-asia/chinas-foreign-minister-says-call-with-rubio-was-positive-and-constructive",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/3fec1b0a85a0/world/china/us-china-should-stay-clear-eyed-ai-cooperation-competition-bessent-says-2026-11-11/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nasser-hospital-strike",
+        "originalLang": "en",
+        "title": {
+          "zh": "以军袭击加沙南部纳赛尔医院，民防称至少五人死亡",
+          "en": "Israeli strike hits Nasser Hospital in southern Gaza; civil defence says at least five killed"
+        },
+        "summary": {
+          "zh": "加沙民防向路透社表示，以色列军方星期四凌晨袭击汗尤尼斯纳赛尔医院外科楼，至少五人死亡、约20人受伤，死者中包括外科医生里齐克·阿布希拉。以色列军方暂无回应。",
+          "en": "Gaza's civil defence told Reuters that an Israeli airstrike hit the surgery building at Nasser Hospital in Khan Younis early Thursday, killing at least five people, including surgeon Rezik Abushira, and wounding about 20. The Israeli military had no immediate comment."
+        },
+        "body": {
+          "zh": "据路透社报道，加沙民防发言人马哈茂德·巴萨尔说，以色列空军星期四凌晨袭击了南部汗尤尼斯纳赛尔医院的外科部门，造成广泛破坏，至少五人死亡、约20人受伤。医护人员确认死者中包括外科医生里齐克·阿布希拉（Rezik Abushira）。以色列军方暂未置评。\n\n以色列近期加强对加沙的袭击，并称哈马斯试图重整力量、补充武器；哈马斯则表示遵守已持续约一年的停火协议，并指责以方破坏停火。加沙卫生部门称，停火以来已有至少1600名巴勒斯坦人在以军袭击中死亡；以色列则称有四名士兵死亡。",
+          "en": "A spokesman for Gaza's civil defence, Mahmoud Basal, told Reuters that an Israeli airstrike early Thursday hit the surgery department at Nasser Hospital in Khan Younis, causing extensive damage, killing at least five people and wounding about 20. Medics identified one of the dead as surgeon Rezik Abushira. The Israeli military had no immediate comment.\n\nIsrael has stepped up attacks in the enclave, saying Hamas is trying to regroup and refill its arsenal. Hamas says it is committed to a year-old ceasefire and accuses Israel of trying to undermine it. Gaza health officials say at least 1,600 Palestinians have been killed in Israeli attacks since the ceasefire; Israel says four of its soldiers have been killed."
+        },
+        "sources": [
+          {
+            "name": "Reuters via The Straits Times",
+            "url": "https://www.straitstimes.com/world/middle-east/israeli-strike-on-southern-gaza-hospital-kills-five-gaza-civil-defence-says",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "darchiev-death",
+        "originalLang": "en",
+        "title": {
+          "zh": "俄罗斯驻美大使达尔奇耶夫突然去世，终年66岁",
+          "en": "Russia's ambassador to the U.S., Alexander Darchiev, dies at 66"
+        },
+        "summary": {
+          "zh": "俄罗斯外交部11月11日宣布，驻美国大使亚历山大·达尔奇耶夫当天突然去世，终年66岁。发言人扎哈罗娃后来说，他在莫斯科死于慢性疾病，但未说明具体病症。",
+          "en": "Russia's Foreign Ministry said on Nov 11 that Ambassador to the United States Alexander Darchiev had died suddenly at 66. Spokeswoman Maria Zakharova later said he died in Moscow of a chronic illness, without specifying which one."
+        },
+        "sources": [
+          {
+            "name": "TASS",
+            "url": "https://tass.com/politics/2216529",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/russia-ambassador-alexander-darchiev-obit-486a4a9bf9bac4759a8060196e0dfc1c",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "icbc-abc-picc-placement",
+        "originalLang": "zh",
+        "title": {
+          "zh": "工行、农行、中国人保定增获上交所审核通过",
+          "en": "SSE clears ICBC, Agricultural Bank and PICC private placements"
+        },
+        "summary": {
+          "zh": "11月11日晚间，工商银行、农业银行和中国人保宣布，向特定对象发行A股的申请已获上海证券交易所审核通过，三家分别拟募资不超过1000亿元、1600亿元和150亿元，尚需证监会同意注册。",
+          "en": "On the evening of Nov 11, ICBC, Agricultural Bank of China and PICC said the Shanghai Stock Exchange had approved their plans to issue A-shares to specific investors, for up to 100 billion, 160 billion and 15 billion yuan respectively. The deals still need CSRC registration."
+        },
+        "body": {
+          "zh": "据[每日经济新闻](https://www.nbd.com.cn/articles/2026-11-11/4644987.html)报道，工商银行和农业银行11月11日晚间公告，已收到上交所关于向特定对象发行股票的审核意见，申请符合发行、上市和信息披露要求。工行拟募资不超过1000亿元，农行不超过1600亿元，扣除发行费用后全部用于补充核心一级资本。两家银行均提示，尚需中国证监会同意注册，最终能否实施及时间仍有不确定性。\n\n发行对象方面，工行认购方包括财政部、中国烟草及部分省级烟草公司，其中财政部拟认购700亿元；农行认购方也包括财政部、中国烟草及相关子公司。所认购股份自取得之日起五年内不得转让。另据报道，中国人保不超过150亿元的定增同日也获上交所审核通过，财政部拟全额认购。这是财政部向银行保险业注资的最新进展。",
+          "en": "[National Business Daily](https://www.nbd.com.cn/articles/2026-11-11/4644987.html) reported that ICBC and Agricultural Bank of China said on the evening of Nov 11 that the Shanghai Stock Exchange had cleared their applications to issue A-shares to specific investors. ICBC plans to raise up to 100 billion yuan and Agricultural Bank up to 160 billion yuan, all of it, after fees, to replenish core tier-1 capital. Both banks said the issues still need registration with the China Securities Regulatory Commission, and whether and when that happens remains uncertain.\n\nICBC's planned buyers include the Ministry of Finance, China National Tobacco and several provincial tobacco companies, with the ministry set to subscribe 70 billion yuan. Agricultural Bank's buyers also include the ministry, China National Tobacco and related units. Shares would be locked up for five years. Reports also said PICC's placement of up to 15 billion yuan was cleared the same day, with the ministry planning to take the full amount, a further step in the state's recapitalization of banks and insurers."
+        },
+        "sources": [
+          {
+            "name": "每日经济新闻",
+            "url": "https://www.nbd.com.cn/articles/2026-11-11/4644987.html",
+            "lang": "zh"
+          },
+          {
+            "name": "东方财富",
+            "url": "https://finance.eastmoney.com/a/202611123928812013.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "singles-day-ai-sales",
+        "originalLang": "zh",
+        "title": {
+          "zh": "双十一首轮销售额仅增2.4%，AI商品却明显走强",
+          "en": "Singles Day first-round sales rise just 2.4%, while AI goods surge"
+        },
+        "summary": {
+          "zh": "星图数据显示，10月7日至31日综合电商销售额约1.03万亿元，同比仅增2.4%，远低于去年同期的14.2%。家电等传统品类份额回落，AI眼镜、电脑和词元套餐等则逆势大增。",
+          "en": "Star Map data showed combined e-commerce sales of about 1.03 trillion yuan from Oct 7 to 31, up just 2.4% from a year earlier and well below last year's 14.2% pace. Shares of appliances and other legacy categories slipped, while AI glasses, PCs and token packages rose sharply."
+        },
+        "body": {
+          "zh": "[香港文汇报](https://www.wenweipo.com/a/202611/12/AP6af4cad6e4b028ec01939034.html)援引星图数据报道，10月7日至31日“双11”首輪促销期间，综合电商平台累计销售额达10263亿元，同比仅增长2.4%，远低于去年同期14.2%，也低于今年“618”约4%的增速。家电、手机数码和家具建材的市场份额均较去年同期回落。\n\n与此同时，AI相关品类成为亮点。报道称，天猫词元套餐开售首日成交额环比大增；京东公布，截至10月30日平台已售出超过2000万件AI产品，其中AI电脑、眼镜和工作站等成交额同比翻倍，智能人形机器人销量同比增长7倍。路透社还报道，阿里巴巴平台上的AI玩具销售额已突破1亿元，陪伴机器人销量增长近5倍。分析认为，今年促销更多拼技术创新与服务，低价补贴的拉动作用正在减弱。",
+          "en": "[Wen Wei Po](https://www.wenweipo.com/a/202611/12/AP6af4cad6e4b028ec01939034.html) cited Star Map data showing that during the first Singles Day promotion window, from Oct 7 to 31, combined sales on major e-commerce platforms reached 1.0263 trillion yuan, up only 2.4% year on year, far below 14.2% a year earlier and also below about 4% growth during this year's 618 festival. Market shares for home appliances, phones and digital goods, and furniture all slipped from a year earlier.\n\nAI-related goods stood out. The report said Tmall token packages jumped on their first day of sale, and JD.com said it had sold more than 20 million AI products by Oct 30, with sales of AI PCs, glasses and workstations doubling and humanoid-robot sales up sevenfold. Reuters reported that AI toy sales on Alibaba's platforms had topped 100 million yuan, with companion-robot sales up nearly five times. Analysts said this year's festival leaned more on new technology and services, as the lift from price subsidies faded."
+        },
+        "sources": [
+          {
+            "name": "香港文汇报",
+            "url": "https://www.wenweipo.com/a/202611/12/AP6af4cad6e4b028ec01939034.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "takaichi-xi-apec",
+        "originalLang": "zh",
+        "title": {
+          "zh": "日媒：高市与习近平APEC正式会谈协调不顺",
+          "en": "Japanese media: Takaichi-Xi formal APEC meeting is proving hard to arrange"
+        },
+        "summary": {
+          "zh": "日本首相高市早苗下周将赴深圳出席APEC，但日媒引述消息人士称，她与习近平举行正式会谈的协调进展不顺利。中国外交部未正面回应，学者预计更多只是礼节性接触。",
+          "en": "Japanese Prime Minister Sanae Takaichi will attend APEC in Shenzhen next week, but Japanese media said a formal meeting with Xi Jinping is proving hard to arrange. China's foreign ministry did not answer directly, and scholars expect little more than a courtesy encounter."
+        },
+        "body": {
+          "zh": "[联合早报](https://www.zaobao.com.sg/news/china/story20261111-9982250)报道，高市早苗下周将赴深圳出席APEC峰会，但日媒引述消息人士称，中日就两国领导人举行正式会谈的协调进展不顺利。中国外交部未直接说明是否安排会谈，只称已多次阐明立场。日本政府表示将争取到最后一刻，或寻求短暂接触的机会。\n\n受访学者认为，双方举行实质性会谈的可能性很低，但或许会有礼节性握手或简短交流；中方对高市涉台言论仍持强硬立场。若正式会谈无法落实，日本可能成为主要与会经济体中少数未能与习近平举行双边会谈的国家。",
+          "en": "[Lianhe Zaobao](https://www.zaobao.com.sg/news/china/story20261111-9982250) reported that Takaichi will travel to Shenzhen next week for APEC, but Japanese media, citing people familiar with the matter, said coordination for a formal meeting with Xi is not going well. China's foreign ministry did not say whether a meeting would be arranged, only that Beijing had made its position clear more than once. The Japanese government said it would keep trying until the last moment, or look for a brief encounter.\n\nScholars interviewed for the report said a substantive meeting looks unlikely, though a courtesy handshake or a short exchange is still possible, and that Beijing remains firm over Takaichi's remarks on Taiwan. If a formal bilateral meeting does not happen, Japan could be among the few major participating economies not to hold one with Xi."
+        },
+        "sources": [
+          {
+            "name": "联合早报",
+            "url": "https://www.zaobao.com.sg/news/china/story20261111-9982250",
+            "lang": "zh"
+          },
+          {
+            "name": "联合早报",
+            "url": "https://www.zaobao.com.sg/specials/cn/daily-brief/20261112",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "china-nev-october",
+        "originalLang": "zh",
+        "title": {
+          "zh": "10月新能源汽车销量占比升至64.3%，汽车出口大增",
+          "en": "NEVs take 64.3% of China's October car sales as auto exports jump"
+        },
+        "summary": {
+          "zh": "中汽协数据显示，10月新能源汽车产销分别为201.7万辆和194万辆，新车销量占比达64.3%。当月汽车出口106.6万辆，同比增长60.2%，其中新能源汽车出口60.6万辆，同比增长1.4倍。",
+          "en": "CAAM data showed China produced 2.017 million new-energy vehicles in October and sold 1.94 million, or 64.3% of new-car sales. Auto exports rose 60.2% to 1.066 million, including 606,000 NEVs, up 1.4 times from a year earlier."
+        },
+        "body": {
+          "zh": "[新华社](https://www.xinhuanet.com/20261111/2039d0ac6a7545df9c5d3ef0c94db367/c.html)11月11日报道，中国汽车工业协会公布，2026年10月新能源汽车产销分别完成201.7万辆和194万辆，同比分别增长13.8%和13.1%，月度新车销量占比升至64.3%。当月汽车产销分别为306.3万辆和301.6万辆，环比增长、同比小幅下降。\n\n前10个月，汽车产销分别完成2631.8万辆和2628.6万辆，其中新能源汽车产销1450.9万辆和1441.1万辆，同比分别增长11.5%和11.3%，累计新车销量占比升至54.8%。出口方面，10月汽车出口106.6万辆，同比增长60.2%，其中新能源汽车出口60.6万辆，同比增长1.4倍；前10个月汽车累计出口927.1万辆，新能源汽车出口461.2万辆，同比增长1.3倍。",
+          "en": "[Xinhua](https://www.xinhuanet.com/20261111/2039d0ac6a7545df9c5d3ef0c94db367/c.html) reported on Nov 11 that the China Association of Automobile Manufacturers said October NEV output was 2.017 million and sales 1.94 million, up 13.8% and 13.1% from a year earlier, taking 64.3% of new-car sales. Total auto output and sales were 3.063 million and 3.016 million, up from September but slightly down from a year earlier.\n\nIn the first 10 months, automakers produced 26.318 million vehicles and sold 26.286 million. NEVs accounted for 14.509 million produced and 14.411 million sold, up 11.5% and 11.3%, or 54.8% of new-car sales. October auto exports rose 60.2% to 1.066 million, including 606,000 NEVs, up 1.4 times. Cumulative exports reached 9.271 million, of which 4.612 million were NEVs, up 1.3 times."
+        },
+        "sources": [
+          {
+            "name": "新华社",
+            "url": "https://www.xinhuanet.com/20261111/2039d0ac6a7545df9c5d3ef0c94db367/c.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

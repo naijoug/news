@@ -252,5 +252,297 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "nvidia-board-no-decision",
+        "originalLang": "en",
+        "title": {
+          "zh": "英伟达董事会深夜开会，黄仁勋去留仍无定论",
+          "en": "Nvidia board meets overnight; no decision yet on Jensen Huang"
+        },
+        "summary": {
+          "zh": "英伟达董事会周三深夜开会讨论首席执行官黄仁勋的去留，但截至周四未宣布结果。英伟达股价周四盘前再跌约6%，过去一个月累计下跌约24%。",
+          "en": "Nvidia's board met late Wednesday to weigh CEO Jensen Huang's future but had announced no outcome by Thursday. Shares fell about 6% premarket and are down roughly 24% over the past month."
+        },
+        "body": {
+          "zh": "据路透援引知情人士报道，英伟达董事会于周三深夜开会，讨论黄仁勋是否继续担任首席执行官，但截至周四仍未对外公布任何决定（[The Next Web](https://thenextweb.com/news/nvidia-board-meeting-jensen-huang-ouster-no-decision)）。\n\n[《卫报》](https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair)指出，这与周日董事会表态支持黄仁勋形成明显转折；《纽约时报》周三报道称，他与公司医疗业务总裁 Kimberly Powell 也有婚外情。\n\n按公司章程，11名董事中过半数即可罢免首席执行官，其余董事均为独立董事。但黄仁勋持股约3.6%，直接下属众多，公司也没有公开的继任计划。彭博社报道董事会正与外部机构物色可能人选，部分分析师认为首席财务官 Colette Kress 可能出任临时首席执行官。\n\n[《华盛顿邮报》](https://www.washingtonpost.com/technology/2026/11/12/nvidia-board-weighs-jensen-huangs-future-after-affair-with-allege-chinese-spy/)称英伟达股价周四盘前下跌约6%。",
+          "en": "Nvidia's board met late Wednesday to consider whether Jensen Huang should stay on as CEO, a source told Reuters, but no decision had been announced by Thursday ([The Next Web](https://thenextweb.com/news/nvidia-board-meeting-jensen-huang-ouster-no-decision)).\n\n[The Guardian](https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair) noted the sharp shift from Sunday, when the board expressed confidence in Huang. The New York Times reported Wednesday that he also had an affair with Kimberly Powell, Nvidia's president of healthcare.\n\nUnder the bylaws, a majority of the 11 directors can remove the CEO, and all directors other than Huang are independent. But Huang owns about 3.6% of the company, has dozens of direct reports, and no succession plan is public. Bloomberg reported the board is working with an outside firm on possible replacements; some analysts point to CFO Colette Kress as a possible interim chief.\n\n[The Washington Post](https://www.washingtonpost.com/technology/2026/11/12/nvidia-board-weighs-jensen-huangs-future-after-affair-with-allege-chinese-spy/) said shares fell about 6% in Thursday premarket trading."
+        },
+        "sources": [
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/nvidia-board-meeting-jensen-huang-ouster-no-decision",
+            "lang": "en"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair",
+            "lang": "en"
+          },
+          {
+            "name": "The Washington Post",
+            "url": "https://www.washingtonpost.com/technology/2026/11/12/nvidia-board-weighs-jensen-huangs-future-after-affair-with-allege-chinese-spy/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "china-ai-overseas-compute",
+        "originalLang": "en",
+        "title": {
+          "zh": "路透：中国AI公司抢订海外英伟达算力，Claude对华禁令生效",
+          "en": "Chinese AI firms rush for overseas Nvidia compute as Claude China ban takes effect"
+        },
+        "summary": {
+          "zh": "路透独家报道，担心美国借英伟达间谍风波收紧远程访问，中国AI公司正寻求预订东南亚等地数据中心的英伟达算力。同日，Anthropic禁止中国大陆及中资控股实体使用Claude的地区政策生效。",
+          "en": "Reuters said Chinese AI firms are seeking Nvidia-powered capacity at overseas data centres, including in Southeast Asia, fearing US curbs after the spy scandal. Anthropic's ban on Claude use from mainland China and by China-controlled entities also took effect."
+        },
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/economy-news/exclusivechinese-ai-firms-rush-to-secure-nvidia-chip-capacity-as-spy-scandal-stirs-fear-of-us-curbs-5020406",
+            "lang": "en"
+          },
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/legal/supported-regions",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "alphagenome-2-gemini-decisions",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌发布AlphaGenome 2与Gemini Decisions API",
+          "en": "Google unveils AlphaGenome 2 and the Gemini Decisions API"
+        },
+        "summary": {
+          "zh": "谷歌DeepMind发布AlphaGenome 2，可预测基因变异对具体细胞类型的影响，识别出的致病变异约为上一代两倍，面向非商业研究开放。谷歌另推出Gemini Decisions API，一次可判断多达1000个封闭式问题。",
+          "en": "DeepMind's AlphaGenome 2 predicts how genetic variants affect specific cell types, finding nearly twice as many causal variants as before; it is open for non-commercial research. Google also launched a Gemini Decisions API scoring up to 1,000 closed questions at once."
+        },
+        "sources": [
+          {
+            "name": "e/acc AI Daily",
+            "url": "https://e-acc.ai/daily/2026-11-12",
+            "lang": "en"
+          },
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-12-2026/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "witkoff-kushner-putin",
+        "originalLang": "en",
+        "title": {
+          "zh": "美特使维特科夫、库什纳赴莫斯科会见普京",
+          "en": "US envoys Witkoff and Kushner meet Putin in Moscow"
+        },
+        "summary": {
+          "zh": "俄美乌三方阿布扎比会谈达成大规模换俘协议后，美国特使维特科夫和库什纳抵达莫斯科，于周四在克里姆林宫会见普京。各方在结束冲突、领土和安全保障等问题上仍有重大分歧。",
+          "en": "After Russia-US-Ukraine talks in Abu Dhabi produced a large prisoner-swap deal, US envoys Steve Witkoff and Jared Kushner met Vladimir Putin at the Kremlin on Thursday. Major gaps remain over ending the war, territory and security guarantees."
+        },
+        "sources": [
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/russia-ukraine-war-putin-kushner-witkoff-683810203340077f33611fd1d1757b23",
+            "lang": "en"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/articles/cwrkgmymk55zo",
+            "lang": "en"
+          },
+          {
+            "name": "川观新闻",
+            "url": "https://cbgc.scol.com.cn/news/8135937",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "indonesia-gibran-resigns",
+        "originalLang": "en",
+        "title": {
+          "zh": "印尼副总统吉布兰因学历风波辞职，印尼盾创历史新低",
+          "en": "Indonesia's vice president Gibran resigns; rupiah hits record low"
+        },
+        "summary": {
+          "zh": "印尼副总统吉布兰在其海外学历是否符合参选条件受到质疑后宣布辞职。叠加美元走强，印尼盾周四跌至约18250兑1美元的历史低位，印尼央行入市干预。",
+          "en": "Indonesian Vice President Gibran Rakabuming Raka resigned after his overseas academic credentials and eligibility were questioned. With the dollar strong, the rupiah fell to a record low near 18,250 per dollar on Thursday, prompting central bank intervention."
+        },
+        "sources": [
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/indonesia-gibran-rakabuming-raka-resigns-abfe5e288fad3b8b26719eae634f2ee0",
+            "lang": "en"
+          },
+          {
+            "name": "Jakarta Globe",
+            "url": "https://jakartaglobe.id/business/rupiah-hits-new-low-as-gibran-exit-msci-fears-rattle-markets",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "israel-iran-preparations",
+        "originalLang": "en",
+        "title": {
+          "zh": "以媒：以色列安全内阁指示军方为可能打击伊朗做准备",
+          "en": "Israeli cabinet reportedly orders military to prepare for possible Iran strike"
+        },
+        "summary": {
+          "zh": "以色列公共广播公司KAN报道，以安全内阁已指示军方加紧准备可能对伊朗发动的打击。伊朗方面则警告，美军基地和利益都在其导弹和无人机射程之内。",
+          "en": "Israel's public broadcaster KAN reported that the security cabinet told the military to step up preparations for a possible attack on Iran. An Iranian military official warned that US bases and interests are within range of Iran's missiles and drones."
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-12/4121709",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "asia-stocks-nvidia-turmoil",
+        "originalLang": "en",
+        "title": {
+          "zh": "英伟达风波拖累亚太股市，创业板指跌2.44%",
+          "en": "Nvidia turmoil drags Asian stocks; ChiNext falls 2.44%"
+        },
+        "summary": {
+          "zh": "周四亚太主要股指11个中10个收跌：日经225跌0.7%，韩国KOSPI跌0.61%，恒生指数跌1.26%，上证指数跌0.67%，创业板指跌2.44%。仅印尼雅加达综指上涨2.66%。",
+          "en": "Ten of 11 major Asia-Pacific indexes closed lower Thursday: the Nikkei fell 0.7%, KOSPI 0.61%, Hang Seng 1.26%, Shanghai Composite 0.67% and ChiNext 2.44%. Only Jakarta rose, up 2.66%."
+        },
+        "sources": [
+          {
+            "name": "Bangkok Post (AFP)",
+            "url": "https://www.bangkokpost.com/business/general/3353481/asian-stocks-drop-as-traders-eye-nvidia-crisis",
+            "lang": "en"
+          },
+          {
+            "name": "金融界",
+            "url": "https://finance.jrj.com.cn/2026/11/12171659120225.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "Reuters via Euronext",
+            "url": "https://live.euronext.com/en/financial-news/asian-stocks-tumble-nvidia-stings-board-decide-ceos-fate",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-q3-revenue",
+        "originalLang": "en",
+        "title": {
+          "zh": "报道：OpenAI第三季度营收超100亿美元",
+          "en": "OpenAI's third-quarter revenue reportedly tops $10 billion"
+        },
+        "summary": {
+          "zh": "据彭博援引知情人士报道，OpenAI第三季度营收超过100亿美元，较第二季度的约67亿美元增长近50%，年化营收约500亿美元，调整后营业利润率为-109%。以上为媒体报道数据，并非经审计的公开财报。",
+          "en": "Bloomberg, citing unnamed sources, reported OpenAI's Q3 revenue exceeded $10 billion, up nearly 50% from about $6.7 billion in Q2, with a $50 billion annualized run rate and an adjusted operating margin of -109%. The figures are reported, not audited."
+        },
+        "sources": [
+          {
+            "name": "Malpass AI roundup",
+            "url": "https://malpass.co/top-ai-stories-2026-11-12/",
+            "lang": "en"
+          },
+          {
+            "name": "SWI swissinfo.ch (Bloomberg)",
+            "url": "https://www.swissinfo.ch/eng/asian-stocks-edge-higher%2C-shrug-off-nvidia-woes%3A-markets-wrap/92367440",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "mofcom-us-tariff-talks",
+        "originalLang": "zh",
+        "title": {
+          "zh": "商务部：中美正就降税、贸易、投资保持密切沟通",
+          "en": "MOFCOM: China and US in close talks on tariff cuts, trade and investment"
+        },
+        "summary": {
+          "zh": "商务部11月12日表示，中美正就降税、贸易、投资等各自关切保持密切沟通，进展将适时公布，并介绍“300亿对300亿”对等降税框架：双方各对约300亿美元进口商品降税。",
+          "en": "China's commerce ministry said on Nov 12 that Beijing and Washington are in close contact on tariff cuts, trade and investment, with progress to be announced in due course. It outlined a reciprocal framework under which each side cuts tariffs on about $30 billion of imports."
+        },
+        "body": {
+          "zh": "商务部11月12日表示，中美双方正就降税、贸易、投资等领域各自关切保持密切沟通，有关进展将适时发布（[新华网](https://www.news.cn/world/20261112/dbca42412a324e65a4cab293510bef3e/c.html)）。\n\n商务部同时公布中美贸易理事会和“300亿对300亿”对等降税框架有关情况（[商务部](https://www.mofcom.gov.cn/xwfb/rcxwfb/art/2026/art_7f879be341ec4137a22f6d0360a5a291.html)）：双方各对约300亿美元的进口商品降税，其中超过90%的产品可免除相互加征的关税、恢复最惠国待遇。美方降税范围涵盖玩具、家电等，中方涵盖农产品、个人护理用品、医疗器械、煤炭等。\n\n此番表态正值11月18日至19日深圳APEC领导人非正式会议前夕。",
+          "en": "China's commerce ministry said on Nov 12 that the two sides are in close communication on tariff cuts, trade and investment, and will announce progress in due course ([Xinhua](https://www.news.cn/world/20261112/dbca42412a324e65a4cab293510bef3e/c.html)).\n\nThe ministry also described the China-US trade council and a reciprocal \"$30 billion for $30 billion\" tariff-cut framework ([MOFCOM](https://www.mofcom.gov.cn/xwfb/rcxwfb/art/2026/art_7f879be341ec4137a22f6d0360a5a291.html)). Each side would cut tariffs on about $30 billion of imports, with more than 90% of those products exempted from retaliatory duties and returned to most-favoured-nation rates. US cuts cover items such as toys and home appliances; China's cover farm goods, personal-care products, medical devices and coal.\n\nThe comments come ahead of the APEC leaders' meeting in Shenzhen on Nov 18-19."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/world/20261112/dbca42412a324e65a4cab293510bef3e/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "商务部",
+            "url": "https://www.mofcom.gov.cn/xwfb/rcxwfb/art/2026/art_7f879be341ec4137a22f6d0360a5a291.html",
+            "lang": "zh"
+          },
+          {
+            "name": "China Daily",
+            "url": "https://www.chinadaily.com.cn/a/202611/12/WS6af57da3e4b03ebf8519c0e6.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "mfa-spy-narrative",
+        "originalLang": "zh",
+        "title": {
+          "zh": "外交部回应英伟达事件：美方应停止编造“间谍叙事”",
+          "en": "Foreign ministry on Nvidia case: US should stop inventing a 'spy narrative'"
+        },
+        "summary": {
+          "zh": "外交部发言人毛宁11月12日回应涉英伟达“间谍”报道称，中国科技进步依靠自主创新和开放合作，美方应停止编造所谓间谍叙事，不要以此为实施科技封锁寻找借口。",
+          "en": "Foreign ministry spokesperson Mao Ning said on Nov 12 that China's tech progress relies on its own innovation and open cooperation, and that the US should stop inventing a so-called spy narrative as a pretext for tech blockades."
+        },
+        "sources": [
+          {
+            "name": "外交部",
+            "url": "https://ipc.fmprc.gov.cn/chn/fyrth/202611/t20261112_12058185.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "第一财经",
+            "url": "https://www.yicai.com/news/103438169.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "cho-hyun-china-visit",
+        "originalLang": "zh",
+        "title": {
+          "zh": "韩国外长赵显将于11月13日至14日访华",
+          "en": "South Korean Foreign Minister Cho Hyun to visit China Nov 13-14"
+        },
+        "summary": {
+          "zh": "经中韩双方商定，韩国外长赵显将于11月13日至14日访华。此访正值深圳APEC领导人会议周前夕。",
+          "en": "China and South Korea agreed that Foreign Minister Cho Hyun will visit China on Nov 13-14, ahead of APEC leaders' week in Shenzhen."
+        },
+        "sources": [
+          {
+            "name": "南方网",
+            "url": "https://news.southcn.com/node_47a8059d6c",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -329,5 +329,296 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "nvidia-hearings-lutnick-huang",
+        "originalLang": "en",
+        "title": {
+          "zh": "英伟达风波延烧：卢特尼克、黄仁勋被请赴参院作证",
+          "en": "Nvidia fallout widens: Lutnick and Huang asked to testify in Senate"
+        },
+        "summary": {
+          "zh": "美参院银行委员会主席蒂姆·斯科特致函商务部长卢特尼克和前英伟达CEO黄仁勋，分别请其于12月10日和12月3日出席听证；NBC称卢特尼克已同意。众议院议长约翰逊称国会正形成限制对华芯片出口的共识。",
+          "en": "Senate Banking chair Tim Scott asked Commerce Secretary Lutnick and ex-Nvidia CEO Jensen Huang to testify on Dec 10 and Dec 3; NBC says Lutnick agreed. House Speaker Johnson says Congress is converging on tighter chip-export limits to China."
+        },
+        "body": {
+          "zh": "据CNBC援引NBC报道，参议院银行委员会主席蒂姆·斯科特周四晚间致函两人：请黄仁勋12月3日出席听证，请商务部长卢特尼克12月10日就商务部对英伟达对华出口的监管与执法作证，卢特尼克已同意自愿出席。\n\n- 焦点在于新加坡公司Megaspeed：黄仁勋承认与该公司一名高管有婚外情，而Megaspeed过去两年购入逾48亿美元英伟达先进AI芯片，议员关注芯片是否经其马来西亚子公司流向中国。\n- 众议院议长迈克·约翰逊表示，黄仁勋辞职后，国会在限制对华芯片出口上的共识正在扩大，两党议员近一周均呼吁收紧管制。\n- 市场方面，英伟达周五美股盘前小幅上涨约1.8%（美东时间早5点），此前周四盘中一度大跌后收跌逾4%；该股近一个月已累计下跌超20%。\n\n来源：[CNBC](https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html)、[卫报直播](https://www.theguardian.com/technology/live/2026/nov/13/nvidia-jensen-huang-to-testify-before-congress-live-latest-updates)。",
+          "en": "Citing NBC, CNBC reports Senate Banking chair Tim Scott wrote to both men on Thursday evening, asking Huang to appear on Dec 3 and Commerce Secretary Howard Lutnick on Dec 10 about Commerce's oversight and enforcement of Nvidia exports to China. Lutnick has agreed to appear voluntarily.\n\n- The focus is Singapore-based Megaspeed: Huang acknowledged an affair with one of its executives, and the firm bought more than $4.8 billion of advanced Nvidia AI chips over two years. Lawmakers are probing possible diversion via its Malaysian subsidiary.\n- House Speaker Mike Johnson said a consensus on limiting chip exports to China is growing in Congress after Huang's exit; members of both parties have called for tighter curbs this week.\n- Nvidia was about 1.8% higher in premarket trading at 5 a.m. ET Friday, after a volatile Thursday that ended just over 4% lower; the stock is down more than 20% over the past month.\n\nSources: [CNBC](https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html), [The Guardian live blog](https://www.theguardian.com/technology/live/2026/nov/13/nvidia-jensen-huang-to-testify-before-congress-live-latest-updates)."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+            "lang": "en"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/technology/live/2026/nov/13/nvidia-jensen-huang-to-testify-before-congress-live-latest-updates",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "reuters-china-nvidia-projects",
+        "originalLang": "en",
+        "title": {
+          "zh": "路透：中国逾32亿美元AI算力项目依赖受限英伟达芯片",
+          "en": "Reuters: $3.2 billion of Chinese AI projects rely on restricted Nvidia chips"
+        },
+        "summary": {
+          "zh": "路透审阅150余份采购公告与投资文件发现，中国各地有总值逾230亿元人民币的算力项目围绕H100、H200、H800等受限芯片设计；黄仁勋离任与美方加强审查令这些项目面临延误或改用国产芯片的风险。",
+          "en": "A Reuters review of 150-plus procurement and investment documents found Chinese computing projects worth over 23 billion yuan built around restricted H100, H200 and H800 chips; Huang's exit and tighter U.S. scrutiny put them at risk of delays or redesigns."
+        },
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/exclusivehuang-exit-and-us-scrutiny-imperil-3-billion-in-chinese-ai-projects-reliant-on-nvidia-5024462",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nonprofits-sue-ai-labs",
+        "originalLang": "en",
+        "title": {
+          "zh": "非营利组织起诉五大AI公司，要求冻结新模型研发",
+          "en": "Nonprofits sue five AI labs to freeze development of new models"
+        },
+        "summary": {
+          "zh": "Public Citizen等四家非营利组织在旧金山高等法院起诉OpenAI、Anthropic、谷歌、Meta和SpaceX，援引企业自身对极端风险的警告，请求法院禁止其开发或部署能力更强的新模型。",
+          "en": "Four nonprofits including Public Citizen sued OpenAI, Anthropic, Google, Meta and SpaceX in San Francisco Superior Court, citing the labs' own extreme-risk warnings and asking a judge to bar them from building or deploying more capable models."
+        },
+        "sources": [
+          {
+            "name": "The Boston Globe (AP)",
+            "url": "https://mobileapp.bostonglobe.com/11132026_b6c2f622-deff-11f1-a299-a2bb5dcb915d/content.html",
+            "lang": "en"
+          },
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "trump-pulls-vance-iran",
+        "originalLang": "en",
+        "title": {
+          "zh": "特朗普撤下万斯伊朗谈判角色，称盟友受威胁可能动武",
+          "en": "Trump pulls Vance off Iran talks, says force possible if allies threatened"
+        },
+        "summary": {
+          "zh": "特朗普要求副总统万斯转而专注国内事务，称与伊朗达成协议的日子“早已过去”，并表示若美国盟友和船只受威胁可能“立即”对伊动武。分析称美伊陷入“不战不谈”僵局，油价与美债收益率随之走高。",
+          "en": "Trump told VP Vance to focus on domestic issues, said the days of needing an Iran deal 'have long since passed', and warned he may use force 'right now' if U.S. allies or ships are threatened. Oil and Treasury yields rose on the 'no war, no talks' standoff."
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-13/4123624",
+            "lang": "en"
+          },
+          {
+            "name": "The Christian Science Monitor",
+            "url": "https://www.csmonitor.com/Daily/2026/20261113",
+            "lang": "en"
+          },
+          {
+            "name": "RTTNews via finanzen.ch",
+            "url": "https://www.finanzen.ch/nachrichten/aktien/asian-shares-slide-on-inflation-concerns-mounting-fed-tightening-bets-1036760879",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "ukraine-largest-prisoner-swap",
+        "originalLang": "en",
+        "title": {
+          "zh": "泽连斯基：俄乌将进行迄今最大规模换俘",
+          "en": "Zelensky says Russia-Ukraine prisoner swap will be the largest yet"
+        },
+        "summary": {
+          "zh": "泽连斯基在都柏林会见美国特使威特科夫和库什纳后表示，俄方已同意换俘，规模将为开战以来最大，是谈判的“实际成果”。欧盟称正筹备第22轮对俄制裁，并将在11月26日至27日特别峰会讨论乌克兰2027年融资。",
+          "en": "After meeting U.S. envoys Witkoff and Kushner in Dublin, Zelensky said Russia agreed to a prisoner exchange that will be the largest of the war, a 'real result' of talks. The EU is preparing a 22nd sanctions package and will discuss Ukraine's 2027 funding at a Nov 26-27 summit."
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-13/4123624",
+            "lang": "en"
+          },
+          {
+            "name": "新华财经",
+            "url": "https://www.cnfin.com/zs-lb/detail/20261113/4495164_1.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "gaza-nasser-hospital-strike",
+        "originalLang": "en",
+        "title": {
+          "zh": "以军空袭加沙纳赛尔医院，至少6人死亡",
+          "en": "Israeli strike on Gaza's Nasser hospital kills at least six"
+        },
+        "summary": {
+          "zh": "以色列周四空袭加沙南部汗尤尼斯纳赛尔医疗中心外科楼层，至少6人死亡、约30人受伤，以军称目标为哈马斯指挥官。当天加沙多地袭击共致11人死亡；53个国家和组织呼吁以方允许人道物资畅通进入。",
+          "en": "An Israeli strike hit the surgery floor of Nasser Medical Complex in Khan Younis on Thursday, killing at least six and wounding about 30; Israel said it targeted a Hamas commander. Strikes killed 11 across Gaza that day, and 53 states and bodies urged unimpeded aid access."
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261113/b5ce9c2878b9489a9faced7395c7a1b2/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-13/4123624",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "asia-stocks-nov13-tech-selloff",
+        "originalLang": "en",
+        "title": {
+          "zh": "亚股周五多数收跌：创业板指跌3.3%，恒指跌1.55%",
+          "en": "Asian stocks mostly fall Friday; ChiNext down 3.3%, Hang Seng 1.55%"
+        },
+        "summary": {
+          "zh": "受英伟达换帅、油价走高及美联储加息预期升温拖累，上证指数跌0.59%至3634点，深成指跌2.05%，创业板指跌3.32%；恒指跌1.55%，恒生科技指数跌3%。日经225逆势涨0.53%，录得五个月来最大周涨幅。",
+          "en": "Nvidia turmoil, higher oil and rising Fed-hike bets weighed on Asia: Shanghai fell 0.59% to 3,634, Shenzhen 2.05% and ChiNext 3.32%; the Hang Seng lost 1.55% and its tech index 3%. Japan's Nikkei rose 0.53%, its best week in five months."
+        },
+        "body": {
+          "zh": "港股方面，AI模型股智谱（Z.AI）、MiniMax因市场担忧先进芯片获取受限而大跌，数据中心供应商中际旭创、新易盛亦重挫；阿里巴巴跌3.46%，联想跌6.33%，百度跌3.39%。RTTNews称，有报道指OpenAI支持美国国会两党限制中国获取先进AI芯片及设备的提案，也压制了A股情绪。\n\n- 美元升至约19个月高位，美国2年期国债收益率升至4.867%，10年期一度触及5.1169%，市场押注美联储下月加息。\n- 日元兑美元9月以来首次跌破160，日本当局警告可能干预；日经全周涨6.46%。\n- 韩国综合指数跌0.98%，SK海力士跌3.03%。\n- 美国10月PPI将于北京时间今晚21:30公布。\n\n来源：[RTHK](https://news.rthk.hk/rthk/en/component/k2/1877702-20261113.htm)、[RTTNews](https://www.finanzen.ch/nachrichten/aktien/asian-shares-slide-on-inflation-concerns-mounting-fed-tightening-bets-1036760879)、[联合早报](https://www.zaobao.com.sg/en/finance/singapore/asian-stocks-mostly-fall-inflation-fuels-rate-hike-expectations-sti-drops-nearly-1)。",
+          "en": "In Hong Kong, AI model stocks Z.AI and MiniMax fell sharply on worries about access to advanced chips, and data-centre suppliers Zhongji Innolight and Eoptolink slumped; Alibaba lost 3.46%, Lenovo 6.33% and Baidu 3.39%. RTTNews said reports that OpenAI backs a bipartisan push in Congress to curb China's access to advanced AI chips and tools also weighed on mainland shares.\n\n- The dollar hit about a 19-month high; the U.S. 2-year yield rose to 4.867% and the 10-year touched 5.1169% as traders priced a possible Fed hike next month.\n- The yen weakened past 160 per dollar for the first time since September, drawing intervention warnings; the Nikkei gained 6.46% on the week.\n- Korea's Kospi fell 0.98%, with SK Hynix down 3.03%.\n- U.S. October PPI is due at 8:30 a.m. ET (21:30 Beijing time).\n\nSources: [RTHK](https://news.rthk.hk/rthk/en/component/k2/1877702-20261113.htm), [RTTNews](https://www.finanzen.ch/nachrichten/aktien/asian-shares-slide-on-inflation-concerns-mounting-fed-tightening-bets-1036760879), [Lianhe Zaobao](https://www.zaobao.com.sg/en/finance/singapore/asian-stocks-mostly-fall-inflation-fuels-rate-hike-expectations-sti-drops-nearly-1)."
+        },
+        "sources": [
+          {
+            "name": "RTHK",
+            "url": "https://news.rthk.hk/rthk/en/component/k2/1877702-20261113.htm",
+            "lang": "en"
+          },
+          {
+            "name": "RTTNews via finanzen.ch",
+            "url": "https://www.finanzen.ch/nachrichten/aktien/asian-shares-slide-on-inflation-concerns-mounting-fed-tightening-bets-1036760879",
+            "lang": "en"
+          },
+          {
+            "name": "联合早报",
+            "url": "https://www.zaobao.com.sg/en/finance/singapore/asian-stocks-mostly-fall-inflation-fuels-rate-hike-expectations-sti-drops-nearly-1",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "japan-utility-subsidy-winter",
+        "originalLang": "en",
+        "title": {
+          "zh": "日本动用6518亿日元预备费补贴冬季电费燃气费",
+          "en": "Japan taps 651.8 billion yen in reserves to curb winter utility bills"
+        },
+        "summary": {
+          "zh": "高市早苗内阁周五决定，从2.5万亿日元应急预备费中动用6518亿日元（约41亿美元），用于降低冬季电费和燃气费，原因是中东紧张局势导致能源价格持续高企。",
+          "en": "Prime Minister Sanae Takaichi's cabinet decided Friday to draw 651.8 billion yen ($4.1 billion) from 2.5 trillion yen in emergency reserves to lower winter utility bills, as Middle East tensions keep energy prices high."
+        },
+        "sources": [
+          {
+            "name": "Kyodo News",
+            "url": "https://english.kyodonews.net/articles/-/91254",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "mfa-apec-shenzhen-declaration",
+        "originalLang": "zh",
+        "title": {
+          "zh": "外交部：期待达成APEC领导人深圳宣言，反对滥用出口管制",
+          "en": "China hopes for APEC Shenzhen Declaration, opposes export-control abuse"
+        },
+        "summary": {
+          "zh": "外交部发言人毛宁表示，下周APEC第三十三次领导人非正式会议将在深圳开幕，期待各方达成领导人深圳宣言；她同时称中方一贯反对滥用出口管制、扰乱全球产供链，中美应落实两国元首共识。",
+          "en": "Spokeswoman Mao Ning said China hopes next week's 33rd APEC leaders' meeting in Shenzhen yields a Shenzhen Declaration, and said Beijing opposes abuse of export controls that disrupts supply chains, urging the U.S. to implement the leaders' consensus."
+        },
+        "body": {
+          "zh": "外交部发言人毛宁13日在例行记者会上表示，今年是中国时隔12年再次担任APEC东道主，下周APEC第三十三次领导人非正式会议将在深圳拉开帷幕。中方期待各方进一步凝聚共识，达成领导人深圳宣言，在贸易、互联互通、数字经济和人工智能等领域取得更多务实成果。\n\n- 在被问及美方收紧对华芯片出口时，毛宁表示，中方一贯反对滥用出口管制措施、扰乱全球产供链稳定，这不符合任何一方利益；中美双方应共同落实两国元首重要共识，维护经贸关系稳定。\n- 对于中俄美三国元首会晤，毛宁称中方同相关方保持沟通，有进一步信息会及时发布。\n- 据界面新闻，本届APEC领导人会议将实现100%绿电供应，电力来自广东阳江海上风电和西北沙戈荒风光基地。\n\n来源：[界面新闻](https://www.jiemian.com/article/15188576.html)、[中国日报网](https://cn.chinadaily.com.cn/c/5bd54ba2a3101a87ca8ff5ee/5bd54bdea3101a87ca8ff5f0)。",
+          "en": "At Friday's briefing, Mao Ning noted that China is hosting APEC for the first time in 12 years and that the 33rd leaders' meeting opens in Shenzhen next week. Beijing hopes parties build consensus on a Leaders' Shenzhen Declaration with practical results on trade, connectivity, the digital economy and AI.\n\n- Asked about U.S. moves to tighten chip exports, Mao said China opposes the abuse of export controls that disrupts global supply chains, which serves no one's interest, and that both sides should implement their leaders' consensus to keep trade ties stable.\n- On a possible China-Russia-U.S. leaders' meeting, she said Beijing is in contact with the parties and will release information in due course.\n- Jiemian reports the summit will run on 100% green power from offshore wind in Yangjiang, Guangdong, and desert wind and solar bases in the northwest.\n\nSources: [Jiemian](https://www.jiemian.com/article/15188576.html), [China Daily](https://cn.chinadaily.com.cn/c/5bd54ba2a3101a87ca8ff5ee/5bd54bdea3101a87ca8ff5f0)."
+        },
+        "sources": [
+          {
+            "name": "界面新闻",
+            "url": "https://www.jiemian.com/article/15188576.html",
+            "lang": "zh"
+          },
+          {
+            "name": "中国日报网",
+            "url": "https://cn.chinadaily.com.cn/c/5bd54ba2a3101a87ca8ff5ee/5bd54bdea3101a87ca8ff5f0",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "kaoyan-2027-applicants",
+        "originalLang": "zh",
+        "title": {
+          "zh": "2027年考研报名347万人，连降三年后小幅回升",
+          "en": "3.47 million sign up for China's 2027 graduate exam, first rise in four years"
+        },
+        "summary": {
+          "zh": "教育部消息，2027年全国硕士研究生招生考试报名人数为347万，在连续三年下降后稍有回升。教育部已召开视频会议部署考试安全工作。",
+          "en": "China's Ministry of Education said 3.47 million people registered for the 2027 national master's entrance exam, a slight rebound after three straight annual declines. The ministry has held a meeting on exam security."
+        },
+        "sources": [
+          {
+            "name": "中国日报网",
+            "url": "https://cn.chinadaily.com.cn/c/5bd54ba2a3101a87ca8ff5ee/5bd54bdea3101a87ca8ff5f0",
+            "lang": "zh"
+          },
+          {
+            "name": "界面新闻",
+            "url": "https://www.jiemian.com/article/15188576.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "state-council-safety-11-cities",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国务院安委会办公室约谈11个市级政府",
+          "en": "State Council safety office summons 11 city governments over accidents"
+        },
+        "summary": {
+          "zh": "国务院安委会办公室对11个发生重大事故或半年内发生3起以上较大事故的市级政府开展安全生产约谈，要求限期书面报告整改落实情况，整改不力、连续发生事故的将通报并抄送上一级监察机关。",
+          "en": "The State Council work-safety office summoned 11 city governments that had a major accident or three-plus serious ones in six months, ordering written reports on fixes; laggards with repeat accidents will be named and referred to higher supervisory bodies."
+        },
+        "sources": [
+          {
+            "name": "界面新闻",
+            "url": "https://www.jiemian.com/article/15188576.html",
+            "lang": "zh"
+          },
+          {
+            "name": "中国日报网",
+            "url": "https://cn.chinadaily.com.cn/c/5bd54ba2a3101a87ca8ff5ee/5bd54bdea3101a87ca8ff5f0",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

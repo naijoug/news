@@ -1,0 +1,333 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-13",
+  "lead": {
+    "zh": "隔夜焦点：黄仁勋辞任英伟达CEO，CFO克雷斯临时接棒；普京会见美国特使未见突破；霍尔木兹油轮起火推高油价。",
+    "en": "Overnight: Jensen Huang quit as Nvidia CEO with CFO Colette Kress as interim chief; Putin met U.S. envoys without a breakthrough; tanker fires in Hormuz lifted oil."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "huang-resigns-kress-interim",
+        "originalLang": "en",
+        "title": {
+          "zh": "黄仁勋辞任英伟达CEO，CFO克雷斯临时接棒",
+          "en": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief"
+        },
+        "summary": {
+          "zh": "英伟达11月12日宣布，董事会已接受黄仁勋辞去总裁、CEO及董事职务，即刻生效。CFO科莱特·克雷斯出任临时CEO，前新思科技CEO哈维·琼斯成为公司首任董事会主席。股价收跌4.3%。",
+          "en": "Nvidia said on Nov 12 that its board accepted Jensen Huang's resignation as president, CEO and director, effective immediately. CFO Colette Kress is interim CEO and ex-Synopsys chief Harvey Jones becomes the first board chair. Shares closed down 4.3%."
+        },
+        "body": {
+          "zh": "英伟达向美国证交会提交的文件显示，董事会于11月11日接受黄仁勋辞职，次日对外公布。这位联合创始人执掌公司逾三十年，此前因与一名被美国情报部门怀疑为中国间谍的女子有婚外情而陷入危机，《纽约时报》另报道他与下属高管存在恋情。\n\n- 临时CEO克雷斯自2013年起任CFO，将继续兼任CFO；董事会将在内外部候选人中遴选正式CEO。路透称，CUDA核心开发者伊恩·巴克被视为潜在长期人选。\n- 股价盘中一度大跌约13%，收跌4.3%至166.19美元；AMD、博通各涨约6%。\n- 参议员沃伦表示，黄仁勋离任并不能免除公司在出口管制合规方面对国会的说明义务。\n- 英伟达仍将于美西时间11月17日公布第三财季业绩，克雷斯在内部信中称将于11月18日召开员工大会。\n\n来源：[英伟达新闻稿](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)、[路透/Investing.com](https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huang-to-step-down-in-big-blow-to-ai-boom-5021980)、[CBS News](https://www.cbsnews.com/news/nvidia-ceo-jensen-huang-resigns/)。",
+          "en": "An SEC filing shows the board accepted Huang's resignation on Nov 11; it was announced the next day. The co-founder had led Nvidia for more than three decades before an affair with a woman U.S. intelligence suspects of spying for China, plus a New York Times report of a relationship with a subordinate executive, plunged the company into crisis.\n\n- Interim CEO Kress, CFO since 2013, keeps the CFO role; the board will weigh internal and external candidates. Reuters says CUDA veteran Ian Buck is seen as a possible longer-term pick.\n- Shares fell as much as about 13% intraday and closed down 4.3% at $166.19; AMD and Broadcom each rose about 6%.\n- Sen. Elizabeth Warren said his exit does not absolve Nvidia of answering Congress on export-control compliance.\n- Q3 results are still due Nov 17 (PT); Kress told staff an all-hands is set for Nov 18.\n\nSources: [Nvidia newsroom](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition), [Reuters via Investing.com](https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huang-to-step-down-in-big-blow-to-ai-boom-5021980), [CBS News](https://www.cbsnews.com/news/nvidia-ceo-jensen-huang-resigns/)."
+        },
+        "sources": [
+          {
+            "name": "NVIDIA Newsroom",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huang-to-step-down-in-big-blow-to-ai-boom-5021980",
+            "lang": "en"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/nvidia-ceo-jensen-huang-resigns/",
+            "lang": "en"
+          },
+          {
+            "name": "SEC 8-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "gemini-4-hydrogen",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌发布Gemini 4 Hydrogen，主打快速编程与智能体任务",
+          "en": "Google launches Gemini 4 Hydrogen for fast coding and agentic work"
+        },
+        "summary": {
+          "zh": "谷歌11月12日推出Gemini 4 Hydrogen，定位于日常编程和智能体工作流的快速模型，向AI Studio、Gemini API、Gemini应用及谷歌搜索全面开放；百万token上下文统一定价为每百万输入1.5美元、输出7.5美元。",
+          "en": "Google introduced Gemini 4 Hydrogen on Nov 12, a fast model for everyday coding and agent workflows, rolling out across AI Studio, the Gemini API, the Gemini app and Search. It is priced flat across a 1M-token context at $1.50 input and $7.50 output per million tokens."
+        },
+        "body": {
+          "en": "Google says Hydrogen scores 51 on the Artificial Analysis Intelligence Index at its default high thinking level, edging its frontier Gemini 4 Argon (50), and 54 at the xhigh setting, while finishing tasks faster than peers. Gemini 4 Carbon and Argon remain the long-horizon reasoning models.\n\nSource: [Google blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/)."
+        },
+        "sources": [
+          {
+            "name": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "baidu-ciyuansuo-zhang-yiming",
+        "originalLang": "zh",
+        "title": {
+          "zh": "百度推出大模型交易平台“词元所”；张一鸣称字节最早2029年追平前沿",
+          "en": "Baidu launches model-token exchange; Zhang Yiming says ByteDance may catch frontier labs by 2029"
+        },
+        "summary": {
+          "zh": "百度世界2026大会上，李彦宏发布大模型交易平台“词元所”，主打模型验真与征信，上线一个月日均调用超5000万次。另据钛媒体，张一鸣内部表示字节最早2029或2030年才能追平OpenAI和Anthropic。",
+          "en": "At Baidu World 2026, Robin Li launched a model-token marketplace focused on verifying models and rating providers, already handling over 50 million calls a day. TMTPost reported Zhang Yiming told staff ByteDance may match OpenAI and Anthropic by 2029 or 2030 at the earliest."
+        },
+        "body": {
+          "zh": "据钛媒体，词元所通过模型指纹比对、能力与性能测试核验资源，并以定期抽检和全链路监测为提供商建立信用评级；上线一个月入驻资源超100个，日均调用Token超7000亿。\n\n同日报道称，张一鸣在面向AI团队的全员会上坦言，字节Seed系列模型的预训练数据规模仍落后于海外顶尖公司，这是当前最需关注的问题。\n\n来源：[钛媒体](https://www.tmtpost.com/8203507.html)。"
+        },
+        "sources": [
+          {
+            "name": "钛媒体",
+            "url": "https://www.tmtpost.com/8203507.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "putin-envoys-no-breakthrough",
+        "originalLang": "en",
+        "title": {
+          "zh": "普京会见威特科夫与库什纳，俄方称会谈“建设性”但未见突破",
+          "en": "Putin meets Witkoff and Kushner; Kremlin calls talks constructive, no breakthrough"
+        },
+        "summary": {
+          "zh": "美国特使威特科夫和库什纳12日在克里姆林宫会见普京。俄总统助理乌沙科夫称会谈坦率、富有成效，双方同意继续三方谈判并推进更大规模换俘；但俄方拒绝“灰色地带”和外国维和部队。两人随后赴都柏林见泽连斯基。",
+          "en": "Witkoff and Kushner met Putin in the Kremlin on Nov 12. Aide Yury Ushakov called it productive: both sides will keep up trilateral talks and pursue a bigger prisoner swap, but Moscow rejected grey zones and foreign peacekeepers. The envoys then met Zelensky in Dublin."
+        },
+        "body": {
+          "en": "According to the Kremlin readout, Putin proposed a humanitarian operation around Konstantinovka with demining and international observation, and Moscow backed a long-term European security framework. CNA, citing the talks, said Putin signalled no compromise on core Ukraine demands. Separately, Zelensky said Starlink service in Ukraine had shown serious anomalies along the front in recent days.\n\nSources: [Kremlin](https://en.kremlin.ru/events/president/news/81252), [AP](https://apnews.com/article/russia-ukraine-war-putin-kushner-witkoff-683810203340077f33611fd1d1757b23), [CNA](https://www.channelnewsasia.com/world/putin-russia-ukraine-war-deal-us-talks-6547041)."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/russia-ukraine-war-putin-kushner-witkoff-683810203340077f33611fd1d1757b23",
+            "lang": "en"
+          },
+          {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/putin-russia-ukraine-war-deal-us-talks-6547041",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "hormuz-tankers-trump-iran",
+        "originalLang": "en",
+        "title": {
+          "zh": "霍尔木兹两艘油轮起火；特朗普称“不需要与伊朗达成协议”",
+          "en": "Two tankers burn in Hormuz as Trump says 'We don't need a deal with Iran'"
+        },
+        "summary": {
+          "zh": "伊朗革命卫队称，两艘载油逾400万桶的油轮在霍尔木兹海峡一条“未经授权航线”上因“事故”起火。特朗普随后发文称美国不需要与伊朗达成协议，市场担忧美伊战争延长，布伦特原油当日涨逾3%至约95.8美元。",
+          "en": "Iran's Revolutionary Guards said two tankers carrying more than 4 million barrels caught fire after an 'accident' on an unauthorised route in the Strait of Hormuz. Trump then posted that the U.S. doesn't need a deal with Iran, and Brent rose more than 3% to about $95.8."
+        },
+        "body": {
+          "en": "Tehran has restricted Hormuz traffic to routes it approves since the regional war began in late February. The Wall Street Journal reported that Vice President JD Vance is weighing face-to-face talks with Iranian security chief Mohsen Rezaei, though officials called that preliminary. Saudi Arabia also said debris from two intercepted ballistic missiles fell in the Mecca region.\n\nSources: [The Hindu](https://www.thehindu.com/news/the-hindu-top-news-of-the-day-november-12-2026/article71693747.ece), [CNBC](https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html), [Just Security](https://www.justsecurity.org/164226/early-edition-november-12-2026/)."
+        },
+        "sources": [
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/news/the-hindu-top-news-of-the-day-november-12-2026/article71693747.ece",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
+            "lang": "en"
+          },
+          {
+            "name": "Just Security",
+            "url": "https://www.justsecurity.org/164226/early-edition-november-12-2026/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "colom-mississippi-senate",
+        "originalLang": "en",
+        "title": {
+          "zh": "科洛姆赢得密西西比参议员选举，民主党参院多数扩至55席",
+          "en": "Scott Colom wins Mississippi Senate race, widening Democrats' majority to 55"
+        },
+        "summary": {
+          "zh": "民主党人斯科特·科洛姆以微弱优势击败共和党现任参议员海德-史密斯，成为密西西比州自1982年以来首位民主党参议员、重建时期以来首位非裔参议员，民主党参院多数扩大到55席。",
+          "en": "Democrat Scott Colom narrowly beat Republican Sen. Cindy Hyde-Smith, becoming Mississippi's first Democratic senator since 1982 and its first Black senator since Reconstruction. Democrats' Senate majority grows to 55."
+        },
+        "sources": [
+          {
+            "name": "Democracy Now!",
+            "url": "https://www.democracynow.org/2026/11/12/headlines",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-12/4121709",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "wall-street-nvidia-oil-dip",
+        "originalLang": "en",
+        "title": {
+          "zh": "美股小幅收低：英伟达换帅与油价上涨拖累，AMD、博通逆势大涨",
+          "en": "Wall Street dips as Nvidia shake-up and oil jump weigh; AMD and Broadcom rally"
+        },
+        "summary": {
+          "zh": "11月12日道指跌0.4%至52297点，标普500跌0.4%至7592点，纳指跌0.4%至25366点。英伟达收跌4.3%，AMD、博通涨近6%；布伦特原油涨逾3%，黄金期货跌约3%。三大指数本周仍有望录得8月以来最佳周涨幅。",
+          "en": "On Nov 12 the Dow fell 0.4% to 52,297, the S&P 500 0.4% to 7,592 and the Nasdaq 0.4% to 25,366. Nvidia lost 4.3% while AMD and Broadcom gained nearly 6%; Brent rose over 3% and gold futures fell about 3%. Indexes are still on pace for their best week since August."
+        },
+        "body": {
+          "en": "The S&P 500 erased an early drop of nearly 1% before finishing modestly lower. Super Micro fell 11.3% and Corteva 24.3%. U.S. futures edged higher in the evening; October PPI is due Friday, with economists polled by Dow Jones expecting a 0.4% monthly rise.\n\nSources: [AP](https://apnews.com/article/wall-street-stocks-dow-nasdaq-3f3668a937a11535103e3a5c8d82c9fc), [Investing.com](https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-036-5023324), [CNBC](https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html)."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-3f3668a937a11535103e3a5c8d82c9fc",
+            "lang": "en"
+          },
+          {
+            "name": "Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-036-5023324",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "smic-q3-profit",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中芯国际三季度净利润28.47亿元，同比增长87.6%",
+          "en": "SMIC Q3 net profit rises 87.6% to 2.85 billion yuan"
+        },
+        "summary": {
+          "zh": "中芯国际公告，第三季度营收219.83亿元，同比增长28.1%；归母净利润28.47亿元，同比增长87.6%。前三季度净利润73.14亿元，同比增长91.6%，主要得益于晶圆销量增加和产能利用率上升。",
+          "en": "SMIC reported Q3 revenue of 21.98 billion yuan, up 28.1%, and net profit of 2.85 billion yuan, up 87.6%. Nine-month profit rose 91.6% to 7.31 billion yuan on higher wafer shipments and utilisation."
+        },
+        "sources": [
+          {
+            "name": "钛媒体",
+            "url": "https://www.tmtpost.com/8203507.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "agile-robots-softbank-round",
+        "originalLang": "en",
+        "title": {
+          "zh": "德国机器人公司Agile Robots融资5亿美元，估值85亿美元",
+          "en": "Germany's Agile Robots raises $500 million at $8.5 billion valuation"
+        },
+        "summary": {
+          "zh": "慕尼黑人形机器人与机械臂制造商Agile Robots宣布完成5亿美元融资，软银领投，英伟达和日立参投，估值达85亿美元，资金将用于拓展美国市场和扩充产能。",
+          "en": "Munich-based humanoid and robot-arm maker Agile Robots said it raised $500 million led by SoftBank, with Nvidia and Hitachi participating, at an $8.5 billion valuation. It will use the money to expand in the U.S. and add capacity."
+        },
+        "sources": [
+          {
+            "name": "钛媒体",
+            "url": "https://www.tmtpost.com/8203507.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "xi-sun-yatsen-160",
+        "originalLang": "zh",
+        "title": {
+          "zh": "习近平在纪念孙中山诞辰160周年大会上讲话，强调推动祖国完全统一",
+          "en": "Xi marks Sun Yat-sen's 160th anniversary, urges reunification"
+        },
+        "summary": {
+          "zh": "纪念孙中山先生诞辰160周年大会12日在人民大会堂举行。习近平称孙中山是伟大的民族英雄和民主革命先驱，号召继承其精神推进民族复兴，并表示坚决反对“台独”、推动祖国完全统一。台湾方面拒绝相关主张。",
+          "en": "At a Nov 12 ceremony in the Great Hall of the People for Sun Yat-sen's 160th birth anniversary, Xi called Sun a great national hero and said Beijing firmly opposes Taiwan independence and will push for reunification. Taiwan rejected the proposal."
+        },
+        "body": {
+          "zh": "习近平在讲话中号召继承孙中山“爱国、为民、求真、奋斗、团结、胸怀天下”的精神，推进强国建设和民族复兴。香港、澳门及台湾各界同日也举行了纪念活动，纪念邮票同步发行。据X平台汇总的报道，台湾当局表示台湾前途只能由2300万台湾人民决定。\n\n来源：[新华网](https://www.news.cn/20261112/5227cc19030e453cb87b4745d5446a1c/c.html)、[人民网](https://politics.people.com.cn/n1/2026/1112/c1024-40832778.html)。"
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261112/5227cc19030e453cb87b4745d5446a1c/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "人民网",
+            "url": "https://politics.people.com.cn/n1/2026/1112/c1024-40832778.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "oral-glp1-approved",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国内首个口服GLP-1减肥药获批上市",
+          "en": "China approves its first oral GLP-1 weight-loss drug"
+        },
+        "summary": {
+          "zh": "礼来中国11月12日宣布，穆优达（奥氟格列隆钙片）获国家药监局批准，成为国内首个用于成人体重管理的口服GLP-1受体激动剂，每日一片，服用不受饮食饮水限制。",
+          "en": "Lilly China said on Nov 12 that regulators approved orforglipron (brand Muyouda) as the country's first oral GLP-1 drug for adult weight management, taken once daily without food or water restrictions."
+        },
+        "sources": [
+          {
+            "name": "礼来中国",
+            "url": "https://www.lilly.com.cn/news/press-releases/CMAT-67713",
+            "lang": "zh"
+          },
+          {
+            "name": "新京报",
+            "url": "https://www.bjnews.com.cn/detail/1794485052129049.html",
+            "lang": "zh"
+          },
+          {
+            "name": "Global Times",
+            "url": "https://www.globaltimes.cn/page/202611/1374192.shtml",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "fuel-price-cut-nov13",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国内汽柴油价格每吨分别下调645元、625元",
+          "en": "China cuts gasoline and diesel prices by 645 and 625 yuan a ton"
+        },
+        "summary": {
+          "zh": "国家发改委宣布，自11月12日24时起，国内汽、柴油（标准品）价格每吨分别下调645元和625元，原因是调价周期内国际原油均价低于上一周期。",
+          "en": "China's NDRC said gasoline and diesel prices would fall by 645 and 625 yuan per ton from midnight Nov 12, as average international crude prices in the window were lower than in the prior cycle."
+        },
+        "sources": [
+          {
+            "name": "凤凰网",
+            "url": "https://feng.ifeng.com/c/8y0jK7DNudq",
+            "lang": "zh"
+          },
+          {
+            "name": "钛媒体",
+            "url": "https://www.tmtpost.com/8203507.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

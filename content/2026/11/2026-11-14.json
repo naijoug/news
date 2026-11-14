@@ -319,5 +319,276 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "chatgpt-wallet-agent-purchases",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI推出ChatGPT Wallet，智能体可代用户付款",
+          "en": "OpenAI launches ChatGPT Wallet for agent purchases"
+        },
+        "summary": {
+          "zh": "OpenAI联合美国运通、万事达和Visa推出ChatGPT Wallet，dots等智能体可在用户逐笔确认后完成购物，先面向美国Pro用户。",
+          "en": "Built with American Express, Mastercard and Visa, ChatGPT Wallet lets agents such as dots complete purchases after per-transaction user approval, starting with US Pro subscribers."
+        },
+        "sources": [
+          {
+            "name": "Daily 9 (next-f9)",
+            "url": "https://next-f9.com/daily-9/2026-11-14",
+            "lang": "en"
+          },
+          {
+            "name": "X News",
+            "url": "https://x.com/i/trending/2121260659975573668",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据Daily 9与X新闻汇总，OpenAI于11月13日推出ChatGPT Wallet。用户只需添加一次银行卡，每次购买前核对商品、金额和卡片，并通过Face ID或指纹等方式确认；卡组织随后签发一次性支付令牌，智能体看不到真实卡号。\n\n- 首发渠道为dots，面向美国18岁以上的ChatGPT Pro订阅用户。\n- 同日，谷歌也宣布美国用户可将Google Wallet接入Gemini，获得只读的消费分析与预算建议，不具备支付能力。",
+          "en": "OpenAI introduced ChatGPT Wallet on November 13, according to Daily 9 and X News. Users add a card once, review items, total and card before each purchase, and approve with Face ID or a fingerprint; the card network then issues a payment token so the agent never sees the real card number.\n\n- It starts through dots for US ChatGPT Pro subscribers aged 18+.\n- The same day Google let US users link Google Wallet to Gemini for read-only spending insights, with no payment ability."
+        }
+      },
+      {
+        "id": "google-gemini-4-hydrogen-week",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌一周连发：Gemini 4 Hydrogen登陆Antigravity",
+          "en": "Google caps its week with Gemini 4 Hydrogen in Antigravity"
+        },
+        "summary": {
+          "zh": "皮查伊总结本周发布：两款第八代TPU、Gemini 4 Carbon、Gemini Robotics 2.5、AlphaGenome 2等；Gemini 4 Hydrogen已进入Antigravity并支持编排模式。",
+          "en": "Sundar Pichai recapped the week: two eighth-gen TPUs, Gemini 4 Carbon, Gemini Robotics 2.5, AlphaGenome 2 and more; Gemini 4 Hydrogen is now in Antigravity with an Orchestrator mode."
+        },
+        "sources": [
+          {
+            "name": "AI news briefing (llmnet)",
+            "url": "https://trending.llmnet.nl/en/briefing/2026-11-14",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "en": "Per a briefing compiling X posts from @sundarpichai and @googledevs, Google's releases this week include two eighth-generation TPUs, Gemini 4 Carbon, Gemini Robotics 2.5, AlphaGenome 2, the Gemini Decisions API and Gemini 4 Hydrogen.\n\n- In Antigravity's Orchestrator mode, Carbon or Argon plans while heavier models skip small edits.\n- Dynamic Workflows (/run-workflow) let the agent write a Python script that runs parallel and sequential subagents."
+        }
+      },
+      {
+        "id": "runway-praxis-1-robot-model",
+        "originalLang": "en",
+        "title": {
+          "zh": "Runway开源机器人模型Praxis-1",
+          "en": "Runway open-sources robot model Praxis-1"
+        },
+        "summary": {
+          "zh": "Runway以Apache 2.0开源Praxis-1，输入画面、指令和位置数据即可输出机器人动作；其自测RoboLab-120成功率46.2%，尚未经独立验证。",
+          "en": "Runway released Praxis-1 under Apache 2.0; it maps camera frames, text and position data to robot actions and self-reports 46.2% on RoboLab-120, not yet independently verified."
+        },
+        "sources": [
+          {
+            "name": "The Decoder",
+            "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "trump-xi-putin-shenzhen-trilateral",
+        "originalLang": "en",
+        "title": {
+          "zh": "白宫：特朗普将在深圳与习近平、普京举行首次三方会晤",
+          "en": "White House: Trump to hold first trilateral with Xi and Putin in Shenzhen"
+        },
+        "summary": {
+          "zh": "白宫确认特朗普下周出席深圳APEC期间将与习近平、普京会谈，议题包括削减核武器和伊朗，美方不预期达成协议，也不谈乌克兰。",
+          "en": "The White House said Trump will meet Xi and Putin on the sidelines of the Shenzhen APEC summit next week to discuss nuclear arms reduction and Iran; no deal is expected and Ukraine is off the table."
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
+            "lang": "en"
+          },
+          {
+            "name": "Kyodo News",
+            "url": "https://english.kyodonews.net/articles/-/91401",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据阿纳多卢通讯社和共同社，白宫助理发言人表示，特朗普将讨论削减核武器问题。一名美国高级官员称，这次会谈是领导人层面的“切入点、第一次对话”，华盛顿不期待达成协议；特朗普计划提出伊朗问题，但不谈乌克兰，因为美俄另有单独渠道。特朗普周一启程亚洲之行。",
+          "en": "Per Anadolu and Kyodo, a White House spokeswoman said Trump will discuss reducing nuclear weapons. A senior US official called it \"the entry point, the first conversation\" at leader level and said no agreement is expected; Trump plans to raise Iran but not Ukraine, which runs on a separate US-Russia track. Trump starts his Asia trip Monday."
+        }
+      },
+      {
+        "id": "hormuz-three-tankers-fire-rubio",
+        "originalLang": "en",
+        "title": {
+          "zh": "霍尔木兹海峡三艘油轮触雷起火；鲁比奥称无需再对伊动武",
+          "en": "Three tankers ablaze after mines in Hormuz; Rubio says more strikes on Iran unnecessary"
+        },
+        "summary": {
+          "zh": "伊朗海军和革命卫队称共三艘油轮在霍尔木兹海峡触雷起火；美国务卿鲁比奥称对伊经济压力已足够大，无需进一步军事行动。",
+          "en": "Iran's navy and IRGC said three oil tankers caught fire after hitting mines in Hormuz; Secretary of State Rubio said further US military action is unnecessary given the economic pain on Tehran."
+        },
+        "sources": [
+          {
+            "name": "Middle East Eye",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-669",
+            "lang": "en"
+          },
+          {
+            "name": "X News",
+            "url": "https://x.com/i/trending/2120964721583005848",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "en": "Middle East Eye's update says CENTCOM shot down two IRGC one-way attack drones aimed at Bahrain, and UKMTO counted at least seven tankers attacked around Hormuz in the week to November 11. The UN says 25 seafarers have been killed in 134 maritime incidents since the war began in February. X posts summarizing reports say flows through the strait have fallen sharply, with limited independent confirmation."
+        }
+      },
+      {
+        "id": "turkiye-qatar-defense-pact",
+        "originalLang": "en",
+        "title": {
+          "zh": "土耳其与卡塔尔签署共同防御协定",
+          "en": "Türkiye and Qatar sign mutual defense pact"
+        },
+        "summary": {
+          "zh": "在伊斯坦布尔举行的第12次土卡高级战略委员会会议上，埃尔多安与卡塔尔埃米尔签署包括共同防御协定在内的五项协议。",
+          "en": "At the 12th Türkiye-Qatar High Strategic Committee in Istanbul, Erdogan and Qatar's emir signed five agreements including a mutual defense pact."
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "us-ppi-october-6-5",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国10月PPI同比上涨6.5%，创2022年以来最大涨幅",
+          "en": "US October producer prices up 6.5% y/y, most since 2022"
+        },
+        "summary": {
+          "zh": "美国劳工部数据显示，10月最终需求PPI同比升6.5%，高于9月的6.3%；环比升0.3%，核心同比4.9%。",
+          "en": "US final-demand PPI rose 6.5% year on year in October, up from 6.3%, the largest since November 2022; it rose 0.3% on the month, with the core measure at 4.9% y/y."
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "csrc-wu-qing-quant-trading",
+        "originalLang": "zh",
+        "title": {
+          "zh": "证监会吴清：研究优化量化交易、减持规则，减少“羊群效应”",
+          "en": "CSRC's Wu Qing: review quant trading and share-sale rules, curb herd behaviour"
+        },
+        "summary": {
+          "zh": "吴清在首届中国资本市场学术年会上表示，要壮大长期资本、耐心资本，改善预期引导，评估优化量化交易、股份减持等制度。",
+          "en": "At China's first capital-markets academic conference, CSRC chair Wu Qing called for more long-term capital, better expectation management, and a review of quant-trading and share-reduction rules."
+        },
+        "sources": [
+          {
+            "name": "新华财经",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261114/4495767_1.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "langchain-3b-valuation",
+        "originalLang": "en",
+        "title": {
+          "zh": "智能体初创LangChain估值达30亿美元",
+          "en": "Agent startup LangChain hits $3B valuation"
+        },
+        "summary": {
+          "zh": "据TechCrunch，LangChain估值达30亿美元，其智能体管理工具LangSmith已有7000家客户。",
+          "en": "LangChain reached a $3B valuation and says its agent management tool LangSmith has 7,000 customers, TechCrunch reports."
+        },
+        "sources": [
+          {
+            "name": "The daily AI brief (citing TechCrunch)",
+            "url": "https://www.thekush.codes/news/md",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "us-china-trade-council-first-meeting",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中美贸易理事会举行首次会议",
+          "en": "US-China Trade Council holds first meeting"
+        },
+        "summary": {
+          "zh": "商务部称，中美11月13日以视频方式举行经贸磋商机制项下贸易理事会首次会议，就关税、“300亿对300亿”对等降税和农产品贸易等交流。",
+          "en": "China's commerce ministry said the two sides held the first Trade Council meeting by video on Nov 13, covering tariffs, the reciprocal \"30bn-for-30bn\" cuts and farm trade."
+        },
+        "sources": [
+          {
+            "name": "新华财经",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261114/4495767_1.html",
+            "lang": "zh"
+          }
+        ],
+        "body": {
+          "zh": "据新华财经援引商务部消息，双方以中美元首会晤重要共识为引领，围绕落实前期经贸磋商成果，进行了坦诚、深入、建设性的交流。双方将通过贸易理事会继续加强沟通，“拉长合作清单，压缩问题清单”。会议在下周深圳APEC领导人会议前举行。",
+          "en": "Citing the commerce ministry, Xinhua Finance said the talks, guided by the leaders' consensus, focused on implementing earlier trade outcomes and were \"candid, in-depth and constructive.\" Both sides will keep using the council to lengthen the cooperation list and shorten the problem list. The meeting comes ahead of next week's APEC leaders' meeting in Shenzhen."
+        }
+      },
+      {
+        "id": "nhsa-2026-drug-list",
+        "originalLang": "zh",
+        "title": {
+          "zh": "新版国家医保目录新增107种药，一类新药51个创新高",
+          "en": "New national drug reimbursement list adds 107 drugs, record 51 novel ones"
+        },
+        "summary": {
+          "zh": "国家医保局在苏州发布2026年医保目录和商保创新药目录：医保新增107种药品，商保目录新增12种，含全球首个实体瘤CAR-T。",
+          "en": "China's NHSA released its 2026 lists in Suzhou: 107 drugs added to national insurance, 12 to the commercial-insurance innovative list, including the first solid-tumor CAR-T."
+        },
+        "sources": [
+          {
+            "name": "新华财经",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261114/4495767_1.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "comac-ce25a-electric-plane-flight",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中国商飞电动商用飞机CE-25A首次有人驾驶飞行",
+          "en": "COMAC's CE-25A electric airliner makes first crewed flight"
+        },
+        "summary": {
+          "zh": "10吨级电动商用飞机CE-25A在山东滨州完成首次有人驾驶智能飞行，可载19人、航程400公里；同日国产W5000无人货机在鄂尔多斯试飞。",
+          "en": "COMAC's 10-tonne CE-25A electric airliner, seating 19 with 400km range, made its first crewed flight in Binzhou; the W5000 cargo drone also test-flew in Ordos."
+        },
+        "sources": [
+          {
+            "name": "新华财经",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261114/4495767_1.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

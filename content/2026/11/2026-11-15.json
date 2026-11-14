@@ -1,0 +1,247 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-15",
+  "lead": {
+    "zh": "星舰飞船首次被发射塔捕获；美国航班乱局料今晚缓和；第49届东盟峰会在马尼拉开幕。",
+    "en": "SpaceX catches Starship for the first time; US flights may normalize tonight; the 49th ASEAN Summit opens in Manila."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "spacex-starship-flight-15-catch",
+        "originalLang": "en",
+        "title": {
+          "zh": "星舰第15次试飞：飞船首次被发射塔机械臂捕获",
+          "en": "SpaceX catches Starship for the first time on Flight 15"
+        },
+        "summary": {
+          "zh": "太空探索技术公司星舰飞船在轨道飞行约22.5小时后返回得州发射场，首次被发射塔机械臂捕获。超级重型助推器未能回收，在墨西哥湾上空触发终止系统。",
+          "en": "SpaceX's Starship returned to its Texas pad after about 22.5 hours and was caught by the launch tower's arms for the first time. The Super Heavy booster was not recovered and its flight termination system triggered over the Gulf of Mexico."
+        },
+        "body": {
+          "zh": "据新华社和公司官网，星舰于美国中部时间13日下午从得克萨斯州Starbase升空，约22.5小时后、当地时间14日下午3时20分许返回同一座发射场，由绰号“机械哥斯拉”的发射塔机械臂完成捕获。这是星舰飞船（上级/第二级）首次被塔臂接住；公司此前已多次用同样方式回收助推器。\n\n此次飞行原计划在同一次任务中回收助推器与飞船。SpaceX称，助推器回推点火因燃料质量偏低提前结束，制导系统随后自动中止返回发射场，改飞墨西哥湾海上降落点；降落点火后发动机在海面上空悬停时切断，飞行终止系统被触发。CNBC报道称助推器在入水前爆炸。\n\n飞船入轨后部署了26颗星链V3卫星，公司称随后与全部卫星取得联系。CNBC称飞船绕地球约14圈后再入。马斯克在X上发布了检查被捕获飞船的视频。\n\n来源：[SpaceX](https://www.spacex.com/launches/starship-flight-15/)、[新华社](https://english.news.cn/20261115/379bafb80cd5467d88f01a2df16fdd34/c.html)、[CNBC](https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html)",
+          "en": "According to Xinhua and SpaceX, Starship lifted off from Starbase, Texas, on Friday afternoon and returned about 22.5 hours later, around 3:20 p.m. Central Time on Saturday, to the same pad. The launch tower's mechanical arms, nicknamed Mechazilla, caught the vehicle — the first tower catch of a Starship upper stage. SpaceX had already caught Super Heavy boosters this way on earlier flights.\n\nThe test had aimed to catch both the booster and the ship on one flight. SpaceX said the booster's boostback burn ended early because of low fuel mass; guidance then automatically aborted a return to the pad and diverted the booster offshore. After a landing burn, the engines shut down while the booster was hovering over the Gulf of Mexico, and the flight termination system was triggered. CNBC reported that the booster exploded before hitting the water.\n\nIn orbit, Starship deployed 26 Starlink V3 satellites; SpaceX said it made contact with all of them. CNBC said the ship circled Earth about 14 times before re-entry. Elon Musk posted video on X of an inspection after the catch.\n\nSources: [SpaceX](https://www.spacex.com/launches/starship-flight-15/), [Xinhua](https://english.news.cn/20261115/379bafb80cd5467d88f01a2df16fdd34/c.html), [CNBC](https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html)"
+        },
+        "sources": [
+          {
+            "name": "SpaceX",
+            "url": "https://www.spacex.com/launches/starship-flight-15/",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261115/379bafb80cd5467d88f01a2df16fdd34/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nvidia-huang-reinstatement-petition",
+        "originalLang": "en",
+        "title": {
+          "zh": "马斯克等科技高管联署请愿，呼吁英伟达恢复黄仁勋职务",
+          "en": "Musk and other tech chiefs back petition to reinstate Jensen Huang"
+        },
+        "summary": {
+          "zh": "据TechCrunch，一份要求英伟达恢复前CEO黄仁勋职务的请愿截至周六下午已逾11.5万个签名，签名者包括马斯克、蒂姆·斯威尼等。请愿要求董事会在独立调查期间让黄仁勋复职。",
+          "en": "A petition urging Nvidia to reinstate former CEO Jensen Huang had more than 115,000 signatures as of Saturday afternoon, TechCrunch reported, including Elon Musk and Tim Sweeney. It asks the board to bring him back while an independent investigation proceeds."
+        },
+        "body": {
+          "zh": "TechCrunch 14日报道，该请愿网站显示签名已超过11.5万，其中包括5965名现任英伟达员工、1108名前员工和63063名股东。公开支持者还包括Replit首席执行官阿姆贾德·马萨德、Epic Games首席执行官蒂姆·斯威尼，以及Y Combinator首席执行官加里·谭。\n\n请愿书写道，签署者“担心黄仁勋在未经过实质性正当程序的情况下被免职”，并要求董事会“在独立调查查明事实期间让他回来”，同时向公众提供更多信息。请愿称：“黄仁勋应得到正当程序，而不是私刑式处理。”\n\n黄仁勋于周四辞职。TechCrunch称，他在四天前承认与一名被美方情报机构怀疑为中国从事间谍活动的芯片行业高管有婚外情，并已同意前往国会作证；英伟达已任命首席财务官科莱特·克雷斯为临时CEO。\n\n来源：[TechCrunch](https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/)",
+          "en": "TechCrunch reported Saturday that the petition site showed more than 115,000 signatures as of Saturday afternoon, including 5,965 current Nvidia employees, 1,108 former employees and 63,063 shareholders. Named supporters also include Replit CEO Amjad Masad, Epic Games CEO Tim Sweeney and Y Combinator CEO Garry Tan.\n\nThe petition says signers are “concerned that Jensen was removed without meaningful due process” and asks the board to “bring him back while an independent investigation establishes the facts,” and to tell the public more. “Jensen deserves due process, not mob justice,” it says.\n\nHuang resigned on Thursday. TechCrunch said he had four days earlier confessed to an affair with a chip executive whom U.S. intelligence suspected of spying for China, and that he has agreed to testify before Congress. Nvidia named CFO Colette Kress interim CEO.\n\nSource: [TechCrunch](https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/)"
+        },
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "faa-flights-normalize-sunday",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国航班乱局持续，FAA称预计15日晚恢复正常",
+          "en": "US air travel still disrupted; FAA expects a normal schedule late Sunday"
+        },
+        "summary": {
+          "zh": "美国联邦航空局局长贝德福德14日表示，全国航空运输预计15日晚基本恢复正常，并为此前停飞致歉。交通部长达菲称故障追溯至承包商L3Harris在偏远设施安装的路由器。",
+          "en": "FAA Administrator Bryan Bedford said Saturday he expects US airline operations to return largely to normal by late Sunday, and apologized. Transportation Secretary Sean Duffy traced the outage to a router installed by contractor L3Harris at a remote site."
+        },
+        "body": {
+          "zh": "据CNA和CNBC，周五的全美停飞持续约四至五小时，是2001年9月11日以来最长的一次全国出发中断。航班跟踪网站FlightAware的数据显示，周五约有9200个航班取消、7500个延误；周六截至美东时间下午6时，取消约6000个、延误近7100个。达美、联合和美国航空周六各取消约25%的航班，捷蓝取消近45%。\n\n达菲说，问题出在L3Harris将铜缆通信改造成光纤的升级过程中：至少一台新路由器使其他通信中枢过载，大约每四到五秒出现逾1000次连接尝试，影响飞机通信和雷达。FAA 22个高空航路中心中有17个受到波及。贝德福德称“没有证据”表明这是恶意攻击或与人工智能有关，也没有任何设施完全失联，但因担心故障扩散仍下令停飞。达菲表示，仍在调查是安装或操作失误，还是路由器本身有缺陷。L3Harris称正配合调查。\n\n达菲已将空管系统升级资金请求从300亿美元提高至500亿美元，称“这是紧急状态”。众议院议长约翰逊表示支持增加拨款。\n\n来源：[CNA](https://www.channelnewsasia.com/world/us-air-travel-flight-shutdown-recovery-l3harris-router-6551971)、[CNBC](https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html)",
+          "en": "CNA and CNBC report that Friday's nationwide ground stop lasted about four to five hours, the longest halt in U.S. departures since the Sept. 11, 2001 attacks. FlightAware data showed about 9,200 U.S. cancellations and 7,500 delays on Friday; by 6 p.m. Eastern on Saturday there were about 6,000 cancellations and nearly 7,100 delays. Delta, United and American each canceled about 25% of Saturday flights; JetBlue canceled nearly 45%.\n\nDuffy said the trouble began during L3Harris's work switching copper communications to fiber. At least one new router overloaded other centers with more than 1,000 connection attempts every four to five seconds, disrupting aircraft communications and radar. The issue reached 17 of the FAA's 22 en-route centers. Bedford said there was “zero evidence” of a “nefarious” cause or anything related to artificial intelligence, and that no facility went fully dark, but the FAA still halted departures for fear the fault would spread. Duffy said investigators have not yet determined whether the cause was installer or user error or a faulty router. L3Harris said it is supporting the inquiry.\n\nDuffy raised his request for air-traffic modernization funds to $50 billion from $30 billion, calling the situation “an emergency.” House Speaker Mike Johnson said he supports more funding this year.\n\nSources: [CNA](https://www.channelnewsasia.com/world/us-air-travel-flight-shutdown-recovery-l3harris-router-6551971), [CNBC](https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html)"
+        },
+        "sources": [
+          {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/us-air-travel-flight-shutdown-recovery-l3harris-router-6551971",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "asean-49th-summit-opens",
+        "originalLang": "en",
+        "title": {
+          "zh": "第49届东盟峰会在马尼拉开幕，特朗普将于17日出席",
+          "en": "49th ASEAN Summit opens in Manila; Trump to join on Nov. 17"
+        },
+        "summary": {
+          "zh": "第49届东盟峰会及相关会议15日至17日在马尼拉举行，菲律宾总统马科斯主持。美国总统特朗普定于17日出席东盟—美国特别峰会，随后前往深圳出席亚太经合组织会议；中国总理李强已确认与会。",
+          "en": "The 49th ASEAN Summit and related meetings run Nov. 15–17 in Manila, chaired by President Ferdinand Marcos Jr. President Donald Trump is due on Nov. 17 for an ASEAN–US special summit, then travel to Shenzhen for APEC; Chinese Premier Li Qiang has confirmed he will attend."
+        },
+        "body": {
+          "zh": "据阿纳多卢通讯社和Rappler，峰会15日在菲律宾国际会议中心开幕，主题为“共同引领未来”。11个成员国领导人将举行全体会议和闭门会，并分别会晤美国、中国、韩国、日本、印度、澳大利亚等对话伙伴。16日起进行“10+1”系列会议，17日还将举行第29次东盟与中日韩（10+3）领导人会议和第21届东亚峰会，随后菲律宾将把轮值主席交给新加坡。\n\n议程预计包括缅甸局势、能源与粮食安全、关键矿产、南中国海行为准则谈判，以及东盟数字经济框架协定。特朗普作为主席国嘉宾出席，加拿大总理卡尼、巴西总统卢拉、国际货币基金组织总裁格奥尔基耶娃等也将到会；俄罗斯外长拉夫罗夫将代表俄方。东盟自2021年缅甸政变后仍不允许其领导人与会，本次缅甸由外交部东盟司司长代表。\n\n来源：[Anadolu Agency](https://www.aa.com.tr/en/asia-pacific/explainer-asean-summit-in-philippines-who-is-attending-whats-on-agenda/4124900)、[Rappler](https://www.rappler.com/philippines/updates-videos-49th-asean-summit-manila-november-2026/)",
+          "en": "Anadolu Agency and Rappler report that the summit opens Sunday at the Philippine International Convention Center under the theme “Navigating Our Future, Together.” Leaders of the 11-member bloc will hold plenary and retreat sessions and meet dialogue partners including the United States, China, South Korea, Japan, India and Australia. Plus-One meetings begin Monday. On Tuesday, Marcos will convene the 29th ASEAN Plus Three Summit and the 21st East Asia Summit, then hand the chairmanship to Singapore.\n\nThe agenda is expected to include Myanmar, energy and food security, critical minerals, talks on a South China Sea code of conduct, and the ASEAN Digital Economy Framework Agreement. Trump will attend as a guest of the chair. Other guests include Canadian Prime Minister Mark Carney, Brazilian President Luiz Inácio Lula da Silva and IMF Managing Director Kristalina Georgieva; Russia will be represented by Foreign Minister Sergey Lavrov. ASEAN has kept Myanmar's leaders out of summits since the 2021 coup; Myanmar is represented by a Foreign Ministry director-general for ASEAN affairs.\n\nSources: [Anadolu Agency](https://www.aa.com.tr/en/asia-pacific/explainer-asean-summit-in-philippines-who-is-attending-whats-on-agenda/4124900), [Rappler](https://www.rappler.com/philippines/updates-videos-49th-asean-summit-manila-november-2026/)"
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/asia-pacific/explainer-asean-summit-in-philippines-who-is-attending-whats-on-agenda/4124900",
+            "lang": "en"
+          },
+          {
+            "name": "Rappler",
+            "url": "https://www.rappler.com/philippines/updates-videos-49th-asean-summit-manila-november-2026/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "us-europe-smaller-troop-cuts",
+        "originalLang": "en",
+        "title": {
+          "zh": "彭博：美拟从欧洲撤军规模或仅为约5000人",
+          "en": "Bloomberg: US may cut about 5,000 Europe troops, not 25,000"
+        },
+        "summary": {
+          "zh": "彭博社援引消息人士报道，美国从欧洲撤军的规模可能远小于盟友此前担心的约2.5万人，目前预计约为5000人。国防部长赫格塞思须在12月1日前向特朗普提交最终建议。",
+          "en": "Bloomberg, citing people familiar with the matter, reported that the United States may withdraw about 5,000 troops from Europe, far fewer than the 25,000 allies had feared. Defense Secretary Pete Hegseth is to give President Trump final recommendations by Dec. 1."
+        },
+        "body": {
+          "zh": "据APA和TVP World援引的彭博报道，美国目前在欧洲驻军约8万人。撤军规模下调，与欧洲北约成员国增加国防开支以及五角大楼在对伊朗军事行动中依赖欧洲基地和盟国领空有关。报道称，削减将主要影响德国，北约东翼则可能得到加强。这仍是评估中的方案，并非已公布的最终决定。\n\n来源：[APA](https://en.apa.az/america/bloomberg-us-may-withdraw-5000-troops-from-europe-instead-of-25000-536160)、[TVP World](https://tvpworld.com/96481991/-pentagon-may-cut-just-5000-troops-from-europe-instead-of-feared-25000-bloomberg)",
+          "en": "APA and TVP World, citing Bloomberg, said about 80,000 U.S. troops are currently stationed in Europe. The smaller drawdown is linked to higher defense spending by European NATO members and to the Pentagon's reliance on European bases and allied airspace during operations against Iran, the report said. Most cuts would affect Germany, while NATO's eastern flank could be reinforced. The figures remain under review and are not a final public decision.\n\nSources: [APA](https://en.apa.az/america/bloomberg-us-may-withdraw-5000-troops-from-europe-instead-of-25000-536160), [TVP World](https://tvpworld.com/96481991/-pentagon-may-cut-just-5000-troops-from-europe-instead-of-feared-25000-bloomberg)"
+        },
+        "sources": [
+          {
+            "name": "APA",
+            "url": "https://en.apa.az/america/bloomberg-us-may-withdraw-5000-troops-from-europe-instead-of-25000-536160",
+            "lang": "en"
+          },
+          {
+            "name": "TVP World",
+            "url": "https://tvpworld.com/96481991/-pentagon-may-cut-just-5000-troops-from-europe-instead-of-feared-25000-bloomberg",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "pboc-fx-reserve-ratio-takes-effect",
+        "originalLang": "zh",
+        "title": {
+          "zh": "央行上调外汇存款准备金率至6%，今日起实施",
+          "en": "PBOC forex reserve ratio rise to 6% takes effect today"
+        },
+        "summary": {
+          "zh": "中国人民银行此前决定，自11月15日起将金融机构外汇存款准备金率上调2个百分点，由4%提高至6%，以加强外汇流动性管理。该措施于今日起实施。",
+          "en": "A People's Bank of China decision announced earlier takes effect today: the reserve requirement ratio on financial institutions' foreign-exchange deposits rises by 2 percentage points, to 6% from 4%, to tighten FX liquidity management."
+        },
+        "body": {
+          "zh": "中国经济网11月3日引述经济日报报道，记者从中国人民银行获悉，为加强金融机构外汇流动性管理，央行决定自2026年11月15日起，上调金融机构外汇存款准备金率2个百分点，即由当时的4%提高到6%。21世纪经济报道15日早间将此事列为当日关注。上调外汇存款准备金率会冻结部分银行外汇流动性，常被用于调节人民币汇率预期。\n\n来源：[中国经济网](http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261103_3281715.shtml)、[21世纪经济报道](https://www.21jingji.com/article/20261115/herald/48c50ba18f0cf08c183c20cbb7dba7f8.html)",
+          "en": "China Economic Net, citing the Economic Daily on Nov. 3, reported that the People's Bank of China had decided to raise the forex reserve requirement ratio by 2 percentage points from Nov. 15, 2026, to 6% from 4%, in order to strengthen management of financial institutions' foreign-exchange liquidity. The 21st Century Business Herald listed the change as a focus for today as it took effect. Raising the ratio drains some bank FX liquidity and is often used to influence expectations for the yuan.\n\nSources: [China Economic Net](http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261103_3281715.shtml), [21st Century Business Herald](https://www.21jingji.com/article/20261115/herald/48c50ba18f0cf08c183c20cbb7dba7f8.html)"
+        },
+        "sources": [
+          {
+            "name": "中国经济网",
+            "url": "https://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261103_3281715.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "21世纪经济报道",
+            "url": "https://www.21jingji.com/article/20261115/herald/48c50ba18f0cf08c183c20cbb7dba7f8.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "nvidia-earnings-anthropic-ipo-week",
+        "originalLang": "en",
+        "title": {
+          "zh": "本周市场聚焦英伟达财报与Anthropic上市",
+          "en": "Markets face Nvidia earnings and Anthropic's IPO this week"
+        },
+        "summary": {
+          "zh": "路透指出，本周AI行情将迎来两道考验：英伟达将在黄仁勋去职后首次发布财报，Anthropic计划以最高约1.4万亿美元估值在纳斯达克上市。",
+          "en": "Reuters says the AI trade faces two tests this week: Nvidia's first earnings report since Jensen Huang left, and Anthropic's planned Nasdaq listing at a valuation of as much as $1.4 trillion."
+        },
+        "body": {
+          "zh": "路透“未来一周五大主题”指出，英伟达三季报和Anthropic IPO将集中检验近期大幅波动的AI交易。台湾《经济日报》称，英伟达将于美国时间11月17日盘后举行法说会，由临时CEO科莱特·克雷斯主持，这也是黄仁勋离职后的首场财报会，市场除业绩外更关注订单、前景指引，以及新管理层会否调整对AI客户的投资和融资支持。\n\n彭博报道，Anthropic计划11月18日定价、次日在纳斯达克全球精选市场以代码ANT挂牌，高盛与摩根士丹利牵头，另有20家银行参与。该公司及其联合创始人拟通过IPO和私募配售最多筹资904亿美元，估值为1.4万亿美元；知情人士称认购约超购六倍。\n\n来源：[Reuters / Economic Times](https://economictimes.indiatimes.com/markets/us-stocks/news/5-world-market-themes-for-the-week-ahead/articleshow/135822113.cms)、[经济日报](https://money.udn.com/money/story/5607/9879315)、[Bloomberg via Moneycontrol](https://www.moneycontrol.com/news/business/ipo/anthropic-ipo-china-hong-kong-investors-face-restrictions-on-placing-orders-14079835.html)",
+          "en": "Reuters' week-ahead guide says Nvidia's quarterly results and Anthropic's IPO will test an AI trade that has swung sharply. Taiwan's Economic Daily said Nvidia will hold its earnings call after the U.S. close on Nov. 17, hosted by interim CEO Colette Kress — the first report since Huang's departure. Besides the results, investors will watch orders, guidance, and whether the new leadership scales back investment or financing support for AI customers.\n\nBloomberg reported that Anthropic plans to price on Nov. 18 and begin trading the next day on the Nasdaq Global Select Market under the ticker ANT. Goldman Sachs and Morgan Stanley are leading the deal, with 20 other banks. The company and its co-founders aim to raise as much as $90.4 billion through the IPO and a private placement at a $1.4 trillion valuation. People familiar with the matter have said demand is about six times the shares on offer.\n\nSources: [Reuters / Economic Times](https://economictimes.indiatimes.com/markets/us-stocks/news/5-world-market-themes-for-the-week-ahead/articleshow/135822113.cms), [Economic Daily](https://money.udn.com/money/story/5607/9879315), [Bloomberg via Moneycontrol](https://www.moneycontrol.com/news/business/ipo/anthropic-ipo-china-hong-kong-investors-face-restrictions-on-placing-orders-14079835.html)"
+        },
+        "sources": [
+          {
+            "name": "Reuters via Economic Times",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/5-world-market-themes-for-the-week-ahead/articleshow/135822113.cms",
+            "lang": "en"
+          },
+          {
+            "name": "经济日报",
+            "url": "https://money.udn.com/money/story/5607/9879315",
+            "lang": "zh"
+          },
+          {
+            "name": "Bloomberg via Moneycontrol",
+            "url": "https://www.moneycontrol.com/news/business/ipo/anthropic-ipo-china-hong-kong-investors-face-restrictions-on-placing-orders-14079835.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "li-qiang-meets-thai-king",
+        "originalLang": "zh",
+        "title": {
+          "zh": "李强在曼谷会见泰国国王，随后将赴菲出席中国—东盟领导人会议",
+          "en": "Li meets Thailand's king in Bangkok, then heads to ASEAN meetings in Manila"
+        },
+        "summary": {
+          "zh": "国务院总理李强11月14日在曼谷会见泰国国王哇集拉隆功，转达习近平主席问候，并表示愿拓展投资、科技创新和新能源汽车等领域合作。按既定行程，他随后将赴马尼拉出席中国—东盟领导人会议。",
+          "en": "Premier Li Qiang met King Maha Vajiralongkorn in Bangkok on Nov. 14, conveying President Xi Jinping's greetings and offering to expand cooperation in investment, technology and new-energy vehicles. He is then due in Manila for the China–ASEAN leaders' meeting."
+        },
+        "body": {
+          "zh": "据新华社报道，李强14日在曼谷会见哇集拉隆功。他转达习近平主席的亲切问候，并表示，国王陛下去年对中国进行国事访问，双方就推进中泰命运共同体建设达成重要共识。李强说，“中泰一家亲”是两国关系的独特优势，在当前动荡国际形势下，中泰经贸合作逆势增长尤为难能可贵；中方愿同泰方一道，密切交往，拓展投资、科技创新、新能源汽车等领域合作，深化人文交流。\n\n哇集拉隆功请李强转达对习近平主席的诚挚问候和良好祝愿，并表示李强此访有利于巩固泰中传统友谊、深化务实合作。中国外交部此前宣布，李强于11月13日至15日访问泰国，并于15日至16日赴菲律宾出席第29次中国—东盟领导人会议等东亚合作领导人系列会议。\n\n来源：[中国政府网](https://www.gov.cn/yaowen/liebiao/202611/content_7086062.htm)、[外交部](https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/202611/t20261111_12057265.shtml)",
+          "en": "According to Xinhua, Li met King Maha Vajiralongkorn in Bangkok on Nov. 14 and conveyed President Xi's greetings. He said the king's state visit to China last year produced important agreement on building a China–Thailand community with a shared future. “China and Thailand are as close as one family” is a unique strength of the relationship, Li said, and the two countries' trade and economic ties have grown despite global turmoil. China is ready to work with Thailand to expand cooperation in investment, scientific and technological innovation and new-energy vehicles, and to deepen people-to-people exchanges.\n\nThe king asked Li to convey his greetings and good wishes to Xi, and said Li's official visit would help consolidate traditional friendship and practical cooperation. China's Foreign Ministry had earlier said Li would visit Thailand from Nov. 13 to 15, then travel to the Philippines on Nov. 15–16 for the 29th China–ASEAN Summit and related East Asian leaders' meetings.\n\nSources: [gov.cn](https://www.gov.cn/yaowen/liebiao/202611/content_7086062.htm), [Ministry of Foreign Affairs](https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/202611/t20261111_12057265.shtml)"
+        },
+        "sources": [
+          {
+            "name": "中国政府网",
+            "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086062.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "外交部",
+            "url": "https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/202611/t20261111_12057265.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

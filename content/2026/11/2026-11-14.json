@@ -1,0 +1,323 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-14",
+  "lead": {
+    "zh": "美国全国停飞；英伟达寻帅、股价六连跌；美股仍录周涨；深圳APEC下周登场。",
+    "en": "A US nationwide ground stop, Nvidia's CEO search, a weekly gain on Wall Street, and APEC in Shenzhen next week."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "nvidia-board-approaches-arm-haas",
+        "originalLang": "en",
+        "title": {
+          "zh": "英伟达董事会接触Arm CEO哈斯，股价连跌六周",
+          "en": "Nvidia board approaches Arm's Rene Haas as shares fall a sixth week"
+        },
+        "summary": {
+          "zh": "据英国《金融时报》，英伟达董事会已就CEO继任人选接触Arm首席执行官雷内·哈斯。英伟达周五再跌2%，市值跌破4万亿美元，创2012年以来最长的连续周跌纪录；公司下周二发布三季报。",
+          "en": "The FT reports Nvidia's board has approached Arm CEO Rene Haas about succeeding Jensen Huang. Nvidia fell 2% Friday, closing below a $4 trillion market value and logging its longest weekly losing streak since 2012, ahead of earnings next Tuesday."
+        },
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Market+Check/Wall+St+slides+as+Nvidia+overhang+weighs+on+tech/27338658.html",
+            "lang": "en"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "黄仁勋周四因婚外情风波（其中涉及一名被美方怀疑为中国从事间谍活动的商人）辞职后，英伟达继任问题成为市场焦点。路透援引英国《金融时报》称，董事会已接触Arm CEO雷内·哈斯。\n\n- 英伟达周五收跌约2%，市值跌破4万亿美元，已连续六周下跌，为2012年10月以来最长连跌。\n- 费城半导体指数跌3.4%，AMD跌8.8%，博通跌4.8%。\n- 公司三季度财报定于下周二发布，被视为检验AI行情韧性的关键。\n\n来源：[路透](https://www.streetinsider.com/Market+Check/Wall+St+slides+as+Nvidia+overhang+weighs+on+tech/27338658.html)、[Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html)",
+          "en": "Succession is now the focus after Jensen Huang resigned Thursday over revelations of extramarital affairs, including one with a businesswoman US officials suspect of spying for China. Reuters, citing the Financial Times, said the board has approached Arm CEO Rene Haas.\n\n- Nvidia fell about 2% Friday and closed below a $4 trillion market value, its sixth straight weekly decline and the longest such streak since October 2012.\n- The Philadelphia Semiconductor Index fell 3.4%; AMD dropped 8.8% and Broadcom 4.8%.\n- Nvidia reports third-quarter results next Tuesday, a test for the wider AI trade.\n\nSources: [Reuters](https://www.streetinsider.com/Market+Check/Wall+St+slides+as+Nvidia+overhang+weighs+on+tech/27338658.html), [Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html)"
+        }
+      },
+      {
+        "id": "spacex-74b-ai-campuses",
+        "originalLang": "en",
+        "title": {
+          "zh": "SpaceX计划投资逾740亿美元建AI超算园区",
+          "en": "SpaceX plans more than $74 billion in AI supercomputing campuses"
+        },
+        "summary": {
+          "zh": "SpaceX宣布将在得克萨斯州和亚利桑那州投资逾740亿美元建设AI超算园区。亚利桑那园区约500亿美元，尚待县级审批；得州设施将自建发电能力。",
+          "en": "SpaceX announced plans to invest more than $74 billion in AI supercomputing campuses in Texas and Arizona. The Arizona site alone would cost about $50 billion and still needs county approval; the Texas facility is designed to generate its own power."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-daybreak-claude-selfhosted",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI推AI安全工具Daybreak；Anthropic开放自托管智能体内测",
+          "en": "OpenAI launches Daybreak security tools; Anthropic tests self-hosted agents"
+        },
+        "summary": {
+          "zh": "OpenAI推出Daybreak Red Team与Defense Factory，用AI测试应用漏洞并提出修复，补丁需工程师审核。Anthropic开放自托管Claude Managed Agents私测，企业可在自有基础设施内运行智能体并保存会话记录。",
+          "en": "OpenAI introduced Daybreak Red Team and Defense Factory, AI tools that probe apps for weaknesses and propose fixes reviewed by engineers. Anthropic opened a private beta of self-hosted Claude Managed Agents, letting companies run agents and keep session history in-house."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+            "lang": "en"
+          },
+          {
+            "name": "TLDR AI",
+            "url": "https://ai.tldr.tech/p/2026-11-13-tldr-ai",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "faa-nationwide-ground-stop",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国FAA因通信故障下令全国停飞",
+          "en": "FAA orders rare nationwide ground stop after telecom outage"
+        },
+        "summary": {
+          "zh": "美国联邦航空管理局周五下午下令全美机场停飞，原因是多个航路交通管制中心出现通信故障。国土安全部长称暂无“恶意攻击”迹象。据FlightAware，截至美东傍晚已有1913个航班取消、逾1万班延误。",
+          "en": "The FAA halted departures at all US airports Friday after a telecom failure hit multiple air traffic control centers. DHS said there was no sign of a 'nefarious attack.' FlightAware counted 1,913 cancellations and over 10,000 delays by early evening ET."
+        },
+        "sources": [
+          {
+            "name": "ABC News",
+            "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?entryId=138126578&id=138125140",
+            "lang": "en"
+          },
+          {
+            "name": "The Washington Post",
+            "url": "https://www.washingtonpost.com/transportation/2026/11/13/faa-grounds-flights-all-us-airports-citing-communications-issue/",
+            "lang": "en"
+          },
+          {
+            "name": "FAA ATCSCC Advisory",
+            "url": "https://www.fly.faa.gov/ois/oisedit/adv_oisedit_dis?day=11132026&number=111",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "美国联邦航空管理局（FAA）11月13日下午（美东时间）发布罕见的全国停飞令，称“出于特殊情况和安全原因”，所有机场离港航班原地待命，入境国际航班逐案处理。FAA公告显示停飞时段暂定至北京时间14日中午前后。\n\n- 交通部长达菲称，问题是影响所有航路交通管制中心的通信故障；FAA后称为“临时性电信中断”。\n- 国土安全部长马克韦恩·穆林表示，目前没有迹象显示这是“恶意攻击”。\n- 据FlightAware，截至美东时间18:04，已有1913个航班取消、10494个航班延误。达美、美联航等提供免费改签。\n- 这是9·11以来第二次全国性停飞，上一次是2023年飞行员通告系统故障。\n\n来源：[ABC News](https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?entryId=138126578&id=138125140)、[华盛顿邮报](https://www.washingtonpost.com/transportation/2026/11/13/faa-grounds-flights-all-us-airports-citing-communications-issue/)",
+          "en": "The FAA issued a rare nationwide ground stop on Friday afternoon, Nov. 13, 'due to extraordinary circumstances and for reasons of safety.' All departing traffic was held; inbound international flights were managed case by case. The advisory ran until at least 04:00 UTC Saturday.\n\n- Transportation Secretary Sean Duffy said a communication issue was affecting all Air Route Traffic Control Centers; the FAA later called it a 'temporary telecommunications outage.'\n- DHS Secretary Markwayne Mullin said there was no indication yet of a 'nefarious attack.'\n- FlightAware counted 1,913 cancellations and 10,494 delays as of 6:04 p.m. ET. Delta and United offered fee waivers.\n- It is only the second nationwide stop since 9/11; the other was the 2023 NOTAM outage.\n\nSources: [ABC News](https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?entryId=138126578&id=138125140), [The Washington Post](https://www.washingtonpost.com/transportation/2026/11/13/faa-grounds-flights-all-us-airports-citing-communications-issue/)"
+        }
+      },
+      {
+        "id": "ukraine-1200-drones-europe-security",
+        "originalLang": "en",
+        "title": {
+          "zh": "乌克兰向俄发射近1200架无人机；美俄谈判拟纳入欧洲安全架构",
+          "en": "Ukraine fires ~1,200 drones at Russia; talks widen to European security"
+        },
+        "summary": {
+          "zh": "俄国防部称一夜拦截1198架乌克兰无人机，目标包括伏尔加格勒炼油厂。与此同时，美俄谈判将讨论冷战后欧洲安全安排，引发欧洲担忧；欧洲39国声明欧洲安全应由欧洲人决定。",
+          "en": "Russia said it downed 1,198 Ukrainian drones overnight, with oil sites such as a Volgograd refinery among targets. US-Russia talks will now cover wider European security, alarming Europe; 39 European states said Europeans must decide it."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/russia-ukraine-war-putin-trump-zelenskyy-europe-157d168cb7ff9cae318cbf6cecb3988f",
+            "lang": "en"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/russia-and-ukraine-report-overnight-attacks-amid-us-diplomatic-push",
+            "lang": "en"
+          },
+          {
+            "name": "联合早报",
+            "url": "https://www.zaobao.com.sg/specials/cn/daily-brief/20261114",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "iran-irgc-bahrain-radar-lng-mine",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗革命卫队称摧毁美军驻巴林雷达，一艘LNG船在霍尔木兹触雷",
+          "en": "IRGC says it hit a US radar in Bahrain; LNG tanker strikes Hormuz mine"
+        },
+        "summary": {
+          "zh": "伊朗革命卫队称摧毁美军部署在巴林的预警雷达，以回应美方空袭伊朗锡里克港通信设施；其海军称一艘液化天然气船在霍尔木兹海峡触雷爆炸。特朗普表示应海湾盟友请求暂缓新的军事行动，但美军继续增兵中东。",
+          "en": "Iran's IRGC said it destroyed a US early-warning radar in Bahrain after a US strike near the port of Sirik, and its navy said an LNG tanker hit a mine in the Strait of Hormuz. Trump said he would hold off on new strikes after Gulf allies' appeals, but US forces keep building up."
+        },
+        "sources": [
+          {
+            "name": "Just Security",
+            "url": "https://www.justsecurity.org/164357/early-edition-november-13-2026/",
+            "lang": "en"
+          },
+          {
+            "name": "NPR 1A",
+            "url": "https://www.npr.org/2026/11/13/nx-s1-6040038/the-news-roundup-for-november-13-2026",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "wall-street-nov13-weekly-gain",
+        "originalLang": "en",
+        "title": {
+          "zh": "美股周五涨跌互现，三大指数仍录周线上涨",
+          "en": "Wall Street mixed Friday but posts first weekly gain since early October"
+        },
+        "summary": {
+          "zh": "道指涨0.1%至52347.55点，标普500跌0.4%至7561.67点，纳指跌0.91%至25136.27点。芯片股拖累科技板块，但三大指数本周均上涨约2%至2.5%。美国10月PPI同比上涨6.5%，市场完全押注美联储12月加息。",
+          "en": "The Dow rose 0.1% to 52,347.55, the S&P 500 fell 0.4% to 7,561.67 and the Nasdaq lost 0.91% to 25,136.27. Chip stocks led losses, but all three gained roughly 2% to 2.5% for the week. October PPI rose 6.5% year on year, keeping a December Fed hike fully priced."
+        },
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Market+Check/Wall+St+slides+as+Nvidia+overhang+weighs+on+tech/27338658.html",
+            "lang": "en"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+            "lang": "en"
+          },
+          {
+            "name": "新华社",
+            "url": "https://english.news.cn/northamerica/20261114/48afa9adbc4a440d9a21dabc97d755cf/c.html",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "11月13日（周五）美股收盘涨跌互现：道指涨50.46点（0.10%）报52347.55点；标普500跌30.73点（0.40%）报7561.67点；纳指跌229.82点（0.91%）报25136.27点。\n\n- 本周标普500累计涨2.51%、纳指涨2.27%、道指涨2.07%，标普与纳指结束四周连跌。\n- 标普科技板块跌1.7%，为表现最差板块；必需消费和能源领涨。\n- 美国10月PPI同比上涨6.5%，为2022年11月以来最大年度涨幅；CME FedWatch显示市场完全押注12月至少加息25个基点，加息50个基点概率约10%。\n- 10年期美债收益率一度升至5.17%；比特币近三个月来首次跌破7万美元。\n- FAA全国停飞令发布后，航空股尾盘下挫，NYSE Arca航空指数跌1.4%。\n- Anthropic备受关注的IPO定于下周进行。\n\n来源：[路透](https://www.streetinsider.com/Market+Check/Wall+St+slides+as+Nvidia+overhang+weighs+on+tech/27338658.html)、[Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html)",
+          "en": "US stocks closed mixed on Friday, Nov. 13: the Dow rose 50.46 points (0.10%) to 52,347.55; the S&P 500 lost 30.73 (0.40%) to 7,561.67; the Nasdaq fell 229.82 (0.91%) to 25,136.27.\n\n- For the week the S&P 500 gained 2.51%, the Nasdaq 2.27% and the Dow 2.07%, snapping a four-week losing streak for the S&P and Nasdaq.\n- The S&P tech sector fell 1.7%, the worst of 11 sectors; consumer staples and energy led.\n- October producer prices rose 6.5% year on year, the most since November 2022. CME FedWatch shows a December hike of at least 25 bp fully priced, with about a 10% chance of 50 bp.\n- The 10-year Treasury yield touched 5.17%; bitcoin fell below $70,000 for the first time in nearly three months.\n- Airlines slid late after the FAA's national ground stop; the NYSE Arca airline index fell 1.4%.\n- Anthropic's much-anticipated IPO is due next week.\n\nSources: [Reuters](https://www.streetinsider.com/Market+Check/Wall+St+slides+as+Nvidia+overhang+weighs+on+tech/27338658.html), [Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html)"
+        }
+      },
+      {
+        "id": "softbank-3-7b-power-charge",
+        "originalLang": "en",
+        "title": {
+          "zh": "软银因调整AI数据中心电力设备订单计提37亿美元",
+          "en": "SoftBank takes $3.7 billion charge on AI data-center power orders"
+        },
+        "summary": {
+          "zh": "软银在修改AI数据中心电力设备订单后计提37亿美元损失，源于不可退还的预付款和合同变更，凸显AI用电需求预测的不确定性。",
+          "en": "SoftBank took a $3.7 billion charge after revising orders for AI data-center power equipment, driven by nonrefundable payments and contract changes, a costly sign of uncertainty around projected AI electricity demand."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "pboc-october-m2-social-financing",
+        "originalLang": "zh",
+        "title": {
+          "zh": "10月末M2余额359.06万亿元，同比增长7.1%",
+          "en": "China's M2 rises 7.1% to 359.06 trillion yuan at end-October"
+        },
+        "summary": {
+          "zh": "央行11月13日数据显示，10月末广义货币（M2）余额359.06万亿元，同比增长7.1%；社会融资规模存量469.16万亿元，同比增长7.2%；前10个月社融增量28.61万亿元。",
+          "en": "PBOC data released Nov. 13 show M2 at 359.06 trillion yuan at end-October, up 7.1% year on year. Outstanding total social financing was 469.16 trillion yuan, up 7.2%, with 28.61 trillion yuan added in January to October."
+        },
+        "sources": [
+          {
+            "name": "万象早新闻（人民网、新华社等）",
+            "url": "https://www.cnxsg.cn/yw/202611/t20261114_7821996.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "中国证券报",
+            "url": "https://epaper.cs.com.cn/zgzqb/html/2026-11/14/nbs.D110000zgzqb_A01.htm",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "xi-to-chair-apec-shenzhen",
+        "originalLang": "zh",
+        "title": {
+          "zh": "习近平将出席深圳APEC领导人非正式会议",
+          "en": "Xi to chair APEC leaders' meeting in Shenzhen on Nov. 18-19"
+        },
+        "summary": {
+          "zh": "外交部11月13日宣布，APEC第三十三次领导人非正式会议将于11月18日至19日在深圳举行，主题为“建设亚太共同体，促进共同繁荣”，习近平将主持会议并发表讲话。据联合早报，日本首相高市早苗将借此首次访华。",
+          "en": "China's foreign ministry said on Nov. 13 that the 33rd APEC Economic Leaders' Meeting will be held in Shenzhen on Nov. 18-19 and chaired by Xi Jinping. Zaobao says Japan's PM Takaichi will make her first China visit."
+        },
+        "sources": [
+          {
+            "name": "羊城晚报（新华社电）",
+            "url": "https://ep.ycwb.com/epaper/ycwb/html/2026-11/14/node_2974.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "法治日报",
+            "url": "https://epaper.legaldaily.com.cn/fzrb/content/20261114/Page01TB.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "联合早报",
+            "url": "https://www.zaobao.com.sg/specials/cn/daily-brief/20261114",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "china-lithuania-diplomatic-talks",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中国外交官赴立陶宛，双方探讨恢复正常外交关系",
+          "en": "Chinese diplomats visit Lithuania in first step toward restoring ties"
+        },
+        "summary": {
+          "zh": "据联合早报，中国外交官抵达立陶宛，与立外交部代表会晤，探讨恢复官方关系与互派外交人员的条件，这是两国因台湾问题陷入僵局以来首次直接接触。立外长布德里斯称不指望重大突破。",
+          "en": "Zaobao reports Chinese diplomats met Lithuanian foreign ministry officials in Vilnius to discuss conditions for restoring diplomatic staffing, the first direct contact since ties froze over Taiwan. Foreign Minister Budrys said he expects no major breakthrough."
+        },
+        "sources": [
+          {
+            "name": "联合早报",
+            "url": "https://www.zaobao.com.sg/specials/cn/daily-brief/20261114",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "guangdong-trade-jan-oct",
+        "originalLang": "zh",
+        "title": {
+          "zh": "前10个月广东外贸进出口9.8万亿元，超去年全年",
+          "en": "Guangdong's Jan-Oct trade hits 9.8 trillion yuan, above all of last year"
+        },
+        "summary": {
+          "zh": "海关总署广东分署11月13日数据显示，今年前10个月广东外贸进出口9.8万亿元，同比增长25.7%，已超过去年全年规模；大湾区内地9市对APEC其他经济体进出口6.28万亿元，增长近三成。",
+          "en": "Customs data released Nov. 13 show Guangdong's foreign trade reached 9.8 trillion yuan in January-October, up 25.7% and already above last year's full-year total. The nine Greater Bay Area mainland cities traded 6.28 trillion yuan with other APEC economies, up nearly 30%."
+        },
+        "sources": [
+          {
+            "name": "羊城晚报",
+            "url": "https://ep.ycwb.com/epaper/ycwb/html/2026-11/14/node_2974.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "万象早新闻",
+            "url": "https://www.cnxsg.cn/yw/202611/t20261114_7821996.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

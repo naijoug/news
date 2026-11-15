@@ -1,0 +1,265 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-16",
+  "lead": {
+    "zh": "联合发射联盟火神火箭升空约10分钟后出现异常，亚马逊40颗Leo卫星未能入轨；伊朗再次对巴林美军基地发动无人机袭击；深圳APEC工商峰会将于17日开幕。",
+    "en": "A ULA Vulcan failed about 10 minutes after liftoff, leaving 40 Amazon Leo satellites short of orbit. Iran again launched drones at a U.S. base in Bahrain. Shenzhen's APEC CEO summit opens Tuesday."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "ula-vulcan-amazon-leo-failure",
+        "originalLang": "en",
+        "title": {
+          "zh": "ULA火神火箭升空后失败，亚马逊40颗Leo卫星未入轨",
+          "en": "ULA Vulcan fails, leaving 40 Amazon Leo satellites short of orbit"
+        },
+        "summary": {
+          "zh": "美国联合发射联盟的火神火箭15日从卡纳维拉尔角升空约10分钟后出现异常，未能将亚马逊40颗Leo宽带卫星送入轨道。这是该公司自2006年成立以来首次彻底失败。",
+          "en": "United Launch Alliance said its Vulcan rocket suffered an anomaly about 10 minutes after Sunday's liftoff from Cape Canaveral and failed to deliver 40 Amazon Leo broadband satellites to orbit, ULA's first outright failure since 2006."
+        },
+        "body": {
+          "zh": "据CBS新闻和《太空飞行现在》报道，火神火箭于美国东部时间15日中午12时40分从卡纳维拉尔角太空军基地41号工位升空，约10分钟后出现异常。联合发射联盟在升空约50分钟后发表声明称：“根据发射主任收到的数据，我们确认火箭出现异常，未能将亚马逊任务送入轨道。我们将与客户及相关机构查明原因，采取纠正措施，并尽快恢复飞行。”\n\n这是波音与洛克希德·马丁合资的联合发射联盟自2006年成立以来首次彻底失败，也是火神火箭的第五次飞行、九个月来的首次发射。该公司此前曾处理捆绑固体助推器喷管故障；周日固体助推器看似正常工作，但一级发动机燃烧时间长于预定计划。异常发生在氢燃料半人马座上面级计划约12分15秒的点火过程中，具体原因尚未公布。\n\n此次是亚马逊为Leo星座向联合发射联盟采购的38次火神发射中的第一次。CBS称，若成功，已发射的Leo卫星数量将增至436颗；建成星座需3300颗以上。亚马逊还预订了蓝色起源“新格伦”24次、欧洲阿丽亚娜6型24次和SpaceX猎鹰9号13次发射。亚马逊在X上说：“任何发射都有风险，对LV-01这样的首次任务尤其如此……我们相信他们会从这次任务中吸取教训，并兑现火神的长期计划。”美国宇航局局长艾萨克曼表示，NASA可协助调查与补救。\n\n来源：[CBS News](https://www.cbsnews.com/news/vulcan-rocket-40-amazon-leo-internet-satellites-launch-mishap/)、[Spaceflight Now](https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites/)、[The Verge](https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites)",
+          "en": "According to CBS News and Spaceflight Now, the Vulcan lifted off at 12:40 p.m. Eastern Time on Sunday from Space Launch Complex 41 at Cape Canaveral Space Force Station and ran into trouble about 10 minutes later. In a statement about 50 minutes after liftoff, ULA said: “Based on data received by our Launch Director, we confirm that the Vulcan vehicle … suffered an anomaly 10 minutes into the flight and failed to deliver the Amazon mission to orbit.” It said it would work with its customer and other organizations to find the cause, take corrective action and return to flight as quickly as possible.\n\nIt was the first outright failure of a United Launch Alliance rocket since the Boeing–Lockheed Martin joint venture was formed in 2006, and only the fifth flight of Vulcan — the first in nine months after earlier problems with strap-on solid-booster nozzles. The solids appeared to work normally on Sunday, but the first stage appeared to burn longer than the pre-launch timeline. ULA said the anomaly occurred during the hydrogen-fueled Centaur upper stage's planned 12-minute, 15-second burn. The cause was not immediately known.\n\nSunday's launch was the first of 38 Vulcan flights Amazon has bought for its Leo constellation, a rival to SpaceX's Starlink. CBS reported that a successful flight would have raised the number of Leo satellites launched to 436; more than 3,300 are needed to complete the network. Amazon has also booked 24 launches on Blue Origin's New Glenn, 24 on Europe's Ariane 6 and 13 on SpaceX Falcon 9s. In a post on X, Amazon said: “There is risk with any launch, and that's especially true for inaugural missions like LV-01. ULA has been a trusted partner for Amazon, and we believe they'll learn from this mission and deliver on their long-term plans for Vulcan.” NASA Administrator Jared Isaacman said the agency was available to help with the investigation.\n\nSources: [CBS News](https://www.cbsnews.com/news/vulcan-rocket-40-amazon-leo-internet-satellites-launch-mishap/), [Spaceflight Now](https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites/), [The Verge](https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites)"
+        },
+        "sources": [
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/vulcan-rocket-40-amazon-leo-internet-satellites-launch-mishap/",
+            "lang": "en"
+          },
+          {
+            "name": "Spaceflight Now",
+            "url": "https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites/",
+            "lang": "en"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "huang-discusses-nvidia-comeback",
+        "originalLang": "en",
+        "title": {
+          "zh": "金融时报：黄仁勋正向亲信讨论重返英伟达首席执行官职位",
+          "en": "FT: Huang discusses a possible return as Nvidia CEO with allies"
+        },
+        "summary": {
+          "zh": "路透社援引《金融时报》周日报道称，黄仁勋正与亲信讨论重返英伟达首席执行官职位。一名盟友称正组织硅谷“作战室”并向白宫游说。美国财长贝森特要求公司十日内给出解释。",
+          "en": "Reuters, citing the Financial Times, reported Sunday that Jensen Huang has discussed a possible return as Nvidia CEO with confidants. An ally said a Silicon Valley “war room” would also seek White House support. Treasury Secretary Scott Bessent demanded answers within 10 days."
+        },
+        "body": {
+          "zh": "路透社15日援引《金融时报》报道称，黄仁勋正在考虑重返英伟达首席执行官职位，并已与亲信讨论这一可能。一名盟友对《金融时报》表示，他们正组织硅谷高管“作战室”，为黄仁勋回归游说董事会，并试图争取白宫支持；该人士称黄仁勋支持这些努力。\n\n独立报和《金融时报》还提到，英伟达董事会仍在调查导致黄仁勋辞职的行为，并由首席财务官克雷斯任临时首席执行官，公司将于本周公布季报。报道称，财政部长贝森特周日呼吁对公司领导层进行“大幅改组”。Politico报道，贝森特在福克斯新闻节目中要求英伟达董事会及外聘律师十日内作出说明，并询问公司是否“故意忽视”新加坡等地空壳公司的预警信号。\n\nThe Verge报道，与黄仁勋传闻相关的新加坡公司Megaspeed发表声明称，Alice Huang已于2025年8月30日起离开公司，目前不担任任何职务。\n\n来源：[Reuters / Investing.com](https://www.investing.com/news/stock-market-news/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports-5028065)、[The Independent](https://www.independent.co.uk/news/world/americas/jensen-huang-nvidia-return-spy-b3085318.html)、[The Verge](https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed)、[Politico](https://www.politico.com/news/2026/11/15/bessent-pushes-back-chip-sale-legislation-01166709)",
+          "en": "Reuters reported on Sunday, citing the Financial Times, that Jensen Huang is considering a comeback as Nvidia's chief executive and has discussed the possibility with confidants. An ally told the FT they were putting together a “war room” of Silicon Valley executives to lobby the board for his return and would try to garner support from the White House; the person said Huang supported those efforts.\n\nThe Independent, also citing the FT, said Nvidia's board is still investigating the conduct that led to Huang's resignation, with CFO Colette Kress serving as interim CEO ahead of this week's earnings. It reported that Treasury Secretary Scott Bessent on Sunday called for a “drastic reorganization” of the company's leadership. According to Politico, Bessent told Fox News he wants answers “in the next 10 days from the board and from the outside counsel,” and asked whether Nvidia “intentionally ignored the warning signs of these shell companies, many of them in Singapore.”\n\nThe Verge reported that Megaspeed, the Singapore firm linked to the affair allegations, said Alice Huang left the company “effective Aug. 30, 2025, and currently has no role with the company.”\n\nSources: [Reuters / Investing.com](https://www.investing.com/news/stock-market-news/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports-5028065), [The Independent](https://www.independent.co.uk/news/world/americas/jensen-huang-nvidia-return-spy-b3085318.html), [The Verge](https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed), [Politico](https://www.politico.com/news/2026/11/15/bessent-pushes-back-chip-sale-legislation-01166709)"
+        },
+        "sources": [
+          {
+            "name": "Reuters / Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports-5028065",
+            "lang": "en"
+          },
+          {
+            "name": "The Independent",
+            "url": "https://www.independent.co.uk/news/world/americas/jensen-huang-nvidia-return-spy-b3085318.html",
+            "lang": "en"
+          },
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+            "lang": "en"
+          },
+          {
+            "name": "Politico",
+            "url": "https://www.politico.com/news/2026/11/15/bessent-pushes-back-chip-sale-legislation-01166709",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "iran-drones-bahrain-second-strike",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗再对巴林美军基地发动无人机袭击，巴林称已拦截",
+          "en": "Iran again launches drones at a U.S. base in Bahrain; Bahrain says it intercepted them"
+        },
+        "summary": {
+          "zh": "英国广播公司报道，伊朗革命卫队周日称以六架无人机袭击巴林里法空军基地的美防空雷达。巴林军方表示，袭击在达成目标前被拦截摧毁。这是三天来伊方第二次对巴林动手。",
+          "en": "The BBC reported that Iran's Revolutionary Guards said they used six drones on Sunday against a U.S. air-defense radar at al-Riffa air base in Bahrain. Bahrain said the attacks were intercepted before they could reach their targets, the second attempt in three days."
+        },
+        "body": {
+          "zh": "英国广播公司报道，伊朗伊斯兰革命卫队周日宣布，使用六架无人机袭击巴林里法空军基地的美国防空雷达设施。巴林军方称，防空系统在这些袭击“达成目标前”将其拦截并摧毁。巴林内政部在警报响起后呼吁民众前往最近的安全地点；外交部强烈谴责并称伊朗须对后果负责。\n\n这是三天来伊方第二次对巴林采取行动，也是自9月以来海湾国家再遭袭击。革命卫队称周五已打击美早期预警雷达，但美军予以否认，并表示当天两架单向攻击无人机均被击落，没有造成人员伤亡或损失。\n\n报道称，美伊仍在霍尔木兹海峡对峙。革命卫队在声明中说：“霍尔木兹海峡已经关闭，美国敌人的任何侵略都将遭到更严厉、更有力的回应。”英国广播公司还提到，特朗普本周表示美国不再有兴趣达成结束对伊战争的协议，并要求副总统万斯把精力转向美国国内政治。\n\n来源：[BBC](https://www.bbc.com/news/articles/cqn4e2py48kwo)",
+          "en": "The BBC reported that Iran's Islamic Revolutionary Guard Corps said it used six drones on Sunday against a U.S. air-defense radar facility at al-Riffa air base in Bahrain. Bahrain's military said its air defenses intercepted and destroyed the attacks “before they could achieve their objectives.” After sirens sounded, Bahrain's interior ministry urged people to head to the nearest safe location, and the foreign ministry condemned the attacks and said Iran was fully responsible for the consequences.\n\nIt was Iran's second attempt to target Bahrain in three days, and followed what the BBC described as Iran's first attack against Gulf countries since September. The IRGC claimed it struck a U.S. early-warning radar in Bahrain on Friday. The U.S. military denied that claim, saying two one-way attack drones were shot down and that there were no injuries or damage.\n\nThe BBC said the United States and Iran remain locked in a stand-off over the Strait of Hormuz. In a statement carried by Iranian state media, the IRGC said: “The Strait of Hormuz is closed, and any aggression by the American enemy will be met with an even harsher and more forceful response.” The report also said President Donald Trump said this week that the United States was no longer interested in a deal to end the war with Iran and told Vice President JD Vance to focus on domestic U.S. politics.\n\nSource: [BBC](https://www.bbc.com/news/articles/cqn4e2py48kwo)"
+        },
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/articles/cqn4e2py48kwo",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "houthis-advance-near-aden",
+        "originalLang": "en",
+        "title": {
+          "zh": "也门胡塞武装推进至距亚丁约60公里，政府军撤离曼德海峡",
+          "en": "Houthis advance to about 60 km from Aden as government forces leave Bab el-Mandeb"
+        },
+        "summary": {
+          "zh": "法新社援引军方和政府消息称，胡塞武装已推进至距国际承认的也门政府临时首都亚丁约60公里处，并控制马卡蒂拉、马达里巴等地区。政府军当天完成从曼德海峡附近的撤离，转而防守亚丁。",
+          "en": "AFP, cited by France 24, said Houthi forces had advanced to about 60 kilometers from Aden, Yemen's interim capital, after seizing districts including Al-Maqatirah and Al-Madaribah. Government forces withdrew from areas near the Bab el-Mandeb Strait to defend the city."
+        },
+        "body": {
+          "zh": "法国24台援引法新社15日报道，四名政府军军方消息人士和两名政府消息人士称，胡塞武装已控制马卡蒂拉和马达里巴地区，并推进至距亚丁约60公里的马达里巴哈尔拉兹营地。亚丁是国际承认的也门政府的临时所在地。\n\n报道称，沙特主导联盟支持的政府当天宣布，完成从曼德海峡附近地区的重新部署，把兵力调往“当前形势需要”的方向，优先保卫亚丁及邻近省份。军方官员周五曾对法新社表示，政府军已开始在亚丁周围堆沙袋、挖地道。胡塞武装近几周多次袭击亚丁，其中包括10月15日针对总统府、造成四人死亡的袭击。\n\n来源：[France 24 / AFP](https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say)、[The Straits Times](https://www.straitstimes.com/world/middle-east/yemens-houthis-60km-away-from-aden-city-military-government-sources-to-afp)",
+          "en": "France 24, citing AFP on Sunday, said four military sources in government forces and two government sources told the agency that the Houthis had seized the Al-Maqatirah and Al-Madaribah districts and were positioned at the Al-Kharaz camp in Al-Madaribah, about 60 kilometers (40 miles) from Aden, the interim seat of Yemen's internationally recognized government.\n\nEarlier on Sunday, the Saudi-led coalition-backed government announced it had completed a redeployment of its last forces from areas near the Bab el-Mandeb Strait, shifting troops to “where current circumstances require,” with securing Aden and nearby provinces the priority. Military officials told AFP on Friday that government forces had begun erecting sandbag defenses and digging tunnels around Aden. The Houthis have repeatedly attacked the city in recent weeks, including an Oct. 15 assault on the presidential palace that left four people dead, according to government military sources.\n\nSources: [France 24 / AFP](https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say), [The Straits Times](https://www.straitstimes.com/world/middle-east/yemens-houthis-60km-away-from-aden-city-military-government-sources-to-afp)"
+        },
+        "sources": [
+          {
+            "name": "France 24 / AFP",
+            "url": "https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say",
+            "lang": "en"
+          },
+          {
+            "name": "The Straits Times",
+            "url": "https://www.straitstimes.com/world/middle-east/yemens-houthis-60km-away-from-aden-city-military-government-sources-to-afp",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "estonia-close-russia-road-borders",
+        "originalLang": "en",
+        "title": {
+          "zh": "爱沙尼亚宣布12月1日起关闭对俄公路口岸",
+          "en": "Estonia to close road crossings with Russia from Dec. 1"
+        },
+        "summary": {
+          "zh": "爱沙尼亚外交部表示，政府计划自12月1日起关闭纳尔瓦、卢哈马和科伊杜拉等对俄公路口岸，以回应俄军情总局策动的对防务企业纵火未遂。总理米哈尔称不会被吓倒。",
+          "en": "Estonia's Foreign Ministry said the government plans to close road border crossings with Russia, including Narva, Luhamaa and Koidula, from Dec. 1, after a GRU-ordered arson attempt on a defense firm. Prime Minister Kristen Michal said Estonia would not be intimidated."
+        },
+        "body": {
+          "zh": "爱沙尼亚外交部15日发表声明说，政府计划自12月1日起关闭对俄公路口岸，以回应俄罗斯军事情报总局（GRU）策动的、针对防务企业Threod Systems的破坏未遂。外长察赫克纳说：“任何威胁爱沙尼亚安全、散布恐惧或对我们采取敌对行动的企图，都将得到坚决回应。”他已通报立陶宛、拉脱维亚、芬兰外长及欧盟同事，并将在周一布鲁塞尔欧盟外长会上讨论加强对俄压力。\n\n爱沙尼亚公共广播（ERR）报道，11月14日凌晨，八名拉脱维亚公民在塔林以北维姆西企图闯入Threod Systems厂区并制造爆炸和火灾后被拘。该企业内部安全局（KAPO）称，行动受俄军情总局指使。这是今年8月米尔雷姆机器人公司遇袭后，爱沙尼亚防务企业遭遇的第二次纵火未遂。总理米哈尔周日表示，已请内政部长塔罗和政府办公厅“准备必要步骤”，并称“我们不会被吓倒”。\n\nERR称，目前仍开放的公路口岸为纳尔瓦、卢哈马和科伊杜拉，每天开放12小时，行人与货运均可通行。塔罗说，他将向政府提议自12月初起对行人与车辆全部关闭这些公路口岸；是临时还是无限期将在未来几天讨论。已前往俄罗斯的本国居民和货车司机还有约两周时间返回。\n\n来源：[Estonian Ministry of Foreign Affairs](https://www.vm.ee/en/news/foreign-minister-tsahkna-estonia-close-road-border-crossings-russia)、[ERR](https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks)",
+          "en": "Estonia's Foreign Ministry said on Sunday that the government plans to close its road border crossings with Russia from Dec. 1, in response to a sabotage attempt targeting defense company Threod Systems that it said was commissioned by Russia's military intelligence agency, the GRU. “Any attempt to threaten Estonia's security, sow fear, or act hostilely against us will be met with a decisive response,” Foreign Minister Margus Tsahkna said. He said he had informed his counterparts in Lithuania, Latvia and Finland, as well as EU colleagues, and would discuss increasing pressure on Russia at Monday's meeting of EU foreign ministers in Brussels.\n\nERR reported that eight Latvian citizens were detained after an attempt early on Nov. 14 to break into Threod Systems' property in Viimsi, north of Tallinn, and cause an explosion and fire. Estonia's Internal Security Service (KAPO) said the attack was carried out on the GRU's orders. It was the second attempted arson attack on an Estonian defense firm since August, when Milrem Robotics was targeted. Prime Minister Kristen Michal said on Sunday he had asked Interior Minister Igor Taro and the Government Office to “prepare the necessary steps,” adding: “We will not be intimidated.”\n\nERR said the remaining road crossings — Narva, Luhamaa and Koidula — currently operate 12 hours a day and admit pedestrians and freight. Taro said he would propose that all Estonia–Russia road crossings be closed to both pedestrians and vehicles from the beginning of December; whether the step is temporary or indefinite would be discussed in the coming days. Residents and truck drivers who have traveled to Russia would have about two weeks to return home.\n\nSources: [Estonian Ministry of Foreign Affairs](https://www.vm.ee/en/news/foreign-minister-tsahkna-estonia-close-road-border-crossings-russia), [ERR](https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks)"
+        },
+        "sources": [
+          {
+            "name": "Estonian Ministry of Foreign Affairs",
+            "url": "https://www.vm.ee/en/news/foreign-minister-tsahkna-estonia-close-road-border-crossings-russia",
+            "lang": "en"
+          },
+          {
+            "name": "ERR",
+            "url": "https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "asia-markets-open-nvidia-hangover",
+        "originalLang": "en",
+        "title": {
+          "zh": "美股上周五科技股拖累收跌，澳股周一低开",
+          "en": "Asia stocks start softer after a tech-led pullback on Wall Street"
+        },
+        "summary": {
+          "zh": "据《布里斯班时报》报道，标普500指数上周五跌0.4%，纳斯达克跌0.9%，但当周仍分别录得涨幅。英伟达再跌2%，本周市值蒸发近6000亿美元。澳大利亚ASX 200周一早盘下跌。",
+          "en": "The Brisbane Times reported that the S&P 500 fell 0.4% and the Nasdaq 0.9% on Friday, though both indexes still gained for the week. Nvidia dropped another 2%, after a week in which it lost just under $600 billion in market value. Australia's ASX 200 opened lower on Monday."
+        },
+        "body": {
+          "zh": "据《布里斯班时报》报道，标普500指数上周五下跌0.4%，收于7561.67点，当周仍上涨2.5%，为10月以来首个上涨周，也是8月以来最大周涨幅。道琼斯指数上涨0.1%，收于52347.55点；纳斯达克综合指数下跌0.9%，收于25136.27点，但仍录下五周来首次周线收涨。尽管标普500成分股中逾六成上涨，人工智能相关科技股再度拖累大盘：英伟达跌2%，博通跌4.8%，超微半导体跌8.8%。报道称，黄仁勋辞职引发的震荡本周使英伟达市值蒸发略低于6000亿美元。\n\n微软在全球网络服务出现故障、影响电邮等应用的情况下仍上涨0.2%。十年期美国国债收益率升至5.15%。国际基准布伦特原油结算价为每桶95.84美元。报道还称，市场预期美联储将在12月会议上加息。\n\n周一亚洲开盘方面，澳大利亚S&P/ASX 200早盘下跌6.5点，报9075.7点；澳元兑美元报67.92美分。\n\n来源：[Brisbane Times](https://www.brisbanetimes.com.au/business/markets/asx-set-for-flat-start-nvidia-scandal-weighs-on-wall-street-20261116-p61eck.html)",
+          "en": "According to the Brisbane Times, the S&P 500 fell 0.4% on Friday to 7,561.67, but still posted a 2.5% gain for the week — its first winning week since October and its biggest weekly advance since August. The Dow Jones Industrial Average rose 0.1% to 52,347.55. The Nasdaq composite fell 0.9% to 25,136.27, yet notched its first weekly gain in five weeks. More than 60% of S&P 500 stocks rose, but a slump in AI-focused technology shares weighed on the market: Nvidia fell 2%, Broadcom 4.8% and Advanced Micro Devices 8.8%. The report said the fallout after Jensen Huang's resignation cost Nvidia just under $600 billion in market value this week.\n\nMicrosoft rose 0.2% despite a global outage of its web services that disrupted email and other applications. The 10-year Treasury yield rose to 5.15%. Brent crude, the international benchmark, settled at $95.84 a barrel. The report also said the Federal Reserve is expected to raise rates at its December meeting.\n\nIn early Monday trade, Australia's S&P/ASX 200 was down 6.5 points at 9,075.7, and the Australian dollar was at 67.92 U.S. cents.\n\nSource: [Brisbane Times](https://www.brisbanetimes.com.au/business/markets/asx-set-for-flat-start-nvidia-scandal-weighs-on-wall-street-20261116-p61eck.html)"
+        },
+        "sources": [
+          {
+            "name": "Brisbane Times",
+            "url": "https://www.brisbanetimes.com.au/business/markets/asx-set-for-flat-start-nvidia-scandal-weighs-on-wall-street-20261116-p61eck.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "bessent-chip-export-enforcement",
+        "originalLang": "en",
+        "title": {
+          "zh": "贝森特：对华芯片出口不必再立法，关键是执行现有规则",
+          "en": "Bessent says the U.S. needs enforcement, not new chip-export laws"
+        },
+        "summary": {
+          "zh": "Politico报道，美国财长贝森特周日表示，限制对华芯片销售“不需要新的立法，只需要执行已有规则”，并要求英伟达十日内作出说明。国会两党仍希望把更严出口管制写入年底国防授权法案。",
+          "en": "Politico reported that Treasury Secretary Scott Bessent said Sunday the U.S. needs enforcement of existing rules, not new laws, to limit chip sales to China, and he demanded answers from Nvidia within 10 days. Lawmakers still want tighter controls in the year-end defense bill."
+        },
+        "body": {
+          "zh": "据Politico报道，美国财政部长贝森特周日在福克斯新闻节目中反驳了国会关于需要新法来限制对华芯片销售的主张。他说：“我认为我们不需要这项立法。我们需要的规则都已有了，只是必须得到执行。”他要求英伟达董事会及外聘律所Wachtell, Lipton, Rosen & Katz在十日内作出说明，并问公司是否“故意忽视”新加坡等地空壳公司的预警信号：“这是底层失误、中层问题，还是进入了高管层？”\n\n报道称，黄仁勋辞职后，国会希望借助年底国防授权法案收紧对华芯片出口。印第安纳州共和党参议员班克斯与马萨诸塞州民主党参议员沃伦等人主张立法堵住中企采购先进芯片的迂回渠道。众议院对华委员会主席穆勒纳尔周日在哥伦比亚广播公司节目中质问商务部为何未能执行或调查可疑做法，以及黄仁勋在多大程度上影响了出口管制。众议院少数党领袖、预计将成为下任议长的杰弗里斯则希望推动参议院草案中的三项条款，包括要求高端芯片配备防走私追踪技术、让国会参与出口许可，以及收紧芯片制造设备出口并推动盟友跟进。\n\n来源：[Politico](https://www.politico.com/news/2026/11/15/bessent-pushes-back-chip-sale-legislation-01166709)",
+          "en": "Politico reported that Treasury Secretary Scott Bessent on Sunday pushed back against lawmakers who say the United States needs stronger statutes to limit chip sales to China. “I don't think we need the legislation,” he told Fox News. “We have all the rules we need, we just need them enforced.” Bessent said he wants answers “in the next 10 days from the board and from the outside counsel” — Nvidia has hired Wachtell, Lipton, Rosen & Katz to lead an internal probe — and asked whether the company “intentionally ignored the warning signs of these shell companies, many of them in Singapore.” “Was it a low level fail? Was it in the middle or was it up in the C-suite?” he said.\n\nAccording to the report, momentum has been building in Congress to tighten export curbs through the year-end defense bill after Huang's resignation. Sens. Jim Banks (R-Ind.) and Elizabeth Warren (D-Mass.) are among those arguing that legislation is needed to close workarounds used to buy advanced U.S. chips. House China Select Committee Chair John Moolenaar (R-Mich.) asked on CBS's “Face the Nation” why the Commerce Department had not enforced or investigated questionable practices, and “to what degree did Jensen Huang influence that.” House Minority Leader Hakeem Jeffries, who is expected to become the next speaker, wants three Senate-bill proposals included: tracking technology on high-end chips to prevent smuggling, a congressional role in export licensing, and tighter curbs on chipmaking equipment, including pressure on allies to follow.\n\nSource: [Politico](https://www.politico.com/news/2026/11/15/bessent-pushes-back-chip-sale-legislation-01166709)"
+        },
+        "sources": [
+          {
+            "name": "Politico",
+            "url": "https://www.politico.com/news/2026/11/15/bessent-pushes-back-chip-sale-legislation-01166709",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "apec-ceo-summit-shenzhen-ready",
+        "originalLang": "zh",
+        "title": {
+          "zh": "APEC工商领导人峰会17日起在深圳举行，习近平将出席开幕式",
+          "en": "APEC CEO Summit opens in Shenzhen on Tuesday; Xi to address the opening"
+        },
+        "summary": {
+          "zh": "新华社报道，2026年APEC工商领导人峰会将于11月17日至18日在深圳前海举行，主题为“共促繁荣，共赢未来”。习近平主席将出席开幕式并发表主旨演讲，预计超2000位政商领袖与会。",
+          "en": "Xinhua reported that the 2026 APEC CEO Summit will be held Nov. 17-18 in Shenzhen's Qianhai under the theme \"Shared Prosperity, a Shared Future.\" President Xi Jinping will attend the opening and deliver a keynote. More than 2,000 political and business leaders are expected."
+        },
+        "body": {
+          "zh": "新华社16日报道，2026年亚太经合组织（APEC）工商领导人峰会将于11月17日至18日在深圳前海国际会议中心举行。中国贸促会副会长李庆霜在15日的专题新闻发布会上说，习近平主席将出席峰会开幕式并发表主旨演讲；2000余位政商领袖将齐聚前海。本次峰会主题为“共促繁荣，共赢未来”，并将发布《2026年APEC工商领导人峰会深圳倡议》。李庆霜称，这是工商领导人峰会创办30年来首次以倡议形式发布成果文件，面向领导人非正式会议建言献策。\n\n李庆霜介绍，参会企业包括世界500强115家；美国参会企业数量居外方经济体之首，占比近20%；代表覆盖全部21个APEC经济体，并有来自英国、法国、德国、瑞士等13个域外经济体的企业。澳大利亚、加拿大、智利、中国香港、印度尼西亚、韩国、马来西亚、墨西哥、俄罗斯、泰国、越南等经济体领导人将出席并发表演讲、致辞或参与研讨。议题包括互联互通、开放普惠的人工智能创新生态、可持续发展、亚太自贸区、数字经济、粤港澳大湾区，以及数字化与绿色化协同转型。\n\n来源：[新华网](https://www.news.cn/world/20261116/d5cad49ccb8446dba56727ffb1ab91aa/c.html)",
+          "en": "Xinhua reported on Nov. 16 that the 2026 APEC CEO Summit will be held on Nov. 17–18 at the Qianhai International Conference Center in Shenzhen. At a briefing on Nov. 15, CCPIT Vice Chair Li Qingshuang said President Xi Jinping will attend the opening ceremony and deliver a keynote speech, and that more than 2,000 political and business leaders will gather in Qianhai. The theme is “Shared Prosperity, a Shared Future.” Organizers will issue a “Shenzhen Initiative,” which Li said would be the first outcome document in the summit's 30-year history released in the form of an initiative, intended as advice to the Economic Leaders' Meeting.\n\nLi said 115 Fortune Global 500 companies will take part; U.S. firms account for nearly 20% of participating companies from outside the Chinese mainland, the largest share among foreign economies. Delegates will cover all 21 APEC economies, with companies also coming from 13 non-APEC economies including Britain, France, Germany and Switzerland. Leaders or representatives from Australia, Canada, Chile, Hong Kong, Indonesia, South Korea, Malaysia, Mexico, Russia, Thailand and Vietnam will speak or join discussions. Topics include connectivity, an open and inclusive AI innovation ecosystem, sustainable development, the Free Trade Area of the Asia-Pacific, the digital economy, the Guangdong–Hong Kong–Macao Greater Bay Area, and coordinated digital and green transition.\n\nSource: [Xinhua](https://www.news.cn/world/20261116/d5cad49ccb8446dba56727ffb1ab91aa/c.html)"
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/world/20261116/d5cad49ccb8446dba56727ffb1ab91aa/c.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "qiushi-asia-pacific-community",
+        "originalLang": "zh",
+        "title": {
+          "zh": "《求是》发表习近平文章《携手共建亚太命运共同体》",
+          "en": "Qiushi publishes Xi's article on building an Asia-Pacific community"
+        },
+        "summary": {
+          "zh": "11月16日出版的第22期《求是》杂志发表习近平重要文章《携手共建亚太命运共同体》，摘编其2013年10月至2025年11月有关论述，强调构建开放包容、创新增长、互联互通、合作共赢的亚太命运共同体。",
+          "en": "Issue 22 of Qiushi, published on Nov. 16, carries Xi Jinping's article “Joining Hands to Build an Asia-Pacific Community with a Shared Future,” excerpted from remarks between October 2013 and November 2025, calling for an open, inclusive, innovative and connected Asia-Pacific."
+        },
+        "body": {
+          "zh": "新华社15日电，11月16日出版的第22期《求是》杂志将发表中共中央总书记、国家主席、中央军委主席习近平的重要文章《携手共建亚太命运共同体》。这是习近平2013年10月至2025年11月期间有关重要论述的节录。《人民日报》16日在头版刊发了这一消息。\n\n文章强调，亚太各经济体利益交融、命运与共，一荣俱荣、一损俱损；当今亚太是全球最具增长活力和发展潜力的经济板块，也是世界经济增长的重要引擎。要牢固树立亚太命运共同体意识，共同构建开放包容、创新增长、互联互通、合作共赢的亚太命运共同体。文章指出，亚太要继续做推动经济全球化的火车头，带头维护和平稳定，坚定维护以世贸组织为核心、以规则为基础的多边贸易体制，推进区域经济一体化和亚太自由贸易区建设。\n\n文章强调，无论发展到什么程度，中国都将扎根亚太、建设亚太、造福亚太；中方愿同各方携手，着力推进亚太自由贸易区、互联互通、数字经济、人工智能等务实合作。\n\n来源：[求是网](https://www.qstheory.cn/20261115/0ba6e3b6a09d4de682db3a4b947ff530/c.html)、[人民日报 / 人民网](https://politics.people.com.cn/n1/2026/1116/c1024-40834172.html)",
+          "en": "Xinhua reported on Nov. 15 that issue 22 of Qiushi, published on Nov. 16, would carry an important article by Xi Jinping, general secretary of the Communist Party of China Central Committee, president and chairman of the Central Military Commission, titled “Joining Hands to Build an Asia-Pacific Community with a Shared Future.” The piece is a compilation of excerpts from his remarks between October 2013 and November 2025. People's Daily carried the report on its front page on Nov. 16.\n\nThe article says the interests of Asia-Pacific economies are intertwined and that they share a common future, rising and falling together. It describes today's Asia-Pacific as the world's most dynamic region with the greatest development potential, and as an important engine of global growth. It calls for firmly establishing a sense of an Asia-Pacific community with a shared future, and for jointly building one that is open and inclusive, driven by innovative growth, interconnected and mutually beneficial. The Asia-Pacific, it says, should remain a locomotive of economic globalization, take the lead in safeguarding peace and stability, firmly uphold the WTO-centered, rules-based multilateral trading system, and advance regional economic integration and a Free Trade Area of the Asia-Pacific.\n\nThe article says that no matter how far it develops, China will remain rooted in the Asia-Pacific, build it and benefit it, and is ready to work with all parties on practical cooperation in a regional free-trade area, connectivity, the digital economy and artificial intelligence.\n\nSources: [Qiushi](https://www.qstheory.cn/20261115/0ba6e3b6a09d4de682db3a4b947ff530/c.html), [People's Daily](https://politics.people.com.cn/n1/2026/1116/c1024-40834172.html)"
+        },
+        "sources": [
+          {
+            "name": "求是网",
+            "url": "https://www.qstheory.cn/20261115/0ba6e3b6a09d4de682db3a4b947ff530/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "人民日报 / 人民网",
+            "url": "https://politics.people.com.cn/n1/2026/1116/c1024-40834172.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

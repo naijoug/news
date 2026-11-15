@@ -2,8 +2,8 @@
   "$schema": "../../../schemas/edition.schema.json",
   "date": "2026-11-15",
   "lead": {
-    "zh": "星舰飞船首次被发射塔捕获；美国航班乱局料今晚缓和；第49届东盟峰会在马尼拉开幕。",
-    "en": "SpaceX catches Starship for the first time; US flights may normalize tonight; the 49th ASEAN Summit opens in Manila."
+    "zh": "星舰飞船首次被发射塔捕获；伊朗称霍尔木兹海峡油轮触雷起火；美俄中三国元首拟19日在深圳举行三方会晤。",
+    "en": "SpaceX catches Starship; Iran says tankers hit mines in Hormuz; Trump, Xi and Putin plan a Nov. 19 meeting in Shenzhen."
   },
   "am": {
     "tech": [
@@ -238,6 +238,288 @@
           {
             "name": "外交部",
             "url": "https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/202611/t20261111_12057265.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "italy-fines-meta-android-photos",
+        "originalLang": "en",
+        "title": {
+          "zh": "意大利因安卓相册访问对Meta处以8.05亿欧元罚款",
+          "en": "Italy fines Meta €805 million over Android photo access"
+        },
+        "summary": {
+          "zh": "意大利数据保护机构周六宣布，因Facebook安卓应用在未获得充分同意的情况下访问用户相册照片和视频，对Meta处以8.05亿欧元（约8.87亿美元）罚款。Meta表示将上诉。",
+          "en": "Italy's data protection authority said Saturday it had fined Meta €805 million ($887 million) after finding that a Facebook Android feature accessed users' photos and videos without adequate consent. Meta said it would appeal."
+        },
+        "body": {
+          "zh": "据路透社报道，意大利数据保护机构（Garante）认定，Facebook安卓应用中一项从个人相册推荐可发布内容的功能，在未充分告知、也未取得单独同意的情况下访问了用户的照片和视频。该机构称，约2000万意大利安卓用户受到影响，罚款约相当于Meta全球营收的0.47%。Meta须在60天内默认关闭该功能，并另行征求用户同意。\n\nMeta发言人说，公司“强烈不同意”这一决定，认为罚款“不成比例”，并将上诉。发言人表示，这是一项帮助用户在Facebook分享照片和视频的功能，须先获得设备权限，用户也可随时在设置中更改。该机构称，调查始于2025年，并未涵盖相关内容是否可能用于训练人工智能模型；Meta否认存在这种做法。当局还表示，保留对2026年推出的一项可在云端处理相册内容的新功能另行评估的权利。\n\n来源：[路透社 / 印度快报](https://indianexpress.com/article/technology/tech-news-technology/italy-fines-meta-887-million-over-android-users-data-access-10963990/)、[意大利数据保护机构](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10321080)、[BBC](https://www.bbc.com/news/articles/cwn83gxemk35o)",
+          "en": "According to Reuters, Italy's data protection authority (the Garante) found that a Facebook Android feature suggesting posts from users' personal galleries had accessed photos and videos without adequate notice or separate consent. The authority said about 20 million Android users in Italy were affected, and that the fine equals about 0.47% of Meta's global revenue. Meta has 60 days to disable the feature by default and seek users' consent separately.\n\nA Meta spokesperson said the company “strongly disagree[d]” with the decision, called the fine “disproportionate,” and said it would appeal. The spokesperson said the feature helps people share photos and videos on Facebook, that users must grant device permission before it can operate, and that they can change that permission in their settings. The authority said the investigation, which began in 2025, did not cover the possible use of the content to train artificial intelligence models, a practice Meta denied. It also reserved the right to assess separately a feature launched in 2026 that allows gallery content to be processed in the cloud.\n\nSources: [Reuters / The Indian Express](https://indianexpress.com/article/technology/tech-news-technology/italy-fines-meta-887-million-over-android-users-data-access-10963990/), [Garante Privacy](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10321080), [BBC](https://www.bbc.com/news/articles/cwn83gxemk35o)"
+        },
+        "sources": [
+          {
+            "name": "Reuters / The Indian Express",
+            "url": "https://indianexpress.com/article/technology/tech-news-technology/italy-fines-meta-887-million-over-android-users-data-access-10963990/",
+            "lang": "en"
+          },
+          {
+            "name": "Garante Privacy",
+            "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10321080",
+            "lang": "en"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/articles/cwn83gxemk35o",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "hormuz-tankers-mine-strikes",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗称霍尔木兹海峡三艘油轮触雷起火，路透尚未独立核实",
+          "en": "Iran says three tankers hit mines and caught fire in Hormuz"
+        },
+        "summary": {
+          "zh": "伊朗海军和革命卫队称，三艘油轮周六在霍尔木兹海峡触发水雷后起火，其中两艘被指关闭定位系统、走“未授权航线”。路透社表示无法立即独立核实。事发海域是全球能源运输要道，美伊对立仍在持续。",
+          "en": "Iran's navy and Revolutionary Guards said three oil tankers caught fire on Saturday after striking mines in the Strait of Hormuz, including two they accused of transiting an unauthorized route with tracking systems off. Reuters said it could not immediately verify the reports."
+        },
+        "body": {
+          "zh": "据路透社援引伊朗官方媒体报道，伊朗海军称，一艘油轮周六上午在霍尔木兹海峡东部触雷，另有两艘当天晚些时候触雷起火。伊斯兰革命卫队海军对晚间这起事件称，“两艘违规油轮”试图从“禁止航线”秘密通过，触雷后爆炸并起火。路透社写道，其当时无法立即独立核实这些说法。\n\n法新社报道称，伊方声明未公布船只名称、所属国籍或人员伤亡情况；革命卫队称，南部海峡被击中的船只中有一艘是超大型油轮。中东媒体援引革命卫队的说法称，另有试图秘密通过的油轮在接到交管警告后折返波斯湾。\n\n霍尔木兹海峡是全球原油运输的关键水道。法新社和《阿拉伯新闻》指出，自今年2月美伊冲突爆发以来，伊朗要求过往船只事先获得授权，并多次宣称对未遵守规定的船只采取行动；美国则对伊朗港口实施海上封锁，并称已清除主航道上的水雷。此类事件目前仍主要来自伊方单方面通报。\n\n来源：[路透社 / The Star](https://www.thestar.com.my/news/world/2026/11/15/iran039s-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz)、[法新社 / Arab News](https://www.arabnews.com/middle-east/iran-reports-three-incidents-of-oil-tankers-hit-by-mines-in-hormuz-3011782)、[阿纳多卢通讯社](https://www.aa.com.tr/en/middle-east/2-oil-tankers-hit-mines-catch-fire-near-strait-of-hormuz-irans-revolutionary-guard/4125453)",
+          "en": "Reuters, citing Iranian state media, reported that Iran's navy said one tanker struck a mine in the eastern Strait of Hormuz on Saturday morning and two others struck mines later in the day and caught fire. The Islamic Revolutionary Guard Corps Navy said of the later incident that “two violating tankers” had been trying to slip through a prohibited route when they hit mines, exploded and burst into flames. Reuters said it could not immediately verify the reports.\n\nAFP reported that the statements did not name the vessels or their origins, or give information about casualties. The Guards said one of the ships hit in the south of the strait was a supertanker. Middle East Eye, citing the IRGC, said other tankers that had also been trying to transit secretly turned back toward the Persian Gulf after warnings from the naval traffic-control center.\n\nThe strait is a vital corridor for global oil shipments. AFP and Arab News noted that, since war erupted between Iran and the United States in February, Tehran has required vessels to obtain authorization to cross and has said it has acted against ships that do not comply. The United States has imposed a naval blockade on Iranian ports and, according to those reports, says it has cleared mines from the main routes. The latest incidents remain, for now, largely based on Iranian official accounts.\n\nSources: [Reuters / The Star](https://www.thestar.com.my/news/world/2026/11/15/iran039s-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz), [AFP / Arab News](https://www.arabnews.com/middle-east/iran-reports-three-incidents-of-oil-tankers-hit-by-mines-in-hormuz-3011782), [Anadolu Agency](https://www.aa.com.tr/en/middle-east/2-oil-tankers-hit-mines-catch-fire-near-strait-of-hormuz-irans-revolutionary-guard/4125453)"
+        },
+        "sources": [
+          {
+            "name": "Reuters / The Star",
+            "url": "https://www.thestar.com.my/news/world/2026/11/15/iran039s-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz",
+            "lang": "en"
+          },
+          {
+            "name": "AFP / Arab News",
+            "url": "https://www.arabnews.com/middle-east/iran-reports-three-incidents-of-oil-tankers-hit-by-mines-in-hormuz-3011782",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/middle-east/2-oil-tankers-hit-mines-catch-fire-near-strait-of-hormuz-irans-revolutionary-guard/4125453",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "zelensky-donbas-nato-idea",
+        "originalLang": "en",
+        "title": {
+          "zh": "泽连斯基称美方首次提出以北约成员国资格换取乌克兰撤出顿巴斯",
+          "en": "Zelensky says US floated Donbas withdrawal in exchange for NATO"
+        },
+        "summary": {
+          "zh": "乌克兰总统泽连斯基说，美国谈判代表首次提出：若乌克兰加入北约，是否愿从顿巴斯撤军。美方未证实这一表述，并对英国广播公司表示“许多想法仍在讨论”。泽连斯基称，若出现包含安全保证的具体方案，他会提交公投。",
+          "en": "Zelensky said US negotiators asked for the first time whether Ukraine would leave Donbas if it joined NATO. Washington has not confirmed that account; an official told the BBC many ideas are still being discussed. He said a package with security guarantees would go to referendum."
+        },
+        "body": {
+          "zh": "据英国广播公司报道，泽连斯基办公室周六发布的讲话中，总统转述美方提出的问题：“如果乌克兰加入北约？乌克兰是否会撤出顿巴斯？”他说，这是该问题“第一次被提出”。美国尚未证实他的说法。一名美国官员对BBC表示，“许多想法仍在讨论中，但任何最终协议都必须得到双方同意”。\n\n泽连斯基还说，如果收到一份包含安全保证、不限制乌克兰军事力量以及重建资金的具体方案，他会将其付诸公投。美国特使库什纳和维特科夫周四在都柏林会见泽连斯基，此前他们刚在莫斯科与普京会谈。库什纳在泽连斯基表态数小时后呼吁对敏感进程“保密”，并提到谈判中出现了被报道的“最高要价”方案和“强烈的政治言辞”。\n\n俄罗斯目前占领乌克兰约五分之一领土，包括顿巴斯大部分地区，并继续要求乌克兰交出尚未被俄军占领的顿巴斯其余部分以及2014年被其吞并的克里米亚。基辅长期寻求加入北约，但一直拒绝割让领土；莫斯科则反对乌克兰成为北约成员国。\n\n来源：[BBC](https://www.bbc.com/news/articles/cwvg2l312ylqo)、[ABC News](https://www.abc.net.au/news/2026-11-15/us-idea-of-ukraine-ceding-donbas-to-join-nato-zelenskyy/107386558)、[法国24台](https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership)",
+          "en": "According to the BBC, Zelensky said in remarks released by his office on Saturday that US negotiators had asked: “What if Ukraine joins Nato? Would Ukraine withdraw from Donbas?” He said it was “the first time this had been raised.” The United States has not confirmed his account. A US official told the BBC that “many ideas continue to be discussed but any final deal will have to be agreed to by both parties.”\n\nZelensky said that if he received a specific proposal that included security guarantees, no constraints on Ukraine's military and funds to rebuild the country, he would put it to a referendum. US envoys Jared Kushner and Steve Witkoff met him in Dublin on Thursday after talks with Vladimir Putin in Moscow. Hours after Zelensky's remarks, Kushner urged “confidentiality” in a sensitive process and referred to reports of “maximalist” proposals and “strong political rhetoric.”\n\nRussia currently occupies roughly a fifth of Ukrainian territory, including most of the Donbas, and has continued to demand that Ukraine also cede the parts of the region Russian forces have not captured, as well as Crimea, which Moscow annexed in 2014. Kyiv has long sought NATO membership and has refused to give up sovereign territory; Moscow has opposed Ukrainian membership of the alliance.\n\nSources: [BBC](https://www.bbc.com/news/articles/cwvg2l312ylqo), [ABC News](https://www.abc.net.au/news/2026-11-15/us-idea-of-ukraine-ceding-donbas-to-join-nato-zelenskyy/107386558), [France 24](https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership)"
+        },
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/articles/cwvg2l312ylqo",
+            "lang": "en"
+          },
+          {
+            "name": "ABC News",
+            "url": "https://www.abc.net.au/news/2026-11-15/us-idea-of-ukraine-ceding-donbas-to-join-nato-zelenskyy/107386558",
+            "lang": "en"
+          },
+          {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "hamas-rafah-commander-killed",
+        "originalLang": "en",
+        "title": {
+          "zh": "哈马斯称拉法旅指挥官在以军空袭中身亡，以色列证实",
+          "en": "Hamas says Rafah brigade commander killed; Israel confirms"
+        },
+        "summary": {
+          "zh": "哈马斯武装派别称，拉法旅指挥官、53岁的萨米尔·阿布·尤尼斯周六在以色列空袭中身亡，并称他曾参与策划和指挥2023年10月7日袭击。以色列军方证实击杀了他。葬礼定于周日下午在汗尤尼斯举行。",
+          "en": "Hamas said Samir Abu Younis, 53, commander of its Rafah brigade, was killed in an Israeli airstrike on Saturday and had helped plan the Oct. 7, 2023 attack. The Israeli military confirmed his death. A funeral was set for Sunday in Khan Younis."
+        },
+        "body": {
+          "zh": "路透社报道，哈马斯卡桑旅周日表示，拉法旅指挥官萨米尔·阿布·尤尼斯周六在以色列空袭中身亡。哈马斯称，现年53岁的阿布·尤尼斯1991年加入其武装派别，曾参与策划并指挥2023年10月7日对以色列的袭击。以色列军方证实，在加沙南部的夜间打击中击杀了他，并称他自前任纳埃尔·阿布·奥贝德于9月15日被击毙后担任拉法旅指挥官。\n\n医护人员对路透社说，袭击发生在汗尤尼斯迈瓦西地区的一条街道上，另有人员受伤。哈马斯称葬礼将于周日下午在汗尤尼斯举行。2025年10月的停火中止了以色列与哈马斯之间的大规模战斗，但并未结束袭击，也未解决哈马斯解除武装问题。路透社引述加沙卫生部门称，停火生效以来至少已有1600名巴勒斯坦人死亡，另有5名以色列士兵死亡。\n\n来源：[路透社](https://www.reuters.com/world/middle-east/israeli-military-says-it-struck-senior-commander-hamas-military-wing-2026-11-14/)、[美联社](https://apnews.com/article/mideast-news-israel-gaza-iran-november-15-2026-3b4adde832dadd333451fd2f7a51908c)",
+          "en": "Reuters reported that Hamas's Al-Qassam Brigades said on Sunday that Samir Abu Younis, commander of the Rafah brigade, had been killed in an Israeli airstrike on Saturday. Hamas said Abu Younis, 53, joined its armed wing in 1991 and had helped plan and oversee the Oct. 7, 2023 attack on Israel. The Israeli military said it had killed him in a strike in the southern Gaza Strip overnight, and that he had led the Rafah brigade since his predecessor, Nael Abu Obeid, was killed on Sept. 15.\n\nMedics told Reuters that Abu Younis was killed and others were wounded in a strike that targeted him in a street in the Mawasi area of Khan Younis. Hamas said his funeral would be held on Sunday afternoon in Khan Younis. An October 2025 ceasefire halted major fighting in the Israel-Gaza war but has not stopped Israeli attacks or secured Hamas's disarmament. Gaza health authorities, Reuters reported, say at least 1,600 Palestinians have been killed since the ceasefire took effect, while five Israeli soldiers have been killed.\n\nSources: [Reuters](https://www.reuters.com/world/middle-east/israeli-military-says-it-struck-senior-commander-hamas-military-wing-2026-11-14/), [AP](https://apnews.com/article/mideast-news-israel-gaza-iran-november-15-2026-3b4adde832dadd333451fd2f7a51908c)"
+        },
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/israeli-military-says-it-struck-senior-commander-hamas-military-wing-2026-11-14/",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-november-15-2026-3b4adde832dadd333451fd2f7a51908c",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "canada-asean-philippines-fta",
+        "originalLang": "en",
+        "title": {
+          "zh": "加拿大宣布与东盟、菲律宾自贸谈判实质完成，力争2027年签署",
+          "en": "Canada says it has concluded ASEAN and Philippines trade talks"
+        },
+        "summary": {
+          "zh": "加拿大总理卡尼在马尼拉宣布，加拿大—东盟自贸协定谈判已实质完成，并与菲律宾结束自贸谈判，目标都是2027年签署。加方预计东盟协定生效后可为加拿大GDP增加近20亿加元、创造约1.4万个就业岗位。",
+          "en": "Prime Minister Mark Carney announced in Manila that ASEAN-Canada trade talks were substantially concluded and negotiations with the Philippines were finished, with both aimed at signing in 2027. Canada said the ASEAN deal could add nearly C$2 billion to GDP and about 14,000 jobs."
+        },
+        "body": {
+          "zh": "据加拿大总理办公室11月14日发布的声明，卡尼以第49届东盟峰会主席国嘉宾身份在马尼拉宣布，加拿大与东盟的自贸协定（ACAFTA）谈判已实质完成。声明称，东盟人口近7亿、经济规模接近6万亿美元；协定一旦生效，预计将为加拿大国内生产总值增加近20亿加元，并创造约1.4万个就业岗位，尤其是在农业和制造业。双方希望尽快完成剩余步骤，争取2027年签署。加拿大还宣布提供500万加元援助，协助东盟各经济体完成批准并分享协定收益。\n\n卡尼还宣布，加拿大与菲律宾的自贸谈判在双方一年前决定启动后已经结束，同样争取2027年签署。加方称，协定生效后，至2035年对菲出口有望最高增至三倍，农业和林产品将是重点。卡尼此行同时宣布延长至2033年的“暗船探测”项目，以及约2600万加元用于核安全、气候韧性农业和粮食安全等领域的合作。\n\n来源：[加拿大总理办公室](https://www.pm.gc.ca/en/news/news-releases/2026/11/14/canada-concludes-negotiations-two-new-free-trade-agreements)",
+          "en": "In a Nov. 14 statement from the Prime Minister's Office, Mark Carney, attending the 49th ASEAN Summit as Guest of the Chair, announced the substantial conclusion of negotiations on an ASEAN-Canada free trade agreement (ACAFTA). The statement said ASEAN has a population of almost 700 million and an economy of close to $6 trillion. Once in force, the agreement is expected to add nearly C$2 billion to Canada's GDP and create nearly 14,000 Canadian jobs, particularly in agriculture and manufacturing. The remaining steps are to be completed as quickly as possible, with the ambition of signing in 2027. Canada also announced C$5 million in assistance to help ASEAN economies ratify the deal and benefit from it.\n\nCarney also announced that Canada and the Philippines had concluded negotiations on a bilateral free trade agreement, one year after they decided to pursue it, and that both countries are working toward signature in 2027. Once in force, the deal could increase exports up to three times by 2035, the statement said, particularly in agriculture and forest products. During the visit, Canada also said it would extend its Dark Vessel Detection program until 2033 and announced C$26 million in investments related to nuclear security and safety, climate-resilient agriculture, and food security.\n\nSource: [Prime Minister of Canada](https://www.pm.gc.ca/en/news/news-releases/2026/11/14/canada-concludes-negotiations-two-new-free-trade-agreements)"
+        },
+        "sources": [
+          {
+            "name": "Prime Minister of Canada",
+            "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/14/canada-concludes-negotiations-two-new-free-trade-agreements",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "asean-digital-economy-framework",
+        "originalLang": "en",
+        "title": {
+          "zh": "东盟数字经济框架协定移交秘书长，预计2027年初生效",
+          "en": "ASEAN digital economy pact handed over, seen in force in early 2027"
+        },
+        "summary": {
+          "zh": "东盟各国部长周六在马尼拉签署《东盟数字经济框架协定》。周日开幕式上，菲律宾总统马科斯将已签署文本移交东盟秘书长高金洪。新华社援引东盟秘书处称，该协定预计于2027年初生效。",
+          "en": "ASEAN ministers signed the Digital Economy Framework Agreement in Manila on Saturday. On Sunday, President Marcos handed the signed text to Secretary-General Kao Kim Hourn. Xinhua, citing the ASEAN Secretariat, said it is expected to take effect in early 2027."
+        },
+        "body": {
+          "zh": "新华社报道，第49届东盟峰会15日在马尼拉开幕。开幕式上，轮值主席国菲律宾总统马科斯向东盟秘书长高金洪移交了14日由各国部长签署的《东盟数字经济框架协定》文本。东盟秘书处称，该协定是东盟迈向开放、安全、可互操作、有竞争力和包容的区域数字经济的重要一步，预计于2027年初正式生效。开幕式还发布了更新版东盟徽标，图案包含11穗稻子，以欢迎东帝汶成为第11个成员国。\n\n新加坡《亚洲新闻台》报道，这是全球首份覆盖整个区域、具有法律约束力的数字经济协定，内容包括跨境数据流动、端到端数字贸易、源代码保护、网络安全和人工智能等。新加坡副总理兼贸工部长颜金勇说，谈判历时数年，既要保持一定雄心，也要照顾成员国不同准备程度，协定允许保留例外，并希望能在明年早些时候生效。\n\n来源：[新华网](https://www.news.cn/world/20261115/49e14c9a7faf453ba25f3d781fc6d9c7/c.html)、[CNA](https://www.channelnewsasia.com/singapore/asean-digital-economy-framework-agreement-6551526)、[马尼拉时报](https://www.manilatimes.net/2026/11/15/news/marcos-hands-over-signed-asean-digital-economy-framework-agreement-to-asean-secretary-general/2470195)",
+          "en": "Xinhua reported that, at the opening of the 49th ASEAN Summit in Manila on Sunday, Philippine President Ferdinand Marcos Jr., the bloc's chair, handed the ASEAN Digital Economy Framework Agreement — signed on Saturday by ministers from member states — to Secretary-General Kao Kim Hourn. According to the ASEAN Secretariat, the agreement is a major step toward an open, secure, interoperable, competitive and inclusive regional digital economy and is expected to enter into force in early 2027. An updated ASEAN emblem with 11 rice stalks was also unveiled, marking Timor-Leste's entry as the 11th member.\n\nCNA described the pact as the world's first region-wide, legally binding digital economy agreement. It covers cross-border data flows, end-to-end digital trade, protection of source code, cybersecurity and artificial intelligence. Singapore's Deputy Prime Minister and Minister for Trade Gan Kim Yong said the deal had taken several years to negotiate, balancing ambition with members' different levels of readiness, and that exceptions would be allowed. He said he hoped it would come into force “sometime early next year.”\n\nSources: [Xinhua](https://www.news.cn/world/20261115/49e14c9a7faf453ba25f3d781fc6d9c7/c.html), [CNA](https://www.channelnewsasia.com/singapore/asean-digital-economy-framework-agreement-6551526), [The Manila Times](https://www.manilatimes.net/2026/11/15/news/marcos-hands-over-signed-asean-digital-economy-framework-agreement-to-asean-secretary-general/2470195)"
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/world/20261115/49e14c9a7faf453ba25f3d781fc6d9c7/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/singapore/asean-digital-economy-framework-agreement-6551526",
+            "lang": "en"
+          },
+          {
+            "name": "The Manila Times",
+            "url": "https://www.manilatimes.net/2026/11/15/news/marcos-hands-over-signed-asean-digital-economy-framework-agreement-to-asean-secretary-general/2470195",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "li-qiang-arrives-manila",
+        "originalLang": "en",
+        "title": {
+          "zh": "李强抵达马尼拉，出席第29次中国—东盟领导人会议",
+          "en": "Li Qiang arrives in Manila for the 29th China-ASEAN Summit"
+        },
+        "summary": {
+          "zh": "新华社消息，中国国务院总理李强15日抵达菲律宾马尼拉，应东盟轮值主席国菲律宾总统马科斯邀请，出席第29次中国—东盟领导人会议。他此前刚结束对泰国的正式访问。",
+          "en": "Xinhua reported that Chinese Premier Li Qiang arrived in Manila on Sunday for the 29th China-ASEAN Summit at the invitation of Philippine President Ferdinand Marcos Jr., the rotating chair of ASEAN. Li had just concluded an official visit to Thailand."
+        },
+        "body": {
+          "zh": "新华社15日18时18分发出快讯：李强当日抵达马尼拉，应东盟轮值主席国菲律宾总统马科斯邀请，出席第29次中国—东盟领导人会议。中国外交部此前宣布，李强于11月15日至16日赴菲律宾与会，此前则于13日至15日对泰国进行正式访问。他14日在曼谷会见了泰国国王哇集拉隆功。\n\n第49届东盟峰会及相关会议15日至17日在马尼拉举行。按既定安排，李强此行主要出席中国—东盟领导人会议，行程与美国总统特朗普17日出席东盟—美国特别峰会错开。\n\n来源：[新华社](https://english.news.cn/20261115/dd725fecc7f94cfeb88646cbbe090d05/c.html)、[外交部](https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/202611/t20261111_12057265.shtml)",
+          "en": "Xinhua reported in a Sunday dispatch timed at 18:18 Beijing time that Li Qiang had arrived in Manila that day for the 29th China-ASEAN Summit, at the invitation of President Ferdinand Romualdez Marcos Jr. of the Philippines, the rotating chair of ASEAN. China's Foreign Ministry had earlier said Li would be in Manila on Nov. 15–16, after an official visit to Thailand from Nov. 13–15. On Nov. 14 he met King Maha Vajiralongkorn in Bangkok.\n\nThe 49th ASEAN Summit and related meetings run from Nov. 15 to 17 in Manila. Li's program is centered on the China-ASEAN Summit, and it does not overlap with President Donald Trump's scheduled appearance at the ASEAN-US special summit on Nov. 17.\n\nSources: [Xinhua](https://english.news.cn/20261115/dd725fecc7f94cfeb88646cbbe090d05/c.html), [Ministry of Foreign Affairs](https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/202611/t20261111_12057265.shtml)"
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261115/dd725fecc7f94cfeb88646cbbe090d05/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "外交部",
+            "url": "https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/202611/t20261111_12057265.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "trump-xi-putin-shenzhen-meeting",
+        "originalLang": "en",
+        "title": {
+          "zh": "克里姆林宫确认普京、习近平、特朗普将于19日在深圳举行三方会晤",
+          "en": "Kremlin says Putin, Xi and Trump will meet in Shenzhen on Nov. 19"
+        },
+        "summary": {
+          "zh": "克里姆林宫发言人佩斯科夫14日对塔斯社表示，已达成协议，俄罗斯总统普京、中国国家主席习近平和美国总统特朗普将于11月19日在深圳亚太经合组织会议期间举行三方会晤。美联社称白宫此前也已确认相关安排。",
+          "en": "Kremlin spokesman Peskov told TASS on Saturday that Putin, Xi Jinping and Trump will meet in Shenzhen on Nov. 19, on the sidelines of the APEC summit. AP reported that the White House had also confirmed the plans."
+        },
+        "body": {
+          "zh": "塔斯社14日报道，佩斯科夫说：“已经达成协议，将于19日举行普京总统、习主席和特朗普总统的三方会晤。这次会晤将在深圳亚太经合组织峰会期间举行。”亚太经合组织领导人会议定于18日至19日在深圳举行。\n\n阿纳多卢通讯社指出，特朗普曾在11月8日表示预期在峰会上会见普京和习近平；中国外交部11月6日曾表示，有关会晤的讨论当时仍在进行，尚未宣布达成协议。克里姆林宫助理乌沙科夫上月曾说，三方会晤的准备工作已经启动，但俄美尚未商定在峰会期间另举行普京与特朗普的双边会晤。美联社报道称，白宫已于周五确认这一三方会晤安排，并形容这将是美中俄三个最大核国家领导人的一次罕见同场会谈。\n\n来源：[塔斯社](https://tass.com/politics/2218203)、[阿纳多卢通讯社](https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290)、[美联社](https://apnews.com/article/trump-xi-putin-summit-china-5fe92253ef38100bae913834a9b74d72)",
+          "en": "TASS reported on Saturday that Peskov said: “An agreement has been reached to hold a trilateral meeting on the 19th between President Putin, President Xi, and President Trump. This meeting will take place in Shenzhen on the sidelines of the APEC summit.” The APEC Economic Leaders' Meeting is scheduled for Nov. 18–19 in Shenzhen.\n\nAnadolu Agency noted that Trump said on Nov. 8 that he expected to meet Putin and Xi at the summit, and that China's Foreign Ministry said on Nov. 6 that discussions were under way and that no agreement had yet been announced. Kremlin aide Yury Ushakov said last month that preparations had begun and that Russia and the United States had not agreed on a separate bilateral meeting between Putin and Trump on the sidelines. AP reported that the White House confirmed the three-way meeting on Friday, describing it as an unusual gathering of the leaders of the world's biggest nuclear powers.\n\nSources: [TASS](https://tass.com/politics/2218203), [Anadolu Agency](https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290), [AP](https://apnews.com/article/trump-xi-putin-summit-china-5fe92253ef38100bae913834a9b74d72)"
+        },
+        "sources": [
+          {
+            "name": "TASS",
+            "url": "https://tass.com/politics/2218203",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/trump-xi-putin-summit-china-5fe92253ef38100bae913834a9b74d72",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nrddl-2026-insurance-drug-list",
+        "originalLang": "zh",
+        "title": {
+          "zh": "2026年国家医保药品目录发布，新增107种药品、51个一类新药",
+          "en": "China adds 107 drugs, including 51 innovative ones, to insurance list"
+        },
+        "summary": {
+          "zh": "国家医保药品目录与商保创新药目录14日在苏州发布。基本医保目录新增107种药品，其中一类创新药51种，为历年最多；12种药品进入商保创新药目录。新版目录将于2027年1月1日起执行。",
+          "en": "China released its 2026 national medical insurance drug list on Saturday in Suzhou, adding 107 drugs, including a record 51 Class I innovative medicines. Twelve drugs join a commercial innovative-drug list. The new lists take effect on Jan. 1, 2027."
+        },
+        "body": {
+          "zh": "新华社15日报道，2026年国家医保药品目录和商保创新药目录14日在苏州举行的创新药高质量发展大会上发布。基本医保目录新增107种药品，其中一类新药51个，数量再创新高；另有12种药品进入商保创新药目录。调整后，基本医保目录内药品总数增至3331种。新版目录自2027年1月1日起执行。\n\n新华社引述国家医保局医药服务管理司司长黄心宇说，此次调整重点将临床获益明确、能够填补治疗空白的创新药纳入保障范围，并兼顾重大疾病、儿童用药、老年慢病用药等。新增药品包括31种肿瘤用药、7种抗感染用药、24种慢性病用药、18种罕见病药物、11种中成药和5种精神疾病用药等。报道称，CAR-T药物瑞基奥仑赛注射液首次被纳入基本医保目录。第一财经报道，新增107种药品中，98种为谈判新增、9种为竞价新增，另有部分长期不生产或已被替代的药品调出。\n\n来源：[新华社 / 中国经济网](https://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261115_3294615.shtml)、[第一财经](https://www.yicai.com/news/103440767.html)",
+          "en": "Xinhua reported on Sunday that China released the 2026 national medical insurance drug catalog and the commercial health-insurance innovative-drug catalog on Saturday at a conference in Suzhou. The basic list adds 107 drugs, including a record 51 Class I innovative medicines, while 12 drugs were added to the commercial list. After the adjustment, the basic catalog contains 3,331 drugs. The new lists take effect on Jan. 1, 2027.\n\nXinhua quoted Huang Xinyu, head of the National Healthcare Security Administration's medical-service department, as saying the update focused on innovative drugs with clear clinical benefit that can fill treatment gaps, as well as medicines urgently needed for major diseases, children and older patients with chronic illness. The 107 additions include 31 oncology drugs, 7 anti-infectives, 24 drugs for chronic disease, 18 for rare diseases, 11 traditional Chinese medicines and 5 psychiatric drugs, according to the report. Xinhua said a CAR-T therapy, relmacabtagene autoleucel, was included in the basic list for the first time. Yicai reported that 98 of the new drugs entered through negotiations and 9 through competitive bidding, while some products that had been replaced clinically or were no longer produced were removed.\n\nSources: [Xinhua / China Economic Net](https://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261115_3294615.shtml), [Yicai](https://www.yicai.com/news/103440767.html)"
+        },
+        "sources": [
+          {
+            "name": "新华社 / 中国经济网",
+            "url": "https://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261115_3294615.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "第一财经",
+            "url": "https://www.yicai.com/news/103440767.html",
             "lang": "zh"
           }
         ]

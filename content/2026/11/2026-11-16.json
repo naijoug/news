@@ -261,5 +261,258 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "chatgpt-wallet-agent-payments",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI推出ChatGPT Wallet，让智能体代用户付款",
+          "en": "OpenAI launches ChatGPT Wallet for agent purchases"
+        },
+        "summary": {
+          "zh": "OpenAI推出ChatGPT Wallet，首批面向部分美国Pro用户。用户绑定一次银行卡，智能体选好商品后由用户以面容或指纹逐笔确认，商家收到一次性代付令牌，智能体和商家都看不到真实卡号。",
+          "en": "OpenAI introduced ChatGPT Wallet for a limited group of US Pro subscribers. Users add a card once, then approve each agent purchase with Face ID or a fingerprint; merchants get a single-use token, so neither the agent nor the shop sees the real card number."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-16-2026/",
+            "lang": "en"
+          },
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/briefing/2026-11-16",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "congress-chip-export-lutnick",
+        "originalLang": "en",
+        "title": {
+          "zh": "英伟达风波后美国两党推动收紧AI芯片出口规则",
+          "en": "Congress moves to tighten AI chip export rules after Nvidia scandal"
+        },
+        "summary": {
+          "zh": "两党议员推动收紧AI芯片出口规则，并要求黄仁勋与商务部长卢特尼克作证；搁置多时的《远程访问安全法》重获关注。《纽约时报》报道称卢特尼克曾推动放宽可能影响康托·菲茨杰拉德一家马来西亚数据中心客户的规则。",
+          "en": "Both parties back tighter AI chip export rules and want Jensen Huang and Commerce Secretary Lutnick to testify. The stalled Remote Access Security Act is back in play after the NYT said Lutnick pushed to ease rules affecting a Malaysian client of Cantor Fitzgerald."
+        },
+        "sources": [
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/briefing/2026-11-16",
+            "lang": "en"
+          },
+          {
+            "name": "ai0.news",
+            "url": "https://ai0.news/posts/2026-11-16-daily-digest/",
+            "lang": "en"
+          },
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-16-2026/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "alibaba-qwen4-max-preview",
+        "originalLang": "en",
+        "title": {
+          "zh": "阿里发布Qwen4-Max预览版，支持百万token上下文",
+          "en": "Alibaba previews Qwen4-Max with a million-token context"
+        },
+        "summary": {
+          "zh": "阿里巴巴开放Qwen4-Max预览，支持图像与视频输入及最多100万token上下文，已上线Qwen App、Qoder等产品。第三方评测Artificial Analysis给出43分、平均成本3.27美元，评价偏冷。同日MiniMax开源H3-Image图像模型。",
+          "en": "Alibaba opened a Qwen4-Max preview with image and video input and up to a million tokens of context, live in the Qwen app and Qoder. Artificial Analysis scored it 43 at $3.27 average cost, a lukewarm debut. MiniMax separately released open weights for its H3-Image model."
+        },
+        "sources": [
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/briefing/2026-11-16",
+            "lang": "en"
+          },
+          {
+            "name": "ai0.news",
+            "url": "https://ai0.news/posts/2026-11-16-daily-digest/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "ukraine-drones-moscow-crimea-bridge",
+        "originalLang": "en",
+        "title": {
+          "zh": "乌克兰向俄发动超1300架无人机袭击，克里米亚大桥遇袭",
+          "en": "Ukraine launches 1,300-plus drones at Russia and hits the Crimean bridge"
+        },
+        "summary": {
+          "zh": "俄方称一夜拦截逾1300架乌克兰无人机，其中约600架飞向莫斯科地区，为开战以来规模最大的袭击之一；克里米亚大桥遇袭，交通受限。俄军同时打击乌克兰六个州的能源设施。联合国秘书长古特雷斯呼吁立即无条件停火。",
+          "en": "Russia said it downed over 1,300 Ukrainian drones overnight, about 600 bound for the Moscow region, one of Kyiv's largest attacks of the war. The Crimean bridge was hit. Russian strikes cut power in six Ukrainian regions; UN chief Guterres urged an immediate ceasefire."
+        },
+        "sources": [
+          {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/europe/20261116-live-600-ukrainian-drones-target-moscow-strike-crimea-bridge-halts-traffic",
+            "lang": "en"
+          },
+          {
+            "name": "The Independent",
+            "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-crimea-moscow-b3085494.html",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据法国24台和《独立报》报道，俄方周一称一夜之间拦截逾1300架乌克兰无人机，是近五年战争中基辅规模最大的袭击之一。莫斯科市长索比亚宁说，约600架无人机飞向莫斯科地区，其中191架在接近莫斯科时被击落。\n\n- 克里米亚俄方任命的负责人阿克肖诺夫称，连接俄罗斯与克里米亚的刻赤海峡大桥遇袭，桥上交通限行至周一中午，未透露受损细节。\n- 俄军当晚打击乌克兰能源和铁路设施，乌能源部副部长涅克拉索夫称文尼察、第聂伯罗彼得罗夫斯克、敖德萨等六个州停电。泽连斯基称，前线Starshield终端限速令部分打击得以突破。\n- 罗马尼亚总理称，三艘商船在苏利纳运河附近黑海水域遭无人机袭击，无人伤亡。\n- 袭击发生在普京、特朗普和习近平深圳会晤前几天；美方官员称俄乌战争预计不是会谈重点。古特雷斯在马尼拉东盟峰会期间呼吁立即无条件停火。\n\n来源：[France 24](https://www.france24.com/en/europe/20261116-live-600-ukrainian-drones-target-moscow-strike-crimea-bridge-halts-traffic)、[The Independent](https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-crimea-moscow-b3085494.html)",
+          "en": "Russia said Monday it had intercepted more than 1,300 Ukrainian drones overnight, one of Kyiv's largest attacks of the nearly five-year war, France 24 and The Independent reported. Moscow Mayor Sergey Sobyanin said about 600 drones flew toward the Moscow region and 191 were downed on approach to the capital.\n\n- Crimea's Russian-installed head Sergei Aksyonov said the Kerch Strait bridge was struck and traffic limited until Monday midday; he gave no damage details.\n- Russian strikes on energy and rail infrastructure cut power in six Ukrainian regions, including Vinnytsia, Dnipropetrovsk and Odesa, Deputy Energy Minister Artem Nekrasov said. Zelensky blamed speed limits on Starshield terminals along the front for letting some strikes through.\n- Romania's prime minister said drones hit three commercial ships near the Sulina canal in the Black Sea, without casualties.\n- The barrage came days before a Shenzhen meeting of Putin, Trump and Xi; US officials say the war is not expected to be a focus. UN Secretary-General Guterres, at the ASEAN summit in Manila, called for an immediate, unconditional ceasefire.\n\nSources: [France 24](https://www.france24.com/en/europe/20261116-live-600-ukrainian-drones-target-moscow-strike-crimea-bridge-halts-traffic), [The Independent](https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-crimea-moscow-b3085494.html)"
+        }
+      },
+      {
+        "id": "hormuz-tankers-mines-third-carrier",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗称霍尔木兹又有两艘油轮触雷起火；美第三艘航母据报驰援中东",
+          "en": "Iran says two more tankers hit Hormuz mines; third US carrier reportedly heads to region"
+        },
+        "summary": {
+          "zh": "伊朗革命卫队称两艘油轮在霍尔木兹海峡南部触雷爆炸起火，其中一艘沉没，两天内共有六艘油轮起火。另据报道，美国第三艘航母正部署至中东，五角大楼尚未证实。伊朗议长称不会停留在“不战不和”状态。",
+          "en": "Iran's IRGC said two tankers hit mines and burned in the Strait of Hormuz, sinking one; six have caught fire in two days. A third US carrier is reportedly heading to the region, unconfirmed by the Pentagon. Iran vowed not to stay in 'neither war nor peace.'"
+        },
+        "sources": [
+          {
+            "name": "The Indian Express",
+            "url": "https://indianexpress.com/article/world/world-news-today-live-updates-tankers-catch-fire-strait-of-hormuz-iran-us-donald-trump-benjamin-netanyahu-saudi-arabia-jensen-huang-nvidia-10964913/",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-16-2026/4126094",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261116/00055113636b428fb787c33ef0bb7cc5/c.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "asia-markets-nov16-ai-selloff",
+        "originalLang": "en",
+        "title": {
+          "zh": "AI硬件股重挫拖累亚太股市，创业板指跌4.37%",
+          "en": "AI hardware selloff hits Asia; ChiNext drops 4.37%"
+        },
+        "summary": {
+          "zh": "英伟达风波持续发酵，亚太科技股周一普跌：日经225指数跌2.42%，韩国KOSPI跌3.59%，上证指数跌0.87%，深成指跌2.53%，创业板指跌4.37%，科创50跌5.2%；恒指逆势涨0.46%。英伟达财报和Anthropic上市本周将检验AI行情。",
+          "en": "Asian tech shares slid Monday amid the Nvidia turmoil: the Nikkei fell 2.42%, the KOSPI 3.59%, the Shanghai Composite 0.87%, ChiNext 4.37% and the STAR50 5.2%; the Hang Seng rose 0.46%. Nvidia's earnings and Anthropic's IPO this week will test the AI trade."
+        },
+        "sources": [
+          {
+            "name": "RTHK",
+            "url": "https://news.rthk.hk/rthk/en/component/k2/1878003-20261116.htm",
+            "lang": "en"
+          },
+          {
+            "name": "SquawkNews",
+            "url": "https://squawknews.com/news/932615-asian-markets-close-mixed-nikkei-225-2-42-hang-seng-0-46-shanghai-composite-0-87-kospi",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据香港电台和SquawkNews，11月16日（周一）亚太股市涨跌互现，AI硬件股领跌。\n\n- 日经225指数跌1480点（2.42%）至59662点，英伟达供应商爱德万测试跌11.1%、东京电子跌7.1%，两者合计拖累指数1072点。\n- 韩国KOSPI跌190.03点（3.59%）至5100.50点。SK海力士宣布未来五年投入10.5亿美元扶持本土半导体材料、零部件和设备供应商。\n- 上证指数跌0.87%至3602点，徘徊在2025年7月以来低位；沪深300跌1%，深成指跌2.53%，创业板指跌4.37%，科创50跌5.2%；5G通信指数跌7.5%，光模块龙头中际旭创跌12.3%。\n- 恒生指数逆势涨116点（0.46%）至23753点，恒生科技指数跌0.3%。\n- 摩根士丹利认为，中国反通缩政策仍是渐进式的，建议精选个股而非整体押注。\n\n本周英伟达周二发布三季报、Anthropic预计上市，被视为AI牛市能否延续的关键考验。\n\n来源：[RTHK](https://news.rthk.hk/rthk/en/component/k2/1878003-20261116.htm)、[SquawkNews](https://squawknews.com/news/932615-asian-markets-close-mixed-nikkei-225-2-42-hang-seng-0-46-shanghai-composite-0-87-kospi)",
+          "en": "Asian markets closed mixed on Monday, Nov. 16, with AI hardware shares leading losses, according to RTHK and SquawkNews.\n\n- The Nikkei 225 fell 1,480 points (2.42%) to 59,662. Nvidia supplier Advantest lost 11.1% and Tokyo Electron 7.1%, together taking 1,072 points off the index.\n- South Korea's KOSPI dropped 190.03 points (3.59%) to 5,100.50. SK Hynix said it will spend $1.05 billion over five years to support domestic chip-material and equipment suppliers.\n- The Shanghai Composite fell 0.87% to 3,602, near its lowest since July 2025. The CSI300 lost 1%, the Shenzhen Component 2.53%, ChiNext 4.37% and the STAR50 5.2%. A 5G communications index slid 7.5%; optical-module maker Zhongji Innolight fell 12.3%.\n- The Hang Seng rose 116 points (0.46%) to 23,753; the Hang Seng Tech index slipped 0.3%.\n- Morgan Stanley said China's anti-deflation steps remain incremental and favored stock-picking over broad exposure.\n\nNvidia's results on Tuesday and Anthropic's expected listing this week are seen as key tests of the AI rally.\n\nSources: [RTHK](https://news.rthk.hk/rthk/en/component/k2/1878003-20261116.htm), [SquawkNews](https://squawknews.com/news/932615-asian-markets-close-mixed-nikkei-225-2-42-hang-seng-0-46-shanghai-composite-0-87-kospi)"
+        }
+      },
+      {
+        "id": "baidu-q3-ai-revenue",
+        "originalLang": "zh",
+        "title": {
+          "zh": "百度三季度营收308亿元，AI业务收入占比连续三季过半",
+          "en": "Baidu Q3 revenue 30.8 billion yuan; AI over half of core revenue for third quarter"
+        },
+        "summary": {
+          "zh": "百度16日发布三季报：营收308亿元，一般性业务收入250亿元，同比增长1%，超出市场预期；AI业务收入132亿元，占一般性业务收入53%，连续三个季度过半。AI云基础设施收入同比增长94%。",
+          "en": "Baidu reported third-quarter revenue of 30.8 billion yuan on Monday. General business revenue rose 1% to 25 billion yuan, beating expectations; AI revenue of 13.2 billion yuan made up 53% of it, over half for a third straight quarter. AI cloud infrastructure revenue grew 94%."
+        },
+        "sources": [
+          {
+            "name": "中国金融信息网",
+            "url": "https://www.cnfin.com/gs-lb/detail/20261116/4496213_1.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "china-october-economy-data",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国家统计局：10月规上工业增加值增长4.8%，社零增速放缓至0.4%",
+          "en": "October data: industrial output up 4.8%, retail sales slow to 0.4%"
+        },
+        "summary": {
+          "zh": "国家统计局16日发布：10月规上工业增加值同比增长4.8%，高技术制造业增长17.6%；社会消费品零售总额增长0.4%；1—10月固定资产投资下降8.1%，房地产开发投资降21.6%；10月进出口增长31.2%，城镇调查失业率5.1%，PPI同比涨5.7%。",
+          "en": "October industrial output rose 4.8% (high-tech manufacturing 17.6%) but retail sales grew only 0.4%. Fixed-asset investment fell 8.1% in Jan-Oct, property investment 21.6%. October trade rose 31.2%, urban unemployment was 5.1% and PPI rose 5.7%."
+        },
+        "sources": [
+          {
+            "name": "国家统计局",
+            "url": "https://www.stats.gov.cn/zwfwck/sjfb/202611/t20261116_1965844.html",
+            "lang": "zh"
+          },
+          {
+            "name": "国家统计局答记者问",
+            "url": "https://www.stats.gov.cn/sj/sjjd/202611/t20261116_1965869.html",
+            "lang": "zh"
+          },
+          {
+            "name": "中国金融信息网",
+            "url": "https://www.cnfin.com/gs-lb/detail/20261116/4496213_1.html",
+            "lang": "zh"
+          }
+        ],
+        "body": {
+          "zh": "国家统计局11月16日发布10月国民经济运行数据，称经济“总体平稳、向新向优”，同时承认“国内供强需弱仍较突出，部分企业生产经营困难”。\n\n- **生产**：10月规模以上工业增加值同比增长4.8%，环比增长0.21%；装备制造业增长10.6%，高技术制造业增长17.6%。3D打印设备、锂离子电池、工业机器人产量分别增长85.9%、30.0%、26.0%。服务业生产指数增长4.6%。\n- **消费**：10月社会消费品零售总额46463亿元，同比仅增长0.4%；1—10月社零增长1.0%，含服务在内的零售总额增长2.5%，其中服务零售额增长4.9%。\n- **投资**：1—10月固定资产投资（不含农户）同比下降8.1%，其中房地产开发投资下降21.6%，民间投资下降11.4%，知识产权产品投资增长9.2%。新建商品房销售额下降14.3%，二手房网签面积增长11.4%。\n- **外贸**：10月货物进出口同比增长31.2%，其中出口增长28.7%、进口增长34.7%；1—10月增长20.0%。\n- **就业与价格**：10月城镇调查失业率5.1%，比上月下降0.1个百分点；CPI同比上涨0.7%，PPI同比上涨5.7%，涨幅扩大0.7个百分点。\n\n发言人付凌晖解释，PPI上涨主要受国际能源价格高位震荡等输入性因素和AI带动电子、电气机械行业需求影响，油气开采、石油加工等五个行业合计拉动PPI约3.63个百分点。另一位发言人王冠华表示，要客观看待月度指标波动，实现全年预期目标“有支撑、有条件”。同日数据还显示，10月一线城市新建商品住宅价格环比持平，各线城市同比降幅继续收窄。\n\n来源：[国家统计局](https://www.stats.gov.cn/zwfwck/sjfb/202611/t20261116_1965844.html)、[国家统计局答记者问](https://www.stats.gov.cn/sj/sjjd/202611/t20261116_1965869.html)、[中国金融信息网](https://www.cnfin.com/gs-lb/detail/20261116/4496213_1.html)",
+          "en": "China's National Bureau of Statistics released October data on Nov. 16, describing the economy as 'generally stable' while acknowledging that 'strong supply and weak demand remain prominent' and some firms face difficulties.\n\n- **Output**: Industrial value added rose 4.8% year on year (0.21% month on month). Equipment manufacturing grew 10.6% and high-tech manufacturing 17.6%. Output of 3D printers, lithium-ion batteries and industrial robots rose 85.9%, 30.0% and 26.0%. The services production index rose 4.6%.\n- **Consumption**: October retail sales of consumer goods were 4.6463 trillion yuan, up just 0.4%. For January-October they rose 1.0%; retail sales including services rose 2.5%, with services up 4.9%.\n- **Investment**: Fixed-asset investment fell 8.1% in January-October. Property development investment fell 21.6% and private investment 11.4%, while investment in intellectual property products rose 9.2%. New-home sales by value fell 14.3%; resale-home contract area rose 11.4%.\n- **Trade**: October goods trade rose 31.2% (exports +28.7%, imports +34.7%); January-October trade rose 20.0%.\n- **Jobs and prices**: The surveyed urban unemployment rate fell 0.1 point to 5.1%. CPI rose 0.7% and PPI 5.7%, up 0.7 point from September.\n\nSpokesman Fu Linghui attributed PPI gains mainly to imported energy-price pressure and AI-driven demand for electronics and electrical machinery; five energy-related industries added about 3.63 points. Spokesman Wang Guanhua said monthly swings should be viewed objectively and that the full-year target remains achievable. Separate data showed first-tier new-home prices flat month on month in October, with annual declines narrowing.\n\nSources: [NBS](https://www.stats.gov.cn/zwfwck/sjfb/202611/t20261116_1965844.html), [NBS Q&A](https://www.stats.gov.cn/sj/sjjd/202611/t20261116_1965869.html), [CNFIN](https://www.cnfin.com/gs-lb/detail/20261116/4496213_1.html)"
+        }
+      },
+      {
+        "id": "li-qiang-china-asean-summit",
+        "originalLang": "zh",
+        "title": {
+          "zh": "李强出席中国—东盟领导人会议，自贸区3.0版12月1日生效",
+          "en": "Li Qiang at China-ASEAN summit; FTA 3.0 to take effect Dec. 1"
+        },
+        "summary": {
+          "zh": "李强16日在马尼拉出席第29次中国—东盟领导人会议，称双方在国际经贸限制大幅增多下仍坚定维护多边主义，期待早日达成“南海行为准则”。会议宣布中国—东盟自贸区3.0版升级议定书12月1日生效，2027年定为“中国—东盟人工智能合作年”。",
+          "en": "At the 29th China-ASEAN summit in Manila, Premier Li Qiang said both sides uphold multilateralism despite rising trade curbs and urged an early South China Sea code. The FTA 3.0 upgrade takes effect Dec. 1, and 2027 is the China-ASEAN year of AI cooperation."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/politics/leaders/20261116/19b535ee785b441bb983db2249181e49/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "中国政府网",
+            "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086170.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "联合早报",
+            "url": "https://www.zaobao.com.sg/news/china/story20261116-10005548",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

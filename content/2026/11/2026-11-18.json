@@ -1,0 +1,270 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-18",
+  "lead": {
+    "zh": "英伟达黄仁勋离任后首份财报营收翻倍；标普500跌破200日均线；阿里发布Qwen4-Max；普京抵达深圳，中俄美元首会晤定于19日。",
+    "en": "Nvidia doubles revenue in its first report since Huang left; the S&P 500 breaks its 200-day average; Alibaba ships Qwen4-Max; Putin lands in Shenzhen ahead of a Nov 19 three-way summit."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "qwen4-max-launch",
+        "originalLang": "en",
+        "title": {
+          "zh": "阿里发布Qwen4-Max：2.4万亿参数，任务成本降约六成",
+          "en": "Alibaba launches Qwen4-Max with 2.4T parameters and cheaper tasks"
+        },
+        "summary": {
+          "zh": "阿里巴巴正式上线旗舰模型Qwen4-Max：2.4万亿参数MoE架构，每个token激活710亿参数，支持原生视觉和100万token上下文，API输入价每百万token 1.5美元。阿里称其在自家Work360基准上平均任务成本较上代降约60%，小尺寸开源版本即将发布。",
+          "en": "Alibaba released its flagship Qwen4-Max: a 2.4T-parameter MoE model with 71B active, native vision and a 1M-token context, from $1.50 per million input tokens. Alibaba says task cost fell about 60%; smaller open-weight Qwen4 models are coming."
+        },
+        "body": {
+          "zh": "据阿里云新闻稿和TechNode报道，阿里巴巴已在QwenCloud全面上线Qwen4-Max（11月11日起曾限量预览），并接入Qwen Studio、QwenWork和Qoder。\n\n- **架构**：稀疏MoE，总参数2.4万亿，每token激活710亿，比Qwen3.8-Max少25%；原生支持图像输入，上下文最长100万token。\n- **成本**：阿里称在高强度推理模式下比上代少用35%的token；按TechNode援引的数据，Work360基准平均单任务成本从26.58元降至11.16元，降幅约58%。\n- **排名**：阿里称其在真实编程榜Code Arena排名第6。\n- **安全**：路透报道，阿里称训练中加入了安全检查，并加强了针对网络犯罪、危险材料等滥用场景的防护，内部测试未发现显著高风险能力。\n\n阿里计划随后开源更小尺寸的Qwen4模型。\n\n来源：[阿里云](https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max)、[TechNode](https://technode.com/2026/11/16/alibaba-launches-qwen4-max-with-lower-api-prices-and-a-million-token-context-window/)",
+          "en": "Alibaba made Qwen4-Max generally available on QwenCloud after a limited preview that began November 11, according to its press release and TechNode. It is also in Qwen Studio, QwenWork and Qoder.\n\n- **Architecture:** sparse MoE with 2.4 trillion total parameters and 71 billion active per token, 25% fewer active parameters than Qwen3.8-Max. Native image input and up to a 1M-token context.\n- **Cost:** Alibaba says it uses 35% fewer tokens at high reasoning effort; TechNode reports average task cost on Alibaba's Work360 benchmark fell from RMB 26.58 to RMB 11.16, about 58%.\n- **Ranking:** Alibaba says it placed 6th on the Code Arena coding leaderboard.\n- **Safety:** Reuters reports Alibaba added security checks in training and strengthened safeguards against misuse such as cybercrime, with internal tests finding no significant high-risk capabilities.\n\nSmaller open-weight Qwen4 models are due soon.\n\nSources: [Alibaba Cloud](https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max), [TechNode](https://technode.com/2026/11/16/alibaba-launches-qwen4-max-with-lower-api-prices-and-a-million-token-context-window/)"
+        },
+        "sources": [
+          {
+            "name": "Alibaba Cloud",
+            "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max",
+            "lang": "en"
+          },
+          {
+            "name": "TechNode",
+            "url": "https://technode.com/2026/11/16/alibaba-launches-qwen4-max-with-lower-api-prices-and-a-million-token-context-window/",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via The Economic Times",
+            "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/alibaba-unveils-new-flagship-ai-model-with-safety-upgrades/articleshow/135874755.cms",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nsa-classified-network-outage",
+        "originalLang": "en",
+        "title": {
+          "zh": "美国国安局机密内网宕机，官方称非网络攻击",
+          "en": "NSA's classified internal network goes down; no sign of attack"
+        },
+        "summary": {
+          "zh": "美国国家安全局机密内网NSA Net周二在例行维护期间宕机或性能下降，部分员工无法使用工作系统、部分园区入场延误。NSA称关键任务能力保持运行，多家媒体援引消息人士称没有遭攻击的迹象。交易员称此事加重了市场对技术基础设施的担忧。",
+          "en": "The NSA's classified internal network, NSA Net, went down or degraded during scheduled maintenance on Tuesday, locking some staff out of systems. The agency said mission-critical capabilities stayed up; sources said there was no sign of an attack."
+        },
+        "sources": [
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/nsa-computer-network-down-22dc6be1bf1d1f5f86a7167f016e9526",
+            "lang": "en"
+          },
+          {
+            "name": "NBC News",
+            "url": "https://www.nbcnews.com/politics/national-security/classified-nsa-network-went-no-indication-was-attack-sources-say-rcna609859",
+            "lang": "en"
+          },
+          {
+            "name": "NSA",
+            "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "quad-summit-manila",
+        "originalLang": "en",
+        "title": {
+          "zh": "四方安全对话马尼拉峰会：加强海上监视、AI与网络合作",
+          "en": "Quad leaders in Manila pledge maritime surveillance, AI and cyber cooperation"
+        },
+        "summary": {
+          "zh": "特朗普与澳大利亚总理阿尔巴尼斯、印度总理莫迪、日本首相高市早苗17日在马尼拉举行四方峰会，反对单方面改变现状和经济胁迫，宣布海上监视合作、2027年联合巡逻机演习、加强网络安全和可信AI合作，并将于2027年初举办四方商业领袖论坛。",
+          "en": "Trump, Albanese, Modi and Takaichi met in Manila on Nov 17. They opposed unilateral changes to the status quo and economic coercion, and announced maritime-surveillance cooperation, a 2027 patrol-aircraft exercise, and cyber and AI cooperation."
+        },
+        "sources": [
+          {
+            "name": "The White House",
+            "url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+            "lang": "en"
+          },
+          {
+            "name": "Kyodo News",
+            "url": "https://english.kyodonews.net/articles/-/91675",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/trump-asia-manila-asean-xi-putin-c94386cd092482d94dca38fc8b8d51a7",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "ghalibaf-dual-use-dams-warning",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗议长：美以基地附近的水坝港口电厂也算“军民两用”",
+          "en": "Iran's Ghalibaf: dams, ports near US and Israeli bases are 'dual-use' too"
+        },
+        "summary": {
+          "zh": "《纽约时报》报道称伊朗部分水坝或与地下导弹基地有关后，伊朗议长、首席谈判代表卡利巴夫在X上回应：美以基地附近的任何水坝、港口或电厂都将被视为“两用”设施。多名专家称两者关联属推测，不能作为打击民用设施的理由。",
+          "en": "After a New York Times report linked some Iranian dams to missile sites, speaker Ghalibaf said any dam, port or power plant near a US or Israeli base would be treated as dual-use. Several experts quoted called the link speculative."
+        },
+        "body": {
+          "zh": "据半岛电视台、《耶路撒冷邮报》等报道，《纽约时报》周一发表调查，称伊朗不断扩建的水坝和调水工程与今年美以空袭打击的地下导弹基地位置高度重合，但也承认两者关联仍属推测。\n\n- 卡利巴夫在X上写道：“新规则：美国或以色列基地附近的任何水坝、港口或电厂都是两用设施。我们会一视同仁地套用你们的逻辑。”他指责美方在为下一轮打击民用设施做铺垫。\n- 智库Bourse & Bazaar负责人巴特曼格利吉指出，伊朗500多座大型水坝中安装发电机组的不到50座，“为军事设施供电”的说法站不住脚。\n- 被报道引用的水文学者肖克里等人随后表示，地理上的邻近不能说明建坝原因，也不能为攻击提供理由。\n- 特朗普此前多次威胁，一旦再起战事将摧毁伊朗电厂和桥梁。\n\n来源：[Al Jazeera](https://www.aljazeera.com/news/2026/11/17/iranians-fear-more-civilian-infrastructure-could-be-targeted-in-new-us-war)、[The Jerusalem Post](https://www.jpost.com/middle-east/iran-news/article-915146)",
+          "en": "A New York Times investigation published Monday said Iran's growing network of dams and water-transfer projects overlaps with underground missile sites hit by US and Israeli strikes this year, while acknowledging the link is speculative, Al Jazeera and The Jerusalem Post report.\n\n- Ghalibaf wrote on X: \"New rule: Any dam, port, or power plant near a US or Israeli base is dual-use. We'll apply your logic consistently and even-handedly,\" accusing the US of preparing the next round of strikes on civilian infrastructure.\n- Esfandyar Batmanghelidj of the Bourse & Bazaar Foundation noted that fewer than 50 of Iran's 500-plus large dams have turbines installed.\n- Water researcher Nima Shokri and others quoted in the report later said proximity does not explain why dams were built, nor justify attacking them.\n- Trump has repeatedly threatened to destroy Iranian power plants and bridges if fighting resumes.\n\nSources: [Al Jazeera](https://www.aljazeera.com/news/2026/11/17/iranians-fear-more-civilian-infrastructure-could-be-targeted-in-new-us-war), [The Jerusalem Post](https://www.jpost.com/middle-east/iran-news/article-915146)"
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/17/iranians-fear-more-civilian-infrastructure-could-be-targeted-in-new-us-war",
+            "lang": "en"
+          },
+          {
+            "name": "The Jerusalem Post",
+            "url": "https://www.jpost.com/middle-east/iran-news/article-915146",
+            "lang": "en"
+          },
+          {
+            "name": "TASS",
+            "url": "https://tass.com/world/2219889",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "nvidia-q3-fy27-results",
+        "originalLang": "en",
+        "title": {
+          "zh": "英伟达营收翻倍至1158亿美元，黄仁勋离任后首份财报超预期",
+          "en": "Nvidia revenue doubles to $115.8B in first report since Huang's exit"
+        },
+        "summary": {
+          "zh": "英伟达三季度营收1158亿美元，同比增103%，数据中心营收1076亿美元；四季度指引1300亿美元，高于预期，且不含中国数据中心算力收入。代理CEO克雷斯称Vera Rubin“开局爆发”。董事会主席在电话会上表示无意让黄仁勋回归。盘后股价涨约2%至3%。",
+          "en": "Nvidia posted Q3 revenue of $115.8B, up 103%, with $107.6B from data centers, and guided Q4 to $130B, above estimates. Interim CEO Kress said Vera Rubin is off to an explosive start. The board chair said Huang won't return. Shares rose 2-3% after hours."
+        },
+        "body": {
+          "zh": "英伟达周二美股收盘后公布2027财年第三季度（截至10月25日）业绩，这是联合创始人黄仁勋上周辞去CEO后的首份财报。\n\n- **业绩**：营收1158亿美元，环比增20%、同比增103%；净利润653亿美元，同比增105%；调整后每股收益2.68美元。据CNBC援引LSEG，市场预期为营收1091亿美元、每股收益2.48美元。\n- **数据中心**：营收1076亿美元，同比增110%。公司称新一代平台Vera Rubin NVL72已开始出货。\n- **指引**：四季度（含额外一周）营收预计1300亿美元±3%，毛利率降至71%–72%，不假设来自中国的数据中心算力收入。CNBC称，克雷斯将下一财年增长预期从70%上调至75%。\n- **管理层**：董事会主席哈维·琼斯在电话会开场表示董事会无意让黄仁勋回归；身兼CFO的代理CEO克雷斯称公司“一切照常”。据X上的报道汇总，黄仁勋此前发帖称若董事会认为合适愿意回归。\n- **股价**：常规交易收跌0.4%至155.46美元，盘后上涨约2%–3%。雅虎财经称，此前一个月股价已下跌约28%。\n\n来源：[NVIDIA](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027)、[CNBC](https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html)、[Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/nvidia-revenue-doubles-115-8-213800805.html)",
+          "en": "Nvidia reported fiscal Q3 2027 results (quarter ended October 25) after Tuesday's close, its first report since co-founder Jensen Huang resigned as CEO last week.\n\n- **Results:** revenue $115.8B, up 20% from the prior quarter and 103% from a year earlier; net income $65.3B, up 105%; adjusted EPS $2.68 versus $2.48 expected, per LSEG via CNBC, on expected revenue of $109.1B.\n- **Data center:** $107.6B, up 110%. Vera Rubin NVL72 has begun shipping.\n- **Outlook:** Q4, which has an extra week, is guided to $130B plus or minus 3%, with gross margin of 71% to 72% and no China data-center compute revenue assumed. CNBC reports Kress raised next fiscal year's growth outlook from 70% to 75%.\n- **Leadership:** Board chair Harvey Jones opened the call saying the board does not intend to bring Huang back. Kress, interim CEO and still CFO, called it \"business as usual.\" Huang had posted on X that he would return if the board thought it best, according to X news summaries.\n- **Stock:** closed down 0.4% at $155.46, then rose about 2% to 3% after hours. Yahoo Finance says shares had fallen about 28% in a month.\n\nSources: [NVIDIA](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027), [CNBC](https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html), [Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/nvidia-revenue-doubles-115-8-213800805.html)"
+        },
+        "sources": [
+          {
+            "name": "NVIDIA Newsroom",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
+            "lang": "en"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-revenue-doubles-115-8-213800805.html",
+            "lang": "en"
+          },
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/11/17/nvidia-earnings-jensen-huang-colette-kress",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "wall-street-nov17-sp500-below-200dma",
+        "originalLang": "en",
+        "title": {
+          "zh": "道指跌849点，标普500跌破200日均线",
+          "en": "Dow sheds 849 points as S&P 500 slips below 200-day average"
+        },
+        "summary": {
+          "zh": "英伟达财报前芯片股遭抛售，周二美股全线下挫：道指跌848.75点（1.64%）至50759.42点，盘中一度跌超1000点；标普500跌1.03%至7340.53点，创7月下旬以来最低收盘，并跌破200日均线；纳指触及约七个月低位。美国国安局网络故障的消息也加重了市场紧张情绪。",
+          "en": "Chip stocks sold off before Nvidia's report. The Dow fell 848.75 points (1.64%) to 50,759.42 after dropping over 1,000 intraday; the S&P 500 lost 1.03% to 7,340.53, its lowest close since late July and below its 200-day average; the Nasdaq hit a roughly seven-month low."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-ff6caef4d9289cf7f1e6ee48a706eddc",
+            "lang": "en"
+          },
+          {
+            "name": "FXEmpire",
+            "url": "https://www.fxempire.com/forecasts/article/sp500-and-nasdaq-index-tech-sell-off-puts-200-day-averages-in-focus-1645289",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "putin-arrives-shenzhen-apec",
+        "originalLang": "zh",
+        "title": {
+          "zh": "普京抵达深圳出席APEC，19日将举行中俄美元首会晤",
+          "en": "Putin lands in Shenzhen for APEC; China-Russia-US summit set for Nov 19"
+        },
+        "summary": {
+          "zh": "新华社消息，俄罗斯总统普京11月18日凌晨乘专机抵达深圳，出席亚太经合组织第三十三次领导人非正式会议，蔡奇到机场迎接。俄方称普京18日将出席APEC工商领导人峰会，19日下午将举行中俄美三国元首会晤。",
+          "en": "Xinhua says Russian President Putin arrived in Shenzhen early on November 18 for the 33rd APEC leaders' meeting and was met by Cai Qi. Moscow says he will address the APEC CEO Summit on the 18th and join a China-Russia-US leaders' meeting on the afternoon of the 19th."
+        },
+        "body": {
+          "zh": "据新华社报道，俄罗斯总统普京11月18日凌晨乘专机抵达深圳，出席亚太经合组织（APEC）第三十三次领导人非正式会议。中共中央政治局常委、中央书记处书记蔡奇前往机场迎接。\n\n据澎湃新闻援引中新社和俄方通报：\n\n- 这是普京年内第二次来华，5月19日至20日中俄元首曾在华会晤。\n- 普京将于18日上午出席APEC工商领导人峰会开幕式并发表演讲，并参观深圳北理莫斯科大学。\n- 19日上午出席APEC峰会，峰会将通过成果宣言；北京时间当天下午2时半左右举行中俄美三国元首会晤，普京预计还将与中、美元首分别举行双边会晤。\n- 俄方代表团包括3位副总理、7位部长和30多家企业代表。\n\n来源：[新华网](https://www.news.cn/20261118/c9bcdcebb36f45ecb702c9499222769c/c.html)、[澎湃新闻](https://www.thepaper.cn/newsDetail_forward_34492511)",
+          "en": "Russian President Vladimir Putin arrived in Shenzhen by special plane early on November 18 for the 33rd APEC Economic Leaders' Meeting, Xinhua reports. Politburo Standing Committee member Cai Qi met him at the airport.\n\nAccording to The Paper, citing China News Service and Russian officials:\n\n- It is Putin's second trip to China this year, after a May 19-20 visit.\n- He will speak at the opening of the APEC CEO Summit on the morning of the 18th and visit Shenzhen MSU-BIT University.\n- On the 19th he attends the APEC summit, which is expected to adopt a declaration, followed by a China-Russia-US leaders' meeting around 2:30 p.m. Beijing time, plus separate bilateral meetings.\n- His delegation includes three deputy prime ministers, seven ministers and representatives of more than 30 companies.\n\nSources: [Xinhua](https://www.news.cn/20261118/c9bcdcebb36f45ecb702c9499222769c/c.html), [The Paper](https://www.thepaper.cn/newsDetail_forward_34492511)"
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261118/c9bcdcebb36f45ecb702c9499222769c/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "澎湃新闻",
+            "url": "https://www.thepaper.cn/newsDetail_forward_34492511",
+            "lang": "zh"
+          },
+          {
+            "name": "Kremlin",
+            "url": "https://en.kremlin.ru/events/president/news/81285",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "recycling-system-guideline",
+        "originalLang": "zh",
+        "title": {
+          "zh": "九部门发文推进再生资源回收：破解废旧家具“扔比买难”",
+          "en": "Nine agencies push recycling overhaul, from old furniture to EV batteries"
+        },
+        "summary": {
+          "zh": "商务部、国家发改委、工信部等9部门的再生资源回收体系建设意见17日发布，提出包干清运、上门清运、公益清运解决大件废旧家具处理难，推动家电“换新+回收”，并对动力电池、光伏组件、风机叶片“新三样”退役回收作出部署。",
+          "en": "Nine agencies issued guidelines on Nov 17 to build out China's recycling system: new collection models for bulky old furniture, trade-in-plus-recycling for appliances, and plans for retiring EV batteries, solar panels and wind turbine blades."
+        },
+        "body": {
+          "zh": "据新华社报道，商务部、国家发展改革委、工业和信息化部等9部门印发的《关于深入推进再生资源回收体系建设 促进回收行业高质量发展的意见》11月17日对外发布，国新办同日举行发布会。\n\n- **废旧家具**：探索包干清运（地方政府指定企业负责区域清运）、市场化上门清运（回收企业与物业合作）、公益回收清运（定时统一免费回收），解决“扔比买难”。\n- **废旧家电**：鼓励回收企业与商贸流通企业合作开展“换新+回收”，发展“互联网+”回收。\n- **“新三样”**：动力电池“全品类收”，推动新能源汽车“车电一体报废”；光伏组件、风机叶片“全周期管”，鼓励发电企业建立退役设备回收体系；引导央企布局回收网络和利用基地。\n- **行业现状**：商务部称，2025年全国主要品种回收总量4.17亿吨、同比增4.1%，回收总额1.39万亿元，但仍存在网络覆盖不全、“小散弱”等问题；将完善“回收站点—中转站—分拣中心”三级网络。\n\n来源：[中国政府网](https://www.gov.cn/zhengce/202611/content_7086432.htm)",
+          "en": "Nine agencies led by the Ministry of Commerce, the NDRC and the MIIT released guidelines on November 17 to deepen China's recycling system, Xinhua reports, with a State Council press briefing the same day.\n\n- **Old furniture:** three models to fix the problem that throwing furniture away is harder than buying it: government-assigned area contractors, paid door-to-door pickup via property managers, and scheduled free public collection.\n- **Appliances:** recyclers are encouraged to pair with retailers for trade-in-plus-recycling and online booking.\n- **The \"new three\":** collect all types of power batteries and scrap EVs together with their batteries; manage solar panels and wind blades over their full life cycle; steer state firms to build recycling networks and plants.\n- **Scale:** the commerce ministry says China recycled 417 million tonnes of major materials in 2025, up 4.1%, worth RMB 1.39 trillion, but the sector remains fragmented. A three-tier network of collection points, transfer stations and sorting centers is planned.\n\nSource: [gov.cn (Xinhua)](https://www.gov.cn/zhengce/202611/content_7086432.htm)"
+        },
+        "sources": [
+          {
+            "name": "中国政府网（新华社）",
+            "url": "https://www.gov.cn/zhengce/202611/content_7086432.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.cn/2026/11/17/VIDEJZN0J8XTIlDMPSTLd4DR261117.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

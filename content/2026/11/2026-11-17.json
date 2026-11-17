@@ -287,5 +287,318 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "top500-lingsheng-retains-lead",
+        "originalLang": "zh",
+        "title": {
+          "zh": "“灵晟”蝉联全球超算TOP500榜首",
+          "en": "China's Lingsheng supercomputer keeps the TOP500 top spot"
+        },
+        "summary": {
+          "zh": "SC26大会发布新一期TOP500榜单：国家超算深圳中心“灵晟”E级超算以2.198 EFlops实测性能蝉联第一，领先第二名美国El Capitan（1.809 EFlops）约21%，并以22 PFlops继续居HPCG榜首。",
+          "en": "The new TOP500 list at SC26 in Chicago keeps Shenzhen's Lingsheng exascale system first at 2.198 EFlops on Linpack, about 21% ahead of El Capitan (1.809 EFlops). It also stays first on HPCG at 22 PFlops."
+        },
+        "body": {
+          "zh": "据央广网，当地时间11月17日，在美国芝加哥举行的SC26国际超级计算大会期间，新一期全球超算TOP500榜单发布。\n\n- 国家超级计算深圳中心“灵晟”E级超算以2.198 EFlops（每秒219.8亿亿次）的Linpack双精度实测性能蝉联世界第一。\n- 第二名为美国劳伦斯利弗莫尔国家实验室的El Capitan，实测1.809 EFlops，“灵晟”领先约21%。\n- “灵晟”还以22 PFlops继续保持HPCG（高性能共轭梯度）榜单第一，该榜更接近真实科学计算负载。\n\n同在SC26，英伟达发布了CUDA-Q量子纠错解码器升级，并与IBM、费米实验室合作搭建量子-经典混合平台。\n\n来源：[央广网](https://news.cnr.cn/kuaixun/)",
+          "en": "According to China National Radio, the new TOP500 list was released on November 17 local time at the SC26 supercomputing conference in Chicago.\n\n- Lingsheng, the exascale system at the National Supercomputing Center in Shenzhen, kept first place with 2.198 EFlops measured on the Linpack double-precision benchmark.\n- Second place went to El Capitan at Lawrence Livermore National Laboratory at 1.809 EFlops, about 21% behind.\n- Lingsheng also stayed first on HPCG at 22 PFlops, a benchmark closer to real scientific workloads.\n\nAlso at SC26, Nvidia announced a CUDA-Q quantum error-correction decoder upgrade and a hybrid quantum-classical platform with IBM and Fermilab.\n\nSource: [CNR](https://news.cnr.cn/kuaixun/)"
+        },
+        "sources": [
+          {
+            "name": "央广网",
+            "url": "https://news.cnr.cn/kuaixun/",
+            "lang": "zh"
+          },
+          {
+            "name": "央视新闻微博",
+            "url": "https://www.sina.cn/media/2656274875",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "google-exploit-agent-autonomous",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌：首次发现AI自主把安全补丁变成可用漏洞利用",
+          "en": "Google finds attackers' AI turning patches into exploits on its own"
+        },
+        "summary": {
+          "zh": "谷歌威胁情报团队称发现名为exploit_agent的框架，可比对补丁前后代码、自动编写并运行漏洞利用，全程无人参与，疑与一名俄语操作者有关。FBI另警告攻击者借开源工具Artex AI在三小时内攻破网络。",
+          "en": "Google's Threat Intelligence Group says it found exploit_agent, a framework that diffs code before and after a patch, writes an exploit and runs it with no human involved, tied to a suspected Russian-speaking operator. The FBI warned of Artex AI intrusions in under three hours."
+        },
+        "sources": [
+          {
+            "name": "TopFive",
+            "url": "https://topfive.ai/2026/11/17/",
+            "lang": "en"
+          },
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-tuesday-november-17-2026/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "reuters-china-distillation-review",
+        "originalLang": "en",
+        "title": {
+          "zh": "路透调查：中国AI业界普遍用美国模型输出“蒸馏”训练",
+          "en": "Reuters review: Chinese AI firms widely distill US model outputs"
+        },
+        "summary": {
+          "zh": "路透社审阅300多份论文、专利和文件后称，中国机构大量调用GPT-4、o1等美国模型生成答案和代码，用于训练更小的国产模型，做法已从实验室走向产业并获政策推动。美方官员称这接近窃取知识产权，或削弱新出台的芯片限制。",
+          "en": "A Reuters review of 300+ papers, patents and documents says Chinese entities widely query US models like GPT-4 and o1 to train smaller domestic models, a practice now industrial and policy-backed. US officials say it borders on IP theft and could blunt new chip curbs."
+        },
+        "sources": [
+          {
+            "name": "X News",
+            "url": "https://x.com/i/trending/2122615723902259648",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "kerch-bridge-sections-collapse",
+        "originalLang": "en",
+        "title": {
+          "zh": "乌克兰重创克里米亚大桥，部分路段坍塌入海",
+          "en": "Ukraine collapses sections of the Kerch bridge to Crimea"
+        },
+        "summary": {
+          "zh": "乌克兰用无人机和“海王星”“火烈鸟”等导弹袭击连接俄罗斯与克里米亚的刻赤大桥，公路段部分坍塌、交通中断。泽连斯基称这是“前所未有的打击”；克里姆林宫称大桥将修复得“比以前更好”。此前俄军导弹击中基辅两座第聂伯河大桥。",
+          "en": "Ukraine hit the Kerch bridge linking Russia and occupied Crimea with drones and Neptune and Flamingo missiles, collapsing road sections and halting traffic. Zelenskyy hailed an unprecedented strike; the Kremlin vows to rebuild it. Russia earlier hit two Kyiv bridges."
+        },
+        "body": {
+          "zh": "据《卫报》和X新闻汇总，乌克兰对刻赤大桥（克里米亚大桥）发动大规模打击，这座桥是俄罗斯通往被占克里米亚的主要陆路通道。\n\n- 乌方使用国产“帕利亚尼齐亚”无人机、“海王星”导弹和FP-5“火烈鸟”巡航导弹；开源图像显示公路拱段扭曲、没入海中，交通中断。\n- 泽连斯基称这是一项“七阶段计划”的成果，此前数周先削弱了俄方防空，并称袭击是对俄军打击乌克兰桥梁的回应。\n- X新闻汇总称袭击持续至第二天，有报道称造成两人死亡；俄方此前称无人员伤亡并正在评估修复，克里姆林宫表示大桥会修复得“比以往更好”。\n- 11月16日深夜，俄军弹道导弹击伤基辅北桥和南桥，部分城区停电、停水、地铁停运。\n\n伤亡数字各方说法不一，仍待核实。\n\n来源：[The Guardian](https://www.theguardian.com/world/2026/nov/17/all)、[X News](https://x.com/i/trending/2122454677031977089)",
+          "en": "Per The Guardian and X News summaries, Ukraine launched a major strike on the Kerch (Crimean) bridge, Russia's main land link to occupied Crimea.\n\n- Ukraine used homegrown Palianytsia drones, Neptune missiles and FP-5 Flamingo cruise missiles; open-source images show the road arch twisted and submerged, with traffic halted.\n- Zelenskyy called it the payoff of a seven-phase plan that first weakened Russian air defenses over weeks, and framed it as a response to Russian attacks on Ukrainian bridges.\n- X News summaries say strikes continued into a second day, with reports of two dead; Russia earlier reported no casualties, and the Kremlin says the bridge will be restored better than ever.\n- Late on November 16, Russian ballistic missiles damaged Kyiv's Northern and Southern bridges, cutting power, water and metro service in parts of the city.\n\nCasualty figures differ between accounts and remain unconfirmed.\n\nSources: [The Guardian](https://www.theguardian.com/world/2026/nov/17/all), [X News](https://x.com/i/trending/2122454677031977089)"
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/2026/nov/17/all",
+            "lang": "en"
+          },
+          {
+            "name": "X News",
+            "url": "https://x.com/i/trending/2122226713967186056",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261117/efa6affe9a91435caecb6b80eb2eece9/c.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "hormuz-tankers-mines-fire",
+        "originalLang": "en",
+        "title": {
+          "zh": "霍尔木兹海峡多艘油轮触雷起火",
+          "en": "Tankers ablaze in Strait of Hormuz after mine hits"
+        },
+        "summary": {
+          "zh": "伊朗革命卫队称两艘“违规”油轮在美军战机护航下走“未授权”航线，触雷爆炸起火。X新闻汇总称24小时内至少四艘油轮受损，含一艘超级油轮；第三艘美国航母已抵达中东，伊朗还宣称无人机袭击巴林。",
+          "en": "Iran's IRGC says two tankers on an unauthorized route, backed by US jets, hit mines and caught fire. X News summaries report at least four tankers damaged in 24 hours, including a supertanker, as a third US carrier reached the region and Iran claimed a drone attack on Bahrain."
+        },
+        "body": {
+          "zh": "据新华社，伊朗伊斯兰革命卫队周一称，两艘试图沿“未授权”航线穿越霍尔木兹海峡的油轮触雷后爆炸起火，并称这些船只得到了美国战机的支援。\n\n- X新闻汇总称，24小时内至少四艘油轮受损或被毁，包括一艘载油可达200万桶的超级油轮和一艘气体运输船；英国海上贸易行动办公室（UKMTO）确认有船只被抛射物击中、机舱起火，另一起袭击发生在哈萨布以北。\n- 阿曼岸上可见离岸约10公里处的大火，至少一艘船的船员下落不明。\n- 据World Watch汇总，第三艘美国航母已抵达中东；伊朗还宣称对美国盟友巴林发动无人机袭击，并表示战争结束前不允许联合国核查人员进入受损核设施。\n\n此事发生在伊朗外长赴阿曼商讨航运方案（见今日早间）之后，11月19日深圳中俄美元首会晤前局势进一步升级。\n\n来源：[新华社](https://english.news.cn/20261117/efa6affe9a91435caecb6b80eb2eece9/c.html)、[X News](https://x.com/i/trending/2122623929189642742)",
+          "en": "According to Xinhua, Iran's Islamic Revolution Guard Corps said on Monday that two oil tankers attempting to transit the Strait of Hormuz along an 'unauthorized' route hit mines, exploded and caught fire, and that they had support from US fighter aircraft.\n\n- X News summaries report at least four tankers damaged or destroyed within 24 hours, including a supertanker carrying up to two million barrels and a gas carrier; UKMTO confirmed projectile hits causing engine fires and a second attack north of Khasab.\n- Fires were visible from the Omani shore about 10 km offshore, and crew on at least one vessel are unaccounted for.\n- World Watch reports a third US aircraft carrier has reached the Middle East; Iran also claimed a drone attack on Bahrain and said UN inspectors will not reach damaged nuclear sites until the war ends.\n\nThe escalation follows Iran's foreign minister's Oman visit on shipping arrangements (see this morning) and comes ahead of the November 19 Shenzhen summit.\n\nSources: [Xinhua](https://english.news.cn/20261117/efa6affe9a91435caecb6b80eb2eece9/c.html), [X News](https://x.com/i/trending/2122623929189642742)"
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261117/efa6affe9a91435caecb6b80eb2eece9/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "X News",
+            "url": "https://x.com/i/trending/2122623929189642742",
+            "lang": "en"
+          },
+          {
+            "name": "World Watch",
+            "url": "https://worldwatch.media/en/digest/2026-11-17",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "russian-aircraft-japan-airspace",
+        "originalLang": "en",
+        "title": {
+          "zh": "日本称两架疑似俄机侵犯福冈附近领空",
+          "en": "Japan says suspected Russian aircraft violated its airspace"
+        },
+        "summary": {
+          "zh": "日本防卫省称，两架疑似俄罗斯飞机周二凌晨在福冈县冲之岛西北海域上空各侵犯领空约三分钟，日方战机紧急升空并发出无线电警告，东京已向莫斯科提出抗议。同日四方安全对话（Quad）领导人在马尼拉会晤。",
+          "en": "Japan's Defense Ministry said two suspected Russian aircraft violated its airspace northwest of Okinoshima, Fukuoka, early Tuesday for about three minutes each. Fighters scrambled and Tokyo protested to Moscow. Quad leaders were set to meet in Manila the same day."
+        },
+        "sources": [
+          {
+            "name": "Kyodo News",
+            "url": "https://english.kyodonews.net/articles/-/91615",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "global-stocks-fall-before-nvidia-results",
+        "originalLang": "en",
+        "title": {
+          "zh": "英伟达财报前全球股市承压，亚股普跌",
+          "en": "Global stocks slide ahead of Nvidia results"
+        },
+        "summary": {
+          "zh": "受美国收紧芯片出口规则和英伟达财报前避险影响，亚股17日普跌：韩国综指跌2.59%，台股跌2.31%，日经跌1.34%，恒指跌1.03%，上证跌0.50%。欧股收跌，德国DAX跌0.68%。英伟达美东时间17日盘后发布财报。",
+          "en": "Asian stocks fell on November 17 on tighter US chip export rules and Nvidia jitters: Kospi -2.59%, Taiex -2.31%, Nikkei -1.34%, Hang Seng -1.03%, Shanghai -0.50%. Europe closed lower, DAX -0.68%. Nvidia reports after the US close on Nov 17."
+        },
+        "body": {
+          "zh": "据韩联社Infomax，亚洲股市17日全线下跌，主因是美国商务部收紧对华AI芯片出口管制、以及英伟达财报前的谨慎情绪。\n\n- 日经225指数收于58,860.43点，跌1.34%，软银集团、铠侠、爱德万测试等芯片股领跌。\n- 韩国综指跌2.59%（前一日已跌3.6%）；台股加权指数跌2.31%，台积电跌2.03%。\n- 恒生指数收于23,508.17点，跌1.03%，百度跌超5%；上证综指收于3,584.58点，跌0.50%，深证综指跌0.90%。\n- 欧洲股市收盘：德国DAX跌0.68%，法国CAC40跌0.20%，英国富时100跌0.19%，意大利FTSE MIB跌0.65%（据ザイFX！转引FISCO数据）。\n\n据AI Daily Dev，英伟达此前指引三季度营收1080亿美元（±2%），市场预期约1090亿美元，期权市场隐含波动约±10.6%。意大利《24小时太阳报》称，投资者更关注临时CEO科莱特·克雷斯如何阐述黄仁勋离任后的公司前景。\n\n来源：[Yonhap Infomax](https://en.infomaxai.com/news/articleView.html?idxno=148991)、[Il Sole 24 Ore](https://en.ilsole24ore.com/art/stock-market-indices-tuesday-17-november-2026-AJrWn6IC)",
+          "en": "Per Yonhap Infomax, Asian markets fell across the board on November 17 on the US Commerce Department's tighter AI chip export controls aimed at China and caution ahead of Nvidia's earnings.\n\n- The Nikkei 225 closed at 58,860.43, down 1.34%, led lower by SoftBank Group, Kioxia and Advantest.\n- The Kospi fell 2.59% after a 3.6% plunge the day before; Taiwan's Taiex dropped 2.31%, with TSMC down 2.03%.\n- The Hang Seng closed at 23,508.17, down 1.03%, with Baidu off more than 5%; the Shanghai Composite closed at 3,584.58, down 0.50%, and the Shenzhen Composite fell 0.90%.\n- In Europe the DAX closed down 0.68%, CAC 40 -0.20%, FTSE 100 -0.19% and FTSE MIB -0.65% (FISCO data via ZAI FX).\n\nAI Daily Dev notes Nvidia guided $108.0B in quarterly revenue (±2%) against consensus near $109B, with options implying about a ±10.6% move. Il Sole 24 Ore says investors will focus on how interim CEO Colette Kress frames the company's future after Jensen Huang's departure.\n\nSources: [Yonhap Infomax](https://en.infomaxai.com/news/articleView.html?idxno=148991), [Il Sole 24 Ore](https://en.ilsole24ore.com/art/stock-market-indices-tuesday-17-november-2026-AJrWn6IC)"
+        },
+        "sources": [
+          {
+            "name": "Yonhap Infomax",
+            "url": "https://en.infomaxai.com/news/articleView.html?idxno=148991",
+            "lang": "en"
+          },
+          {
+            "name": "Il Sole 24 Ore",
+            "url": "https://en.ilsole24ore.com/art/stock-market-indices-tuesday-17-november-2026-AJrWn6IC",
+            "lang": "en"
+          },
+          {
+            "name": "ザイFX！",
+            "url": "https://zai.diamond.jp/articles/-/499175",
+            "lang": "en"
+          },
+          {
+            "name": "AI Daily Dev",
+            "url": "https://www.ai-daily.dev/digest/2026-11-17/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "hsbc-sells-stargate-new-mexico-loan",
+        "originalLang": "en",
+        "title": {
+          "zh": "汇丰折价出售“星际之门”新墨西哥数据中心贷款",
+          "en": "HSBC sells Stargate New Mexico data center loan at a discount"
+        },
+        "summary": {
+          "zh": "据X新闻汇总，汇丰以约85美分的价格出售3亿美元与新墨西哥“Project Jupiter”数据中心相关的贷款，亏损约4500万美元。该项目属甲骨文、OpenAI、软银支持的“星际之门”，因许可、当地反对等延误，甲骨文已发出不可抗力通知。",
+          "en": "Per X News summaries, HSBC sold $300M of debt tied to Project Jupiter, a delayed Stargate AI campus in New Mexico backed by Oracle, OpenAI and SoftBank, at mid-80s cents on the dollar, a roughly $45M loss. Permits, local opposition and an Oracle force majeure notice stalled it."
+        },
+        "sources": [
+          {
+            "name": "X News",
+            "url": "https://x.com/i/trending/2122576220135297202",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "iceye-bids-for-avio",
+        "originalLang": "en",
+        "title": {
+          "zh": "芬兰Iceye拟以约20亿欧元收购意大利航天企业Avio",
+          "en": "Iceye launches about €2bn takeover bid for Avio"
+        },
+        "summary": {
+          "zh": "芬兰卫星公司Iceye宣布以每股41欧元自愿要约收购意大利航天推进企业Avio全部股份，较前收盘价溢价21.3%，全额接受时总价约20亿欧元，Avio股价大涨。交易需通过意大利“黄金权力”审查及法、英、美和欧盟批准。",
+          "en": "Finnish satellite firm Iceye launched a voluntary bid for Italy's Avio at €41 a share, a 21.3% premium, worth about €2bn at full acceptance; Avio shares surged. The deal needs Italy's Golden Power review plus French, UK, US and EU approval."
+        },
+        "sources": [
+          {
+            "name": "Il Sole 24 Ore",
+            "url": "https://en.ilsole24ore.com/art/stock-market-indices-tuesday-17-november-2026-AJrWn6IC",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "xi-meets-leaders-shenzhen-apec",
+        "originalLang": "zh",
+        "title": {
+          "zh": "APEC前夕习近平在深圳密集会见外国领导人",
+          "en": "Xi holds a string of meetings with foreign leaders in Shenzhen before APEC"
+        },
+        "summary": {
+          "zh": "11月17日，国家主席习近平在深圳先后会见加拿大总理卡尼、巴布亚新几内亚总理马拉佩、越共中央总书记苏林和墨西哥总统辛鲍姆。APEC第三十三次领导人非正式会议将于18日至19日在深圳举行，19日还将举行中俄美元首会晤。",
+          "en": "On November 17 Xi Jinping met Canadian PM Carney, Papua New Guinea PM Marape, Vietnam's To Lam and Mexican President Sheinbaum in Shenzhen. The 33rd APEC leaders' meeting runs Nov 18-19 in Shenzhen, with the China-Russia-US summit on Nov 19."
+        },
+        "body": {
+          "zh": "据央视新闻，11月17日国家主席习近平在深圳同来华出席亚太经合组织领导人非正式会议的多位外国领导人举行双边会晤。\n\n- 会见加拿大总理卡尼时，习近平就发展中加关系提出4点意见，称中加关系改善发展“是一个正确”的选择。\n- 会见巴布亚新几内亚总理马拉佩时指出，中巴新传统友谊历久弥坚，建交50年来双边关系成果丰硕。\n- 会见越共中央总书记、国家主席苏林时称，中越两国“越是风高浪急越要同舟共济”。\n- 下午会见墨西哥总统辛鲍姆，称中墨是跨越太平洋的好朋友，同为全球南方大国。\n\nAPEC第三十三次领导人非正式会议11月18日至19日在深圳举行，这是中国时隔12年再次担任东道主。据央广网，APEC工商咨询理事会全年达成14项成果文件，创历年新高。\n\n来源：[央视新闻微博](https://www.sina.cn/media/2656274875)",
+          "en": "According to CCTV, Xi Jinping held bilateral meetings in Shenzhen on November 17 with leaders arriving for the APEC Economic Leaders' Meeting.\n\n- With Canadian Prime Minister Mark Carney, Xi set out four points on China-Canada ties, calling their improvement the right choice.\n- With Papua New Guinea Prime Minister James Marape, he praised a friendship that has grown over 50 years of diplomatic ties.\n- With To Lam, general secretary of Vietnam's Communist Party and state president, he said the two countries should pull together the rougher the seas get.\n- In the afternoon he met Mexican President Claudia Sheinbaum, calling the countries good friends across the Pacific and major Global South nations.\n\nThe 33rd APEC leaders' meeting runs November 18-19 in Shenzhen, China's first time hosting in 12 years. CNR reports the APEC Business Advisory Council reached a record 14 outcome documents this year.\n\nSource: [CCTV on Weibo](https://www.sina.cn/media/2656274875)"
+        },
+        "sources": [
+          {
+            "name": "央视新闻微博",
+            "url": "https://www.sina.cn/media/2656274875",
+            "lang": "zh"
+          },
+          {
+            "name": "央广网",
+            "url": "https://news.cnr.cn/kuaixun/",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "gu-jun-cnnc-prosecuted",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中核集团原总经理顾军被提起公诉",
+          "en": "Former CNNC general manager Gu Jun indicted for bribery"
+        },
+        "summary": {
+          "zh": "最高检称，中国核工业集团原党组副书记、总经理顾军涉嫌受贿一案由国家监委调查终结后移送审查起诉，经指定由湖北恩施州检察院向法院提起公诉，指控其受贿数额特别巨大。",
+          "en": "China's top prosecutor says Gu Jun, former deputy Party secretary and general manager of China National Nuclear Corporation, has been indicted for bribery in an exceptionally large amount after a National Supervisory Commission probe, with the case filed in Enshi, Hubei."
+        },
+        "sources": [
+          {
+            "name": "澎湃新闻",
+            "url": "https://m.thepaper.cn/channel_25950",
+            "lang": "zh"
+          },
+          {
+            "name": "央视新闻微博",
+            "url": "https://www.sina.cn/media/2656274875",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "vaccine-prescription-drug-checks",
+        "originalLang": "zh",
+        "title": {
+          "zh": "我国全面推行疫苗处方；17家药企27批次药品抽检不合格",
+          "en": "China rolls out vaccine prescriptions; 27 drug batches fail checks"
+        },
+        "summary": {
+          "zh": "国家疾控局等三部门17日发布意见，全面推行疫苗处方。同日国家药监局通报，北京同仁堂同仁堂制药厂等17家药企27批次药品在含水量、可见异物、溶出度等指标上不符合规定。",
+          "en": "Three health agencies issued guidance on November 17 to roll out vaccine prescriptions nationwide. The drug regulator also said 27 batches from 17 makers, including a Beijing Tongrentang plant, failed checks on moisture, visible particles and dissolution."
+        },
+        "sources": [
+          {
+            "name": "央广网",
+            "url": "https://news.cnr.cn/kuaixun/",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

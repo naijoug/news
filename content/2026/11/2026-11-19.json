@@ -1,0 +1,309 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-19",
+  "lead": {
+    "zh": "Anthropic IPO定价83美元、19日上市；OpenAI和谷歌同日发新模型；习近平在深圳设宴欢迎APEC来宾，特朗普将与普京单独会晤；欧盟提议450亿欧元援乌贷款。",
+    "en": "Anthropic prices its IPO at $83; OpenAI and Google ship new models; Xi hosts the APEC banquet as Trump plans a Putin meeting; the EU proposes a €45bn Ukraine loan."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "anthropic-ipo-priced-83",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic IPO定价每股83美元，高于预期区间",
+          "en": "Anthropic prices IPO at $83, above its marketed range"
+        },
+        "summary": {
+          "zh": "据CNBC、路透和《华尔街日报》援引知情人士，Anthropic将IPO定价为每股83美元，高于此前70至78美元的推介区间。《财富》称对应估值约1.5万亿美元。公司股票将于美东时间19日以代码ANT在纳斯达克挂牌。",
+          "en": "Anthropic priced its IPO at $83 a share, above the $70-$78 marketed range, people familiar told CNBC, Reuters and the WSJ. Fortune put the valuation at about $1.5 trillion. Shares start trading on Nasdaq under ANT on Thursday."
+        },
+        "body": {
+          "zh": "据CNBC援引知情人士报道，Anthropic于美东时间18日将IPO定价为每股83美元，高于70至78美元的推介区间，也意味着估值超过此前目标的约1.4万亿美元。路透、《华尔街日报》、TechCrunch和《卫报》也报道了这一定价；《财富》称对应估值约1.5万亿美元。\n\n- **挂牌**：股票将于19日（美东时间周四）在纳斯达克交易，代码ANT。\n- **市场反应**：CNBC报道，18日夜间纳斯达克100指数期货上涨约1%，标普500期货涨0.5%，交易员在等待这家Claude开发商的首日表现。\n\n来源：[CNBC](https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html)、[Techmeme汇总](https://www.techmeme.com/261118/h1800)",
+          "en": "Anthropic priced its IPO at $83 a share on Wednesday, above the $70-$78 marketed range, a person familiar told CNBC. That puts its valuation above the roughly $1.4 trillion it had targeted. Reuters, the Wall Street Journal, TechCrunch and the Guardian reported the same price; Fortune put the valuation at about $1.5 trillion.\n\n- **Listing:** shares begin trading on Nasdaq on Thursday under the ticker ANT.\n- **Market:** Nasdaq-100 futures rose about 1% Wednesday night and S&P 500 futures 0.5% ahead of the debut, CNBC reported.\n\nSources: [CNBC](https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html), [Techmeme roundup](https://www.techmeme.com/261118/h1800)"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+            "lang": "en"
+          },
+          {
+            "name": "Techmeme",
+            "url": "https://www.techmeme.com/261118/h1800",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-gpt-6-2-astra-sol",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI发布GPT-6.2 Astra与Sol",
+          "en": "OpenAI releases GPT-6.2 Astra and Sol"
+        },
+        "summary": {
+          "zh": "OpenAI推出面向复杂专业工作的GPT-6.2 Astra和面向日常任务的GPT-6.2 Sol，即日起向ChatGPT Work和Codex的Plus、Pro、企业和教育用户开放，并上线API。Astra的API价格为每百万token输入8美元、输出40美元，比GPT-6 Astra打八折。",
+          "en": "OpenAI launched GPT-6.2 Astra for hard professional work and GPT-6.2 Sol for everyday tasks, live in ChatGPT Work, Codex and the API. Astra costs $8 per million input tokens and $40 output, 20% below GPT-6 Astra."
+        },
+        "sources": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "google-gemini-4-neon",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌推出Gemini 4 Neon，Gemini Tasks在六国免费",
+          "en": "Google launches Gemini 4 Neon and makes Gemini Tasks free in six countries"
+        },
+        "summary": {
+          "zh": "谷歌发布Gemini 4 Neon，主打快速完成编程、知识工作和科研任务，在Artificial Analysis智能指数上以61分排第三，定价每百万token输入3美元、输出15美元，上下文100万token。谷歌还把智能体Tasks在美、日、韩等六国改为免费。",
+          "en": "Google released Gemini 4 Neon, a fast model for coding, knowledge work and science that scores 61 and ranks #3 on the Artificial Analysis index, at $3/$15 per million tokens with 1M context. Tasks in Gemini is now free in six countries."
+        },
+        "sources": [
+          {
+            "name": "Google",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+            "lang": "en"
+          },
+          {
+            "name": "Techmeme",
+            "url": "https://www.techmeme.com/261118/h1800",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "eu-ukraine-45bn-loan",
+        "originalLang": "en",
+        "title": {
+          "zh": "欧盟委员会提议明年向乌克兰提供450亿欧元贷款",
+          "en": "EU Commission proposes a €45bn loan for Ukraine in 2027"
+        },
+        "summary": {
+          "zh": "冯德莱恩提出2027年以欧盟联合举债向乌克兰提供450亿欧元贷款，其中250亿用于军事、200亿用于预算支持，约覆盖乌方700亿欧元资金缺口的三分之二。方案需欧洲议会和27国一致批准，匈牙利、斯洛伐克等国有抵触。",
+          "en": "Von der Leyen proposed a €45bn jointly financed EU loan for Ukraine in 2027: €25bn military and €20bn budget support, about two-thirds of a €70bn gap. It needs the Parliament and all 27 states; Hungary and Slovakia are among the holdouts."
+        },
+        "body": {
+          "zh": "欧盟委员会18日提出一项支持乌克兰的协调工具：2027年以欧盟共同债务为基础，向乌克兰提供450亿欧元贷款。\n\n- **用途**：250亿欧元用于军事需求，200亿欧元用于预算支持。\n- **规模**：约覆盖乌克兰估计700亿欧元资金缺口的三分之二。\n- **偿还**：乌克兰只有在获得俄罗斯战争赔款后才需偿还本金。\n- **门槛**：方案需欧洲议会和全部27个成员国批准。据报道，保加利亚、捷克、匈牙利和斯洛伐克存在抵触；冯德莱恩呼吁所有成员国支持。\n\n来源：[欧盟委员会](https://enlargement.ec.europa.eu/news/commission-proposes-eur45-billion-additional-financial-support-ukraine-2027-2026-11-18_en)、[Euronews](https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt)",
+          "en": "The European Commission on Wednesday proposed an instrument for coordinated support to Ukraine: a €45 billion loan for 2027 backed by joint EU borrowing.\n\n- **Split:** €25 billion for military needs and €20 billion for budget support.\n- **Scale:** about two-thirds of Ukraine's estimated €70 billion financing gap.\n- **Repayment:** Ukraine repays principal only after receiving Russian reparations.\n- **Hurdles:** it needs the European Parliament and all 27 member states. Bulgaria, Czechia, Hungary and Slovakia have pushed back, and von der Leyen urged every member to back it.\n\nSources: [European Commission](https://enlargement.ec.europa.eu/news/commission-proposes-eur45-billion-additional-financial-support-ukraine-2027-2026-11-18_en), [Euronews](https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt)"
+        },
+        "sources": [
+          {
+            "name": "European Commission",
+            "url": "https://enlargement.ec.europa.eu/news/commission-proposes-eur45-billion-additional-financial-support-ukraine-2027-2026-11-18_en",
+            "lang": "en"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt",
+            "lang": "en"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/live/2026/nov/18/europe-ukraine-russia-eu-germany-serbia-latest-news-updates",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "trump-putin-bilateral-shenzhen",
+        "originalLang": "en",
+        "title": {
+          "zh": "美官员：特朗普19日将在深圳与普京单独会晤",
+          "en": "Trump to hold a separate meeting with Putin in Shenzhen"
+        },
+        "summary": {
+          "zh": "NBC援引美国官员称，特朗普19日将在APEC期间与普京单独会晤，这是两人一年多来首次面对面会谈，此前并不在行程上。同日的中美俄三方会晤将讨论核裁军、伊朗战争、贸易，特朗普称也会谈俄乌战争。",
+          "en": "A US official told NBC that Trump will meet Putin one-on-one on Thursday in Shenzhen, their first in-person talks in over a year and not originally scheduled. The same-day trilateral with Xi covers nuclear arms, Iran, trade and, Trump says, Ukraine."
+        },
+        "sources": [
+          {
+            "name": "NBC News",
+            "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-putin-china-apec-congress-2026-live-updates-rcna609888",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "jeffries-speaker-nominee",
+        "originalLang": "en",
+        "title": {
+          "zh": "众议院民主党提名杰弗里斯为下任议长",
+          "en": "House Democrats nominate Hakeem Jeffries as next speaker"
+        },
+        "summary": {
+          "zh": "众议院民主党18日以251票赞成、11票反对正式提名杰弗里斯为明年1月新一届国会的议长人选。民主党将在新国会占多数，他有望成为首位非裔众议院议长，但党内进步派要求他在医保、移民等议题上作出承诺。",
+          "en": "House Democrats voted 251-11 on Wednesday to nominate Hakeem Jeffries as speaker for the Congress that convenes in January, when they take the majority. He would be the first Black speaker; progressives want commitments on healthcare and immigration."
+        },
+        "sources": [
+          {
+            "name": "NBC News",
+            "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-putin-china-apec-congress-2026-live-updates-rcna609888",
+            "lang": "en"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/18",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "us-stocks-mixed-nov18",
+        "originalLang": "en",
+        "title": {
+          "zh": "美股涨跌不一：道指跌1.1%，标普五连跌",
+          "en": "US stocks mixed: Dow drops 1.1%, S&P 500 falls a fifth day"
+        },
+        "summary": {
+          "zh": "道指18日跌561.25点（1.11%）至50198.17点，标普500跌0.23%至7323.63点、连跌五日，为6月以来最长；纳指涨0.42%至24429.89点。能源和医疗板块领跌。美原油库存超预期增加，WTI跌3.2%至83.26美元。",
+          "en": "The Dow fell 561.25 points (1.11%) to 50,198.17 and the S&P 500 slipped 0.23% to 7,323.63, a fifth straight loss and the longest since June, while the Nasdaq rose 0.42%. Energy and health led losses; WTI fell 3.2% to $83.26."
+        },
+        "sources": [
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261119/037e127c9b0449f2bd598c7c4c5b4c6d/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-990749d3d269f7ef05b9f6c089713a58",
+            "lang": "en"
+          },
+          {
+            "name": "JBizNews",
+            "url": "https://jbiznews.com/dow-falls-561-points-at-wednesday-close-as-nasdaq-gains/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "fed-minutes-more-hikes",
+        "originalLang": "en",
+        "title": {
+          "zh": "美联储纪要：几乎所有官员认为需进一步加息",
+          "en": "Fed minutes: nearly all officials see further rate hikes ahead"
+        },
+        "summary": {
+          "zh": "美联储10月会议纪要显示，几乎所有与会者认为进一步加息可能是合适的；部分人认为若通胀数据不佳，12月可加息更大幅度。10月会议以10比2维持3.75%至4%利率不变。理事沃勒称可能需要加息50个基点来“震慑”市场。",
+          "en": "Minutes of the Fed's October meeting showed almost all participants saw further hikes as likely appropriate, some open to a bigger move in December. Rates were held at 3.75%-4% on a 10-2 vote. Governor Waller said a half-point hike may be needed."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+            "lang": "en"
+          },
+          {
+            "name": "Federal Reserve",
+            "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20261028.pdf",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "xi-apec-welcome-banquet",
+        "originalLang": "zh",
+        "title": {
+          "zh": "习近平举行APEC欢迎宴会：看五十年的中国来深圳",
+          "en": "Xi hosts APEC welcome banquet: to see 50 years of China, come to Shenzhen"
+        },
+        "summary": {
+          "zh": "11月18日晚，习近平和彭丽媛在深圳国际交流中心举行宴会，欢迎出席APEC第三十三次领导人非正式会议的来宾。习近平致辞说“看五十年的中国来深圳”，并称19日领导人会议将讨论扩大相互开放、创新驱动增长等议题。宴会前他同普京、特朗普交流。",
+          "en": "On Wednesday evening Xi and Peng Liyuan hosted a banquet in Shenzhen for APEC leaders. In his toast Xi said 'to see 50 years of China, come to Shenzhen' and that Thursday's meeting will discuss mutual opening and innovation-led growth. He spoke with Putin and Trump beforehand."
+        },
+        "body": {
+          "zh": "据新华社报道，11月18日晚，国家主席习近平和夫人彭丽媛在深圳国际交流中心举行宴会，欢迎出席亚太经合组织第三十三次领导人非正式会议的来宾。新华社图片显示，宴会前习近平同俄罗斯总统普京、美国总统特朗普交流。\n\n习近平在祝酒辞中说：“看千年的中国去西安，看五百年的中国去北京，看一百年的中国去上海……看五十年的中国就来深圳。”他称开放、创新、合作是深圳的基因、活力和力量之源。\n\n- 中方担任东道主以来，在16座城市举办了300多场会议和活动，各成员经济体代表逾万人次参与。\n- 19日的领导人会议将讨论扩大相互开放的举措、探索创新驱动增长的路径、拓展务实合作。\n\n同日下午，习近平在深圳宝安机场迎接特朗普。外交部通稿称，习近平表示期待推动中美建设性战略稳定关系向前发展；特朗普称此访将进一步推进两国关系。19日将举行中美元首会晤和中俄美三方会晤。\n\n来源：[新华网](https://www.news.cn/politics/leaders/20261118/d7d974854fde450e8251d37edd7ba030/c.html)、[祝酒辞全文](https://www.xinhuanet.com/politics/leaders/20261118/5c05d7ee35474b478d171442d22327ef/c.html)、[外交部](https://www.mfa.gov.cn/eng./xw/zyxw/202611/t20261118_12062188.html)",
+          "en": "On the evening of November 18, President Xi Jinping and Peng Liyuan hosted a banquet at the Shenzhen International Exchange Center for guests of the 33rd APEC Economic Leaders' Meeting, Xinhua reported. Xinhua photos show Xi speaking with Putin and Trump before the dinner.\n\nIn his toast Xi said: \"To see a thousand years of China, go to Xi'an; five hundred years, Beijing; a hundred years, Shanghai... to see fifty years of China, come to Shenzhen.\" He called openness, innovation and cooperation the city's genes, vitality and strength.\n\n- Since taking the APEC chair, China has held more than 300 meetings and events in 16 cities, with over 10,000 attendances by member delegates.\n- Thursday's leaders' meeting will discuss expanding mutual opening, innovation-driven growth and practical cooperation.\n\nEarlier that afternoon Xi welcomed Trump at Shenzhen Bao'an airport. According to China's foreign ministry, Xi said he hoped to advance a constructive China-US relationship of strategic stability, and Trump said the visit would further the relationship. A Xi-Trump meeting and the China-Russia-US trilateral are set for Thursday.\n\nSources: [Xinhua](https://www.news.cn/politics/leaders/20261118/d7d974854fde450e8251d37edd7ba030/c.html), [toast full text](https://www.xinhuanet.com/politics/leaders/20261118/5c05d7ee35474b478d171442d22327ef/c.html), [MFA](https://www.mfa.gov.cn/eng./xw/zyxw/202611/t20261118_12062188.html)"
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/politics/leaders/20261118/d7d974854fde450e8251d37edd7ba030/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "新华网 · 祝酒辞全文",
+            "url": "https://www.xinhuanet.com/politics/leaders/20261118/5c05d7ee35474b478d171442d22327ef/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "外交部",
+            "url": "https://www.mfa.gov.cn/web/gjhdq_676201/gjhdqzz_681964/lhg_682278/xgxw_682284/202611/t20261118_12062217.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "china-korea-content-deal",
+        "originalLang": "en",
+        "title": {
+          "zh": "中韩元首深圳会晤：韩国影视游戏获最惠国待遇",
+          "en": "Xi and Lee agree freer access for Korean content in China"
+        },
+        "summary": {
+          "zh": "韩国总统李在明与习近平18日在深圳会晤，同意逐步扩大文化内容交流，包括合拍电影。据韩国媒体，中方同意给予韩国电影和游戏最惠国待遇，内容预审适用非歧视原则；新的视听合拍附件把电视剧、纪录片、动画和综艺纳入国产待遇。",
+          "en": "Lee Jae-myung and Xi agreed in Shenzhen to expand cultural exchanges, including film co-production. Korean media say China will give Korean films and games MFN treatment and extend domestic status to co-produced dramas and variety shows."
+        },
+        "sources": [
+          {
+            "name": "The Korea Times",
+            "url": "https://www.koreatimes.co.kr/economy/policy/20261118/seoul-beijing-agree-on-k-contents-freer-access-to-chinese-market",
+            "lang": "en"
+          },
+          {
+            "name": "The Korea Herald",
+            "url": "https://www.koreaherald.com/article/10941762",
+            "lang": "en"
+          },
+          {
+            "name": "SBS",
+            "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008852605",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "uscc-2026-report-chips",
+        "originalLang": "en",
+        "title": {
+          "zh": "美中经济与安全审查委员会发布2026年度报告",
+          "en": "US-China commission urges tighter AI-chip export certification"
+        },
+        "summary": {
+          "zh": "美国国会下属的美中经济与安全审查委员会发布2026年度报告，建议修改《出口管制改革法》：向中国出口先进AI芯片须提供可审计的证明，保证不挤占美国晶圆厂、高带宽内存和先进封装产能，虚假证明将承担刑责。",
+          "en": "The US-China Economic and Security Review Commission's 2026 report urges Congress to require auditable certification that advanced AI-chip exports to China won't divert US wafer, HBM or packaging capacity, with criminal penalties for false claims."
+        },
+        "sources": [
+          {
+            "name": "USCC",
+            "url": "https://www.uscc.gov/annual-report/2026-annual-report-congress",
+            "lang": "en"
+          },
+          {
+            "name": "USCC recommendations",
+            "url": "https://www.uscc.gov/sites/default/files/2026-11/Comprehensive_List_of_2026_Recommendations.pdf",
+            "lang": "en"
+          }
+        ]
+      }
+    ]
+  }
+}

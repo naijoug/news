@@ -2,8 +2,8 @@
   "$schema": "../../../schemas/edition.schema.json",
   "date": "2026-11-18",
   "lead": {
-    "zh": "英伟达黄仁勋离任后首份财报营收翻倍；标普500跌破200日均线；阿里发布Qwen4-Max；普京抵达深圳，中俄美元首会晤定于19日。",
-    "en": "Nvidia doubles revenue in its first report since Huang left; the S&P 500 breaks its 200-day average; Alibaba ships Qwen4-Max; Putin lands in Shenzhen ahead of a Nov 19 three-way summit."
+    "zh": "上午：英伟达营收翻倍、阿里发布Qwen4-Max、普京抵深。傍晚：习近平APEC主旨演讲并会见普京，亲赴机场迎接特朗普；英伟达停止向华发货Hopper芯片；伊朗袭击科威特巴林。",
+    "en": "Morning: Nvidia doubles revenue, Qwen4-Max ships, Putin lands. Evening: Xi's APEC keynote, Xi-Putin talks and an airport welcome for Trump; Nvidia halts Hopper sales to China; Iran hits Kuwait."
   },
   "am": {
     "tech": [
@@ -262,6 +262,283 @@
             "name": "央视网",
             "url": "https://tv.cctv.cn/2026/11/17/VIDEJZN0J8XTIlDMPSTLd4DR261117.shtml",
             "lang": "zh"
+          }
+        ]
+      }
+    ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "nvidia-stops-hopper-china",
+        "originalLang": "en",
+        "title": {
+          "en": "Nvidia stops shipping licensed Hopper AI chips to China",
+          "zh": "英伟达停止向中国发货获许可的Hopper AI芯片"
+        },
+        "summary": {
+          "en": "Interim CEO Colette Kress said Nvidia sold $2.4B of licensed Hopper data-center products, including H200, to China last quarter but has stopped shipping them; guidance excludes them. She gave no reason.",
+          "zh": "英伟达临时CEO科莱特·克雷斯称，上季度向中国销售了24亿美元获许可的Hopper数据中心产品（含H200），但现已停止发货，业绩指引也不再包含这部分。她没有说明原因。"
+        },
+        "body": {
+          "en": "Speaking on the earnings call, Kress said: \"our guidance does not have any licensed Hopper data center products included, and we are no longer shipping licensed Hopper data center products to China.\" AFP notes the move comes as scrutiny grows over alleged chip diversion to China after former CEO Jensen Huang's resignation.\n\n- Nvidia's board also set up a National Security and Export Control Oversight Committee, chaired by director Suzanne Nora Johnson; security and compliance teams report to it and to Kress.\n- Washington still bars exports of the more advanced Blackwell and Rubin GPUs to China.\n\nSources: [AFP](https://www.afp.com/en/nvidia-says-no-longer-shipping-hopper-ai-chips-china), [Reuters via Investing.com](https://www.investing.com/news/stock-market-news/nvidia-stops-shipping-usapproved-ai-chips-to-china-5035204).",
+          "zh": "克雷斯在财报电话会上说：“我们的指引不包含任何获许可的Hopper数据中心产品，我们也已不再向中国发货这类产品。”法新社指出，前CEO黄仁勋辞职后，外界对芯片流向中国的审查正在加强。\n\n- 英伟达董事会同时成立“国家安全与出口管制监督委员会”，由董事苏珊·诺拉·约翰逊担任主席，安全与合规团队向该委员会和克雷斯汇报。\n- 美国仍禁止向中国出口更先进的Blackwell和Rubin GPU。\n\n来源：[法新社](https://www.afp.com/en/nvidia-says-no-longer-shipping-hopper-ai-chips-china)、[路透（Investing.com转载）](https://www.investing.com/news/stock-market-news/nvidia-stops-shipping-usapproved-ai-chips-to-china-5035204)。"
+        },
+        "sources": [
+          {
+            "name": "AFP",
+            "url": "https://www.afp.com/en/nvidia-says-no-longer-shipping-hopper-ai-chips-china",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/nvidia-stops-shipping-usapproved-ai-chips-to-china-5035204",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "trump-backs-lutnick-chip-controls",
+        "originalLang": "en",
+        "title": {
+          "en": "Trump backs Lutnick in cabinet rift over Nvidia chip controls",
+          "zh": "芯片管制内阁分歧：特朗普力挺卢特尼克"
+        },
+        "summary": {
+          "en": "Trump said he is not replacing Commerce Secretary Lutnick, whom Treasury's Bessent blamed for delaying action against Nvidia customer Megaspeed, but also backed a rule closing overseas data-center loopholes for Chinese firms.",
+          "zh": "财长贝森特指责商务部长卢特尼克拖延对英伟达客户Megaspeed的处置。特朗普表示不会撤换卢特尼克，但也支持一项新规，堵住中国企业借海外数据中心获取先进芯片的漏洞。"
+        },
+        "sources": [
+          {
+            "name": "Fox News",
+            "url": "https://www.foxnews.com/politics/trump-brings-two-divided-cabinet-heavyweights-china-controversy-hangs-over-high-stakes-talks",
+            "lang": "en"
+          },
+          {
+            "name": "Lianhe Zaobao",
+            "url": "https://www.zaobao.com.sg/en/news/world/donald-j-trump-backs-howard-lutnick-infighting-over-china-policy-intensifies",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "agentaus-1-sovereign-model",
+        "originalLang": "en",
+        "title": {
+          "en": "Australia's Trellis Data releases sovereign model Agentaus 1",
+          "zh": "澳大利亚Trellis Data发布主权大模型Agentaus 1"
+        },
+        "summary": {
+          "en": "Canberra-based Trellis Data launched Agentaus 1, a 220B-parameter model hosted in Australia that does not train on user data. It claims 84.4% on MMLU-Pro; no independent verification has been published.",
+          "zh": "堪培拉公司Trellis Data发布Agentaus 1，2200亿参数，部署在澳大利亚本土，不用用户数据训练。公司称其MMLU-Pro得分84.4%，但尚无独立验证。"
+        },
+        "sources": [
+          {
+            "name": "Trellis Data",
+            "url": "https://trellisdata.com/newsroom/trellis-data-launches-agentaus-1/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "iran-strikes-kuwait-bahrain",
+        "originalLang": "en",
+        "title": {
+          "en": "Iran widens Gulf attacks to Kuwait and Bahrain; more ships hit near Hormuz",
+          "zh": "伊朗把袭击扩大到科威特和巴林，霍尔木兹又有船只遇袭"
+        },
+        "summary": {
+          "en": "Iran fired drones at Kuwait's Ali Al Salem Air Base and at targets in Bahrain after US jets hit an IRGC site on Qeshm Island; both states say they intercepted them. An ADNOC L&S vessel was hit in Hormuz, 11 injured, one missing.",
+          "zh": "美军战机打击格什姆岛革命卫队设施后，伊朗用无人机袭击科威特阿里·萨利姆空军基地和巴林目标，两国称已拦截。阿布扎比国家石油公司旗下航运公司一艘船在霍尔木兹遇袭，11人受伤、1人失踪。"
+        },
+        "body": {
+          "en": "According to AP and CNBC, Iran's army said it targeted US drone and missile launch sites and Patriot systems at Ali Al Salem; Kuwait reported no damage. Bahrain intercepted Iranian attacks for the third time this week. US Central Command denied Iranian claims of hits in Bahrain.\n\nAt sea, ADNOC Logistics & Services said one of its vessels was attacked in the Strait of Hormuz, with 11 crew injured and one missing. Separately, the crew of the LPG tanker Tara Gas was evacuated off Oman after a projectile strike and engine-room fire.\n\nSources: [AP](https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94), [CNBC](https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html), [The National](https://www.thenationalnews.com/business/energy/2026/11/18/adnoc-ls-ship-attacked-at-strait-of-hormuz-with-one-crew-member-missing/).",
+          "zh": "据美联社和CNBC，伊朗军方称打击了阿里·萨利姆基地的美军无人机、导弹发射点和“爱国者”系统；科威特称没有损失。巴林本周第三次拦截伊朗空袭。美军中央司令部否认伊朗所称在巴林命中目标。\n\n海上，阿布扎比国家石油公司物流与服务公司（ADNOC L&S）称旗下一艘船在霍尔木兹海峡遇袭，11名船员受伤、1人失踪。另一艘液化气船Tara Gas在阿曼附近被弹体击中、机舱起火，船员已撤离。\n\n来源：[美联社](https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94)、[CNBC](https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html)、[The National](https://www.thenationalnews.com/business/energy/2026/11/18/adnoc-ls-ship-attacked-at-strait-of-hormuz-with-one-crew-member-missing/)。"
+        },
+        "sources": [
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html",
+            "lang": "en"
+          },
+          {
+            "name": "The National",
+            "url": "https://www.thenationalnews.com/business/energy/2026/11/18/adnoc-ls-ship-attacked-at-strait-of-hormuz-with-one-crew-member-missing/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "odesa-drone-strike",
+        "originalLang": "en",
+        "title": {
+          "en": "Russian drones kill three in central Odesa",
+          "zh": "俄无人机袭击敖德萨市中心，3人死亡"
+        },
+        "summary": {
+          "en": "Russian drones hit residential buildings, a college and shops in central Odesa on Nov 18, killing three and injuring at least seven, a day after Ukraine collapsed a road span of the Kerch bridge.",
+          "zh": "11月18日，俄军无人机击中敖德萨市中心的住宅楼、一所学院和商铺，造成3人死亡、至少7人受伤。前一天乌克兰炸塌了刻赤大桥一段公路桥面。"
+        },
+        "sources": [
+          {
+            "name": "Kyiv Post",
+            "url": "https://www.kyivpost.com/post/90463",
+            "lang": "en"
+          },
+          {
+            "name": "BBC News Україна",
+            "url": "https://www.bbc.com/ukrainian/articles/cj20qk91vrw6o",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "asia-markets-nov18",
+        "originalLang": "zh",
+        "title": {
+          "zh": "英伟达财报后亚股分化：科创50涨超2%，恒指跌近1%",
+          "en": "Asia mixed after Nvidia: STAR 50 up 2%+, Hang Seng down ~1%"
+        },
+        "summary": {
+          "zh": "上证指数收涨0.09%报3587.83点，科创50涨超2%，算力租赁概念走强，但两市成交额仅1.37万亿元，为16个月来地量。恒指跌0.91%至23294.75点，日经225涨0.28%。",
+          "en": "The Shanghai Composite rose 0.09% to 3,587.83 and the STAR 50 gained over 2% on computing-rental stocks, on thin turnover of 1.37T yuan. The Hang Seng fell 0.91% to 23,294.75; the Nikkei rose 0.28%."
+        },
+        "sources": [
+          {
+            "name": "新浪财经",
+            "url": "https://finance.sina.com.cn/tob/2026-11-18/doc-inizcvvc4829687.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "中国经济网",
+            "url": "https://finance.ce.cn/stock/gsgdbd/202611/t20261118_3298459.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-apec-shenzhen-dad5715bc91b4aba23a567a40e22b1fc",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "oil-falls-us-inventory-build",
+        "originalLang": "en",
+        "title": {
+          "en": "Oil slides to two-month lows on US stock build",
+          "zh": "美国库存增加，油价跌至两个月低位"
+        },
+        "summary": {
+          "en": "Brent fell to about $93 and WTI to about $85 after US crude stocks rose 5.28 million barrels in the week to Nov 13, with gasoline up 5.12 million, outweighing Hormuz risks.",
+          "zh": "截至11月13日当周美国原油库存增加528万桶、汽油增加512万桶，布伦特原油跌至约93美元，WTI约85美元，盖过了霍尔木兹的风险。"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/18/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks.html",
+            "lang": "en"
+          },
+          {
+            "name": "FXStreet",
+            "url": "https://www.fxstreet.com/news/wti-oil-drifts-below-8300-as-higher-us-stocks-calm-concerns-about-supply-202611180855",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "xi-apec-ceo-keynote",
+        "originalLang": "zh",
+        "title": {
+          "zh": "习近平在APEC工商领导人峰会发表主旨演讲",
+          "en": "Xi delivers keynote at APEC CEO Summit in Shenzhen"
+        },
+        "summary": {
+          "zh": "习近平在深圳发表题为《坚定信心 开创亚太美好未来》的演讲，呼吁维护以世贸组织为核心的多边贸易体制、推进亚太自贸区，在AI、数字贸易和供应链上合作，并称中国将扩大市场准入。",
+          "en": "In Shenzhen, Xi urged support for the WTO-centered trading system and an Asia-Pacific free-trade area, cooperation on AI, digital trade and supply chains, and said China will widen market access for foreign firms."
+        },
+        "body": {
+          "zh": "据外交部和新华社发布的演讲全文，习近平11月18日上午在深圳前海出席APEC工商领导人峰会开幕式并致辞。他说，当今世界全球增长动能不足，单边主义、保护主义盛行，但全球贸易仍在逆风中增长。\n\n- 呼吁亚太经济体维护和平稳定，坚持开放的区域主义；\n- 支持以世贸组织为核心的多边贸易体制，推进亚太自由贸易区建设；\n- 加强人工智能、数字贸易和产业链供应链合作；\n- 中国将继续扩大市场准入，深化共建“一带一路”合作。\n\n本届峰会有来自21个经济体的2000多名代表参加。\n\n来源：[外交部](https://www.mfa.gov.cn/eng/xw/zyjh/202611/t20261118_12061694.html)、[新华社](https://english.news.cn/20261118/103d05a15a834d7f8c947dfdc89fe4d2/c.html)、[CNA](https://www.channelnewsasia.com/east-asia/apec-ceo-summit-xi-jinping-speech-china-6551601)。",
+          "en": "Per the full text released by China's foreign ministry and Xinhua, Xi spoke at the opening of the APEC CEO Summit in Qianhai, Shenzhen, on the morning of Nov 18. He said global growth lacks momentum and unilateralism and protectionism are rampant, yet trade keeps growing against headwinds.\n\n- Asia-Pacific economies should preserve peace and stability and stay open.\n- Support the WTO-centered multilateral system and work toward a Free Trade Area of the Asia-Pacific.\n- Cooperate on AI, digital trade and supply chains.\n- China will keep widening market access and deepen Belt and Road cooperation.\n\nMore than 2,000 delegates from 21 economies are attending.\n\nSources: [MFA](https://www.mfa.gov.cn/eng/xw/zyjh/202611/t20261118_12061694.html), [Xinhua](https://english.news.cn/20261118/103d05a15a834d7f8c947dfdc89fe4d2/c.html), [CNA](https://www.channelnewsasia.com/east-asia/apec-ceo-summit-xi-jinping-speech-china-6551601)."
+        },
+        "sources": [
+          {
+            "name": "外交部",
+            "url": "https://www.mfa.gov.cn/eng/xw/zyjh/202611/t20261118_12061694.html",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261118/103d05a15a834d7f8c947dfdc89fe4d2/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/east-asia/apec-ceo-summit-xi-jinping-speech-china-6551601",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "xi-putin-talks-shenzhen",
+        "originalLang": "zh",
+        "title": {
+          "zh": "习近平与普京深圳会谈：中俄关系“坚如磐石”",
+          "en": "Xi and Putin hold talks in Shenzhen, call ties 'steadfast as a mountain'"
+        },
+        "summary": {
+          "zh": "两国元首在深圳会谈，称这是今年第三次面对面会晤、2013年以来第50次会晤，承诺深化务实合作、共同推动多极化。普京提到双边贸易超过2000亿美元，并称制裁未能孤立俄罗斯。",
+          "en": "Meeting for the third time in person this year and the 50th time since 2013, the two pledged deeper practical cooperation and a multipolar order. Putin cited trade above $200B and said sanctions have failed to isolate Russia."
+        },
+        "sources": [
+          {
+            "name": "Kremlin",
+            "url": "https://en.kremlin.ru/events/president/news/81287",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261118/8522ec1fb7b94fc4a170e55e169bf2d3/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/18/president-xi-says-russia-and-china-should-lead-push-to-multipolar-world",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "xi-greets-trump-shenzhen-airport",
+        "originalLang": "zh",
+        "title": {
+          "zh": "习近平赴深圳机场迎接特朗普，19日中俄美元首会晤",
+          "en": "Xi greets Trump at Shenzhen airport ahead of Nov 19 three-way talks"
+        },
+        "summary": {
+          "zh": "18日下午习近平在深圳宝安机场迎接特朗普，两人握手拥抱。CNA称这是习近平任国家主席以来首次亲自到机场迎接外国领导人，回应了特朗普9月在安德鲁斯基地的接机。",
+          "en": "Xi met Trump on the tarmac at Shenzhen Bao'an airport on Nov 18 with a handshake and hug. CNA says it is the first time Xi has personally greeted a visiting leader at the airport, returning Trump's September gesture."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.xinhuanet.com/politics/leaders/20261118/93c2a37d68014d6684d28da11fa90e99/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/asia/trump-arrives-china-shenzhen-apec-summit-trilateral-xi-putin-6562131",
+            "lang": "en"
           }
         ]
       }

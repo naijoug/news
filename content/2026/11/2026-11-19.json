@@ -305,5 +305,304 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "openai-ai-designed-chips",
+        "originalLang": "en",
+        "title": {
+          "zh": "OpenAI用自家模型改进芯片设计，乘法器面积减约15%",
+          "en": "OpenAI uses its own models to improve chip designs"
+        },
+        "summary": {
+          "zh": "OpenAI披露，已用自家AI模型改进其Jalapeño芯片及与AMD合作的处理器设计。其中一个由AI重新设计的乘法器，估算芯片面积缩小约15%，一次运算从两个时钟周期降到一个。OpenAI还在与Synopsys合作，把AI引入成熟的芯片设计软件。",
+          "en": "OpenAI said its models helped improve designs for its Jalapeño silicon and AMD processor work. One AI-made multiplier redesign cut estimated chip area about 15% and a calculation from two clock cycles to one. It is also working with Synopsys on AI design tools."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "citi-ai-agent-banking-terms",
+        "originalLang": "en",
+        "title": {
+          "zh": "花旗更新条款：通过第三方AI代理操作账户，后果由客户自负",
+          "en": "Citi makes customers liable for what third-party AI agents do in their accounts"
+        },
+        "summary": {
+          "zh": "花旗银行更新用户条款，客户若授权第三方AI工具访问账户，由此发起的操作即便出错也由客户负责。随着AI助手开始能直接发起转账付款，其他银行也在采取类似立场。",
+          "en": "Citi updated its terms so customers are responsible for activity carried out through third-party AI tools they give account access to, even when something goes wrong. Other banks are taking similar positions as AI assistants gain the ability to initiate payments."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "kling-image-4",
+        "originalLang": "en",
+        "title": {
+          "zh": "快手发布可灵Image 4.0：原生8K，一次生成最多10张风格统一的图",
+          "en": "Kuaishou launches Kling Image 4.0 with native 8K output"
+        },
+        "summary": {
+          "zh": "快手推出可灵Kling Image 4.0图像模型，支持原生8K生成，一条提示词最多可生成10张视觉风格协调的图片，并支持多语言文字渲染，主攻广告与商业设计场景。",
+          "en": "Kuaishou launched Kling Image 4.0 with native 8K generation and up to 10 visually consistent images from one prompt. It adds multilingual text rendering and targets advertising and commercial design."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "trump-xi-putin-trilateral",
+        "originalLang": "en",
+        "title": {
+          "zh": "中美俄元首首次三方会晤在深圳举行，未宣布具体成果",
+          "en": "Trump, Xi and Putin hold first-ever three-way talks in Shenzhen"
+        },
+        "summary": {
+          "zh": "特朗普、习近平、普京19日在深圳APEC期间举行首次三方会晤，约80至90分钟，议题包括核裁军、防止核战争和俄乌战争。特朗普称三方“正在创造历史”；习近平呼吁全面禁止并彻底销毁核武器。会后未宣布实质性协议，中俄官媒称将另行发表联合声明。",
+          "en": "Trump, Xi and Putin met as a trio for the first time in Shenzhen, for roughly 80 to 90 minutes on nuclear arms, preventing nuclear war and Ukraine. Trump said they were 'making history'; Xi urged a ban on nuclear weapons. No substantive deal was announced."
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/live/2026/nov/19/apec-summit-trump-xi-putin-meeting-shenzhen-china",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/trump-xi-putin-nuclear-ukraine-iran-a04dc76ed8e786b087e2c1ea9598783a",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/-xi-trump-putin-conclude-historic-trilateral-meeting-in-chinas-shenzhen/4130184",
+            "lang": "en"
+          },
+          {
+            "name": "Los Angeles Times",
+            "url": "https://www.latimes.com/politics/story/2026-11-19/making-history-trump-putin-xi-meet-in-unprecedented-china-summit",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据《卫报》直播、美联社和阿纳多卢通讯社报道，会晤于当地时间约16:30开始，约15分钟公开致辞后转入闭门会谈，至17:50左右结束，超出原定一小时。\n\n- **特朗普**称美俄中作为最大的核国家“处于独特位置”讨论削减核武库，但也说“放弃核武器不容易”。他还在会上抨击国际刑事法院“失控”，而普京本人正被该法院通缉。\n- **普京**说三国在解决包括乌克兰冲突在内的地区冲突上有“许多共同利益”，并提出讨论能源安全。\n- **习近平**主持会晤，称大国良性互动“不是选择题，而是必答题”；主张核武器最终应全面禁止、彻底销毁，三方在重大敏感问题上应事先沟通、不挑战彼此红线，并建议建立三方危机沟通与预防机制，反对“脱钩断链”。中方通报未具体提及乌克兰或中东战事。\n\n剑桥大学地缘政治中心William Hurst评论称，这次峰会象征意义大于实质，公开层面没有达成任何协议。英国保守党领袖巴德诺克则称三人像是在“瓜分世界”。会后特朗普随即前往机场。另据《卫报》，库什纳与特使威特科夫将赴柏林与泽连斯基及欧洲领导人磋商。",
+          "en": "According to the Guardian live blog, AP and Anadolu Agency, the talks began around 4:30pm local time, with about 15 minutes of public remarks before a closed session that ended near 5:50pm, past the one-hour slot.\n\n- **Trump** said the three largest nuclear powers were 'uniquely positioned' to discuss cutting arsenals, though 'it's not an easy thing to do'. He also called the International Criminal Court 'out of control'; Putin is subject to an ICC arrest warrant.\n- **Putin** cited 'many converging interests' in settling conflicts, including Ukraine, and raised energy security.\n- **Xi**, who chaired, said positive interaction among the powers is 'not an option but a must', called for nuclear weapons to be prohibited and destroyed over time, urged the three to respect each other's red lines and set up crisis-communication mechanisms, and opposed decoupling. China's readout did not specifically mention Ukraine or the Middle East.\n\nCambridge's William Hurst said the summit was about symbolism, with nothing publicly agreed. UK Conservative leader Kemi Badenoch called it 'disturbing'. Trump headed to the airport soon after. Jared Kushner and envoy Steve Witkoff are due in Berlin for talks with Zelenskyy and European leaders."
+        }
+      },
+      {
+        "id": "putin-apec-sidelines",
+        "originalLang": "en",
+        "title": {
+          "zh": "普京APEC场边：与特朗普单独会谈约40分钟，遭澳总理当面喊话",
+          "en": "Putin on the APEC sidelines: 40 minutes with Trump, a rebuke from Albanese"
+        },
+        "summary": {
+          "zh": "克宫助理乌沙科夫称，普京与特朗普三方会晤前单独会谈约35至40分钟，谈及乌克兰问题和双边关系，普京心情“极好”。澳大利亚总理阿尔巴尼斯在APEC会上直视普京说“结束你的战争，现在就结束”；日本首相高市早苗则当面要求释放被俄拘押的日本记者。",
+          "en": "Kremlin aide Yuri Ushakov said Putin and Trump met for 35-40 minutes on Ukraine and bilateral ties, leaving Putin in an 'excellent' mood. Australia's Albanese told Putin to 'end your war, end it now'; Japan's Takaichi pressed him to free a detained Japanese reporter."
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/live/2026/nov/19/apec-summit-trump-xi-putin-meeting-shenzhen-china",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "crimea-bridge-rail-suspended",
+        "originalLang": "zh",
+        "title": {
+          "zh": "无人机袭击后克里米亚大桥铁路段暂停通行",
+          "en": "Rail traffic on the Crimea bridge halted after drone attack"
+        },
+        "summary": {
+          "zh": "俄罗斯交通部19日在社交媒体发表声明称，18日夜间发生无人机袭击后，克里米亚大桥铁路段列车通行已暂停。此前该桥公路段已在乌方打击中受损。",
+          "en": "Russia's transport ministry said on November 19 that train traffic on the rail section of the Crimea bridge was suspended after a drone attack overnight on the 18th. The bridge's road section had already been damaged in earlier Ukrainian strikes."
+        },
+        "sources": [
+          {
+            "name": "新华财经晚报",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261119/4497761_1.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "asia-markets-nov19-chip-curbs",
+        "originalLang": "en",
+        "title": {
+          "zh": "芯片管制担忧拖累港股：恒指跌1.95%至四个月低位，腾讯跌近7%",
+          "en": "Hang Seng sinks to four-month low on chip-curb fears; Tencent drops nearly 7%"
+        },
+        "summary": {
+          "zh": "恒生指数19日收跌1.95%至22841点，创四个月新低，恒生科技指数七连跌至26个月低位；腾讯跌近7%、阿里跌5.5%。上证指数跌0.28%至3577点，为15个月来最低；台股跌4.4%。日经指数涨0.71%，软银涨4.5%；韩国KOSPI涨1.39%。",
+          "en": "The Hang Seng fell 1.95% to 22,841, a four-month low, as the tech index slid for a seventh session to a 26-month low; Tencent lost nearly 7% and Alibaba 5.5%. Shanghai fell 0.28% to a 15-month low and Taiwan dropped 4.4%, while the Nikkei rose 0.71% and the Kospi 1.39%."
+        },
+        "sources": [
+          {
+            "name": "RTHK",
+            "url": "https://news.rthk.hk/rthk/en/component/k2/1878452-20261119.htm",
+            "lang": "en"
+          },
+          {
+            "name": "联合早报",
+            "url": "https://www.zaobao.com.sg/finance/singapore/story20261119-10025900",
+            "lang": "zh"
+          }
+        ],
+        "body": {
+          "zh": "据香港电台和《联合早报》报道，市场担心中美在深圳会晤后仍陷入新一轮“以牙还牙”的贸易摩擦。\n\n- 依赖先进算力的港股AI模型公司和云厂商领跌：MiniMax盘中一度跌11%创新低，腾讯因三季度营收不及预期并称新芯片管制可能拖慢模型训练，跌近7%至31个月低位；天数智芯跌17%。\n- 内地：上证指数跌0.28%至3577.62点，深成指跌0.71%，创业板指跌0.79%，云计算、AI、大数据等板块领跌。\n- 背景：美方收紧对华先进芯片出口和远程算力获取，并考虑要求美企公开使用中国AI模型的情况；商务部当天表示坚决反对。\n- 日本日经指数在Anthropic上市前涨0.71%至59444点，韩国芯片股反弹带动KOSPI收涨1.39%。",
+          "en": "Per RTHK and Lianhe Zaobao, investors fear a fresh tit-for-tat trade fight despite the Xi-Trump meetings in Shenzhen.\n\n- AI model makers and cloud firms that depend on advanced compute led Hong Kong lower: MiniMax fell as much as 11% to a record low, Tencent dropped nearly 7% to a 31-month low after a revenue miss and a warning that new chip curbs may slow training, and Iluvatar CoreX slid 17%.\n- Mainland: Shanghai -0.28% to 3,577.62, Shenzhen -0.71%, ChiNext -0.79%, led by cloud, AI and big-data names.\n- Backdrop: Washington has tightened advanced-chip exports and remote compute access, and is weighing disclosure rules on US firms' use of Chinese AI models; China's commerce ministry voiced strong opposition.\n- The Nikkei rose 0.71% to 59,444 ahead of Anthropic's debut, and chip rebounds lifted the Kospi 1.39%."
+        }
+      },
+      {
+        "id": "tencent-q3-2026-results",
+        "originalLang": "zh",
+        "title": {
+          "zh": "腾讯三季度营收2073亿元增8%，资本开支激增、称芯片限制将拖慢模型训练",
+          "en": "Tencent Q3 revenue up 8%; capex soars and chip limits to slow model training"
+        },
+        "summary": {
+          "zh": "腾讯三季度营收2073.36亿元，同比增8%；非国际财务报告准则经营盈利681亿元，同比降6%，新AI产品拖累约152亿元。资本开支814亿元，自由现金流为负691亿元。管理层称先进算力受限，下一代混元模型可能更晚推出，长期将转向国产芯片。",
+          "en": "Tencent's Q3 revenue rose 8% to 207.3bn yuan; non-IFRS operating profit fell 6% to 68.1bn as new AI products weighed. Capex hit 81.4bn yuan and free cash flow was -69.1bn. Management said chip limits may delay its next Hunyuan model."
+        },
+        "sources": [
+          {
+            "name": "腾讯公司公告",
+            "url": "https://www.tencent.com/wp-content/uploads/2026/11/%E8%85%BE%E8%AE%AF%E5%85%AC%E5%B8%83%E4%BA%8C%E9%9B%B6%E4%BA%8C%E5%85%AD%E5%B9%B4%E7%AC%AC%E4%B8%89%E5%AD%A3%E4%B8%9A%E7%BB%A9.pdf",
+            "lang": "zh"
+          },
+          {
+            "name": "第一财经",
+            "url": "https://www.yicai.com/news/103445743.html",
+            "lang": "zh"
+          }
+        ],
+        "body": {
+          "zh": "据腾讯公告和第一财经报道：\n\n- 分业务：增值服务收入983亿元增3%，其中本土游戏增11%、国际游戏降9%；营销服务430亿元增19%；金融科技及企业服务637亿元增9%，云服务收入增35%。\n- 若剔除Hy、元宝、CodeBuddy、WorkBuddy、小微等新AI产品，非国际财务报告准则经营盈利为833亿元，同比增8%。\n- 腾讯称按token消耗计，WorkBuddy已是国内用量最大的AI应用，日活超千万、日均消耗超100万亿token。\n- 总裁刘炽平表示，资本开支在2026、2027年仍处高位，预计2028年财务趋势明显改善；新的先进芯片限制让可用算力减少，训练受影响，但推理可由国内供应链支撑，长期中国企业都将依赖国产芯片。",
+          "en": "From Tencent's results release and Yicai:\n\n- By segment: value-added services 98.3bn yuan (+3%), with domestic games +11% and international games -9%; marketing services 43.0bn (+19%); fintech and business services 63.7bn (+9%), with cloud revenue up 35%.\n- Excluding new AI products such as Hy, Yuanbao, CodeBuddy, WorkBuddy and Xiaowei, non-IFRS operating profit would have been 83.3bn yuan, up 8%.\n- Tencent says WorkBuddy is China's most-used AI app by token consumption, with over 10m daily users and more than 100 trillion tokens a day.\n- President Martin Lau said capex stays high through 2026-27 with finances improving in 2028; tighter chip access cuts available compute and slows training, but domestic chips can handle inference."
+        }
+      },
+      {
+        "id": "china-car-retail-oct-drop",
+        "originalLang": "zh",
+        "title": {
+          "zh": "10月乘用车零售同比降26.9%，新能源渗透率升至67.6%",
+          "en": "China's October car retail sales drop 26.9%; EV share hits 67.6%"
+        },
+        "summary": {
+          "zh": "乘联分会数据显示，10月狭义乘用车零售164.8万辆，同比降26.9%，环比微增1.7%；燃油车零售53.3万辆，同比降45%；新能源零售111.4万辆，渗透率67.6%创新高。同月国内动力电池装车量99.4GWh，同比增18.2%。",
+          "en": "October passenger-car retail sales in China fell 26.9% year on year to 1.648m, per the CPCA, with combustion-engine cars down 45%. New-energy vehicles sold 1.114m, a record 67.6% share. Power-battery installations rose 18.2% to 99.4GWh."
+        },
+        "sources": [
+          {
+            "name": "新华财经晚报",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261119/4497761_1.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "xi-trump-bilateral-shenzhen",
+        "originalLang": "zh",
+        "title": {
+          "zh": "习近平同特朗普深圳会晤：提台湾问题，倡AI安全沟通",
+          "en": "Xi meets Trump in Shenzhen, warns on Taiwan and urges AI coordination"
+        },
+        "summary": {
+          "zh": "习近平19日在深圳同特朗普会晤，称中美关系总体稳定向好，要“拉长合作清单、缩短问题清单”，并就台湾问题提醒美方“做正确的事”。据中方通报，特朗普表示美方不支持“台独”。双方同意加强AI安全沟通，确保AI始终处于人类控制之下。",
+          "en": "Xi told Trump ties are generally stable and positive, urged a longer cooperation list and a shorter problem list, and warned Washington on Taiwan. China's readout quoted Trump as saying the US does not support Taiwan independence. Xi urged AI safety coordination."
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/live/2026/nov/19/apec-summit-trump-xi-putin-meeting-shenzhen-china",
+            "lang": "en"
+          },
+          {
+            "name": "RTHK",
+            "url": "https://news.rthk.hk/rthk/en/component/k2/1878452-20261119.htm",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据《卫报》援引的中方通报：\n\n- 习近平表示，双方已确立“建设性中美战略稳定关系”的新定位，要在尊重、公平、互惠基础上充实内涵，在分歧升级前加以管控。\n- 台湾问题上，习近平称美方须“继续做正确的事”，避免中美关系出现重大挫折；通报称特朗普表示美方不支持“台独”。\n- 经贸上，双方应加强沟通、照顾彼此关切、互利共赢；人工智能方面，应加强沟通协调，防范AI带来的安全风险，确保AI始终处于人类控制之下。\n- 会前特朗普称中美已“公平地”分摊关税，并称今年5月北京峰会商定成立的贸易理事会让双边关系更趋平衡。\n\n通报未具体提及伊朗或乌克兰战事，只称双方就共同关心的国际和地区问题交换了意见。",
+          "en": "From China's readout as reported by the Guardian:\n\n- Xi said the two sides had set a new framing of a 'constructive China-US relationship of strategic stability' built on respect, fairness and reciprocity, and should manage differences before they escalate.\n- On Taiwan, Xi said Washington 'must keep doing the right thing to avoid major setbacks'; the readout quoted Trump as saying the US does not support Taiwan independence.\n- On trade, both should strengthen communication and address each other's concerns; on AI, they should guard against security risks and keep AI under human control.\n- Before the talks Trump said tariffs had been split 'in a fair way' and credited the Board of Trade agreed at the May Beijing summit.\n\nThe readout did not specifically mention Iran or Ukraine."
+        }
+      },
+      {
+        "id": "mofcom-us-trade-council-agri",
+        "originalLang": "zh",
+        "title": {
+          "zh": "商务部：中美贸易理事会农业工作组将首会，坚决反对美方新限制",
+          "en": "Commerce ministry: US-China farm working group to meet, opposes new US curbs"
+        },
+        "summary": {
+          "zh": "商务部发言人何亚东19日表示，中美经贸团队在各层级保持沟通，11月13日已举行贸易理事会首次视频会议，下设农业工作组将于近期首次开会。对美方近期一系列涉华经贸限制措施，商务部表示强烈关注、坚决反对，并称若美方限制远程获取先进半导体一意孤行，中方将反制。",
+          "en": "Spokesman He Yadong said trade teams talk at all levels: the Board of Trade first met by video on November 13 and its farm working group meets soon. The ministry firmly opposes recent US curbs and vowed countermeasures over limits on remote chip access."
+        },
+        "sources": [
+          {
+            "name": "新华财经晚报",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261119/4497761_1.html",
+            "lang": "zh"
+          },
+          {
+            "name": "京报网",
+            "url": "https://news.bjd.com.cn/2026/11/19/12036450.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "商务部例行新闻发布会",
+            "url": "https://www.mofcom.gov.cn/xwfbzt/2026/swbzklxxwfbh2026n11y19r/index.html",
+            "lang": "zh"
+          },
+          {
+            "name": "商务部答记者问",
+            "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_3a69f2058b724dd39cd8ecddcaa4ab87.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "graduates-2027-smart-factories",
+        "originalLang": "zh",
+        "title": {
+          "zh": "2027届高校毕业生预计1299万人；第二批34家领航级智能工厂公布",
+          "en": "China expects 12.99m graduates in 2027; 34 more flagship smart factories named"
+        },
+        "summary": {
+          "zh": "2027届全国普通高校毕业生就业创业工作会议透露，2027届毕业生规模预计1299万人。工信部等六部门同日公布第二批领航级智能工厂培育名单，小米汽车超级智能工厂等34家入选，AI场景应用比例超70%，开发工业智能体超1000个。",
+          "en": "China expects 12.99m college graduates in 2027 and pledged to keep their employment stable. Six ministries also named 34 more flagship smart factories, including a Xiaomi EV plant; over 70% of their scenarios use AI, with more than 1,000 industrial agents built."
+        },
+        "sources": [
+          {
+            "name": "新华财经晚报",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261119/4497761_1.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -1,0 +1,387 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-20",
+  "lead": {
+    "zh": "APEC深圳峰会闭幕，中俄美和平宣言公布；Anthropic上市首日大涨，美股却重挫逾2%。",
+    "en": "APEC closes in Shenzhen and the trilateral declaration is out; Anthropic soars in its debut while US stocks slide over 2%."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "nvidia-halts-h200-china",
+        "originalLang": "en",
+        "title": {
+          "zh": "英伟达停止向中国发货H200芯片，黄仁勋表态愿回归",
+          "en": "Nvidia stops shipping H200s to China; Huang says he would return as CEO"
+        },
+        "summary": {
+          "zh": "英伟达临时CEO克雷斯在财报电话会上表示，尽管获美方许可，公司已不再向中国发运H200等Hopper数据中心芯片，指引也不含中国数据中心收入。",
+          "en": "Interim CEO Colette Kress said Nvidia is no longer shipping licensed Hopper data-center chips such as the H200 to China, and its guidance now excludes them."
+        },
+        "body": {
+          "zh": "据AIBriefs与The Neuron汇总，英伟达上季度在华销售此类芯片约24亿美元；报道称约60万颗H200因北京未批准进口而滞留香港。英伟达第四财季营收指引约1300亿美元，明确不假设任何来自中国的数据中心计算收入。\n\n另据AIBriefs，上周被董事会罢免的黄仁勋表示，若董事会同意愿重新出任CEO，但董事会在周二的财报电话会上已拒绝这一设想。同时，一个国会委员会就中国军方对英伟达芯片的兴趣发出警告，英伟达也提醒客户向中国企业出租云算力可能存在法律风险。",
+          "en": "Nvidia sold about $2.4 billion of those chips in China last quarter, and roughly 600,000 H200s were reportedly stuck in Hong Kong after Beijing withheld import approval, according to [AIBriefs](https://aibriefs.news/briefing/2026-11-19). Nvidia's fiscal Q4 outlook of about $130 billion assumes no China data-center compute revenue.\n\nJensen Huang, ousted last week, said he would return as CEO if the board agreed; the board rejected the idea on Tuesday's earnings call. Separately, a congressional commission warned about Chinese military interest in Nvidia chips, and Nvidia cautioned customers about legal risks in renting cloud capacity to Chinese firms ([The Neuron](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/))."
+        },
+        "sources": [
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/briefing/2026-11-19",
+            "lang": "en"
+          },
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/",
+            "lang": "en"
+          },
+          {
+            "name": "NVIDIA Investor Relations",
+            "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "tencent-hy4-flash-open-weights",
+        "originalLang": "en",
+        "title": {
+          "zh": "腾讯开源Hy4 flash：2240亿参数多模态MoE模型，支持百万上下文",
+          "en": "Tencent open-weights Hy4 flash, a 224B multimodal MoE model with 1M context"
+        },
+        "summary": {
+          "zh": "腾讯发布并开源混元Hy4 flash，总参数约2240亿、每token激活120亿，支持100万token上下文和图像输入，API定价每百万输入0.07美元。",
+          "en": "Tencent released open weights for Hy4 flash: about 224B parameters with 12B active, a 1M-token context and image input, priced at $0.07 per million input tokens via API."
+        },
+        "body": {
+          "zh": "据AIBriefs，Hy4 flash推理速度约每秒200 token，腾讯称首日处理超过50万亿token，创混元模型首日用量纪录；API输出价格为每百万token 0.3美元。\n\n权重（BF16指令版、FP8版和base版）已上架Hugging Face、ModelScope和GitCode，采用Tencent Hy License 1.0，允许商用，但超大型MaaS服务商需另行授权。",
+          "en": "Per [AIBriefs](https://aibriefs.news/briefing/2026-11-19), Hy4 flash runs at roughly 200 tokens per second; Tencent says it processed over 50 trillion tokens on day one, its best Hunyuan first-day usage. Output is priced at $0.3 per million tokens.\n\nThe BF16 instruct, FP8 and base weights are on Hugging Face, ModelScope and GitCode under the Tencent Hy License 1.0, which permits commercial use but requires a separate license for very large MaaS providers."
+        },
+        "sources": [
+          {
+            "name": "Hugging Face: tencent/Hy4-flash",
+            "url": "https://huggingface.co/tencent/Hy4-flash",
+            "lang": "en"
+          },
+          {
+            "name": "AIBriefs",
+            "url": "https://aibriefs.news/briefing/2026-11-19",
+            "lang": "en"
+          },
+          {
+            "name": "Tencent Hy",
+            "url": "https://hy.tencent.ai/research/hy4-flash?langVersion=en",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "apple-autonomous-ai-agent",
+        "originalLang": "zh",
+        "title": {
+          "zh": "报道：苹果正研发自主AI智能体，对标OpenAI与Anthropic",
+          "en": "Report: Apple is building an autonomous AI agent to rival OpenAI and Anthropic"
+        },
+        "summary": {
+          "zh": "据金十数据隔夜要闻汇总，苹果正在研发能自主执行任务的AI智能体，以与OpenAI和Anthropic的同类产品竞争。目前尚无官方细节。",
+          "en": "Apple is developing an autonomous AI agent to compete with OpenAI and Anthropic, according to Jin10's overnight news roundup. No official details have been released."
+        },
+        "sources": [
+          {
+            "name": "金十数据",
+            "url": "https://flash.jin10.com/detail/20261120063006545800",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "apec-shenzhen-outlook",
+        "originalLang": "en",
+        "title": {
+          "zh": "APEC深圳峰会闭幕，通过《深圳展望》",
+          "en": "APEC summit closes in Shenzhen with the 'Shenzhen Outlook'"
+        },
+        "summary": {
+          "zh": "21个APEC成员经济体领导人通过《2026年APEC领导人深圳展望》，承诺加强供应链韧性、能源安全，推进亚太自贸区（FTAAP）和贸易数字化。",
+          "en": "Leaders of the 21 APEC economies adopted the 2026 Shenzhen Outlook, pledging resilient supply chains, energy security, progress toward an FTAAP and trade digitalization."
+        },
+        "body": {
+          "zh": "据《南华早报》，声明特别强调基本商品供应链韧性，以及确保“不间断、可靠、可负担和可持续”的能源获取。习近平在主持会议时呼吁深化区域经济一体化，称亚太合作“不能开倒车”。\n\n外长王毅在深夜记者会上称《深圳展望》是APEC历史上“最具分量的成果”，为推进亚太自贸区搭建了“四梁八柱”。会议还通过了贸易数字化框架，并就人工智能治理、数字基础设施、清洁能源及粮食和能源安全达成务实举措（据《英文虎报》）。",
+          "en": "According to the [SCMP](https://www.scmp.com/economy/global-economy/article/3375120/apec-leaders-agree-joint-statement-pledges-boost-trade-supply-chain-resilience), the statement stresses supply-chain resilience for essential goods and \"uninterrupted, reliable, affordable and sustainable access to energy.\" Xi, chairing the meeting, said Asia-Pacific cooperation must not turn backward.\n\nForeign Minister Wang Yi called the Outlook the most consequential achievement in APEC's history. Members also adopted a trade-digitalization framework and measures on AI governance, digital infrastructure, clean energy, and food and energy security ([The Standard](https://www.thestandard.com.hk/china/article/349061/Chinese-Foreign-Minister-hails-Shenzhen-Outlook-as-milestone-as-APEC-summit-concludes))."
+        },
+        "sources": [
+          {
+            "name": "APEC",
+            "url": "https://www.apec.org/meeting-papers/leaders-declarations/2026/2026-apec-leaders--shenzhen-outlook",
+            "lang": "en"
+          },
+          {
+            "name": "South China Morning Post",
+            "url": "https://www.scmp.com/economy/global-economy/article/3375120/apec-leaders-agree-joint-statement-pledges-boost-trade-supply-chain-resilience",
+            "lang": "en"
+          },
+          {
+            "name": "The Standard",
+            "url": "https://www.thestandard.com.hk/china/article/349061/Chinese-Foreign-Minister-hails-Shenzhen-Outlook-as-milestone-as-APEC-summit-concludes",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "trilateral-peace-declaration-text",
+        "originalLang": "en",
+        "title": {
+          "zh": "中俄美元首“和平宣言”公布：重申核战争打不赢，未提乌克兰和伊朗",
+          "en": "US-China-Russia 'peace declaration' released: no nuclear war, but silence on Ukraine and Iran"
+        },
+        "summary": {
+          "zh": "三方会晤后发布的宣言重申“核战争打不赢也打不得”，提出改革联合国、增加精炼油品供应等优先事项，但未提及乌克兰和伊朗战事。",
+          "en": "The declaration after the three-way summit affirms that a nuclear war cannot be won and must not be fought and lists UN reform and more refined-oil supply, but does not mention Ukraine or Iran."
+        },
+        "body": {
+          "zh": "昨日报道三方会晤“未宣布具体成果”，随后宣言文本公布。据《卫报》，会晤持续一个多小时，涉及核武器、乌克兰战争和国际安全；宣言列出改革联合国、增加石油供应、国际刑事法院管辖权和保护外交豁免等优先事项，但没有提出任何无核化框架。\n\n据金十数据，三国计划增加精炼石油产品的生产和供应。",
+          "en": "Yesterday the summit was reported without concrete outcomes; the declaration text followed. According to [The Guardian](https://www.theguardian.com/world/live/2026/nov/19/apec-summit-trump-xi-putin-meeting-shenzhen-china), the meeting ran more than an hour and covered nuclear weapons, Ukraine and wider security. The declaration's priorities include changing the UN, boosting oil supplies, ICC jurisdiction and protecting diplomatic immunity, but it offers no framework for denuclearisation.\n\nJin10 reports the three countries plan to raise production and supply of refined oil products."
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/live/2026/nov/19/apec-summit-trump-xi-putin-meeting-shenzhen-china",
+            "lang": "en"
+          },
+          {
+            "name": "金十数据",
+            "url": "https://flash.jin10.com/detail/20261120063006545800",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "putin-rejects-sea-truce-kerch",
+        "originalLang": "en",
+        "title": {
+          "zh": "克里米亚大桥第三次遇袭，普京誓言报复并放弃海上停火",
+          "en": "Putin vows painful response after third Kerch bridge strike, drops sea truce"
+        },
+        "summary": {
+          "zh": "乌克兰本周第三次袭击克里米亚大桥后，普京表示俄方将作出“痛苦得多”的回应，不再考虑海上和能源设施停火。",
+          "en": "After Ukraine struck the Kerch bridge for a third time this week, Putin said Russia would respond far more painfully and would no longer consider a sea or energy-infrastructure truce."
+        },
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/5f374b32b07b/world/china/third-attack-week-suspends-traffic-over-crimean-bridge-russian-official-says-2026-11-19/",
+            "lang": "en"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/2026/nov/19/putin-vows-painful-response-to-ukraine-bombing-of-kerch-bridge",
+            "lang": "en"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/putin-russia-ukraine-bridge-strike/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "houthi-strike-riyadh-pif-tower",
+        "originalLang": "en",
+        "title": {
+          "zh": "胡塞武装袭击利雅得最高建筑沙特主权基金大厦",
+          "en": "Houthi strike damages Saudi wealth fund's tower, Riyadh's tallest"
+        },
+        "summary": {
+          "zh": "沙特民防部门称，胡塞武装19日袭击利雅得阿卜杜拉国王金融区的公共投资基金（PIF）大厦，多层受损，周边建筑也受波及，无人员伤亡。",
+          "en": "Saudi civil defence said a Houthi attack on Thursday damaged the PIF tower in Riyadh's King Abdullah Financial District and nearby buildings, with no casualties."
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south",
+            "lang": "en"
+          },
+          {
+            "name": "The National",
+            "url": "https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "anthropic-debut-up-17",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic上市首日收涨17%，史上最大IPO",
+          "en": "Anthropic closes up 17% in debut after the biggest IPO on record"
+        },
+        "summary": {
+          "zh": "Anthropic以代码ANT在纳斯达克上市，开盘111.50美元，收于97.17美元，较83美元发行价涨约17%，完全稀释市值约1.8万亿美元。",
+          "en": "Anthropic opened at $111.50 on Nasdaq under ANT and closed at $97.17, up about 17% from its $83 IPO price, for a fully diluted value of about $1.8 trillion."
+        },
+        "body": {
+          "zh": "据CNBC，Anthropic以每股83美元出售9.8亿股，募资813亿美元，超过SpaceX 6月的上市规模，成为史上最大IPO。首日成交逾8.46亿股，盘中一度令其估值突破2万亿美元。\n\n按完全稀释股本计，收盘市值约1.8万亿美元，位列美国第七大公司；按流通股计约1.3万亿美元。据金十数据，明晟与富时罗素均已宣布将Anthropic纳入相关指数。",
+          "en": "Anthropic sold 980 million shares at $83 to raise $81.3 billion, topping SpaceX's June debut as the largest IPO ever ([CNBC](https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html)). More than 846 million shares traded, and the stock briefly valued the company above $2 trillion.\n\nAt the close it was worth about $1.8 trillion fully diluted, the seventh most valuable US company, or about $1.3 trillion on outstanding shares. MSCI and FTSE Russell both said they would add it to their indexes, per Jin10."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/anthropic-ipo-nasdaq-ai-b6a74b8949021207dc162fcc876c4649",
+            "lang": "en"
+          },
+          {
+            "name": "Al Jazeera / Reuters",
+            "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "us-stocks-tumble-nov19",
+        "originalLang": "en",
+        "title": {
+          "zh": "美股重挫逾2%，道指半年来首次跌破5万点",
+          "en": "US stocks tumble over 2%; Dow closes below 50,000 for first time since June"
+        },
+        "summary": {
+          "zh": "道指跌1101点（2.19%）至49097点，标普500跌2.02%，纳指跌2.25%。股指在Anthropic开始交易时跌至盘中低点，AMD遭做空跌7.7%。",
+          "en": "The Dow fell 1,101 points (2.19%) to 49,097, the S&P 500 lost 2.02% and the Nasdaq 2.25%. Indexes hit session lows as Anthropic began trading; AMD sank 7.7% on a short report."
+        },
+        "body": {
+          "zh": "据CNBC，纳指早盘一度上涨2%，但在Anthropic开始交易那一刻跌至日内低点，投资者在这一AI标志性时刻获利了结。Hunterbrook Capital披露做空AMD并指其涉嫌违反对华出口管制，AMD收跌7.72%。英伟达跌3.3%至145.98美元。\n\n据金十数据，现货黄金跌超2.5%，白银跌约5%。芝加哥联储主席古尔斯比称在高通胀下“所有选项都在考虑范围内”，不排除大幅加息。",
+          "en": "The Nasdaq was up as much as 2% early but hit its low the moment Anthropic began trading, as investors took profits ([CNBC](https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html)). AMD closed down 7.72% after Hunterbrook Capital disclosed a short citing alleged China export-control breaches; Nvidia fell 3.3% to $145.98.\n\nSpot gold fell more than 2.5% and silver about 5%, per Jin10, and Chicago Fed President Austan Goolsbee said all options, including a large hike, are on the table given high inflation."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-2f178054aea79d282e5ccf8d62f26a28",
+            "lang": "en"
+          },
+          {
+            "name": "The Motley Fool",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-nvidia-slides-as-investors-weigh-ceo-transition-fallout-despite-strong-q3-results/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "alibaba-sept-quarter-ai-cloud",
+        "originalLang": "zh",
+        "title": {
+          "zh": "阿里巴巴季度营收2715亿元增10%，AI云收入增53%",
+          "en": "Alibaba revenue up 10% to RMB271.5bn; AI cloud revenue up 53%"
+        },
+        "summary": {
+          "zh": "阿里巴巴截至9月30日的季度营收2715.19亿元，同比增长10%；“AI云与算力服务”分部收入609.73亿元，增长53%，外部客户收入增长64%。",
+          "en": "Alibaba's September-quarter revenue rose 10% to RMB271.52 billion; its AI cloud and compute segment grew 53% to RMB60.97 billion, with external-customer revenue up 64%."
+        },
+        "body": {
+          "zh": "云智能业务已并入“AI云与算力服务”分部。该分部外部经常性收入增长67%，调整后EBITA增长121%，利润率14.5%。\n\n据每经网，88VIP会员增至约6600万，闲鱼日活同比增长23%。智东西报道称，阿里净利润大涨213%，CEO吴泳铭披露AI相关年化收入已突破700亿元。",
+          "en": "Cloud Intelligence is now reported inside the AI cloud and compute segment, whose external recurring revenue grew 67% while adjusted EBITA rose 121% to a 14.5% margin.\n\nPer NBD, 88VIP membership reached about 66 million and Xianyu daily active users rose 23%. Zhidx reports net profit jumped 213% and CEO Eddie Wu said AI-related annualized revenue has topped RMB70 billion."
+        },
+        "sources": [
+          {
+            "name": "新浪财经",
+            "url": "https://finance.sina.com.cn/tech/it/2026-11-19/doc-inizhmka7724266.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "阿里巴巴集团",
+            "url": "https://www.alibabagroup.com/zh-HK/document-2060147792046718976",
+            "lang": "zh"
+          },
+          {
+            "name": "每日经济新闻",
+            "url": "https://www.nbd.com.cn/articles/2026-11-19/4653034.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "china-us-strategic-stability-plan",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中美同意制定“建设性战略稳定关系行动计划”",
+          "en": "China and US agree to draw up an action plan for 'constructive strategic stability'"
+        },
+        "summary": {
+          "zh": "据外交部，习近平与特朗普深圳会晤后，双方同意制定行动计划，落实元首共识，构建基于尊重、公平、对等的中美建设性战略稳定关系。",
+          "en": "After Xi and Trump met in Shenzhen, China's foreign ministry said both sides agreed to draft an action plan to build constructive, strategically stable ties based on respect, fairness and reciprocity."
+        },
+        "body": {
+          "zh": "双方认为此次会晤积极、有建设性。习近平强调中美要拉长合作清单、压缩问题清单，一时解决不了的分歧要建设性管控，防止矛盾升级；他还就大国如何正确相处提出四点看法（据金十数据汇总）。\n\n据金十数据，特朗普将于北京时间11月21日凌晨1时在白宫举行新闻发布会。",
+          "en": "Both sides called the meeting positive and constructive. Xi said the two countries should lengthen the list of cooperation, shorten the list of problems, and manage unresolved differences constructively to prevent escalation; he also set out four views on how major powers should get along (per Jin10).\n\nTrump is due to hold a White House news conference at 1 a.m. Beijing time on November 21, Jin10 reports."
+        },
+        "sources": [
+          {
+            "name": "外交部",
+            "url": "https://www.mfa.gov.cn/web/wjdt_674879/gjldrhd_674881/202611/t20261119_12062924.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "联合早报",
+            "url": "https://www.zaobao.com.sg/news/china/story20261119-10026769",
+            "lang": "zh"
+          },
+          {
+            "name": "Ministry of Foreign Affairs",
+            "url": "https://www.mfa.gov.cn/mfa%5Feng/xw/zyxw/202611/t20261119_12063139.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "title-evaluation-rules-2027",
+        "originalLang": "zh",
+        "title": {
+          "zh": "人社部修改职称评审规定，2027年1月1日起施行",
+          "en": "China revises professional-title evaluation rules, effective January 1, 2027"
+        },
+        "summary": {
+          "zh": "人社部修改《职称评审管理暂行规定》，修改条文10条、新增5条，聚焦强化评审监管、加强信用管理和优化评审服务。",
+          "en": "The human resources ministry revised its interim rules on professional-title evaluation, amending 10 articles and adding 5 to tighten oversight, credit management and services."
+        },
+        "sources": [
+          {
+            "name": "河南日报网",
+            "url": "https://www.henandaily.cn/news/2026/1120/1268155.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "12306-waitlist-notifications",
+        "originalLang": "zh",
+        "title": {
+          "zh": "12306上线“候补兑现”与列车调整通知服务",
+          "en": "China's 12306 rail app adds waitlist-fulfilment and service-change alerts"
+        },
+        "summary": {
+          "zh": "自11月20日起，12306App新增候补兑现和列车运行调整等系统通知，遇停运、折返、恢复开行、席位调整等情况，旅客将收到提醒。",
+          "en": "From November 20, the 12306 app sends alerts when waitlisted tickets are fulfilled and when trains are cancelled, turned back, restored or have seat changes."
+        },
+        "sources": [
+          {
+            "name": "河南日报网",
+            "url": "https://www.henandaily.cn/news/2026/1120/1268155.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

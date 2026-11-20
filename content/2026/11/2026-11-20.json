@@ -2,8 +2,8 @@
   "$schema": "../../../schemas/edition.schema.json",
   "date": "2026-11-20",
   "lead": {
-    "zh": "APEC深圳峰会闭幕，中俄美和平宣言公布；Anthropic上市首日大涨，美股却重挫逾2%。",
-    "en": "APEC closes in Shenzhen and the trilateral declaration is out; Anthropic soars in its debut while US stocks slide over 2%."
+    "zh": "APEC闭幕、三国和平宣言公布；Anthropic上市难解AI担忧，亚股重挫；国际法院裁定缅甸犯种族灭绝罪。",
+    "en": "APEC closes with a trilateral declaration; Anthropic's debut fails to calm AI fears as Asian stocks plunge; the ICJ finds Myanmar guilty of genocide."
   },
   "am": {
     "tech": [
@@ -378,6 +378,337 @@
           {
             "name": "河南日报网",
             "url": "https://www.henandaily.cn/news/2026/1120/1268155.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "gemini-for-mac-computer-use",
+        "originalLang": "en",
+        "title": {
+          "zh": "谷歌推出Mac版Gemini智能体，可直接操作本地应用",
+          "en": "Google brings Gemini computer use to the Mac"
+        },
+        "summary": {
+          "zh": "谷歌Mac版Gemini可整理本地文件、填写表单并操作Mac应用，用户可同时继续工作；首批面向美国英语用户中的AI Plus、Pro和Ultra订阅者。",
+          "en": "Gemini for Mac can organize local files, fill in forms and operate Mac apps while you keep working; it launches in English for US Google AI Plus, Pro and Ultra subscribers."
+        },
+        "body": {
+          "zh": "据The Neuron，这让“替你操作电脑”的竞争更加激烈：同一天有报道称苹果也在研发可操作应用、浏览网页和写代码的智能体，仍处早期阶段。\n\n另据AI Pro Playbook，谷歌同日发布Gemini 4系列第四款模型Gemini 4 Neon，支持100万token上下文，谷歌称其在最高思考档位下位列Artificial Analysis智能指数第三，因用token更少，单任务成本比Gemini 4 Carbon低约三分之一，但按token计价暂不更便宜。",
+          "en": "Per [The Neuron](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-20-2026/), it sharpens the race for computer-controlling agents: Apple is reportedly building its own agent that operates apps, browses and writes code, though it is at an early stage.\n\nGoogle also released Gemini 4 Neon, the fourth Gemini 4 model, with a 1M-token context. Google says it ranks third on the Artificial Analysis Intelligence Index at its highest thinking setting and costs about a third less per task than Gemini 4 Carbon because it uses fewer tokens, though it is not cheaper per token ([AI Pro Playbook](https://aiproplaybook.com/top-ai-stories/2026-11-19))."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-20-2026/",
+            "lang": "en"
+          },
+          {
+            "name": "AI Pro Playbook",
+            "url": "https://aiproplaybook.com/top-ai-stories/2026-11-19",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "eu-commission-ai-cyberattack",
+        "originalLang": "en",
+        "title": {
+          "zh": "欧盟委员会证实遭AI辅助网络攻击，薪资系统瘫痪逾10天",
+          "en": "European Commission confirms AI-assisted cyberattack that hit payroll systems"
+        },
+        "summary": {
+          "zh": "欧盟委员会证实，10月22日发现的一起网络攻击使用了AI工具，人事薪资平台Sysper及医疗报销、翻译服务中断超过10天。",
+          "en": "The European Commission confirmed that a cyberattack detected on October 22 used an AI tool, disrupting its Sysper HR and payroll platform plus medical-reimbursement and translation services for more than 10 days."
+        },
+        "body": {
+          "zh": "据AP和Euronews，欧盟计算机应急响应小组（CERT-EU）将攻击活动与开源AI渗透测试工具ARTEX关联，但攻击者身份尚未确定。\n\n委员会表示大部分受影响应用已恢复，目前没有证据显示员工数据大规模泄露，也未收到勒索要求；是否有个人信息外泄仍在调查。",
+          "en": "CERT-EU linked the activity to ARTEX, an open-source AI penetration-testing tool, but attribution is unresolved, according to [AP](https://apnews.com/article/cyberattack-european-union-artificial-intelligence-ai-79705095e8141cd650196dbff1cf3c70) and [Euronews](https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown).\n\nThe Commission says most affected applications are restored, it has no evidence of a broad staff-data breach and received no ransom demand; whether personal data was taken is still being examined."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/cyberattack-european-union-artificial-intelligence-ai-79705095e8141cd650196dbff1cf3c70",
+            "lang": "en"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "meta-muse-privacy-mixup",
+        "originalLang": "en",
+        "title": {
+          "zh": "Meta Muse被曝串混私人对话，员工看到陌生人账户余额",
+          "en": "Meta's Muse reportedly surfaced other people's private data"
+        },
+        "summary": {
+          "zh": "据报道，Meta员工使用Muse时看到了不属于自己的育儿消息、个人提醒和银行余额；Meta称员工测试的版本带有公众无法使用的功能。",
+          "en": "Meta employees reportedly saw unfamiliar childcare messages, personal reminders and bank balances in Muse; Meta said staff test versions with features not available to the public."
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-20-2026/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "icj-myanmar-rohingya-genocide",
+        "originalLang": "en",
+        "title": {
+          "zh": "国际法院裁定缅甸对罗兴亚人犯下种族灭绝罪",
+          "en": "Top UN court rules Myanmar committed genocide against the Rohingya"
+        },
+        "summary": {
+          "zh": "国际法院在冈比亚诉缅甸案中裁定，缅甸2017年在若开邦北部“清剿行动”中对罗兴亚人犯下种族灭绝罪，这是该院首次认定一个国家违反《灭种罪公约》。",
+          "en": "In The Gambia v. Myanmar, the ICJ ruled that Myanmar committed genocide against the Rohingya in its 2017 clearance operations in northern Rakhine, the first time it has found a state guilty under the Genocide Convention."
+        },
+        "body": {
+          "zh": "据国际法院判决摘要，缅甸须调查并起诉责任人、防止类似行为再次发生、恢复流离失所罗兴亚人的返乡与家庭团聚权利，并向受害者赔偿。\n\n赔偿金额和形式将在后续阶段确定；缅甸须在两年内报告其恢复原状计划。",
+          "en": "Per the [ICJ judgment summary](https://www.refworld.org/sites/default/files/2026-11/178-20261119-pre-01-00-en.pdf), Myanmar must investigate and prosecute those responsible, prevent a repeat, restore displaced Rohingya's rights to return and reunite with family, and compensate victims.\n\nThe amount and form of compensation will be set in a later phase, and Myanmar must report its restitution plan within two years."
+        },
+        "sources": [
+          {
+            "name": "UN News",
+            "url": "https://news.un.org/en/story/2026/11/1168836",
+            "lang": "en"
+          },
+          {
+            "name": "The Washington Post",
+            "url": "https://www.washingtonpost.com/world/2026/11/19/myanmar-committed-genocide-against-rohingya-minority-top-un-court-rules/",
+            "lang": "en"
+          },
+          {
+            "name": "ICJ judgment summary",
+            "url": "https://www.refworld.org/sites/default/files/2026-11/178-20261119-pre-01-00-en.pdf",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "somalia-expels-uae-ambassador",
+        "originalLang": "en",
+        "title": {
+          "zh": "索马里驱逐阿联酋大使，指其破坏国家主权",
+          "en": "Somalia expels the UAE ambassador, accusing Abu Dhabi of undermining sovereignty"
+        },
+        "summary": {
+          "zh": "索马里限阿联酋大使72小时内离境并召回本国驻阿布扎比使节，指责阿联酋通过支持地方政权和港口协议损害索马里主权与统一；阿联酋斥之为“升级和敌对”之举。",
+          "en": "Somalia gave the UAE ambassador 72 hours to leave and recalled its own envoy, accusing Abu Dhabi of undermining its sovereignty through support for regional authorities and port deals; the UAE called the move escalatory and hostile."
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/somalia-uae-ambassador-expulsion-sovereignty-somaliland-mohamud-3cdeb27a0a08d365d6a04de46500d842",
+            "lang": "en"
+          },
+          {
+            "name": "UAE MOFA",
+            "url": "https://www.mofa.gov.ae/en/mediahub/news/2026/11/19/uae-somalia",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "kushner-ukraine-guarantees-berlin",
+        "originalLang": "zh",
+        "title": {
+          "zh": "库什纳称俄方接受乌克兰获北约式安全保障，俄副外长：入约“完全不可接受”",
+          "en": "Kushner says Russia accepts NATO-style guarantees for Ukraine; Moscow rules out membership"
+        },
+        "summary": {
+          "zh": "40多方在柏林召开“志愿联盟”峰会。库什纳称俄方对战后乌克兰获得类似北约第五条的安全保障感到“满意”；俄副外长里亚布科夫20日则称乌克兰加入北约“完全不可接受”。",
+          "en": "At a 40-plus-party 'coalition of the willing' summit in Berlin, Kushner said Russia was comfortable with NATO Article 5-style guarantees for postwar Ukraine; Russian deputy FM Ryabkov said on the 20th that NATO membership is completely unacceptable."
+        },
+        "body": {
+          "zh": "据澎湃新闻，峰会由德法英领导人共同主持，与中俄美三方会谈同日举行。特朗普通过电话参会，称普京希望结束战争；据新华社报道，库什纳表示俄罗斯已同意欧洲参加多边谈判机制。\n\n里亚布科夫同时表示，为乌克兰谋求“准成员国”地位或某种“创造性解决方案”，俄方也不会接受。",
+          "en": "Per [The Paper](https://www.thepaper.cn/expressNews/2026-11-20), the summit was co-chaired by the leaders of Germany, France and Britain on the same day as the China-Russia-US talks. Trump joined by phone and said Putin wants to end the war; Xinhua reported Kushner said Russia had agreed to let Europe join a multilateral negotiating mechanism.\n\nRyabkov added that Moscow would also reject any 'quasi-member' status or 'creative solution' for Ukraine."
+        },
+        "sources": [
+          {
+            "name": "澎湃新闻",
+            "url": "https://www.thepaper.cn/expressNews/2026-11-20",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "asia-stocks-ai-selloff-nov20",
+        "originalLang": "en",
+        "title": {
+          "zh": "亚股暴跌：台股跌6.2%，日韩跌超5%，AI泡沫担忧加剧",
+          "en": "Asian stocks plunge as AI fears deepen: Taiex down 6.2%, Nikkei and Kospi over 5%"
+        },
+        "summary": {
+          "zh": "Anthropic上市未能缓解AI泡沫担忧，周五日经225指数跌5.1%，韩国综合指数跌5.2%，台湾加权指数跌6.2%，恒指跌1.9%，上证综指跌1.2%。",
+          "en": "Anthropic's debut failed to ease AI-bubble fears: on Friday the Nikkei 225 fell 5.1%, the Kospi 5.2%, Taiwan's Taiex 6.2%, the Hang Seng 1.9% and the Shanghai Composite 1.2%."
+        },
+        "body": {
+          "zh": "据共同社，日经指数早盘一度跌至4月以来最低。法国兴业银行亚洲股票策略师阿加瓦尔对半岛电视台表示，市场担心AI驱动的增长正在放缓、“增长高峰期”可能已过；外资不买入的“需求真空”下，本地投资者能撑多久尚待观察，韩国回撤尤为严重。\n\n据路透社（经Investing.com），亚洲股市有望录得2020年以来最差单周表现。",
+          "en": "Kyodo said the Nikkei briefly hit its lowest since April. Societe Generale strategist Rajat Agarwal told [Al Jazeera](https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears) the worry is that AI-led growth is slowing and its peak may have passed, and that with foreigners not buying it is unclear how long local investors, especially in Korea, can hold on.\n\nAsian shares are headed for their worst week since 2020, Reuters reported via Investing.com."
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stock-markets-anthropic-ai-chips-boom-c4c3f4878b12989347f8a930ed813dad",
+            "lang": "en"
+          },
+          {
+            "name": "Kyodo News",
+            "url": "https://english.kyodonews.net/articles/-/92073",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-day-two-premarket-drop",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic上市第二日盘前一度跌7.4%",
+          "en": "Anthropic falls as much as 7.4% in premarket on its second day"
+        },
+        "summary": {
+          "zh": "据彭博，Anthropic周五美股盘前一度下跌7.4%。该股首日盘中较发行价最高涨39%，收盘涨17%，成为全球市值第七大上市公司。",
+          "en": "Anthropic fell as much as 7.4% in premarket trading on Friday, Bloomberg reported. It had surged as much as 39% from its IPO price on debut before closing up 17%, the world's seventh-largest listed company."
+        },
+        "sources": [
+          {
+            "name": "The Economic Times / Bloomberg",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-debut-rally-fades-as-shares-crack-7-in-pre-market-trade-on-day-2/articleshow/136021174.cms",
+            "lang": "en"
+          },
+          {
+            "name": "Investing.com",
+            "url": "https://www.investing.com/news/economy-news/anthropic-dips-afterhours-as-ai-jitters-persist--whats-moving-markets-5040999",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "osaka-gold-futures-circuit-breaker",
+        "originalLang": "zh",
+        "title": {
+          "zh": "金价重挫，大阪交易所黄金期货8个月来首次熔断",
+          "en": "Osaka gold futures trigger circuit breaker for the first time in 8 months"
+        },
+        "summary": {
+          "zh": "受金价大幅下跌影响，大阪交易所黄金期货20日上午10时58分触发熔断，11时08分恢复交易，为今年3月以来首次。",
+          "en": "Amid a steep drop in gold prices, Osaka Exchange gold futures triggered a circuit breaker at 10:58 a.m. local time on the 20th, resuming at 11:08, the first since March."
+        },
+        "sources": [
+          {
+            "name": "金十数据",
+            "url": "https://flash.jin10.com/detail/20261120123001992800",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "xi-meets-asia-pacific-leaders",
+        "originalLang": "en",
+        "title": {
+          "zh": "习近平会见五国领导人，中国与印尼、新加坡启动贸易谈判",
+          "en": "Xi meets five leaders; China opens trade talks with Indonesia and Singapore"
+        },
+        "summary": {
+          "zh": "APEC峰会次日，习近平在深圳会见印尼、新加坡、澳大利亚、马来西亚和泰国领导人，与印尼宣布启动全面经济伙伴关系协定谈判，与新加坡启动自贸协定升级谈判。",
+          "en": "The day after APEC, Xi met the leaders of Indonesia, Singapore, Australia, Malaysia and Thailand in Shenzhen, launching comprehensive economic partnership talks with Indonesia and FTA upgrade talks with Singapore."
+        },
+        "body": {
+          "zh": "据阿纳多卢通讯社援引新华社，习近平呼吁中印尼加强战略沟通，共同防范和应对外部风险。新加坡总理黄循财在X上说，自贸协定升级将涵盖数字经济等新领域，促进跨境数据流动，双方还讨论了人工智能合作。\n\n习近平与澳大利亚总理阿尔巴尼斯同意将2027年定为“中澳旅游年”，阿尔巴尼斯称会谈“富有建设性”。",
+          "en": "Per [Anadolu](https://www.aa.com.tr/en/asia-pacific/chinas-xi-holds-talks-with-regional-leaders-after-apec-trilateral-summit-with-us-russia/4131664), citing Xinhua, Xi urged China and Indonesia to deepen strategic communication and jointly guard against external risks. Singapore's Lawrence Wong said on X the FTA upgrade will cover new areas such as the digital economy and cross-border data flows; the two also discussed AI cooperation.\n\nXi and Australia's Anthony Albanese agreed to make 2027 the Australia-China Year of Tourism; Albanese called the talks constructive."
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/asia-pacific/chinas-xi-holds-talks-with-regional-leaders-after-apec-trilateral-summit-with-us-russia/4131664",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "lpr-unchanged-18-months",
+        "originalLang": "zh",
+        "title": {
+          "zh": "11月LPR连续第18个月不变：1年期3%，5年期以上3.5%",
+          "en": "China keeps loan prime rates unchanged for an 18th month"
+        },
+        "summary": {
+          "zh": "11月20日，1年期贷款市场报价利率维持3.0%，5年期以上维持3.5%，已连续18个月保持不变。",
+          "en": "On November 20 China held the one-year loan prime rate at 3.0% and the five-year rate at 3.5%, unchanged for an 18th straight month."
+        },
+        "sources": [
+          {
+            "name": "中新网",
+            "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735325.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "中国金融信息网",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261120/4498077_1.html",
+            "lang": "zh"
+          },
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261120/3be19c9469fb4992beda43b8bf6462d2/c.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "fiscal-revenue-jan-oct",
+        "originalLang": "zh",
+        "title": {
+          "zh": "前10月全国一般公共预算收入19.57万亿元，增长4.9%",
+          "en": "China's Jan-Oct budget revenue rises 4.9% to RMB19.57 trillion"
+        },
+        "summary": {
+          "zh": "财政部数据显示，1—10月全国一般公共预算收入195671亿元，同比增长4.9%；其中税收收入162622亿元，增长6%，非税收入下降0.2%。",
+          "en": "Finance ministry data show general public budget revenue of RMB19.567 trillion in January-October, up 4.9%; tax revenue rose 6% to RMB16.262 trillion while non-tax revenue fell 0.2%."
+        },
+        "body": {
+          "zh": "据新浪财经，1—10月证券交易印花税2511亿元，同比增长54.1%。",
+          "en": "Securities transaction stamp duty reached RMB251.1 billion, up 54.1%, according to [Sina Finance](https://finance.sina.com.cn/china/2026-11-20/doc-inizkqie3933082.shtml)."
+        },
+        "sources": [
+          {
+            "name": "财政部",
+            "url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "每日经济新闻",
+            "url": "https://www.nbd.com.cn/articles/2026-11-20/4653959.html",
+            "lang": "zh"
+          },
+          {
+            "name": "新浪财经",
+            "url": "https://finance.sina.com.cn/china/2026-11-20/doc-inizkqie3933082.shtml",
             "lang": "zh"
           }
         ]

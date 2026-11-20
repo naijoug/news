@@ -1,0 +1,252 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-21",
+  "lead": {
+    "zh": "AI抛售加剧，标普跌3.7%、纳指年内转负；英伟达遭SEC调查再跌14%；俄军导弹袭击基辅三座大桥。",
+    "en": "The AI sell-off deepens: the S&P 500 sinks 3.7% and the Nasdaq turns negative for 2026; Nvidia drops 14% on an SEC probe; Russian missiles hit three Kyiv bridges."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "nvidia-sec-probe-14pct-drop",
+        "originalLang": "en",
+        "title": {
+          "en": "Nvidia plunges 14% as SEC reportedly probes its accounting",
+          "zh": "传SEC调查英伟达会计问题，股价暴跌14%"
+        },
+        "summary": {
+          "en": "Nvidia fell 14% on Friday after Reuters reported SEC enforcement staff are examining potential accounting issues. The stock logged a seventh straight weekly loss, its longest since 2008, and is down 46% over that stretch.",
+          "zh": "路透社报道美国SEC执法人员正审查英伟达潜在的会计问题，英伟达周五股价暴跌14%，连续第七周下跌，为2008年以来最长周跌势，期间累计下跌46%。"
+        },
+        "body": {
+          "en": "According to [CNBC](https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html), the seven-week slide has erased about $2.6 trillion in market value. Once the world's most valuable company, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet, and trades at roughly 8.4 times forward earnings, versus 29 times for AMD. Investors are increasingly worried about the company's future after co-founder Jensen Huang's exit.\n\n[Reuters](https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/), citing sources, reported that the probe is looking at potential accounting issues and whether disclosures misled investors.",
+          "zh": "据CNBC，连续七周下跌已让英伟达市值蒸发约2.6万亿美元。这家曾经全球市值最高的公司如今排在苹果、微软和Alphabet之后，位列第四，远期市盈率约8.4倍，而AMD约为29倍。联合创始人黄仁勋离任后，投资者越来越担心公司前景。\n\n路透社援引知情人士称，SEC的调查涉及潜在会计问题，以及公司披露是否误导了投资者。"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-adversarial-distillation",
+        "originalLang": "en",
+        "title": {
+          "en": "OpenAI details defenses against adversarial distillation",
+          "zh": "OpenAI公布对抗“恶意蒸馏”的防护措施"
+        },
+        "summary": {
+          "en": "OpenAI says layered safeguards on GPT-6.2 Astra and Sol cut successful extraction of protected reasoning from 54.0% to 0.2% in adaptive red-teaming. It warns distilled copies could strip out safety protections.",
+          "zh": "OpenAI称，GPT-6.2 Astra与Sol的多层防护在自适应红队测试中把受保护推理被成功提取的比例从54.0%降至0.2%。它警告，被蒸馏的模型可能失去原有安全防护。"
+        },
+        "body": {
+          "en": "In a [post](https://openai.com/index/combatting-adversarial-distillation/) on Nov. 20, OpenAI said an actor can use a frontier model's outputs without authorization to train a similar model and deploy it without comparable safeguards, for example to help with cyberattacks the original would refuse.\n\nIts approach combines adversarial testing, model training, input and output classifiers, and API-level controls that bind protected reasoning to its originating conversation, plus investigations into coordinated extraction campaigns. OpenAI says these safeguards now align more closely with those it uses for biology and cybersecurity.",
+          "zh": "OpenAI在11月20日的文章中说，有人可能未经授权用前沿模型的输出训练出能力相近的模型，并在缺少同等防护的情况下部署，例如协助原模型会拒绝的网络攻击。\n\n其做法包括对抗测试、模型训练、输入输出分类器，以及把受保护推理绑定在原始对话中的API级控制，并调查有组织的提取行动。OpenAI称，这套防护现在与其在生物和网络安全领域的标准更加接近。"
+        },
+        "sources": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/combatting-adversarial-distillation/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "russia-strikes-kyiv-bridges",
+        "originalLang": "en",
+        "title": {
+          "en": "Russian missiles hit three Kyiv bridges after Putin vows revenge",
+          "zh": "普京誓言报复后，俄导弹袭击基辅三座大桥"
+        },
+        "summary": {
+          "en": "A massive Russian ballistic missile attack damaged the Podilsko-Voskresenskyi, Darnytskyi and Southern bridges over the Dnipro, hours after Putin promised revenge for strikes on the Kerch Bridge. Reuters says eight people were killed nationwide.",
+          "zh": "普京誓言为克里米亚大桥遇袭报复数小时后，俄军大规模弹道导弹袭击损毁了基辅第聂伯河上的波迪尔-沃斯克列先斯基、达尔尼茨基和南桥。路透社称全国共8人遇难。"
+        },
+        "body": {
+          "en": "Ukrainian Prime Minister Serhii Koretskyi said at least six people were killed and 15 injured in the Kyiv strikes, and two more were killed elsewhere as nine regions were hit overnight ([NBC News](https://www.nbcnews.com/world/ukraine/russia-strikes-kyiv-bridges-ukraine-crimea-putin-zelenskyy-apec-trump-rcna610372)). Mayor Vitali Klitschko asked residents not to drive into the city unless necessary.\n\nThe attacks also disrupted power and water. Per Kyiv city updates reported by [Kyiv1](https://www.kyiv1.com/en/yak-pracyuyut-mosty-kyeva-20-lystopada-onovlena-informaciya/), traffic later resumed on the Podilsko-Voskresenskyi and Darnytskyi bridges, while the Southern Bridge stayed open in one direction only, with weight limits.",
+          "zh": "据NBC新闻，乌克兰总理科列茨基称，基辅遇袭造成至少6人死亡、15人受伤；当晚全国9个州遭袭，另有2人在其他地区遇难。基辅市长克利钦科呼吁市民非必要不要驾车进城。\n\n袭击还造成停电停水。据基辅市政信息，波迪尔-沃斯克列先斯基桥和达尔尼茨基桥随后恢复通行，南桥仅单向开放并限重。"
+        },
+        "sources": [
+          {
+            "name": "NBC News",
+            "url": "https://www.nbcnews.com/world/ukraine/russia-strikes-kyiv-bridges-ukraine-crimea-putin-zelenskyy-apec-trump-rcna610372",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/3fec1b0a85a0/world/europe/fire-broke-out-ukraines-kyiv-after-missile-strike-mayor-says-2026-11-20/",
+            "lang": "en"
+          },
+          {
+            "name": "Kyiv1",
+            "url": "https://www.kyiv1.com/en/yak-pracyuyut-mosty-kyeva-20-lystopada-onovlena-informaciya/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "iran-talks-stalled-nov20",
+        "originalLang": "en",
+        "title": {
+          "en": "Trump says Iran won't offer an 'acceptable' deal; Tehran says it wants diplomacy",
+          "zh": "特朗普称伊朗不愿达成“可接受”协议，伊方称仍寻求外交解决"
+        },
+        "summary": {
+          "en": "US-Iran talks remain stalled: Trump says Tehran wants a deal but not on terms he accepts, while Foreign Minister Araqchi says Iran still seeks diplomacy to end the war. The US blockade and Hormuz control remain central disputes.",
+          "zh": "美伊谈判仍陷僵局：特朗普称德黑兰想要协议但条件他不能接受，伊朗外长阿拉格齐则称伊朗仍希望通过外交结束战争。美国海上封锁和霍尔木兹海峡控制权仍是核心分歧。"
+        },
+        "sources": [
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/iran-war-trump-diplomacy-attacks-8fd6dcd6dc4a1a77437cedc4567fbee8",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.investing.com/news/world-news/araqchi-says-iran-wants-diplomacy-to-end-war-trump-says-terms-unacceptable-5042853",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "us-stocks-ai-rout-nov20",
+        "originalLang": "en",
+        "title": {
+          "en": "S&P 500 sinks 3.7% and Nasdaq turns negative for 2026 in AI rout",
+          "zh": "AI股遭抛售，标普500跌3.7%，纳指年内转跌"
+        },
+        "summary": {
+          "en": "On Friday the S&P 500 fell 3.70% to 6,910.39, the Nasdaq dropped 5.28% to 22,617.73 and the Dow lost 1.93% to 48,147.33. The S&P had its worst week in more than 18 months.",
+          "zh": "周五标普500指数下跌3.70%至6910.39点，纳斯达克综合指数跌5.28%至22617.73点，道指跌1.93%至48147.33点。标普录得18个多月来最差单周表现。"
+        },
+        "body": {
+          "en": "[AP](https://apnews.com/article/wall-street-stocks-dow-nasdaq-c10b797a17c2acf37924d834efebe135) said a bruising sell-off in artificial intelligence stocks dragged the S&P 500 to its worst weekly loss in more than 18 months and pushed the Nasdaq into the red for the year. The Dow fell 949.73 points ([Xinhua](https://english.news.cn/20261121/ceb60b5e161b462a9aa02301c75544ea/c.html)).",
+          "zh": "美联社称，AI股的猛烈抛售令标普500录得18个多月来最大单周跌幅，纳指年内由涨转跌。新华社报道，道指下跌949.73点。"
+        },
+        "sources": [
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c10b797a17c2acf37924d834efebe135",
+            "lang": "en"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261121/ceb60b5e161b462a9aa02301c75544ea/c.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-day-two-close",
+        "originalLang": "en",
+        "title": {
+          "en": "Anthropic closes day two down 8.5% at $88.91",
+          "zh": "Anthropic上市第二日收跌8.5%，报88.91美元"
+        },
+        "summary": {
+          "en": "Anthropic shares closed at $88.91 on Friday, down 8.5% from Thursday's close and still above the $83 IPO price, as the broad AI sell-off hit the market's newest giant.",
+          "zh": "Anthropic周五收于88.91美元，较周四收盘下跌8.5%，仍高于83美元发行价。AI板块整体遭抛售，这家新上市巨头也未能幸免。"
+        },
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.investing.com/news/economy-news/anthropics-postdebut-stumble-delivers-reality-check-for-ai-trade-5041125",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "csrc-red-chip-offshore-listing",
+        "originalLang": "en",
+        "title": {
+          "en": "Reuters: Beijing to bar young red-chip firms from listing offshore",
+          "zh": "路透：中国将不批准新设红筹企业境外上市"
+        },
+        "summary": {
+          "en": "China's securities regulator has told law firms that red-chip companies set up after the 2023 offshore listing rules must re-domicile in China before listing abroad, sources say, a move that could dent Hong Kong's IPO market.",
+          "zh": "知情人士称，中国证监会已告知律所，2023年境外上市新规出台后设立的红筹企业须先将注册地迁回境内才能境外上市，此举可能打击香港IPO市场。"
+        },
+        "body": {
+          "en": "Red-chip companies are registered abroad, mainly in tax havens, but control businesses in China through equity or contractual arrangements. The structure is popular with Chinese tech startups seeking capital in Hong Kong or New York. The guidance was confidential and is being reported for the first time ([Reuters via Investing.com](https://www.investing.com/news/stock-market-news/exclusivebeijing-to-bar-young-redchip-firms-from-listing-outside-mainland-china-sources-say-5040979)).",
+          "zh": "红筹企业注册在境外（主要是避税地），但通过股权或协议控制中国境内业务，这一架构深受希望在香港或纽约融资的中国科技初创公司青睐。路透称这一监管指导属于保密内容，系首次被报道。"
+        },
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.investing.com/news/stock-market-news/exclusivebeijing-to-bar-young-redchip-firms-from-listing-outside-mainland-china-sources-say-5040979",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "us-china-human-control-military-ai",
+        "originalLang": "en",
+        "title": {
+          "en": "Bessent: Trump and Xi agreed humans must stay in military AI decisions",
+          "zh": "贝森特：特朗普与习近平同意军事AI决策须有人参与"
+        },
+        "summary": {
+          "en": "Treasury Secretary Scott Bessent told CNBC that Trump and Xi agreed humans should always be involved in major military decisions using AI. Separately, Trump said only older chips should be sold to China.",
+          "zh": "美国财长贝森特对CNBC表示，特朗普与习近平同意，涉及AI的重大军事决策必须始终有人参与。另据路透，特朗普表示只应向中国出售较旧的芯片。"
+        },
+        "body": {
+          "en": "Bessent called the agreement one of the major achievements of Trump's Asia trip and said it would not be affected by US-China competition for AI supremacy ([Reuters](https://www.investing.com/news/stock-market-news/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says-5042288)). Trump did not define a technical cutoff for older chips ([Reuters](https://www.investing.com/news/world-news/trump-says-only-older-chips-should-be-sold-to-china-5042411)).",
+          "zh": "贝森特称这是特朗普亚洲之行的主要成果之一，并表示该共识不受中美AI竞争影响。特朗普未说明“较旧芯片”的具体技术界限。"
+        },
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.investing.com/news/stock-market-news/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says-5042288",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.investing.com/news/world-news/trump-says-only-older-chips-should-be-sold-to-china-5042411",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "ocean-industry-investment-catalog",
+        "originalLang": "zh",
+        "title": {
+          "zh": "五部门发布《海洋产业投融资指导目录（2026版）》",
+          "en": "Five agencies issue a 2026 investment and financing catalog for ocean industries"
+        },
+        "summary": {
+          "zh": "自然资源部、国家发展改革委、人民银行、金融监管总局、证监会11月20日联合发布目录，共11大类、42小类、185条，以智能化、绿色化、融合化为三大导向。",
+          "en": "Five agencies including the Ministry of Natural Resources and the PBOC issued a catalog on Nov. 20 with 11 categories, 42 subcategories and 185 items, steering capital toward smart, green and integrated ocean industries."
+        },
+        "body": {
+          "zh": "据《证券日报》，目录鼓励研发智能船舶、智能海洋工程装备，发展海上风电、海洋能，并培育“海上风电+海洋牧场”、低空海洋观光等新业态。相关部门将细化政府补贴、金融支持、海域使用等配套政策。",
+          "en": "Per Securities Daily, the catalog encourages smart ships and offshore engineering equipment, offshore wind and ocean energy, and new models such as offshore wind combined with marine ranching. Agencies will refine supporting policies on subsidies, financing and sea-area use."
+        },
+        "sources": [
+          {
+            "name": "中国经济网 / 证券日报",
+            "url": "https://www.ce.cn/cysc/newmain/yc/jsxw/202611/t20261121_3301267.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

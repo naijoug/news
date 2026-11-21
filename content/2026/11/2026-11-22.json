@@ -1,0 +1,245 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-22",
+  "am": {
+    "tech": [
+      {
+        "id": "riemann-hypothesis-claude-lean-verified",
+        "originalLang": "en",
+        "title": {
+          "en": "Two groups verify Lean proof of the Riemann hypothesis built with Claude",
+          "zh": "两家机构验证借助Claude完成的黎曼猜想Lean证明"
+        },
+        "summary": {
+          "en": "Anthropic mathematician Levent Alpöge says Claude helped him prove the Riemann hypothesis in about six weeks. On Saturday two organizations said they had independently checked his Lean code and that it compiles and states the correct theorem.",
+          "zh": "Anthropic数学家Levent Alpöge称，Claude在约六周内帮助他证明了黎曼猜想。周六，两家机构宣布独立核查了他公开的Lean代码，确认其可通过编译且陈述的正是黎曼猜想本身。"
+        },
+        "body": {
+          "en": "According to [The Guardian](https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai), Alpöge posted a note on his personal website on Friday saying Claude had helped develop the proof, writing that \"Claude far outpaced me near the finish line.\" He linked to computer code written in the Lean proof language.\n\nThe [Lean community blog](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/) reports that the Lean FRO and the Mathlib Initiative checked that the roughly 17-million-line proof compiles, states the correct Riemann hypothesis and is accepted by Lean and independent proof checkers.\n\nThis is machine verification of a formal proof. Broader understanding by mathematicians, and any recognition by the Clay Mathematics Institute, which offers a $1 million prize for the problem, are still to come. [AP](https://apnews.com/article/anthropic-claude-math-solution-ai-4fe8b69a891f160f9e7f0c85af8c55c8) notes that some mathematicians are uneasy about wealthy AI companies driving such results.",
+          "zh": "据《卫报》报道，Alpöge周五在个人网站发文称，Claude帮助他构建了这一证明，并写道“临近终点时Claude远远跑在了我前面”。他同时公开了用Lean证明语言编写的代码。\n\nLean社区博客称，Lean FRO与Mathlib Initiative已核查这份约1700万行的证明：代码能够编译，陈述的是正确的黎曼猜想，并被Lean及独立证明检查器接受。\n\n这属于对形式化证明的机器验证。数学界能否真正理解这份证明，以及为该问题悬赏100万美元的克雷数学研究所是否认可，仍有待观察。美联社指出，一些数学家对富裕的AI公司主导此类成果感到不安。"
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+            "lang": "en"
+          },
+          {
+            "name": "Lean community blog",
+            "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/anthropic-claude-math-solution-ai-4fe8b69a891f160f9e7f0c85af8c55c8",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "amazon-decart-deal-talks",
+        "originalLang": "en",
+        "title": {
+          "en": "Amazon nears deal worth up to $7.5 billion for AI startup Decart",
+          "zh": "亚马逊接近以最高75亿美元收购AI初创公司Decart"
+        },
+        "summary": {
+          "en": "Amazon is in advanced talks to buy Israeli startup Decart, whose software helps AI models run faster and cheaper across different chips, the FT reported. The deal could be worth up to $7.5 billion, including stock and performance-linked payments, and may come next week.",
+          "zh": "据英国《金融时报》报道，亚马逊正就收购以色列初创公司Decart进行深入谈判。Decart的软件能让AI模型在不同芯片上运行得更快、更便宜。交易对价最高75亿美元，包括现金、股票和与业绩挂钩的付款，最快可能下周宣布。"
+        },
+        "sources": [
+          {
+            "name": "Reuters via TradingView",
+            "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N472034:0-amazon-in-advanced-stages-of-7-5-billion-deal-for-decart-ft/",
+            "lang": "en"
+          },
+          {
+            "name": "Ctech",
+            "url": "https://www.calcalistech.com/ctechnews/article/uckadwd7r",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "ft-megaspeed-nvidia-chip-network",
+        "originalLang": "en",
+        "title": {
+          "en": "FT links Alice Huang to network allegedly moving Nvidia chips to China",
+          "zh": "英国《金融时报》称Alice Huang与疑向中国输送英伟达芯片的网络有关"
+        },
+        "summary": {
+          "en": "A Financial Times investigation says Alice Huang fronted Megaspeed, a Singapore cloud firm whose Malaysian unit declared about $4.6 billion of imports from Aivres, the US arm of China's Inspur, in 2024-25, with many chips reportedly ending up in China.",
+          "zh": "英国《金融时报》调查称，Alice Huang是新加坡云服务商Megaspeed的台前人物。该公司马来西亚子公司在2024至2025年申报从浪潮美国分支Aivres进口约46亿美元设备，据报其中许多芯片最终流入中国。"
+        },
+        "sources": [
+          {
+            "name": "Financial Times",
+            "url": "https://www.ft.com/content/52b5f9a8-346f-4dae-8a16-14d5d9eb1244",
+            "lang": "en"
+          },
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/alice-huang-chip-network-ft-nyt-prince-group-pla-suppliers",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "lavrov-kyiv-historic-russian-lands",
+        "originalLang": "en",
+        "title": {
+          "en": "Lavrov calls Kyiv and southeast Ukraine historic Russian lands; Kyiv rejects claim",
+          "zh": "拉夫罗夫称基辅和乌东南部是“历史上的俄罗斯土地”，乌方驳斥"
+        },
+        "summary": {
+          "en": "In an interview for a Russian documentary released Nov. 21, Sergey Lavrov said Ukraine's southeast and much of the center, including Kyiv, were historically Russian lands. Ukrainian FM Andrii Sybiha said borders are set by international law, not history.",
+          "zh": "在11月21日发布的一部俄罗斯纪录片采访中，俄外长拉夫罗夫称乌克兰东南部及包括基辅在内的中部大片地区“历史上是俄罗斯土地”。乌克兰外长瑟比哈回应称，边界由国际法确定，而非历史主张。"
+        },
+        "body": {
+          "en": "Lavrov made the remarks in an interview for the project \"Our Baptism,\" citing shared baptismal roots and describing the defeat of \"primitive Russophobia\" in Ukraine as a goal of Moscow's war, according to [Kyiv24](https://kyiv24.com/en/lavrov-claims-russia-has-rights/).\n\nSybiha replied that Ukrainians had lived and identified as Ukrainians for centuries in areas that are now part of Russia, and that borders are defined by international law and the UN Charter, [RBC-Ukraine](https://newsukraine.rbc.ua/news/ukraine-hits-back-after-russian-official-1795265330.html) reported. The exchange comes days after the Trump-Xi-Putin summit in Shenzhen.",
+          "zh": "据Kyiv24报道，拉夫罗夫是在纪录片项目《我们的洗礼》的采访中发表上述言论的。他以共同的受洗渊源为依据，并称战胜乌克兰“原始的恐俄症”是莫斯科这场战争的目标之一。\n\n据RBC-乌克兰报道，瑟比哈回应称，几百年来乌克兰人一直生活在如今属于俄罗斯的一些地区，并自认是乌克兰人；边界由国际法和《联合国宪章》确定。这番交锋发生在特朗普、习近平、普京深圳会晤数天之后。"
+        },
+        "sources": [
+          {
+            "name": "Kyiv24",
+            "url": "https://kyiv24.com/en/lavrov-claims-russia-has-rights/",
+            "lang": "en"
+          },
+          {
+            "name": "RBC-Ukraine",
+            "url": "https://newsukraine.rbc.ua/news/ukraine-hits-back-after-russian-official-1795265330.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "bahrain-iran-strike-hormuz-conditions",
+        "originalLang": "en",
+        "title": {
+          "en": "Iranian attack sets Bahrain industrial site ablaze; Tehran restates Hormuz terms",
+          "zh": "伊朗袭击致巴林工业设施起火，德黑兰重申开放霍尔木兹条件"
+        },
+        "summary": {
+          "en": "Bahrain said an Iranian attack late Saturday hit a civilian industrial facility, causing a fire but no injuries. The IRGC said it targeted US positions at two bases. Earlier, FM Araghchi said Hormuz could reopen if the US met Iran's seven conditions.",
+          "zh": "巴林称伊朗周六深夜的袭击击中一处民用工业设施并引发火灾，无人受伤。伊朗革命卫队称其目标是两处基地内的美军阵地。此前，伊朗外长阿拉格齐表示，只要美国满足伊方七项条件，霍尔木兹海峡即可重新开放。"
+        },
+        "body": {
+          "en": "[Al Jazeera](https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility) reports that Bahrain's air defences intercepted several Iranian aerial attacks. The IRGC said it carried out a missile and drone operation against US positions at al-Riffa and Awali after US MQ-1 and MQ-9 drones violated Iranian airspace, and claimed to have destroyed two Patriot radars. Iran's IRNA instead said a US interceptor had crashed on Sitra.\n\nSpeaking at an Oman National Day event in Tehran, Araghchi listed conditions including an end to the US naval blockade, release of frozen assets, lifting of oil sanctions and compensation, [Geo News](https://www.geo.tv/latest/681886-irans-seven-conditions-to-open-hormuz-strait-revealed) reported.",
+          "zh": "据半岛电视台报道，巴林防空系统拦截了多次伊朗空袭。伊朗革命卫队称，因美军MQ-1和MQ-9无人机侵犯伊朗领空，其以导弹和无人机打击了里法和阿瓦利两处基地内的美军阵地，并声称摧毁两部“爱国者”雷达。伊朗官方通讯社IRNA则称，是一枚美军拦截弹坠落在锡特拉。\n\n据Geo News报道，阿拉格齐在德黑兰出席阿曼国庆活动时列出的条件包括：结束美国海上封锁、归还被冻结资产、解除石油制裁以及作出赔偿等。"
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility",
+            "lang": "en"
+          },
+          {
+            "name": "Geo News",
+            "url": "https://www.geo.tv/latest/681886-irans-seven-conditions-to-open-hormuz-strait-revealed",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "trump-yalta-great-powers-post",
+        "originalLang": "en",
+        "title": {
+          "en": "Trump posts 'Great Powers 1945, 2026' image of himself, Xi and Putin",
+          "zh": "特朗普发布“大国1945，2026”对比图，将自己与习近平、普京比作雅尔塔三巨头"
+        },
+        "summary": {
+          "en": "Trump shared a Truth Social graphic pairing the 1945 Yalta photo of Roosevelt, Churchill and Stalin with a photo of himself, Xi and Putin from their Shenzhen summit. The image stirs fears in Ukraine and Eastern Europe of big powers deciding smaller nations' fates.",
+          "zh": "特朗普在Truth Social发布一张对比图，将1945年雅尔塔会议上罗斯福、丘吉尔和斯大林的合影，与他和习近平、普京在深圳峰会的合照并列。该图在乌克兰和东欧引发担忧，即大国再次替小国决定命运。"
+        },
+        "sources": [
+          {
+            "name": "Newsweek",
+            "url": "https://www.newsweek.com/trump-shares-yalta-comparison-featuring-himself-xi-and-putin-12752798",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "bitcoin-two-year-low-rebound",
+        "originalLang": "en",
+        "title": {
+          "en": "Bitcoin hits two-year low near $55,000, then rebounds above $60,000",
+          "zh": "比特币跌至约5.5万美元的两年低点后反弹至6万美元上方"
+        },
+        "summary": {
+          "en": "Bitcoin fell to $55,130 on Saturday, its weakest since September 2024, as the AI-led sell-off spread, then recovered more than 9% to above $60,000. About $1.8 billion of leveraged crypto positions were liquidated in 24 hours, CoinDesk reported, citing CoinGlass.",
+          "zh": "受AI股抛售蔓延影响，比特币周六一度跌至55130美元，为2024年9月以来最低，随后反弹逾9%至6万美元上方。CoinDesk援引CoinGlass数据称，24小时内约18亿美元加密货币杠杆仓位被强平。"
+        },
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "taiwan-fsc-short-selling-ban",
+        "originalLang": "zh",
+        "title": {
+          "zh": "台股一周重挫后，台湾金管会宣布全面禁止平盘以下放空",
+          "en": "Taiwan bans short sales below prior close after market rout"
+        },
+        "summary": {
+          "zh": "台湾金管会21日宣布，自23日起全面禁止平盘以下放空，并将融券保证金成数由130%提高至150%、暂停受理认售权证上市申请。此前加权指数20日暴跌6.23%，收于36033.29点。",
+          "en": "Taiwan's FSC said on Saturday it will ban short sales below the previous close from Monday, raise the short-selling margin from 130% to 150% and stop accepting put-warrant listings. The Taiex fell 6.23% on Friday to 36,033.29."
+        },
+        "body": {
+          "zh": "据台湾金管会新闻稿，相关措施共五项，还包括鼓励上市柜公司适时实施库藏股、鼓励金融机构等出借人暂停对外出借股票。\n\n据中央社英文网Focus Taiwan报道，这是2015年以来金管会首次实施此类全面限制。加权指数从10月6日盘中历史高点49968.92点一路下跌，20日盘中低点35738.68点，累计回落28.48%。行政院长卓荣泰21日上午召集财经部门首长，要求研拟稳定市场措施。",
+          "en": "According to the FSC's release, the five measures also encourage listed companies to buy back shares and urge lenders to stop lending out stock.\n\n[Focus Taiwan](https://focustaiwan.tw/business/202611210013) said it is the first blanket restriction of this kind since 2015. The Taiex had fallen 28.48% from its Oct. 6 intraday record of 49,968.92 to Friday's intraday low of 35,738.68. Premier Cho Jung-tai met economic and financial officials on Saturday morning and told them to devise stabilizing measures."
+        },
+        "sources": [
+          {
+            "name": "金融监督管理委员会",
+            "url": "https://www.fsc.gov.tw/ch/home.jsp?dataserno=202611210001&dtable=News&id=96&mcustomize=news_view.jsp&parentpath=0",
+            "lang": "zh"
+          },
+          {
+            "name": "Focus Taiwan",
+            "url": "https://focustaiwan.tw/business/202611210013",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "qinghai-delingha-earthquake",
+        "originalLang": "zh",
+        "title": {
+          "zh": "青海德令哈发生5.6级地震，暂未发现人员伤亡",
+          "en": "M5.6 quake hits Delingha, Qinghai; no casualties found so far"
+        },
+        "summary": {
+          "zh": "11月21日18时45分，青海海西州德令哈市发生5.6级地震，震源深度10公里，震中距德令哈市约70公里。救援人员已抵达震中，暂未接到人员伤亡和房屋倒塌报告。美国地质调查局测定为5.9级。",
+          "en": "A magnitude 5.6 quake struck Delingha in Qinghai's Haixi prefecture at 18:45 on Nov. 21, at a depth of 10 km, about 70 km from the city. Rescuers reached the epicenter and found no reports of casualties or collapsed homes. The USGS put it at 5.9."
+        },
+        "body": {
+          "zh": "据新华社报道，地震发生后青海省消防救援总队立即启动应急响应，德令哈大队派出前突分队前往震中排查；省消防救援总队集结西宁、特勤、海西3个支队85车265人、搜救犬6条待命。经排查，未发现地面裂缝等灾害现象。",
+          "en": "Xinhua said Qinghai's fire and rescue corps launched an emergency response and sent a forward team to the epicenter, while 265 personnel with 85 vehicles and six search dogs from three detachments stood by. No ground cracks or other damage were found."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261121/909e1d713f714045a859193c7abb35b0/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "SeismoWatch (USGS data)",
+            "url": "https://seismowatch.com/earthquakes/event/us6000ucly/",
+            "lang": "en"
+          }
+        ]
+      }
+    ]
+  }
+}

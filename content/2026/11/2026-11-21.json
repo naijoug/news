@@ -248,5 +248,254 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "trump-overseas-data-center-tax",
+        "originalLang": "en",
+        "title": {
+          "en": "Trump threatens 'tremendous tax' on US firms building data centers abroad",
+          "zh": "特朗普威胁对在海外建数据中心的美企征“巨额税”"
+        },
+        "summary": {
+          "en": "At a White House press conference on Friday, Trump said US companies would be stopped from building AI data centers in other countries and would face a 'tremendous tax' if they did. He gave no details and said his own staff had not yet heard the plan.",
+          "zh": "特朗普周五在白宫记者会上表示，将阻止美国企业在海外建设AI数据中心，执意建设的将被征收“巨额税”。他未透露细节，并称连自己的幕僚此前都还不知道这一计划。"
+        },
+        "body": {
+          "en": "According to [CNBC](https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html), Trump said companies \"can, but we're going to put a tremendous tax on them,\" adding: \"I haven't even said that to my people. But I'm telling them now they're here.\"\n\nAlphabet, Amazon, Microsoft, Meta and Oracle already operate data centers overseas, often to serve nearby clients or meet local rules. At home, a CNBC survey found 64% of registered voters oppose an AI data center within 10 miles of their home. [AP](https://apnews.com/article/trump-artificial-intelligence-data-centers-f1ac03b73d13445400eeed8631d9d879) noted the plan comes as data centers face growing local backlash in the US.",
+          "zh": "据CNBC报道，特朗普说企业“可以去建，但我们会对它们征收巨额税”，还说：“我甚至还没跟我的人说过，现在他们在场，我就告诉他们。”\n\nAlphabet、亚马逊、微软、Meta和甲骨文都已在海外运营数据中心，往往是为了就近服务客户或满足当地监管要求。在美国国内，CNBC调查显示64%的登记选民反对在住所10英里内建AI数据中心。美联社指出，这一表态正值数据中心在美国各地遭遇越来越多的反对。"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/trump-artificial-intelligence-data-centers-f1ac03b73d13445400eeed8631d9d879",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "huawei-osta-o1-pro-launch",
+        "originalLang": "zh",
+        "title": {
+          "zh": "华为新子品牌星芒OSTA首款手机O1 Pro发布，5499元起",
+          "en": "Huawei's new OSTA brand launches its first phone, the O1 Pro, from 5,499 yuan"
+        },
+        "summary": {
+          "zh": "华为11月20日推出新子品牌星芒OSTA，首款机型O1 Pro号称“首款为AI而生的鸿蒙手机”，搭载麒麟9030S、7000mAh电池，首发HarmonyOS 7 AI先锋版，起售价5499元。",
+          "en": "Huawei unveiled its new sub-brand OSTA on Nov. 20. Its first model, the O1 Pro, billed as the first HarmonyOS phone built for AI, uses a Kirin 9030S chip and a 7,000mAh battery, debuts HarmonyOS 7 AI Pioneer Edition, and starts at 5,499 yuan."
+        },
+        "body": {
+          "zh": "据IT之家，O1 Pro采用6.39英寸1.5K直屏。品牌总经理刘赫表示，Mate系列旗舰不会通过OTA获得星芒独占的“小星芒”、AI屏等功能。京东与华为星芒签署战略合作，目标三年内在京东实现全品类700亿元销售额。\n\n同场发布会上，鸿蒙智行享界V8 MPV上市，售价31.98万至42.98万元；余承东称享界V8已开启全国首个120km/h L3自动驾驶跨城高速路测。",
+          "en": "According to IT Home, the O1 Pro has a 6.39-inch 1.5K flat screen. Brand head Liu He said Huawei's Mate flagships will not get OSTA-exclusive features such as the AI screen by OTA update. JD.com signed a strategic deal with OSTA targeting 70 billion yuan in sales on its platform over three years.\n\nAt the same event, Huawei's HIMA alliance launched the Xiangjie V8 MPV at 319,800 to 429,800 yuan; Richard Yu said it has begun China's first 120 km/h cross-city L3 autonomous highway road test."
+        },
+        "sources": [
+          {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/1/030/294.htm",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "uk-eu-summit-food-ets-youth",
+        "originalLang": "en",
+        "title": {
+          "en": "UK and EU strike deals on food checks, carbon trading and youth mobility",
+          "zh": "英欧峰会达成食品检查、碳交易和青年流动三项协议"
+        },
+        "summary": {
+          "en": "At a Nov. 20 summit, UK Prime Minister Andy Burnham, Ursula von der Leyen and António Costa concluded talks on a common food-safety area from March 2028, linked emissions trading from 2028, and a youth scheme for up to 100,000 people a year on each side.",
+          "zh": "11月20日英欧峰会上，英国首相伯纳姆与冯德莱恩、科斯塔完成谈判：2028年3月起建立共同卫生与植物检疫区，2028年起连接双方碳排放交易体系，并设立每方每年最多10万名青年参与的交流计划。"
+        },
+        "body": {
+          "en": "According to the [UK government explainer](https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-explainer-html), UK agrifood exports to the EU have fallen 32.5% since 2019. The sanitary and phytosanitary (SPS) agreement removes export health certificates (saving up to £200 each), phytosanitary certificates and most border checks, and will apply from 1 March 2028 subject to both sides' procedures.\n\nThe [joint statement](https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-joint-statement-html) also links the two emissions trading systems, targeted to operate from 1 January 2028, and sets up a Youth Experience Scheme letting young people work, study, volunteer or travel for up to three years.",
+          "zh": "据英国政府发布的说明，2019年以来英国对欧盟农产品和食品出口下降了32.5%。卫生与植物检疫（SPS）协议将取消出口卫生证书（每份最多节省200英镑）、植物检疫证书和大部分边境检查，在双方完成程序后于2028年3月1日起实施。\n\n联合声明还宣布连接双方碳排放交易体系，目标2028年1月1日起运行；并设立“青年体验计划”，允许青年在对方境内工作、学习、志愿服务或旅行最长三年。"
+        },
+        "sources": [
+          {
+            "name": "GOV.UK",
+            "url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-explainer-html",
+            "lang": "en"
+          },
+          {
+            "name": "GOV.UK joint statement",
+            "url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-joint-statement-html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "zelensky-putin-killer-trump-friend",
+        "originalLang": "en",
+        "title": {
+          "en": "Zelensky calls Putin a 'killer' after Trump calls him a friend",
+          "zh": "特朗普称普京是朋友，泽连斯基：对我们来说他是杀人犯"
+        },
+        "summary": {
+          "en": "Speaking to CNN, Zelensky said Putin is 'an enemy' and 'a killer' to Ukrainians, warning that friendly words mean he 'doesn't feel enough pressure'. Trump had doubled down on calling Putin a friend, saying Putin would 'love to end the war'.",
+          "zh": "泽连斯基接受CNN采访时说，对乌克兰人来说普京是“敌人”和“杀人犯”，并警告友好言辞会让普京“感受不到足够压力”。此前特朗普坚持称普京是朋友，并说普京“很想结束战争”。"
+        },
+        "body": {
+          "en": "According to the [BBC](https://www.bbc.com/news/articles/cxnv4zvmdy0jo), Russian strikes on Zelensky's hometown of Kryvyi Rih overnight killed two people, including a boy, and injured 52. On Friday, at least nine were killed as 110 missiles and more than 400 drones hit bridges in Kyiv and railway stations in western Ukraine, which Zelensky called the biggest attack this year.\n\nPoland said a Russian cruise missile was among three objects that violated its airspace early Friday, landing in a rural area about 50 km from the Ukrainian border.",
+          "zh": "据BBC，俄军夜间袭击泽连斯基家乡克里维里赫，造成两人死亡（含一名男孩）、52人受伤。周五，俄军以110枚导弹和400多架无人机袭击基辅桥梁和乌西部火车站，至少九人死亡，泽连斯基称这是今年规模最大的一次袭击。\n\n波兰表示，周五凌晨有三个物体侵入其领空，其中包括一枚俄罗斯巡航导弹，落在距乌克兰边境约50公里的农村地区。"
+        },
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/articles/cxnv4zvmdy0jo",
+            "lang": "en"
+          },
+          {
+            "name": "Ukrinform",
+            "url": "https://www.ukrinform.net/rubric-polytics/4187030-to-us-he-is-enemy-and-murderer-zelensky-on-putin-whom-trump-called-friend.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "deepseek-105-billion-yuan-round",
+        "originalLang": "zh",
+        "title": {
+          "zh": "DeepSeek千亿级融资落地，梁文锋仍持股约67%",
+          "en": "DeepSeek closes 100-billion-yuan round; Liang Wenfeng keeps about 67%"
+        },
+        "summary": {
+          "zh": "工商信息显示，DeepSeek运营主体完成变更，新增持股平台杭州程砚。据证券时报，本轮募资1000亿至1055亿元，投后估值约6155亿元，腾讯与宁德时代并列第一大出资方。",
+          "en": "Business records show DeepSeek's operating company added a new holding platform as a shareholder. Securities Times reports the round raised 100-105.5 billion yuan at a post-money valuation of about 615.5 billion yuan, with Tencent and CATL tied as the largest investors."
+        },
+        "body": {
+          "zh": "据IT之家（经新浪科技转载），杭州深度求索注册资本增加约21.1%。叠加2026年6月首轮约510亿元融资，两轮累计吸纳资金超过1500亿元。\n\n31家外部出资方通过杭州程砚入股，腾讯与宁德时代体系各占9.5653%，中移投资、中信证券投资各7.6522%，另有中国电信、美团龙珠、小红书、vivo、美的、吉利等。梁文锋持有执行事务合伙人杭州程策99%股权，直接及间接合计持股约67.42%，控制权不变。",
+          "en": "According to IT Home (via Sina Tech), DeepSeek's registered capital rose about 21.1%. Together with a first round of about 51 billion yuan in June 2026, the two rounds total more than 150 billion yuan.\n\nThirty-one outside investors came in through the Hangzhou Chengyan platform: Tencent and CATL entities hold 9.5653% each, China Mobile's investment arm and CITIC Securities Investment 7.6522% each, plus China Telecom, Meituan Dragonball, Xiaohongshu, vivo, Midea and Geely. Liang Wenfeng owns 99% of the general partner and about 67.42% of DeepSeek directly and indirectly, so control is unchanged."
+        },
+        "sources": [
+          {
+            "name": "新浪科技 / IT之家",
+            "url": "https://finance.sina.com.cn/tech/digi/2026-11-20/doc-inizkuqx5482684.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "Caixin Global",
+            "url": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "sk-hynix-kioxia-top-shareholder",
+        "originalLang": "en",
+        "title": {
+          "en": "SK Hynix to become Kioxia's largest shareholder via bond conversion",
+          "zh": "SK海力士将通过债转股成为铠侠最大股东"
+        },
+        "summary": {
+          "en": "SK Hynix will convert bonds of a Bain-led investment vehicle into shares in December, giving it an indirect stake of about 14.1% in Japanese rival Kioxia. It says it has no plans to buy more and its role in management will stay limited.",
+          "zh": "SK海力士将于12月把贝恩主导的投资载体债券转换为股份，间接持有日本对手铠侠约14.1%股权，成为最大股东。公司表示暂无增持计划，参与铠侠经营的程度仍将有限。"
+        },
+        "body": {
+          "en": "According to [Reuters via CNA](https://www.channelnewsasia.com/business/sk-hynix-become-top-shareholder-in-rival-kioxia-after-bond-conversion-6569061), SK Hynix will convert the bonds into 129,000 common shares and buy 1,001 more shares in the entity from Bain Capital. The move comes amid strong demand for NAND storage chips used in AI data centers. Counterpoint ranks SK Hynix No. 2 in NAND with a 19% share and Kioxia fourth with 14%.",
+          "zh": "据路透社（经CNA刊发），SK海力士将把债券转换为12.9万股普通股，并从贝恩资本购入该载体另外1001股。此举正值AI数据中心对NAND存储芯片需求旺盛之际。据Counterpoint，SK海力士NAND份额19%位居第二，铠侠14%位列第四。"
+        },
+        "sources": [
+          {
+            "name": "CNA / Reuters",
+            "url": "https://www.channelnewsasia.com/business/sk-hynix-become-top-shareholder-in-rival-kioxia-after-bond-conversion-6569061",
+            "lang": "en"
+          },
+          {
+            "name": "Yonhap",
+            "url": "https://en.yna.co.kr/view/AEN20261120005051320",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "li-qiang-lawrence-wong-talks",
+        "originalLang": "zh",
+        "title": {
+          "zh": "李强同新加坡总理黄循财会谈，同意加快自贸协定4.0版谈判",
+          "en": "Li Qiang meets Singapore PM Lawrence Wong, agrees to speed up FTA 4.0 talks"
+        },
+        "summary": {
+          "zh": "11月21日上午，国务院总理李强在钓鱼台国宾馆同新加坡总理黄循财会谈，表示愿加快中新自贸协定4.0版谈判，加强人工智能、清洁能源、互联互通、金融等领域合作。",
+          "en": "Premier Li Qiang held talks with Singapore's Prime Minister Lawrence Wong in Beijing on Nov. 21, saying China wants to speed up negotiations on version 4.0 of their free trade agreement and deepen cooperation in AI, clean energy, connectivity and finance."
+        },
+        "body": {
+          "zh": "据新华社，李强还提出推进陆海新通道建设，并在应对人口老龄化、优化公共服务等方面加强交流。他表示中方支持新方明年担任东盟轮值主席国，愿共同落实中国－东盟自贸区3.0版升级议定书。黄循财祝贺中国成功举办深圳APEC会议，表示愿深化人工智能、数字经济、绿色能源等合作。",
+          "en": "According to Xinhua, Li also called for progress on the New International Land-Sea Trade Corridor and exchanges on population ageing and public services. He said China supports Singapore's ASEAN chairmanship next year and the China-ASEAN FTA 3.0 upgrade. Wong congratulated China on hosting APEC in Shenzhen and said Singapore wants deeper cooperation in AI, the digital economy and green energy."
+        },
+        "sources": [
+          {
+            "name": "中国政府网 / 新华社",
+            "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086995.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "外交部",
+            "url": "https://www.fmprc.gov.cn/web/wjdt_674879/gjldrhd_674881/202611/t20261121_12064561.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "ndrc-government-investment-payments",
+        "originalLang": "zh",
+        "title": {
+          "zh": "发改委开会督促政府投资资金支付，要求加快形成实物工作量",
+          "en": "NDRC urges faster payment of government investment funds"
+        },
+        "summary": {
+          "zh": "国家发展改革委召开视频会议，调度政府投资资金支付使用和项目储备工作，要求加快政府投资项目建设和资金支付，形成更多实物工作量，并提高项目前期工作和储备质量。",
+          "en": "China's top planner held a video conference on spending of government investment funds and project pipelines, calling for faster construction and payments to produce more physical work, and better preparation of future projects."
+        },
+        "sources": [
+          {
+            "name": "中国金融信息网",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261121/4498556_1.html",
+            "lang": "zh"
+          },
+          {
+            "name": "新浪财经",
+            "url": "https://finance.sina.com.cn/roll/2026-11-21/doc-iniznnye6709252.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "homo-erectus-guangxi-rainforest",
+        "originalLang": "en",
+        "title": {
+          "en": "Homo erectus teeth show the species lived in Guangxi's rainforests",
+          "zh": "广西出土直立人牙齿，显示其曾在热带雨林生活"
+        },
+        "summary": {
+          "en": "A Nature study reports eight Homo erectus teeth from Baxian and Naxian caves in Guangxi, dated to 324,000-184,000 years ago. Evidence suggests they lived in closed-canopy tropical rainforest, extending the species' known survival on mainland Asia.",
+          "zh": "《自然》刊发研究，报告在广西八仙洞、那仙洞发现8颗直立人牙齿，年代为距今32.4万至18.4万年。证据显示他们生活在郁闭的热带雨林中，延长了该物种在亚洲大陆的已知存续时间。"
+        },
+        "sources": [
+          {
+            "name": "Nature",
+            "url": "https://www.nature.com/articles/s41586-026-11155-6",
+            "lang": "en"
+          },
+          {
+            "name": "Sci.News",
+            "url": "https://www.sci.news/othersciences/anthropology/homo-erectus-china-15208.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -241,5 +241,236 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "openrouter-drops-providers-prompt-leak",
+        "originalLang": "en",
+        "title": {
+          "en": "OpenRouter drops three AI providers after months of prompt theft",
+          "zh": "提示词遭窃数月，OpenRouter下架三家AI推理服务商"
+        },
+        "summary": {
+          "en": "OpenRouter said on Nov. 22 it removed three inference providers, pulled 125 endpoints from Zero Data Retention eligibility and notified affected customers, after canary-token research found attackers had been copying prompts inside the providers since mid-July.",
+          "zh": "OpenRouter于11月22日表示，已下架三家推理服务商，取消125个端点的“零数据保留”资格，并通知可能受影响的客户。此前一项“金丝雀令牌”研究发现，攻击者自7月中旬起就在这些服务商内部复制用户提示词。"
+        },
+        "body": {
+          "en": "According to [The Hacker News](https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html), researchers seeded about two million prompts with unique links and credentials between July and November and watched for anyone using them. Some stolen requests were flagged as Zero Data Retention, which is supposed to mean a prompt is never stored.\n\nThe largest breach involved a few hundred planted AWS keys sent in late October; every request in those windows was copied, and some keys were tested within hours. OpenRouter said in its [announcement](https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/) that its own systems were not breached. It did not name the three providers.",
+          "zh": "据The Hacker News报道，研究人员在7月至11月间向约200万条提示词植入了独一无二的链接和凭证，再监测是否有人使用。部分被盗请求带有“零数据保留”标记，按说这类提示词根本不应被存储。\n\n规模最大的一起泄露涉及10月下旬发出的几百个诱饵AWS密钥，那几个时间窗口内的请求全部被复制，有的密钥在数小时内就被试用。OpenRouter在公告中称其自身系统未被攻破，但没有公布三家服务商的名字。"
+        },
+        "sources": [
+          {
+            "name": "The Hacker News",
+            "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+            "lang": "en"
+          },
+          {
+            "name": "OpenRouter",
+            "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+            "lang": "en"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "pragmatik-labs-5b-valuation",
+        "originalLang": "zh",
+        "title": {
+          "zh": "前Qwen负责人林俊旸创办的语用科技估值升至50亿美元",
+          "en": "Ex-Qwen lead Lin Junyang's Pragmatik Labs valued at about $5 billion"
+        },
+        "summary": {
+          "zh": "据彭博社报道，前阿里Qwen负责人林俊旸创办的语用科技（Pragmatik Labs）完成新一轮数千万美元融资，估值约50亿美元，高于今年8月首轮时的约20亿美元。",
+          "en": "Pragmatik Labs, founded by former Alibaba Qwen lead Lin Junyang, raised tens of millions of dollars at a valuation of about $5 billion, up from about $2 billion in its first round in August, Bloomberg reported."
+        },
+        "sources": [
+          {
+            "name": "观察者网",
+            "url": "https://www.guancha.cn/CaiJing/2026_11_22_909469.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "bahrain-iran-attack-two-injured",
+        "originalLang": "en",
+        "title": {
+          "en": "Bahrain says two hurt in Iranian attack; Gulf states condemn strike",
+          "zh": "巴林称伊朗袭击致两人受伤，海湾国家齐声谴责"
+        },
+        "summary": {
+          "en": "Bahrain said two people were hurt in Iran's weekend attacks, a Pakistani resident critically. It called the hit on a civilian industrial site a breach of sovereignty; the GCC, UAE and Saudi Arabia condemned it, while Iran claimed hits on Patriot batteries.",
+          "zh": "巴林内政部称，伊朗周末的袭击造成两人受伤，其中一名巴基斯坦籍居民伤势危重。巴林称民用工业设施遇袭侵犯其主权，海合会、阿联酋和沙特予以谴责；伊朗方面则声称击中了美军“爱国者”防空阵地。"
+        },
+        "body": {
+          "en": "Per [Gulf News](https://gulfnews.com/world/gulf/bahrain/two-injured-in-iranian-attacks-on-bahrain-pakistani-resident-critical-1.500756908), a Bahraini citizen with disabilities was also hurt and is stable. Bahrain's foreign ministry said the IRGC had claimed the strike on the industrial facility, rejected its justifications and called for firm UN action.\n\n[Euronews](https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade) reports Iran fired two waves of drones and ballistic missiles at four US sites in Bahrain, home to the Fifth Fleet, while Iranian tankers appear ready to try to break the US naval blockade. [The National](https://www.thenationalnews.com/news/mena/2026/11/22/live-bahrain-attack-iran-war/) adds that CENTCOM denied an Iranian claim to have hit a US F-16 and that a second tanker was struck near Oman.",
+          "zh": "据《海湾新闻》报道，另一名受伤者是一位残障巴林公民，情况稳定。巴林外交部称伊朗革命卫队已公开认领对该工业设施的袭击，巴方驳斥其理由，并呼吁联合国采取坚决行动。\n\n欧洲新闻台报道，伊朗向巴林境内四处美军设施发动了两波无人机和弹道导弹袭击，美国第五舰队司令部就设在巴林；与此同时，伊朗油轮似乎准备尝试突破美国的海上封锁。《国民报》补充说，美国中央司令部否认伊朗击中一架美军F-16的说法，另有一艘油轮在阿曼附近遇袭。"
+        },
+        "sources": [
+          {
+            "name": "Gulf News",
+            "url": "https://gulfnews.com/world/gulf/bahrain/two-injured-in-iranian-attacks-on-bahrain-pakistani-resident-critical-1.500756908",
+            "lang": "en"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+            "lang": "en"
+          },
+          {
+            "name": "The National",
+            "url": "https://www.thenationalnews.com/news/mena/2026/11/22/live-bahrain-attack-iran-war/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "un-killer-robots-talks-collapse",
+        "originalLang": "en",
+        "title": {
+          "en": "UN talks on a binding autonomous-weapons treaty collapse",
+          "zh": "联合国自主武器条约谈判授权告吹"
+        },
+        "summary": {
+          "en": "After all-night talks in Geneva, states at the UN Convention on Certain Conventional Weapons failed to agree a mandate for a legally binding treaty on autonomous weapons, amid Russian objections, and settled for a weaker plan to 'elaborate' an instrument by 2028.",
+          "zh": "联合国《特定常规武器公约》缔约国在日内瓦通宵谈判后，因俄罗斯反对，未能就制定具有法律约束力的自主武器条约达成谈判授权，只同意到2028年前“拟订”一份可能不具法律约束力的文书。"
+        },
+        "body": {
+          "en": "[The Guardian](https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse) reports that more than 100 states wanted a new law, but the consensus rule let Russia block it, while other military powers, including the US, were also reluctant to commit to binding rules. The US said human control over autonomous weapons had come up in Xi-Trump meetings at APEC this week. [Al Jazeera](https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit) describes the outcome as an agreement to keep working on rules by 2028.",
+          "zh": "据《卫报》报道，超过100个国家希望制定新法，但协商一致规则让俄罗斯得以阻止，美国等其他军事大国也不愿承诺接受约束性规则。美方称，本周亚太经合组织会议期间习近平与特朗普会晤时谈到了对自主武器的人类控制问题。半岛电视台将结果描述为各方同意在2028年前继续制定规则。"
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+            "lang": "en"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "houthi-missiles-riyadh-third-night",
+        "originalLang": "en",
+        "title": {
+          "en": "Saudi coalition intercepts Houthi missiles and drones aimed at Riyadh",
+          "zh": "沙特联军拦截胡塞武装射向利雅得的导弹和无人机"
+        },
+        "summary": {
+          "en": "The Saudi-led coalition said it intercepted three Houthi ballistic missiles headed for Riyadh early Saturday, the third straight night of alerts, and more drones later. It came two days after a Houthi strike damaged the Public Investment Fund tower.",
+          "zh": "沙特领导的联军称，周六凌晨拦截了胡塞武装射向利雅得的三枚弹道导弹，利雅得已连续第三晚发布警报，随后又拦截多架无人机。两天前，胡塞武装的袭击击伤了沙特主权财富基金总部大楼。"
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh",
+            "lang": "en"
+          },
+          {
+            "name": "Al Arabiya",
+            "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/saudiled-coalition-intercepts-houthi-ballistic-missile-three-drones",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "sse-new-fee-cuts",
+        "originalLang": "zh",
+        "title": {
+          "zh": "上交所拟推新一批降费措施，预计让利13.68亿元",
+          "en": "Shanghai exchange plans new fee cuts worth 1.368 billion yuan"
+        },
+        "summary": {
+          "zh": "上交所11月22日拟发布《关于进一步减免相关费用的通知》，免收交易单元使用费、减免数据中心相关服务费，并把免收上市费等措施延长两年至2028年。新增措施预计让利13.68亿元，全年降费超24亿元。",
+          "en": "The Shanghai Stock Exchange said on Nov. 22 it plans to waive trading-unit fees, cut data-center service fees and extend listing-fee and bond-fee waivers to 2028. The new steps are worth about 1.368 billion yuan; 2026 cuts should top 2.4 billion yuan."
+        },
+        "sources": [
+          {
+            "name": "中国金融信息网",
+            "url": "https://www.cnfin.com/kx/detail/20261122/4498705_1.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "a-share-buyback-loan-60-firms",
+        "originalLang": "zh",
+        "title": {
+          "zh": "11月以来超60家A股公司拿到回购增持贷款承诺函",
+          "en": "Over 60 A-share firms secure buyback-loan commitments since November"
+        },
+        "summary": {
+          "zh": "央行月初下调股票回购增持再贷款利率后，11月以来已有超60家A股公司披露获得专项贷款承诺函，合计超150亿元，七成以上为民营企业；支持银行首次扩至北京银行、上海银行等头部城商行。",
+          "en": "Since the central bank cut its buyback relending rate this month, over 60 A-share companies have disclosed loan commitments totalling more than 15 billion yuan, over 70% of them private firms. Lenders now include leading city banks such as Bank of Beijing."
+        },
+        "body": {
+          "zh": "据央视财经（经中新经纬、21经济网转载），约一半拿到承诺函的公司贷款上限过亿元，部分超过5亿元。公司横跨主板、创业板和科创板，硬件设备、机械、半导体行业较多。\n\n本次政策优化首次把再贷款支持对象从国有行、股份行扩大到北京银行、上海银行、南京银行、宁波银行、江苏银行等部分头部城商行。另据人民网，沪深北交易所近日把融资保证金比例下限降至80%。"
+        },
+        "sources": [
+          {
+            "name": "21经济网",
+            "url": "https://www.21jingji.com/article/20261122/herald/46aa944313d364d9fb9edf1e7425e92b.html",
+            "lang": "zh"
+          },
+          {
+            "name": "人民网",
+            "url": "https://finance.people.com.cn/n1/2026/1122/c1004-40838396.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "kangbao-cabbage-formaldehyde",
+        "originalLang": "zh",
+        "title": {
+          "zh": "河北康保“白菜蘸甲醛”事件，三部门指导从严从快处置",
+          "en": "Three agencies order swift action over formaldehyde-dipped cabbage in Hebei"
+        },
+        "summary": {
+          "zh": "针对河北张家口康保县“白菜收购环节蘸取甲醛溶液”问题，国务院食安办、农业农村部、市场监管总局指导属地调查核实、追查流向，并组织各地对白菜等易腐蔬菜开展专项抽检和市场排查。",
+          "en": "China's State Council food safety office, agriculture ministry and market regulator told authorities in Kangbao, Hebei, to investigate cabbage dipped in formaldehyde at purchase, trace where it went, and run nationwide spot checks on perishable vegetables."
+        },
+        "sources": [
+          {
+            "name": "国务院食安办（转载）",
+            "url": "https://h.mffb.com.cn/a/571924.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "mofcom-fcc-phone-numbers",
+        "originalLang": "zh",
+        "title": {
+          "zh": "商务部回应FCC拟禁中国电信运营商获取美国号码资源",
+          "en": "MOFCOM opposes FCC plan to bar Chinese carriers from US phone numbers"
+        },
+        "summary": {
+          "zh": "美国FCC 11月19日投票拟禁止中国电信、中国联通、中国移动直接获取美国互联网电话号码资源。商务部发言人称此举滥用监管权力、违背两国元首共识，敦促美方撤销，并表示将采取必要措施。",
+          "en": "After the FCC voted on Nov. 19 to bar China Telecom, China Unicom and China Mobile from directly obtaining US internet phone numbers, China's commerce ministry called it an abuse of regulatory power against the leaders' consensus and urged its withdrawal."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.xinhuanet.com/fortune/20261122/3f0b414e37254f0c868a4748c7594497/c.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

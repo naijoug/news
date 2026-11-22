@@ -1,0 +1,256 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-23",
+  "am": {
+    "tech": [
+      {
+        "id": "openai-perplexity-shared-metric",
+        "originalLang": "en",
+        "title": {
+          "en": "OpenAI chief scientist proposes perplexity as shared yardstick for AI progress",
+          "zh": "OpenAI首席科学家提议以困惑度作为衡量AI进展的通用标尺"
+        },
+        "summary": {
+          "en": "In a Nov. 22 post, Jakub Pachocki argued that perplexity should be a cross-industry metric for comparing models and anchoring shared safety limits, and published OpenAI's internal pretraining measurements.",
+          "zh": "OpenAI首席科学家Jakub Pachocki于11月22日发文，主张把“困惑度”作为业界比较模型、制定共同安全限制的统一指标，并公开了OpenAI内部的预训练测量数据。"
+        },
+        "body": {
+          "en": "Pachocki writes that benchmarks of downstream capabilities go stale quickly, while perplexity — how well a model predicts the next token — has stayed informative. He says publishing OpenAI's numbers gives competitors a clearer view of where it stands, but that this is outweighed by the urgency of shared safety measures ([OpenAI](https://openai.com/index/perplexity-and-intelligence/)).\n\nAccording to [TechCrunch](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/), the post includes a chart of OpenAI's falling perplexity since GPT-3.5: GPT-4 sat at about 0.91, and losses below 0.8 coincided with transformative capabilities in areas such as cybersecurity and mathematics. Sam Altman called it \"the most important thing OpenAI has published in a while.\" The post follows Anthropic CEO Dario Amodei's call for companies to agree on limits to the rate of unchecked AI progress.",
+          "zh": "Pachocki认为，衡量下游能力的基准测试很快就会过时，而衡量模型预测下一个词元能力的困惑度一直具有参考价值。他表示，公开OpenAI的数据会让竞争对手更清楚其所处位置，但建立共同安全措施的紧迫性更重要（[OpenAI](https://openai.com/index/perplexity-and-intelligence/)）。\n\n据[TechCrunch](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/)报道，文中图表显示自GPT-3.5以来OpenAI模型的困惑度持续下降：GPT-4约为0.91，损失降到0.8以下时，模型在网络安全、数学等领域出现了变革性能力。奥特曼称这是OpenAI“近来发布的最重要的东西”。此前Anthropic首席执行官阿莫代伊呼吁各公司就限制AI无节制发展的速度达成一致。"
+        },
+        "sources": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/perplexity-and-intelligence/",
+            "lang": "en"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "chongqing-token-data-industry-measures",
+        "originalLang": "zh",
+        "title": {
+          "zh": "重庆出台词元驱动数据产业措施，鼓励建立词元计量计价规则",
+          "en": "Chongqing backs token-driven data industry, urges token metering and pricing rules"
+        },
+        "summary": {
+          "zh": "国家数据局11月22日转发重庆《促进词元驱动的数据产业高质量发展若干措施》，提出探索词元交易、建立词元计量与计价规则、支持词元出海；国家层面的词元计量等标准也在研制中。",
+          "en": "China's data administration on Nov. 22 republished Chongqing measures to explore token trading, set token metering and pricing rules and support token exports, as national token standards are being drafted."
+        },
+        "body": {
+          "zh": "据[国家数据局](https://www.nda.gov.cn/sjj/swdt/dfdt/1122/20261122102028613559124_pc.html)转发的文件，措施由重庆市大数据应用发展管理局和市财政局印发，提出培育“按效分配、按用付费”的词元市场机制，鼓励数据流通服务机构建立词元计量与计价规则，支持企业开展词元出海业务；对达到国内领先水平的数据基础设施项目，按研发投入的30%给予最高100万元补贴。\n\n在国家层面，国家数据发展研究院已牵头启动《词元 生产与运营服务质量规范》《词元工厂评价通则》等标准研制，并参与《词元 计量规范》等标准，针对计量口径不一、计费不透明等问题（[搜狐转国家数据局](https://www.sohu.com/a/1103307063_121106994)）。"
+        },
+        "sources": [
+          {
+            "name": "国家数据局",
+            "url": "https://www.nda.gov.cn/sjj/swdt/dfdt/1122/20261122102028613559124_pc.html",
+            "lang": "zh"
+          },
+          {
+            "name": "搜狐（转国家数据局）",
+            "url": "https://www.sohu.com/a/1103307063_121106994",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "cop31-ends-without-deal",
+        "originalLang": "en",
+        "title": {
+          "en": "COP31 in Antalya ends without a climate pact after fossil-fuel deadlock",
+          "zh": "安塔利亚COP31因化石燃料分歧未能达成气候协议"
+        },
+        "summary": {
+          "en": "The UN climate summit in Türkiye closed Sunday after two days of overtime without an overarching outcome. Guterres called it deeply disappointing: \"There may be no consensus in the negotiating room. There is no ambiguity in the science.\"",
+          "zh": "在土耳其举行的联合国气候大会加时两天后于周日闭幕，未能达成总体成果。古特雷斯表示“深感失望”，称“谈判室里或许没有共识，但科学没有任何含糊”。"
+        },
+        "body": {
+          "en": "According to [UN News](https://news.un.org/en/story/2026/11/1168855), disagreement over fossil-fuel language was the main obstacle, and several countries formally objected to the final text as weakening earlier commitments. Antalya became the longest-running UN climate summit on record.\n\nWeb reports from [Reuters](https://www.reuters.com/3fec1b0a85a0/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/) and [AP](https://apnews.com/article/climate-un-turkey-fossil-fuels-global-warming-f6e36c4caf13ec6fed57c9f077cbd067) say the draft omitted any reference to transitioning away from fossil fuels; the EU, Panama, the Marshall Islands and others rejected it, while oil producers including Saudi Arabia and Russia opposed such language. Rows over climate finance and carbon capture also contributed.",
+          "zh": "据[联合国新闻](https://news.un.org/en/story/2026/11/1168855)，化石燃料相关表述的分歧是主要障碍，多国正式反对最终文本，认为其削弱了此前承诺。安塔利亚会议成为有记录以来历时最长的联合国气候大会。\n\n据[路透社](https://www.reuters.com/3fec1b0a85a0/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/)和[美联社](https://apnews.com/article/climate-un-turkey-fossil-fuels-global-warming-f6e36c4caf13ec6fed57c9f077cbd067)报道，草案未提及摆脱化石燃料，欧盟、巴拿马、马绍尔群岛等方面拒绝接受，沙特、俄罗斯等产油国则反对此类表述。气候资金和碳捕集问题上的争执也是原因。"
+        },
+        "sources": [
+          {
+            "name": "UN News",
+            "url": "https://news.un.org/en/story/2026/11/1168855",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/3fec1b0a85a0/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/climate-un-turkey-fossil-fuels-global-warming-f6e36c4caf13ec6fed57c9f077cbd067",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "hormuz-tankers-hit-mines",
+        "originalLang": "en",
+        "title": {
+          "en": "Iran says two supertankers hit naval mines near Hormuz; rolling blackouts begin at home",
+          "zh": "伊朗称两艘超级油轮在霍尔木兹附近触雷，国内开始轮流停电"
+        },
+        "summary": {
+          "en": "Iran's IRGC Navy said two unnamed supertankers struck mines north of Ghanam Island and east of the Strait of Hormuz on Sunday after using \"unauthorized routes.\" It gave no casualty or damage details.",
+          "zh": "伊朗伊斯兰革命卫队海军周日称，两艘未具名超级油轮在加纳姆岛以北及霍尔木兹海峡以东“未经许可的航线”上触雷，发生爆炸并停航，未公布伤亡和损失情况。"
+        },
+        "body": {
+          "en": "[Anadolu](https://www.aa.com.tr/en/middle-east/iran-says-2-supertankers-struck-naval-mines-near-strait-of-hormuz/4133736), citing Fars, reports the IRGC said the strait is \"fully under the control and surveillance\" of its forces and urged shipowners to avoid routes it has declared unauthorized. [Iran International](https://www.iranintl.com/en/202611224393) says the navy claimed the tankers had switched off identification and navigation systems.\n\nAt home, Iran began rolling power cuts on Nov. 22 because of fuel shortages at power plants — about two hours every other day, possibly daily as it gets colder. President Pezeshkian said US and Israeli strikes on gas infrastructure have worsened the crunch ([The Straits Times/AFP](https://www.straitstimes.com/world/middle-east/iran-to-ration-electricity-as-war-hits-energy-network)).",
+          "zh": "[阿纳多卢通讯社](https://www.aa.com.tr/en/middle-east/iran-says-2-supertankers-struck-naval-mines-near-strait-of-hormuz/4133736)援引法尔斯通讯社报道，革命卫队称海峡“完全处于其控制和监视之下”，敦促船东避开其宣布的未许可航线。[伊朗国际](https://www.iranintl.com/en/202611224393)称，伊朗海军说两船关闭了识别和导航系统。\n\n国内方面，因电厂燃料短缺，伊朗自11月22日起实行轮流停电，约每两天停电两小时，天气转冷后部分地区可能每天停电。总统佩泽希齐扬称美以对天然气设施的打击加剧了能源紧张（[《海峡时报》/法新社](https://www.straitstimes.com/world/middle-east/iran-to-ration-electricity-as-war-hits-energy-network)）。"
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/middle-east/iran-says-2-supertankers-struck-naval-mines-near-strait-of-hormuz/4133736",
+            "lang": "en"
+          },
+          {
+            "name": "Iran International",
+            "url": "https://www.iranintl.com/en/202611224393",
+            "lang": "en"
+          },
+          {
+            "name": "The Straits Times",
+            "url": "https://www.straitstimes.com/world/middle-east/iran-to-ration-electricity-as-war-hits-energy-network",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "trump-permanent-iran-deal",
+        "originalLang": "zh",
+        "title": {
+          "zh": "特朗普称寻求与伊朗达成“永久性”协议",
+          "en": "Trump says he will seek a 'permanent' deal with Iran"
+        },
+        "summary": {
+          "zh": "特朗普在福克斯新闻21日播出的采访中称，将寻求与伊朗达成永久性协议，确保日后即使换了总统也不会让伊朗拥核或推翻协议；他还称未考虑伊朗政权更迭。",
+          "en": "In a Fox News interview aired on the 21st, Trump said he would seek a permanent Iran deal that future presidents could not undo to let Iran get nuclear weapons, adding he was not considering regime change."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/world/20261122/64021df287674d7593fc17d682d53542/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "RTHK",
+            "url": "https://news.rthk.hk/rthk/ch/component/k2/1878732-20261122.htm",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "korea-market-stabilization-fund",
+        "originalLang": "en",
+        "title": {
+          "en": "South Korea readies market stabilization fund to head off a 'Black Monday'",
+          "zh": "韩国准备启动股市稳定基金，防范“黑色星期一”"
+        },
+        "summary": {
+          "en": "After KOSPI fell below 5,000 amid a global AI-stock selloff, Seoul's economic and financial chiefs met Sunday, readied the stabilization fund for immediate use, eased buyback limits and launched a crackdown on illegal short selling.",
+          "zh": "在全球AI股抛售中韩国综合指数跌破5000点后，韩国经济金融首长周日召开紧急会议，准备随时动用股市稳定基金，放宽上市公司回购限制，并严打非法卖空。"
+        },
+        "body": {
+          "en": "Deputy Prime Minister and Finance Minister Lee Hyeong-il chaired the emergency \"F4\" meeting with the central bank and financial regulators. Daily buyback order limits for listed companies will be eased for three months from Tuesday, and a capital-market reform task force will launch without delay ([The Herald Business](https://biz.heraldcorp.com/article/10945209)).\n\n[SBS](https://news.sbs.co.kr/english/article.do?news_id=N1008857914) reports officials blamed rising uncertainty around the global AI and semiconductor industries after the three main New York indexes fell together on Friday.",
+          "zh": "副总理兼企划财政部长李亨一主持了有央行和金融监管机构参加的“F4”紧急会议。上市公司每日回购委托限额将自周二起放宽三个月，资本市场改革工作组也将立即启动（[Herald Business](https://biz.heraldcorp.com/article/10945209)）。\n\n据[SBS](https://news.sbs.co.kr/english/article.do?news_id=N1008857914)报道，官员认为，上周五纽约三大股指同步下跌后，全球AI与半导体行业的不确定性上升，加剧了市场波动。"
+        },
+        "sources": [
+          {
+            "name": "The Herald Business",
+            "url": "https://biz.heraldcorp.com/article/10945209",
+            "lang": "en"
+          },
+          {
+            "name": "SBS",
+            "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008857914",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "wall-street-thanksgiving-week-ahead",
+        "originalLang": "en",
+        "title": {
+          "en": "Wall Street enters Thanksgiving week in correction, eyes inflation data",
+          "zh": "美股带着回调进入感恩节周，关注通胀数据"
+        },
+        "summary": {
+          "en": "After Friday's AI washout pushed the Dow and S&P 500 into correction and sent the VIX above 30, investors face a holiday-shortened week with inflation data that could sway fears of a Fed hike at its Dec. 9 meeting.",
+          "zh": "上周五AI股大跌使道指和标普500指数进入回调区间、VIX升破30。本周因感恩节缩短，市场将关注通胀数据，其结果可能影响对美联储12月9日会议加息的担忧。"
+        },
+        "body": {
+          "en": "[CNBC](https://www.cnbc.com/2026/11/20/stock-market-next-week-outlook-for-nov-23-27-2026.html) reports the Nasdaq erased its 2026 gains on Friday, as neither Anthropic's IPO nor Nvidia's earnings revived the AI trade. The S&P 500's relative strength index dipped below 30, an oversold signal, and a cooler inflation print could soothe fears of a half-point Fed hike.\n\nRisks still on the calendar include Jensen Huang's congressional hearings next month, a possible government shutdown and the Iran war. Markets are closed Thursday for Thanksgiving.",
+          "zh": "据[CNBC](https://www.cnbc.com/2026/11/20/stock-market-next-week-outlook-for-nov-23-27-2026.html)报道，上周五纳指抹去今年全部涨幅，Anthropic上市和英伟达财报都未能提振AI板块。标普500相对强弱指数跌破30，显示超卖；若通胀数据低于预期，可能缓解市场对美联储加息50个基点的担忧。\n\n后续风险包括黄仁勋下月的国会听证、可能的政府停摆以及伊朗战事。周四感恩节美股休市。"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/20/stock-market-next-week-outlook-for-nov-23-27-2026.html",
+            "lang": "en"
+          },
+          {
+            "name": "FXEmpire",
+            "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-pce-in-focus-after-ai-sell-off-in-holiday-shortened-week-1646337",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "swiss-fm-cassis-visits-china",
+        "originalLang": "zh",
+        "title": {
+          "zh": "瑞士外长卡西斯11月23日至24日访华",
+          "en": "Swiss foreign minister Cassis visits China Nov. 23–24"
+        },
+        "summary": {
+          "zh": "外交部发言人22日宣布，应王毅邀请，瑞士联邦副主席兼外长卡西斯将于11月23日至24日访华，并举行中瑞第五轮外长级战略对话。",
+          "en": "China's foreign ministry said on the 22nd that Swiss Vice President and Foreign Minister Ignazio Cassis will visit Nov. 23–24 at Wang Yi's invitation for the fifth China–Switzerland foreign-minister strategic dialogue."
+        },
+        "sources": [
+          {
+            "name": "中华人民共和国外交部",
+            "url": "https://www.mfa.gov.cn/web/wjdt%5F674879/wsrc%5F674883/202611/t20261122_12064683.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "pboc-canada-financial-working-group",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中加签署金融工作组工作规范，拟测试使用本币互换",
+          "en": "China and Canada sign terms for financial working group, plan swap-line tests"
+        },
+        "summary": {
+          "zh": "央行行长潘功胜与加拿大财长商鹏飞、加拿大央行行长麦克勒姆签署《中加金融工作组工作规范》，双方将测试使用续签的本币互换协议，探索扩大本币结算，并欢迎加方机构发行熊猫债。",
+          "en": "PBOC Governor Pan Gongsheng signed terms of reference with Canada's finance minister and central bank governor. The sides will test the renewed currency swap, explore more local-currency use and welcome Canadian panda bonds."
+        },
+        "body": {
+          "zh": "据[新浪财经转CfetsOnline](https://finance.sina.com.cn/wm/2026-11-22/doc-inizqfik6210160.shtml)，金融工作组是今年1月中加领导人会晤联合声明的成果之一，首次会议于4月在北京举行。工作规范明确了参与部门、合作领域与交流方式，交流范围涵盖货币政策、金融监管、金融科技、反洗钱、跨境资金流动和全球金融治理等。加方还对中方有意在加拿大市场发行人民币绿色主权债券表示欢迎。"
+        },
+        "sources": [
+          {
+            "name": "新浪财经（转CfetsOnline）",
+            "url": "https://finance.sina.com.cn/wm/2026-11-22/doc-inizqfik6210160.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

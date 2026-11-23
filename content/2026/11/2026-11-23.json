@@ -252,5 +252,266 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "zai-glm-5-4-loop-transformer",
+        "originalLang": "en",
+        "title": {
+          "en": "Z.ai releases GLM-5.4, its first flagship Loop Transformer model",
+          "zh": "智谱Z.ai发布GLM-5.4，首个基于循环Transformer的旗舰模型"
+        },
+        "summary": {
+          "en": "Z.ai says GLM-5.4 reruns a shared block of layers several times per pass, reaching intelligence comparable to 2T–3T-parameter models without adding parameters, and pitches it as the start of \"Generalized Coding\".",
+          "zh": "Z.ai称，GLM-5.4在一次前向计算中让一组共享权重的层循环执行多次，在不增加参数的情况下达到相当于2万亿至3万亿参数模型的水平，并称这标志着“泛化编程”的开端。"
+        },
+        "body": {
+          "en": "In a Nov. 23 research post, Z.ai says it adapted an already pre-trained base model into a Loop Transformer through continued training at roughly 750B scale, rather than training a looped model from scratch, raising the capability ceiling at modest compute cost ([Z.ai](https://z.ai/blog/glm-5.4)).\n\nThe company argues that long-chain reasoning tasks such as large-scale software engineering, cybersecurity, 3D modeling and physical control benefit more from effective compute than from extra parameters. It acknowledges a limitation: the model tends to fall into overly long \"marathon thinking\" loops, though that extra reflection consistently improves accuracy.",
+          "zh": "Z.ai在11月23日的研究博文中表示，团队没有从零训练循环模型，而是通过继续训练，把一个已预训练好的约7500亿参数规模的基座模型改造成循环Transformer，以较小的算力开销抬高能力上限（[Z.ai](https://z.ai/blog/glm-5.4)）。\n\n该公司认为，大规模软件工程、网络安全、3D建模和物理控制等超长链推理任务，更依赖有效算力而非更多参数。博文也承认，模型容易陷入过长的“马拉松式思考”循环，不过这种反复反思与自我纠错确实持续提升了准确率。"
+        },
+        "sources": [
+          {
+            "name": "Z.ai",
+            "url": "https://z.ai/blog/glm-5.4",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "amazon-nears-decart-deal",
+        "originalLang": "en",
+        "title": {
+          "en": "Amazon nears $7.5 billion deal for AI chip-software startup Decart",
+          "zh": "亚马逊接近以75亿美元收购AI芯片软件公司Decart"
+        },
+        "summary": {
+          "en": "Amazon is in final-stage talks to buy Israeli startup Decart, whose software optimizes AI workloads across chips including AWS's Trainium, for about $7.5 billion; a deal could come within days but may still fall through.",
+          "zh": "亚马逊正就收购以色列初创公司Decart进行最后阶段谈判，作价约75亿美元。Decart的软件可在包括AWS自研Trainium在内的多种芯片上优化AI负载；交易最快几天内宣布，但仍可能告吹。"
+        },
+        "body": {
+          "en": "Reports citing the Financial Times say the deal would strengthen AWS's ability to make non-Nvidia accelerators easier to use for inference ([PYMNTS](https://www.pymnts.com/news/artificial-intelligence/2026/amazon-nears-7-5-billion-purchase-of-ai-startup-decart/)). Decart was valued at about $4 billion earlier this year; nothing has been announced yet ([Ctech](https://www.calcalistech.com/ctechnews/article/uckadwd7r)).",
+          "zh": "援引《金融时报》的报道称，这笔交易将增强AWS让非英伟达加速器更易用于推理的能力（[PYMNTS](https://www.pymnts.com/news/artificial-intelligence/2026/amazon-nears-7-5-billion-purchase-of-ai-startup-decart/)）。Decart今年早些时候估值约40亿美元，目前双方尚未正式宣布（[Ctech](https://www.calcalistech.com/ctechnews/article/uckadwd7r)）。"
+        },
+        "sources": [
+          {
+            "name": "PYMNTS",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-nears-7-5-billion-purchase-of-ai-startup-decart/",
+            "lang": "en"
+          },
+          {
+            "name": "Ctech",
+            "url": "https://www.calcalistech.com/ctechnews/article/uckadwd7r",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "trump-may-resume-iran-strikes",
+        "originalLang": "en",
+        "title": {
+          "en": "Trump says he may resume Iran strikes after New Year if talks fail",
+          "zh": "特朗普称若谈判无果，可能在新年后恢复对伊朗打击"
+        },
+        "summary": {
+          "en": "Trump told Fox News he is inclined to resume military strikes on Iran after the New Year if indirect talks don't produce a deal, and warned Iranian vessels testing the US naval blockade would be sunk. Tehran says Hormuz will be safe if its demands are met.",
+          "zh": "特朗普对福克斯新闻表示，如果间接谈判无法达成协议，他倾向于在新年后恢复对伊朗的军事打击，并警告试图突破美国海上封锁的伊朗船只将被击沉。德黑兰则称，只要其要求得到满足，霍尔木兹海峡就会安全。"
+        },
+        "body": {
+          "en": "Trump called Iranian negotiators \"professional tap dancers\" and said the talks were \"all BS\", while encouraging anti-government protesters in Iran to keep demonstrating, [Anadolu](https://www.aa.com.tr/en/world/morning-briefing-nov-23-2026/4133974) reported. The remarks shift tone from his comments a day earlier about seeking a \"permanent\" deal.\n\nIran says safe passage could return if Washington meets conditions including sanctions relief and an end to the naval blockade ([ABC News](https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648)).",
+          "zh": "据[阿纳多卢通讯社](https://www.aa.com.tr/en/world/morning-briefing-nov-23-2026/4133974)报道，特朗普称伊朗谈判代表是“职业踢踏舞者”，说谈判“全是胡扯”，还鼓励伊朗反政府示威者继续抗议。这与他前一天称寻求“永久性”协议的口吻有所不同。\n\n伊朗方面表示，如果美国满足解除制裁、结束海上封锁等条件，海峡通行安全即可恢复（[ABC新闻](https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648)）。"
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-23-2026/4133974",
+            "lang": "en"
+          },
+          {
+            "name": "ABC News",
+            "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "indonesia-candy-factory-fire",
+        "originalLang": "en",
+        "title": {
+          "en": "Indonesia confirms 24 dead in candy factory fire, about 30 missing",
+          "zh": "印尼糖果厂大火已确认24人遇难，约30人失踪"
+        },
+        "summary": {
+          "en": "A fire that gutted the PT Fonusa Agung Mulia candy factory in Cikande, Banten, on Saturday evening killed at least 24 people; rescuers are still searching for about 30 missing workers, and an air-conditioner short circuit is the preliminary suspected cause.",
+          "zh": "周六晚，万丹省芝甘德的PT Fonusa Agung Mulia糖果厂发生大火，至少24人遇难，救援人员仍在搜寻约30名失踪工人。初步调查怀疑起火原因为空调短路。"
+        },
+        "body": {
+          "en": "About 300 people were at the complex for Saturday's shift, according to the parent company. Hotspots and an increasingly unstable structure are hampering rescuers; 29 people are confirmed safe. A presidential labour adviser said he would summon the factory's chief executive ([Al Jazeera/Reuters](https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site)).",
+          "zh": "据母公司称，周六当班时厂区约有300人。残余火点和日益不稳的建筑结构阻碍了救援，目前已确认29人安全。总统劳工事务顾问表示将约谈工厂负责人（[半岛电视台/路透社](https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site)）。"
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera (Reuters)",
+            "url": "https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site",
+            "lang": "en"
+          },
+          {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/asia/indonesia-factory-fire-killed-rescuers-search-missing-6573141",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "libya-un-complaint-benghazi-ships",
+        "originalLang": "en",
+        "title": {
+          "en": "Libya's eastern government files UN complaint over Benghazi ship attacks",
+          "zh": "利比亚东部政府就班加西船只遇袭向联合国提出申诉"
+        },
+        "summary": {
+          "en": "Libya's eastern-based government asked the UN General Assembly and Security Council to investigate drone-boat attacks on Russian and Maltese ships off Benghazi, after Ukraine said it was responsible, and called on Kyiv to explain its military activities in Libya.",
+          "zh": "在乌克兰称对袭击负责后，利比亚东部政府请求联合国大会和安理会调查班加西外海俄罗斯和马耳他船只遭无人艇袭击一事，并要求基辅就其在利比亚的军事活动作出解释。"
+        },
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-23-2026/4133974",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "kospi-falls-despite-rescue-plan",
+        "originalLang": "en",
+        "title": {
+          "en": "Kospi sinks 3.3% despite rescue plan as Taiex rebounds",
+          "zh": "韩国救市方案未能止跌，KOSPI再挫3.3%，台股反弹"
+        },
+        "summary": {
+          "en": "South Korea's Kospi fell 3.31% to 4,708.54 on Monday, briefly triggering a program-trading halt, even after weekend stabilization measures. Taiwan's Taiex rose 2.16%, while Hong Kong slipped and Shanghai edged up.",
+          "zh": "尽管周末出台稳市措施，韩国KOSPI周一仍下跌3.31%，收于4708.54点，盘中一度触发程序交易暂停。台湾加权指数上涨2.16%，港股小跌，沪指微涨。"
+        },
+        "body": {
+          "en": "[Yonhap](https://en.yna.co.kr/view/AEN20261123006600320) reports the index opened 2.77% lower and fell as low as 4,586.80 as foreign investors turned net sellers; program trading was suspended for five minutes when the Kospi was down 5.11% around 11:33 a.m. The won also weakened against the dollar.\n\nAcross the region, [AP](https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91) said the Hang Seng fell 0.1% and Shanghai gained 0.2%, India's Sensex dropped 1.7%, and Tokyo was closed for a holiday, while US futures climbed.",
+          "zh": "据[韩联社](https://en.yna.co.kr/view/AEN20261123006600320)报道，KOSPI低开2.77%，随着外资由净买入转为净卖出，盘中最低跌至4586.80点；上午11:33左右指数跌幅达5.11%，程序交易暂停5分钟。韩元兑美元同步走弱。\n\n据[美联社](https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91)报道，恒生指数跌0.1%，上证指数涨0.2%，印度Sensex跌1.7%，日本因假日休市，美股期货走高。"
+        },
+        "sources": [
+          {
+            "name": "Yonhap",
+            "url": "https://en.yna.co.kr/view/AEN20261123006600320",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-nvidia-premarket-rebound",
+        "originalLang": "en",
+        "title": {
+          "en": "Anthropic and Nvidia shares rebound in premarket after tech rout",
+          "zh": "科技股暴跌后，Anthropic与英伟达盘前反弹"
+        },
+        "summary": {
+          "en": "After the Nasdaq slid 10% last week, Nvidia rose 8.6% and newly listed Anthropic 4.47% in Monday premarket trading; neoclouds Nebius, CoreWeave and Iren also gained around 9–11%.",
+          "zh": "上周纳指下跌10%后，周一盘前英伟达上涨8.6%，新上市的Anthropic上涨4.47%；Nebius、CoreWeave和Iren等新兴云服务商也上涨约9%至11%。"
+        },
+        "body": {
+          "en": "Anthropic raised a record $93.5 billion in its IPO, plus $26 billion from tech giants buying at the offer price; it jumped 17% on Thursday's debut before closing 8.5% lower Friday. Nvidia had slumped more than 40% over the past month ([CNBC](https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html)).",
+          "zh": "Anthropic通过IPO募资创纪录的935亿美元，另有科技巨头以发行价认购260亿美元；该股周四上市首日上涨17%，周五收跌8.5%。英伟达股价过去一个月累计下跌逾40%（[CNBC](https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html)）。"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "wang-yi-cassis-strategic-dialogue",
+        "originalLang": "zh",
+        "title": {
+          "zh": "王毅与卡西斯在南京举行中瑞第五轮外长级战略对话",
+          "en": "Wang Yi and Cassis hold fifth China–Switzerland strategic dialogue in Nanjing"
+        },
+        "summary": {
+          "zh": "双方同意加快推进自贸协定升级议定书各自国内批约程序，深化金融、科技、知识产权、人工智能、通信技术和教育等领域合作，并就乌克兰危机等问题交换意见。",
+          "en": "The two sides agreed to speed domestic ratification of their upgraded free-trade agreement and deepen cooperation in finance, technology, IP, AI, telecoms and education, and exchanged views on Ukraine and other issues."
+        },
+        "body": {
+          "zh": "据[外交部](https://www.fmprc.gov.cn/web/wjdt_674879/gjldrhd_674881/202611/t20261123_12065400.shtml)消息，王毅表示今年是中瑞建立创新战略伙伴关系10周年，希望瑞方以实际行动反对“台独”，并称中欧应跳出所谓“贸易不平衡”叙事陷阱，希望瑞方为中欧平稳解决经贸分歧发挥积极影响。\n\n卡西斯表示，瑞方坚定恪守一个中国原则，愿同中方维护自由贸易、反对保护主义，加强人工智能全球治理。",
+          "en": "According to [China's foreign ministry](https://www.fmprc.gov.cn/web/wjdt_674879/gjldrhd_674881/202611/t20261123_12065400.shtml), Wang marked the 10th anniversary of the two countries' innovative strategic partnership, urged Switzerland to oppose \"Taiwan independence\" in action, and said China and Europe should move beyond the \"trade imbalance\" narrative, asking Bern to help smooth EU–China trade disputes.\n\nCassis reaffirmed Switzerland's one-China principle and said it would work with China to uphold free trade, oppose protectionism and strengthen global AI governance."
+        },
+        "sources": [
+          {
+            "name": "中华人民共和国外交部",
+            "url": "https://www.fmprc.gov.cn/web/wjdt_674879/gjldrhd_674881/202611/t20261123_12065400.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "elderly-childcare-service-plan",
+        "originalLang": "zh",
+        "title": {
+          "zh": "四部门发布“一老一小”服务体系建设实施方案",
+          "en": "Four ministries issue plan for elderly-care and childcare services"
+        },
+        "summary": {
+          "zh": "国家发改委、民政部、国家卫健委、教育部联合印发方案，提出到2030年养老机构护理型床位占比达73%、社区养老设施覆盖率达70%，3岁以下婴幼儿入托率较2025年提高6个百分点。",
+          "en": "The NDRC and the civil affairs, health and education ministries set 2030 targets: 73% of beds in elderly-care institutions to be nursing beds, 70% community coverage of elderly-care facilities, and under-3 childcare enrollment up 6 points from 2025."
+        },
+        "body": {
+          "zh": "据[中国政府网](https://www.gov.cn/zhengce/zhengceku/202611/content_7087024.htm)，方案（发改社会〔2026〕1623号）于11月9日印发、23日公布，部署设施布局、医养结合、托育服务网络、普惠供给、科技赋能和监管保障等措施，推进“一刻钟托育服务圈”和老幼共托。"
+        },
+        "sources": [
+          {
+            "name": "中国政府网",
+            "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7087024.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/politics/20261123/c6bd50493f80405c961f0f87bda9567c/c.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "cnpc-xie-jun-investigated",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中石油集团副总经理谢军被查，辞任中国石油董事",
+          "en": "CNPC deputy general manager Xie Jun under investigation, resigns PetroChina board seat"
+        },
+        "summary": {
+          "zh": "中国石油天然气集团党组成员、副总经理谢军涉嫌严重违纪违法，接受中央纪委国家监委审查调查；中国石油23日公告，谢军已辞去董事及投资与发展委员会委员职务。",
+          "en": "CNPC Party group member and deputy general manager Xie Jun is under investigation by the CCDI and National Supervisory Commission for suspected serious violations; PetroChina said on the 23rd he has resigned as a director and investment committee member."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/legal/20261122/4a7672bfae214a43b114a36ae3651511/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "财新网",
+            "url": "https://www.caixin.com/2026-11-22/102507635.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

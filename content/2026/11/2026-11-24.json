@@ -1,0 +1,209 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-24",
+  "lead": {
+    "zh": "美股在英伟达恢复黄仁勋职务后大幅反弹；乌克兰称在利比亚击沉俄军护卫舰；神舟二十四号已具备发射条件。",
+    "en": "U.S. stocks rallied after Nvidia reinstated Jensen Huang; Ukraine said it sank a Russian corvette in Libya; China said Shenzhou-24 is ready for launch."
+  },
+  "am": {
+    "tech": [
+      {
+        "id": "deepmind-gemini4-quantum",
+        "originalLang": "en",
+        "title": {
+          "zh": "DeepMind用Gemini 4智能体团队优化量子算法，并用形式化验证给出证明",
+          "en": "DeepMind uses Gemini 4 agent teams and formal verification to speed up quantum algorithms"
+        },
+        "summary": {
+          "zh": "谷歌DeepMind与Quantum AI在11月23日的博客中写道，多个Gemini 4智能体团队改进了已知量子算法，并用定理证明器Lean验证结果。惯性约束聚变相关电路的计算成本降至约十一分之一，相关库和已验证方案将开源。",
+          "en": "Google DeepMind and Quantum AI said on Nov. 23 that teams of Gemini 4 agents improved known quantum algorithms and proved the results in the Lean theorem prover. A fusion-related circuit was about 11.8 times cheaper, and the library and verified solutions will be open-sourced."
+        },
+        "body": {
+          "en": "In a [Nov. 23 post](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/), Sergey Shirobokov, Ben Jaderberg and Ryan Babbush said independent Gemini 4 agent teams proposed algorithmic improvements, which were checked in Lean before being shared. Every four hours, the teams compared ideas in a virtual conference.\n\nFor inertial confinement fusion, the agents cut a cost metric that combines qubits and operations by 11.8× and lowered required memory from 5,650 to 4,338 error-corrected qubits. Quantum simulation of a common light-sensitive molecule became 8× cheaper; for Cytochrome P450, an enzyme central to drug metabolism, they reported a 2.5× improvement and cut memory from 481 to 333 qubits. They also found a 2.57× speedup in a specific implementation of Grover's algorithm and a 290× speedup for an arcsin routine used to load numbers into quantum states.\n\nThe authors cautioned that running these algorithms in scientific simulations would still demand more resources than the first error-corrected quantum computers are likely to provide. They are open-sourcing a Lean library, problem specifications and verified solutions on GitHub.",
+          "zh": "谢尔盖·希罗博科夫、本·贾德伯格和瑞安·巴布什在[11月23日的博客](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/)中写道，多支彼此独立的Gemini 4智能体团队提出算法改进，再用Lean加以验证，并每隔四小时在虚拟会议上交换想法。\n\n在惯性约束聚变相关电路上，智能体把综合量子比特与操作次数的计算成本降到约原来的1/11.8，所需纠错量子比特由5650个降至4338个。一种常见光敏分子的量子模拟成本降至约1/8；对药物代谢关键酶细胞色素P450，他们报告了2.5倍改进，内存需求由481个量子比特降至333个。他们还为一种特定实现的Grover算法找到2.57倍加速，并为许多算法用来把数值载入量子态的arcsin例程找到290倍加速。\n\n作者提醒，把这些算法用于科学模拟所需的资源，仍可能高于第一代纠错量子计算机所能提供的水平。他们将在GitHub开源Lean库、问题说明和已验证方案。"
+        },
+        "sources": [
+          {
+            "name": "Google DeepMind",
+            "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "sierra-series-f-30b",
+        "originalLang": "en",
+        "title": {
+          "zh": "客服智能体公司Sierra完成17.5亿美元F轮融资，估值达300亿美元",
+          "en": "Sierra raises $1.75 billion Series F at a $30 billion valuation"
+        },
+        "summary": {
+          "zh": "由布雷特·泰勒等人创立的企业客服智能体公司Sierra宣布，由Greenoaks和Lightspeed领投的F轮融资为17.5亿美元，估值300亿美元，约半年前一轮估值为150亿美元。公司称年经常性收入已超过4亿美元，客户包括近半数财富50强企业。",
+          "en": "Sierra, co-founded by Bret Taylor, said it raised $1.75 billion in a Series F led by Greenoaks and Lightspeed at a $30 billion valuation, double its level of about six months ago. It said ARR has passed $400 million and it serves nearly half of the Fortune 50."
+        },
+        "body": {
+          "en": "In a [company post](https://sierra.ai/blog/series-f-30b) dated Nov. 23, co-founders Bret Taylor and Clay Bavor said prior lead investors Benchmark, Sequoia, Greenoaks, GV and Tiger Global also participated. [TechCrunch](https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/) reported the new round came within six months of a financing that valued Sierra at $15 billion.\n\nSierra said it charges for outcomes rather than tokens or seats, and that annual recurring revenue has passed $400 million after rising from $200 million to $400 million in five months. Named customers include BNY, Cigna, JPMorganChase, Wells Fargo, HSBC, Pearson, Next and Singtel. The company said it will use the proceeds to build out its technology stack and expand its enterprise sales team.",
+          "zh": "联合创始人布雷特·泰勒和克莱·巴沃尔在[11月23日的公司博客](https://sierra.ai/blog/series-f-30b)中说，Benchmark、红杉、Greenoaks、GV和Tiger Global等此前的领投方也继续参与。[TechCrunch](https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/)报道，此轮距离上一次估值为150亿美元的融资不到六个月。\n\nSierra表示按业务结果而非按token或席位收费，年经常性收入已超过4亿美元，并在五个月内从2亿美元增至4亿美元。点名客户包括纽约梅隆银行、Cigna、摩根大通、富国银行、汇丰、培生、Next和新加坡电信。公司称新资金将用于完善技术栈，并扩充企业销售团队。"
+        },
+        "sources": [
+          {
+            "name": "Sierra",
+            "url": "https://sierra.ai/blog/series-f-30b",
+            "lang": "en"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "ukraine-sinks-merkury-libya",
+        "originalLang": "en",
+        "title": {
+          "zh": "泽连斯基称乌克兰在班加西用海上无人机击沉俄军护卫舰“水星”号",
+          "en": "Zelensky says Ukraine sank Russia's Merkury corvette in Benghazi with sea drones"
+        },
+        "summary": {
+          "zh": "乌克兰总统泽连斯基周一表示，乌方动用七艘海上无人机，在利比亚班加西海军基地击沉俄军较新的“水星”号护卫舰，并摧毁一架卡-27直升机，同时打击了货轮“安加拉”号。卫星图像显示该舰大部分已倾覆，利比亚东西部政府均谴责此次袭击。",
+          "en": "Zelensky said Monday that Ukraine used seven sea drones to sink Russia's Merkury corvette at Benghazi naval base, destroyed a Ka-27 helicopter and struck the cargo ship MV Angara. Satellite images showed most of the warship capsized. Both Libyan governments condemned the attack."
+        },
+        "body": {
+          "en": "Local authorities said there was an explosion early Sunday while the warship was docking in Benghazi for fuel and supplies, the [BBC](https://www.bbc.com/news/articles/cr894gjz0j0yo) reported. Zelensky said the Merkury, a Project 20380 Steregushchiy-class corvette and one of Russia's newer ships, was sunk, and that a Ka-27 was destroyed. He also said Ukraine hit the Russian container ship MV Angara, which he claimed was carrying weapons. Libya's health ministry said it received injured people from a commercial ship targeted off the port; it was not clear whether that was the same vessel.\n\nU.S. firm Vantor released imagery that, according to the BBC, showed the corvette moored on Saturday and largely capsized on Sunday, with only the forward bow still visible. The UN-recognised government in Tripoli said Libya would not accept being drawn into the war, while the eastern administration in Benghazi called the strike a violation of sovereignty and said the Russian ship had been using the port under an existing maritime agreement. Kremlin spokesman Dmitry Peskov declined to comment directly on the Libya attacks and pointed to the defence ministry.\n\nThe episode follows a UN complaint by eastern Libyan authorities after ships were attacked at Benghazi. The UN mission in Libya called for an immediate, independent investigation and said the country must not become a battleground for foreign conflicts.",
+          "zh": "据[BBC](https://www.bbc.com/news/articles/cr894gjz0j0yo)报道，当地当局称，这艘军舰周日清晨在班加西停靠补给燃油时发生爆炸。泽连斯基表示，被击沉的是较新的20380型“守护”级护卫舰“水星”号，一架卡-27直升机也被摧毁。他还说，乌方打击了俄籍集装箱船“安加拉”号，并称船上载有武器。利比亚卫生部门说，接收了从港外一艘遇袭商船送来的伤者，尚不清楚是否就是同一艘船。\n\n美国公司Vantor发布的影像被BBC援引称：卫星图显示该护卫舰周六还停泊在港内，周日大部分船体已倾覆，只剩舰首可见。联合国承认的的黎波里政府表示，利比亚不会接受被卷入这场战争；班加西的东部当局则称袭击侵犯主权，并说俄舰是依据现有海事协议使用港口。克里姆林宫发言人佩斯科夫拒绝对利比亚遇袭直接置评，称将由国防部提供信息。\n\n此事发生在利比亚东部当局就班加西船只遇袭向联合国提出申诉之后。联合国利比亚特派团要求立即进行独立透明调查，并表示利比亚不应成为外部冲突的战场。"
+        },
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.com/news/articles/cr894gjz0j0yo",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/mideast-iran-gaza-israel-houthis-libya-november-23-2026-c2cb6de3515f887a5786c1147e918489",
+            "lang": "en"
+          },
+          {
+            "name": "Democracy Now!",
+            "url": "https://www.democracynow.org/2026/11/23/headlines",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "iran-vows-counter-blockade",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗称将采取“一切手段”反制美国海上封锁",
+          "en": "Iran says it will use 'every means' to counter the U.S. naval blockade"
+        },
+        "summary": {
+          "zh": "伊朗外交部发言人巴盖伊周一在例行记者会上，把美国对伊朗石油出口的海上封锁称为“犯罪行为”和“军事侵略”，并说德黑兰将使用一切手段反制。这是对特朗普前一天警告闯封锁的伊朗船只将被击沉至“海底”的回应。卡塔尔首相当天预计会晤美国国务卿鲁比奥。",
+          "en": "Iranian spokesman Esmaeil Baghaei on Monday called the U.S. oil blockade a crime and military aggression, and said Tehran would use every means to counter it, a day after Trump warned ships breaking the blockade would be sunk. Qatar's premier was expected to meet Mr. Rubio."
+        },
+        "body": {
+          "en": "Baghaei, speaking at his weekly briefing, said the blockade violated the UN Charter and that Iran would 'certainly not tolerate this situation,' [Euronews](https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat) reported. Asked about reported U.S. planning for another attack, he said the best scenario was for U.S. forces to 'get the hell out of the region.' He also restated conditions for reopening the Strait of Hormuz, including an end to the blockade, sanctions relief, and implementation of commitments Washington had accepted under the Islamabad memorandum — which Trump has called void.\n\nIRGC-affiliated Tasnim said there was no official plan for an oil-tanker convoy to break the blockade, even as some media close to the Guards had floated the idea. The UK Maritime Trade Operations office confirmed at least one Sunday incident involving an oil tanker in the Gulf of Oman with military forces present; CENTCOM had not commented as of Monday. [Democracy Now!](https://www.democracynow.org/2026/11/23/headlines) cited CNN as saying the pace of strikes on ships in and around the strait had reached its highest level since the United States attacked Iran in February, with at least three more ships hit over the weekend.\n\nQatar, a key mediator, was expected to have its prime minister meet Secretary of State Marco Rubio on Monday. The outcome of that meeting had not been reported in the sources reviewed for this digest.",
+          "zh": "据[欧洲新闻台](https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat)报道，巴盖伊在每周例行记者会上称，封锁违反《联合国宪章》，伊朗“当然不会容忍这一局面”。在被问及有关美国可能再次发动攻击的报道时，他说最好的情形是美军“滚出这个地区”。他重申重开霍尔木兹海峡的条件，包括结束封锁、解除制裁，以及履行美方在伊斯兰堡谅解备忘录中接受的承诺——特朗普已称该备忘录作废。\n\n与伊朗革命卫队关系密切的塔斯尼姆通讯社说，并没有派出油轮编队闯封锁的官方计划，尽管一些接近卫队的媒体近期提出过类似主张。英国海上贸易行动办公室确认，周日在阿曼湾至少发生一起有军事力量介入、涉及一艘油轮的事件；截至周一，美军中央司令部尚未置评。[Democracy Now!](https://www.democracynow.org/2026/11/23/headlines)援引CNN称，霍尔木兹海峡及附近针对船只的袭击频率已升至美国今年2月打击伊朗以来的最高水平，周末又至少有三艘船被击中。\n\n作为重要调解方，卡塔尔首相预计周一与美国国务卿鲁比奥会面。截至本刊发稿时所依据的报道，会谈结果尚未披露。"
+        },
+        "sources": [
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat",
+            "lang": "en"
+          },
+          {
+            "name": "Democracy Now!",
+            "url": "https://www.democracynow.org/2026/11/23/headlines",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "nvidia-huang-return-rally",
+        "originalLang": "en",
+        "title": {
+          "zh": "英伟达恢复黄仁勋CEO职务，美股创2025年4月以来最佳单日表现",
+          "en": "Nvidia reinstates Jensen Huang; U.S. stocks post best day since April 2025"
+        },
+        "summary": {
+          "zh": "英伟达董事会周一立即恢复黄仁勋的首席执行官职务，该公司股价收涨约31%。标普500指数涨4.73%，纳斯达克综合指数涨6.51%，道指涨3.01%，为2025年4月以来最佳单日表现，收回上周科技股暴跌中的相当一部分失地。特朗普称自己说服了董事会，并说黄仁勋“没有做错”。",
+          "en": "Nvidia's board on Monday reinstated Jensen Huang as CEO, and the stock jumped 31%. The S&P 500 rose 4.73%, the Nasdaq 6.51% and the Dow 3.01%, the best day since April 2025, reclaiming much of last week's tech selloff. Trump said he convinced the board Huang 'did nothing wrong.'"
+        },
+        "body": {
+          "en": "According to [CNBC](https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html), the S&P 500 closed at 7,237.17 and the Nasdaq at 24,089.56; the Dow gained 1,447.98 points to 49,595.31. Micron rose 19%, CoreWeave 22% and AMD almost 7%, while Alphabet and Meta each gained 6% and Microsoft more than 1%. Anthropic, which had its IPO last week, was down about 3% in afternoon trading and lagged the rebound.\n\nHuang had resigned earlier this month after reports of extramarital affairs, including one involving a woman alleged to be a Chinese spy. [AP](https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91) said the return followed Huang's admission of an affair with a woman suspected of being a Chinese spy, and that Trump took credit for urging the board to bring him back. Trump told CNBC Huang 'had bad judgment having to do with somewhat unrelated incidents, but he did nothing wrong other than he created a chip that's invaluable.'\n\nAll three major U.S. averages had ended Friday in a correction after their worst week in years; the Nasdaq was lower for the year, and the Nasdaq-100 had been close to a 20% drop from its recent high. U.S. markets will be closed Thursday for Thanksgiving, with a shortened session on Friday.",
+          "zh": "据[CNBC](https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html)报道，标普500指数收于7237.17点，纳斯达克综合指数收于24089.56点，道琼斯工业平均指数上涨1447.98点，收于49595.31点。美光涨19%，CoreWeave涨22%，AMD涨近7%，Alphabet和Meta各涨6%，微软涨逾1%。上周刚上市的Anthropic午后跌约3%，没有跟上这轮反弹。\n\n黄仁勋本月早些时候辞职，此前有报道称他卷入多段婚外关系，其中一段涉及一名被指为华裔间谍的女性。[美联社](https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91)称，他是在承认与一名涉嫌华裔间谍的女性有婚外情之后复职，特朗普则把劝说董事会请回黄仁勋归为自己的功劳。特朗普对CNBC说，黄仁勋“在一些不太相关的事情上判断失当，但他没有做错，只是做出了非常宝贵的芯片”。\n\n上周五，美国三大股指均已落入回调区间，那是多年来最差的一周；纳斯达克综指已跌至年初以来为负，纳斯达克100指数距离近期高点接近20%。本周四感恩节美股休市，周五为早收盘。"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "shenzhou-24-launch-ready",
+        "originalLang": "zh",
+        "title": {
+          "zh": "神舟二十四号已具备发射条件，空间站将迎来首位外籍航天员",
+          "en": "Shenzhou-24 is ready for launch as the space station prepares for its first foreign astronaut"
+        },
+        "summary": {
+          "zh": "央视新闻11月23日晚报道，神舟二十四号载人飞船发射在即，发射场、飞船和火箭系统状态稳定，已具备发射条件。当天北京航天飞行控制中心已调整空间站轨道姿态。此行将有一名巴基斯坦载荷专家参加，这是中国空间站首次迎来外籍航天员。",
+          "en": "CCTV News said on the evening of Nov. 23 that Shenzhou-24 is ready for launch, with the launch site, spacecraft and rocket in stable condition. Beijing adjusted the station's orbit that day. A Pakistani payload specialist will be the first foreign astronaut on China's station."
+        },
+        "body": {
+          "zh": "据[央视新闻客户端](https://news.bjd.com.cn/2026/11/23/12041028.shtml)11月23日晚报道，神舟二十三号乘组正在为新乘组做准备，包括整理物资、清理舱内环境、预留生活与睡眠空间，并调整再生生保参数，以保障六人同时在轨时的氧气和用水供应。各任务站点按发射当日流程开展全流程联调，对发射准备和飞行全过程的技术状态与数据流转进行验证。\n\n中国航天科技集团工作人员张亚非说，除关注飞船整船状态外，还对推进系统加注后的传感器数据做了分阶段复核。神舟二十四号发射后将对接于空间站核心舱前向端口。目前空间站组合体平台工作正常。巴基斯坦航天员将以载荷专家身份短期在轨，随后随神舟二十三号返回。",
+          "en": "According to [CCTV News, carried by the Beijing Daily site](https://news.bjd.com.cn/2026/11/23/12041028.shtml) on the evening of Nov. 23, the Shenzhou-23 crew is preparing the station for the incoming crew, including stowing supplies, clearing living space and adjusting life-support settings so that oxygen and water can support six people on board at once. Mission sites ran a full-dress check of launch-day procedures, technical states and data flows. The launch site, spacecraft and rocket were described as stable and ready.\n\nZhang Yafei of the China Aerospace Science and Technology Corporation said teams had also reviewed sensor data from the propulsion system after fueling. Shenzhou-24 is to dock at the forward port of the Tianhe core module. The station's combined platform was said to be operating normally. The Pakistani astronaut will fly as a payload specialist for a short stay and return on Shenzhou-23."
+        },
+        "sources": [
+          {
+            "name": "央视新闻客户端",
+            "url": "https://news.bjd.com.cn/2026/11/23/12041028.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "央视网",
+            "url": "https://tv.cctv.com/2026/11/23/VIDEMvAuhok9jyCVe4yMpkZ2261123.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "china-eu-financial-dialogue",
+        "originalLang": "zh",
+        "title": {
+          "zh": "第十七次中欧财金对话在北京举行，讨论宏观政策与G20合作",
+          "en": "17th China–EU Financial Dialogue held in Beijing, covering macro policy and G20 cooperation"
+        },
+        "summary": {
+          "zh": "新华社11月23日晚报道，第十七次中欧财金对话当天在北京举行，由财政部副部长廖岷与欧盟委员会经济与金融事务总司长共同主持，讨论宏观经济形势与政策，以及中欧在G20框架下的多边合作。中方呼吁欧方为中国企业提供公平、非歧视的营商环境。",
+          "en": "Xinhua said on the evening of Nov. 23 that the 17th China-EU Financial Dialogue was held in Beijing, co-chaired by Vice Finance Minister Liao Min and the EU economics director-general. Talks covered the macro outlook and G20. Beijing asked the EU for fair treatment of its firms."
+        },
+        "body": {
+          "zh": "据[新华社](https://www.news.cn/20261123/37df8761cc9749ecad835f13e965315a/c.html)报道，廖岷表示，中欧应共同维护和践行真正的多边主义，推动建设开放型世界经济；主要经济体应推动结构性改革，深化宏观政策协调，维护全球产业链供应链稳定。他希望欧方尊重市场经济和公平竞争原则，为中国企业提供公平、公正、非歧视的营商环境，推动中欧经济合作向上平衡发展。\n\n欧方称，欧中互为第二大贸易伙伴，重视与中方的宏观政策沟通与务实合作，愿在相互尊重、对等开放的基础上加强建设性对话，妥处矛盾分歧，有序推进欧中经济再平衡。",
+          "en": "[Xinhua](https://www.news.cn/20261123/37df8761cc9749ecad835f13e965315a/c.html) said Liao Min argued that China and the EU should uphold multilateralism and an open world economy, and that major economies should pursue structural reforms, deepen macro-policy coordination and keep global supply chains stable. He said China hoped the EU would respect market principles and fair competition and provide Chinese companies with a fair, impartial and non-discriminatory business environment, so that economic ties can rebalance in an upward direction.\n\nThe EU side, as summarized by Xinhua, called the dialogue an important platform for macro-policy coordination, noted that the two are each other's second-largest trading partners, and said it was willing to strengthen constructive talks on the basis of mutual respect and reciprocal opening, manage differences and advance economic rebalancing in an orderly way."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261123/37df8761cc9749ecad835f13e965315a/c.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

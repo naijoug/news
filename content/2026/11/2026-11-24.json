@@ -205,5 +205,213 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "anthropic-working-with-ai-study",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic访谈58家企业：AI最大价值来自重组工作，而非裁员",
+          "en": "Anthropic study of 58 firms: AI's biggest gains come from reorganizing work, not layoffs"
+        },
+        "summary": {
+          "zh": "Anthropic在11月23日发布的研究基于对58家企业客户的66场访谈，发现多数AI用途靠提高产出创造价值，因自动化导致的本土裁员很少，但多数公司因AI少招人，并削减了外包、尤其是离岸外包。",
+          "en": "An Anthropic study published Nov. 23, based on 66 interviews with 58 enterprise customers, found most AI value comes from higher output. AI-driven domestic layoffs were rare, but most firms said they hire less and use fewer contractors, especially offshore."
+        },
+        "body": {
+          "en": "Researchers Nathan Wilmers, Maxim Massenkoff and Peter McCrory wrote in [Working with AI](https://www.anthropic.com/research/working-with-ai) that companies increasingly use coding agents to bring software skills to nontechnical staff.\n\n- **Jobs:** few examples of domestic layoffs driven by AI; some firms hire more, most hire less. Cuts to offshore contractors could be an early warning for the international business services industry.\n- **Bottlenecks:** as coding speeds up, code review, sales and strategic decisions must keep pace; some experts resist deployment.\n- **What works:** the highest-value uses involved broadening roles so people own whole workflows, moving staff to tasks models cannot do, and building infrastructure for non-developer coding and broad access to business data.\n\nThe authors said top-down automation can breed job insecurity and surveillance fears, while purely bottom-up rollouts leave adoption uneven.",
+          "zh": "研究者内森·威尔默斯、马克西姆·马森科夫和彼得·麦克克罗里在[《Working with AI》](https://www.anthropic.com/research/working-with-ai)中写道，企业越来越多地用编程智能体让非技术岗位也具备软件能力。\n\n- **就业：**由AI自动化导致的本土裁员案例很少；部分公司因AI多招了人，但多数公司少招了人。对离岸外包的削减可能是国际商务服务业受冲击的早期信号。\n- **瓶颈：**编码提速后，代码审查、销售和战略决策等环节需要跟上；部分专家抵触部署。\n- **有效做法：**价值最高的用途往往伴随组织重组——拓宽岗位让个人负责完整流程，把人调到模型做不了的环节，并为非开发人员编程和广泛访问业务数据搭建基础设施。\n\n作者认为，自上而下的自动化容易引发对岗位和监控的担忧，单纯自下而上推广则会导致使用不均。"
+        },
+        "sources": [
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/research/working-with-ai",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "xpeng-worldgpt",
+        "originalLang": "en",
+        "title": {
+          "zh": "小鹏发布WorldGPT：一个模型同时服务汽车、机器人和无人机",
+          "en": "XPeng unveils WorldGPT, one AI model for cars, robots and drones"
+        },
+        "summary": {
+          "zh": "小鹏11月24日称，属于其图灵世界模型系列的WorldGPT汇集汽车、船、无人机、单臂和双臂机器人及人形机器人六类机器的学习，可预测场景并规划动作，在公开基准中取得12项第一。",
+          "en": "XPeng said on Nov. 24 that WorldGPT, part of its Turing World Model family, learns across six machine types — cars, boats, drones, single- and dual-arm robots and humanoids — to predict scenes and plan actions, taking 12 first places on public benchmarks."
+        },
+        "sources": [
+          {
+            "name": "XPENG",
+            "url": "https://www.xpeng.com/news/01a20bcf44b3a1e838d68a02a2110153",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "iran-hormuz-closed-further",
+        "originalLang": "en",
+        "title": {
+          "zh": "伊朗下令霍尔木兹海峡“逐日收紧”，卡塔尔赴美斡旋重启谈判",
+          "en": "Iran orders Hormuz closed 'further day by day' as Qatar seeks to revive talks"
+        },
+        "summary": {
+          "zh": "伊朗军队总司令哈塔米下令，在伊方七项条件满足前进一步封闭霍尔木兹海峡。革命卫队称三艘油轮在美军护航下触雷起火，联合海事信息中心称未获证实。卡塔尔首相在华盛顿会见鲁比奥和万斯。",
+          "en": "Iran's army chief Amir Hatami ordered the Strait of Hormuz closed further until Tehran's seven conditions are met. The IRGC said three US-escorted tankers hit mines; a maritime monitor called that unconfirmed. Qatar's PM met Rubio and Vance in Washington."
+        },
+        "body": {
+          "en": "According to [Euronews](https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks), Major General Amir Hatami, citing orders from Ayatollah Mojtaba Khamenei, warned that any new US military action would bring blows \"without geographical limitation.\" The Joint Maritime Information Centre recorded 114 passages through the strait with US assistance from Nov. 19 to 21 and said the mine claims were unconfirmed.\n\nParliament Speaker Mohammad Bagher Ghalibaf said there would be no negotiation before Iran's seven conditions are implemented. Foreign Minister Abbas Araghchi told reporters a US land blockade of Iran was \"virtually impossible\" given the country's size, [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines) reported.\n\nQatari Prime Minister Mohammed bin Abdulrahman Al Thani said the region \"cannot bear a renewed escalation\" and that Doha was working to bring both sides back to the table. The visit followed President Trump's remark on Sunday that strikes on Iran could resume after the New Year.",
+          "zh": "据[欧洲新闻台](https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks)报道，伊朗军队总司令阿米尔·哈塔米援引最高领袖穆杰塔巴·哈梅内伊的命令警告，美国若再采取军事行动，打击将“没有地理限制”。联合海事信息中心记录，11月19日至21日在美方协助下共有114艘次船只通过海峡，并称触雷说法未获证实。\n\n议长卡利巴夫表示，在伊方七项条件落实之前不会有任何谈判。据[半岛电视台](https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines)报道，外长阿拉格齐称，鉴于伊朗幅员辽阔，美国对伊朗实施陆上封锁“几乎不可能”。\n\n卡塔尔首相穆罕默德表示，地区“承受不起”美伊紧张局势再度升级，多哈正努力让双方回到谈判桌。此前特朗普周日称，对伊朗的军事打击可能在新年后恢复。"
+        },
+        "sources": [
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks",
+            "lang": "en"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "ukraine-patriot-delay",
+        "originalLang": "en",
+        "title": {
+          "zh": "英媒：赫格塞思压着60枚“爱国者”拦截弹未批，泽连斯基警告俄将发动新空袭",
+          "en": "FT: Hegseth holds up 60 Patriot interceptors as Zelenskyy warns of new Russian strikes"
+        },
+        "summary": {
+          "zh": "《金融时报》称，美国防长赫格塞思尚未批准向乌克兰交付约60枚盟友已付款的“爱国者”拦截弹（约40枚PAC-3、20枚PAC-2）。泽连斯基称情报显示俄罗斯正准备对城市和能源设施发动新一轮袭击。",
+          "en": "The Financial Times reported that Defense Secretary Pete Hegseth has not approved delivery of about 60 ally-funded Patriot interceptors for Ukraine (roughly 40 PAC-3, 20 PAC-2). Zelenskyy said intelligence shows Russia is preparing new strikes on cities and energy sites."
+        },
+        "sources": [
+          {
+            "name": "Interfax-Ukraine",
+            "url": "https://en.interfax.com.ua/news/general/1241316.html",
+            "lang": "en"
+          },
+          {
+            "name": "Kyiv Post",
+            "url": "https://www.kyivpost.com/post/90982",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "asia-markets-huang-rally",
+        "originalLang": "en",
+        "title": {
+          "zh": "黄仁勋回归带动日股大涨近4%，港股与A股表现落后",
+          "en": "Nikkei jumps nearly 4% on Huang's return as Hong Kong and mainland lag"
+        },
+        "summary": {
+          "zh": "英伟达恢复黄仁勋CEO职务后，周二日经225指数收涨3.91%至58644.63点；恒生指数则跌0.7%至22219点，恒生科技指数跌1.2%；上证综指微涨0.27%至3548点。",
+          "en": "After Nvidia reinstated Jensen Huang, Japan's Nikkei 225 closed up 3.91% at 58,644.63 on Tuesday, while the Hang Seng fell 0.7% to 22,219 and its tech index lost 1.2%. The Shanghai Composite rose 0.27% to 3,548."
+        },
+        "body": {
+          "en": "[RTHK](https://news.rthk.hk/rthk/en/component/k2/1879086-20261124.htm) reported that mainland and Hong Kong gains were far more muted than in South Korea, Japan and the US, with investors betting that Huang's role as a bridge between China and the US had diminished. The Shanghai index had fallen to its lowest since July 2025 on Monday; traders said state investors were buying key index ETFs.\n\nNvidia optical-transceiver supplier Zhongji Innolight rose as much as 12% before giving up all its gains, and the 5G Communication Index trimmed a 7% early jump to 1.2%. Mainland stocks are down more than 10% this year. Nikkei closing data are from [Nikkei Indexes](https://indexes.nikkei.co.jp/en/nkave/archives/data?list=daily&month=11&year=2026).",
+          "zh": "据[香港电台](https://news.rthk.hk/rthk/en/component/k2/1879086-20261124.htm)报道，A股和港股涨势远不及韩国、日本和美国，投资者认为黄仁勋在中美之间的桥梁作用已经减弱。上证指数周一曾跌至2025年7月以来低位，交易员称国家队在买入主要指数ETF。\n\n英伟达光模块供应商中际旭创盘中一度大涨12%，随后涨幅全部回吐；5G通信指数早盘一度涨7%，收盘仅涨1.2%。A股今年以来已累计下跌逾10%。日经指数收盘数据来自[日经指数官网](https://indexes.nikkei.co.jp/en/nkave/archives/data?list=daily&month=11&year=2026)。"
+        },
+        "sources": [
+          {
+            "name": "RTHK",
+            "url": "https://news.rthk.hk/rthk/en/component/k2/1879086-20261124.htm",
+            "lang": "en"
+          },
+          {
+            "name": "Nikkei Indexes",
+            "url": "https://indexes.nikkei.co.jp/en/nkave/archives/data?list=daily&month=11&year=2026",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "china-extends-minerals-pause",
+        "originalLang": "en",
+        "title": {
+          "zh": "中国将对美镓锗锑等两用物项出口管制暂停期延长至明年1月27日",
+          "en": "China extends pause on US-bound gallium, germanium and antimony curbs to Jan. 27"
+        },
+        "summary": {
+          "zh": "商务部宣布，对美两用物项出口管制公告第二款的暂停执行再延长两个月至2027年1月27日，涉及镓、锗、锑和超硬材料，石墨更严格最终用户审查的暂停也延续；对美军事用户的禁令仍有效。",
+          "en": "China's commerce ministry extended by two months, to Jan. 27, 2027, its suspension of a ban on US-bound dual-use exports tied to gallium, germanium, antimony and superhard materials, plus tighter graphite reviews. A ban on US military users stays."
+        },
+        "sources": [
+          {
+            "name": "South China Morning Post",
+            "url": "https://www.scmp.com/economy/global-economy/article/3375609/china-approves-2-month-extension-select-us-export-restrictions",
+            "lang": "en"
+          },
+          {
+            "name": "MLex",
+            "url": "https://www.mlex.com/mlex/articles/2559003/china-extends-suspension-of-tighter-us-bound-dual-use-export-controls-until-jan-2027",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "shenzhou-24-launch-time",
+        "originalLang": "zh",
+        "title": {
+          "zh": "神舟二十四号定于11月25日8时18分发射，汤洪波将成首位三访“天宫”的航天员",
+          "en": "Shenzhou-24 set to launch at 8:18 a.m. Nov. 25; Tang Hongbo to make record third Tiangong visit"
+        },
+        "summary": {
+          "zh": "中国载人航天工程办公室11月24日宣布，神舟二十四号瞄准北京时间11月25日8时18分发射，乘组为汤洪波（指令长）、武毅和巴基斯坦航天员穆罕默德·齐尚·阿里，后者将成为首位到访“天宫”的外籍航天员。",
+          "en": "China's manned space agency said on Nov. 24 that Shenzhou-24 will launch at 8:18 a.m. Beijing time on Nov. 25 with commander Tang Hongbo, Wu Yi and Pakistan's Muhammad Zeeshan Ali, the first foreign astronaut to visit Tiangong."
+        },
+        "body": {
+          "zh": "据[中国载人航天工程网](https://www.cmse.gov.cn/xwzx/202611/t20261124_57876.html)，新闻发言人张静波11月24日上午在酒泉卫星发射中心介绍，汤洪波曾执行神舟十二号、神舟十七号任务，即将成为首位三次到访“天宫”的航天员；武毅来自第三批航天员，首次飞天；阿里担任载荷专家。长征二号F遥二十四运载火箭即将加注推进剂。\n\n这是空间站应用与发展阶段第8次载人飞行，也是载人航天工程第41次飞行任务。飞船入轨后优先采用约3.5小时自主快速交会对接，对接天和核心舱前向端口，形成三船三舱组合体。巴基斯坦航天员完成短期飞行后随神舟二十三号返回，神舟二十三号乘组中将有一人继续在轨驻留，完成一年期驻留试验。",
+          "en": "According to the [China Manned Space Agency](https://www.cmse.gov.cn/xwzx/202611/t20261124_57876.html), spokesperson Zhang Jingbo said at Jiuquan on Nov. 24 that Tang, who flew on Shenzhou-12 and Shenzhou-17, will become the first astronaut to visit Tiangong three times. Wu Yi, from China's third astronaut group, is on his first flight; Ali is the payload specialist. The Long March 2F Y24 rocket was about to be fueled.\n\nIt is the eighth crewed flight of the station's application and development phase and the program's 41st mission. The ship will try a fast autonomous rendezvous of about 3.5 hours and dock at the Tianhe core module's forward port. Ali will return on Shenzhou-23 after a short stay, while one Shenzhou-23 crew member will remain aboard for a one-year mission."
+        },
+        "sources": [
+          {
+            "name": "中国载人航天工程网",
+            "url": "https://www.cmse.gov.cn/xwzx/202611/t20261124_57876.html",
+            "lang": "zh"
+          },
+          {
+            "name": "中国新闻网",
+            "url": "https://wap.chinanews.com/wap/detail/chs/zw/10736922.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "ministry-official-ma-death-sentence",
+        "originalLang": "en",
+        "title": {
+          "zh": "中央机关工作人员马某因间谍罪被判死刑",
+          "en": "Chinese central-government official surnamed Ma sentenced to death for espionage"
+        },
+        "summary": {
+          "zh": "国家保密局主管的“保密观”账号11月23日披露，一名马姓行政工作人员在境外工作期间被外国间谍机关策反，回国后按指示提供100余份情报，其中35项被鉴定为国家秘密，获利逾100万元，被判处死刑并没收全部个人财产。",
+          "en": "A state-secrets regulator account said on Nov. 23 that an official surnamed Ma, recruited by a foreign spy agency while posted abroad, sent over 100 intelligence reports, 35 later deemed state secrets, for more than 1 million yuan. He was sentenced to death."
+        },
+        "sources": [
+          {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/east-asia/china-official-death-sentence-leaking-secrets-6574956",
+            "lang": "en"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/china-spy-death-sentence-87eefe3413e721d7873483e47ee09613",
+            "lang": "en"
+          }
+        ]
+      }
+    ]
   }
 }

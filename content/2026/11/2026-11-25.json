@@ -1,0 +1,309 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-25",
+  "am": {
+    "tech": [
+      {
+        "id": "openai-gpt6-protein-design",
+        "originalLang": "en",
+        "title": {
+          "en": "OpenAI says GPT-6 models can design new proteins using only reasoning and code",
+          "zh": "OpenAI称GPT-6模型仅凭推理和代码即可设计新蛋白质"
+        },
+        "summary": {
+          "en": "OpenAI said on Nov. 24 that its GPT-6 family can design protein structures and sequences without specialized biology models. In lab tests with Onava, proteins based on GPT-6.2 designs showed binding across five targets.",
+          "zh": "OpenAI于11月24日表示，GPT-6系列模型无需调用专门的生物模型，就能设计蛋白质结构和序列。与Onava合作的实验中，基于GPT-6.2设计的蛋白质在五个靶点上都显示出结合迹象。"
+        },
+        "body": {
+          "en": "In a [Nov. 24 post](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/) and an accompanying preprint, OpenAI said an internal research model matched or beat specialized models on many protein-design tasks, and that researchers could steer designs by prompting for where a protein should attach and what shape it should take.\n\n- Lab tests with Onava found evidence of binding across five targets; redesigned antibodies kept their binding.\n- OpenAI noted that specialized models still helped supply sequences and pick candidates for testing.\n- The models' written reasoning suggests they draw on math, physics, chemistry and biology to reason about protein shapes.",
+          "zh": "OpenAI在11月24日的[博文](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/)及预印本中称，一个内部研究模型在许多蛋白质设计任务上达到或超过专门模型；研究人员还可通过提示词指定蛋白质的结合位置和形状来引导设计。\n\n- 与Onava的实验显示，设计蛋白在五个靶点上出现结合迹象；重新设计的抗体仍保持结合能力。\n- OpenAI也说明，专门模型仍参与提供序列和筛选候选。\n- 模型写出的推理过程显示，它综合运用了数学、物理、化学和生物知识。"
+        },
+        "sources": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "ant-ling-3-2-air-open-source",
+        "originalLang": "zh",
+        "title": {
+          "zh": "蚂蚁发布并开源Ling-3.2-air：原生多模态，1240亿总参数",
+          "en": "Ant Group releases open-source Ling-3.2-air, a 124B-parameter native multimodal model"
+        },
+        "summary": {
+          "zh": "蚂蚁集团11月24日开源Ling-3.2-air，支持文本、图像和视频输入，总参数1240亿、每个Token激活55亿。SWE-bench Pro得分从26.40升至58.28，智能体与多模态评测也大幅提升。",
+          "en": "Ant Group open-sourced Ling-3.2-air on Nov. 24. It takes text, image and video input, with 124B total and 5.5B active parameters. Its SWE-bench Pro score rose from 26.40 to 58.28, with big gains on agent and multimodal tests."
+        },
+        "sources": [
+          {
+            "name": "新浪科技（转IT之家）",
+            "url": "https://finance.sina.com.cn/tech/roll/2026-11-24/doc-inizvqta7685526.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "Hugging Face",
+            "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nvidia-huang-return-scrutiny",
+        "originalLang": "en",
+        "title": {
+          "en": "Huang's return to Nvidia draws Democratic scrutiny of Trump's role",
+          "zh": "黄仁勋重返英伟达，民主党人追问特朗普在其中的角色"
+        },
+        "summary": {
+          "en": "After Nvidia's board reinstated Jensen Huang on Nov. 23, Rep. Jamie Raskin and Sen. Elizabeth Warren called for investigations, citing Trump's stated role and China chip concerns. Nvidia shares fell 5.9% on Nov. 24.",
+          "zh": "英伟达董事会11月23日恢复黄仁勋CEO职务后，众议员拉斯金和参议员沃伦要求展开调查，理由是特朗普自称参与促成此事以及对华芯片外流的担忧。英伟达股价11月24日下跌5.9%。"
+        },
+        "sources": [
+          {
+            "name": "The Washington Post",
+            "url": "https://www.washingtonpost.com/technology/2026/11/24/jensen-huangs-return-nvidia-puts-trump-under-new-congressional-scrutiny/",
+            "lang": "en"
+          },
+          {
+            "name": "House Judiciary Democrats",
+            "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-s-statement-on-jensen-huang-s-reinstatement-as-nvidia-ceo",
+            "lang": "en"
+          },
+          {
+            "name": "The Boston Globe",
+            "url": "https://www.bostonglobe.com/2026/11/23/nation/nvidia-elizabeth-warren-senate-jensen-huang/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "israel-kills-hamas-security-chief",
+        "originalLang": "en",
+        "title": {
+          "en": "Israeli strike kills Hamas internal security chief in Gaza City",
+          "zh": "以色列空袭在加沙城打死哈马斯内部安全负责人"
+        },
+        "summary": {
+          "en": "An Israeli strike in western Gaza City on Nov. 24 killed Naim Abu Nahal, head of Hamas's Internal Security Service, who took the post in September after his predecessor was captured. Hamas condemned it as a ceasefire breach.",
+          "zh": "以色列11月24日空袭加沙城西部，打死哈马斯内部安全机构负责人纳伊姆·阿布·纳哈勒。他在前任被以军抓获后于9月上任。哈马斯谴责此举违反停火。"
+        },
+        "body": {
+          "en": "Hamas confirmed the death of Brig. Gen. Naim Abu Nahal, 50, and condemned the strike, [the BBC reported](https://www.bbc.com/news/articles/c6rrg7ggq190o). Prime Minister Benjamin Netanyahu and Defense Minister Israel Katz said he had advanced attacks on Israelis in violation of the ceasefire.\n\nPalestinian reports said separate Israeli fire the same day killed civilians, including children, near the Netzarim corridor; Israel said it targeted militants. Both sides accuse each other of violating a truce that halted large-scale fighting more than a year ago.",
+          "zh": "据[BBC报道](https://www.bbc.com/news/articles/c6rrg7ggq190o)，哈马斯确认50岁的准将纳伊姆·阿布·纳哈勒身亡并谴责空袭。以色列总理内塔尼亚胡和国防部长卡茨称，他违反停火推动对以色列人的袭击。\n\n巴勒斯坦方面称，当天以军在内察里姆走廊附近的另一些行动造成包括儿童在内的平民死亡；以方称打击对象是武装分子。停火已让大规模战斗停止一年多，但双方仍互指对方违约。"
+        },
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/articles/c6rrg7ggq190o",
+            "lang": "en"
+          },
+          {
+            "name": "The Times of Israel",
+            "url": "https://www.timesofisrael.com/israel-kills-hamas-security-chief-in-gaza-city-weeks-after-capturing-predecessor/",
+            "lang": "en"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "zelensky-115bn-2027",
+        "originalLang": "en",
+        "title": {
+          "en": "Zelensky says Ukraine needs at least €115 billion in outside support for 2027",
+          "zh": "泽连斯基：乌克兰2027年至少需要1150亿欧元外部资金"
+        },
+        "summary": {
+          "en": "Zelensky said on Nov. 24 that Ukraine needs at least €115 billion in external funding next year. About €90 billion is expected from the EU, including a newly proposed €45 billion loan, leaving a €25 billion gap.",
+          "zh": "泽连斯基11月24日表示，乌克兰明年至少需要1150亿欧元外部资金。其中约900亿欧元预计来自欧盟（含新提议的450亿欧元贷款），仍有250亿欧元缺口。"
+        },
+        "sources": [
+          {
+            "name": "Kyiv Post",
+            "url": "https://www.kyivpost.com/post/91074",
+            "lang": "en"
+          },
+          {
+            "name": "Ukrainska Pravda",
+            "url": "https://www.pravda.com.ua/eng/news/2026/11/24/8064459/",
+            "lang": "en"
+          },
+          {
+            "name": "The Kyiv Independent",
+            "url": "https://kyivindependent.com/exclusive-eu-proposes-additional-45-billion-euros-for-ukraine-seeks-to-incentivize-allies-to-step-up/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "iran-truckers-strike-spreads",
+        "originalLang": "en",
+        "title": {
+          "en": "Iran truckers' strike spreads to 15 cities on its third day",
+          "zh": "伊朗卡车司机罢工进入第三天，扩大到15座城市"
+        },
+        "summary": {
+          "en": "A nationwide truckers' strike over freight rates and soaring fuel, tire and parts costs entered its third day on Nov. 24, reaching about 15 cities including Tehran, Shiraz and Isfahan. An official denied a walkout was under way.",
+          "zh": "伊朗卡车司机因运价过低及燃料、轮胎、配件成本飙升发起的全国罢工，11月24日进入第三天，波及德黑兰、设拉子、伊斯法罕等约15座城市。有官员否认存在罢工。"
+        },
+        "sources": [
+          {
+            "name": "IranWire",
+            "url": "https://iranwire.com/en/news/160694-truckers-strike-spreads-to-15-iranian-cities-as-official-denies-walkout/",
+            "lang": "en"
+          },
+          {
+            "name": "Iran Focus",
+            "url": "https://iranfocus.com/protests/59351-truck-drivers-strike-in-iran-spreads-to-15-cities-on-third-day/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "wall-street-ai-rally-fades",
+        "originalLang": "en",
+        "title": {
+          "en": "AI stocks drag Nasdaq down 1.5% as the Huang relief rally fades",
+          "zh": "黄仁勋回归行情退潮，AI股拖累纳指下跌1.5%"
+        },
+        "summary": {
+          "en": "On Nov. 24 the S&P 500 fell 0.5% to 7,201.09 and the Nasdaq 1.48% to 23,733.54, while the Dow rose 0.85% to 50,018.70. Chip stocks fell 7.9%. Investors now await PCE inflation and GDP data on Nov. 25.",
+          "zh": "11月24日标普500指数跌0.5%至7201.09点，纳指跌1.48%至23733.54点，道指涨0.85%至50018.70点。半导体指数下跌7.9%。市场关注11月25日公布的PCE通胀和GDP数据。"
+        },
+        "body": {
+          "en": "Nvidia slipped 5.9% as investors weighed governance and political risks around Jensen Huang's reinstatement, [Reuters reported via NBC News](https://www.nbcnews.com/business/markets/stocks-lower-after-nvidia-fueled-gains-rcna611211). Technology was the weakest S&P 500 sector, down 2.8%, giving back part of Monday's rally — the biggest daily gain for the S&P 500 and Nasdaq since April 2025. Reuters also said investors were bracing for possible new tariffs.\n\nPCE price data and the second estimate of third-quarter GDP are due at 8:30 a.m. ET on Nov. 25, ahead of the Fed's Dec. 9 decision.",
+          "zh": "据[路透社（经NBC新闻）](https://www.nbcnews.com/business/markets/stocks-lower-after-nvidia-fueled-gains-rcna611211)报道，投资者权衡黄仁勋复职带来的治理和政治风险，英伟达下跌5.9%。科技板块跌2.8%，领跌标普500，回吐了周一的部分涨幅——那是标普和纳指自2025年4月以来最大单日涨幅。路透社还称，市场在为可能出台的新关税做准备。\n\n美国PCE物价数据和三季度GDP修正值将于美东时间11月25日8:30公布，美联储将于12月9日作出利率决定。"
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-6cc4e580290aadf304ee316d6d46dd81",
+            "lang": "en"
+          },
+          {
+            "name": "NBC News / Reuters",
+            "url": "https://www.nbcnews.com/business/markets/stocks-lower-after-nvidia-fueled-gains-rcna611211",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-below-ipo-price",
+        "originalLang": "en",
+        "title": {
+          "en": "Anthropic closes below its $83 IPO price for the first time",
+          "zh": "Anthropic股价首次收于83美元发行价下方"
+        },
+        "summary": {
+          "en": "Anthropic fell 6.5% to $81.91 on Nov. 24, its fourth trading day, after opening its debut at $111.50. Bloomberg put its market value at about $1.5 trillion; the slide has fed worries about stretched AI valuations.",
+          "zh": "Anthropic股价11月24日下跌6.5%，收于81.91美元，这是其上市第四个交易日；首日开盘价为111.50美元。彭博称其市值约1.5万亿美元。股价回落加剧了市场对AI估值过高的担忧。"
+        },
+        "sources": [
+          {
+            "name": "Bloomberg Law",
+            "url": "https://news.bloomberglaw.com/capital-markets/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/economy-news/anthropic-breaks-below-83-ipo-price-as-debut-rally-unravels-5047654",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "tsmc-texas-22-6b-fab",
+        "originalLang": "en",
+        "title": {
+          "en": "TSMC eyes a $22.6 billion 2nm chip plant in Texas and seeks a tax break",
+          "zh": "台积电拟在得州建226亿美元2纳米芯片厂并申请税收减免"
+        },
+        "summary": {
+          "en": "A TSMC unit filed for a property-tax limit on a proposed $22.6 billion fab on over 3,000 acres in Brazos County, Texas, to make 2nm-class chips for AI and mobile. It would create at least 2,099 direct jobs.",
+          "zh": "台积电旗下公司为拟在得州布拉索斯县逾3000英亩土地上建设的226亿美元晶圆厂申请房产税上限，计划生产面向AI和移动设备的2纳米级芯片，将创造至少2099个直接就业岗位。"
+        },
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/tsmc-unit-seeks-texas-property-tax-limit-for-proposed-226-billion-chip-making-facility-5047345",
+            "lang": "en"
+          },
+          {
+            "name": "KBTX",
+            "url": "https://www.kbtx.com/2026/11/23/worlds-leading-semiconductor-manufacturer-eyes-brazos-county-3200-acre-facility/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "chen-jining-under-investigation",
+        "originalLang": "zh",
+        "title": {
+          "zh": "中央政治局委员、上海市委书记陈吉宁接受中央纪委国家监委审查调查",
+          "en": "Shanghai party chief and Politburo member Chen Jining placed under investigation"
+        },
+        "summary": {
+          "zh": "新华社11月24日电，中央政治局委员、上海市委书记陈吉宁涉嫌严重违纪违法，正接受中央纪委国家监委审查调查。上海市委常委会当天召开扩大会议，表示坚决拥护这一决定。",
+          "en": "Xinhua said on Nov. 24 that Chen Jining, a Politburo member and Shanghai's Communist Party secretary, is under investigation for suspected serious violations of discipline and law. Shanghai's party standing committee said it firmly supports the decision."
+        },
+        "body": {
+          "zh": "[新华社](https://www.news.cn/20261124/c9efb02bd8be4a4cbbbee2102cfbc657/c.html)的通报只有一句话，未说明具体原因。62岁的陈吉宁历任清华大学校长、环境保护部部长、北京市市长，2022年起任上海市委书记。\n\n据[纽约时报中文网](https://cn.nytimes.com/china/20261125/shanghai-party-leader-investigation-china-xi/)报道，许多分析人士曾认为他有望在下一届领导班子中出任总理或副总理；他落马后，2022年选出的24名政治局委员中已有四人被免职或接受调查。[上海市委常委会](https://cdn.shanghai.gov.cn/nw4411/20261124/6cfdc616e03346b58169acd131048c96.html)当天举行扩大会议，表示坚决拥护党中央的决定。",
+          "en": "The [Xinhua notice](https://www.news.cn/20261124/c9efb02bd8be4a4cbbbee2102cfbc657/c.html) was a single sentence and gave no reason. Chen, 62, was president of Tsinghua University, environment minister and mayor of Beijing before becoming Shanghai party secretary in 2022.\n\n[The New York Times](https://cn.nytimes.com/china/20261125/shanghai-party-leader-investigation-china-xi/) reported that many analysts had seen him as a candidate for premier or vice premier; with his fall, four of the 24 Politburo members chosen in 2022 have been removed or put under investigation. Shanghai's party standing committee held an enlarged meeting the same day and said it firmly supports the central leadership's decision."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261124/c9efb02bd8be4a4cbbbee2102cfbc657/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "上海市人民政府",
+            "url": "https://cdn.shanghai.gov.cn/nw4411/20261124/6cfdc616e03346b58169acd131048c96.html",
+            "lang": "zh"
+          },
+          {
+            "name": "纽约时报中文网",
+            "url": "https://cn.nytimes.com/china/20261125/shanghai-party-leader-investigation-china-xi/",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "wang-yi-miliband-call",
+        "originalLang": "zh",
+        "title": {
+          "zh": "王毅同英国外交大臣米利班德通电话",
+          "en": "Wang Yi holds phone call with British Foreign Secretary Miliband"
+        },
+        "summary": {
+          "zh": "11月24日，王毅应约同英国外交大臣米利班德通电话，表示明年是中英建立大使级外交关系55周年，希望规划好下阶段高层往来。英方重申在台湾问题上立场不变，双方还就中东、乌克兰问题交换意见。",
+          "en": "Wang Yi spoke by phone with UK Foreign Secretary Miliband on Nov. 24, saying next year marks 55 years of ambassador-level ties and both sides should plan further high-level exchanges. The UK said its Taiwan position is unchanged; they also discussed the Middle East and Ukraine."
+        },
+        "sources": [
+          {
+            "name": "中华人民共和国外交部",
+            "url": "https://www.mfa.gov.cn/web/wjdt%5F674879/gjldrhd%5F674881/202611/t20261124_12066362.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

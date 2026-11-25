@@ -1,0 +1,344 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-26",
+  "am": {
+    "tech": [
+      {
+        "id": "openai-matrix-exponent-nine-fourths",
+        "originalLang": "en",
+        "title": {
+          "en": "OpenAI preprint claims the matrix multiplication exponent is exactly 9/4",
+          "zh": "OpenAI预印本称矩阵乘法指数恰为9/4"
+        },
+        "summary": {
+          "en": "A Nov. 24 OpenAI preprint claims a matching lower bound showing the exponent of square matrix multiplication is 9/4 over every field, with a Lean formalization of part of the proof.",
+          "zh": "OpenAI于11月24日发布预印本，称给出了与已知上界相匹配的下界，证明方阵乘法指数在任意域上都恰为9/4，并附上部分证明的Lean形式化。"
+        },
+        "body": {
+          "en": "According to the [preprint](https://raw.githubusercontent.com/openai/math/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf) posted in OpenAI's [math repository](https://github.com/openai/math/tree/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026), the upper bound of 9/4 was already known; the new work supplies the lower bound for formal arithmetic circuits.\n\n- The argument shows that a circuit with exponent below 9/4 would compress tensor networks enough to break a known lower bound for testing distinctness across independent lists.\n- The repository includes a Lean formalization of the division-free, polynomial-identity version.\n- The question has been open since Strassen's 1969 algorithm beat the textbook n³ method. The result is a preprint and has not yet been peer reviewed.",
+          "zh": "据OpenAI在其[数学仓库](https://github.com/openai/math/tree/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026)发布的预印本，9/4这一上界此前已知，新工作补上了形式算术电路的下界。\n\n- 论证思路是：若存在指数低于9/4的电路，就能把张量网络压缩到违反“独立列表互异性检测”已知下界的程度。\n- 仓库附有无除法、多项式恒等式版本的Lean形式化证明。\n- 这一问题自1969年Strassen算法突破教科书n³方法以来一直悬而未决。目前仍是预印本，尚未经同行评审。"
+        },
+        "sources": [
+          {
+            "name": "OpenAI (preprint PDF)",
+            "url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+            "lang": "en"
+          },
+          {
+            "name": "alphaXiv",
+            "url": "https://www.alphaxiv.org/abs/2611.matrix-multiplication-exponent-lower-bound",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "openai-private-inference-alpha",
+        "originalLang": "en",
+        "title": {
+          "en": "OpenAI starts testing Private Inference to shield business prompts",
+          "zh": "OpenAI开始测试“私密推理”，保护企业提示词"
+        },
+        "summary": {
+          "en": "OpenAI has begun an alpha test of Private Inference, which uses confidential computing to protect business prompts and replies while models process them, with a small group of customers.",
+          "zh": "OpenAI已与一小批企业客户开始alpha测试“私密推理”（Private Inference），借助机密计算在模型处理期间保护企业的提示词和回复。"
+        },
+        "body": {
+          "en": "Sam Altman announced the trial on X on Wednesday, [The Next Web reports](https://thenextweb.com/news/openai-private-inference-testing-customers).\n\n- It joins Private Safety Processing, which began rolling out in September, in OpenAI's [Private Intelligence](https://openai.com/business/private-intelligence/) package.\n- Altman: \"Stronger privacy protections will make frontier AI useful for a lot more work.\"\n- OpenAI says it is lining up more compute for a wider rollout but gave no date. Anthropic opened Enterprise Frontier Safeguards to all business users in beta on Monday.",
+          "zh": "据[The Next Web](https://thenextweb.com/news/openai-private-inference-testing-customers)报道，Sam Altman周三在X上宣布了这项测试。\n\n- 它与9月开始推出的“私密安全处理”同属OpenAI的[Private Intelligence](https://openai.com/business/private-intelligence/)产品组合。\n- Altman称，更强的隐私保护能让前沿AI胜任更多工作。\n- OpenAI表示正在准备更多算力以扩大推出，但未给出时间。Anthropic周一已向所有企业用户开放Enterprise Frontier Safeguards测试版。"
+        },
+        "sources": [
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/openai-private-inference-testing-customers",
+            "lang": "en"
+          },
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/business/private-intelligence/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nvidia-290m-crypto-settlement",
+        "originalLang": "en",
+        "title": {
+          "en": "Nvidia agrees to pay $290 million to settle crypto-mining investor suit",
+          "zh": "英伟达同意支付2.9亿美元和解加密挖矿投资者诉讼"
+        },
+        "summary": {
+          "en": "Nvidia will pay $290 million to settle a class action alleging it understated how much 2017–18 gaming GPU sales came from crypto miners. It denies wrongdoing; the deal needs court approval.",
+          "zh": "英伟达将支付2.9亿美元，和解一起集体诉讼。原告称公司低估了2017至2018年游戏显卡销售中来自加密矿工的比例。英伟达否认不当行为，和解仍需法院批准。"
+        },
+        "sources": [
+          {
+            "name": "Bernstein Litowitz Berger & Grossmann",
+            "url": "https://www.blbglaw.com/news/updates/2026-11-25-blbg-achieves-290-million-settlement-for-nvidia-investors-after-prevailing-at-us-supreme-court",
+            "lang": "en"
+          },
+          {
+            "name": "Law360",
+            "url": "https://www.law360.com/corporate/articles/2559852/nvidia-to-exit-investors-crypto-chips-case-for-290m",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "ukraine-hits-refineries-savasleyka",
+        "originalLang": "en",
+        "title": {
+          "en": "Ukraine hits two Rosneft refineries and five jets; Russian drones kill seven",
+          "zh": "乌克兰袭击两座俄石油炼厂和五架战机，俄无人机袭击致7死"
+        },
+        "summary": {
+          "en": "Ukraine says it struck Rosneft's Syzran and Kuibyshev refineries and hit three MiG-31s and two Su-34s at Savasleyka airfield. Overnight Russian drone strikes killed at least seven people in six regions.",
+          "zh": "乌方称袭击了俄罗斯石油公司旗下的瑟兹兰和古比雪夫炼油厂，并击中萨瓦斯列伊卡机场的3架米格-31和2架苏-34。俄方夜间无人机袭击在乌克兰六个州造成至少7人死亡。"
+        },
+        "body": {
+          "en": "Ukraine's General Staff said the strikes damaged processing units and storage tanks at both Samara-region refineries, [Kyiv Post reports](https://www.kyivpost.com/post/91162).\n\n- Russia launched 112 drones overnight, 88 of which were downed, [Euronews reports](https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries). Deaths were reported in the Kyiv, Kharkiv, Sumy, Odesa and Zhytomyr regions.\n- A Naftogaz gas production site in Poltava region was hit and suspended operations.\n- Putin has vowed retaliation for the refinery strikes; Kyiv mayor Vitali Klitschko reported three people injured in a later missile attack on the capital.",
+          "zh": "据[Kyiv Post](https://www.kyivpost.com/post/91162)，乌军总参谋部称两座位于萨马拉州的炼油厂的加工装置和储罐受损。\n\n- 据[欧洲新闻台](https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries)，俄军夜间发射112架无人机，其中88架被击落或压制；基辅州、哈尔科夫州、苏梅州、敖德萨州和日托米尔州均有人员死亡。\n- 波尔塔瓦州一处乌克兰石油天然气公司（Naftogaz）采气设施被击中后停产。\n- 普京已誓言报复炼油厂遇袭；基辅市长克利钦科称，随后对首都的导弹袭击造成3人受伤。"
+        },
+        "sources": [
+          {
+            "name": "Kyiv Post",
+            "url": "https://www.kyivpost.com/post/91162",
+            "lang": "en"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
+            "lang": "en"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/articles/ck9q8xp5r5pgo",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "lavrov-europe-role-in-talks",
+        "originalLang": "en",
+        "title": {
+          "en": "Lavrov says Europe must explain its role before joining Ukraine talks",
+          "zh": "拉夫罗夫：欧洲须先说明立场才能加入乌克兰谈判"
+        },
+        "summary": {
+          "en": "Lavrov said Moscow will not accept a proposed European team joining the Abu Dhabi Russia-U.S.-Ukraine talks until Europe explains what role it wants. The team includes France, Germany, the UK, Italy and Poland.",
+          "zh": "拉夫罗夫表示，在欧洲说明其想扮演何种角色之前，莫斯科不会接受欧洲团队加入阿布扎比的俄美乌谈判。该团队包括法、德、英、意、波五国以及欧盟和北约代表。"
+        },
+        "sources": [
+          {
+            "name": "TASS",
+            "url": "https://tass.com/politics/2224711",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://haberintelifi.aa.com.tr/en/eurasia/lavrov-questions-europes-seriousness-in-pursuing-settlement-in-ukraine/4137390",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "japan-type25-hypersonic-hokkaido",
+        "originalLang": "en",
+        "title": {
+          "en": "Japan to deploy Type 25 hypersonic glide missiles to Hokkaido in December",
+          "zh": "日本12月将在北海道部署25式高超音速滑翔导弹"
+        },
+        "summary": {
+          "en": "Japan's Ground Self-Defense Force will move Type 25 hypersonic glide missile launchers to Camp Kamifurano in Hokkaido in early December, its second site after Camp Fuji, for remote-island defense.",
+          "zh": "日本陆上自卫队将于12月初把25式高超音速滑翔导弹发射装置运抵北海道上富良野驻地。这是继富士驻地之后第二处部署点，用于离岛防卫。"
+        },
+        "sources": [
+          {
+            "name": "Nikkei",
+            "url": "https://www.nikkei.com/article/DGXZQOUA25AGZ0V21C26A1000000/"
+          },
+          {
+            "name": "Yonhap",
+            "url": "https://www.yna.co.kr/view/AKR20261125181400073"
+          },
+          {
+            "name": "Taiwan Defence",
+            "url": "https://taiwandefence.com/article/japan-will-station-its-type-25-hypersonic-glide-missiles-in-hokkaido-for-the-first-time-in-december",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "us-new-tariffs-14-economies",
+        "originalLang": "en",
+        "title": {
+          "en": "US proposes new tariffs on 14 economies, up to 40% on China",
+          "zh": "美国拟对14个经济体加征新关税，对华最高40%"
+        },
+        "summary": {
+          "en": "The US proposed new tariffs over \"excess capacity\" on China, the EU and 12 other economies: up to 40% for China, 35% for Vietnam and 20–25% for others. They are not expected to take effect until next year.",
+          "zh": "美国以“产能过剩”为由，拟对中国、欧盟等14个经济体加征新关税：中国最高40%，越南35%，其余20%至25%。新关税预计明年才生效。"
+        },
+        "body": {
+          "en": "The move follows a White House investigation launched in March after the Supreme Court ruled the earlier \"Liberation Day\" tariffs illegal, [BBC reports](https://www.bbc.com/news/articles/c893r9ke5p97o).\n\n- Affected: China, the EU, Singapore, Switzerland, Indonesia, Malaysia, Cambodia, Thailand, Korea, Vietnam, Taiwan, Bangladesh, Japan and India.\n- Caps agreed in earlier trade deals will lower some effective rates; the proposals face a hearing before taking effect.\n- USTR Jamieson Greer said the duties would \"level the playing field for American workers.\" Economists warn they could feed inflation.\n- China's foreign ministry called \"overcapacity\" a false premise (see the China section).",
+          "zh": "据[BBC](https://www.bbc.com/news/articles/c893r9ke5p97o)，此前最高法院裁定“解放日”关税违法，白宫随后于3月启动调查，此次措施即是调查结果。\n\n- 涉及：中国、欧盟、新加坡、瑞士、印尼、马来西亚、柬埔寨、泰国、韩国、越南、台湾、孟加拉国、日本和印度。\n- 此前贸易协议中商定的税率上限会让部分实际税率降低；提案生效前还要经过听证。\n- 美国贸易代表格里尔称新关税将“为美国工人创造公平竞争环境”，经济学家则警告可能推高通胀。\n- 中国外交部称“产能过剩”是伪命题（见“中国”栏目）。"
+        },
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.com/news/articles/c893r9ke5p97o",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/3fec1b0a85a0/world/china/us-proposes-new-tariffs-14-trading-partners-fight-excess-factory-capacity-2026-11-25/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "dow-erases-1100-point-drop",
+        "originalLang": "en",
+        "title": {
+          "en": "Dow erases 1,100-point drop as Q3 GDP is revised up to 4.3%",
+          "zh": "道指收复1100点跌幅，三季度GDP上修至4.3%"
+        },
+        "summary": {
+          "en": "The Dow rose 0.33% to 50,182.95 after falling more than 1,100 points; the S&P 500 slipped 0.25% to 7,182.78 and the Nasdaq 0.62% to 23,585.80. Q3 GDP was revised up to 4.3%, while PCE inflation hit 3.8%.",
+          "zh": "道指盘中一度跌超1100点，收盘涨0.33%，报50182.95点；标普500跌0.25%，报7182.78点；纳指跌0.62%，报23585.80点。三季度GDP年化增速上修至4.3%，PCE通胀为3.8%。"
+        },
+        "sources": [
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-10044b4fb55d3ff20fde9ba9e9acaab1",
+            "lang": "en"
+          },
+          {
+            "name": "Interactive Brokers",
+            "url": "https://www.interactivebrokers.com/campus/traders-insight/feds-preferred-inflation-gauge-hits-3-8-as-expected-q3-gdp-growth-revised-up-to-4-3-updated/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "pboc-mlf-net-drain",
+        "originalLang": "zh",
+        "title": {
+          "zh": "央行8000亿MLF加5000亿逆回购，中期流动性连续两月净回笼",
+          "en": "PBOC pairs 800bn yuan MLF with 500bn reverse repo, net-draining for a second month"
+        },
+        "summary": {
+          "zh": "11月25日，央行开展8000亿元1年期MLF和5000亿元7天期逆回购。因当月MLF到期1万亿元，MLF净回笼2000亿元，为连续第二个月净回笼。",
+          "en": "On Nov. 25 the PBOC ran 800 billion yuan of one-year MLF and 500 billion yuan of 7-day reverse repos. With 1 trillion yuan of MLF maturing, it net-drained 200 billion yuan, the second straight month."
+        },
+        "sources": [
+          {
+            "name": "人民网",
+            "url": "https://finance.people.com.cn/n1/2026/1125/c1004-40840463.html",
+            "lang": "zh"
+          },
+          {
+            "name": "中国金融信息网",
+            "url": "https://www.cnfin.com/yw-lb/detail/20261125/4500293_1.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "shenzhou-24-crew-enters-tiangong",
+        "originalLang": "zh",
+        "title": {
+          "zh": "神舟二十四号乘组进驻“天宫”，中外航天员首次“太空握手”",
+          "en": "Shenzhou-24 crew enters Tiangong in first space handshake with a foreign astronaut"
+        },
+        "summary": {
+          "zh": "更新：神舟二十四号于11月25日11时56分完成自主快速交会对接，约3.5小时。14时35分，乘组进驻空间站，巴基斯坦航天员阿里成为首位进入“天宫”的外籍航天员。",
+          "en": "Update: Shenzhou-24 docked at 11:56 a.m. Beijing time on Nov. 25 after about 3.5 hours. At 2:35 p.m. the crew entered the station, making Pakistan's Muhammad Zeeshan Ali the first foreign astronaut aboard Tiangong."
+        },
+        "body": {
+          "zh": "据[新华网](https://www.news.cn/20261125/2e93763e2a264c24bbc49b313df5dbe1/c.html)，对接后神舟二十四号乘组从返回舱进入轨道舱，神舟二十三号乘组打开舱门迎接。\n\n- 这是中国航天史上第9次“太空会师”，也是“天宫”首次迎来外籍航天员。\n- 6名航天员合影留念，之后将进行在轨轮换。\n- 外交部发言人郭嘉昆称，这是中国载人航天工程国际合作新的里程碑。",
+          "en": "According to [Xinhua](https://www.news.cn/20261125/2e93763e2a264c24bbc49b313df5dbe1/c.html), the Shenzhou-24 crew moved from the return capsule into the orbital module after docking, and the Shenzhou-23 crew opened the hatch to welcome them.\n\n- It is China's ninth in-orbit crew meeting and Tiangong's first foreign visitor.\n- The six astronauts posed for a group photo and will carry out an in-orbit crew rotation.\n- Foreign ministry spokesperson Guo Jiakun called it a new milestone for international cooperation in China's crewed space program."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261125/2e93763e2a264c24bbc49b313df5dbe1/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261125/ec4374c29e704b698f211c48bd23bc04/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "中新网",
+            "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737539.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "mfa-overcapacity-false-premise",
+        "originalLang": "zh",
+        "title": {
+          "zh": "外交部回应美国新关税：“产能过剩”是伪命题",
+          "en": "China's foreign ministry: \"overcapacity\" is a false premise for new US tariffs"
+        },
+        "summary": {
+          "zh": "外交部发言人郭嘉昆11月25日表示，关税战、贸易战不符合任何一方利益，所谓“产能过剩”是伪命题，中方反对以此为借口进行政治操弄，中美应落实两国元首共识。",
+          "en": "Spokesperson Guo Jiakun said on Nov. 25 that tariff and trade wars serve no one, that \"overcapacity\" is a false premise China opposes as a pretext for political manipulation, and that both sides should implement their leaders' consensus."
+        },
+        "sources": [
+          {
+            "name": "外交部",
+            "url": "https://www.fmprc.gov.cn/web/wjdt_674879/fyrbt_674889/202611/t20261125_12066982.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "Ministry of Foreign Affairs",
+            "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261125_12067121.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "banned-nvidia-chips-shenzhen",
+        "originalLang": "en",
+        "title": {
+          "en": "Banned Nvidia servers still quoted in Shenzhen, Washington Post finds",
+          "zh": "《华盛顿邮报》：深圳华强北仍有禁售英伟达服务器报价"
+        },
+        "summary": {
+          "en": "Vendors at Shenzhen's Huaqiangbei market quoted $3 million to $3.4 million for an eight-GPU Nvidia B300 server despite U.S. export bans, saying hardware sits in Hong Kong or overseas warehouses.",
+          "zh": "《华盛顿邮报》报道，尽管美国实施出口禁令，深圳华强北商家仍对8卡英伟达B300服务器报价300万至340万美元，称货物存放在香港或海外仓库。"
+        },
+        "body": {
+          "en": "Black-market prices have surged amid the turmoil around Nvidia CEO Jensen Huang, [The Washington Post reports](https://www.washingtonpost.com/world/2026/11/25/top-nvidia-chips-are-still-offer-china-despite-us-ban/).\n\n- Separately, a Commerce Department [rule effective Nov. 19](https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors) requires overseas data centers giving China-headquartered firms significant remote compute to obtain a U.S. license within 90 days.\n- The threshold is about 12 million aggregate TPP, roughly 750 H100/H200-class GPUs, according to TechCrunch.",
+          "zh": "据[《华盛顿邮报》](https://www.washingtonpost.com/world/2026/11/25/top-nvidia-chips-are-still-offer-china-despite-us-ban/)，围绕英伟达CEO黄仁勋的风波期间，黑市价格大幅上涨。\n\n- 另外，美国商务部一项[11月19日生效的规定](https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors)要求：向总部在中国的企业提供大量远程算力的海外数据中心，须在90天内申请美国许可证。\n- 据TechCrunch，门槛约为1200万总TPP，大致相当于750块H100/H200级GPU。"
+        },
+        "sources": [
+          {
+            "name": "The Washington Post",
+            "url": "https://www.washingtonpost.com/world/2026/11/25/top-nvidia-chips-are-still-offer-china-despite-us-ban/",
+            "lang": "en"
+          },
+          {
+            "name": "Federal Register",
+            "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+            "lang": "en"
+          },
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+            "lang": "en"
+          }
+        ]
+      }
+    ]
+  }
+}

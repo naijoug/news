@@ -305,5 +305,258 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "baidu-ernie-5-5-flash-open-weights",
+        "originalLang": "en",
+        "title": {
+          "en": "Baidu releases ERNIE 5.5 Flash Preview weights under Apache 2.0",
+          "zh": "百度以Apache 2.0协议开源文心5.5 Flash预览版权重"
+        },
+        "summary": {
+          "en": "Baidu put ERNIE 5.5 Flash Preview weights on Hugging Face and ModelScope under Apache 2.0. The sparse MoE model has 280B total and 14B active parameters, with a reported 1M-token context window.",
+          "zh": "百度在Hugging Face和魔搭社区以Apache 2.0协议发布文心5.5 Flash预览版权重。该稀疏MoE模型总参数2800亿、每Token激活140亿，据称支持100万Token上下文。"
+        },
+        "sources": [
+          {
+            "name": "Hugging Face · baidu/ERNIE-5.5-Flash-Preview",
+            "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+            "lang": "en"
+          },
+          {
+            "name": "ERNIE",
+            "url": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "meta-muse-uk-launch",
+        "originalLang": "en",
+        "title": {
+          "en": "Meta launches its Muse AI agent in the UK as regulators watch",
+          "zh": "Meta在英国推出AI智能体Muse，监管机构密切关注"
+        },
+        "summary": {
+          "en": "Meta launched Muse, its personal AI agent, in the UK on Nov. 24. It can shop, book travel and send email across connected apps, but asks for approval before purchases. The CMA said it is watching the launch.",
+          "zh": "Meta于11月24日在英国上线个人AI智能体Muse，可跨应用购物、订行程、发邮件，但购买等关键操作需用户批准。英国竞争与市场管理局表示正关注此次上线。"
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping",
+            "lang": "en"
+          },
+          {
+            "name": "Meta Newsroom",
+            "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+            "lang": "en"
+          },
+          {
+            "name": "UK CMA",
+            "url": "https://competitionandmarkets.blog.gov.uk/2026/11/24/cma-statement-on-uk-launch-of-meta-muse/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "houthi-drone-riyadh-pif-tower",
+        "originalLang": "en",
+        "title": {
+          "en": "Houthi drone attack on Riyadh's PIF tower injures 11",
+          "zh": "胡塞武装无人机袭击利雅得PIF大楼，11人受伤"
+        },
+        "summary": {
+          "en": "A Houthi drone hit a tower in Riyadh's King Abdullah Financial District on Nov. 24, injuring 11 people, Saudi civil defense said. It was the group's second strike on the tower in six days.",
+          "zh": "沙特民防部门称，胡塞武装11月24日用无人机袭击利雅得阿卜杜拉国王金融区一座大楼，造成11人受伤。这是该组织六天内第二次袭击这座大楼。"
+        },
+        "body": {
+          "en": "Images released by Saudi civil defense showed damage to the Public Investment Fund (PIF) tower, [CNBC reported](https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html).\n\n- The injured were two Saudis, two Indians, three Nepalis and four Egyptians.\n- Saudi-led coalition spokesman Turki al-Maliki called it a \"cowardly terrorist attack.\"\n- Houthi attacks on Saudi Arabia have escalated, including a strike on a refinery on Sunday.",
+          "zh": "据[CNBC](https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html)报道，沙特民防公布的图片显示受损的是公共投资基金（PIF）大楼。\n\n- 伤者包括2名沙特人、2名印度人、3名尼泊尔人和4名埃及人。\n- 沙特领导的联军发言人马利基称这是一次“懦弱的恐怖袭击”。\n- 胡塞武装近来对沙特的袭击升级，周日还袭击了一座炼油厂。"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html",
+            "lang": "en"
+          },
+          {
+            "name": "Saudi Press Agency",
+            "url": "https://www.spa.gov.sa/en/w2735283",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "putin-vows-refinery-retaliation",
+        "originalLang": "en",
+        "title": {
+          "en": "Putin says retaliation for Ukrainian refinery strikes is 'inevitable'",
+          "zh": "普京称对乌克兰袭击炼油厂的报复“不可避免”"
+        },
+        "summary": {
+          "en": "Putin said Kyiv kept hitting Russian refineries despite Trump's request to stop, and that a Russian response was inevitable. Zelensky confirmed Ukraine struck the Russian cargo ship Sparta II in the Gulf of Finland.",
+          "zh": "普京称，基辅无视特朗普的停手要求继续袭击俄炼油厂，俄方报复不可避免。泽连斯基则证实，乌克兰袭击了芬兰湾内的俄罗斯货船Sparta II。"
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera (Reuters)",
+            "url": "https://www.aljazeera.com/news/2026/11/24/putin-says-kyiv-hit-russian-oil-plants-despite-trump-plea-vows-retaliation",
+            "lang": "en"
+          },
+          {
+            "name": "Kremlin",
+            "url": "https://en.kremlin.ru/events/president/news/81337",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "hormuz-tankers-hit-mines",
+        "originalLang": "en",
+        "title": {
+          "en": "Iran's IRGC says two more tankers hit mines in the Strait of Hormuz",
+          "zh": "伊朗革命卫队称又有两艘油轮在霍尔木兹海峡触雷"
+        },
+        "summary": {
+          "en": "The IRGC Navy said two oil tankers struck naval mines and caught fire while using an 'unauthorized route' through Hormuz. It did not name the ships, and independent maritime sources have not confirmed the mine strikes.",
+          "zh": "伊朗革命卫队海军称，两艘油轮在经“未经授权航线”穿越霍尔木兹海峡时触雷起火。其未公布船名，独立海事消息源也尚未证实触雷。"
+        },
+        "sources": [
+          {
+            "name": "Iran International",
+            "url": "https://www.iranintl.com/en/202611254354",
+            "lang": "en"
+          },
+          {
+            "name": "Arab News",
+            "url": "https://www.arabnews.com/middle-east/two-oil-tankers-hit-mines-in-the-strait-of-hormuz-irgc-says-3012180",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "asia-markets-ai-selloff",
+        "originalLang": "en",
+        "title": {
+          "en": "Asian stocks dive as AI doubts return; Kospi falls 6.2%",
+          "zh": "AI疑虑重燃，亚洲股市重挫，韩国综指跌6.2%"
+        },
+        "summary": {
+          "en": "Asian markets reversed Tuesday's Huang-driven rally. The Kospi fell 6.2% to 4,697.51, Taiwan's Taiex 4.8% and the Nikkei 2.8%, as chip stocks led losses. India bucked the trend.",
+          "zh": "亚洲股市逆转周二因黄仁勋回归带来的涨势。韩国综指跌6.2%至4697.51点，台股加权指数跌4.8%，日经指数跌2.8%，芯片股领跌；印度股市逆势走高。"
+        },
+        "body": {
+          "en": "[Al Jazeera](https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom) said doubts over the AI boom outweighed Jensen Huang's return as Nvidia CEO.\n\n- Samsung Electronics fell 9.9% and SK Hynix 11.1%; Korea triggered a sidecar halt on program trading.\n- In Japan, Tokyo Electron and Advantest dropped about 12.5% and 12.9%.\n- Foxconn slid 8.8% and TSMC 3.6%; Hong Kong's Hang Seng lost 1.1%.\n- [Yonhap](https://en.yna.co.kr/view/AEN20261125006200320) cited renewed AI uncertainty and US tariff concerns.",
+          "zh": "[半岛电视台](https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom)称，市场对AI热潮的疑虑压过了黄仁勋重掌英伟达带来的提振。\n\n- 三星电子跌9.9%，SK海力士跌11.1%；韩国触发程序交易暂停机制。\n- 日本东京电子和爱德万测试分别跌约12.5%和12.9%。\n- 鸿海跌8.8%，台积电跌3.6%；恒生指数跌1.1%。\n- [韩联社](https://en.yna.co.kr/view/AEN20261125006200320)将下跌归因于AI不确定性重燃和美国关税担忧。"
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom",
+            "lang": "en"
+          },
+          {
+            "name": "Korea JoongAng Daily",
+            "url": "https://www.koreajoongangdaily.com/business/kospi-plunges-back-below-5000-as-chip-selloff-returns/12990750",
+            "lang": "en"
+          },
+          {
+            "name": "Yonhap",
+            "url": "https://en.yna.co.kr/view/AEN20261125006200320",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "bitcoin-below-60000",
+        "originalLang": "en",
+        "title": {
+          "en": "Bitcoin slips back below $60,000 as ETF outflows mount",
+          "zh": "比特币跌回6万美元下方，ETF资金持续流出"
+        },
+        "summary": {
+          "en": "Bitcoin fell below $60,000 as the Nvidia-led rally faded, trading around $58,600-$59,300. US spot bitcoin ETFs have seen roughly $4.9B of outflows in November; Strategy shares hit a 52-week low.",
+          "zh": "随着英伟达带动的反弹退潮，比特币跌破6万美元，在5.86万至5.93万美元附近交易。美国现货比特币ETF本月净流出约49亿美元，Strategy股价创52周新低。"
+        },
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "url": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower",
+            "lang": "en"
+          },
+          {
+            "name": "Business Today",
+            "url": "https://www.businesstoday.in/crypto/token/story/crypto-winter-again-bitcoin-price-below-60000-as-etf-outflows-hit-4-94-billion-in-november-569441-2026-11-25",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "shenzhou-24-pakistani-astronaut",
+        "originalLang": "zh",
+        "title": {
+          "zh": "神舟二十四号发射成功，首位外籍航天员将登“天宫”",
+          "en": "Shenzhou-24 launches, carrying the first foreign astronaut to Tiangong"
+        },
+        "summary": {
+          "zh": "11月25日8时18分，神舟二十四号在酒泉发射成功，乘组为汤洪波、武毅和巴基斯坦航天员穆罕默德·齐尚·阿里。阿里将成为首位到访中国空间站的外籍航天员。",
+          "en": "Shenzhou-24 lifted off from Jiuquan at 8:18 a.m. Beijing time on Nov. 25 with Tang Hongbo, Wu Yi and Pakistan's Muhammad Zeeshan Ali, who becomes the first foreign astronaut to visit China's space station."
+        },
+        "body": {
+          "zh": "据[中国载人航天工程办公室](https://www.cmse.gov.cn/xwzx/202611/t20261124_57876.html)发布会，这是空间站应用与发展阶段第8次载人飞行、工程第41次飞行任务。\n\n- 汤洪波任指令长，将成为首位三次到访“天宫”的航天员；武毅首次飞行。\n- 阿里以载荷专家身份执行短期飞行，开展中巴合作实验，之后随神舟二十三号返回。\n- 神舟二十三号乘组中的1名航天员将继续在轨，完成一年期驻留试验。\n- 习近平同巴基斯坦总统扎尔达里互致[贺电](https://www.gov.cn/yaowen/liebiao/202611/content_7087291.htm)。",
+          "en": "According to a [China Manned Space briefing](https://www.cmse.gov.cn/xwzx/202611/t20261124_57876.html), it is the 41st flight of the program.\n\n- Commander Tang Hongbo becomes the first person to visit Tiangong three times; Wu Yi is on his first flight.\n- Ali flies a short mission as payload specialist running China-Pakistan experiments, and will return on Shenzhou-23.\n- One Shenzhou-23 crew member stays aboard for a one-year stay.\n- Xi Jinping and Pakistani President Zardari exchanged [congratulatory messages](https://www.gov.cn/yaowen/liebiao/202611/content_7087291.htm)."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261125/b36db2307db24828a6be583d721527ec/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "中国载人航天",
+            "url": "https://www.cmse.gov.cn/xwzx/202611/t20261124_57876.html",
+            "lang": "zh"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/china-space-shenzhou-24-543306bfe17419395d10fae107500564",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "huawei-convicted-us-trial",
+        "originalLang": "en",
+        "title": {
+          "en": "US jury convicts Huawei of trade-secret theft, fraud and sanctions violations",
+          "zh": "美国陪审团裁定华为窃取商业秘密、欺诈及违反制裁等罪名成立"
+        },
+        "summary": {
+          "en": "A Brooklyn jury on Nov. 24 convicted Huawei and three units on 10 of 12 counts, but acquitted them of racketeering conspiracy and obstruction conspiracy. Sentencing is set for Sept. 14, 2027; Huawei says it will appeal.",
+          "zh": "纽约布鲁克林陪审团11月24日裁定华为及三家子公司12项罪名中的10项成立，但敲诈勒索共谋和妨碍司法共谋两项不成立。宣判定于2027年9月14日，华为表示将上诉。"
+        },
+        "sources": [
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/huawei-racketeering-trial-verdict-b39ac780e2e31140015a1be02f0329ab",
+            "lang": "en"
+          },
+          {
+            "name": "US Department of Justice",
+            "url": "https://www.justice.gov/opa/pr/chinese-tech-giant-huawei-and-subsidiaries-convicted-sanctions-violations-fraud-conspiracy",
+            "lang": "en"
+          }
+        ]
+      }
+    ]
   }
 }

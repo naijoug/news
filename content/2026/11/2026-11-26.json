@@ -340,5 +340,319 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "spacex-fcc-orbital-ai-satellites",
+        "originalLang": "en",
+        "title": {
+          "en": "FCC clears SpaceX for up to one million orbital AI-computing satellites",
+          "zh": "FCC批准SpaceX部署至多100万颗太空AI算力卫星"
+        },
+        "summary": {
+          "en": "The FCC authorized SpaceX to deploy up to one million satellites for Starmind, a proposed network of solar-powered computing stations in low Earth orbit that would process AI workloads and send results back to Earth.",
+          "zh": "美国联邦通信委员会（FCC）批准SpaceX为Starmind项目部署至多100万颗卫星。该项目设想在近地轨道建设靠太阳能供电的计算节点，在太空处理AI任务后把结果传回地面。"
+        },
+        "body": {
+          "en": "According to [The Neuron](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-26-2026/), the authorization covers a potential network: the satellites have not been deployed at anything like that scale, and SpaceX still has to show that computing at this scale works in orbit.\n\n- The pitch is abundant solar power in space, which could ease the energy limits facing ground data centers.\n- The approval adds a new front to the race for AI infrastructure.",
+          "zh": "据[The Neuron](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-26-2026/)报道，这次批准针对的是一个规划中的网络：卫星远未按这一规模部署，SpaceX仍需证明如此规模的计算能在轨道上跑通。\n\n- 卖点是太空中充足的太阳能，可缓解地面数据中心面临的能源瓶颈。\n- 这让AI基础设施竞赛多了一条太空战线。"
+        },
+        "sources": [
+          {
+            "name": "The Neuron",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-26-2026/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "china-ai-labs-distillation-chip-curbs",
+        "originalLang": "en",
+        "title": {
+          "en": "Reuters: chip curbs and anti-distillation push delay Chinese AI models",
+          "zh": "路透：芯片管制与反蒸馏措施拖慢中国AI大模型研发"
+        },
+        "summary": {
+          "en": "Z.AI's ~3-trillion-parameter GLM-5.5 has slipped past its November target, and Moonshot AI fears the gap between major releases could double to a year, as US labs block distillation and a new US rule limits overseas computing access.",
+          "zh": "据路透社独家报道，智谱约3万亿参数的GLM-5.5未能按计划在11月发布；月之暗面担心大版本间隔可能从半年翻倍至一年以上。原因包括美国AI公司加强反蒸馏，以及美方限制中企使用海外算力的新规。"
+        },
+        "body": {
+          "en": "[Reuters](https://www.investing.com/news/stock-market-news/exclusiveus-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say-5052154), citing people familiar with the matter, reported:\n\n- **Z.AI (Zhipu)** planned to release GLM-5.5 this month but has not; it is held up partly by more effective safeguards against distillation, and the launch could slip into Q1 2027 or later. On Monday it released GLM-5.4, built on an existing 750-billion-parameter model.\n- **Moonshot AI** expects the interval between major releases could double from six months to a year or longer if it loses access to overseas computing power.\n- A US Commerce Department rule that took effect on Nov. 19 requires licenses for Chinese companies seeking large amounts of advanced-chip compute in overseas data centers.\n\nOpenAI and Anthropic have stepped up efforts to stop distillation, in which a model is trained on answers from a more capable one. That has been a key way Chinese labs built competitive models at lower cost. Z.AI did not immediately comment.",
+          "zh": "[路透社](https://www.investing.com/news/stock-market-news/exclusiveus-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say-5052154)援引知情人士报道：\n\n- **智谱（Z.AI）**原计划本月发布GLM-5.5，至今未发，部分原因是反蒸馏防护越来越有效；新算力限制可能把发布推迟到2027年一季度或更晚。智谱本周一发布了基于现有7500亿参数模型的GLM-5.4。\n- **月之暗面**预计，若失去海外算力，大版本发布间隔可能从六个月翻倍到一年甚至更久。\n- 美国商务部一项11月19日生效的规定，要求中国企业在海外数据中心大量使用先进芯片算力须申请许可。\n\nOpenAI和Anthropic近来加大力度阻止“蒸馏”，即用更强模型的回答来训练自家模型。这一直是中国实验室以较低成本做出有竞争力模型的重要手段。智谱未立即回应置评请求。"
+        },
+        "sources": [
+          {
+            "name": "Reuters (via Investing.com)",
+            "url": "https://www.investing.com/news/stock-market-news/exclusiveus-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say-5052154",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "eu-sovereign-tech-equity-fund",
+        "originalLang": "en",
+        "title": {
+          "en": "EU proposes €50bn Sovereign Tech Equity Fund alongside a Quantum Act",
+          "zh": "欧盟提议设立500亿欧元主权科技股权基金，并推出《量子法案》"
+        },
+        "summary": {
+          "en": "The European Commission proposed a €50 billion Sovereign Tech Equity Fund to take stakes in European firms in quantum, AI, chips, cloud and cybersecurity, with the Quantum Act as its legal basis. It still needs approval and money in the 2028–2034 budget.",
+          "zh": "欧盟委员会提议设立规模500亿欧元的“主权科技股权基金”，入股量子、AI、芯片、云和网络安全等领域的欧洲企业，法律依据是同时提出的《量子法案》。该基金仍需获批，并要在2028—2034年预算中落实资金。"
+        },
+        "body": {
+          "en": "Per [POLITICO](https://www.politico.eu/article/commission-wants-e50-billion-fund-to-keep-tech-european/), public money from the EU, member states and partners such as the European Investment Bank would aim to crowd in private capital, with direct stakes worth hundreds of millions of euros to keep homegrown tech companies European. The Commission estimates the broader investment plan would need about €500 billion. See the Commission's [announcement](https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial).",
+          "zh": "据[POLITICO](https://www.politico.eu/article/commission-wants-e50-billion-fund-to-keep-tech-european/)报道，基金将以欧盟、成员国及欧洲投资银行等伙伴的公共资金撬动私人资本，以数亿欧元级别的直接持股把本土科技企业留在欧洲。欧委会估计，更大范围的投资计划约需5000亿欧元。详见欧委会[公告](https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial)。"
+        },
+        "sources": [
+          {
+            "name": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/commission-wants-e50-billion-fund-to-keep-tech-european/",
+            "lang": "en"
+          },
+          {
+            "name": "European Commission",
+            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "houthis-hit-ras-tanura-refinery",
+        "originalLang": "en",
+        "title": {
+          "en": "Houthis attack Ras Tanura, Saudi Arabia's largest oil refinery",
+          "zh": "胡塞武装袭击沙特最大炼油厂拉斯坦努拉"
+        },
+        "summary": {
+          "en": "The Houthis said their strike on Ras Tanura caused fires, and satellite images showed thick smoke. Saudi officials said four drones were intercepted and falling debris caused a limited fire, quickly contained, with no injuries or impact on supplies.",
+          "zh": "胡塞武装称袭击拉斯坦努拉炼油厂并引发火灾，卫星图像显示浓烟。沙特方面称拦截了4架无人机，残骸引发的局部火情已被控制，无人受伤，供应未受影响。"
+        },
+        "body": {
+          "en": "According to [Reuters via NBC News](https://www.nbcnews.com/world/saudi-arabia/yemen-houthi-rebels-attack-saudi-arabia-largest-oil-refinery-rcna611319), Ras Tanura has 550,000 barrels a day of refining capacity and sits beside one of the world's largest crude export terminals. NASA and Planet Labs imagery showed thick black smoke.\n\n- Saudi Arabia's [energy ministry](https://www.spa.gov.sa/en/w2526213) said debris from intercepted drones caused a limited fire that was brought under control.\n- Houthi spokesman Yahya Saree also claimed attacks on Riyadh's financial district. The PIF tower there was hit on Tuesday, wounding 11, the second strike on it in under a week.\n- Since Yemen's civil war reignited in July as a spillover from the US-Iran war, Houthi strikes have disrupted some Aramco operations and forced Saudi Arabia to cancel events including the AFC Asian Cup and FII.",
+          "zh": "据[NBC新闻转路透社](https://www.nbcnews.com/world/saudi-arabia/yemen-houthi-rebels-attack-saudi-arabia-largest-oil-refinery-rcna611319)报道，拉斯坦努拉炼油厂日炼油能力55万桶，紧邻全球最大的原油出口码头之一。NASA和Planet Labs的卫星图像显示有浓重黑烟。\n\n- 沙特[能源部](https://www.spa.gov.sa/en/w2526213)称，被拦截无人机的残骸引发局部火情，已被控制。\n- 胡塞武装发言人萨雷亚还称袭击了利雅得金融区。那里的PIF大楼周二遇袭，11人受伤，是不到一周内第二次被击中。\n- 自7月也门内战受美伊战争外溢影响重燃以来，胡塞武装的袭击已一度扰乱阿美部分运营，并迫使沙特取消亚洲杯和FII投资大会等活动。"
+        },
+        "sources": [
+          {
+            "name": "NBC News / Reuters",
+            "url": "https://www.nbcnews.com/world/saudi-arabia/yemen-houthi-rebels-attack-saudi-arabia-largest-oil-refinery-rcna611319",
+            "lang": "en"
+          },
+          {
+            "name": "Saudi Press Agency",
+            "url": "https://www.spa.gov.sa/en/w2526213",
+            "lang": "en"
+          },
+          {
+            "name": "The Defense Post",
+            "url": "https://thedefensepost.com/2026/11/26/houthis-attack-saudi-ras-tanura/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "iraq-court-backs-kurdish-oil-takeover",
+        "originalLang": "en",
+        "title": {
+          "en": "Iraq's top court backs Baghdad's takeover of Kurdish borders and oil fields",
+          "zh": "伊拉克最高法院支持中央政府接管库尔德地区边境和油田"
+        },
+        "summary": {
+          "en": "A day after PM Ali al-Zaidi ordered federal control of Kurdish-run border crossings and oil fields to curb smuggling, the Federal Supreme Court ruled Baghdad can deploy to international borders and audit oil and gas fields. Erbil called the move an assault.",
+          "zh": "伊拉克总理扎伊迪下令由联邦接管库尔德方面控制的边境口岸和油田、以打击走私，次日联邦最高法院裁定，中央可向国际边境部署部队，并有权监督审计油气田。库尔德地区政府称此举是对其宪法权利的“攻击”。"
+        },
+        "body": {
+          "en": "[Al Jazeera](https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields) reports the court said Baghdad shares responsibility for managing output with regional governments and producing provinces and must coordinate on customs. The orders cover oil fields in Kirkuk, Nineveh, Diyala and Salahuddin. The government has not said how or when it will act. [Arab News](https://www.arabnews.com/middle-east/al-zaidis-crackdown-gains-legal-backing-no-plans-to-send-troops-to-kurdistan-3014095) says Baghdad has no plans to send troops into Kurdistan.",
+          "zh": "据[半岛电视台](https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields)报道，法院认定中央与地区政府及产油省份共同负责油气管理，海关事务须相互协调。命令涉及基尔库克、尼尼微、迪亚拉和萨拉赫丁的油田。政府未说明何时、如何执行。[阿拉伯新闻](https://www.arabnews.com/middle-east/al-zaidis-crackdown-gains-legal-backing-no-plans-to-send-troops-to-kurdistan-3014095)称，巴格达没有向库尔德地区派兵的计划。"
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields",
+            "lang": "en"
+          },
+          {
+            "name": "Arab News",
+            "url": "https://www.arabnews.com/middle-east/al-zaidis-crackdown-gains-legal-backing-no-plans-to-send-troops-to-kurdistan-3014095",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "ukraine-laser-downs-jet-drone",
+        "originalLang": "en",
+        "title": {
+          "en": "Ukrainian laser shoots down a Russian jet-powered drone in combat for the first time",
+          "zh": "乌克兰激光武器首次在实战中击落俄喷气式无人机"
+        },
+        "summary": {
+          "en": "Ukraine's 4-kW Blysk laser, deployed by Carmine Sky to guard a critical facility, intercepted a jet-powered Geran drone, presidential adviser Serhii Beskrestnov said, adding it is too early to talk about serial production.",
+          "zh": "乌克兰总统顾问别斯克列斯特诺夫称，Carmine Sky公司部署的4千瓦“Blysk”激光系统在保护关键设施时击落一架喷气式“天竺葵”无人机，但现在谈量产还为时过早。"
+        },
+        "sources": [
+          {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/ukrainian-combat-lasers-intercept-russian-jet-powered-drone-for-first-time/",
+            "lang": "en"
+          },
+          {
+            "name": "Ukrinform",
+            "url": "https://www.ukrinform.net/rubric-defense/4188627-ukraines-blysk-laser-makes-world-first-shooting-down-russian-jetpowered-drone.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "global-stocks-rebound-thanksgiving",
+        "originalLang": "en",
+        "title": {
+          "en": "Global stocks rebound as investors shrug off new US tariffs",
+          "zh": "全球股市反弹，投资者暂时无视美国新关税"
+        },
+        "summary": {
+          "en": "European shares jumped on Thursday, with the Stoxx 600 up 1.6% and Germany's DAX up 2% in early trade, as chip stocks recovered from an AI-driven sell-off. Asia-Pacific markets also rose. US markets are closed for Thanksgiving.",
+          "zh": "周四欧股大涨，早盘斯托克600指数涨1.6%，德国DAX指数涨2%，芯片股从AI抛售中反弹，亚太股市也走高。美股周四因感恩节休市，周五半日交易。"
+        },
+        "body": {
+          "en": "Per [CNBC](https://www.cnbc.com/2026/11/26/stock-markets-today-.html), the Stoxx 600 Technology index rose 2.4% after losing about 12% this month on AI-bubble jitters and the ouster and return of Nvidia CEO Jensen Huang. Infineon gained more than 4%, ASML and ASMI 2.8%, and BE Semiconductor 3%. Japanese chip-related stocks led a rebound in Asia. On Wednesday the Dow rose 0.33% while the Nasdaq fell 0.62%.",
+          "zh": "据[CNBC](https://www.cnbc.com/2026/11/26/stock-markets-today-.html)报道，斯托克600科技指数涨2.4%；受AI泡沫担忧及英伟达CEO黄仁勋被撤换又回归影响，该指数本月已累计下跌约12%。英飞凌涨超4%，ASML和ASMI各涨2.8%，BE半导体涨3%。亚洲方面由日本芯片相关股领涨。周三道指涨0.33%，纳指跌0.62%。"
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/stocks-markets-ai-oil-bonds-320cd8c9c286a7773797bf2f478ef314",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "bok-hikes-to-3-25",
+        "originalLang": "en",
+        "title": {
+          "en": "Bank of Korea raises rate to 3.25% and lifts 2027 growth forecast to 4.1%",
+          "zh": "韩国央行加息至3.25%，上调明年增长预期至4.1%"
+        },
+        "summary": {
+          "en": "The BOK raised its base rate 25 basis points to 3.25%, its third hike this year, with two of seven board members dissenting. It raised its 2026 growth forecast to 3.9% and 2027 to 4.1%, citing a chip-led export boom.",
+          "zh": "韩国央行将基准利率上调25个基点至3.25%，为今年第三次加息，7名委员中2人反对。受芯片出口热潮带动，央行将今年增长预期上调至3.9%，明年上调至4.1%。"
+        },
+        "body": {
+          "en": "Governor Shin Hyun-song called the move \"both a preemptive move and a response to mounting inflationary pressures,\" citing household debt and housing-price expectations, [JoongAng Daily](https://www.koreajoongangdaily.com/business/bok-lifts-rate-to-325-as-it-sharply-upgrades-growth-forecasts-through-next-year/12991322) reported. The bank kept its 2026 inflation forecast at 2.7% and cut its private-consumption growth forecast to 1.8%, partly because of the AI-driven stock slump. Shin said chipmakers' operating profits could approach 700 trillion won.",
+          "zh": "据[韩国中央日报](https://www.koreajoongangdaily.com/business/bok-lifts-rate-to-325-as-it-sharply-upgrades-growth-forecasts-through-next-year/12991322)报道，行长申铉松称此举“既是先发制人，也是对通胀压力上升的回应”，并提到家庭债务和房价预期。央行维持今年2.7%的通胀预测，并因AI引发的股市下跌等因素，将今年民间消费增速预期下调至1.8%。申铉松说，芯片企业营业利润可能接近700万亿韩元。"
+        },
+        "sources": [
+          {
+            "name": "Korea JoongAng Daily",
+            "url": "https://www.koreajoongangdaily.com/business/bok-lifts-rate-to-325-as-it-sharply-upgrades-growth-forecasts-through-next-year/12991322",
+            "lang": "en"
+          },
+          {
+            "name": "Bank of Korea",
+            "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?menuNo=400423&nttId=11067086",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "mofcom-301-necessary-measures",
+        "originalLang": "zh",
+        "title": {
+          "zh": "商务部回应美301关税：保留采取必要措施的权利",
+          "en": "Commerce ministry on US Section 301 tariffs: China reserves right to respond"
+        },
+        "summary": {
+          "zh": "商务部发言人何亚东称，美方“产能过剩”301调查是典型的单边主义行为，中方坚决反对，敦促美方回到对话协商轨道，并将保留采取必要措施的权利。美方拟对华加征20%关税，最高可翻倍至40%。",
+          "en": "MOFCOM spokesman He Yadong called the US \"overcapacity\" Section 301 probe typical unilateralism, urged a return to dialogue, and said China reserves the right to take necessary measures. The US proposed a 20% rate for China that could double to 40%."
+        },
+        "body": {
+          "zh": "据[商务部例行新闻发布会](https://www.mofcom.gov.cn/xwfbzt/2026/swbzklxxwfbh2026n11y26r/index.html)实录，何亚东称个别国家“以‘产能过剩’为名，行保护主义之实”，会抬高全球通胀、损害企业和消费者利益。[法新社](https://www.france24.com/en/live-news/20261126-china-warns-of-necessary-measures-after-new-us-tariffs)指出，中美贸易休战将于1月10日到期，两国元首预计12月举行今年第四次会晤。\n\n同场发布会还谈到：\n\n- 欧盟拟自12月1日起对混动汽车采取为期200天的临时保障措施，期间中国对欧出口混动车份额约19.2万辆；中方希望欧方遵守磋商共识。\n- 中墨高层工作组同意成立工作组，就降低关税开展对话。\n- 1—10月全国实际使用外资6069.3亿元，其中高技术产业2528.3亿元，同比增长31.3%。",
+          "en": "At the [MOFCOM briefing](https://www.mofcom.gov.cn/xwfbzt/2026/swbzklxxwfbh2026n11y26r/index.html), He said some countries were \"practicing protectionism in the name of overcapacity,\" which would raise global inflation and hurt companies and consumers. [AFP](https://www.france24.com/en/live-news/20261126-china-warns-of-necessary-measures-after-new-us-tariffs) notes the US-China trade truce expires on Jan. 10 and the two leaders are due to meet for the fourth time this year in December.\n\nAlso at the briefing:\n\n- The EU plans 200-day provisional safeguards on hybrid cars from Dec. 1, with a quota of about 192,000 vehicles for Chinese exports; China asked the EU to honor the consultation consensus.\n- China and Mexico agreed to set up a working group on lowering tariffs.\n- Paid-in FDI was 606.93 billion yuan in January–October, with high-tech industries at 252.83 billion yuan, up 31.3%."
+        },
+        "sources": [
+          {
+            "name": "商务部",
+            "url": "https://www.mofcom.gov.cn/xwfbzt/2026/swbzklxxwfbh2026n11y26r/index.html",
+            "lang": "zh"
+          },
+          {
+            "name": "France 24 / AFP",
+            "url": "https://www.france24.com/en/live-news/20261126-china-warns-of-necessary-measures-after-new-us-tariffs",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "kangbao-cabbage-formaldehyde",
+        "originalLang": "zh",
+        "title": {
+          "zh": "河北康保“白菜蘸甲醛”事件，三部门指导从严从快处置",
+          "en": "Beijing orders swift crackdown after cabbages dipped in formaldehyde in Hebei"
+        },
+        "summary": {
+          "zh": "针对河北张家口康保县“白菜收购环节蘸取甲醛溶液”问题，国务院食安办、农业农村部、市场监管总局指导当地调查处置，追查涉事白菜流向，并在各地开展白菜等易腐蔬菜专项抽检和市场排查。",
+          "en": "After reports that cabbages were dipped in formaldehyde at purchase in Kangbao county, Hebei, three national food-safety authorities ordered a probe, tracing of the produce, and nationwide spot checks of cabbage and other perishable vegetables."
+        },
+        "sources": [
+          {
+            "name": "国务院食安办（转载）",
+            "url": "https://h.mffb.com.cn/a/571924.html",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "cai-fuchao-expelled-from-party",
+        "originalLang": "zh",
+        "title": {
+          "zh": "原国家新闻出版广电总局局长蔡赴朝被开除党籍",
+          "en": "Ex-media regulator chief Cai Fuchao expelled from the Communist Party"
+        },
+        "summary": {
+          "zh": "经中共中央批准，中央纪委国家监委通报，中宣部原副部长、原国家新闻出版广电总局局长蔡赴朝被开除党籍，通报称其利用职务便利在影视作品审批等方面为他人谋利。同日通报的还有江西省委原常委李伟、中国华能原总会计师王益华。",
+          "en": "The CCDI said former propaganda deputy chief and ex-head of the press and broadcasting regulator Cai Fuchao was expelled from the party, accused of using his post to benefit others in film and TV approvals. Jiangxi's Li Wei and Huaneng's Wang Yihua were also expelled."
+        },
+        "sources": [
+          {
+            "name": "澎湃新闻",
+            "url": "https://www.thepaper.cn/expressNews/2026-11-26",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "next-gen-communication-network-plan",
+        "originalLang": "zh",
+        "title": {
+          "zh": "三部门印发新一代通信网建设方案：2030年前适时建设6G",
+          "en": "China plans next-generation network, with 6G rollout by 2030"
+        },
+        "summary": {
+          "zh": "经国务院同意，工信部、国家网信办、国家发改委印发《新一代通信网建设实施方案》，提出到2030年建成覆盖完善、性能领先的新一代通信网，适时开展6G网络建设，低轨卫星互联网系统基本建成。",
+          "en": "With State Council approval, MIIT, the CAC and the NDRC issued a plan to build a leading next-generation communications network by 2030, start 6G construction in due course, and largely complete a low-orbit satellite internet system."
+        },
+        "body": {
+          "zh": "据[新华社](https://www.gov.cn/lianbo/202611/content_7087372.htm)，方案还提出：\n\n- 推进5G-A规模覆盖，统筹部署“北斗+5G”基础设施；\n- 推动通信网架构向以支持人工智能应用为中心演进，建设全国统一的算力监测调度平台；\n- 推动制定电信法、无线电频谱资源法，鼓励民营企业依法参与建设。",
+          "en": "Per [Xinhua](https://www.gov.cn/lianbo/202611/content_7087372.htm), the plan also calls for:\n\n- large-scale 5G-Advanced coverage and joint BeiDou-plus-5G infrastructure;\n- evolving network architecture around AI applications, with a national platform to monitor and schedule computing power;\n- drafting a telecom law and a radio spectrum law, and encouraging private companies to take part."
+        },
+        "sources": [
+          {
+            "name": "中国政府网 / 新华社",
+            "url": "https://www.gov.cn/lianbo/202611/content_7087372.htm",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

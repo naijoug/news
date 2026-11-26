@@ -1,0 +1,374 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-27",
+  "am": {
+    "tech": [
+      {
+        "id": "nvidia-halts-sea-server-shipments",
+        "originalLang": "en",
+        "title": {
+          "zh": "英伟达暂停向东南亚四国发运AI服务器",
+          "en": "Nvidia pauses AI server shipments to four Southeast Asian countries"
+        },
+        "summary": {
+          "zh": "据《金融时报》报道，美国新出口规则要求向马来西亚、新加坡、泰国和印尼出口先进芯片须获许可，英伟达已要求戴尔、超微等合作伙伴暂停向这四国发运AI服务器。",
+          "en": "Nvidia told partners including Dell and Supermicro to stop shipping AI servers to Malaysia, Singapore, Thailand and Indonesia after new US export rules required licences for advanced chips there, the FT reported."
+        },
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+            "lang": "en"
+          },
+          {
+            "name": "Engadget",
+            "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据《金融时报》报道，英伟达已通知戴尔、超微等服务器合作伙伴，暂停向马来西亚、新加坡、泰国和印度尼西亚发运AI服务器。起因是美国新的出口规则：向这四国出口先进芯片需申请许可证，目标是堵住中国企业通过海外渠道获取先进GPU。\n\n- 报道称暂停可能是临时性的，待合规流程理顺后恢复；云服务商有90天期限申请许可。\n- CNBC同日报道，新兴云服务商购买英伟达GPU时被要求排除中国租户。\n\n来源：[TechCrunch](https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/)、[Engadget](https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/)、[CNBC](https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html)",
+          "en": "Nvidia has told server partners including Dell and Supermicro to pause AI server shipments to Malaysia, Singapore, Thailand and Indonesia, according to the Financial Times. New US export rules now require licences for advanced chips to those four countries, aimed at closing overseas routes Chinese firms use to reach top GPUs.\n\n- The pause may be temporary while compliance procedures are worked out; cloud providers have a 90-day window to obtain licences.\n- CNBC separately reported that neocloud buyers of Nvidia GPUs are being told to rule out Chinese renters.\n\nSources: [TechCrunch](https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/), [Engadget](https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/), [CNBC](https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html)"
+        }
+      },
+      {
+        "id": "amodei-rejects-ai-governance-claims",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic CEO阿莫迪：让AI治理社会是“坏主意”",
+          "en": "Amodei calls claims Anthropic would hand governance to AI 'absurd'"
+        },
+        "summary": {
+          "zh": "针对Axios关于Anthropic愿让超级智能替人类做治理决策的报道，CEO阿莫迪回应称，政治权力必须经民主程序由人类掌握，自动化驾驶、药物研发等具体任务则是另一回事。",
+          "en": "Responding to Axios reporting, Anthropic CEO Dario Amodei said handing governance to superintelligent AI would be a bad idea and that political authority must stay with humans through democratic processes."
+        },
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+            "lang": "en"
+          },
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/11/25/anthropic-dario-amodei-ai-free-will-contro-axios",
+            "lang": "en"
+          },
+          {
+            "name": "The Decoder",
+            "url": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "south-africa-r100m-ai-fund",
+        "originalLang": "en",
+        "title": {
+          "zh": "南非拟设1亿兰特AI创投基金",
+          "en": "South Africa plans R100m venture fund for AI start-ups"
+        },
+        "summary": {
+          "zh": "南非总统拉马福萨访问硅谷后宣布拟设1亿兰特（约570万美元）AI创投基金，投资人恩加巴承诺出资2500万兰特，但基金管理人和时间表尚未公布。",
+          "en": "After a Silicon Valley trip, President Ramaphosa announced a planned R100m (about $5.7m) AI venture fund, with investor Andile Ngcaba pledging R25m; no manager or timeline has been named."
+        },
+        "sources": [
+          {
+            "name": "SAnews",
+            "url": "https://www.sanews.gov.za/south-africa/sa-eyes-r100m-venture-capital-fund-support-ai-start-ups",
+            "lang": "en"
+          },
+          {
+            "name": "ITWeb",
+            "url": "https://www.itweb.co.za/article/ngcaba-puts-r25m-on-the-table-for-sas-r100m-ai-fund/nWJad7bNKB67bjO1",
+            "lang": "en"
+          },
+          {
+            "name": "CNBC Africa",
+            "url": "https://www.cnbcafrica.com/2026/south-africa-bets-r100-million-on-ai-start-ups-as-global-rivals-spend-billions",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "north-korea-pauses-arms-to-russia",
+        "originalLang": "en",
+        "title": {
+          "zh": "乌情报：朝鲜暂停向俄罗斯供应导弹和炮弹",
+          "en": "Ukraine says North Korea paused missile and shell deliveries to Russia"
+        },
+        "summary": {
+          "zh": "乌克兰军事情报局称，因俄副外长鲁坚科提出在朝韩间斡旋，朝鲜外相崔善姬不满，平壤已暂停向俄交付KN-23导弹和炮弹，并搁置增兵请求。朝俄均未证实。",
+          "en": "Ukraine's military intelligence says North Korea temporarily halted KN-23 missile and artillery shell deliveries to Russia after objecting to a Russian offer to mediate with Seoul. Neither side has confirmed it."
+        },
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/ukraine-says-north-korea-temporarily-halted-missile-shipments-to-ally-russia-5052608",
+            "lang": "en"
+          },
+          {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/north-korea-pauses-military-aid-to-russia-ukrainian-intelligence-says/",
+            "lang": "en"
+          },
+          {
+            "name": "Nikkei Asia",
+            "url": "https://asia.nikkei.com/politics/ukraine-war/north-korea-suspends-missile-shipments-to-russia-ukraine-says",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "乌克兰国防部情报总局（HUR）称，朝鲜已暂时停止向俄罗斯交付KN-23弹道导弹和炮弹。据称起因是俄罗斯副外长鲁坚科10月提出可帮助缓和朝韩紧张关系，朝鲜外相崔善姬认为这违背了两国同盟。\n\n- 暂停范围据称还包括俄军机飞越朝鲜领空。\n- 平壤也拒绝了俄方将驻俄朝军从约8500人增至5万人的请求，但现有部队仍在库尔斯克和沃罗涅日一带。\n- 朝俄双方均未证实上述说法。\n\n来源：路透社（经[Investing.com](https://www.investing.com/news/world-news/ukraine-says-north-korea-temporarily-halted-missile-shipments-to-ally-russia-5052608)）、[基辅独立报](https://kyivindependent.com/north-korea-pauses-military-aid-to-russia-ukrainian-intelligence-says/)、日经亚洲",
+          "en": "Ukraine's military intelligence (HUR) says North Korea has temporarily stopped delivering KN-23 ballistic missiles and artillery shells to Russia. The reported trigger was Russian Deputy Foreign Minister Andrei Rudenko's October offer to help ease tensions between the two Koreas, which Foreign Minister Choe Son Hui said violated their alliance.\n\n- The pause reportedly also covers Russian military flights over North Korean airspace.\n- Pyongyang also turned down a Russian request to expand its contingent from about 8,500 to 50,000 troops, though existing units remain in the Kursk and Voronezh areas.\n- Neither Moscow nor Pyongyang has confirmed the claims.\n\nSources: Reuters via [Investing.com](https://www.investing.com/news/world-news/ukraine-says-north-korea-temporarily-halted-missile-shipments-to-ally-russia-5052608), [Kyiv Independent](https://kyivindependent.com/north-korea-pauses-military-aid-to-russia-ukrainian-intelligence-says/), Nikkei Asia"
+        }
+      },
+      {
+        "id": "russia-strikes-kyiv-kharkiv-body-swap",
+        "originalLang": "en",
+        "title": {
+          "zh": "俄导弹击中基辅购物中心，俄乌交换阵亡士兵遗体",
+          "en": "Russian missiles hit a Kyiv mall; Ukraine and Russia swap war dead"
+        },
+        "summary": {
+          "zh": "11月25日至26日夜间，俄弹道导弹击中基辅一家购物中心致7人受伤，哈尔科夫州等地多人遇难。同日俄方移交250具遗体，乌方归还22具俄军遗体。",
+          "en": "Overnight Nov 25-26, Russian ballistic missiles hit a Kyiv shopping centre, injuring seven, and strikes killed several people in Kharkiv region. Russia handed over 250 bodies and Ukraine returned 22."
+        },
+        "sources": [
+          {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/russia-slams-kyiv-in-ballistic-missile-attack-hits-shopping-center/",
+            "lang": "en"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three",
+            "lang": "en"
+          },
+          {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/ukraine-receives-remains-of-250-people-returns-22-russian-soldiers-remains-in-repatriation-2/",
+            "lang": "en"
+          },
+          {
+            "name": "Interfax-Ukraine",
+            "url": "https://en.interfax.com.ua/news/general/1242874.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "erbil-protest-baghdad-oil-takeover",
+        "originalLang": "en",
+        "title": {
+          "zh": "跟进：数千人在埃尔比勒抗议巴格达接管库区石油与口岸",
+          "en": "Update: thousands rally in Erbil against Baghdad's oil and border takeover"
+        },
+        "summary": {
+          "zh": "伊拉克总理扎伊迪下令联邦接管库尔德地区边境口岸和石油出口后，数千人在埃尔比勒抗议，库区政府称此举违宪。伊拉克政府否认向库区调动部队。",
+          "en": "Thousands protested in Erbil after PM Ali al-Zaidi ordered federal control of Kurdish border crossings and oil exports; the KRG calls it unconstitutional. Baghdad denied moving troops toward the region."
+        },
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/iraq-krg-baghdad-oil-borders-kurds-protest-irbil-erbil-1b0e8cb02a09ce16b8885c60f4733a44",
+            "lang": "en"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/26/iraq-denies-reports-of-troop-movements-towards-kurdish-region",
+            "lang": "en"
+          },
+          {
+            "name": "DW",
+            "url": "https://www.dw.com/en/protests-in-iraqi-kurdistan-at-plans-for-government-in-baghdad-to-take-over-oil-border-crossings/a-80065994",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "us-futures-rise-thanksgiving",
+        "originalLang": "en",
+        "title": {
+          "zh": "感恩节美股期货走高，黑五料高开",
+          "en": "US stock futures rise on Thanksgiving ahead of Black Friday"
+        },
+        "summary": {
+          "zh": "美股感恩节休市，期货走高：标普500期货涨约0.7%，纳指100期货涨约0.6%，道指期货涨约277点。此前一天三大指数从盘中大跌中大幅收复。",
+          "en": "With US markets shut for Thanksgiving, S&P 500 futures rose about 0.7%, Nasdaq-100 futures about 0.6% and Dow futures roughly 277 points, after Wednesday's sharp intraday recovery."
+        },
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html",
+            "lang": "en"
+          },
+          {
+            "name": "Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-whipsaw-session-on-wall-st-5051753",
+            "lang": "en"
+          },
+          {
+            "name": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/futures-point-to-black-friday-gains-for-wall-street-as-global-markets-welcome-u-s-resilience-ad6bcef2",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "korean-retail-soxl-leverage-bets",
+        "originalLang": "en",
+        "title": {
+          "zh": "韩国散户巨资押注3倍杠杆芯片ETF",
+          "en": "Korean retail investors pile into 3x leveraged chip ETF SOXL"
+        },
+        "summary": {
+          "zh": "韩国散户在美股剧烈震荡中大举买入3倍杠杆半导体ETF SOXL，11月18日至24日一周净买入约12.7亿美元，占其前十大美股ETF净买入的七成以上。",
+          "en": "Korean retail investors kept buying the 3x leveraged chip ETF SOXL amid US market swings, with about $1.27bn of net purchases in the week to Nov 24, at least 72% of their top-10 US ETF buying."
+        },
+        "sources": [
+          {
+            "name": "Financial News (Korea)",
+            "url": "https://en.fnnews.com/news/202611251537030877",
+            "lang": "en"
+          },
+          {
+            "name": "MoneyToday",
+            "url": "https://www.mt.co.kr/en/stock/2026/11/10/2026111014050989834",
+            "lang": "en"
+          },
+          {
+            "name": "Crypto Briefing",
+            "url": "https://cryptobriefing.com/soxl-inflows-traders-buy-chip-dip/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "kenya-top-buyer-chinese-solar-cells",
+        "originalLang": "en",
+        "title": {
+          "zh": "肯尼亚成中国太阳能电池最大买家，组装后输美",
+          "en": "Kenya becomes top buyer of Chinese solar cells, assembling panels for the US"
+        },
+        "summary": {
+          "zh": "海关数据显示，2026年前10个月肯尼亚从中国进口太阳能电池5.76亿美元，上年同期仅500万美元；当地组装成组件后出口美国，前8个月对美出口约1.38亿美元。",
+          "en": "Kenya imported $576m of Chinese solar cells in the first 10 months of 2026, up from $5m a year earlier, and turned them into panels for the US, shipping about $138m there in the first eight months."
+        },
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-26/kenya-emerges-as-top-destination-for-chinese-solar-components",
+            "lang": "en"
+          },
+          {
+            "name": "Business Insider Africa",
+            "url": "https://africa.businessinsider.com/local/markets/east-africas-second-largest-economy-emerges-as-top-destination-for-chinese-solar/bqxbxm5",
+            "lang": "en"
+          },
+          {
+            "name": "Businessfront",
+            "url": "https://businessfront.com/energy/news/kenya-exports-138-million-in-solar-panels-to-us-in-first-eight-months-of-2026/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "us-senate-chinese-car-ban",
+        "originalLang": "en",
+        "title": {
+          "zh": "美参议员推动12月表决永久禁止中国网联汽车",
+          "en": "US senators push December vote to ban Chinese connected cars"
+        },
+        "summary": {
+          "zh": "共和党参议员莫雷诺与民主党参议员斯洛特金推动《网联汽车安全法》，禁止在美销售含中俄等国关键部件的网联汽车，争取12月参议院口头表决、众院快速通过。",
+          "en": "Sens. Bernie Moreno and Elissa Slotkin are seeking a December Senate voice vote on the Connected Vehicle Security Act, which would bar connected cars with key parts from China, Russia and similar nations."
+        },
+        "sources": [
+          {
+            "name": "POLITICO",
+            "url": "https://www.politico.com/news/2026/11/26/congress-china-cars-autos-ban-lame-duck-01183667",
+            "lang": "en"
+          },
+          {
+            "name": "Congress.gov",
+            "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4429",
+            "lang": "en"
+          },
+          {
+            "name": "Aju Press",
+            "url": "https://www.ajupress.com/view/20261127074336269",
+            "lang": "en"
+          }
+        ],
+        "body": {
+          "zh": "据POLITICO报道，俄亥俄州共和党参议员伯尼·莫雷诺与密歇根州民主党参议员伊丽莎白·斯洛特金正推动《2026年网联汽车安全法》（S.4429），在国会跛脚鸭会期内通过。该法将禁止在美销售含有中国、俄罗斯、伊朗、朝鲜等国关键部件的网联汽车。\n\n- 法案已通过参议院商务委员会，列入参议院议程，参院领导层表态支持，目标是12月口头表决，众议院随后快速审议，赶在1月新一届国会前送交特朗普。\n- 为回应车企关切的最终措辞仍在调整，报道称调整后梅赛德斯、沃尔沃等欧洲品牌可继续销售。\n\n来源：[POLITICO](https://www.politico.com/news/2026/11/26/congress-china-cars-autos-ban-lame-duck-01183667)、[Congress.gov](https://www.congress.gov/bill/119th-congress/senate-bill/4429)",
+          "en": "Ohio Republican Sen. Bernie Moreno and Michigan Democrat Sen. Elissa Slotkin are pushing the Connected Vehicle Security Act of 2026 (S.4429) through the lame-duck session, POLITICO reports. It would bar US sales of connected vehicles with key components from China, Russia, Iran or North Korea.\n\n- The bill has cleared Senate Commerce and is on the Senate calendar; leadership backs a December voice vote, with fast House action to reach President Trump before the new Congress in January.\n- Final wording to address automaker concerns is still being settled; reported changes would let European brands such as Mercedes and Volvo keep selling.\n\nSources: [POLITICO](https://www.politico.com/news/2026/11/26/congress-china-cars-autos-ban-lame-duck-01183667), [Congress.gov](https://www.congress.gov/bill/119th-congress/senate-bill/4429)"
+        }
+      },
+      {
+        "id": "huawei-custom-hbm-isscc",
+        "originalLang": "zh",
+        "title": {
+          "zh": "华为将披露自研HBM，接口位宽为HBM4两倍",
+          "en": "Huawei to unveil custom HBM with twice HBM4's interface width"
+        },
+        "summary": {
+          "zh": "华为有论文入选ISSCC 2027，将于明年2月披露自研HBM架构：64通道、4096位数据接口，为HBM4的两倍，采用五层晶圆混合键合，剑指三星与SK海力士。容量与量产时间未公布。",
+          "en": "Huawei will present a custom HBM design at ISSCC in February 2027: 64 channels and a 4,096-bit interface, twice HBM4's width, with five-layer hybrid bonding. Capacity and production timing are undisclosed."
+        },
+        "sources": [
+          {
+            "name": "联合早报",
+            "url": "https://www.zaobao.com.sg/news/china/story20261126-10060985",
+            "lang": "zh"
+          },
+          {
+            "name": "电子工程专辑",
+            "url": "https://www.eet-china.com/mp/a542226.html",
+            "lang": "zh"
+          },
+          {
+            "name": "TrendForce",
+            "url": "https://www.trendforce.com/news/2026/11/26/news-huawei-reportedly-set-to-unveil-custom-hbm-architecture-with-twice-hbm4s-interface-width-and-hybrid-bonding/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "mod-zangnan-china-india-border",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国防部：中印边境总体稳定，藏南是中国领土",
+          "en": "China's defence ministry: border with India stable, Zangnan is Chinese territory"
+        },
+        "summary": {
+          "zh": "国防部发言人陈曦11月26日表示，中印边境局势总体稳定，双方通过外交和军事渠道保持沟通；藏南是中国领土，中方从不承认所谓“阿鲁纳恰尔邦”。",
+          "en": "Defence ministry spokesman Chen Xi said on Nov 26 that the China-India border is generally stable with talks ongoing, and that Zangnan is Chinese territory; China rejects the so-called Arunachal Pradesh."
+        },
+        "sources": [
+          {
+            "name": "京报网",
+            "url": "https://news.bjd.com.cn/2026/11/26/12044905.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/news/international/situation-in-india-china-border-areas-remain-generally-stable-says-china/article71745929.ece",
+            "lang": "en"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "$schema": "../../../schemas/edition.schema.json",
+  "date": "2026-11-28",
+  "am": {
+    "tech": [
+      {
+        "id": "openai-countersues-apple",
+        "originalLang": "en",
+        "title": {
+          "en": "OpenAI countersues Apple over trade secrets and supplier pressure",
+          "zh": "OpenAI反诉苹果：窃取商业机密、向共同供应商施压"
+        },
+        "summary": {
+          "en": "OpenAI filed counterclaims in California federal court accusing Apple of stealing hardware trade secrets and pressuring shared suppliers to limit work on OpenAI devices. Apple called it a distraction.",
+          "zh": "OpenAI在加州联邦法院提起反诉，指控苹果窃取其硬件商业机密，并向双方共同的供应商施压、限制其为OpenAI设备供货。苹果称这是转移视线。"
+        },
+        "body": {
+          "en": "The countersuit escalates a fight that began with Apple's July lawsuit, which accused OpenAI of poaching former Apple staff, including hardware chief Tang Tan, along with proprietary designs and supplier information.\n\nOpenAI says Apple obtained its hardware secrets through an employee who returned to Apple, pressured suppliers it shares with OpenAI, and uses personal iCloud and iMessage practices that trap departing employees. Apple says the counterclaims are a distraction from its own case. Both companies are racing to build AI consumer devices; OpenAI bought Jony Ive's io startup. No court has ruled on any of the claims.\n\nSources: [Reuters](https://www.reuters.com/5f374b32b07b/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/), [CBS News](https://www.cbsnews.com/news/openai-countersues-apple-trade-secrets-lawsuit/).",
+          "zh": "这起反诉让双方的官司升级。今年7月，苹果起诉OpenAI挖走前员工（包括硬件负责人Tang Tan），并带走专有设计和供应商信息。\n\nOpenAI则称，苹果通过一名回流苹果的员工获取了其硬件机密，向双方共同的供应商施压，还利用个人iCloud和iMessage的做法给离职员工设下陷阱。苹果表示这些反诉是在转移对其诉讼的注意力。两家公司都在抢做AI消费硬件，OpenAI此前收购了乔纳森·艾维的io公司。法院尚未对任何指控作出裁决。\n\n来源：[路透社](https://www.reuters.com/5f374b32b07b/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/)、[CBS News](https://www.cbsnews.com/news/openai-countersues-apple-trade-secrets-lawsuit/)。"
+        },
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/5f374b32b07b/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/",
+            "lang": "en"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/openai-countersues-apple-trade-secrets-lawsuit/",
+            "lang": "en"
+          },
+          {
+            "name": "AppleInsider",
+            "url": "https://appleinsider.com/articles/26/11/27/openai-counter-sues-apple-over-trade-secret-theft",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "netherlands-fights-match-act-asml",
+        "originalLang": "en",
+        "title": {
+          "en": "Netherlands vows to fight US MATCH Act curbs on ASML China sales",
+          "zh": "荷兰誓言抵制美国《MATCH法案》对阿斯麦对华销售的限制"
+        },
+        "summary": {
+          "en": "Dutch trade minister Sjoerd Sjoerdsma said the Netherlands will lobby against the US bill and, if it passes, ask Washington not to enforce it, calling its extraterritorial chip-tool curbs a breach of Dutch sovereignty.",
+          "zh": "荷兰外贸大臣舒尔德斯马表示，荷兰将游说阻止这项美国法案；若法案通过，将要求美方不予执行。他称其对芯片设备的域外管制侵犯荷兰主权。"
+        },
+        "body": {
+          "en": "The MATCH Act would push allies such as the Netherlands to tighten export controls on chipmaking tools to China or face US penalties. Sjoerdsma said it would hurt ASML's China sales and servicing as well as wider European industry, and that the Netherlands is coordinating with EU partners. China brings in roughly a fifth of ASML's revenue, mostly from older DUV machines.\n\nSources: [Reuters via Investing.com](https://www.investing.com/news/stock-market-news/dutch-minister-says-us-chip-curbs-bill-would-hurt-europe-5052431), [POLITICO Europe](https://www.politico.eu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls-asml/).",
+          "zh": "《MATCH法案》将迫使荷兰等盟友收紧对华芯片制造设备出口管制，否则面临美国处罚。舒尔德斯马说，法案会损害阿斯麦在华销售和维护业务以及更广泛的欧洲产业，荷兰正与欧盟伙伴协调。中国约占阿斯麦营收的五分之一，主要来自较老的DUV光刻机。\n\n来源：[路透社（Investing.com转载）](https://www.investing.com/news/stock-market-news/dutch-minister-says-us-chip-curbs-bill-would-hurt-europe-5052431)、[POLITICO欧洲版](https://www.politico.eu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls-asml/)。"
+        },
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/dutch-minister-says-us-chip-curbs-bill-would-hurt-europe-5052431",
+            "lang": "en"
+          },
+          {
+            "name": "POLITICO Europe",
+            "url": "https://www.politico.eu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls-asml/",
+            "lang": "en"
+          },
+          {
+            "name": "DutchNews.nl",
+            "url": "https://www.dutchnews.nl/2026/11/trade-minister-hits-out-at-us-bill-to-curb-asml-sales-to-china/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "ukraine-black-sea-truce-offer",
+        "originalLang": "en",
+        "title": {
+          "en": "Ukraine submits Black Sea truce offer to protect grain exports",
+          "zh": "乌克兰提出黑海停火方案，保障粮食出口"
+        },
+        "summary": {
+          "en": "Foreign Minister Andrii Sybiha said Kyiv has submitted, via partners including India, Türkiye and Egypt, a limited truce to restore safe navigation and farm exports, and is awaiting Moscow's reply. Russia wants oil included.",
+          "zh": "乌外长瑟比哈称，基辅已通过印度、土耳其、埃及等伙伴递交有限停火方案，恢复航行自由和农产品出口，正等待俄方答复。俄方希望把石油出口也纳入。"
+        },
+        "body": {
+          "en": "Kyiv says oil shipments belong in a separate energy truce that would also halt strikes on power infrastructure, so the current offer stays focused on food. Ukrainian grain exports have dropped sharply after Russian strikes on Odesa-area ports; the earlier UN-brokered grain deal collapsed in 2023.\n\nSources: [Al Jazeera](https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy), [Ukrinform](https://www.ukrinform.net/rubric-polytics/4189335-fm-sybiha-russia-seeks-to-include-oil-exports-in-black-sea-agricultural-truce-deal.html).",
+          "zh": "基辅认为，石油运输应放进另一项能源停火协议，同时停止对电力设施的袭击，因此这次方案只谈粮食。受俄军袭击敖德萨一带港口影响，乌克兰粮食出口大幅下滑；此前由联合国斡旋的黑海粮食协议已于2023年失效。\n\n来源：[半岛电视台](https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy)、[乌克兰国家通讯社](https://www.ukrinform.net/rubric-polytics/4189335-fm-sybiha-russia-seeks-to-include-oil-exports-in-black-sea-agricultural-truce-deal.html)。"
+        },
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy",
+            "lang": "en"
+          },
+          {
+            "name": "Ukrinform",
+            "url": "https://www.ukrinform.net/rubric-polytics/4189335-fm-sybiha-russia-seeks-to-include-oil-exports-in-black-sea-agricultural-truce-deal.html",
+            "lang": "en"
+          },
+          {
+            "name": "Interfax-Ukraine",
+            "url": "https://en.interfax.com.ua/news/general/1243781.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "europe-no-reply-putin-moscow-invite",
+        "originalLang": "en",
+        "title": {
+          "en": "Europe has not taken up Putin's invitation to Moscow",
+          "zh": "欧洲尚未接受普京的莫斯科之邀"
+        },
+        "summary": {
+          "en": "Putin blamed Europe for stalling a US-brokered deal and invited European envoys to Moscow. The Kremlin says no concrete EU reply has come; Brussels prefers a multilateral format, and Paris wants Europe at the table.",
+          "zh": "普京指责欧洲阻碍美方斡旋的协议，并邀请欧洲代表赴莫斯科。克里姆林宫称欧盟尚无具体回应；欧盟倾向多边形式，法国要求欧洲在谈判桌上有一席之地。"
+        },
+        "sources": [
+          {
+            "name": "TASS",
+            "url": "https://tass.com/politics/2224551",
+            "lang": "en"
+          },
+          {
+            "name": "Kyiv Post",
+            "url": "https://www.kyivpost.com/post/91144",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/eurasia/russia-yet-to-receive-any-refusal-from-europeans-to-visit-moscow-kremlin-aide-says/4137663",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "iran-truckers-strike-sixth-day",
+        "originalLang": "en",
+        "title": {
+          "en": "Iran truckers' strike enters sixth day across 20 cities",
+          "zh": "伊朗卡车司机罢工进入第六天，波及20座城市"
+        },
+        "summary": {
+          "en": "Truckers in cities including Tehran, Isfahan and Shiraz are demanding higher freight rates amid fuel shortages, soaring costs for tyres and oil, and a sliding rial. The union says it will hold out.",
+          "zh": "德黑兰、伊斯法罕、设拉子等地的卡车司机要求提高运价。燃油短缺，轮胎、机油等成本飙升，里亚尔持续贬值。工会表示将坚持罢工。"
+        },
+        "sources": [
+          {
+            "name": "Iran International",
+            "url": "https://www.iranintl.com/en/202611270967",
+            "lang": "en"
+          },
+          {
+            "name": "The National",
+            "url": "https://www.thenationalnews.com/news/mena/2026/11/27/twenty-cities-one-voice-iranian-lorry-drivers-persist-with-strike/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "wall-street-best-week-since-april-2025",
+        "originalLang": "en",
+        "title": {
+          "en": "Wall Street caps its best week since April 2025",
+          "zh": "美股创2025年4月以来最佳单周表现"
+        },
+        "summary": {
+          "en": "In a shortened Black Friday session, the S&P 500 rose 1.6% to 7,297.49, ending the week up 5.6%. The Nasdaq gained about 2.3% and the Dow about 1.2%, led by chip and big tech stocks.",
+          "zh": "黑色星期五半日交易中，标普500指数涨1.6%至7297.49点，全周累涨5.6%。纳指涨约2.3%，道指涨约1.2%，芯片股和大型科技股领涨。"
+        },
+        "body": {
+          "en": "The rally follows a sell-off the week before driven by tariff worries. Nvidia, Meta, Amazon and Tesla were among the leaders; the Nasdaq rose about 6.7% for the week. Bitcoin and Ether slipped about 1%.\n\nSources: [AP](https://apnews.com/article/stock-markets-tariffs-ai-profits-energy-c7ef10c1dbc5fa09668bd4fe0729c613), [StockAnalysis](https://stockanalysis.com/news/sp-500-caps-best-week-in-over-a-year/).",
+          "zh": "上周美股曾因关税担忧大跌。本周英伟达、Meta、亚马逊、特斯拉等领涨，纳指全周上涨约6.7%。比特币和以太坊则下跌约1%。\n\n来源：[美联社](https://apnews.com/article/stock-markets-tariffs-ai-profits-energy-c7ef10c1dbc5fa09668bd4fe0729c613)、[StockAnalysis](https://stockanalysis.com/news/sp-500-caps-best-week-in-over-a-year/)。"
+        },
+        "sources": [
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/stock-markets-tariffs-ai-profits-energy-c7ef10c1dbc5fa09668bd4fe0729c613",
+            "lang": "en"
+          },
+          {
+            "name": "StockAnalysis",
+            "url": "https://stockanalysis.com/news/sp-500-caps-best-week-in-over-a-year/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "hernandez-de-cos-next-ecb-president",
+        "originalLang": "en",
+        "title": {
+          "en": "Euro leaders pick Pablo Hernández de Cos to lead the ECB",
+          "zh": "欧元区领导人提名埃尔南德斯·德科斯出任欧洲央行行长"
+        },
+        "summary": {
+          "en": "The former Bank of Spain governor, now head of the BIS, is nominated to succeed Christine Lagarde on 7 February 2027. The European Parliament and ECB must be consulted before formal appointment, expected in December.",
+          "zh": "这位西班牙央行前行长、现任国际清算银行总经理被提名于2027年2月7日接替拉加德。正式任命前还需征询欧洲议会和欧洲央行意见，预计12月敲定。"
+        },
+        "sources": [
+          {
+            "name": "Council of the EU",
+            "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/26/european-council-puts-forward-pablo-hernandez-de-cos-as-next-president-of-the-european-central-bank/",
+            "lang": "en"
+          },
+          {
+            "name": "AP",
+            "url": "https://apnews.com/article/ecb-eurozone-pablo-hernandez-de-cos-lagarde-d308b6cfbe6399b131255f2a678b10e4",
+            "lang": "en"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/26/eurozone-leaders-back-hernandez-de-cos-to-succeed-lagarde-at-ecb",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "thanksgiving-online-sales-record",
+        "originalLang": "en",
+        "title": {
+          "en": "US Thanksgiving online sales hit a record $7.1 billion",
+          "zh": "美国感恩节线上消费创纪录，达71亿美元"
+        },
+        "summary": {
+          "en": "Adobe data show Thanksgiving Day online spending up 10.4% year on year, beating its $6.9 billion forecast, with traffic from AI assistants rising sharply. Adobe expects $12.9 billion on Black Friday.",
+          "zh": "Adobe数据显示，感恩节当天美国线上消费同比增长10.4%，高于其69亿美元的预测，来自AI助手的流量大增。Adobe预计黑五线上消费达129亿美元。"
+        },
+        "sources": [
+          {
+            "name": "Digital Commerce 360",
+            "url": "https://www.digitalcommerce360.com/article/thanksgiving-ecommerce-sales/",
+            "lang": "en"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/americas/us-online-spending-hits-record-71b-on-thanksgiving/4140816",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "lan-tianli-suspended-death-sentence",
+        "originalLang": "zh",
+        "title": {
+          "zh": "广西政府原主席蓝天立受贿5.87亿余元，一审被判死缓",
+          "en": "Ex-Guangxi chairman Lan Tianli gets suspended death sentence for bribery"
+        },
+        "summary": {
+          "zh": "湖南常德中院以受贿罪判处蓝天立死刑、缓期二年执行，期满减为无期徒刑后终身监禁，不得减刑、假释，并没收个人全部财产。",
+          "en": "A court in Changde, Hunan, sentenced Lan Tianli to death with a two-year reprieve for taking over 587 million yuan in bribes, to be commuted to life without parole, with all personal assets confiscated."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/legal/20261127/26bdcd49d4154a1e83e376f61e0ea820/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "中新网",
+            "url": "https://www.chinanews.com/gn/2026/11-27/10738930.shtml",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "distributed-digital-identity-rules",
+        "originalLang": "zh",
+        "title": {
+          "zh": "十一部门公布《分布式数字身份互通互认应用规定》",
+          "en": "Eleven agencies issue rules on distributed digital identity"
+        },
+        "summary": {
+          "zh": "国家网信办等十一部门联合公布该规定，自2027年3月1日起施行，规范分布式数字身份的注册、可验证凭证签发与验证、授权使用及身份链管理，推动跨地域、跨行业、跨平台互通互认。",
+          "en": "China's Cyberspace Administration and ten other agencies issued rules, effective 1 March 2027, on registering distributed digital IDs, issuing and verifying credentials, and managing the identity chain across regions, industries and platforms."
+        },
+        "sources": [
+          {
+            "name": "国家网信办",
+            "url": "https://www.cac.gov.cn/2026-11/27/c_1797537998599677.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/politics/20261127/b992b07e4dc64245833318144a2bd601/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/1/033/733.htm",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
+  }
+}

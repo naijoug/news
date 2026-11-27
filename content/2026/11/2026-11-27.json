@@ -370,5 +370,308 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "anthropic-messages-api-rust",
+        "originalLang": "en",
+        "title": {
+          "zh": "Anthropic 用 Claude 把 Messages API 改写为 Rust，CPU 用量降约七成",
+          "en": "Anthropic rewrites its Messages API in Rust with Claude's help, cutting CPU use about 70%"
+        },
+        "summary": {
+          "zh": "Anthropic 披露，其 Messages API 已从 Python 迁移到 Rust，迁移工作大量借助 Claude 完成。每次请求的 CPU 用量下降约 70%，内存下降逾 80%，首字延迟中位数缩短约 20%。",
+          "en": "Anthropic says it moved its Messages API from Python to Rust, with Claude doing much of the work. Per-request CPU use fell about 70%, memory more than 80%, and median time to first token about 20%."
+        },
+        "sources": [
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+            "lang": "en"
+          },
+          {
+            "name": "TechRepublic",
+            "url": "https://www.techrepublic.com/article/news-anthropic-claude-messages-api-rust-migration/",
+            "lang": "en"
+          },
+          {
+            "name": "The Next Web",
+            "url": "https://thenextweb.com/news/anthropic-claude-messages-api-rust-migration",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "tencent-open-sources-dfly2",
+        "originalLang": "en",
+        "title": {
+          "zh": "腾讯开源 DFly2：复用稀疏模型 KV 缓存的投机解码草稿模型",
+          "en": "Tencent open-sources DFly2, a speculative-decoding drafter that reuses sparse KV caches"
+        },
+        "summary": {
+          "zh": "腾讯在 AngelSpec 仓库开源 DFly2 的草稿模型权重、训练代码和技术报告。它直接复用目标稀疏模型的 KV 缓存和 top-k 索引，无需额外显存，用于加速长上下文推理。",
+          "en": "Tencent released DFly2 drafter weights, training code and a technical report in its AngelSpec repo. The drafter reuses a sparse target model's KV cache and top-k indices, needing no extra KV memory, to speed long-context inference."
+        },
+        "sources": [
+          {
+            "name": "MarkTechPost",
+            "url": "https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models/",
+            "lang": "en"
+          },
+          {
+            "name": "GitHub · Tencent/AngelSpec",
+            "url": "https://github.com/Tencent/AngelSpec",
+            "lang": "en"
+          },
+          {
+            "name": "arXiv",
+            "url": "https://arxiv.org/abs/2611.34776",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "canada-ai-compute-fund-1bn",
+        "originalLang": "en",
+        "title": {
+          "zh": "加拿大 AI 算力基金追加 7 亿加元，总额达 10 亿",
+          "en": "Canada adds C$700m to its AI Compute Access Fund, taking it to C$1bn"
+        },
+        "summary": {
+          "zh": "加拿大政府将 AI 算力获取基金从 3 亿加元扩至 10 亿加元，资助中小企业 10 万至 500 万加元算力费用；使用本国主权算力最多报销 80%，其他境内供应商最多 50%。",
+          "en": "Canada expanded its AI Compute Access Fund from C$300m to C$1bn, covering C$100,000–C$5m of SME compute costs: up to 80% with sovereign Canadian providers, up to 50% with other Canada-based ones."
+        },
+        "sources": [
+          {
+            "name": "Government of Canada",
+            "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/government-of-canada-boosts-the-ai-compute-access-fund-with-700-million-expansion.html",
+            "lang": "en"
+          },
+          {
+            "name": "BetaKit",
+            "url": "https://betakit.com/feds-will-now-pay-80-percent-of-costs-under-ai-compute-access-fund-if-purchased-from-a-sovereign-provider/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "zelensky-bbc-trump-putin-friend",
+        "originalLang": "en",
+        "title": {
+          "zh": "泽连斯基接受 BBC 采访：特朗普称普京为「朋友」很奇怪",
+          "en": "Zelensky tells BBC it is 'strange' Trump calls Putin 'my friend'"
+        },
+        "summary": {
+          "zh": "特朗普上周六发布与普京拥抱的照片并称其为「我的朋友」。泽连斯基对 BBC 说这「很奇怪」，侵略者和杀人者不可能是朋友，好比二战时称希特勒为朋友；他还批评美国过于关注中东、对俄施压不足。",
+          "en": "After Trump posted a photo embracing Putin captioned 'my friend', Zelensky told the BBC it was 'strange': an aggressor and killer can't be a friend, like calling Hitler one in WWII. He said the US is too focused on the Middle East."
+        },
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo",
+            "lang": "en"
+          },
+          {
+            "name": "South China Morning Post",
+            "url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
+            "lang": "en"
+          },
+          {
+            "name": "Kyiv Post",
+            "url": "https://www.kyivpost.com/post/91349",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "ukraine-drones-tula-rubber-plant",
+        "originalLang": "en",
+        "title": {
+          "zh": "乌克兰无人机袭击俄图拉州合成橡胶厂，俄无人机夜袭克里维里赫",
+          "en": "Ukrainian drones hit a Tula rubber plant; Russian drones strike Kryvyi Rih"
+        },
+        "summary": {
+          "zh": "11 月 27 日，乌克兰无人机袭击俄罗斯图拉州叶夫列莫夫合成橡胶厂，引发爆炸和大火，乌方称该厂生产「伊斯坎德尔」导弹固体推进剂所用的 HTPB。同夜俄军喷气式无人机袭击克里维里赫，致 1 人死亡。",
+          "en": "On Nov 27 Ukrainian drones struck the Yefremov synthetic rubber plant in Russia's Tula region, causing blasts and fire; Ukraine says it makes HTPB for Iskander propellant. Russian jet drones hit Kryvyi Rih overnight, killing one."
+        },
+        "sources": [
+          {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/explosions-reported-at-power-plant-synthetic-rubber-factory-in-russias-tula-oblast-following-drone-attack/",
+            "lang": "en"
+          },
+          {
+            "name": "UNITED24 Media",
+            "url": "https://united24media.com/war-in-ukraine/ukraine-strikes-russian-chemical-plant-producing-components-for-iskander-ballistic-missile-fuel-24767",
+            "lang": "en"
+          },
+          {
+            "name": "Interfax-Ukraine",
+            "url": "https://en.interfax.com.ua/news/general/1243234.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "spain-snap-election-preview",
+        "originalLang": "en",
+        "title": {
+          "zh": "西班牙周日提前大选，民调显示人民党与 Vox 有望过半",
+          "en": "Spain votes Sunday in a snap election; polls favour a PP–Vox majority"
+        },
+        "summary": {
+          "zh": "西班牙 11 月 29 日举行提前大选。民调显示人民党约 31%、工人社会党约 29%、Vox 约 18%，人民党与 Vox 合计预计 189 至 194 席，超过 176 席的过半门槛，桑切斯八年执政可能终结。",
+          "en": "Spain holds a snap election on Nov 29. Polls put the PP near 31%, the PSOE near 29% and Vox near 18%, with PP and Vox projected at 189–194 seats, above the 176 needed, which could end Sánchez's eight years in power."
+        },
+        "sources": [
+          {
+            "name": "EL PAÍS English",
+            "url": "https://english.elpais.com/spain/2026-11-24/what-do-the-latest-polls-show-ahead-of-spains-general-election.html",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/3fec1b0a85a0/world/europe/spains-snap-election-why-it-matters-who-might-win-2026-11-26/",
+            "lang": "en"
+          },
+          {
+            "name": "El Español",
+            "url": "https://www.elespanol.com/espana/politica/20261126/promedios-encuestas-pronostican-pp-ganara-elecciones-mayoria-holgada-derecha/1003744472332_0.html"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "nasdaq-futures-black-friday-ai-rebound",
+        "originalLang": "en",
+        "title": {
+          "zh": "黑五半日交易前，纳指期货大涨近 3%，资金回流 AI 股",
+          "en": "Nasdaq futures jump nearly 3% before Black Friday's half-day session as AI stocks rebound"
+        },
+        "summary": {
+          "zh": "感恩节假期后，投资者回补此前重挫的 AI 和半导体股，纳指 100 期货一度上涨约 2.8% 至 2.9%。美股周五为黑五半日交易。",
+          "en": "Returning from Thanksgiving, investors bought back battered AI and chip stocks, sending Nasdaq 100 futures up about 2.8%–2.9% ahead of Friday's shortened Black Friday session."
+        },
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052",
+            "lang": "en"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+            "lang": "en"
+          },
+          {
+            "name": "Barron's",
+            "url": "https://www.barrons.com/livecoverage/stock-market-news-today-112726",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "france-q3-gdp-revised-down",
+        "originalLang": "en",
+        "title": {
+          "zh": "法国三季度 GDP 下修为萎缩 0.2%",
+          "en": "France's Q3 GDP revised to a 0.2% contraction"
+        },
+        "summary": {
+          "zh": "法国统计局终值显示，三季度 GDP 环比下降 0.2%，差于初值的 -0.1%，主要因建筑投资和信息通信业走弱；同期家庭购买力回升 0.2%。",
+          "en": "Final INSEE data show French GDP fell 0.2% quarter on quarter in Q3, worse than the initial -0.1%, on weaker construction investment and information-and-communications activity; household purchasing power rose 0.2%."
+        },
+        "sources": [
+          {
+            "name": "INSEE",
+            "url": "https://www.insee.fr/en/statistiques/9167414",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/economy-news/french-economy-contracts-more-than-expected-in-third-quarter-5053113",
+            "lang": "en"
+          },
+          {
+            "name": "ING THINK",
+            "url": "https://think.ing.com/articles/french-economy-sinks-deeper-into-gloom/",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "a-shares-surge-state-council-support",
+        "originalLang": "zh",
+        "title": {
+          "zh": "国常会释放稳市信号，A股创两年来最大涨幅",
+          "en": "State Council pledges market support; A-shares post biggest gain in two years"
+        },
+        "summary": {
+          "zh": "李强主持国务院常务会议，部署完善稳市机制、推动分红回购、强化中央汇金类「平准基金」作用。消息午间发布后A股全线大涨，上证指数涨 3.73% 收于 3606.49 点，创业板指涨 11.61%。",
+          "en": "A State Council meeting chaired by Li Qiang pledged stronger market stabilisation, more dividends and buybacks, and a bigger role for Central Huijin. After the midday release the Shanghai Composite rose 3.73% to 3,606.49; ChiNext jumped 11.61%."
+        },
+        "body": {
+          "zh": "11 月 27 日，国务院总理李强主持召开国务院常务会议，就资本市场作出部署：\n\n- 完善稳市机制，落实存量政策、谋划增量政策；\n- 推动上市公司加大分红、回购力度；\n- 强化「国家队」稳市作用，发挥中央汇金类「平准基金」功能并保障其流动性；\n- 引导保险、年金、社保等中长期资金入市，并防范外部风险冲击。\n\n会议内容在午间罕见地发布后，A股全线大涨。上证指数重回 3600 点，收涨 3.73% 至 3606.49 点，为两年来最大单日涨幅；创业板指涨 11.61%，科创综指涨 14.21%，半导体产业链领涨。\n\n来源：[中国政府网](https://www.gov.cn/yaowen/liebiao/202611/content_7087445.htm)、[新华社](https://english.news.cn/20261127/cc3749512b134b3aa6a653dd558e9621/c.html)、[彭博社](https://www.bloomberg.com/news/articles/2026-11-27/china-s-cabinet-stresses-market-support-in-midday-release)、[联合早报](https://www.zaobao.com.sg/news/china/story20261127-10067085)",
+          "en": "On Nov 27 Premier Li Qiang chaired a State Council executive meeting that set out capital-market measures:\n\n- improve market-stabilisation mechanisms, carry out existing policies and plan new ones;\n- push listed companies to raise dividends and buybacks;\n- strengthen the 'national team', with Central Huijin acting as a quasi-stabilisation fund backed by liquidity support;\n- steer insurers, annuities and social-security funds into equities, and guard against external shocks.\n\nAfter the rare midday release, A-shares rallied across the board. The Shanghai Composite reclaimed 3,600, closing 3.73% higher at 3,606.49, its biggest one-day gain in two years. ChiNext rose 11.61% and the STAR Composite 14.21%, led by the semiconductor supply chain.\n\nSources: [gov.cn](https://www.gov.cn/yaowen/liebiao/202611/content_7087445.htm), [Xinhua](https://english.news.cn/20261127/cc3749512b134b3aa6a653dd558e9621/c.html), [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-27/china-s-cabinet-stresses-market-support-in-midday-release), [Lianhe Zaobao](https://www.zaobao.com.sg/news/china/story20261127-10067085)"
+        },
+        "sources": [
+          {
+            "name": "中国政府网",
+            "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087445.htm",
+            "lang": "zh"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261127/cc3749512b134b3aa6a653dd558e9621/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-27/china-s-cabinet-stresses-market-support-in-midday-release",
+            "lang": "en"
+          },
+          {
+            "name": "联合早报",
+            "url": "https://www.zaobao.com.sg/news/china/story20261127-10067085",
+            "lang": "zh"
+          }
+        ]
+      },
+      {
+        "id": "industrial-profits-october-20pct",
+        "originalLang": "zh",
+        "title": {
+          "zh": "10月规上工业企业利润同比增长 20.1%，AI 电子领涨",
+          "en": "China's October industrial profits rise 20.1%, led by AI-related electronics"
+        },
+        "summary": {
+          "zh": "国家统计局数据显示，10 月规模以上工业企业利润同比增长 20.1%，高于 9 月的 14.4%；1—10 月利润总额 67373.6 亿元，增长 16.0%。AI 相关电子和大宗商品涨价拉动明显，汽车等消费、建筑相关行业仍承压。",
+          "en": "NBS data show October profits at large industrial firms up 20.1% year on year, from 14.4% in September; January–October profits rose 16.0% to 6.74 trillion yuan. AI electronics and commodities led while autos and construction lagged."
+        },
+        "sources": [
+          {
+            "name": "国家统计局",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261127_1965949.html",
+            "lang": "zh"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+            "lang": "en"
+          },
+          {
+            "name": "中新网",
+            "url": "https://www.chinanews.com/cj/2026/11-27/10738676.shtml",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }

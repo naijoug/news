@@ -296,5 +296,249 @@
         ]
       }
     ]
+  },
+  "pm": {
+    "tech": [
+      {
+        "id": "ai-labs-cryptography-bombshell",
+        "originalLang": "en",
+        "title": {
+          "en": "Experts warn AI labs may be sitting on cryptography 'bombshells'",
+          "zh": "专家警告：AI实验室可能握有密码学\"重磅\"突破"
+        },
+        "summary": {
+          "en": "Computer scientist Scott Aaronson told the Guardian there are \"well-attested rumours\" that frontier AI models have made progress on decades-old maths problems underpinning encryption used by banks and governments.",
+          "zh": "理论计算机科学家斯科特·阿伦森对《卫报》表示，有\"证据充分的传闻\"称前沿AI模型已在支撑银行和政府加密体系的数十年数学难题上取得突破。"
+        },
+        "body": {
+          "en": "Aaronson wrote earlier this week that he was \"virtually certain, from multiple reliable sources\" that AI labs hold one or more cryptography breakthroughs. If confirmed, banks, governments and spy agencies could be forced to replace the foundations of secure communication on short notice.\n\nUCL professor Steven Murdoch said people who thought AI couldn't do interesting maths are \"definitely wrong\". Mathematician Marcus du Sautoy told BBC Radio 4 that no one knows the wider ramifications yet. No lab has announced a result that breaks deployed encryption; the concern rests on recent abstract maths advances and unconfirmed reports.\n\nSource: [The Guardian](https://www.theguardian.com/technology/2026/nov/28/ai-artificial-intelligence-encryption-global-chaos).",
+          "zh": "阿伦森本周早些时候写道，他\"从多个可靠来源几乎可以确定\"AI实验室手里有一项或多项密码学突破。如果属实，银行、政府和情报机构可能要在短时间内更换安全通信的底层方案。\n\n伦敦大学学院教授史蒂文·默多克说，认为AI做不了有意义数学的人\"肯定错了\"。数学家马库斯·杜·索托伊在BBC广播4台表示，目前没人知道这些发现的更大影响。目前没有任何实验室宣布能破解实际部署的加密，担忧来自近期的抽象数学进展和未经证实的消息。\n\n来源：[《卫报》](https://www.theguardian.com/technology/2026/nov/28/ai-artificial-intelligence-encryption-global-chaos)。"
+        },
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/technology/2026/nov/28/ai-artificial-intelligence-encryption-global-chaos",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "zhipu-denies-glm-5-5-delay",
+        "originalLang": "en",
+        "title": {
+          "en": "Zhipu denies report that GLM-5.5 slipped to 2027",
+          "zh": "智谱否认GLM-5.5推迟至2027年"
+        },
+        "summary": {
+          "en": "Reuters sources said US curbs on overseas Nvidia compute and labs' anti-distillation safeguards could delay Z.ai's 3T-parameter GLM-5.5 to Q1 2027 or later. A Zhipu executive called it fake news and said a December launch is still planned.",
+          "zh": "路透社援引消息人士称，美国限制海外英伟达算力及各实验室的反蒸馏措施，可能让智谱3万亿参数的GLM-5.5推迟到2027年一季度或更晚。智谱高管称这是假消息，仍计划12月发布。"
+        },
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/exclusiveus-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say-5052154",
+            "lang": "en"
+          },
+          {
+            "name": "Startup Fortune",
+            "url": "https://startupfortune.com/zhipus-glm-55-reportedly-faces-a-2027-slip-that-an-executive-disputes/",
+            "lang": "en"
+          },
+          {
+            "name": "创营社",
+            "url": "https://ai.hfbcw.cn/index.php/2026/11/28/zhipu-glm-5-5-denies-delay/",
+            "lang": "zh"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "russia-says-1246-drones-downed",
+        "originalLang": "en",
+        "title": {
+          "en": "Russia says it downed 1,246 Ukrainian drones in one night",
+          "zh": "俄称一夜击落1246架乌克兰无人机"
+        },
+        "summary": {
+          "en": "Russia's defence ministry said air defences intercepted 1,246 Ukrainian drones overnight over 14 regions, Crimea and Bashkortostan. About 460 headed for the Moscow region; 123 were downed near the capital, and Vnukovo and Domodedovo airports were restricted.",
+          "zh": "俄国防部称，防空部队一夜在14个地区及克里米亚、巴什科尔托斯坦上空拦截1246架乌克兰无人机。约460架飞向莫斯科州，其中123架在首都附近被击落，伏努科沃和多莫杰多沃机场一度限流。"
+        },
+        "body": {
+          "en": "Moscow officials gave no details of damage or casualties in the capital. Ukraine has been striking Russian refineries for weeks; reports say processing has fallen about 45% below normal since late October, and several regions are rationing retail fuel while Russia imports fuel and has extended its jet-fuel export ban to March 31, 2027.\n\nSources: [The Moscow Times](https://www.themoscowtimes.com/2026/11/28/russian-army-intercepts-over-1-2k-ukrainian-drones-in-latest-nighttime-air-a812401), [Kyiv Independent](https://kyivindependent.com/ukraine-reportedly-launches-massive-attack-on-moscow-oblast-with-460-drones/), [Al Arabiya](https://english.alarabiya.net/News/world/2026/11/20/more-russian-regions-limit-fuel-sales-as-ukrainian-drone-strikes-hit-refinery-output).",
+          "zh": "莫斯科官方未公布首都的损失和伤亡情况。乌克兰数周来持续袭击俄罗斯炼油厂，报道称自10月底以来俄炼油量比正常水平低约45%，多个地区限制零售燃油销售；俄方正在进口燃油，并把航空燃油出口禁令延长至2027年3月31日。\n\n来源：[《莫斯科时报》](https://www.themoscowtimes.com/2026/11/28/russian-army-intercepts-over-1-2k-ukrainian-drones-in-latest-nighttime-air-a812401)、[基辅独立报](https://kyivindependent.com/ukraine-reportedly-launches-massive-attack-on-moscow-oblast-with-460-drones/)、[阿拉伯卫视](https://english.alarabiya.net/News/world/2026/11/20/more-russian-regions-limit-fuel-sales-as-ukrainian-drone-strikes-hit-refinery-output)。"
+        },
+        "sources": [
+          {
+            "name": "The Moscow Times",
+            "url": "https://www.themoscowtimes.com/2026/11/28/russian-army-intercepts-over-1-2k-ukrainian-drones-in-latest-nighttime-air-a812401",
+            "lang": "en"
+          },
+          {
+            "name": "The Straits Times",
+            "url": "https://www.straitstimes.com/world/europe/russia-says-it-downed-1246-ukrainian-drones-overnight",
+            "lang": "en"
+          },
+          {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/ukraine-reportedly-launches-massive-attack-on-moscow-oblast-with-460-drones/",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "taiz-attack-kills-11-civilians",
+        "originalLang": "en",
+        "title": {
+          "en": "Attack in Yemen's Taiz kills 11 civilians, many of them children",
+          "zh": "也门塔伊兹遭袭，11名平民死亡，多为儿童"
+        },
+        "summary": {
+          "en": "An attack on a building in al-Turbah, south of Taiz, killed 11 civilians on Nov. 27. The Houthis blamed a Saudi airstrike; Taiz local authorities denied any air operation and blamed Houthi shelling. Neither account has been independently verified.",
+          "zh": "11月27日，塔伊兹以南图尔巴一栋建筑遇袭，11名平民死亡。胡塞武装称是沙特空袭所致；塔伊兹地方当局否认有空中行动，称是胡塞武装炮击。双方说法均未获独立核实。"
+        },
+        "sources": [
+          {
+            "name": "ABC News (AP)",
+            "url": "https://abcnews.com/International/wireStory/houthis-report-11-killed-including-children-airstrike-mideast-138478032",
+            "lang": "en"
+          },
+          {
+            "name": "Yemen Monitor",
+            "url": "https://www.yemenmonitor.com/en/Details/ArtMID/908/ArticleID/189171",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "business": [
+      {
+        "id": "us-goods-deficit-record-imports",
+        "originalLang": "en",
+        "title": {
+          "en": "AI imports push US goods trade deficit to $149.5 billion",
+          "zh": "AI相关进口推高美国10月商品贸易逆差至1495亿美元"
+        },
+        "summary": {
+          "en": "The US goods trade deficit widened 10.7% to $149.5 billion in October. Imports hit a record $365.3 billion, led by an 8.5% rise in capital goods such as AI data-centre servers; exports rose 3.2% to $215.8 billion.",
+          "zh": "美国10月商品贸易逆差扩大10.7%，至1495亿美元。进口创纪录达3653亿美元，其中AI数据中心服务器等资本品进口增长8.5%；出口增长3.2%，至2158亿美元。"
+        },
+        "sources": [
+          {
+            "name": "US Census Bureau",
+            "url": "https://www.census.gov/econ/indicators/2026/advance_report2610.pdf",
+            "lang": "en"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/economic-indicators/us-goods-trade-deficit-widens-sharply-in-october-5053539",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "altria-weighs-imperial-brands-bid",
+        "originalLang": "en",
+        "title": {
+          "en": "Marlboro maker Altria weighs cash bid for Imperial Brands",
+          "zh": "万宝路母公司奥驰亚考虑现金收购帝国品牌"
+        },
+        "summary": {
+          "en": "Altria confirmed it is considering a possible all-cash offer for UK tobacco group Imperial Brands, but has set no price or terms. Under UK takeover rules it must make a firm offer or walk away by 5 p.m. London time on Dec. 24.",
+          "zh": "奥驰亚确认正在考虑以全现金方式收购英国烟草集团帝国品牌，但尚未给出价格或条款。根据英国收购规则，它须在12月24日伦敦时间下午5点前提出正式要约或宣布放弃。"
+        },
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/5f374b32b07b/world/uk/uks-imperial-brands-says-altria-weighs-possible-offer-2026-11-26/",
+            "lang": "en"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/business/2026/nov/26/marlboro-maker-altria-considering-takeover-bid-for-imperial-brands",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "nse-third-largest-listed-exchange",
+        "originalLang": "en",
+        "title": {
+          "en": "India's NSE becomes world's third most valuable listed exchange",
+          "zh": "印度国家证券交易所成为全球市值第三大上市交易所"
+        },
+        "summary": {
+          "en": "After a roughly 38% rally in a month, NSE's market value reached about $64.1 billion, overtaking Deutsche Börse ($63.4 billion) and London Stock Exchange Group ($62.4 billion). Only CME Group and ICE are larger.",
+          "zh": "股价一个月上涨约38%后，印度国家证券交易所市值达到约641亿美元，超过德意志交易所（634亿美元）和伦敦证券交易所集团（624亿美元），仅次于芝商所和洲际交易所。"
+        },
+        "sources": [
+          {
+            "name": "BusinessLine",
+            "url": "https://www.thehindubusinessline.com/markets/nse-overtakes-deutsche-boerse-lse-to-become-worlds-third-largest-listed-exchange-at-641-billion/article71746352.ece",
+            "lang": "en"
+          },
+          {
+            "name": "Moneycontrol",
+            "url": "https://www.moneycontrol.com/news/business/markets/nse-overtakes-deutsche-boerse-london-stock-exchange-to-become-third-largest-stock-exchange-by-market-cap-14089420.html",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "china": [
+      {
+        "id": "j-35a-lands-zhuhai-static-display",
+        "originalLang": "zh",
+        "title": {
+          "zh": "歼-35A落地珠海，将首次实机静态展示",
+          "en": "J-35A stealth fighter lands in Zhuhai for first static display"
+        },
+        "summary": {
+          "zh": "11月28日，歼-35A隐身战斗机飞抵广东珠海，将在12月7日至13日举行的第十六届中国国际航空航天博览会1号馆首次进行实机静态展示，观众可近距离参观。",
+          "en": "A J-35A stealth fighter arrived in Zhuhai, Guangdong, on Nov. 28. It will make its first real-aircraft static display in Hall 1 at the 16th Airshow China, held Dec. 7–13, giving visitors a close-up look."
+        },
+        "sources": [
+          {
+            "name": "央广网",
+            "url": "https://military.cnr.cn/zdgz/20261128/t20261128_527886242.shtml",
+            "lang": "zh"
+          },
+          {
+            "name": "Xinhua",
+            "url": "https://english.news.cn/20261128/4320c94db3bd41dfaa048c5dd198396f/c.html",
+            "lang": "en"
+          },
+          {
+            "name": "CGTN",
+            "url": "https://news.cgtn.com/news/2026-11-28/China-s-J-35A-stealth-fighter-arrives-in-Zhuhai-for-static-display-1SropSJrq4E/p.html",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "id": "pboc-large-cd-threshold-cut",
+        "originalLang": "zh",
+        "title": {
+          "zh": "央行公布《大额存单管理办法》，个人认购起点降至10万元",
+          "en": "PBOC cuts individual minimum for large-denomination CDs to 100,000 yuan"
+        },
+        "summary": {
+          "zh": "中国人民银行公布《大额存单管理办法》，2027年3月21日起施行。个人投资人认购大额存单的起点金额降为不低于10万元，机构投资人不低于500万元。",
+          "en": "The People's Bank of China issued new rules on large-denomination certificates of deposit, effective March 21, 2027. The minimum for individual investors falls to 100,000 yuan; for institutions it is 5 million yuan."
+        },
+        "sources": [
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/20261127/d4eb953df71243a5baa452cdba8e2c5f/c.html",
+            "lang": "zh"
+          },
+          {
+            "name": "新华网",
+            "url": "https://www.news.cn/fortune/20261127/30d3692caed241879699201440e2eaf6/c.html",
+            "lang": "zh"
+          }
+        ]
+      }
+    ]
   }
 }
